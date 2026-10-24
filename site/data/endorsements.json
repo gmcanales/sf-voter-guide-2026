@@ -346,19 +346,18 @@
    "kind": "Political club",
    "url": "https://www.theleaguesf.org/november_2026_endorsements",
    "accessed": "2026-10-24",
-   "as_of": "2026-08-25",
-   "about": "Slate voted by its membership on Aug 25, 2026. Its full voter guide came later and may add detail. Transcribed from occupysf.net's republication, because theleaguesf.org blocks automated access.",
+   "as_of": "2026-09-30",
+   "about": "From its full Pissed Off Voter Guide (Sept 30, 2026), transcribed from occupysf.net's republication because theleaguesf.org blocks automated access.",
    "sources": [
     {
      "label": "League endorsements page",
      "url": "https://www.theleaguesf.org/november_2026_endorsements"
     },
     {
-     "label": "Republished list (occupysf.net, Aug 25, 2026)",
-     "url": "https://occupysf.net/index.php/2026/08/25/s-f-league-of-pissed-off-voters-november-2026-endorsements/"
+     "label": "Full guide, republished (occupysf.net, Oct 23, 2026)",
+     "url": "https://occupysf.net/index.php/2026/10/23/s-f-pissed-off-voter-guide-for-november-2026-2/"
     }
    ],
-   "self_description_missing": "Its site blocks automated access, so we haven't been able to quote its self-description yet.",
    "money": [
     {
      "label": "Political committee receipts",
@@ -373,6 +372,46 @@
    ],
    "members": {
     "text": "Not published."
+   },
+   "self_description": {
+    "text": "Real people (pissed off ones) do the researching, endorsing, writing, editing, designing, and distributing of the Pissed Off Voter Guide. No oligarch or AI had a hand in any step of creating this voter guide.",
+    "source": "https://occupysf.net/index.php/2026/10/23/s-f-pissed-off-voter-guide-for-november-2026-2/"
+   }
+  },
+  {
+   "id": "sierra",
+   "name": "Sierra Club SF Bay Chapter",
+   "short": "Sierra Club",
+   "kind": "Environmental",
+   "url": "https://www.sierraclub.org/sfbay/2026-endorsements",
+   "accessed": "2026-10-24",
+   "about": "Only the chapter's own picks are shown; its page points to Sierra Club California for the other state props. The page notes it will be updated as endorsements are finalized.",
+   "sources": [
+    {
+     "label": "Chapter 2026 endorsements",
+     "url": "https://www.sierraclub.org/sfbay/2026-endorsements"
+    },
+    {
+     "label": "Chapter explanations",
+     "url": "https://www.sierraclub.org/sfbay/november-2026-combined-endorsements-explanations"
+    }
+   ],
+   "self_description": {
+    "text": "Explore, enjoy and protect the planet.",
+    "source": "https://www.sierraclub.org/sfbay/2026-endorsements"
+   },
+   "money": [
+    {
+     "label": "Finances",
+     "text": "Not filed separately from the national Sierra Club, and no active SF campaign committee this cycle.",
+     "source": {
+      "label": "SF Ethics Commission campaign finance data (DataSF)",
+      "url": "https://data.sf.gov/d/pitq-e56w"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published on its endorsement page."
    }
   }
  ],
@@ -408,6 +447,9 @@
    ],
    "league": [
     "Shirley N. Weber"
+   ],
+   "sierra": [
+    "Shirley N. Weber"
    ]
   },
   "controller": {
@@ -419,7 +461,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Malia M. Cohen"
+   ]
   },
   "treasurer": {
    "sfdems": [
@@ -430,7 +475,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Eleni Kounalakis"
+   ]
   },
   "attorney-general": {
    "sfdems": [
@@ -439,7 +487,10 @@
    "growsf": [
     "Rob Bonta"
    ],
-   "league": [
+   "league": {
+    "none": "No Endorsement"
+   },
+   "sierra": [
     "Rob Bonta"
    ]
   },
@@ -452,6 +503,9 @@
    ],
    "league": [
     "Jane Kim"
+   ],
+   "sierra": [
+    "Ben Allen"
    ]
   },
   "boe-2": {
@@ -480,6 +534,9 @@
    ],
    "league": [
     "Connie Chan"
+   ],
+   "sierra": [
+    "Scott Wiener"
    ]
   },
   "us-rep-15": {
@@ -508,7 +565,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Matt Haney"
+   ]
   },
   "assembly-19": {
    "sfdems": [
@@ -522,7 +582,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Catherine Stefani"
+   ]
   },
   "scotus-groban": {
    "growsf": "yes",
@@ -558,17 +621,11 @@
   },
   "coa-1-3-rodriguez": {
    "growsf": "yes",
-   "league": {
-    "vote": "yes",
-    "note": "Covered by “Retain all”, though not named in their list."
-   }
+   "league": "yes"
   },
   "coa-1-4-brown": {
    "growsf": "yes",
-   "league": {
-    "vote": "yes",
-    "note": "Covered by “Retain all”, though not named in their list."
-   }
+   "league": "yes"
   },
   "coa-1-5-chou": {
    "growsf": "yes",
@@ -593,6 +650,9 @@
     "Richard Barrera"
    ],
    "league": [
+    "Richard Barrera"
+   ],
+   "sierra": [
     "Richard Barrera"
    ]
   },
@@ -672,6 +732,12 @@
    ],
    "growsf": [
     "Sara Barz"
+   ],
+   "league": {
+    "none": "No Endorsement"
+   },
+   "sierra": [
+    "Sara Barz"
    ]
   },
   "assessor": {
@@ -717,7 +783,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Stephen Sherrill"
+   ]
   },
   "sup-4": {
    "sfdems": [
@@ -745,7 +814,10 @@
    },
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "sierra": [
+    "Matt Dorsey"
+   ]
   },
   "sup-8": {
    "sfdems": [
@@ -774,7 +846,10 @@
      "Michael T. Nguyen"
     ],
     "note": "Ranked: #1 Gary McCoy, #2 Michael Nguyen."
-   }
+   },
+   "sierra": [
+    "Gary McCoy"
+   ]
   },
   "sup-10": {
    "sfdems": [
@@ -797,6 +872,13 @@
      "J.R. Eppler"
     ],
     "note": "Non-ranked dual endorsement."
+   },
+   "sierra": {
+    "picks": [
+     "J.R. Eppler",
+     "Theo Ellington"
+    ],
+    "note": "Ranked: #1 J.R. Eppler, #2 Theo Ellington."
    }
   },
   "prop-1": {
@@ -806,7 +888,8 @@
    "dsasf": "yes",
    "calchamber": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": "yes",
+   "sierra": "yes"
   },
   "prop-2": {
    "sfdems": "yes",
@@ -829,7 +912,10 @@
    "uesf": "yes",
    "cna": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
+   }
   },
   "prop-4": {
    "sfdems": "yes",
@@ -839,7 +925,11 @@
    "cna": "yes",
    "calchamber": "no",
    "lwv": "yes",
-   "league": "yes"
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
+   },
+   "sierra": "yes"
   },
   "prop-5": {
    "sfdems": "yes",
@@ -847,7 +937,11 @@
    "spur": "yes",
    "dsasf": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
+   },
+   "sierra": "yes"
   },
   "prop-37": {
    "sfdems": "yes",
@@ -877,7 +971,8 @@
    "league": {
     "vote": "no",
     "note": "“Hell No!”"
-   }
+   },
+   "sierra": "no"
   },
   "prop-40": {
    "sfdems": "no",
@@ -906,7 +1001,10 @@
    "cna": "no",
    "calchamber": "yes",
    "lwv": "no",
-   "league": "no"
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-42": {
    "sfdems": "no",
@@ -917,7 +1015,10 @@
    "cna": "no",
    "calchamber": "yes",
    "lwv": "no",
-   "league": "no"
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-43": {
    "sfdems": "no",
@@ -928,7 +1029,11 @@
    "cna": "no",
    "calchamber": "yes",
    "lwv": "no",
-   "league": "no"
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   },
+   "sierra": "no"
   },
   "prop-44": {
    "sfdems": "no",
@@ -950,7 +1055,8 @@
    "sfchamber": "yes",
    "calchamber": "yes",
    "lwv": "no",
-   "league": "no"
+   "league": "no",
+   "sierra": "no"
   },
   "rtm": {
    "sfdems": "yes",
@@ -960,7 +1066,11 @@
    "sflc": "yes",
    "sfchamber": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": {
+    "vote": "yes",
+    "note": "“Yes, and…”"
+   },
+   "sierra": "yes"
   },
   "prop-a": {
    "sfdems": "yes",
@@ -969,10 +1079,7 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "lwv": "no",
-   "league": {
-    "vote": "no",
-    "note": "“Hell No!”"
-   }
+   "league": "no"
   },
   "prop-b": {
    "sfdems": "yes",
@@ -995,7 +1102,8 @@
    "dsasf": "yes",
    "sfchamber": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": "yes",
+   "sierra": "yes"
   },
   "prop-d": {
    "sfdems": "yes",
@@ -1008,7 +1116,7 @@
    "lwv": "no",
    "league": {
     "vote": "no",
-    "note": "“Hell No!”"
+    "note": "“Hellllllll No!”"
    }
   },
   "prop-e": {
@@ -1052,8 +1160,9 @@
     "none": "Neutral"
    },
    "league": {
-    "none": "No Endorsement"
-   }
+    "none": "No position"
+   },
+   "sierra": "no"
   },
   "prop-h": {
    "sfdems": "yes",
@@ -1063,7 +1172,11 @@
    "sflc": "yes",
    "sfchamber": "yes",
    "lwv": "yes",
-   "league": "yes"
+   "league": {
+    "vote": "yes",
+    "note": "“Yes, and…”"
+   },
+   "sierra": "yes"
   },
   "prop-i": {
    "sfdems": "no",
@@ -1078,8 +1191,9 @@
    "lwv": "yes",
    "league": {
     "vote": "yes",
-    "note": "“Hell Yes!”"
-   }
+    "note": "“Oh Hell Yes!”"
+   },
+   "sierra": "yes"
   },
   "prop-j": {
    "sfdems": "yes",
