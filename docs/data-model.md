@@ -82,8 +82,9 @@ records only (IRS 990s via ProPublica, SF Ethics, FEC, SoS registration) or
 the group's own published claim, quoted. Never estimate.
 
 Absent = the guide didn't address the contest. Picks render as small chips
-on the matching ballot row, while no-positions and notes render as a muted
-footnote. The page logs a console warning for any name that isn't on the
+on the matching ballot row, and a pick's `note` renders as a muted footnote.
+Explicit no-positions (`{"none": …}`) are recorded for completeness but not
+displayed. The page logs a console warning for any name that isn't on the
 ballot.
 
 ## `picks.json` — ours

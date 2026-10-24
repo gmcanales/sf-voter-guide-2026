@@ -268,7 +268,8 @@ function renderYesNo(contest, yesLabel = 'YES', noLabel = 'NO') {
 
 // ── guide footnote under each contest (muted) ─────────────────────────────
 // The picks themselves show as chips on the ballot rows; this line only adds
-// what a chip can't carry: explicit no-positions and qualifying notes.
+// what a chip can't carry: qualifying notes on a pick. Explicit no-positions
+// stay in the data but aren't shown.
 function renderGuideLine(contest) {
   if (!state.showGuides) return null;
   const pos = BALLOT_POSITIONS[contest.id];
@@ -277,10 +278,9 @@ function renderGuideLine(contest) {
   for (const g of GUIDES.guides) {
     if (!pos[g.id]) continue;
     const p = normPosition(pos[g.id]);
-    if (p.kind !== 'none' && !p.note) continue;
+    if (p.kind === 'none' || !p.note) continue;
     parts.push(el('li', {},
-      el('a', { href: g.url, target: '_blank', rel: 'noopener' }, g.short), ': ',
-      p.kind === 'none' ? p.value : p.note));
+      el('a', { href: g.url, target: '_blank', rel: 'noopener' }, g.short), ': ', p.note));
   }
   if (!parts.length) return null;
   return el('ul', { class: 'vg-guides' }, parts);
