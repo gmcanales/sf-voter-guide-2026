@@ -1,0 +1,13 @@
+{
+  "_about": "SF Ethics committees (filer_nid) primarily formed for each Nov 2026 local measure, with side. Used by tools/money_flows.py. Multi-measure committees appear under each measure they name; the page warns that the same dollars can't be summed across measures.",
+  "prop-a": [{"nid": 217079174, "side": "yes"}],
+  "prop-b": [{"nid": 217045555, "side": "yes"}, {"nid": 211837252, "side": "yes"}, {"nid": 217206996, "side": "no"}],
+  "prop-c": [{"nid": 216956820, "side": "yes"}, {"nid": 217233128, "side": "yes"}],
+  "prop-d": [{"nid": 216006060, "side": "yes"}, {"nid": 217019367, "side": "no"}],
+  "prop-e": [{"nid": 216006060, "side": "yes"}],
+  "prop-f": [{"nid": 216006060, "side": "yes"}],
+  "prop-g": [{"nid": 215573474, "side": "yes"}, {"nid": 211776936, "side": "no"}],
+  "prop-h": [{"nid": 214099226, "side": "yes"}],
+  "prop-i": [{"nid": 216747316, "side": "yes"}, {"nid": 217253424, "side": "yes"}, {"nid": 217233128, "side": "no"}],
+  "prop-j": [{"nid": 217091337, "side": "yes"}, {"nid": 211967005, "side": "yes"}]
+}

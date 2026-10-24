@@ -1,0 +1,1104 @@
+{
+ "built": "2026-10-24",
+ "since": "2025-01-01",
+ "source": {
+  "label": "SF Ethics Commission campaign finance data (DataSF)",
+  "url": "https://data.sf.gov/d/pitq-e56w"
+ },
+ "measures": {
+  "prop-a": [
+   {
+    "name": "Clean Up The Charter - Yes on A",
+    "nid": 217079174,
+    "side": "yes",
+    "total": 427505,
+    "donors": 15,
+    "top": [
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 150000
+     },
+     {
+      "name": "Christian Larsen (Ripple, Inc.)",
+      "amount": 100000
+     },
+     {
+      "name": "Robert Fisher (Pisces, Inc.)",
+      "amount": 50000
+     },
+     {
+      "name": "William Oberndorf (William Oberndorf)",
+      "amount": 50000
+     },
+     {
+      "name": "TMG Partners R.E., LLC(Michael Covarrubias)",
+      "amount": 15000
+     },
+     {
+      "name": "San Francisco Forward Sponsored by San Francisco Chamber of Commerce",
+      "amount": 10000
+     },
+     {
+      "name": "Lawrence Cushman (Lawrence Cushman)",
+      "amount": 10000
+     },
+     {
+      "name": "Kilroy Realty, L.P.",
+      "amount": 10000
+     }
+    ],
+    "top_share": 0.924
+   }
+  ],
+  "prop-b": [
+   {
+    "name": "Yes on B, Our City Our Bank",
+    "nid": 217045555,
+    "side": "yes",
+    "total": 301616,
+    "donors": 29,
+    "top": [
+     {
+      "name": "Saikat Chakrabarti (New Consensus)",
+      "amount": 150000
+     },
+     {
+      "name": "The San Francisco Foundation",
+      "amount": 125000
+     },
+     {
+      "name": "Dylan J Hirsch-Shell (Backflip Ai)",
+      "amount": 5000
+     },
+     {
+      "name": "Nick Novitski (Exa Inc)",
+      "amount": 3500
+     },
+     {
+      "name": "Jason Prado (Zipline)",
+      "amount": 3000
+     },
+     {
+      "name": "Christin Nicole Evans (Booksmith And Alembic)",
+      "amount": 2500
+     },
+     {
+      "name": "Jeff May (Not Employed)",
+      "amount": 2500
+     },
+     {
+      "name": "Amy Zheng (Not Employed)",
+      "amount": 1750
+     }
+    ],
+    "top_share": 0.972
+   },
+   {
+    "name": "Healthy, Vibrant SF, Yes on B",
+    "nid": 211837252,
+    "side": "yes",
+    "total": 0,
+    "donors": 0,
+    "top": [],
+    "top_share": 0
+   },
+   {
+    "name": "No on Prop B - San Franciscans for Fiscal Responsibility",
+    "nid": 217206996,
+    "side": "no",
+    "total": 0,
+    "donors": 0,
+    "top": [],
+    "top_share": 0
+   }
+  ],
+  "prop-c": [
+   {
+    "name": "Yes on C - San Franciscans for Affordable Homes, sponsored by the NPH Action Fund",
+    "nid": 216956820,
+    "side": "yes",
+    "total": 1150000,
+    "donors": 12,
+    "top": [
+     {
+      "name": "NPH ACTION FUND POLITICAL ISSUES COMMITTEE",
+      "amount": 700000
+     },
+     {
+      "name": "OPENAI OPCO, LLC(ANN O'LEARY)",
+      "amount": 250000
+     },
+     {
+      "name": "THE SAN FRANCISCO FOUNDATION",
+      "amount": 50000
+     },
+     {
+      "name": "YES ON D - STAND UP FOR SF SPONSORED BY LABOR ORGANIZATIONS",
+      "amount": 35000
+     },
+     {
+      "name": "Matthew Paige (Twin Tree Ventures Llc)",
+      "amount": 25000
+     },
+     {
+      "name": "TENANTS AND OWNERS DEVELOPMENT CORPORATION AND ITS AFFILIATED ENTITY YERBA BUENA NEIGHBORHOOD CONSORTIUM LLC",
+      "amount": 25000
+     },
+     {
+      "name": "SEQUOIA LIVING",
+      "amount": 25000
+     },
+     {
+      "name": "SAN FRANCISCO COMMUNITY LAND TRUST",
+      "amount": 25000
+     }
+    ],
+    "top_share": 0.987
+   },
+   {
+    "name": "Yes on C, No on I, SF for Accountability in Housing sponsored by the San Francisco Building and Construction Trades Council and the San Francisco Chamber of Commerce",
+    "nid": 217233128,
+    "side": "yes",
+    "total": 2392999,
+    "donors": 63,
+    "top": [
+     {
+      "name": "THE RELATED COMPANIES/WILLIAM WITTE",
+      "amount": 200000
+     },
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 200000
+     },
+     {
+      "name": "SAN FRANCISCO APARTMENT ASSOCIATION ISSUES PAC",
+      "amount": 191000
+     },
+     {
+      "name": "KILROY REALTY, LP & AFFILIATED ENTITIES",
+      "amount": 100000
+     },
+     {
+      "name": "555-575 MARKET OWNER, LLC(RESPONSIBLE OFFICER: GREG FLYNN)",
+      "amount": 100000
+     },
+     {
+      "name": "CORE URBAN HOLDINGS LLC AND AFFILIATED ENTITIES((RESPONSIBLE OFFICER: KEVIN VERDI) )",
+      "amount": 76000
+     },
+     {
+      "name": "THE PRADO GROUP, INC.",
+      "amount": 75000
+     },
+     {
+      "name": "CARMEL PARTNERS AND AFFILIATED ENTITIES",
+      "amount": 61500
+     }
+    ],
+    "top_share": 0.419
+   }
+  ],
+  "prop-d": [
+   {
+    "name": "Mayor Lurie's Yes on D, E & F Committee",
+    "nid": 216006060,
+    "side": "yes",
+    "total": 13066000,
+    "donors": 50,
+    "top": [
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 2987500
+     },
+     {
+      "name": "Christian Larsen (Ripple Inc)",
+      "amount": 1487500
+     },
+     {
+      "name": "Lyna Lam (A Khmer Buddhist Foundation)",
+      "amount": 1000000
+     },
+     {
+      "name": "John Pritzker (Aperture Group, Llc)",
+      "amount": 1000000
+     },
+     {
+      "name": "Patrick Collison (Stripe Global Holdings Inc.)",
+      "amount": 500000
+     },
+     {
+      "name": "L. John Doerr Iii (Kleiner Perkins)",
+      "amount": 500000
+     },
+     {
+      "name": "Emerson Collective LLC(Diedra Nelson)",
+      "amount": 500000
+     },
+     {
+      "name": "John Wolthuis (None)",
+      "amount": 500000
+     }
+    ],
+    "top_share": 0.649
+   },
+   {
+    "name": "Fair Access No on D",
+    "nid": 217019367,
+    "side": "no",
+    "total": 206285,
+    "donors": 11,
+    "top": [
+     {
+      "name": "Tenants and Owners Development Corporation",
+      "amount": 80000
+     },
+     {
+      "name": "Service Employees International Union Local 1021 PAC",
+      "amount": 75075
+     },
+     {
+      "name": "International Federation Professional Technical Engineers",
+      "amount": 25000
+     },
+     {
+      "name": "San Francisco Labor Council",
+      "amount": 20100
+     },
+     {
+      "name": "Alexander Maldonado (Gridware Technologie, Inc.)",
+      "amount": 2000
+     },
+     {
+      "name": "Rishav Rout (Letter Ai)",
+      "amount": 1000
+     },
+     {
+      "name": "Dale Carlson (Carlson Advisors)",
+      "amount": 1000
+     },
+     {
+      "name": "Douglas Engmann (Not Employed)",
+      "amount": 1000
+     }
+    ],
+    "top_share": 0.995
+   }
+  ],
+  "prop-e": [
+   {
+    "name": "Mayor Lurie's Yes on D, E & F Committee",
+    "nid": 216006060,
+    "side": "yes",
+    "total": 13066000,
+    "donors": 50,
+    "top": [
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 2987500
+     },
+     {
+      "name": "Christian Larsen (Ripple Inc)",
+      "amount": 1487500
+     },
+     {
+      "name": "Lyna Lam (A Khmer Buddhist Foundation)",
+      "amount": 1000000
+     },
+     {
+      "name": "John Pritzker (Aperture Group, Llc)",
+      "amount": 1000000
+     },
+     {
+      "name": "Patrick Collison (Stripe Global Holdings Inc.)",
+      "amount": 500000
+     },
+     {
+      "name": "L. John Doerr Iii (Kleiner Perkins)",
+      "amount": 500000
+     },
+     {
+      "name": "Emerson Collective LLC(Diedra Nelson)",
+      "amount": 500000
+     },
+     {
+      "name": "John Wolthuis (None)",
+      "amount": 500000
+     }
+    ],
+    "top_share": 0.649
+   }
+  ],
+  "prop-f": [
+   {
+    "name": "Mayor Lurie's Yes on D, E & F Committee",
+    "nid": 216006060,
+    "side": "yes",
+    "total": 13066000,
+    "donors": 50,
+    "top": [
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 2987500
+     },
+     {
+      "name": "Christian Larsen (Ripple Inc)",
+      "amount": 1487500
+     },
+     {
+      "name": "Lyna Lam (A Khmer Buddhist Foundation)",
+      "amount": 1000000
+     },
+     {
+      "name": "John Pritzker (Aperture Group, Llc)",
+      "amount": 1000000
+     },
+     {
+      "name": "Patrick Collison (Stripe Global Holdings Inc.)",
+      "amount": 500000
+     },
+     {
+      "name": "L. John Doerr Iii (Kleiner Perkins)",
+      "amount": 500000
+     },
+     {
+      "name": "Emerson Collective LLC(Diedra Nelson)",
+      "amount": 500000
+     },
+     {
+      "name": "John Wolthuis (None)",
+      "amount": 500000
+     }
+    ],
+    "top_share": 0.649
+   }
+  ],
+  "prop-g": [
+   {
+    "name": "Yes on G, Great Highway for Everyone",
+    "nid": 215573474,
+    "side": "yes",
+    "total": 149292,
+    "donors": 288,
+    "top": [
+     {
+      "name": "Chinese American Democratic Club",
+      "amount": 25000
+     },
+     {
+      "name": "Wei Selena Chu (Kaiser Permanente)",
+      "amount": 9900
+     },
+     {
+      "name": "Sandra Dratler",
+      "amount": 5000
+     },
+     {
+      "name": "Lisa Arjes (Umoja Biopharma)",
+      "amount": 5000
+     },
+     {
+      "name": "William Okeeffe Jr. (Safti First)",
+      "amount": 4990
+     },
+     {
+      "name": "Better Housing Policies",
+      "amount": 3800
+     },
+     {
+      "name": "Tomasita Medal",
+      "amount": 3500
+     },
+     {
+      "name": "Peter Wendell (Westbridge)",
+      "amount": 3500
+     }
+    ],
+    "top_share": 0.407
+   },
+   {
+    "name": "No on G, Save Sunset Dunes sponsored by Friends of Sunset Dunes",
+    "nid": 211776936,
+    "side": "no",
+    "total": 816901,
+    "donors": 135,
+    "top": [
+     {
+      "name": "Jeremy Stoppelman (Yelp)",
+      "amount": 400000
+     },
+     {
+      "name": "Laura Yakovenko (None)",
+      "amount": 200000
+     },
+     {
+      "name": "Nicholas Josefowitz (Permit Power)",
+      "amount": 50000
+     },
+     {
+      "name": "FRIENDS OF SUNSET DUNES",
+      "amount": 40000
+     },
+     {
+      "name": "Donald J Edwards (Edwards Capital Llc)",
+      "amount": 35000
+     },
+     {
+      "name": "FUND FOR A BETTER FUTURE INC.",
+      "amount": 25000
+     },
+     {
+      "name": "Andrew Casteel (Laughing Monk Brewery)",
+      "amount": 16000
+     },
+     {
+      "name": "Stephen Dodson (Bretton Capital Management, Llc)",
+      "amount": 10000
+     }
+    ],
+    "top_share": 0.95
+   }
+  ],
+  "prop-h": [
+   {
+    "name": "Mayor Lurie's Yes on H Committee",
+    "nid": 214099226,
+    "side": "yes",
+    "total": 5116350,
+    "donors": 43,
+    "top": [
+     {
+      "name": "Visa, Inc.",
+      "amount": 500000
+     },
+     {
+      "name": "OpenAI",
+      "amount": 500000
+     },
+     {
+      "name": "Ripple Labs Inc.",
+      "amount": 500000
+     },
+     {
+      "name": "Anthropic",
+      "amount": 500000
+     },
+     {
+      "name": "Committee to Expand the Middle Class Issues Committee, Sponsored by Airbnb, Inc.",
+      "amount": 500000
+     },
+     {
+      "name": "San Francisco Forward sponsored by San Francisco Chamber of Commerce",
+      "amount": 499000
+     },
+     {
+      "name": "Jeffrey Lawson (Inertia Enterprises)",
+      "amount": 350000
+     },
+     {
+      "name": "Emerson Collective LLC(Diedra Nelson)",
+      "amount": 200000
+     }
+    ],
+    "top_share": 0.694
+   }
+  ],
+  "prop-i": [
+   {
+    "name": "Fair Housing, Yes on I",
+    "nid": 216747316,
+    "side": "yes",
+    "total": 670793,
+    "donors": 176,
+    "top": [
+     {
+      "name": "Saikat Chakrabarti (New Consensus)",
+      "amount": 150000
+     },
+     {
+      "name": "Dean Preston (Puml Llc)",
+      "amount": 117500
+     },
+     {
+      "name": "Dylan Hirsch-Shell (Deep Screw Llc Dba The Ballroom)",
+      "amount": 105000
+     },
+     {
+      "name": "Aaron Boucher (Not Employed)",
+      "amount": 25000
+     },
+     {
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "amount": 25000
+     },
+     {
+      "name": "Charles Good (Not Employed)",
+      "amount": 25000
+     },
+     {
+      "name": "Aditya Bhumbla (Forerunner)",
+      "amount": 15385
+     },
+     {
+      "name": "Jefferson Lee (Surge Ai)",
+      "amount": 15000
+     }
+    ],
+    "top_share": 0.712
+   },
+   {
+    "name": "San Francisco DSA (nonprofit 501(c)(4)), Primarily Formed to Support Fair Housing",
+    "nid": 217253424,
+    "side": "yes",
+    "total": 0,
+    "donors": 0,
+    "top": [],
+    "top_share": 0
+   },
+   {
+    "name": "Yes on C, No on I, SF for Accountability in Housing sponsored by the San Francisco Building and Construction Trades Council and the San Francisco Chamber of Commerce",
+    "nid": 217233128,
+    "side": "no",
+    "total": 2392999,
+    "donors": 63,
+    "top": [
+     {
+      "name": "THE RELATED COMPANIES/WILLIAM WITTE",
+      "amount": 200000
+     },
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 200000
+     },
+     {
+      "name": "SAN FRANCISCO APARTMENT ASSOCIATION ISSUES PAC",
+      "amount": 191000
+     },
+     {
+      "name": "KILROY REALTY, LP & AFFILIATED ENTITIES",
+      "amount": 100000
+     },
+     {
+      "name": "555-575 MARKET OWNER, LLC(RESPONSIBLE OFFICER: GREG FLYNN)",
+      "amount": 100000
+     },
+     {
+      "name": "CORE URBAN HOLDINGS LLC AND AFFILIATED ENTITIES((RESPONSIBLE OFFICER: KEVIN VERDI) )",
+      "amount": 76000
+     },
+     {
+      "name": "THE PRADO GROUP, INC.",
+      "amount": 75000
+     },
+     {
+      "name": "CARMEL PARTNERS AND AFFILIATED ENTITIES",
+      "amount": 61500
+     }
+    ],
+    "top_share": 0.419
+   }
+  ],
+  "prop-j": [
+   {
+    "name": "Tax Foreclosures, Yes on J",
+    "nid": 217091337,
+    "side": "yes",
+    "total": 207500,
+    "donors": 6,
+    "top": [
+     {
+      "name": "Saikat Chakrabarti (New Consensus)",
+      "amount": 50000
+     },
+     {
+      "name": "SERVICE EMPLOYEES INTERNATIONAL UNION - SEIU LOCAL 2015 ISSUES PAC",
+      "amount": 50000
+     },
+     {
+      "name": "SERVICE EMPLOYEES INTERNATIONAL UNION LOCAL 1021 ISSUES PAC",
+      "amount": 50000
+     },
+     {
+      "name": "SF FORWARD SPONSORED BY SAN FRANCISCO CHAMBER OF COMMERCE",
+      "amount": 25000
+     },
+     {
+      "name": "Michael Moritz (Hrtg Partners)",
+      "amount": 25000
+     },
+     {
+      "name": "YES ON D - STAND UP FOR SF SPONSORED BY LABOR ORGANIZATIONS",
+      "amount": 7500
+     }
+    ],
+    "top_share": 1.0
+   },
+   {
+    "name": "Yes on Proposition J",
+    "nid": 211967005,
+    "side": "yes",
+    "total": 0,
+    "donors": 0,
+    "top": [],
+    "top_share": 0
+   }
+  ]
+ },
+ "candidates": {
+  "board-of-education": {
+   "Autumn Brown Garibay": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 81398,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO PARENT ACTION PAC",
+      "support": 33562,
+      "oppose": 0
+     }
+    ]
+   },
+   "Virginia Cheung": {
+    "outside": [
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 157022,
+      "oppose": 0
+     },
+     {
+      "committee": "San Franciscans for Strong Public Education supporting LaCroix, Lee, and McFadden for San Francisco Community College Board 2026 and Tello, Hazelton and Cheung for San Francisco Board of Education 2",
+      "support": 9852,
+      "oppose": 0
+     }
+    ]
+   },
+   "Alida Fisher": {
+    "outside": [
+     {
+      "committee": "SAN FRANCISCO PARENT ACTION PAC",
+      "support": 18018,
+      "oppose": 0
+     }
+    ]
+   },
+   "Ryan Hazelton": {
+    "outside": [
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 47438,
+      "oppose": 0
+     },
+     {
+      "committee": "San Franciscans for Strong Public Education supporting LaCroix, Lee, and McFadden for San Francisco Community College Board 2026 and Tello, Hazelton and Cheung for San Francisco Board of Education 2",
+      "support": 9852,
+      "oppose": 0
+     }
+    ]
+   },
+   "Phil Kim": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 64614,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO PARENT ACTION PAC",
+      "support": 24406,
+      "oppose": 0
+     },
+     {
+      "committee": "Alice B. Toklas LGBTQ Democratic Club PAC",
+      "support": 8602,
+      "oppose": 0
+     }
+    ]
+   },
+   "Laurance Lee": {
+    "outside": []
+   },
+   "Reina Tello": {
+    "outside": [
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 47438,
+      "oppose": 0
+     },
+     {
+      "committee": "San Franciscans for Strong Public Education supporting LaCroix, Lee, and McFadden for San Francisco Community College Board 2026 and Tello, Hazelton and Cheung for San Francisco Board of Education 2",
+      "support": 9852,
+      "oppose": 0
+     }
+    ]
+   },
+   "Tim Tung": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 98182,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "ccb-full": {
+   "Elijah Ball": {
+    "outside": [
+     {
+      "committee": "Alice B. Toklas LGBTQ Democratic Club PAC",
+      "support": 2162,
+      "oppose": 0
+     }
+    ]
+   },
+   "Rome Moses Jones": {
+    "outside": []
+   },
+   "Monroe Lace": {
+    "outside": [
+     {
+      "committee": "Alice B. Toklas LGBTQ Democratic Club PAC",
+      "support": 1917,
+      "oppose": 0
+     }
+    ]
+   },
+   "Leah LaCroix": {
+    "outside": [
+     {
+      "committee": "San Franciscans for Strong Public Education supporting LaCroix, Lee, and McFadden for San Francisco Community College Board 2026 and Tello, Hazelton and Cheung for San Francisco Board of Education 2",
+      "support": 9968,
+      "oppose": 0
+     },
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 1168,
+      "oppose": 0
+     }
+    ]
+   },
+   "Jeremy Lee": {
+    "outside": [
+     {
+      "committee": "San Franciscans for Strong Public Education supporting LaCroix, Lee, and McFadden for San Francisco Community College Board 2026 and Tello, Hazelton and Cheung for San Francisco Board of Education 2",
+      "support": 9968,
+      "oppose": 0
+     },
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 1168,
+      "oppose": 0
+     }
+    ]
+   },
+   "Bunny McFadden": {
+    "outside": [
+     {
+      "committee": "United Educators of San Francisco Candidate PAC",
+      "support": 1168,
+      "oppose": 0
+     }
+    ]
+   },
+   "Erwin Tam": {
+    "outside": [
+     {
+      "committee": "Alice B. Toklas LGBTQ Democratic Club PAC",
+      "support": 1917,
+      "oppose": 0
+     }
+    ]
+   },
+   "Lisa Palagi Wynn II": {
+    "outside": []
+   }
+  },
+  "ccb-partial": {
+   "Ruth Ferguson": {
+    "outside": []
+   }
+  },
+  "bart-8": {
+   "Sara Barz": {
+    "outside": []
+   }
+  },
+  "assessor": {
+   "Joaquín Torres": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 7815,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "public-defender": {
+   "Mano Raju": {
+    "outside": []
+   }
+  },
+  "sup-2": {
+   "Guy McCoy": {
+    "outside": []
+   },
+   "Monthanus Ratanapakdee": {
+    "outside": []
+   },
+   "Stephen Sherrill": {
+    "outside": [
+     {
+      "committee": "SF Believes",
+      "support": 233231,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Supporting Stephen Sherrill for Supervisor 2026",
+      "support": 151667,
+      "oppose": 0
+     },
+     {
+      "committee": "Committee to Support Supervisor Stephen Sherrill 2026",
+      "support": 75500,
+      "oppose": 0
+     },
+     {
+      "committee": "Working Families for Stephen Sherrill for Supervisor 2026, Sponsored by International Union of Operating Engineers Local 3",
+      "support": 75370,
+      "oppose": 0
+     },
+     {
+      "committee": "California Alliance of Family Owned Businesses PAC",
+      "support": 65401,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 11722,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO ELECTRICAL CONTRACTORS ASSOCIATION PAC",
+      "support": 2500,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "sup-4": {
+   "Albert Chow": {
+    "outside": [
+     {
+      "committee": "Affordable SF Now supporting Natalie Gee for Supervisor 2026, Sponsored by Labor Organizations",
+      "support": 2020,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Supporting Alan Wong for Supervisor 2026",
+      "support": 0,
+      "oppose": 1841
+     }
+    ]
+   },
+   "Jeremy Julian Greco": {
+    "outside": []
+   },
+   "Alan Wong": {
+    "outside": [
+     {
+      "committee": "SF Believes",
+      "support": 409908,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Supporting Alan Wong for Supervisor 2026",
+      "support": 209222,
+      "oppose": 0
+     },
+     {
+      "committee": "California Alliance of Family Owned Businesses PAC",
+      "support": 176871,
+      "oppose": 0
+     },
+     {
+      "committee": "Affordable SF Now supporting Natalie Gee for Supervisor 2026, Sponsored by Labor Organizations",
+      "support": 0,
+      "oppose": 24754
+     },
+     {
+      "committee": "Neighbors For A Better San Francisco Advocacy",
+      "support": 20000,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 15629,
+      "oppose": 0
+     },
+     {
+      "committee": "BUILDING OWNERS AND MANAGERS ASSOCIATION OF SAN FRANCISCO POLITICAL ACTION COMMITTEE - INDEPENDENT EXPENDITURES AKA BOMA-SF-PAC-IE",
+      "support": 9999,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO ELECTRICAL CONTRACTORS ASSOCIATION PAC",
+      "support": 2500,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO APARTMENT ASSOCIATION POLITICAL ACTION COMMITTEE",
+      "support": 1000,
+      "oppose": 0
+     },
+     {
+      "committee": "San Francisco Deputy Sheriffs' Association Political Action Committee",
+      "support": 1000,
+      "oppose": 0
+     },
+     {
+      "committee": "San Francisco Police Officers Association PAC",
+      "support": 1000,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "sup-6": {
+   "Alex Behrend": {
+    "outside": []
+   },
+   "Matt Dorsey": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 15629,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN FRANCISCO ELECTRICAL CONTRACTORS ASSOCIATION PAC",
+      "support": 2500,
+      "oppose": 0
+     },
+     {
+      "committee": "San Francisco Police Officers Association PAC",
+      "support": 2500,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "sup-8": {
+   "Gary McCoy": {
+    "outside": [
+     {
+      "committee": "Building a Working SF Sponsored by Labor Organizations",
+      "support": 490177,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 0,
+      "oppose": 23011
+     },
+     {
+      "committee": "San Francisco Labor Council Labor & Neighbor Independent Expenditure Political Action Committee",
+      "support": 20000,
+      "oppose": 0
+     }
+    ]
+   },
+   "Michael T. Nguyen": {
+    "outside": []
+   },
+   "Darshini Patel": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 68687,
+      "oppose": 0
+     }
+    ]
+   },
+   "Emanuel “Manny” Yekutiel": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 125244,
+      "oppose": 0
+     },
+     {
+      "committee": "Building a Working SF Sponsored by Labor Organizations",
+      "support": 0,
+      "oppose": 78342
+     },
+     {
+      "committee": "Team Manny, Manny Yekutiel for Supervisor 2026",
+      "support": 55058,
+      "oppose": 0
+     }
+    ]
+   }
+  },
+  "sup-10": {
+   "Pearci “PJ” Bastiany III": {
+    "outside": []
+   },
+   "Dionjay (DJ) Brookter": {
+    "outside": []
+   },
+   "Deandra Bryant": {
+    "outside": []
+   },
+   "Theo Ellington": {
+    "outside": [
+     {
+      "committee": "FROM THE NEIGHBORHOOD, FOR THE CITY, SUPPORTING THEO ELLINGTON FOR SUPERVISOR 2026",
+      "support": 243054,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 234443,
+      "oppose": 0
+     },
+     {
+      "committee": "California Alliance of Family Owned Businesses PAC",
+      "support": 171827,
+      "oppose": 0
+     },
+     {
+      "committee": "Committee for Jobs and the Economy, Sponsored by Energy Companies",
+      "support": 27842,
+      "oppose": 0
+     }
+    ]
+   },
+   "J.R. Eppler": {
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 0,
+      "oppose": 3200
+     }
+    ]
+   },
+   "Mike Trouble Lin": {
+    "outside": []
+   },
+   "Jessica Pessecow": {
+    "outside": []
+   },
+   "Shawn M. Richard": {
+    "outside": []
+   },
+   "Ellsworth “Ell” M. Jennison, Jr.": {
+    "outside": []
+   },
+   "Jamo Muhammad": {
+    "outside": []
+   }
+  }
+ }
+}

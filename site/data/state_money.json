@@ -1,0 +1,475 @@
+{
+ "built": "2026-10-24",
+ "source": {
+  "label": "CA Secretary of State: 2026 Ballot Measure Contribution Totals",
+  "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals"
+ },
+ "props": {
+  "prop-1": {
+   "support": {
+    "total": 15284975,
+    "committees": [
+     {
+      "id": "1492745",
+      "name": "Californians for Affordable Homes, Yes on Proposition 1, Sponsored by NPH Action Fund",
+      "total": 1121301
+     },
+     {
+      "id": "1485601",
+      "name": "Yes on Prop 1 Californians for Homes, Jobs and Affordability 2026, Sponsored by Affordable Housing Organizations",
+      "total": 13873674
+     },
+     {
+      "id": "1493876",
+      "name": "Yes on Prop 1, California Homeless and Housing Coalition Action Fund",
+      "total": 290000
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-1-sb-417-limon-veterans-and-affordable-housing-bond-act-2026-ch-16-2026"
+  },
+  "prop-2": {
+   "as_of": null,
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-2-aca-20-gabriel-save-californias-future-act-res-ch-130-2026"
+  },
+  "prop-3": {
+   "support": {
+    "total": 81051156,
+    "committees": [
+     {
+      "id": "1497742",
+      "name": "Black Californians for Thriving Communities-Yes on Prop 3, No on Props 39 & 43, Sponsored by California Black Power Network Action Fund",
+      "total": 270000
+     },
+     {
+      "id": "1498170",
+      "name": "Californians for Yes on 3 and No on 39, Sponsored by California Immigrants in Action",
+      "total": 20000
+     },
+     {
+      "id": "1496598",
+      "name": "Communities for an Affordable California, Yes on 3, No on 39 and 43 Sponsored by Million Voters Project Action Fund",
+      "total": 1690062
+     },
+     {
+      "id": "1495036",
+      "name": "Tax the Ultra-Rich Now, Yes on 3 & 40, No on 41 & 42",
+      "total": 480579
+     },
+     {
+      "id": "1496613",
+      "name": "Working Families for a Better Central Coast- Yes on Prop 3, No on Prop 39, Sponsored by Unidos 805 Action Fund",
+      "total": 291759
+     },
+     {
+      "id": "1497629",
+      "name": "Working People in Supporting of Prop 3 and in Opposition of Prop 39, 43 and 45, Sponsored by Los Angeles County Federation of Labor AFL-CIO",
+      "total": 0
+     },
+     {
+      "id": "1483562",
+      "name": "Yes on Prop 3, Sponsored by Education and Labor Organizations",
+      "total": 78298756
+     }
+    ]
+   },
+   "oppose": {
+    "total": 5500,
+    "committees": [
+     {
+      "id": "1492860",
+      "name": "No on Proposition 3, Sponsored by California Taxpayers Association",
+      "total": 5500
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-3-provides-permanent-funding-schools-and-healthcare-extending-existing-tax-high-incomes-initiative-constitutional-am"
+  },
+  "prop-37": {
+   "support": {
+    "total": 33631777,
+    "committees": [
+     {
+      "id": "1400190",
+      "name": "Homeownership for Families, Sponsored by California Association of Realtors - Yes on 37",
+      "total": 18374184
+     },
+     {
+      "id": "1481256",
+      "name": "Yes on 37, California Homeownership",
+      "total": 15257593
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-37-creates-loan-program-middle-income-buyers-qualified-new-homes-initiative-statute"
+  },
+  "prop-38": {
+   "support": {
+    "total": 71229216,
+    "committees": [
+     {
+      "id": "1494727",
+      "name": "Michelson Center for Public Policy, Inc. - Yes on 38 (Nonprofit 501 (c)(4))",
+      "total": 13000000
+     },
+     {
+      "id": "1485847",
+      "name": "Yes on 38: Californians for Life-Saving Immunology Research and Cures, Sponsored by the Michelson Center for Public Policy",
+      "total": 58229216
+     }
+    ]
+   },
+   "oppose": {
+    "total": 11990,
+    "committees": [
+     {
+      "id": "1495405",
+      "name": "No on Proposition 38",
+      "total": 11990
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-38-authorizes-bonds-immunology-research-initiative-statut"
+  },
+  "prop-39": {
+   "support": {
+    "total": 36561050,
+    "committees": [
+     {
+      "id": "1479607",
+      "name": "Californians for Voter ID, Yes on 39",
+      "total": 36561050
+     }
+    ]
+   },
+   "oppose": {
+    "total": 33576498,
+    "committees": [
+     {
+      "id": "1497742",
+      "name": "Black Californians for Thriving Communities-Yes on Prop 3, No on Props 39 & 43, Sponsored by California Black Power Network Action Fund",
+      "total": 270000
+     },
+     {
+      "id": "1498170",
+      "name": "Californians for Yes on 3 and No on 39, Sponsored by California Immigrants in Action",
+      "total": 20000
+     },
+     {
+      "id": "1497488",
+      "name": "Citizens for a Just California - No on 39, Sponsored by Higher Wages Lower Rent Alliance",
+      "total": 50000
+     },
+     {
+      "id": "1496598",
+      "name": "Communities for an Affordable California, Yes on 3, No on 39 and 43 Sponsored by Million Voters Project Action Fund",
+      "total": 1164062
+     },
+     {
+      "id": "1493991",
+      "name": "No on 39 - Block Election Rigging Sponsored by Nurses, Teachers, and Nonprofit Labor and Community Health Clinic Organziations",
+      "total": 19820078
+     },
+     {
+      "id": "1489007",
+      "name": "No on Prop 39 - Californians for Voting Rights, Sponsored by California Donor Table & ACLU of Northern California",
+      "total": 4809410
+     },
+     {
+      "id": "1484827",
+      "name": "No on Prop 39 - VoteRiders Committee",
+      "total": 0
+     },
+     {
+      "id": "1495206",
+      "name": "United Against Prop. 39 - - Stop the Rig Sponsored by Nonprofit Labor and Civil Rights Organizations",
+      "total": 7051189
+     },
+     {
+      "id": "1496613",
+      "name": "Working Families for a Better Central Coast- Yes on Prop 3, No on Prop 39, Sponsored by Unidos 805 Action Fund",
+      "total": 291759
+     },
+     {
+      "id": "1497629",
+      "name": "Working People in Supporting of Prop 3 and in Opposition of Prop 39, 43 and 45, Sponsored by Los Angeles County Federation of Labor AFL-CIO",
+      "total": 100000
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-39-establishes-additional-voter-identification-and-citizenship-verification-requirements-initiative-constitutional-a"
+  },
+  "prop-4": {
+   "support": {
+    "total": 984699,
+    "committees": [
+     {
+      "id": "1497099",
+      "name": "Movement Voter PAC (FEC PAC ID C00728360) Supporting Prop 4",
+      "total": 235157
+     },
+     {
+      "id": "1488162",
+      "name": "Yes on 4, Californians for Fair Elections",
+      "total": 749542
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-4-sb-42-umberg-political-reform-act-1974-public-campaign-financing-california-fair-elections-act-2026-ch-245-2025"
+  },
+  "prop-40": {
+   "support": {
+    "total": 33413577,
+    "committees": [
+     {
+      "id": "1495036",
+      "name": "Tax the Ultra-Rich Now, Yes on 3 & 40, No on 41 & 42",
+      "total": 480579
+     },
+     {
+      "id": "1484470",
+      "name": "Yes on 40 - Billionaire Tax Now - No on 41 & 42, Sponsored by Service Employees International Union - United Healthcare Workers West",
+      "total": 32932998
+     }
+    ]
+   },
+   "oppose": {
+    "total": 130344804,
+    "committees": [
+     {
+      "id": "1485228",
+      "name": "Californians Against Tax Increases, Sponsored by the California Business Roundtable - No on 40",
+      "total": 754822
+     },
+     {
+      "id": "1486695",
+      "name": "Golden State Promise - No on Prop 40",
+      "total": 10450000
+     },
+     {
+      "id": "1492108",
+      "name": "No on Prop 40 - Doctors, Teachers, Small Businesses, Working Families and Public Safety Against the Reckless Wealth Tax Experiment",
+      "total": 118739982
+     },
+     {
+      "id": "1485007",
+      "name": "Stop the Squeeze - No on Prop 40",
+      "total": 400000
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-40-imposes-one-time-tax-certain-individuals-and-trusts-initiative-constitutional-amendment-and-statute"
+  },
+  "prop-41": {
+   "support": {
+    "total": 58376446,
+    "committees": [
+     {
+      "id": "1488423",
+      "name": "Yes on 41 - Californians for Transparency and Accountability, a Coaltion of Small Businessess, Taxpayers, Good Government Advocates, Accountants and Auditing Experts",
+      "total": 58376446
+     }
+    ]
+   },
+   "oppose": {
+    "total": 22741302,
+    "committees": [
+     {
+      "id": "1495036",
+      "name": "Tax the Ultra-Rich Now, Yes on 3 & 40, No on 41 & 42",
+      "total": 480579
+     },
+     {
+      "id": "1497412",
+      "name": "Working Families Say No to Propositions 41 and 42 Sponsored by Labor Unions",
+      "total": 1011000
+     },
+     {
+      "id": "1484470",
+      "name": "Yes on 40 - Billionaire Tax Now - No on 41 & 42, Sponsored by Service Employees International Union - United Healthcare Workers West",
+      "total": 21249723
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-41-requires-audits-programs-funded-new-state-special-taxes-prohibits-new-state-taxes-are-excluded-existing-voter-app"
+  },
+  "prop-42": {
+   "support": {
+    "total": 127977037,
+    "committees": [
+     {
+      "id": "1488418",
+      "name": "Yes on 42 - Protect Retirement & Life Savings, a Coalition of Retirees, Blue-Collar Workers, Seniors, Veterans, Small Businesses & Taxpayers",
+      "total": 127977037
+     }
+    ]
+   },
+   "oppose": {
+    "total": 22741302,
+    "committees": [
+     {
+      "id": "1495036",
+      "name": "Tax the Ultra-Rich Now, Yes on 3 & 40, No on 41 & 42",
+      "total": 480579
+     },
+     {
+      "id": "1497412",
+      "name": "Working Families Say No to Propositions 41 and 42 Sponsored by Labor Unions",
+      "total": 1011000
+     },
+     {
+      "id": "1484470",
+      "name": "Yes on 40 - Billionaire Tax Now - No on 41 & 42, Sponsored by Service Employees International Union - United Healthcare Workers West",
+      "total": 21249723
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-42-prohibits-new-state-personal-property-taxes-and-certain-retroactive-state-taxes-initiative-constitutional-amendme"
+  },
+  "prop-43": {
+   "support": {
+    "total": 16390930,
+    "committees": [
+     {
+      "id": "1484860",
+      "name": "Yes on Prop 43 - The Local Taxpayer Protection Act, Sponsored by Homeowners, Businesses, and Taxpayers",
+      "total": 15538102
+     },
+     {
+      "id": "1493012",
+      "name": "Yes on Prop. 43, a Project of the Howard Jarvis Taxpayers Association",
+      "total": 852828
+     }
+    ]
+   },
+   "oppose": {
+    "total": 10442347,
+    "committees": [
+     {
+      "id": "1497742",
+      "name": "Black Californians for Thriving Communities-Yes on Prop 3, No on Props 39 & 43, Sponsored by California Black Power Network Action Fund",
+      "total": 270000
+     },
+     {
+      "id": "1496598",
+      "name": "Communities for an Affordable California, Yes on 3, No on 39 and 43 Sponsored by Million Voters Project Action Fund",
+      "total": 2230062
+     },
+     {
+      "id": "1497906",
+      "name": "Long Beach Against Proposition 43",
+      "total": 0
+     },
+     {
+      "id": "1492508",
+      "name": "No on Prop 43: Stop the Local Taxpayer Deception Act, Sponsored by Labor Organizations",
+      "total": 7842285
+     },
+     {
+      "id": "1497629",
+      "name": "Working People in Supporting of Prop 3 and in Opposition of Prop 39, 43 and 45, Sponsored by Los Angeles County Federation of Labor AFL-CIO",
+      "total": 100000
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-43-aca-22-wicks-local-taxes-limitation-res-ch-132-2026"
+  },
+  "prop-44": {
+   "support": {
+    "total": 16930133,
+    "committees": [
+     {
+      "id": "1483073",
+      "name": "Yes on Prop 44, Sponsored by Service Employees International Union - United Healthcare Workers West",
+      "total": 16930133
+     }
+    ]
+   },
+   "oppose": {
+    "total": 38627550,
+    "committees": [
+     {
+      "id": "1484266",
+      "name": "No on Prop 44 - Stop the Attack on Patients and Community Health Clinics, Sponsored by California Primary Care Association Adovcates",
+      "total": 38627550
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-44-requires-community-health-clinics-spend-90-percent-revenue-program-services-initiative-statute"
+  },
+  "prop-45": {
+   "support": {
+    "total": 38589954,
+    "committees": [
+     {
+      "id": "1442568",
+      "name": "Building Industry Association of Southern California Issues PAC - Yes on 45",
+      "total": 949343
+     },
+     {
+      "id": "1490585",
+      "name": "Building Resilient Infrastructure for a Decarbonized Green Economy Issues PAC (BRIDGE Issues) Yes on Prop 45, Funded by PG&E Corporation",
+      "total": 2400000
+     },
+     {
+      "id": "1353866",
+      "name": "California Building Industry Association Issues Committee Supporting Proposition 45",
+      "total": 7009737
+     },
+     {
+      "id": "1484853",
+      "name": "Yes on 45 - Building a More Affordable California, a Coalition of Water, Affordable Housing, Clean Energy, Small Business, Healthcare & Community Leaders",
+      "total": 28230874
+     }
+    ]
+   },
+   "oppose": {
+    "total": 31237219,
+    "committees": [
+     {
+      "id": "1493079",
+      "name": "Campaign for People Over Polluters, No on Prop. 45, Sponsored by Environmental & Healthcare Organizations",
+      "total": 1880513
+     },
+     {
+      "id": "1479255",
+      "name": "No on Prop 45 - Protect California Communities",
+      "total": 9421588
+     },
+     {
+      "id": "1492264",
+      "name": "No on Prop 45, Sponsored by Labor, Health and Environmental Organizations",
+      "total": 19735118
+     },
+     {
+      "id": "1498109",
+      "name": "No on Prop. 45, SMART Local 105 PAC",
+      "total": 100000
+     },
+     {
+      "id": "1497629",
+      "name": "Working People in Supporting of Prop 3 and in Opposition of Prop 39, 43 and 45, Sponsored by Los Angeles County Federation of Labor AFL-CIO",
+      "total": 100000
+     }
+    ]
+   },
+   "as_of": "10/22/2026",
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-45-modifies-environmental-review-certain-projects-initiative-statute"
+  },
+  "prop-5": {
+   "as_of": null,
+   "url": "https://www.sos.ca.gov/campaign-lobbying/helpful-resources/measure-contributions/2026-ballot-measure-contribution-totals/proposition-5-sca-1-newman-elections-recall-state-officers-res-ch-204-2024"
+  }
+ }
+}

@@ -557,3 +557,32 @@
 .vg-group-tags .vg-fund-pill { margin-left: 2px; }
 .vg-fund-mix { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 4px; }
 .vg-fund-mix strong { color: var(--accent); }
+
+/* -- tabbed "more" panels -------------------------------------------------- */
+.vg-more > summary, .vg-cand-more > summary { cursor: pointer; font-weight: 700; font-size: 0.8rem; color: var(--accent); }
+.vg-cand-more { margin-top: 4px; }
+.vg-cand-more > summary { font-size: 0.75rem; }
+.vg-tabs { margin-top: 8px; border: 1px solid var(--border); border-radius: var(--radius); background: var(--bg); }
+.vg-tab-bar { display: flex; overflow-x: auto; border-bottom: 1px solid var(--border); scrollbar-width: none; }
+.vg-tab {
+  flex: none; padding: 7px 11px; font: inherit; font-size: 0.78rem; font-weight: 700;
+  background: none; border: 0; border-bottom: 2px solid transparent; color: var(--text-muted); cursor: pointer;
+}
+.vg-tab.is-active { color: var(--text); border-bottom-color: var(--accent); }
+.vg-tab-panel { padding: 10px 12px; font-size: 0.88rem; line-height: 1.55; }
+.vg-tab-panel > p { margin: 0 0 8px; }
+.vg-empty-note { color: var(--text-faint); font-style: italic; }
+.vg-tldr { font-size: 0.98rem; font-weight: 500; }
+.vg-position { margin-top: 8px; padding-top: 8px; border-top: 1px dashed var(--border); }
+.vg-position p { margin: 4px 0 0; }
+.vg-money-sides { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.vg-money-side h4 { margin: 0 0 6px; font-size: 0.72rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-faint); }
+.vg-money-comm { margin-bottom: 10px; }
+.vg-money-head { display: flex; justify-content: space-between; gap: 8px; font-weight: 700; font-size: 0.84rem; }
+.vg-donors { margin: 4px 0 0; padding-left: 18px; font-size: 0.8rem; color: var(--text-muted); }
+.vg-donors strong { color: var(--text); }
+.vg-big { font-size: 1.3rem; }
+.vg-against { color: var(--sell); }
+.vg-who-groups { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--text-muted); }
+@media (max-width: 767px) { .vg-money-sides { grid-template-columns: 1fr; } }
+.vg-rcv-row > .vg-cand-more { grid-column: 1 / -1; }

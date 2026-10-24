@@ -21,7 +21,8 @@ Method (published on the page, keep it in sync with docs/data-model.md):
     plus organization donors whose name matches TECH_EMPLOYERS.
   * Outside money (candidates): spending or giving by OTHER committees that names the
     candidate (Form 460 Schedule D + later Form 496 24-hour reports), split support/oppose.
-    Tagged when support >= the candidate's own money and >= OUTSIDE_MIN.
+    Tagged when support >= the candidate's own money (contributions + public funds
+    approved, DataSF 5sxz-kk66) and >= OUTSIDE_MIN.
 Tags fire only past the thresholds in TAG_RULES; every tag carries its number.
 """
 import argparse
@@ -178,7 +179,7 @@ def outside_money(since: str) -> dict:
         if not name:
             continue
         side = "oppose" if (r.get("support_oppose_code") or "").upper().startswith("O") else "support"
-        agg[name][side] += float(r.get("calculated_amount") or 0)
+        agg[(name, (r.get("district_number") or "").strip())][side] += float(r.get("calculated_amount") or 0)
     return agg
 
 
@@ -190,10 +191,60 @@ def tags_for(m: dict) -> list[dict]:
     return tags
 
 
+def first_variants(name: str) -> set[str]:
+    """Ways a filer might write the first name: legal name, nickname in quotes or
+    parentheses, and letters-only initials ("J.R." -> "JR")."""
+    vs = set()
+    nick = re.findall(r"[“\"(]([^”\")]+)[”\")]", name)
+    legal = re.sub(r"[“\"(].*?[”\")]", " ", name).split()
+    if legal:
+        vs.add(re.sub(r"[^A-Z]", "", legal[0].upper()))
+    for n in nick:
+        vs.add(re.sub(r"[^A-Z]", "", n.split()[0].upper()))
+    return {v for v in vs if v}
+
+
+def name_matches(record_name: str, record_district: str, cand_name: str, contest_id: str) -> bool:
+    rec = record_name.split()
+    if not rec:
+        return False
+    last, _ = surname_key(cand_name)
+    if rec[-1] != last:
+        return False
+    if contest_id.startswith("sup-") and record_district and record_district.strip() not in ("", contest_id[4:]):
+        return False
+    rec_first = re.sub(r"[^A-Z]", "", rec[0])
+    # "J R EPPLER" (dots normalized away): rejoin leading single-letter initials -> "JR".
+    initials = "".join(t for t in rec[:-1] if len(t) == 1)
+    if len(initials) > 1:
+        rec_first = initials
+    return any(rec_first[:2] == v[:2] or rec_first == v for v in first_variants(cand_name))
+
+
 def surname_key(name: str) -> tuple[str, str]:
     clean = re.sub(r"[“”\"(].*?[”\")]", " ", name)
-    parts = [p for p in re.split(r"\s+", clean.upper().replace(".", "")) if p and p not in ("II", "III", "JR")]
+    parts = [p for p in re.split(r"\s+", re.sub(r"[.,]", " ", clean.upper())) if p]
+    # Drop generational suffixes from the END only, so "J.R. Eppler" keeps its initials.
+    while len(parts) > 1 and parts[-1] in ("II", "III", "JR", "SR"):
+        parts.pop()
     return parts[-1], parts[0][:3]
+
+
+PUBLIC_FUNDS_URL = "https://data.sf.gov/resource/5sxz-kk66.json?$limit=500"   # Nov 2026 public funds approved
+
+
+def public_funds() -> list[tuple[str, str, float]]:
+    """[(normalized 'FIRST LAST', district, amount)] from SF Ethics' public-financing dataset.
+    The dataset writes names 'Last, First'."""
+    req = urllib.request.Request(PUBLIC_FUNDS_URL, headers={"User-Agent": "sf_voter_guide/1.0"})
+    with urllib.request.urlopen(req, timeout=60) as r:
+        rows = json.load(r)
+    out = []
+    for x in rows:
+        last, _, first = (x.get("candidate") or "").partition(",")
+        out.append((norm_name(first.replace('"', "“", 1).replace('"', "”", 1), last), (x.get("district") or "").strip(),
+                    float(x.get("sum_funds_approved") or 0)))
+    return out
 
 
 def main(since: str) -> None:
@@ -202,6 +253,7 @@ def main(since: str) -> None:
            "source": {"label": "SF Ethics Commission campaign finance data (DataSF)", "url": "https://data.sf.gov/d/pitq-e56w"},
            "rules": {"small_guide": SMALL_GUIDE, "small_candidate": SMALL_CAND, "big": BIG,
                      "thresholds": {k: v[1] for k, v in TAG_RULES.items()}, "outside_ratio": OUTSIDE_RULE, "outside_min": OUTSIDE_MIN},
+           "public_funds_source": {"label": "SF Ethics: Total Public Funds Approved, Nov 3 2026", "url": "https://data.sf.gov/d/5sxz-kk66"},
            "guides": {}, "candidates": {}}
     for gid, nids in ent["guides"].items():
         m = summarize(money_in(nids, since), SMALL_GUIDE, with_big=True)
@@ -209,17 +261,21 @@ def main(since: str) -> None:
         out["guides"][gid] = m
         print(f"guide {gid:10} {m}")
     ie = outside_money(since)
+    pf = public_funds()
     for cid, cands in ent["candidates"].items():
         for name, nids in cands.items():
             m = summarize(money_in(nids, since), SMALL_CAND, with_big=False) if nids else {"total": 0, "no_committee": True}
-            last, first3 = surname_key(name)
-            # Match on surname + first three letters of the first name.
-            hits = [v for n, v in ie.items() if n.split()[-1] == last and n.split()[0][:3] == first3]
+            hits = [v for (n, dist), v in ie.items() if name_matches(n, dist, name, cid)]
             sup = sum(h["support"] for h in hits); opp = sum(h["oppose"] for h in hits)
             if sup or opp:
                 m["outside_support"], m["outside_oppose"] = round(sup), round(opp)
+            pub = sum(a for n, dist, a in pf if name_matches(n, dist, name, cid))
+            if pub:
+                m["public_funds"] = round(pub)
             m["tags"] = tags_for(m) if m.get("total") else []
-            if sup >= OUTSIDE_MIN and sup >= OUTSIDE_RULE * m.get("total", 0):
+            # Compare outside support with everything the campaign itself has: contributions + public funds.
+            own = m.get("total", 0) + pub
+            if sup >= OUTSIDE_MIN and sup >= OUTSIDE_RULE * own:
                 m["tags"].append({"tag": "outside-backed", "amount": round(sup)})
             out["candidates"].setdefault(cid, {})[name] = m
             print(f"cand {cid:18} {name:28} {m}")

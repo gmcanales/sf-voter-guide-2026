@@ -1,6 +1,6 @@
 # Data model
 
-The page (`site/app.js`) is a pure renderer over six JSON files in
+The page (`site/app.js`) is a pure renderer over nine JSON files in
 `site/data/`. Two kinds of content are kept apart on purpose:
 
 | File | What | Who edits it |
@@ -11,6 +11,9 @@ The page (`site/app.js`) is a pure renderer over six JSON files in
 | `zip_districts.json` | Which districts each SF ZIP overlaps | **Generated** by `tools/build_zip_districts.py` |
 | `topics.json` | **Our** topic tags on measures (for browsing) | Hand-edited, editorial but factual |
 | `funding.json` | Funding tags for groups and local candidates | **Generated** by `tools/funding_tags.py` |
+| `money.json` | Local measure committees + top donors; outside spenders per candidate | **Generated** by `tools/money_flows.py` |
+| `state_money.json` | State-prop support/oppose totals + committees (SoS official) | **Generated** by `tools/state_money.py` |
+| `analysis.json` | Plain-English tab text: measure "Average goose" + "TL;DR", candidate "Who?" + "Average goose" | Hand-written from official text / KQED only |
 
 ## Pipeline for `ballot.json`
 
@@ -161,6 +164,26 @@ published thresholds, and each one shows its number:
 There is deliberately no pejorative label. "Housing-skeptic" may only be applied
 with a sourced position against new housing, and none has been applied yet.
 Statewide and federal candidates aren't covered (their money isn't in SF Ethics data).
+
+## Tabbed panels
+
+Each measure has a **More about this measure** panel with four tabs: *What it
+does* (official digest), *Money* (local: `money.json`; state:
+`state_money.json`), *Average goose* and *Seriously TL;DR* (`analysis.json`,
+plus the Goosebase position from `picks.json`, or "none yet").
+
+Each candidate has a **More on …** panel with four tabs: *Who?*, *Money*
+(`funding.json` contributions + public funds + `money.json` outside
+spenders), *Average goose* and *Seriously TL;DR* (auto-built from the
+description, the recommending groups and outside money, plus the Goosebase
+position). Where we have no sourced text, the tab says so instead of
+guessing.
+
+`analysis.json` rules: measure text comes only from the digest, LAO analysis
+and fiscal statements already cited on that measure. Candidate text is a
+paraphrase of KQED's summaries, with a link. It stays neutral, and opinion
+belongs in `picks.json`. Verification of outside research:
+`docs/research-verification.md`.
 
 ## Reader state
 

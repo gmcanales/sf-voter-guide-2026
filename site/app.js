@@ -11,7 +11,7 @@ const SOLE_SHARE = 0.995;            // a ZIP this much inside one district coun
 const DIMS = ['cd', 'ad', 'sup', 'bart'];
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -223,7 +223,8 @@ function renderOfficeRows(contest) {
         c.designation ? el('div', { class: 'vg-desig' }, c.designation) : null,
         c.note ? el('div', { class: 'vg-cand-note' }, c.note,
           c.note_source ? [' (', el('a', { href: c.note_source.url, target: '_blank', rel: 'noopener' }, 'source'), ')'] : null) : null,
-        guideChipsForRow(contest, c.name)));
+        guideChipsForRow(contest, c.name),
+        renderCandidateMore(contest, c)));
   });
   rows.push(el('div', { class: 'vg-row vg-writein' }, el('span', { class: 'vg-oval is-static', 'aria-hidden': 'true' }),
     el('div', { class: 'vg-row-main vg-desig' }, 'Write-in (qualified write-in candidates only)')));
@@ -247,7 +248,9 @@ function renderRcvGrid(contest) {
         c.note ? el('div', { class: 'vg-cand-note' }, c.note) : null,
         guideChipsForRow(contest, c.name)),
       el('div', { class: 'vg-rcv-ovals' }, Array.from({ length: nRanks }, (_, r) =>
-        oval(ranks[r] === c.name, `${RANK_LABEL[r]} choice: ${c.name}`, () => toggleRank(contest, c.name, r)))));
+        oval(ranks[r] === c.name, `${RANK_LABEL[r]} choice: ${c.name}`, () => toggleRank(contest, c.name, r)))),
+      // Full-width row under the ovals so the tabs aren't squeezed into the name column.
+      renderCandidateMore(contest, c));
   });
   return el('div', { class: 'vg-rcv', style: `--ranks:${nRanks}` }, head, rows);
 }
@@ -309,7 +312,7 @@ function para(label, text) {
       : lines.map(l => el('p', {}, l.replace(/^• /, '• '))));
 }
 
-function renderDetails(contest) {
+function renderDetails(contest, asBlocks = false) {
   const blocks = [];
   if (contest.kind === 'measure') {
     blocks.push(
@@ -342,8 +345,169 @@ function renderDetails(contest) {
   }
   const body = blocks.filter(Boolean);
   if (!body.length) return null;
+  if (asBlocks) return body;
   const label = contest.kind === 'measure' ? 'What it does' : 'About this list';
   return el('details', { class: 'vg-details' }, el('summary', {}, label), body);
+}
+
+// ── tabbed "more" panels ──────────────────────────────────────────────────
+// One <details> per measure / candidate; tabs swap the panel body in place.
+const TAB_STATE = {};
+
+function renderTabs(id, tabs) {
+  const active = TAB_STATE[id] && tabs.some(t => t.key === TAB_STATE[id]) ? TAB_STATE[id] : tabs[0].key;
+  const panel = el('div', { class: 'vg-tab-panel', role: 'tabpanel' });
+  const bar = el('div', { class: 'vg-tab-bar', role: 'tablist' });
+  const show = key => {
+    TAB_STATE[id] = key;
+    bar.querySelectorAll('button').forEach(b => {
+      const on = b.dataset.key === key;
+      b.classList.toggle('is-active', on);
+      b.setAttribute('aria-selected', String(on));
+    });
+    panel.replaceChildren(...[].concat(tabs.find(t => t.key === key).render() || []).flat(Infinity).filter(Boolean));
+  };
+  for (const t of tabs) {
+    bar.append(el('button', { type: 'button', role: 'tab', class: 'vg-tab', 'data-key': t.key, onclick: () => show(t.key) }, t.label));
+  }
+  const wrap = el('div', { class: 'vg-tabs' }, bar, panel);
+  show(active);
+  return wrap;
+}
+
+function emptyNote(text) { return el('p', { class: 'vg-empty-note' }, text); }
+
+function sourceLine(label, url, extra) {
+  return el('p', { class: 'vg-fineprint' }, 'Source: ', el('a', { href: url, target: '_blank', rel: 'noopener' }, label), extra ? ` ${extra}` : '');
+}
+
+function goosebasePosition(contest, candidateName) {
+  const picks = picksFor(contest.id).filter(p => contest.kind !== 'office' || !candidateName || p.target === candidateName);
+  if (!picks.length) {
+    return el('p', { class: 'vg-position' }, el('strong', {}, 'Goosebase position: '), 'none yet.');
+  }
+  return picks.map(p => el('div', { class: 'vg-position' }, el('strong', {}, 'Goosebase position: '), badge(p.verdict),
+    p.target && contest.kind === 'office' ? ` ${p.target}` : contest.kind !== 'office' ? ` (vote ${p.verdict === 'egg' ? 'YES' : 'NO'})` : '',
+    el('p', {}, p.reasoning)));
+}
+
+// Measures ---------------------------------------------------------------
+function measureMoney(contest) {
+  const local = MONEY?.measures?.[contest.id];
+  if (local) {
+    const sides = ['yes', 'no'].map(side => {
+      const comms = local.filter(c => c.side === side && c.total > 0);
+      return el('div', { class: 'vg-money-side' }, el('h4', {}, side === 'yes' ? 'Committees for YES' : 'Committees for NO'),
+        comms.length ? comms.map(c => el('div', { class: 'vg-money-comm' },
+          el('div', { class: 'vg-money-head' }, el('span', {}, c.name), el('strong', { class: 'vg-num' }, shortMoney(c.total))),
+          el('p', { class: 'vg-fineprint' }, `${c.donors} itemized donors; the top ${c.top.length} gave ${floorPct(c.top_share)}.`),
+          el('ol', { class: 'vg-donors' }, c.top.slice(0, 5).map(t => el('li', {}, `${t.name} `, el('strong', {}, shortMoney(t.amount))))),
+          Object.values(MONEY.measures).filter(list => list.some(x => x.nid === c.nid)).length > 1
+            ? el('p', { class: 'vg-fineprint' }, 'This committee campaigns on several measures, so its money can’t be split between them.') : null))
+        : emptyNote('No committee with money reported.'));
+    });
+    return [el('div', { class: 'vg-money-sides' }, sides),
+      sourceLine('SF Ethics Commission filings (DataSF)', MONEY.source.url, `since ${sinceLabel()}; latest filing versions only.`)];
+  }
+  const st = STATE_MONEY?.props?.[contest.id];
+  if (st) {
+    if (!st.support && !st.oppose) {
+      return [emptyNote('No committee has reported contributions for or against this measure.'), sourceLine(STATE_MONEY.source.label, st.url)];
+    }
+    const sides = [['support', 'Committees for YES'], ['oppose', 'Committees for NO']].map(([k, label]) =>
+      el('div', { class: 'vg-money-side' }, el('h4', {}, label),
+        st[k] ? [el('p', {}, el('strong', { class: 'vg-num vg-big' }, shortMoney(st[k].total)), ' reported'),
+          el('ul', { class: 'vg-donors' }, [...st[k].committees].sort((a, b) => b.total - a.total).slice(0, 5).map(c =>
+            el('li', {}, `${c.name} `, el('strong', {}, shortMoney(c.total)))))]
+          : emptyNote('No committee reported.')));
+    return [el('div', { class: 'vg-money-sides' }, sides),
+      sourceLine(STATE_MONEY.source.label, st.url, `through ${st.as_of}. Committees active on several props appear under each one.`)];
+  }
+  if (contest.id === 'rtm') return emptyNote('The regional committees report outside SF’s system, so this guide doesn’t cover their money yet.');
+  return emptyNote('No money data for this measure yet.');
+}
+
+function renderMeasureMore(contest) {
+  const a = ANALYSIS?.measures?.[contest.id];
+  return el('details', { class: 'vg-details vg-more' }, el('summary', {}, 'More about this measure'),
+    renderTabs(contest.id, [
+      { key: 'does', label: 'What it does', render: () => renderDetails(contest, true) || emptyNote('No official summary.') },
+      { key: 'money', label: 'Money', render: () => measureMoney(contest) },
+      { key: 'goose', label: 'Average goose', render: () => a?.goose
+          ? [el('p', {}, a.goose), el('p', { class: 'vg-fineprint' }, 'Our plain-English read of the official digest and fiscal analysis. ', ANALYSIS.renter_share_note)]
+          : emptyNote('Coming soon.') },
+      { key: 'tldr', label: 'Seriously TL;DR', render: () => [a?.tldr ? el('p', { class: 'vg-tldr' }, a.tldr) : emptyNote('Coming soon.'), goosebasePosition(contest)] },
+    ]));
+}
+
+// Candidates -------------------------------------------------------------
+function backingGroups(contestId, name) {
+  const pos = BALLOT_POSITIONS[contestId] || {};
+  return GUIDES.guides.filter(g => pos[g.id] && normPosition(pos[g.id]).kind === 'picks' && normPosition(pos[g.id]).value.includes(name));
+}
+
+function candidateMoney(contest, c) {
+  const f = FUNDING?.candidates?.[contest.id]?.[c.name];
+  const outside = MONEY?.candidates?.[contest.id]?.[c.name]?.outside || [];
+  if (!f) return emptyNote('Money for state and federal races is reported to the CA Secretary of State and the FEC, which this guide doesn’t cover yet.');
+  if (f.no_committee && !outside.length) return emptyNote('No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.');
+  const own = (f.total || 0) + (f.public_funds || 0);
+  return [
+    el('div', { class: 'vg-money-sides' },
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'The campaign’s own money'),
+        el('p', {}, el('strong', { class: 'vg-num vg-big' }, shortMoney(own))),
+        el('ul', { class: 'vg-donors' },
+          el('li', {}, `Contributions: ${shortMoney(f.total || 0)}${f.donors ? ` from ${f.donors} donors` : ''}`),
+          f.public_funds ? el('li', {}, `Public financing: ${shortMoney(f.public_funds)}`) : null,
+          f.total ? el('li', {}, `Small donors (≤$${FUNDING.rules.small_candidate}): `, el('strong', {}, floorPct(f.small_pct))) : null,
+          f.total ? el('li', {}, 'Tech / VC donors: ', el('strong', {}, floorPct(f.tech_pct))) : null)),
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'Outside committees'),
+        outside.length ? el('ul', { class: 'vg-donors' }, outside.slice(0, 6).map(o => el('li', {}, `${o.committee} `,
+          o.support ? el('strong', { class: 'vg-for' }, `+${shortMoney(o.support)} for`) : null,
+          o.support && o.oppose ? ' · ' : null,
+          o.oppose ? el('strong', { class: 'vg-against' }, `${shortMoney(o.oppose)} against`) : null)))
+          : emptyNote('None reported.'))),
+    sourceLine('SF Ethics Commission filings (DataSF)', MONEY?.source?.url || FUNDING.source.url,
+      `since ${sinceLabel()}. Public funds: SF Ethics “Total Public Funds Approved”. Outside spending isn’t coordinated with the campaign.`)];
+}
+
+function candidateWho(contest, c) {
+  const a = ANALYSIS?.candidates?.[contest.id]?.[c.name];
+  const groups = backingGroups(contest.id, c.name);
+  const basics = [c.designation, c.party ? `${c.party} Party preference` : null, c.incumbent ? 'Incumbent' : null].filter(Boolean).join(' · ');
+  return [
+    el('p', {}, a?.who || basics || 'No sourced description yet.'),
+    groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
+    a?.source ? sourceLine('KQED voter guide', a.source, '(candidate interviews, questionnaires and debates).') : null];
+}
+
+function candidateTldr(contest, c) {
+  const a = ANALYSIS?.candidates?.[contest.id]?.[c.name];
+  const f = FUNDING?.candidates?.[contest.id]?.[c.name];
+  const groups = backingGroups(contest.id, c.name);
+  // First sentence of the description; a sentence must end on a word with 3+ lowercase letters,
+  // so abbreviations like "Rep." or "Jr." don't cut it short.
+  const firstSentence = t => (t.match(/^.*?[a-z]{3,}[.!?](?=\s|$)/) || [t])[0];
+  const first = a?.who ? firstSentence(a.who) : `${c.designation || 'Candidate'}${c.incumbent ? ' (incumbent)' : ''}.`;
+  const outsideTag = f?.tags?.find(t => t.tag === 'outside-backed');
+  const second = groups.length
+    ? `Recommended by ${groups.slice(0, 3).map(g => g.short).join(', ')}${groups.length > 3 ? ` and ${groups.length - 3} more` : ''}${outsideTag ? `, with ${shortMoney(outsideTag.amount)} in outside support` : ''}.`
+    : outsideTag ? `Backed by ${shortMoney(outsideTag.amount)} in outside support.` : 'None of the groups we track recommends this candidate.';
+  return [el('p', { class: 'vg-tldr' }, `${first} ${second}`), goosebasePosition(contest, c.name)];
+}
+
+function renderCandidateMore(contest, c) {
+  const a = ANALYSIS?.candidates?.[contest.id]?.[c.name];
+  const firstName = c.name.replace(/[“"(].*?[”")]/g, ' ').trim().split(/\s+/)[0];
+  return el('details', { class: 'vg-cand-more' }, el('summary', {}, `More on ${firstName}`),
+    renderTabs(`${contest.id}::${c.name}`, [
+      { key: 'who', label: 'Who?', render: () => candidateWho(contest, c) },
+      { key: 'money', label: 'Money', render: () => candidateMoney(contest, c) },
+      { key: 'goose', label: 'Average goose', render: () => a?.goose
+          ? [el('p', {}, a.goose), sourceLine('KQED voter guide', a.source, '(our summary).')]
+          : emptyNote('We don’t have a sourced summary of this candidate’s positions yet.') },
+      { key: 'tldr', label: 'Seriously TL;DR', render: () => candidateTldr(contest, c) },
+    ]));
 }
 
 // ── contest card ──────────────────────────────────────────────────────────
@@ -389,7 +553,7 @@ function renderContest(contest, section) {
     el('p', { class: 'vg-flash', role: 'status', hidden: true }),
     renderPickBox(contest),
     renderGuideLine(contest),
-    renderDetails(contest));
+    isMeasure ? renderMeasureMore(contest) : renderDetails(contest));
 }
 
 const CONTEST_INDEX = {};        // id → { contest, section }
@@ -897,10 +1061,11 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS] = await Promise.all([
       get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
       get('./data/zip_districts.json'), get('./data/topics.json'),
-      get('./data/funding.json').catch(() => null)]);
+      get('./data/funding.json').catch(() => null), get('./data/money.json').catch(() => null),
+      get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     document.getElementById('ballot').replaceChildren(

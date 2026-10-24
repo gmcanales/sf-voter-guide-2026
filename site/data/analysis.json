@@ -1,0 +1,231 @@
+{
+  "_about": "Plain-English content for the per-measure and per-candidate tabs. Measures: `goose` (what changes for a typical San Franciscan) and `tldr` (two sentences), written ONLY from the official digest, LAO analysis and fiscal statements already cited on each measure. Candidates: `who` and `goose` are paraphrases of KQED's candidate summaries (interviews, questionnaires, debates), linked via `source`. Neutral by rule; Goosebase's opinion lives only in picks.json. Schema: docs/data-model.md.",
+  "renter_share_note": "About 61% of SF households rent (Census QuickFacts, ACS 2019–2023: 38.5% owner-occupied).",
+  "measures": {
+    "prop-1": {
+      "goose": "No new tax on you. The state borrows $11.25B for affordable and veterans' housing and repays $500–600M a year for about 25 years from the general fund, money that would otherwise be available for other state programs. Some of the housing could be built in SF.",
+      "tldr": "Lets California borrow $11.25B for affordable housing, supportive housing and veterans' home loans. Costs the state about $500–600M a year for ~25 years to repay."
+    },
+    "prop-2": {
+      "goose": "Nothing changes in your taxes. The state would save more in good years and keep paying down certain debts longer, which means steadier funding for schools and services in a downturn and less money for new programs in boom years.",
+      "tldr": "Increases how much the state must put into its rainy-day fund. Higher reserves, less to spend in good years."
+    },
+    "prop-3": {
+      "goose": "If you earn under about $371K a year (single filer), nothing changes. If you earn more, the extra income-tax rates you've paid since 2012 stay instead of expiring in 2031. That keeps $5–15B a year flowing to schools and health care.",
+      "tldr": "Makes the 2012 high-income tax rates permanent instead of letting them lapse in 2031. Affects only the top ~2% of earners and preserves $5–15B a year for schools and health care."
+    },
+    "prop-4": {
+      "goose": "No direct effect on your wallet. It lifts the statewide ban on publicly funding campaigns, so the state and cities could create programs. San Francisco already publicly finances some city races; this guide's Money tabs show those funds. State cost: a few hundred thousand dollars a year.",
+      "tldr": "Repeals California's ban on public financing of election campaigns. Governments could choose to create programs, but none is required."
+    },
+    "prop-5": {
+      "goose": "Only matters if a statewide official is recalled. The recall ballot would no longer ask who should replace them. The seat would be filled by a special election or appointment, depending on the office.",
+      "tldr": "Removes the 'who should replace them?' question from statewide recall elections. Vacancies would be filled by special election or appointment instead."
+    },
+    "prop-37": {
+      "goose": "If you're a middle-income Californian buying a newly built home under about $1.5M, you could get a state loan for up to 17% of the price (with at least 3% down). It costs taxpayers nothing directly: the state's up to $25B in bonds are repaid by borrowers.",
+      "tldr": "Creates a state loan program to help middle-income buyers afford newly built homes. Funded by up to $25B in revenue bonds repaid by homeowners, not taxpayers."
+    },
+    "prop-38": {
+      "goose": "No new tax. The state borrows $8.4B for immunology research, half to a single UC-affiliated nonprofit institute and half to grants, and repays $500–600M a year for about 20 years, possibly offset if the research earns revenue.",
+      "tldr": "Lets the state borrow $8.4B for immunology and immunotherapy research. Repayment costs about $500–600M a year for ~20 years."
+    },
+    "prop-39": {
+      "goose": "Each time you vote you'd have to give additional identifying information, such as a government-issued ID, instead of your signature alone establishing who you are. Implementation would cost state and local governments tens of millions to low hundreds of millions of dollars a year.",
+      "tldr": "Requires voters to present government-issued ID or other identifying information every time they vote. Costs tens to hundreds of millions of dollars a year to implement."
+    },
+    "prop-40": {
+      "goose": "Unless your net worth is over $1 billion, you don't pay it. A few hundred California billionaires would owe a one-time 5% tax on their wealth, raising tens of billions over several years, mainly for health care. The state could lose under $1B a year in income tax if some billionaires leave.",
+      "tldr": "One-time 5% wealth tax on California billionaires, mostly to fund health care. Raises tens of billions over several years; could reduce income-tax revenue if billionaires move."
+    },
+    "prop-41": {
+      "goose": "No tax you pay today changes. Future special-tax initiatives would get a State Auditor review before reaching the ballot, programs funded by special taxes would be audited regularly, and new taxes couldn't be kept outside the state spending limit.",
+      "tldr": "Adds audits for special-tax programs and keeps new state taxes inside the voter-approved spending limit. Makes some future taxes harder to use for new spending."
+    },
+    "prop-42": {
+      "goose": "No tax you pay today changes. The state could never create a new tax on owning financial assets or other personal property, such as a wealth tax on stocks or savings, and certain retroactive taxes would be barred.",
+      "tldr": "Bans new state taxes on owning financial assets or personal property, plus some retroactive taxes. Existing taxes stay."
+    },
+    "prop-43": {
+      "goose": "No tax you pay today changes. Certain local taxes that can now pass with a simple majority would need two-thirds of voters, making it harder for San Francisco to raise money for local services through the ballot.",
+      "tldr": "Raises the vote needed for certain local taxes from a majority to two-thirds. Makes new local revenue measures harder to pass."
+    },
+    "prop-44": {
+      "goose": "If you use a nonprofit community health clinic, the clinic would have to spend at least 90% of its revenue each year on health care services. State oversight costs are in the low tens of millions a year, covered by fees.",
+      "tldr": "Requires certain nonprofit health clinics to spend at least 90% of revenue on patient services. The official guide lists no supporters; medical groups including the California Medical Association oppose it."
+    },
+    "prop-45": {
+      "goose": "Housing, infrastructure and other projects could get through environmental review faster, with tighter deadlines and narrower court challenges. That could mean quicker building and fewer chances to contest a project near you. Initial government costs are likely in the high tens of millions a year, partly covered by fees.",
+      "tldr": "Speeds up and narrows environmental review (CEQA) and lawsuits for certain projects. Faster approvals versus less room to challenge projects."
+    },
+    "rtm": {
+      "goose": "You'd pay an extra 1% sales tax on taxable purchases in SF for 14 years, about $1 on every $100. The money funds BART, Muni, Caltrain and other operators to prevent service cuts. Like all sales taxes, it takes a bigger share of lower incomes.",
+      "tldr": "A 14-year regional sales tax (1% in SF, 0.5% in four other counties) to keep Bay Area transit running. About $980M a year regionwide."
+    },
+    "prop-a": {
+      "goose": "Little direct effect on you. The city eliminates, merges or moves dozens of commissions and advisory bodies out of the Charter, saving $365–450K a year, and the Board of Supervisors can change more of them later without a vote.",
+      "tldr": "Charter cleanup that eliminates or reorganizes commissions and moves several out of voter control. Saves about $365–450K a year; opponents say it weakens public oversight."
+    },
+    "prop-b": {
+      "goose": "No immediate cost. It authorizes, but doesn't fund, a city lending corporation that could later become a public bank for affordable housing and small businesses. If the city builds one, the Controller estimates $310–460M over eight years.",
+      "tldr": "Authorizes San Francisco to create a municipal finance corporation and later a public bank. No money is spent unless the city later funds it."
+    },
+    "prop-c": {
+      "goose": "No new tax. More of the city's general fund, growing to about $60M extra a year by 2034–35, goes to the Housing Trust Fund for affordable housing, leaving less for other services. Down-payment help would reach households earning up to 200% of area median income.",
+      "tldr": "Increases and extends the city's yearly Housing Trust Fund contributions toward $125M through 2058. Shifts general-fund money to affordable housing without raising taxes."
+    },
+    "prop-d": {
+      "goose": "Fewer local measures on your ballot. Citizen initiatives would need 8% of registered voters to sign (about 42,500 people, up from about 10,600), and the Mayor or four Supervisors could no longer place measures on their own.",
+      "tldr": "Makes it much harder to put measures on SF ballots and removes the Mayor's and four Supervisors' power to place them. Supporters: shorter ballots. Opponents: less citizen access."
+    },
+    "prop-e": {
+      "goose": "Little direct effect on you. City purchasing rules are centralized under the City Administrator, contracts up to $25M (from $10M) skip Board of Supervisors approval, and the Administrator's term doubles to 10 years.",
+      "tldr": "Gives the City Administrator more control over city contracting and raises the Board-approval threshold to $25M. Efficiency versus less oversight of big contracts."
+    },
+    "prop-f": {
+      "goose": "Little direct effect on you. The Mayor gets more power to reorganize departments, hire deputy mayors, and hire some and fire most department heads, with commissions playing a smaller role.",
+      "tldr": "Expands the Mayor's authority over city departments and department heads. Clearer accountability versus fewer checks on the Mayor."
+    },
+    "prop-g": {
+      "goose": "If you use Sunset Dunes Park or drive the west side: the Upper Great Highway would reopen to cars on weekdays and the park would be closed to recreation then. The Controller estimates about $9.8M in one-time costs plus $0.5–1.9M a year.",
+      "tldr": "Reopens the Upper Great Highway to private cars on weekdays, closing Sunset Dunes Park those days. Costs about $9.8M up front plus $0.5–1.9M a year."
+    },
+    "prop-h": {
+      "goose": "If you own SF property you'd pay a new annual parcel tax for 15 years, starting at $129 for a single-family home (most owners 65+ pay less or nothing). If you rent a rent-controlled unit, your landlord can pass through up to $65 a year. The money funds Muni service, about $177M a year.",
+      "tldr": "A 15-year parcel tax, scaled by property type and size, that raises about $177M a year for Muni. Commercial property pays the most."
+    },
+    "prop-i": {
+      "goose": "Most people pay nothing new. Half of the transfer tax the city already collects on property sales over $10M would be permanently dedicated to affordable and social housing and housing assistance, so that money can't be used for other city needs. The Controller estimates about a $1M yearly decrease in overall city revenue.",
+      "tldr": "Permanently dedicates half of the transfer tax on $10M+ property sales to affordable and social housing. Locks in housing money; less budget flexibility."
+    },
+    "prop-j": {
+      "goose": "No effect on typical homeowners: small residential buildings keep their exemption. Lenders taking commercial, industrial or large residential properties in foreclosure would pay the transfer tax, an estimated $100–150M a year for the city, though the amount will swing year to year.",
+      "tldr": "Ends the transfer-tax exemption for foreclosures on commercial and large residential properties. Raises an estimated $100–150M a year."
+    }
+  },
+  "candidates": {
+    "sup-8": {
+      "Gary McCoy": {
+        "who": "Former political director for Rep. Nancy Pelosi. Experienced homelessness in SF in his 20s.",
+        "goose": "Wants more homes at all income levels, naming apartments at the old Pottery Barn site and Castro Safeway, plus permitting and fee changes and support for small and legacy businesses. On homelessness he proposes a block-by-block approach connecting people to treatment and housing. Supports the November transit-funding measures.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-8th-district"
+      },
+      "Michael T. Nguyen": {
+        "who": "Patent attorney.",
+        "goose": "Focused on social-housing legislation (affordable, mixed-income, city-owned homes outside the private market), universal childcare, a public bank and commercial rent control. Favors harm reduction and housing-first on homelessness, and expanding free Muni for riders under 26.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-8th-district"
+      },
+      "Darshini Patel": {
+        "who": "Community advocate.",
+        "goose": "Wants the 20,000+ approved-but-stalled homes built, with a public housing pipeline tracker and enforceable timelines, faster childcare-subsidy enrollment and vacancy-tax enforcement. Prioritizes homelessness prevention, and wants route-level Muni performance data and dedicated bus lanes.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-8th-district"
+      },
+      "Emanuel “Manny” Yekutiel": {
+        "who": "Founder and owner of Manny's. Ended his campaign in early October after multiple sexual-assault allegations, which he denied. His name remains on the ballot.",
+        "goose": "Before ending his campaign he proposed 10,000 new homes in D8 through by-right approvals and a Market Street housing priority district, universal free childcare, more bus-only lanes, and faster expansion of short-term care for people on the street.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-8th-district"
+      }
+    },
+    "sup-10": {
+      "Pearci “PJ” Bastiany III": {
+        "who": "MPA graduate student and small business owner.",
+        "goose": "Priorities: housing stability, environmental justice and community safety. Calls for a complete, independently reviewed Hunters Point Shipyard cleanup and opposes housing on affected parcels without verified cleanup.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Dionjay (DJ) Brookter": {
+        "who": "Former CEO of Young Community Developers.",
+        "goose": "Priorities: housing stability and affordable housing production, economic opportunity, stronger public schools and more effective city government. Makes the shipyard cleanup a top priority: 'the burden is on the government to prove' the land is safe.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Deandra Bryant": {
+        "who": "Emergency-housing case manager and advocate for children with disabilities. Lifelong D10 resident.",
+        "goose": "Priorities: local jobs, community safety and violence prevention. Wants independent, credible shipyard testing and a meaningful resident role in oversight.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Theo Ellington": {
+        "who": "Executive director of the Bayview Opera House. Third-generation San Franciscan from Bayview who lives within the shipyard's footprint.",
+        "goose": "Centers housing, transportation and economic development, wanting new homes' 'affordability [to start] with the people already here', and backs a regional transit funding measure. Insists on independent verification of shipyard testing before any land transfer.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "J.R. Eppler": {
+        "who": "Small business attorney and Potrero Hill resident.",
+        "goose": "Priorities: housing, transit and infrastructure ('complete, vibrant and connected neighborhoods'), including street cleaning and grocery access in an overlooked district. Wants the highest cleanup standards near homes.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Mike Trouble Lin": {
+        "who": "Small-business consultant with a tech user-research background. D10 resident since 1998.",
+        "goose": "Priorities: more homes near transit, art to draw people to merchant corridors, and beat cops plus smart technology for safety. On the shipyard: no permits or groundbreaking until independent soil testing.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Shawn M. Richard": {
+        "who": "CEO and executive director of Brothers Against Guns.",
+        "goose": "Priorities: public safety, economic development with good-paying jobs, and housing stability as development arrives. Would open a satellite office and push for shipyard transparency.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Ellsworth “Ell” M. Jennison, Jr.": {
+        "who": "Carpenter who has lived in the district for 48 years.",
+        "goose": "Wants higher teacher wages, a district music program and a Bayview grocery store. Would use the rest of the shipyard for industrial and green-energy uses, 'not housing'.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      },
+      "Jamo Muhammad": {
+        "who": "CEO of the We Got Winners Big Brother program.",
+        "goose": "Priorities: opportunities for young people and public safety. Wants residents' concerns heard as development pressure grows, and a serious look at whether the shipyard can ever be fully cleaned up.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+      }
+    },
+    "us-rep-11": {
+      "Connie Chan": {
+        "who": "San Francisco Supervisor and former Board budget chair.",
+        "goose": "On affordability: repeal the federal ban on net new public housing, expand housing tax credits and Section 8 vouchers, renter tax deductions and stronger tenant protections. Supports taxing fortunes over $50M and a data-center moratorium until ratepayer and grid protections exist.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district"
+      },
+      "Scott Wiener": {
+        "who": "State senator who authored the nation's first AI safety law.",
+        "goose": "Sees housing shortage as the core of the affordability crisis and wants to cut red tape to build 8 million homes nationally, plus stronger renter protections. Supports Sen. Warren's ultramillionaire tax and taxing AI profits; opposes a blanket data-center moratorium.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/congress-11th-district"
+      }
+    },
+    "board-of-education": {
+      "Autumn Brown Garibay": {
+        "who": "Executive vice president of the Flynn Elementary PTA.",
+        "goose": "Supports neighborhood-school access paired with equitable investment, and believes some school closures may be necessary. Wants better communication with families about student progress and more teacher training.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Virginia Cheung": {
+        "who": "Public school parent and nonprofit executive.",
+        "goose": "Prioritizes family choice and equitable schools and supports a zone-based assignment system. Sees a need to consolidate some resources, and wants language programs (like a K-8 Mandarin immersion school), arts and STEM to attract families.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Alida Fisher": {
+        "who": "Current member of the San Francisco Board of Education.",
+        "goose": "Says SFUSD's 14,000 empty seats require a closure process aimed at fewer, better-resourced schools. Supports stricter tech and phone limits and opposes the district's AI reading tools.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Ryan Hazelton": {
+        "who": "Executive director of Mariposa Kids.",
+        "goose": "Supports a zone-based, close-to-home assignment system with more equitable resourcing, and a bell-to-bell smartphone ban. Wants spending tied explicitly to the board's goals, and closures only to improve schools, not to fill budget gaps.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Phil Kim": {
+        "who": "President of the San Francisco Board of Education.",
+        "goose": "Wants consolidation without mass closures, with more transparency than the 2024 attempt. Backs expanded specialized programs and transitional kindergarten, and plans a device/phone/AI policy committee.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Laurance Lee": {
+        "who": "Small business owner who volunteers weekly at Drew Elementary.",
+        "goose": "Puts district finances first and is open to consolidation if it pays off. Opposes delaying the reading and math goals and wants to cut low-impact programs.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Reina Tello": {
+        "who": "Community organizer and public school parent.",
+        "goose": "Wants great neighborhood schools by moving resources and programs closer to families, plus full-time nurses to diagnose learning disabilities. Argues the district hasn't done the community work needed before any closures.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      },
+      "Tim Tung": {
+        "who": "Public finance analyst.",
+        "goose": "Says SFUSD spreads resources too thin across too many schools, and supports a zone-based system that keeps some choice. Calls the 2028 achievement goals 'perhaps unrealistic' and favors retaining students through stronger specialized programs.",
+        "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
+      }
+    }
+  }
+}

@@ -949,6 +949,24 @@
             {
               "name": "Shawn M. Richard",
               "surname": "Richard"
+            },
+            {
+              "name": "Ellsworth “Ell” M. Jennison, Jr.",
+              "surname": "Jennison",
+              "note": "Listed by KQED but not in the official pamphlet (no candidate statement). Confirm on your sample ballot.",
+              "note_source": {
+                "label": "KQED voter guide, Supervisor District 10",
+                "url": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+              }
+            },
+            {
+              "name": "Jamo Muhammad",
+              "surname": "Muhammad",
+              "note": "Listed by KQED but not in the official pamphlet (no candidate statement). Confirm on your sample ballot.",
+              "note_source": {
+                "label": "KQED voter guide, Supervisor District 10",
+                "url": "https://www.kqed.org/voterguide/sanfrancisco/supervisor-10th-district"
+              }
             }
           ]
         }

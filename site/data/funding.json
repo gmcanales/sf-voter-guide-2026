@@ -17,6 +17,10 @@
   "outside_ratio": 1.0,
   "outside_min": 10000
  },
+ "public_funds_source": {
+  "label": "SF Ethics: Total Public Funds Approved, Nov 3 2026",
+  "url": "https://data.sf.gov/d/5sxz-kk66"
+ },
  "guides": {
   "growsf": {
    "total": 990094,
@@ -339,12 +343,12 @@
     "donors": 683,
     "small_pct": 0.072,
     "tech_pct": 0.045,
-    "outside_support": 848295,
+    "outside_support": 847795,
     "outside_oppose": 24754,
     "tags": [
      {
       "tag": "outside-backed",
-      "amount": 848295
+      "amount": 847795
      }
     ]
    }
@@ -362,7 +366,7 @@
     "donors": 339,
     "small_pct": 0.072,
     "tech_pct": 0.033,
-    "outside_support": 31937,
+    "outside_support": 21437,
     "outside_oppose": 0,
     "tags": []
    }
@@ -373,12 +377,13 @@
     "donors": 420,
     "small_pct": 0.161,
     "tech_pct": 0.047,
-    "outside_support": 512292,
+    "outside_support": 511992,
     "outside_oppose": 23011,
+    "public_funds": 239292,
     "tags": [
      {
       "tag": "outside-backed",
-      "amount": 512292
+      "amount": 511992
      }
     ]
    },
@@ -389,6 +394,7 @@
     "tech_pct": 0.069,
     "outside_support": 874,
     "outside_oppose": 0,
+    "public_funds": 133974,
     "tags": []
    },
    "Darshini Patel": {
@@ -398,20 +404,17 @@
     "tech_pct": 0.1,
     "outside_support": 69187,
     "outside_oppose": 0,
-    "tags": [
-     {
-      "tag": "outside-backed",
-      "amount": 69187
-     }
-    ]
+    "public_funds": 119235,
+    "tags": []
    },
    "Emanuel “Manny” Yekutiel": {
     "total": 527880,
     "donors": 1401,
     "small_pct": 0.035,
     "tech_pct": 0.063,
-    "outside_support": 500,
-    "outside_oppose": 0,
+    "outside_support": 181303,
+    "outside_oppose": 78342,
+    "public_funds": 255000,
     "tags": []
    }
   },
@@ -428,8 +431,9 @@
     "donors": 312,
     "small_pct": 0.128,
     "tech_pct": 0.035,
-    "outside_support": 300,
+    "outside_support": 800,
     "outside_oppose": 0,
+    "public_funds": 94200,
     "tags": []
    },
    "Deandra Bryant": {
@@ -445,6 +449,7 @@
     "tech_pct": 0.052,
     "outside_support": 678322,
     "outside_oppose": 0,
+    "public_funds": 255000,
     "tags": [
      {
       "tag": "outside-backed",
@@ -457,6 +462,9 @@
     "donors": 206,
     "small_pct": 0.161,
     "tech_pct": 0.052,
+    "outside_support": 500,
+    "outside_oppose": 3200,
+    "public_funds": 123042,
     "tags": []
    },
    "Mike Trouble Lin": {
@@ -470,6 +478,16 @@
    },
    "Shawn M. Richard": {
     "total": 0,
+    "tags": []
+   },
+   "Ellsworth “Ell” M. Jennison, Jr.": {
+    "total": 0,
+    "no_committee": true,
+    "tags": []
+   },
+   "Jamo Muhammad": {
+    "total": 0,
+    "no_committee": true,
     "tags": []
    }
   }

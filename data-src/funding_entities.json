@@ -1,33 +1,165 @@
 {
   "_about": "Which SF Ethics committees (filer_nid, from DataSF dataset 4c8t-ngau) belong to each guide and local candidate. Used by tools/funding_tags.py. Candidates with an empty list have no SF campaign committee on file: they may have raised under the $2,000 filing threshold, or filed elsewhere.",
   "guides": {
-    "growsf": [201619433, 214884140, 215852865, 214918275],
-    "sflc": [6673767, 6673760, 6673414],
-    "sfchamber": [6668151],
-    "league": [157471084]
+    "growsf": [
+      201619433,
+      214884140,
+      215852865,
+      214918275
+    ],
+    "sflc": [
+      6673767,
+      6673760,
+      6673414
+    ],
+    "sfchamber": [
+      6668151
+    ],
+    "league": [
+      157471084
+    ]
   },
   "candidates": {
     "board-of-education": {
-      "Autumn Brown Garibay": [216837806], "Virginia Cheung": [217292166, 216603754], "Alida Fisher": [216963896],
-      "Ryan Hazelton": [216824591], "Phil Kim": [214769736, 214769651], "Laurance Lee": [215729166],
-      "Reina Tello": [216584147], "Tim Tung": [217052017]
+      "Autumn Brown Garibay": [
+        216837806
+      ],
+      "Virginia Cheung": [
+        217292166,
+        216603754
+      ],
+      "Alida Fisher": [
+        216963896
+      ],
+      "Ryan Hazelton": [
+        216824591
+      ],
+      "Phil Kim": [
+        214769736,
+        214769651
+      ],
+      "Laurance Lee": [
+        215729166
+      ],
+      "Reina Tello": [
+        216584147
+      ],
+      "Tim Tung": [
+        217052017
+      ]
     },
     "ccb-full": {
-      "Elijah Ball": [216963991], "Rome Moses Jones": [], "Monroe Lace": [217090585], "Leah LaCroix": [217141405],
-      "Jeremy Lee": [217234321], "Bunny McFadden": [217230804], "Erwin Tam": [217090483], "Lisa Palagi Wynn II": []
+      "Elijah Ball": [
+        216963991
+      ],
+      "Rome Moses Jones": [],
+      "Monroe Lace": [
+        217090585
+      ],
+      "Leah LaCroix": [
+        217141405
+      ],
+      "Jeremy Lee": [
+        217234321
+      ],
+      "Bunny McFadden": [
+        217230804
+      ],
+      "Erwin Tam": [
+        217090483
+      ],
+      "Lisa Palagi Wynn II": []
     },
-    "ccb-partial": { "Ruth Ferguson": [217168240] },
-    "bart-8": { "Sara Barz": [] },
-    "assessor": { "Joaquín Torres": [215593851] },
-    "public-defender": { "Mano Raju": [215424978] },
-    "sup-2": { "Guy McCoy": [], "Monthanus Ratanapakdee": [217527850, 214895723], "Stephen Sherrill": [213987622, 214620516] },
-    "sup-4": { "Albert Chow": [215019694, 216878122], "Jeremy Julian Greco": [216781160, 214951144], "Alan Wong": [215112140, 216198377] },
-    "sup-6": { "Alex Behrend": [216883068], "Matt Dorsey": [215579031] },
-    "sup-8": { "Gary McCoy": [214783692], "Michael T. Nguyen": [214884831], "Darshini Patel": [215728828], "Emanuel “Manny” Yekutiel": [214772801] },
+    "ccb-partial": {
+      "Ruth Ferguson": [
+        217168240
+      ]
+    },
+    "bart-8": {
+      "Sara Barz": []
+    },
+    "assessor": {
+      "Joaquín Torres": [
+        215593851
+      ]
+    },
+    "public-defender": {
+      "Mano Raju": [
+        215424978
+      ]
+    },
+    "sup-2": {
+      "Guy McCoy": [],
+      "Monthanus Ratanapakdee": [
+        217527850,
+        214895723
+      ],
+      "Stephen Sherrill": [
+        213987622,
+        214620516
+      ]
+    },
+    "sup-4": {
+      "Albert Chow": [
+        215019694,
+        216878122
+      ],
+      "Jeremy Julian Greco": [
+        216781160,
+        214951144
+      ],
+      "Alan Wong": [
+        215112140,
+        216198377
+      ]
+    },
+    "sup-6": {
+      "Alex Behrend": [
+        216883068
+      ],
+      "Matt Dorsey": [
+        215579031
+      ]
+    },
+    "sup-8": {
+      "Gary McCoy": [
+        214783692
+      ],
+      "Michael T. Nguyen": [
+        214884831
+      ],
+      "Darshini Patel": [
+        215728828
+      ],
+      "Emanuel “Manny” Yekutiel": [
+        214772801
+      ]
+    },
     "sup-10": {
-      "Pearci “PJ” Bastiany III": [214611048], "Dionjay (DJ) Brookter": [214443884], "Deandra Bryant": [216594252],
-      "Theo Ellington": [214808596], "J.R. Eppler": [214577156], "Mike Trouble Lin": [], "Jessica Pessecow": [217729919],
-      "Shawn M. Richard": [216767735]
+      "Pearci “PJ” Bastiany III": [
+        214611048
+      ],
+      "Dionjay (DJ) Brookter": [
+        214443884
+      ],
+      "Deandra Bryant": [
+        216594252
+      ],
+      "Theo Ellington": [
+        214808596
+      ],
+      "J.R. Eppler": [
+        214577156
+      ],
+      "Mike Trouble Lin": [],
+      "Jessica Pessecow": [
+        217729919
+      ],
+      "Shawn M. Richard": [
+        216767735
+      ],
+      "Ellsworth “Ell” M. Jennison, Jr.": [],
+      "Jamo Muhammad": []
     }
   }
 }
