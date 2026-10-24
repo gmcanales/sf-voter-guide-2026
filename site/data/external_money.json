@@ -1,4 +1,19 @@
 {
+ "built": "2026-10-24",
+ "sources": {
+  "state": {
+   "label": "CA Secretary of State, Cal-Access bulk export",
+   "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+  },
+  "federal": {
+   "label": "Federal Election Commission (FEC) API",
+   "url": "https://www.fec.gov/data/"
+  }
+ },
+ "rules": {
+  "small_state": "Unitemized contributions (under $100) as a share of all contributions",
+  "small_federal": "Unitemized individual contributions (under $200) as a share of individual contributions"
+ },
  "candidates": {
   "governor": {
    "Xavier Becerra": {
@@ -674,6 +689,107 @@
     "small_pct": 0.079,
     "through": "2026-10-17"
    }
+  },
+  "us-rep-11": {
+   "Connie Chan": {
+    "total": 2404664,
+    "pac": 253500,
+    "small_pct": 0.101,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "Pro-Choice Majority Action",
+      "support": 475000,
+      "oppose": 0
+     },
+     {
+      "committee": "Sf Solidarity Pac",
+      "support": 178310,
+      "oppose": 0
+     },
+     {
+      "committee": "Sf For All",
+      "support": 104575,
+      "oppose": 0
+     },
+     {
+      "committee": "Asians American For Representation",
+      "support": 11500,
+      "oppose": 0
+     },
+     {
+      "committee": "A Fight Worth Having",
+      "support": 0,
+      "oppose": 10945
+     },
+     {
+      "committee": "Working Families Party Pac",
+      "support": 3385,
+      "oppose": 0
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H6CA11268/?cycle=2026"
+   },
+   "Scott Wiener": {
+    "total": 5808855,
+    "pac": 154907,
+    "small_pct": 0.038,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "Equality Pac",
+      "support": 1065000,
+      "oppose": 0
+     },
+     {
+      "committee": "Equality California Votes",
+      "support": 100000,
+      "oppose": 0
+     },
+     {
+      "committee": "J Street Action Fund",
+      "support": 60000,
+      "oppose": 0
+     },
+     {
+      "committee": "Common Sense Sf",
+      "support": 0,
+      "oppose": 30200
+     },
+     {
+      "committee": "San Francisco Democratic County Central Committee",
+      "support": 20596,
+      "oppose": 0
+     },
+     {
+      "committee": "A Fight Worth Having",
+      "support": 0,
+      "oppose": 10945
+     },
+     {
+      "committee": "Alice B. Toklas Lgbtq Democratic Club Federal Pac",
+      "support": 1754,
+      "oppose": 0
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H8CA11116/?cycle=2026"
+   }
+  },
+  "us-rep-15": {
+   "Kevin Mullin": {
+    "total": 981645,
+    "pac": 562212,
+    "small_pct": 0.04,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H2CA14162/?cycle=2026"
+   },
+   "Charles Hoelter": {
+    "total": 0,
+    "no_committee": true,
+    "outside": [],
+    "note": "No FEC filings this cycle (candidates who raise under $5,000 don’t have to register)."
+   }
   }
  },
  "judicial": {
@@ -715,17 +831,6 @@
   },
   "coa-1-5-burns": {
    "committees": []
-  }
- },
- "built": "2026-10-24",
- "sources": {
-  "state": {
-   "label": "CA Secretary of State, Cal-Access bulk export",
-   "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
-  },
-  "federal": {
-   "label": "Federal Election Commission (FEC) API",
-   "url": "https://www.fec.gov/data/"
   }
  }
 }

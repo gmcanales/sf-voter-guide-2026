@@ -1,0 +1,2165 @@
+[
+ {
+  "code": "2000",
+  "title": "Governor",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Xavier Becerra",
+    "party": "DEM",
+    "designation": "Voting Rights Attorney"
+   },
+   {
+    "name": "Steve Hilton",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2005",
+  "title": "Lieutenant Governor",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Fiona Ma",
+    "party": "DEM",
+    "designation": "State Treasurer / CPA"
+   },
+   {
+    "name": "Gloria Romero",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2010",
+  "title": "Secretary of State",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Shirley N. Weber",
+    "party": "DEM",
+    "designation": "California Secretary of State"
+   },
+   {
+    "name": "Donald P. (Don) Wagner",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2015",
+  "title": "Controller",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Malia M. Cohen",
+    "party": "DEM",
+    "designation": "State Controller / Mother"
+   },
+   {
+    "name": "Herb W Morgan",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2020",
+  "title": "Treasurer",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Eleni Kounalakis",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Jennifer Hawks",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2025",
+  "title": "Attorney General",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Rob Bonta",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Michael E. Gates",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2030",
+  "title": "Insurance Commissioner",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Ben Allen",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Jane Kim",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2035",
+  "title": "Member, State Board of Equalization, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Sally J. Lieber",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "John Pimentel",
+    "party": "DEM",
+    "designation": "Yes - 7/30/2026"
+   }
+  ]
+ },
+ {
+  "code": "2203",
+  "title": "U.S. Representative, District 15",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Kevin Mullin",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Charles Hoelter",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2204",
+  "title": "U.S. Representative, District 16",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Sam Liccardo",
+    "party": "DEM",
+    "designation": "United States Representative"
+   },
+   {
+    "name": "Peter Sundin Soulé",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2404",
+  "title": "Member of the State Assembly, District 19",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Catherine Stefani",
+    "party": "DEM",
+    "designation": "Assemblymember"
+   },
+   {
+    "name": "Philip Louis Wing",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2405",
+  "title": "Member of the State Assembly, District 21",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Diane Papan",
+    "party": "DEM",
+    "designation": "California State Assemblymember"
+   },
+   {
+    "name": "Jabra J Muhawieh",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "2406",
+  "title": "Member of the State Assembly, District 23",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Marc Berman",
+    "party": "DEM",
+    "designation": "State Assemblymember"
+   },
+   {
+    "name": "David G. Johnson",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3000",
+  "title": "Superintendent of Public Instruction",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Richard Barrera",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sonja Shaw",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3020",
+  "title": "County Board of Education Member, Trustee Area 1",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Susan Alvaro",
+    "party": "",
+    "designation": "Yes - 8/05/2026"
+   },
+   {
+    "name": "Beverly Gerard",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dana Johnson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3022",
+  "title": "County Board of Education Member, Trustee Area 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "John C. Baker",
+    "party": "",
+    "designation": "San Mateo County Community College District Member, Governing Board, Trustee Area 2"
+   },
+   {
+    "name": "Mike Guingona",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jason Holt",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Richard Holober",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3202",
+  "title": "Cabrillo Unified School District Member, Governing Board, Trustee Area A",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Kyle Ekberg",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3204",
+  "title": "Cabrillo Unified School District Member, Governing Board, Trustee Area C",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Peter Tokofsky",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Lizet Cortes-Ronquillo",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3206",
+  "title": "Cabrillo Unified School District Member, Governing Board, Trustee Area E",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Mary Beth Alexander",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Andrea Rosenthal",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3221",
+  "title": "La Honda-Pescadero Unified School District Member, Governing Board",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Deborah Walter-Rosas",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3244",
+  "title": "South San Francisco Unified School District Member, Governing Board, Trustee Area C",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Chialin Hsieh",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Avin Sharma",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3245",
+  "title": "South San Francisco Unified School District Member, Governing Board, Trustee Area D",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Amanda Anthony",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3246",
+  "title": "South San Francisco Unified School District Member, Governing Board, Trustee Area E",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Frank Lara",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mina A. Richardson",
+    "party": "",
+    "designation": "SSFUSD Trustee"
+   }
+  ]
+ },
+ {
+  "code": "3300",
+  "title": "Jefferson Union High School District Member, Governing Board (Full Term)",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Lasaundra A. Gutter",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Rosie Tejada",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sherrett Walker",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3301",
+  "title": "Jefferson Union High School District Member, Governing Board (Short Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Joelle M. Castoreno",
+    "party": "",
+    "designation": "Yes - 8/07/2026"
+   },
+   {
+    "name": "Teri L. Chavez",
+    "party": "",
+    "designation": "Yes - 8/07/2026"
+   },
+   {
+    "name": "Diana Harris",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jennifer Jacobson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kimo Rosenbaum",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alison Proctor",
+    "party": "",
+    "designation": "San Mateo-Foster City School District Trustee"
+   },
+   {
+    "name": "Amy Koo",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alon Shiran",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3345",
+  "title": "Sequoia Union High School District Member, Governing Board, Trustee Area D",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Michael Dekshenieks",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sathvik Nori",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3400",
+  "title": "Bayshore Elementary School District Member, Governing Board (Full Term)",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Gloria Karina Ferrusca",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "David T. Rudolph",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jane W. Camarco",
+    "party": "",
+    "designation": "Belmont-Redwood Shores School District Member, Governing Board, Trustee Area 1"
+   },
+   {
+    "name": "Charles Shagong",
+    "party": "",
+    "designation": "Yes - 7/29/2026"
+   }
+  ]
+ },
+ {
+  "code": "3424",
+  "title": "Belmont-Redwood Shores School District Member, Governing Board, Trustee Area 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "David A. Koss",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3440",
+  "title": "Brisbane School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Charlene Larson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Morgan Finlay",
+    "party": "",
+    "designation": "Yes - 7/17/2026"
+   },
+   {
+    "name": "Emily Wirowek",
+    "party": "",
+    "designation": "Yes - 8/05/2026"
+   },
+   {
+    "name": "Sarah Duffy",
+    "party": "",
+    "designation": "Yes - 8/05/2026"
+   }
+  ]
+ },
+ {
+  "code": "3462",
+  "title": "Burlingame School District Member, Governing Board, Trustee Area 1",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Semonti Stephens",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3465",
+  "title": "Burlingame School District Member, Governing Board, Trustee Area 4",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Laura Bull",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3480",
+  "title": "Hillsborough City School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Gilbert Wai",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "An Huang Chen",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Don Geddis",
+    "party": "",
+    "designation": "Jefferson Elementary School District Member, Governing Board (Full Term)"
+   },
+   {
+    "name": "Aaron Rashba",
+    "party": "",
+    "designation": "Daly City, CA 94015"
+   },
+   {
+    "name": "Anthony Tsujisaka",
+    "party": "",
+    "designation": "Incumbent"
+   },
+   {
+    "name": "Shakeel Ali",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3501",
+  "title": "Jefferson Elementary School District Member, Governing Board (Short Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Eileen R. Policarpio",
+    "party": "",
+    "designation": "Yes - 7/17/2026"
+   },
+   {
+    "name": "Gautam Nadella",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Heather Hopkins",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Erin K. Tiedens",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3541",
+  "title": "Menlo Park City School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Jed Scolnick",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Maya Herstein",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sherwin Chen",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Andrew Barnes",
+    "party": "",
+    "designation": "County of Santa Clara Facilities Professional"
+   }
+  ]
+ },
+ {
+  "code": "3561",
+  "title": "Millbrae Elementary School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Claire Beltrami",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Denis Fama",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Nnenna C. Okezie-Sanchez",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3580",
+  "title": "Pacifica School District Member, Governing Board (Full Term)",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Bridget Hardt",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Rachel Durkin",
+    "party": "",
+    "designation": "Yes - 7/31/2026"
+   },
+   {
+    "name": "Grace Sobieski",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Tiffany Button",
+    "party": "",
+    "designation": "Yes - 8/04/2026"
+   },
+   {
+    "name": "Christopher Swiedler",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Katy Bradley",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Laverne R Villalobos",
+    "party": "",
+    "designation": "Yes - 7/31/2026"
+   }
+  ]
+ },
+ {
+  "code": "3581",
+  "title": "Pacifica School District Member, Governing Board (Short Term)",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Kelly Mendoza",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Tracey Simmons",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Elizabeth A. Bredall",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3601",
+  "title": "Portola Valley School District Member, Governing Board",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Robert Kx Jin",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Aimee Armsby",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3620",
+  "title": "Ravenswood City School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Laura Nunez",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mele Kasavu Latu",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Tamara Sobomehin",
+    "party": "",
+    "designation": "Yes - 7/20/2026"
+   },
+   {
+    "name": "David E. Weekly",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3646",
+  "title": "Redwood City School District Member, Governing Board, Trustee Area 5",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Cecilia I. Marquez",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3663",
+  "title": "San Bruno Park School District Member, Governing Board, Trustee Area 2",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Denise Cook",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3664",
+  "title": "San Bruno Park School District Member, Governing Board, Trustee Area 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Duane Beadles",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "3720",
+  "title": "San Bruno Park School District Member, Governing Board, Trustee Area 5",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Raymond Giusti",
+    "party": "",
+    "designation": "San Carlos School District Member, Governing Board"
+   },
+   {
+    "name": "Boris Lipkin",
+    "party": "",
+    "designation": "Appointed San Carlos School District Member, Governing Board"
+   },
+   {
+    "name": "Richard F. Wahl",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Megha Chawla",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Shivani Tripathi",
+    "party": "",
+    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 1 (Full Term)"
+   },
+   {
+    "name": "Allyson Chan",
+    "party": "",
+    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 2 (Full Term)"
+   },
+   {
+    "name": "Sabrina Ocampo",
+    "party": "",
+    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 3 (Short Term)"
+   },
+   {
+    "name": "Stacey Ho",
+    "party": "",
+    "designation": "San Mateo, CA 94402"
+   },
+   {
+    "name": "Sujay Jaswa",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Amanda Peiffer",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mia Hall",
+    "party": "",
+    "designation": "Parent"
+   }
+  ]
+ },
+ {
+  "code": "4050",
+  "title": "Member, Board of Supervisors, District 5 (Short Term)",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Mark Nagales",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Juslyn Cabrera Manalo",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5000",
+  "title": "Town of Atherton Member, City Council (Full Term)",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Rick Degolia",
+    "party": "",
+    "designation": "Yes - 7/29/2026"
+   },
+   {
+    "name": "Christine David",
+    "party": "",
+    "designation": "Yes - 7/30/2026"
+   },
+   {
+    "name": "Jerry Leugers",
+    "party": "",
+    "designation": "Yes - 7/30/2026"
+   }
+  ]
+ },
+ {
+  "code": "5001",
+  "title": "Town of Atherton Member, City Council (Short Term)",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Bill Widmer",
+    "party": "",
+    "designation": "City of Belmont Mayor"
+   },
+   {
+    "name": "Julia Mates",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5023",
+  "title": "City of Belmont Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Gina Latimerlo",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5025",
+  "title": "City of Belmont Member, City Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Sarah K.m. Delisle",
+    "party": "",
+    "designation": "Belmont, CA 94002"
+   }
+  ]
+ },
+ {
+  "code": "5041",
+  "title": "City of Brisbane Member, City Council",
+  "vote_for": 2,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Julie Sims",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Charles Spencer",
+    "party": "",
+    "designation": "Yes - 8/06/2026"
+   },
+   {
+    "name": "Madison Davis",
+    "party": "",
+    "designation": "Yes - 8/12/2026"
+   },
+   {
+    "name": "Chaya-Bella David",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Christopher Hornick",
+    "party": "",
+    "designation": "Yes - 7/20/2026"
+   }
+  ]
+ },
+ {
+  "code": "5062",
+  "title": "City of Burlingame Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Andrea Pappajohn",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5064",
+  "title": "City of Burlingame Member, City Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Jen Faber",
+    "party": "",
+    "designation": "Education Foundation Director"
+   },
+   {
+    "name": "Howard Wettan",
+    "party": "",
+    "designation": "City Commissioner / Attorney"
+   }
+  ]
+ },
+ {
+  "code": "5066",
+  "title": "City of Burlingame Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Peter W. Stevenson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5081",
+  "title": "Town of Colma Member, City Council",
+  "vote_for": 2,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Helen Fisicaro",
+    "party": "",
+    "designation": "Yes - 7/24/2026"
+   },
+   {
+    "name": "Laura M Walsh",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Joanne F. Del Rosario",
+    "party": "",
+    "designation": "Incumbent"
+   },
+   {
+    "name": "Elisabeth Aurora Jenson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5100",
+  "title": "City of Daly City Member, City Council",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Thomas A. Nuris",
+    "party": "",
+    "designation": "Daly City, CA 94015"
+   },
+   {
+    "name": "Pamela Digiovanni",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Teresa Proaño",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Yes - 8/05/2026",
+    "party": "",
+    "designation": "Daly City, CA 94015"
+   },
+   {
+    "name": "Rod Daus-Magbual",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Asia Su",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Barry Rodriguez",
+    "party": "",
+    "designation": "(No Ballot Designation)"
+   }
+  ]
+ },
+ {
+  "code": "5121",
+  "title": "City of East Palo Alto Member, City Council",
+  "vote_for": 2,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Holifa Windom",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Gail Wilk Dixon",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Ruben Abrica",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sam Jimenez",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Ofelia Bello",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Deborah Lewis-Virges",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Michael Mashack",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Art Kiesel",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Phoebe Shin Venkat",
+    "party": "",
+    "designation": "Nonprofit Executive / Councilmember"
+   }
+  ]
+ },
+ {
+  "code": "5143",
+  "title": "City of Foster City Member, City Council, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Stacy Jimenez",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5163",
+  "title": "City of Half Moon Bay Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Robert Brownstone",
+    "party": "",
+    "designation": "Yes - 8/07/2026"
+   },
+   {
+    "name": "David Gorn",
+    "party": "",
+    "designation": "Yes - 7/30/2026"
+   }
+  ]
+ },
+ {
+  "code": "5166",
+  "title": "City of Half Moon Bay Member, City Council, District 4",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Ron Kies",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Debbie Ruddock",
+    "party": "",
+    "designation": "Yes - 8/12/2026"
+   }
+  ]
+ },
+ {
+  "code": "5167",
+  "title": "City of Half Moon Bay Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Susie Morasci",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Steven R. Booker",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Leslie Marden Ragsdale",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jeff Baxter",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5202",
+  "title": "City of Menlo Park Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "James Rohr",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Wonman Lee",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5203",
+  "title": "City of Menlo Park Member, City Council, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Drew Combs",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Vamsi Velagapudi",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5205",
+  "title": "City of Menlo Park Member, City Council, District 4",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Charlotte Reed",
+    "party": "",
+    "designation": "Yes - 8/06/2026"
+   },
+   {
+    "name": "Not Authorized To Release",
+    "party": "",
+    "designation": "Yes - 7/31/2026"
+   }
+  ]
+ },
+ {
+  "code": "5223",
+  "title": "City of Millbrae Member, City Council, District 2 (Full Term)",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Sissy Riley",
+    "party": "",
+    "designation": "Yes - 8/07/2026"
+   },
+   {
+    "name": "Juan Gámez",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Ann Schneider",
+    "party": "",
+    "designation": "City of Millbrae Member, City Council, District 4 (Full Term)"
+   },
+   {
+    "name": "Albert Yam",
+    "party": "",
+    "designation": "University Data Analyst"
+   },
+   {
+    "name": "Bob Nguyen",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5243",
+  "title": "City of Pacifica Member, City Council, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Christine Boles",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mail: P.o. Box 336",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5244",
+  "title": "City of Pacifica Member, City Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Cindy Abbott",
+    "party": "",
+    "designation": "Pacifica, CA 94044"
+   }
+  ]
+ },
+ {
+  "code": "5246",
+  "title": "City of Pacifica Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Margo Meiman",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sam Casillas",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5260",
+  "title": "Town of Portola Valley Member, Town Council",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Mary Hufty",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Craig S Taylor",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Judith A. Hasko",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5283",
+  "title": "City of Redwood City Member, City Council, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Chris Sturken",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5286",
+  "title": "City of Redwood City Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Kaia Eakin",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5287",
+  "title": "City of Redwood City Member, City Council, District 6",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Diane Howard",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5300",
+  "title": "City of San Bruno Mayor",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Rico E. Medina",
+    "party": "",
+    "designation": "Yes - 8/12/2026"
+   }
+  ]
+ },
+ {
+  "code": "5303",
+  "title": "City of San Bruno Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Jennifer M. Blanco",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kingsley Ma",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5306",
+  "title": "City of San Bruno Member, City Council, District 4",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Marty P. Medina",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Auros Harman",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5320",
+  "title": "City of San Carlos Member, City Council",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Pranita Venkatesh",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sara McDowell",
+    "party": "",
+    "designation": "City Councilmember / Mother"
+   },
+   {
+    "name": "Adam Rak",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mark D. Iwanowski",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5342",
+  "title": "City of San Mateo Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Taso Zografos",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Lisa Diaz Nash",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5344",
+  "title": "City of San Mateo Member, City Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Seema Patel",
+    "party": "",
+    "designation": "Yes - 8/03/2026"
+   },
+   {
+    "name": "Robert G. Newsom JR.",
+    "party": "",
+    "designation": "Yes - 8/04/2026"
+   }
+  ]
+ },
+ {
+  "code": "5346",
+  "title": "City of San Mateo Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Dave Johnson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dana Yates Sahae",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Adam Loraine",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5362",
+  "title": "City of South San Francisco Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Aysha Dominguez Pamukcu",
+    "party": "",
+    "designation": "Policy Fund Director"
+   }
+  ]
+ },
+ {
+  "code": "5364",
+  "title": "City of South San Francisco Member, City Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Buenaflor (Flor) Nicolas",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sophia Cyris",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Melanie Olson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "5366",
+  "title": "City of South San Francisco Member, City Council, District 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Eddie Flores",
+    "party": "",
+    "designation": "Yes - 8/10/2026"
+   },
+   {
+    "name": "Rosa Govea Acosta",
+    "party": "",
+    "designation": "City of South San Francisco City Treasurer"
+   },
+   {
+    "name": "Frank Risso",
+    "party": "",
+    "designation": "FRANKRISSOFORCITYTREASURER@"
+   }
+  ]
+ },
+ {
+  "code": "5381",
+  "title": "Town of Woodside Member, Town Council, District 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Lyle Weaver",
+    "party": "",
+    "designation": "org"
+   }
+  ]
+ },
+ {
+  "code": "5382",
+  "title": "Town of Woodside Member, Town Council, District 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Daniel Druker",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6001",
+  "title": "Bayshore Sanitary District Member, Board of Directors",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Iris Gallagher",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kenneth A. Tonna",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6021",
+  "title": "Broadmoor Police Protection District Member, Board of Commissioners",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "John V. Aguerre",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Anna Marie Brizuela",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6042",
+  "title": "Coastside County Water District Member, Board of Directors, Zone 1 (Short Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "David R. Dickson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6043",
+  "title": "Coastside County Water District Member, Board of Directors, Zone 2 (Full Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Chris R Mickelsen",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6046",
+  "title": "Coastside County Water District Member, Board of Directors, Zone 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Nancy Eleanora Poss",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Joey P. Silva",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6064",
+  "title": "Coastside Fire Protection District Member, Board of Directors, District C",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Patrick Hanna",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6065",
+  "title": "Coastside Fire Protection District Member, Board of Directors, District D",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Ryan McGraw",
+    "party": "",
+    "designation": "Deputy Fire Marshal"
+   },
+   {
+    "name": "Cynthia Sherrill",
+    "party": "",
+    "designation": "Yes - 8/07/2026"
+   }
+  ]
+ },
+ {
+  "code": "6066",
+  "title": "Coastside Fire Protection District Member, Board of Directors, District E",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Gary Burke",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alex Carrillo",
+    "party": "",
+    "designation": "Yes - 7/31/2026"
+   }
+  ]
+ },
+ {
+  "code": "6120",
+  "title": "Granada Community Services District Member, Board of Directors",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
+   {
+    "name": "Barbara Dye",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kevin W. Sniecinski",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Matt Allen",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Patrick Tierney",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6140",
+  "title": "Highlands Recreation District Member, Board of Directors",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Gordon Strause",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Uy Ut",
+    "party": "",
+    "designation": "Ladera Recreation District Member, Board of Directors (Full Term)"
+   },
+   {
+    "name": "Shawn Salmon",
+    "party": "",
+    "designation": "Product Marketing Lead"
+   },
+   {
+    "name": "Brian Wall",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6161",
+  "title": "Ladera Recreation District Member, Board of Directors (Short Term)",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Helen Wang",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Chuck Bernstein",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Gary L. Bloom",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Robert Jones",
+    "party": "",
+    "designation": "Mid-Peninsula Water District Member, Board of Directors, Division 3"
+   },
+   {
+    "name": "Neela Patel",
+    "party": "",
+    "designation": "Yes - 7/14/2026"
+   },
+   {
+    "name": "Joann Covington",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Charles \"chuck\" Cotten",
+    "party": "",
+    "designation": "Midcoast Community Council Councilmember"
+   },
+   {
+    "name": "Scott Bollinger",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Joan Brennan",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6260",
+  "title": "Midpeninsula Regional Open Space District Member, Board of Directors, Ward 5",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Karen C. Holman",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6261",
+  "title": "Midpeninsula Regional Open Space District Member, Board of Directors, Ward 6",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Bryan Beck",
+    "party": "",
+    "designation": "Yes - 7/28/2026"
+   }
+  ]
+ },
+ {
+  "code": "6282",
+  "title": "Montara Water and Sanitary District Member, Board of Directors, Division 1",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "William \"bill\" Softky",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6284",
+  "title": "Montara Water and Sanitary District Member, Board of Directors, Division 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Scott Boyd",
+    "party": "",
+    "designation": "Director, Montara Water & Sanitary District"
+   }
+  ]
+ },
+ {
+  "code": "6286",
+  "title": "Montara Water and Sanitary District Member, Board of Directors, Division 5",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Virginia \"ginny\" McShane",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6302",
+  "title": "North Coast County Water District Member, Board of Directors, Zone A",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "William Hauser",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6303",
+  "title": "North Coast County Water District Member, Board of Directors, Zone B",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Anne Dejarnatt",
+    "party": "",
+    "designation": "North Coast County Water District Member, Board of Directors, Zone E"
+   },
+   {
+    "name": "Ron Ash",
+    "party": "",
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6320",
+  "title": "Peninsula Health Care District Member, Board of Directors",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Lawrence William Cappel",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dennis Zell",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Henry Sanchez",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6349",
+  "title": "Pescadero Municipal Advisory Council Councilmember",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Cullen Rose",
+    "party": "",
+    "designation": "San Mateo County Harbor District Member, Board of Commissioners, District 2"
+   },
+   {
+    "name": "George W. Domurat",
+    "party": "",
+    "designation": "Yes - 7/15/2026"
+   },
+   {
+    "name": "Kathryn Slater-Carter",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "William Fong",
+    "party": "",
+    "designation": "Sequoia Healthcare District Member, Board of Directors, Zone C"
+   },
+   {
+    "name": "Rosanne Foust",
+    "party": "",
+    "designation": "Appointed Sequoia Healthcare District Member, Board of Directors"
+   }
+  ]
+ },
+ {
+  "code": "6386",
+  "title": "Sequoia Healthcare District Member, Board of Directors, Zone E",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Brian Greenberg",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6401",
+  "title": "West Bay Sanitary District Member, Board of Directors",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Edward Moritz",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Roy Thiele-Sardina",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6423",
+  "title": "Westborough Water District Member, Board of Directors, Zone 2",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Thomas Chambers",
+    "party": "",
+    "designation": "Westborough Water District Member, Board of Directors, Zone 4"
+   },
+   {
+    "name": "Perry Bautista",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "code": "6441",
+  "title": "Woodside Fire Protection District Member, Board of Directors",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
+   {
+    "name": "Matt Miller",
+    "party": "",
+    "designation": "Total Qualified: 263"
+   }
+  ]
+ }
+]
