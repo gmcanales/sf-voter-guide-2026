@@ -1,6 +1,6 @@
 # Data model
 
-The page (`site/app.js`) is a pure renderer over three JSON files in
+The page (`site/app.js`) is a pure renderer over four JSON files in
 `site/data/`. Two kinds of content are kept apart on purpose:
 
 | File | What | Who edits it |
