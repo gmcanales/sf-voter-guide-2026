@@ -1,5 +1,5 @@
 {
-  "_about": "OUR editorial topic tags for measures, so readers can find what they care about. Each tag needs a one-line factual `why` grounded in the official digest or analysis. Tags say what a vote DOES, not whether it's good. `on` is the vote that causes the effect (\"yes\", the default, or \"no\"). `effect` is \"up\" (raises, funds or expands), \"down\" (cuts or limits), \"stable\" (keeps an existing tax at today's level, e.g. making a temporary tax permanent) or omitted. `scope` optionally names who is affected, kept short because it's shown on the chip. Schema: docs/data-model.md.",
+  "_about": "OUR editorial topic tags for measures, so readers can find what they care about. Each tag needs a one-line factual `why` grounded in the official digest or analysis. Tags say what a vote DOES, not whether it's good. `on` is the vote that causes the effect (\"yes\", the default, or \"no\"). `effect` is \"up\" (raises, funds or expands), \"down\" (cuts or limits), \"stable\" (keeps an existing tax at today's level, e.g. making a temporary tax permanent), \"limit\" (restricts FUTURE taxes, changes no current tax) or omitted. Tax tags add `share` (roughly how many are affected) and `affects_if` (short, single-filer terms). Schema: docs/data-model.md.",
   "topics": [
     {
       "id": "ethics",
@@ -14,12 +14,12 @@
     {
       "id": "business-tax",
       "label": "Business taxes",
-      "description": "Taxes paid by businesses and commercial property. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent)."
+      "description": "Taxes paid by businesses and commercial property. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
     },
     {
       "id": "personal-tax",
       "label": "Personal taxes",
-      "description": "Taxes paid by individuals and households. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent)."
+      "description": "Taxes paid by individuals and households. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
     },
     {
       "id": "regressive",
@@ -59,8 +59,9 @@
       {
         "topic": "personal-tax",
         "effect": "stable",
-        "scope": "top ~2% keep today's rates",
-        "why": "Makes permanent the 2012 rates on income over about $371K (single), $742K (joint) or $505K (head of household). Without it they expire in 2031."
+        "share": "Top ~2% of CA taxpayers",
+        "affects_if": "you're a single filer earning over ~$371K",
+        "why": "Makes permanent the 2012 rates on income over about $371K (single filers; $742K joint, $505K head of household). Without it they expire in 2031."
       },
       {
         "topic": "progressive",
@@ -70,8 +71,9 @@
         "topic": "personal-tax",
         "effect": "down",
         "on": "no",
-        "scope": "income over ~$371K single / $742K joint / $505K head of household, from 2031",
-        "why": "A NO vote lets the higher rates expire in 2031 for income over about $371K (single), $742K (joint) or $505K (head of household), using 2025 thresholds adjusted for inflation."
+        "share": "Top ~2% of CA taxpayers",
+        "affects_if": "you're a single filer earning over ~$371K (from 2031)",
+        "why": "A NO vote lets the higher rates expire in 2031 for income over about $371K (single filers; $742K joint, $505K head of household), using 2025 thresholds adjusted for inflation."
       }
     ],
     "prop-4": [
@@ -105,25 +107,29 @@
     ],
     "prop-40": [
       {
-        "topic": "personal-tax",
-        "effect": "up",
-        "why": "One-time 5% tax on the wealth of California billionaires."
-      },
-      {
         "topic": "progressive",
         "why": "Applies only to billionaires."
+      },
+      {
+        "topic": "personal-tax",
+        "effect": "up",
+        "share": "A few hundred Californians",
+        "affects_if": "your net worth was over $1 billion on Jan 1, 2026",
+        "why": "One-time tax of 5% of net worth on billionaires who lived in California on Jan 1, 2026. The LAO says California has “a few hundred” of them."
       }
     ],
     "prop-41": [
       {
-        "topic": "business-tax",
-        "effect": "down",
+        "topic": "personal-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
         "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
       },
       {
-        "topic": "personal-tax",
-        "effect": "down",
-        "why": "Same limit applies to new taxes on individuals."
+        "topic": "business-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
+        "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
       },
       {
         "topic": "bureaucracy",
@@ -132,26 +138,30 @@
     ],
     "prop-42": [
       {
-        "topic": "business-tax",
-        "effect": "down",
+        "topic": "personal-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
         "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
       },
       {
-        "topic": "personal-tax",
-        "effect": "down",
-        "why": "Same prohibition covers individuals' assets."
+        "topic": "business-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
+        "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
       }
     ],
     "prop-43": [
       {
-        "topic": "business-tax",
-        "effect": "down",
+        "topic": "personal-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
         "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
       },
       {
-        "topic": "personal-tax",
-        "effect": "down",
-        "why": "Same higher threshold applies to local taxes on residents."
+        "topic": "business-tax",
+        "effect": "limit",
+        "affects_if": "No one's taxes change now",
+        "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
       }
     ],
     "prop-45": [
@@ -172,13 +182,15 @@
         "why": "Funds BART, Muni, Caltrain and other operators for 14 years (~$980M/yr regionwide)."
       },
       {
-        "topic": "personal-tax",
-        "effect": "up",
-        "why": "Adds a 1% sales tax in San Francisco."
-      },
-      {
         "topic": "regressive",
         "why": "A sales tax takes a larger share of income from lower-income households."
+      },
+      {
+        "topic": "personal-tax",
+        "effect": "up",
+        "share": "Nearly all SF households",
+        "affects_if": "you buy taxable goods in SF (1% sales tax)",
+        "why": "Adds a 1% sales tax in San Francisco for 14 years."
       }
     ],
     "prop-a": [
@@ -231,12 +243,15 @@
       {
         "topic": "personal-tax",
         "effect": "up",
-        "why": "New annual parcel tax on residential property ($129+ for single-family homes; most owners 65+ get a discount or exemption)."
+        "share": "~39% of SF households own their home",
+        "affects_if": "you own SF property ($129+/yr; most owners 65+ pay less or nothing)",
+        "why": "New annual parcel tax for 15 years. Owners of rent-controlled units can pass up to 50%, capped at $65 per unit per year, to tenants whose rent was set before June 1, 2027."
       },
       {
         "topic": "business-tax",
         "effect": "up",
-        "why": "New annual parcel tax on commercial property ($799 base, up to $400K)."
+        "affects_if": "you own commercial property in SF ($799+/yr, capped at $400K)",
+        "why": "New annual parcel tax on non-residential and mixed-use property."
       }
     ],
     "prop-i": [
@@ -250,7 +265,8 @@
       {
         "topic": "business-tax",
         "effect": "up",
-        "why": "Applies the transfer tax to foreclosure transfers of commercial and larger residential properties."
+        "affects_if": "a lender takes commercial or large residential property in foreclosure",
+        "why": "Applies the 0.5%–6% transfer tax to foreclosure transfers of commercial, industrial and large residential properties. Smaller residential buildings keep the exemption."
       }
     ]
   }

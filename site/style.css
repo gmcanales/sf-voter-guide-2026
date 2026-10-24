@@ -468,3 +468,30 @@
 .vg-arrow { font-weight: 900; }
 .vg-group-sources { margin: 6px 0 0; padding-left: 16px; }
 .vg-topic-scope { font-weight: 400; }
+
+/* Tax tags: neutral topic + colored effect, then one quiet impact line. */
+.vg-tax-pair { display: inline-flex; padding: 0; overflow: hidden; background: none; border: 1px solid var(--border); }
+.vg-tax-topic { padding: 1px 8px; background: var(--surface2); }
+.vg-tax-pair.is-active .vg-tax-topic { background: var(--text); color: var(--bg); }
+.vg-effect { padding: 1px 8px; font-weight: 700; color: var(--text); }
+.vg-effect-up     { background: var(--warn-soft); box-shadow: inset 2px 0 0 var(--warn); }
+.vg-effect-down   { background: var(--accent-soft); box-shadow: inset 2px 0 0 var(--accent); }
+.vg-effect-stable { background: var(--bg); box-shadow: inset 2px 0 0 var(--border-strong); }
+.vg-effect-limit  { background: var(--bg); box-shadow: inset 2px 0 0 var(--accent); font-weight: 500; }
+.vg-impact { margin-top: 3px; }
+.vg-impact p { margin: 0; font-size: 0.75rem; color: var(--text-faint); line-height: 1.45; }
+.vg-impact-share { color: var(--text-muted); font-weight: 700; }
+.vg-impact-label { color: var(--text-muted); font-weight: 700; }
+.vg-impact-topic { color: var(--text-muted); }
+/* Active (filtered) state darkens only the topic half; effect colors sit on
+   an opaque base because the -soft tokens are translucent. */
+.vg-topic-tag.vg-tax-pair.is-active { background: none; color: inherit; }
+.vg-effect-up   { background: linear-gradient(var(--warn-soft), var(--warn-soft)), var(--bg); }
+.vg-effect-down { background: linear-gradient(var(--accent-soft), var(--accent-soft)), var(--bg); }
+/* Fixed, palette-independent effect hues: amber = increase, blue = decrease /
+   limit. Deliberately not red/green, which would read as bad/good. Translucent
+   tints over an opaque base so text stays legible on light and dark palettes. */
+.vg-effect-up    { background: linear-gradient(rgba(214, 160, 40, 0.28), rgba(214, 160, 40, 0.28)), var(--bg); box-shadow: inset 3px 0 0 #d6a028; }
+.vg-effect-down  { background: linear-gradient(rgba(74, 144, 226, 0.26), rgba(74, 144, 226, 0.26)), var(--bg); box-shadow: inset 3px 0 0 #4a90e2; }
+.vg-effect-limit { background: var(--bg); box-shadow: inset 3px 0 0 #4a90e2; }
+.vg-effect-stable { box-shadow: inset 3px 0 0 #9a9a9a; }

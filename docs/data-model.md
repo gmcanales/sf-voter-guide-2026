@@ -117,11 +117,16 @@ ballot.
   raises/funds/expands, `down` cuts/limits, `stable` keeps an existing tax
   at today's level. They never say whether that's good.
 - **Extending or making permanent an existing tax is `stable` on YES, not
-  `up`.** The tax cut that happens if it lapses goes on the NO line as `down`,
-  with a `scope` naming who's affected (e.g. Prop 3: "income over ~$371K single
-  / $742K joint / $505K head of household, from 2031", from the LAO analysis).
+  `up`.** The cut that happens if it lapses goes on the NO line as `down`.
   A brand-new tax is `up` on YES, and NO on it is just the status quo, so it gets
-  no tag. Every tag needs a factual `why` drawn from the
+  no tag. A measure that only restricts *future* taxes is `limit`.
+- **Tax tags** (`personal-tax`, `business-tax`) render as a neutral topic chip plus
+  a colored effect chip (amber ↑ Increase, gray = Stable, blue ↓ Decrease, blue
+  outline ⊘ Limits new taxes; deliberately not red/green). Below them is one quiet
+  line built from `share` (roughly how many are affected, e.g. "Top ~2% of CA
+  taxpayers", "~39% of SF households own their home") and `affects_if` (short,
+  **single-filer** terms, e.g. "you're a single filer earning over ~$371K"). Both
+  must come from the LAO analysis, the SF digest or Census figures. Every tag needs a factual `why` drawn from the
   official digest; readers see it on hover and in the measure's details.
 - Keep it symmetric: taxes are tagged in both directions, and *Regressive tax*
   sits next to *Progressive tax*. A topic that only ever flags one side is

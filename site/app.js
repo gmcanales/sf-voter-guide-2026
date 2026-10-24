@@ -261,6 +261,7 @@ function renderYesNo(contest, yesLabel = 'YES', noLabel = 'NO') {
           el('span', { class: 'vg-cand-name' }, v === 'yes' ? yesLabel : noLabel),
           renderTopicTags(contest, v),
           state.showPicks ? rowVerdicts(contest, v).map(p => badge(p.verdict)) : null),
+        renderTopicImpact(contest, v),
         guideChipsForRow(contest, v)));
   }));
 }
@@ -624,18 +625,52 @@ function topicLabel(id) {
   return TOPICS.topics.find(t => t.id === id)?.label || id;
 }
 
-const ARROW = { up: '↑', down: '↓', stable: '=' };
+const ARROW = { up: '↑', down: '↓', stable: '=', limit: '⊘' };
 
 // Tags sit on the line of the vote that causes them: most on YES, but e.g.
 // voting NO on extending a tax lets it lapse, so that tag goes on NO.
+const TAX_TOPICS = new Set(['personal-tax', 'business-tax']);
+const TAX_EFFECT = {
+  up: '↑ Increase', stable: '= Stable', down: '↓ Decrease', limit: '⊘ Limits new taxes',
+};
+
+function tagsForVote(contest, vote) {
+  return topicTags(contest).filter(t => (t.on || 'yes') === vote);
+}
+
+// Tax tags render as two chips: a neutral topic chip and a colored effect
+// chip. Other topics keep a single chip with an arrow.
 function renderTopicTags(contest, vote = 'yes') {
-  const tags = topicTags(contest).filter(t => (t.on || 'yes') === vote);
+  const tags = tagsForVote(contest, vote);
   if (!tags.length) return null;
-  return el('ul', { class: 'vg-topic-tags', 'aria-label': 'Topics' }, tags.map(t =>
-    el('li', { class: 'vg-topic-tag' + (state.topics.includes(t.topic) ? ' is-active' : ''), title: t.why },
-      topicLabel(t.topic),
-      t.effect ? el('span', { class: 'vg-arrow' }, ` ${ARROW[t.effect]}${t.effect === 'stable' ? ' stable' : ''}`) : null,
-      t.scope ? el('span', { class: 'vg-topic-scope' }, ` · ${t.scope}`) : null)));
+  return el('ul', { class: 'vg-topic-tags', 'aria-label': 'Topics' }, tags.flatMap(t => {
+    const active = state.topics.includes(t.topic) ? ' is-active' : '';
+    if (TAX_TOPICS.has(t.topic) && t.effect) {
+      return [el('li', { class: 'vg-topic-tag vg-tax-pair' + active, title: t.why },
+        el('span', { class: 'vg-tax-topic' }, topicLabel(t.topic)),
+        el('span', { class: `vg-effect vg-effect-${t.effect}` }, TAX_EFFECT[t.effect]))];
+    }
+    return [el('li', { class: 'vg-topic-tag' + active, title: t.why },
+      topicLabel(t.topic), t.effect ? el('span', { class: 'vg-arrow' }, ` ${ARROW[t.effect]}`) : null)];
+  }));
+}
+
+// One quiet line per tax tag: how many it touches and who, in plain terms.
+function renderTopicImpact(contest, vote = 'yes') {
+  const seen = new Set();
+  const lines = tagsForVote(contest, vote).filter(t => {
+    const key = `${t.share || ''}|${t.affects_if || ''}`;
+    if (!(t.share || t.affects_if) || seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+  if (!lines.length) return null;
+  return el('div', { class: 'vg-impact' }, lines.map(t => el('p', {},
+    lines.length > 1 ? el('span', { class: 'vg-impact-topic' }, `${topicLabel(t.topic)}: `) : null,
+    t.share ? el('span', { class: 'vg-impact-share' }, t.share) : null,
+    t.share && t.affects_if ? ' · ' : null,
+    t.affects_if ? (t.affects_if.startsWith('No one') ? t.affects_if
+      : [el('span', { class: 'vg-impact-label' }, 'Affects you if '), t.affects_if]) : null)));
 }
 
 function renderTopicBar() {
