@@ -259,8 +259,7 @@ function renderYesNo(contest, yesLabel = 'YES', noLabel = 'NO') {
       el('div', { class: 'vg-row-main' },
         el('div', { class: 'vg-cand' },
           el('span', { class: 'vg-cand-name' }, v === 'yes' ? yesLabel : noLabel),
-          // Topic tags describe what a YES vote does, so they live on the YES line only.
-          v === 'yes' ? renderTopicTags(contest) : null,
+          renderTopicTags(contest, v),
           state.showPicks ? rowVerdicts(contest, v).map(p => badge(p.verdict)) : null),
         guideChipsForRow(contest, v)));
   }));
@@ -327,7 +326,7 @@ function renderDetails(contest) {
       para('How it got on the ballot', contest.how_placed || contest.placed_by),
       topicTags(contest).length ? el('div', { class: 'vg-detail' }, el('h4', {}, 'Why these topic tags (our labels)'),
         el('ul', {}, topicTags(contest).map(t => el('li', {},
-          el('strong', {}, topicLabel(t.topic) + (t.effect ? ` ${ARROW[t.effect]}` : '') + ': '), t.why)))) : null,
+          el('strong', {}, `${t.on === 'no' ? 'If NO: ' : ''}${topicLabel(t.topic)}${t.effect ? ` ${ARROW[t.effect]}` : ''}: `), t.why)))) : null,
       contest.threshold ? el('p', { class: 'vg-fineprint' }, `Passes with: ${contest.threshold}`) : null);
   }
   if (contest.list_note) blocks.push(el('p', { class: 'vg-fineprint' }, contest.list_note));
@@ -625,14 +624,18 @@ function topicLabel(id) {
   return TOPICS.topics.find(t => t.id === id)?.label || id;
 }
 
-const ARROW = { up: '↑', down: '↓' };
+const ARROW = { up: '↑', down: '↓', stable: '=' };
 
-function renderTopicTags(contest) {
-  const tags = topicTags(contest);
+// Tags sit on the line of the vote that causes them: most on YES, but e.g.
+// voting NO on extending a tax lets it lapse, so that tag goes on NO.
+function renderTopicTags(contest, vote = 'yes') {
+  const tags = topicTags(contest).filter(t => (t.on || 'yes') === vote);
   if (!tags.length) return null;
   return el('ul', { class: 'vg-topic-tags', 'aria-label': 'Topics' }, tags.map(t =>
     el('li', { class: 'vg-topic-tag' + (state.topics.includes(t.topic) ? ' is-active' : ''), title: t.why },
-      topicLabel(t.topic), t.effect ? el('span', { class: 'vg-arrow' }, ` ${ARROW[t.effect]}`) : null)));
+      topicLabel(t.topic),
+      t.effect ? el('span', { class: 'vg-arrow' }, ` ${ARROW[t.effect]}${t.effect === 'stable' ? ' stable' : ''}`) : null,
+      t.scope ? el('span', { class: 'vg-topic-scope' }, ` · ${t.scope}`) : null)));
 }
 
 function renderTopicBar() {

@@ -112,9 +112,16 @@ ballot.
   "tags": { "prop-c": [{ "topic": "housing", "effect": "up", "why": "Raises the City's yearly…" }] } }
 ```
 
-- Tags say what a measure is **about** and which way a YES vote moves it
-  (`effect`: `up` raises/funds/expands, `down` cuts/limits). They never say
-  whether that's good. Every tag needs a factual `why` drawn from the
+- Tags say what a vote **does**. Each one sits on the line of the vote that
+  causes it (`on`: `"yes"`, the default, or `"no"`). `effect`: `up`
+  raises/funds/expands, `down` cuts/limits, `stable` keeps an existing tax
+  at today's level. They never say whether that's good.
+- **Extending or making permanent an existing tax is `stable` on YES, not
+  `up`.** The tax cut that happens if it lapses goes on the NO line as `down`,
+  with a `scope` naming who's affected (e.g. Prop 3: "income over ~$371K single
+  / $742K joint / $505K head of household, from 2031", from the LAO analysis).
+  A brand-new tax is `up` on YES, and NO on it is just the status quo, so it gets
+  no tag. Every tag needs a factual `why` drawn from the
   official digest; readers see it on hover and in the measure's details.
 - Keep it symmetric: taxes are tagged in both directions, and *Regressive tax*
   sits next to *Progressive tax*. A topic that only ever flags one side is
