@@ -338,6 +338,42 @@
    "members": {
     "text": "Not published on its site."
    }
+  },
+  {
+   "id": "league",
+   "name": "San Francisco League of Pissed Off Voters",
+   "short": "Pissed Off Voters",
+   "kind": "Political club",
+   "url": "https://www.theleaguesf.org/november_2026_endorsements",
+   "accessed": "2026-10-24",
+   "as_of": "2026-08-25",
+   "about": "Slate voted by its membership on Aug 25, 2026. Its full voter guide came later and may add detail. Transcribed from occupysf.net's republication, because theleaguesf.org blocks automated access.",
+   "sources": [
+    {
+     "label": "League endorsements page",
+     "url": "https://www.theleaguesf.org/november_2026_endorsements"
+    },
+    {
+     "label": "Republished list (occupysf.net, Aug 25, 2026)",
+     "url": "https://occupysf.net/index.php/2026/08/25/s-f-league-of-pissed-off-voters-november-2026-endorsements/"
+    }
+   ],
+   "self_description_missing": "Its site blocks automated access, so we haven't been able to quote its self-description yet.",
+   "money": [
+    {
+     "label": "Political committee receipts",
+     "amount": 15415,
+     "period": "Jan 2025 – Jun 30, 2026",
+     "source": {
+      "label": "SF Ethics Commission campaign finance data (DataSF)",
+      "url": "https://data.sf.gov/d/pitq-e56w"
+     },
+     "note": "From 377 itemized contributions."
+    }
+   ],
+   "members": {
+    "text": "Not published."
+   }
   }
  ],
  "positions": {
@@ -347,7 +383,10 @@
    ],
    "growsf": [
     "Xavier Becerra"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "lt-governor": {
    "sfdems": [
@@ -355,13 +394,19 @@
    ],
    "growsf": [
     "Fiona Ma"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "secretary-of-state": {
    "sfdems": [
     "Shirley N. Weber"
    ],
    "growsf": [
+    "Shirley N. Weber"
+   ],
+   "league": [
     "Shirley N. Weber"
    ]
   },
@@ -371,7 +416,10 @@
    ],
    "growsf": [
     "Malia M. Cohen"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "treasurer": {
    "sfdems": [
@@ -379,13 +427,19 @@
    ],
    "growsf": [
     "Eleni Kounalakis"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "attorney-general": {
    "sfdems": [
     "Rob Bonta"
    ],
    "growsf": [
+    "Rob Bonta"
+   ],
+   "league": [
     "Rob Bonta"
    ]
   },
@@ -395,6 +449,9 @@
    ],
    "growsf": [
     "Ben Allen"
+   ],
+   "league": [
+    "Jane Kim"
    ]
   },
   "boe-2": {
@@ -403,6 +460,9 @@
    ],
    "growsf": [
     "John Pimentel"
+   ],
+   "league": [
+    "Sally J. Lieber"
    ]
   },
   "us-rep-11": {
@@ -417,6 +477,9 @@
    ],
    "uesf": [
     "Connie Chan"
+   ],
+   "league": [
+    "Connie Chan"
    ]
   },
   "us-rep-15": {
@@ -428,7 +491,10 @@
    ],
    "sflc": [
     "Kevin Mullin"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "assembly-17": {
    "sfdems": [
@@ -439,7 +505,10 @@
    ],
    "sflc": [
     "Matt Haney"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "assembly-19": {
    "sfdems": [
@@ -450,46 +519,68 @@
    ],
    "sflc": [
     "Catherine Stefani"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "scotus-groban": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "scotus-evans": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-1-wilson": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-1-smiley": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-1-banke": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-2-stewart": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-2-desautels": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-3-petrou": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-3-rodriguez": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": {
+    "vote": "yes",
+    "note": "Covered by “Retain all”, though not named in their list."
+   }
   },
   "coa-1-4-brown": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": {
+    "vote": "yes",
+    "note": "Covered by “Retain all”, though not named in their list."
+   }
   },
   "coa-1-5-chou": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-5-simons": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "coa-1-5-burns": {
-   "growsf": "yes"
+   "growsf": "yes",
+   "league": "yes"
   },
   "superintendent": {
    "sfdems": [
@@ -499,6 +590,9 @@
     "Richard Barrera"
    ],
    "uesf": [
+    "Richard Barrera"
+   ],
+   "league": [
     "Richard Barrera"
    ]
   },
@@ -525,6 +619,11 @@
     "Reina Tello",
     "Virginia Cheung",
     "Ryan Hazelton"
+   ],
+   "league": [
+    "Virginia Cheung",
+    "Ryan Hazelton",
+    "Reina Tello"
    ]
   },
   "ccb-full": {
@@ -550,6 +649,10 @@
     "Bunny McFadden",
     "Leah LaCroix",
     "Jeremy Lee"
+   ],
+   "league": [
+    "Leah LaCroix",
+    "Bunny McFadden"
    ]
   },
   "ccb-partial": {
@@ -558,7 +661,10 @@
    ],
    "growsf": [
     "Ruth Ferguson"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "bart-8": {
    "sfdems": [
@@ -577,6 +683,9 @@
    ],
    "sflc": [
     "Joaquín Torres"
+   ],
+   "league": [
+    "Joaquín Torres"
    ]
   },
   "public-defender": {
@@ -591,6 +700,9 @@
    },
    "sflc": [
     "Mano Raju"
+   ],
+   "league": [
+    "Mano Raju"
    ]
   },
   "sup-2": {
@@ -602,7 +714,10 @@
    ],
    "sflc": [
     "Stephen Sherrill"
-   ]
+   ],
+   "league": {
+    "none": "No Endorsement"
+   }
   },
   "sup-4": {
    "sfdems": [
@@ -613,6 +728,9 @@
    ],
    "sflc": {
     "none": "No Recommendation"
+   },
+   "league": {
+    "none": "No Endorsement"
    }
   },
   "sup-6": {
@@ -624,6 +742,9 @@
    ],
    "sflc": {
     "none": "No Recommendation"
+   },
+   "league": {
+    "none": "No Endorsement"
    }
   },
   "sup-8": {
@@ -646,6 +767,13 @@
      "Darshini Patel"
     ],
     "note": "All three endorsed, no ranking given."
+   },
+   "league": {
+    "picks": [
+     "Gary McCoy",
+     "Michael T. Nguyen"
+    ],
+    "note": "Ranked: #1 Gary McCoy, #2 Michael Nguyen."
    }
   },
   "sup-10": {
@@ -662,6 +790,13 @@
      "Deandra Bryant"
     ],
     "note": "Brookter as #1. Eppler and Bryant endorsed unranked."
+   },
+   "league": {
+    "picks": [
+     "Dionjay (DJ) Brookter",
+     "J.R. Eppler"
+    ],
+    "note": "Non-ranked dual endorsement."
    }
   },
   "prop-1": {
@@ -670,7 +805,8 @@
    "spur": "yes",
    "dsasf": "yes",
    "calchamber": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-2": {
    "sfdems": "yes",
@@ -680,7 +816,10 @@
     "none": "No Recommendation"
    },
    "calchamber": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": {
+    "none": "No position"
+   }
   },
   "prop-3": {
    "sfdems": "yes",
@@ -689,7 +828,8 @@
    "dsasf": "yes",
    "uesf": "yes",
    "cna": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-4": {
    "sfdems": "yes",
@@ -698,14 +838,16 @@
    "dsasf": "yes",
    "cna": "yes",
    "calchamber": "no",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-5": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-37": {
    "sfdems": "yes",
@@ -713,13 +855,17 @@
    "spur": "yes",
    "dsasf": "no",
    "calchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "none": "No position"
+   }
   },
   "prop-38": {
    "sfdems": "yes",
    "growsf": "no",
    "dsasf": "no",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "prop-39": {
    "sfdems": "no",
@@ -727,7 +873,11 @@
    "spur": "no",
    "dsasf": "no",
    "cna": "no",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-40": {
    "sfdems": "no",
@@ -741,6 +891,10 @@
    "calchamber": "no",
    "lwv": {
     "none": "Neutral"
+   },
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
    }
   },
   "prop-41": {
@@ -751,7 +905,8 @@
    "sfchamber": "yes",
    "cna": "no",
    "calchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "prop-42": {
    "sfdems": "no",
@@ -761,7 +916,8 @@
    "sfchamber": "yes",
    "cna": "no",
    "calchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "prop-43": {
    "sfdems": "no",
@@ -771,7 +927,8 @@
    "sfchamber": "yes",
    "cna": "no",
    "calchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "prop-44": {
    "sfdems": "no",
@@ -780,7 +937,8 @@
     "none": "No Recommendation"
    },
    "calchamber": "no",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "prop-45": {
    "sfdems": "no",
@@ -791,7 +949,8 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "calchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": "no"
   },
   "rtm": {
    "sfdems": "yes",
@@ -800,7 +959,8 @@
    "dsasf": "yes",
    "sflc": "yes",
    "sfchamber": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-a": {
    "sfdems": "yes",
@@ -808,7 +968,11 @@
    "spur": "yes",
    "dsasf": "no",
    "sfchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-b": {
    "sfdems": "yes",
@@ -818,7 +982,11 @@
    "sflc": "yes",
    "sfchamber": "no",
    "uesf": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
+   }
   },
   "prop-c": {
    "sfdems": "yes",
@@ -826,7 +994,8 @@
    "spur": "yes",
    "dsasf": "yes",
    "sfchamber": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-d": {
    "sfdems": "yes",
@@ -836,7 +1005,11 @@
    "sflc": "no",
    "sfchamber": "yes",
    "uesf": "no",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-e": {
    "sfdems": "yes",
@@ -844,7 +1017,11 @@
    "spur": "yes",
    "dsasf": "no",
    "sfchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-f": {
    "sfdems": "yes",
@@ -852,7 +1029,11 @@
    "spur": "yes",
    "dsasf": "no",
    "sfchamber": "yes",
-   "lwv": "no"
+   "lwv": "no",
+   "league": {
+    "vote": "no",
+    "note": "“Hell No!”"
+   }
   },
   "prop-g": {
    "sfdems": "no",
@@ -869,6 +1050,9 @@
    },
    "lwv": {
     "none": "Neutral"
+   },
+   "league": {
+    "none": "No Endorsement"
    }
   },
   "prop-h": {
@@ -878,7 +1062,8 @@
    "dsasf": "yes",
    "sflc": "yes",
    "sfchamber": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   },
   "prop-i": {
    "sfdems": "no",
@@ -890,7 +1075,11 @@
    },
    "sfchamber": "no",
    "uesf": "yes",
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": {
+    "vote": "yes",
+    "note": "“Hell Yes!”"
+   }
   },
   "prop-j": {
    "sfdems": "yes",
@@ -901,7 +1090,8 @@
    "sfchamber": {
     "none": "Abstained"
    },
-   "lwv": "yes"
+   "lwv": "yes",
+   "league": "yes"
   }
  },
  "money_note": "Rough, public-record figures only. Campaign-committee receipts are itemized contributions and can include transfers between a group's own committees. IRS figures are each group's latest return with itemized data, which may be a few years old."
