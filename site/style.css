@@ -466,3 +466,4 @@
 }
 .vg-topic-tag.is-active { background: var(--text); color: var(--bg); }
 .vg-arrow { font-weight: 900; }
+.vg-group-sources { margin: 6px 0 0; padding-left: 16px; }

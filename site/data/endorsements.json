@@ -296,6 +296,48 @@
     "text": "Since 1890, we have been a dedicated not-for-profit organization, positively impacting California's business landscape. We are a trusted resource for advocacy and California human resources compliance.",
     "source": "https://www.calchamber.com/aboutus"
    }
+  },
+  {
+   "id": "lwv",
+   "name": "League of Women Voters",
+   "short": "LWV",
+   "kind": "Nonpartisan civic",
+   "url": "https://lwvsf.org/ballot-recommendations",
+   "accessed": "2026-10-24",
+   "about": "Measures only, never candidates. SF props come from LWV San Francisco, the transit measure from LWV Bay Area, and state props from LWV California.",
+   "sources": [
+    {
+     "label": "LWV San Francisco: SF props",
+     "url": "https://lwvsf.org/ballot-recommendations"
+    },
+    {
+     "label": "LWV Bay Area: Regional Transit Measure",
+     "url": "https://www.lwvbayarea.org/rtm-sb63"
+    },
+    {
+     "label": "LWV California: state props",
+     "url": "https://lwvc.org/ballot-recommendations-nov-3-2026/"
+    }
+   ],
+   "self_description": {
+    "text": "LWVSF is nonpartisan and does not support or oppose candidates or political parties. We are political and take positions on issues important in our San Francisco community.",
+    "source": "https://lwvsf.org/vote"
+   },
+   "money": [
+    {
+     "label": "LWV SF Education Fund annual revenue",
+     "amount": 53944,
+     "period": "FY ending June 2025 (latest itemized filing)",
+     "source": {
+      "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
+      "url": "https://projects.propublica.org/nonprofits/organizations/942804620"
+     },
+     "note": "Its advocacy arm's latest itemized filing is from 2017."
+    }
+   ],
+   "members": {
+    "text": "Not published on its site."
+   }
   }
  ],
  "positions": {
@@ -627,7 +669,8 @@
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "yes",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "yes"
   },
   "prop-2": {
    "sfdems": "yes",
@@ -636,7 +679,8 @@
    "dsasf": {
     "none": "No Recommendation"
    },
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "yes"
   },
   "prop-3": {
    "sfdems": "yes",
@@ -644,7 +688,8 @@
    "spur": "yes",
    "dsasf": "yes",
    "uesf": "yes",
-   "cna": "yes"
+   "cna": "yes",
+   "lwv": "yes"
   },
   "prop-4": {
    "sfdems": "yes",
@@ -652,32 +697,37 @@
    "spur": "yes",
    "dsasf": "yes",
    "cna": "yes",
-   "calchamber": "no"
+   "calchamber": "no",
+   "lwv": "yes"
   },
   "prop-5": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
-   "dsasf": "yes"
+   "dsasf": "yes",
+   "lwv": "yes"
   },
   "prop-37": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "no",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "no"
   },
   "prop-38": {
    "sfdems": "yes",
    "growsf": "no",
-   "dsasf": "no"
+   "dsasf": "no",
+   "lwv": "no"
   },
   "prop-39": {
    "sfdems": "no",
    "growsf": "no",
    "spur": "no",
    "dsasf": "no",
-   "cna": "no"
+   "cna": "no",
+   "lwv": "no"
   },
   "prop-40": {
    "sfdems": "no",
@@ -688,7 +738,10 @@
    "dsasf": "yes",
    "sfchamber": "no",
    "cna": "yes",
-   "calchamber": "no"
+   "calchamber": "no",
+   "lwv": {
+    "none": "Neutral"
+   }
   },
   "prop-41": {
    "sfdems": "no",
@@ -697,7 +750,8 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "cna": "no",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "no"
   },
   "prop-42": {
    "sfdems": "no",
@@ -706,7 +760,8 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "cna": "no",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "no"
   },
   "prop-43": {
    "sfdems": "no",
@@ -715,7 +770,8 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "cna": "no",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "no"
   },
   "prop-44": {
    "sfdems": "no",
@@ -723,7 +779,8 @@
    "dsasf": {
     "none": "No Recommendation"
    },
-   "calchamber": "no"
+   "calchamber": "no",
+   "lwv": "no"
   },
   "prop-45": {
    "sfdems": "no",
@@ -733,7 +790,8 @@
    },
    "dsasf": "no",
    "sfchamber": "yes",
-   "calchamber": "yes"
+   "calchamber": "yes",
+   "lwv": "no"
   },
   "rtm": {
    "sfdems": "yes",
@@ -741,14 +799,16 @@
    "spur": "yes",
    "dsasf": "yes",
    "sflc": "yes",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "yes"
   },
   "prop-a": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "no"
   },
   "prop-b": {
    "sfdems": "yes",
@@ -757,14 +817,16 @@
    "dsasf": "yes",
    "sflc": "yes",
    "sfchamber": "no",
-   "uesf": "yes"
+   "uesf": "yes",
+   "lwv": "yes"
   },
   "prop-c": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "yes",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "yes"
   },
   "prop-d": {
    "sfdems": "yes",
@@ -773,21 +835,24 @@
    "dsasf": "no",
    "sflc": "no",
    "sfchamber": "yes",
-   "uesf": "no"
+   "uesf": "no",
+   "lwv": "no"
   },
   "prop-e": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "no"
   },
   "prop-f": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "no"
   },
   "prop-g": {
    "sfdems": "no",
@@ -801,6 +866,9 @@
    },
    "sfchamber": {
     "none": "Abstained"
+   },
+   "lwv": {
+    "none": "Neutral"
    }
   },
   "prop-h": {
@@ -809,7 +877,8 @@
    "spur": "yes",
    "dsasf": "yes",
    "sflc": "yes",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "lwv": "yes"
   },
   "prop-i": {
    "sfdems": "no",
@@ -820,7 +889,8 @@
     "none": "No Recommendation"
    },
    "sfchamber": "no",
-   "uesf": "yes"
+   "uesf": "yes",
+   "lwv": "yes"
   },
   "prop-j": {
    "sfdems": "yes",
@@ -830,7 +900,8 @@
    "sflc": "yes",
    "sfchamber": {
     "none": "Abstained"
-   }
+   },
+   "lwv": "yes"
   }
  },
  "money_note": "Rough, public-record figures only. Campaign-committee receipts are itemized contributions and can include transfers between a group's own committees. IRS figures are each group's latest return with itemized data, which may be a few years old."

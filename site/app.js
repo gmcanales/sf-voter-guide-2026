@@ -687,6 +687,8 @@ function renderGroups() {
             el('a', { href: g.self_description.source, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source'))
         : g.self_description_missing ? el('p', { class: 'vg-fineprint' }, g.self_description_missing) : null,
       g.about ? el('p', { class: 'vg-group-about' }, g.about) : null,
+      g.sources ? el('ul', { class: 'vg-group-sources' }, g.sources.map(s =>
+        el('li', {}, el('a', { href: s.url, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, s.label)))) : null,
       el('dl', {},
         el('dt', {}, 'Money'),
         el('dd', {}, el('ul', {}, (g.money || []).map(m => el('li', {},
