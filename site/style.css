@@ -32,6 +32,33 @@
   background: var(--surface2);
   font-size: 0.9rem;
 }
+.vg-county { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 14px; }
+.vg-county-label { color: var(--text-muted); }
+.vg-county-opt { color: var(--accent); text-decoration: none; }
+.vg-county-opt:hover { text-decoration: underline; }
+.vg-county-opt.is-current { color: var(--text); }
+.vg-preview-pill {
+  margin-left: 5px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  vertical-align: 1px;
+}
+.vg-preview-banner {
+  margin: 0 0 14px;
+  padding: 10px 12px;
+  border-left: 3px solid #d6a028;
+  border-radius: var(--radius);
+  background: var(--surface2);
+  font-size: 0.88rem;
+  line-height: 1.45;
+}
+.vg-preview-note { margin: 10px 0 0; }
 .vg-zip { margin-bottom: 12px; }
 .vg-optional { font-weight: 500; color: var(--text-faint); font-size: 0.85rem; }
 .vg-zip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }

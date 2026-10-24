@@ -1,0 +1,142 @@
+[
+ {
+  "letter": "RTM",
+  "jurisdiction": "Regional (BART district counties)",
+  "title": "Regional Transit Measure"
+ },
+ {
+  "letter": "I",
+  "jurisdiction": "Dublin USD",
+  "title": "Parcel Tax Measure"
+ },
+ {
+  "letter": "J",
+  "jurisdiction": "San Lorenzo USD",
+  "title": "Education Parcel Tax"
+ },
+ {
+  "letter": "K",
+  "jurisdiction": "Sunol Glen",
+  "title": "GO Bond Measure"
+ },
+ {
+  "letter": "L",
+  "jurisdiction": "City of Alameda",
+  "title": "GO Bond Measure"
+ },
+ {
+  "letter": "M",
+  "jurisdiction": "City of Alameda",
+  "title": "Charter Amendment - Amend and Repeal Outdated Provisions"
+ },
+ {
+  "letter": "N",
+  "jurisdiction": "City of Alameda",
+  "title": "Charter Amendment - Leases and Sales of Real Property Measure"
+ },
+ {
+  "letter": "O",
+  "jurisdiction": "City of Albany",
+  "title": "Requirement to Zoning Changes Measure"
+ },
+ {
+  "letter": "P",
+  "jurisdiction": "City of Albany",
+  "title": "Street Paving and Storm Drain Parcel Tax Measure"
+ },
+ {
+  "letter": "Q",
+  "jurisdiction": "City of Albany",
+  "title": "EMS, ALS, Fire Protection Parcel Tax Measure"
+ },
+ {
+  "letter": "R",
+  "jurisdiction": "City of Albany",
+  "title": "Business License Tax Measure"
+ },
+ {
+  "letter": "S",
+  "jurisdiction": "City of Albany",
+  "title": "Real Property Transfer Tax Measure"
+ },
+ {
+  "letter": "T",
+  "jurisdiction": "City of Albany",
+  "title": "Street Trees & Streetlighting Parcel Tax Measure"
+ },
+ {
+  "letter": "U",
+  "jurisdiction": "City of Berkeley",
+  "title": "Bond Measure"
+ },
+ {
+  "letter": "V",
+  "jurisdiction": "City of Berkeley",
+  "title": "Sales Tax Measure"
+ },
+ {
+  "letter": "W",
+  "jurisdiction": "City of Berkeley",
+  "title": "Charter Amendment Measure"
+ },
+ {
+  "letter": "X",
+  "jurisdiction": "City of Berkeley",
+  "title": "Rent Ordinance Amendment Measure"
+ },
+ {
+  "letter": "Y",
+  "jurisdiction": "City of Berkeley",
+  "title": "Initiative - Arts Tax Measure"
+ },
+ {
+  "letter": "Z",
+  "jurisdiction": "City of Berkeley",
+  "title": "Initiative - Public Bank Measure"
+ },
+ {
+  "letter": "AA",
+  "jurisdiction": "City of Berkeley",
+  "title": "Initiative - Soda Tax Measure"
+ },
+ {
+  "letter": "BB",
+  "jurisdiction": "City of Emeryville",
+  "title": "Business Tax Measure"
+ },
+ {
+  "letter": "CC",
+  "jurisdiction": "City of Hayward",
+  "title": "Business Tax Ordinance Measure"
+ },
+ {
+  "letter": "DD",
+  "jurisdiction": "City of Newark",
+  "title": "Newark Essential Services Protection Measure"
+ },
+ {
+  "letter": "EE",
+  "jurisdiction": "City of Oakland",
+  "title": "Charter Amendment Measure"
+ },
+ {
+  "letter": "FF",
+  "jurisdiction": "City of Oakland",
+  "title": "Real Property Tax Measure"
+ },
+ {
+  "letter": "GG",
+  "jurisdiction": "City of Piedmont",
+  "title": "Real Property Conveyance Tax Measure"
+ },
+ {
+  "letter": "HH",
+  "jurisdiction": "City of Pleasanton",
+  "title": "Uniform Transient Occupancy Tax Measure"
+ },
+ {
+  "letter": "II",
+  "jurisdiction": "City of Union City",
+  "title": "Union City Essential Services Extension Measure"
+ }
+]

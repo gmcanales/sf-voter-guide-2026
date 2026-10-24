@@ -13,7 +13,7 @@
    {
     "name": "Steve Hilton",
     "party": "REP",
-    "designation": ""
+    "designation": "Small Business Owner"
    }
   ]
  },
@@ -31,7 +31,7 @@
    {
     "name": "Gloria Romero",
     "party": "REP",
-    "designation": ""
+    "designation": "Educator / Businesswoman"
    }
   ]
  },
@@ -49,7 +49,7 @@
    {
     "name": "Donald P. (Don) Wagner",
     "party": "REP",
-    "designation": ""
+    "designation": "Orange County Supervisor"
    }
   ]
  },
@@ -80,12 +80,12 @@
    {
     "name": "Eleni Kounalakis",
     "party": "DEM",
-    "designation": ""
+    "designation": "Lieutenant Governor of California"
    },
    {
     "name": "Jennifer Hawks",
     "party": "REP",
-    "designation": ""
+    "designation": "Retired Business Executive"
    }
   ]
  },
@@ -98,12 +98,12 @@
    {
     "name": "Rob Bonta",
     "party": "DEM",
-    "designation": ""
+    "designation": "California Attorney General"
    },
    {
     "name": "Michael E. Gates",
     "party": "REP",
-    "designation": ""
+    "designation": "Deputy United States Attorney"
    }
   ]
  },
@@ -116,12 +116,12 @@
    {
     "name": "Ben Allen",
     "party": "DEM",
-    "designation": ""
+    "designation": "California State Senator"
    },
    {
     "name": "Jane Kim",
     "party": "DEM",
-    "designation": ""
+    "designation": "Attorney / Consumer Advocate"
    }
   ]
  },
@@ -134,12 +134,12 @@
    {
     "name": "Sally J. Lieber",
     "party": "DEM",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "John Pimentel",
     "party": "DEM",
-    "designation": "Yes - 7/30/2026"
+    "designation": "Member, Board of Trustees, San Mateo County Community College District"
    }
   ]
  },
@@ -152,12 +152,12 @@
    {
     "name": "Kevin Mullin",
     "party": "DEM",
-    "designation": ""
+    "designation": "U.S. Representative"
    },
    {
     "name": "Charles Hoelter",
     "party": "REP",
-    "designation": ""
+    "designation": "Retired Training Supervisor"
    }
   ]
  },
@@ -175,7 +175,7 @@
    {
     "name": "Peter Sundin Soulé",
     "party": "REP",
-    "designation": ""
+    "designation": "Investor"
    }
   ]
  },
@@ -193,7 +193,7 @@
    {
     "name": "Philip Louis Wing",
     "party": "REP",
-    "designation": ""
+    "designation": "Retired Financial Advisor"
    }
   ]
  },
@@ -211,7 +211,7 @@
    {
     "name": "Jabra J Muhawieh",
     "party": "REP",
-    "designation": ""
+    "designation": "Enrolled Agent / Businessman"
    }
   ]
  },
@@ -229,7 +229,7 @@
    {
     "name": "David G. Johnson",
     "party": "REP",
-    "designation": ""
+    "designation": "Small Business Owner"
    }
   ]
  },
@@ -242,12 +242,12 @@
    {
     "name": "Richard Barrera",
     "party": "",
-    "designation": ""
+    "designation": "State Superintendent Advisor"
    },
    {
     "name": "Sonja Shaw",
     "party": "",
-    "designation": ""
+    "designation": "School District President"
    }
   ]
  },
@@ -260,17 +260,25 @@
    {
     "name": "Susan Alvaro",
     "party": "",
-    "designation": "Yes - 8/05/2026"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3021",
+  "title": "County Board of Education Member, Trustee Area 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Beverly Gerard",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Dana Johnson",
     "party": "",
-    "designation": ""
+    "designation": "Program Director / Commissioner"
    }
   ]
  },
@@ -283,22 +291,38 @@
    {
     "name": "John C. Baker",
     "party": "",
-    "designation": "San Mateo County Community College District Member, Governing Board, Trustee Area 2"
-   },
+    "designation": "Grant Administrator / Parent"
+   }
+  ]
+ },
+ {
+  "code": "3103",
+  "title": "San Mateo County Community College District Member, Governing Board, Trustee Area 2",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Mike Guingona",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Jason Holt",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Software Engineer / Parent"
+   }
+  ]
+ },
+ {
+  "code": "3105",
+  "title": "San Mateo County Community College District Member, Governing Board, Trustee Area 4",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Richard Holober",
     "party": "",
-    "designation": ""
+    "designation": "College Board Vice-President"
    }
   ]
  },
@@ -311,7 +335,7 @@
    {
     "name": "Kyle Ekberg",
     "party": "",
-    "designation": ""
+    "designation": "Father / Regulatory Strategist"
    }
   ]
  },
@@ -324,12 +348,12 @@
    {
     "name": "Peter Tokofsky",
     "party": "",
-    "designation": ""
+    "designation": "Teacher / Dad / Journalist"
    },
    {
     "name": "Lizet Cortes-Ronquillo",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -342,12 +366,12 @@
    {
     "name": "Mary Beth Alexander",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Andrea Rosenthal",
     "party": "",
-    "designation": ""
+    "designation": "Teacher / Parent"
    }
   ]
  },
@@ -360,7 +384,7 @@
    {
     "name": "Deborah Walter-Rosas",
     "party": "",
-    "designation": ""
+    "designation": "Paralegal / Grandparent"
    }
   ]
  },
@@ -373,12 +397,12 @@
    {
     "name": "Chialin Hsieh",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Avin Sharma",
     "party": "",
-    "designation": ""
+    "designation": "Parent / Finance Administrator"
    }
   ]
  },
@@ -391,7 +415,7 @@
    {
     "name": "Amanda Anthony",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -404,7 +428,7 @@
    {
     "name": "Frank Lara",
     "party": "",
-    "designation": ""
+    "designation": "Teacher / Union Leader"
    },
    {
     "name": "Mina A. Richardson",
@@ -422,17 +446,17 @@
    {
     "name": "Lasaundra A. Gutter",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Board Member"
    },
    {
     "name": "Rosie Tejada",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Sherrett Walker",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -445,42 +469,74 @@
    {
     "name": "Joelle M. Castoreno",
     "party": "",
-    "designation": "Yes - 8/07/2026"
-   },
+    "designation": "Healthcare Administrator / Parent"
+   }
+  ]
+ },
+ {
+  "code": "3322",
+  "title": "San Mateo Union High School District Member, Governing Board, Trustee Area 1",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Teri L. Chavez",
     "party": "",
-    "designation": "Yes - 8/07/2026"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3324",
+  "title": "San Mateo Union High School District Member, Governing Board, Trustee Area 3",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Diana Harris",
     "party": "",
-    "designation": ""
+    "designation": "Teacher / Mother"
    },
    {
     "name": "Jennifer Jacobson",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3326",
+  "title": "San Mateo Union High School District Member, Governing Board, Trustee Area 5",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Kimo Rosenbaum",
     "party": "",
-    "designation": ""
+    "designation": "Parent / Software Engineer"
    },
    {
     "name": "Alison Proctor",
     "party": "",
     "designation": "San Mateo-Foster City School District Trustee"
-   },
+   }
+  ]
+ },
+ {
+  "code": "3342",
+  "title": "Sequoia Union High School District Member, Governing Board, Trustee Area A",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Amy Koo",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Alon Shiran",
     "party": "",
-    "designation": ""
+    "designation": "Product Executive / Parent"
    }
   ]
  },
@@ -493,12 +549,12 @@
    {
     "name": "Michael Dekshenieks",
     "party": "",
-    "designation": ""
+    "designation": "Management Executive / Parent"
    },
    {
     "name": "Sathvik Nori",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    }
   ]
  },
@@ -511,22 +567,30 @@
    {
     "name": "Gloria Karina Ferrusca",
     "party": "",
-    "designation": ""
+    "designation": "Mother / Attorney"
    },
    {
     "name": "David T. Rudolph",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Jane W. Camarco",
     "party": "",
-    "designation": "Belmont-Redwood Shores School District Member, Governing Board, Trustee Area 1"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3422",
+  "title": "Belmont-Redwood Shores School District Member, Governing Board, Trustee Area 1",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Charles Shagong",
     "party": "",
-    "designation": "Yes - 7/29/2026"
+    "designation": "(No Ballot Designation)"
    }
   ]
  },
@@ -539,7 +603,7 @@
    {
     "name": "David A. Koss",
     "party": "",
-    "designation": ""
+    "designation": "Board President, BRSSD"
    }
   ]
  },
@@ -552,22 +616,22 @@
    {
     "name": "Charlene Larson",
     "party": "",
-    "designation": ""
+    "designation": "Retired Federal Employee"
    },
    {
     "name": "Morgan Finlay",
     "party": "",
-    "designation": "Yes - 7/17/2026"
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Emily Wirowek",
     "party": "",
-    "designation": "Yes - 8/05/2026"
+    "designation": "Parent / Attorney"
    },
    {
     "name": "Sarah Duffy",
     "party": "",
-    "designation": "Yes - 8/05/2026"
+    "designation": "Incumbent"
    }
   ]
  },
@@ -580,7 +644,7 @@
    {
     "name": "Semonti Stephens",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Burlingame School District Member"
    }
   ]
  },
@@ -593,7 +657,7 @@
    {
     "name": "Laura Bull",
     "party": "",
-    "designation": ""
+    "designation": "Parent / Attorney"
    }
   ]
  },
@@ -606,22 +670,30 @@
    {
     "name": "Gilbert Wai",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "An Huang Chen",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Don Geddis",
     "party": "",
-    "designation": "Jefferson Elementary School District Member, Governing Board (Full Term)"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3500",
+  "title": "Jefferson Elementary School District Member, Governing Board (Full Term)",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Aaron Rashba",
     "party": "",
-    "designation": "Daly City, CA 94015"
+    "designation": "Incumbent"
    },
    {
     "name": "Anthony Tsujisaka",
@@ -631,7 +703,7 @@
    {
     "name": "Shakeel Ali",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -644,22 +716,30 @@
    {
     "name": "Eileen R. Policarpio",
     "party": "",
-    "designation": "Yes - 7/17/2026"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3520",
+  "title": "Las Lomitas Elementary School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Gautam Nadella",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Heather Hopkins",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Erin K. Tiedens",
     "party": "",
-    "designation": ""
+    "designation": "Substitute Teacher / Parent"
    }
   ]
  },
@@ -672,17 +752,17 @@
    {
     "name": "Jed Scolnick",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Maya Herstein",
     "party": "",
-    "designation": ""
+    "designation": "Parent"
    },
    {
     "name": "Sherwin Chen",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Andrew Barnes",
@@ -700,17 +780,17 @@
    {
     "name": "Claire Beltrami",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Denis Fama",
     "party": "",
-    "designation": ""
+    "designation": "Educator / Consultant"
    },
    {
     "name": "Nnenna C. Okezie-Sanchez",
     "party": "",
-    "designation": ""
+    "designation": "Educator / Parent"
    }
   ]
  },
@@ -723,37 +803,37 @@
    {
     "name": "Bridget Hardt",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Rachel Durkin",
     "party": "",
-    "designation": "Yes - 7/31/2026"
+    "designation": "Realtor / Parent"
    },
    {
     "name": "Grace Sobieski",
     "party": "",
-    "designation": ""
+    "designation": "Parent / Educator"
    },
    {
     "name": "Tiffany Button",
     "party": "",
-    "designation": "Yes - 8/04/2026"
+    "designation": "Quality Director / Parent"
    },
    {
     "name": "Christopher Swiedler",
     "party": "",
-    "designation": ""
+    "designation": "Parent / Software Engineer"
    },
    {
     "name": "Katy Bradley",
     "party": "",
-    "designation": ""
+    "designation": "Union Organizer / Parent"
    },
    {
     "name": "Laverne R Villalobos",
     "party": "",
-    "designation": "Yes - 7/31/2026"
+    "designation": "Incumbent"
    }
   ]
  },
@@ -766,7 +846,7 @@
    {
     "name": "Kelly Mendoza",
     "party": "",
-    "designation": ""
+    "designation": "Education Programs Leader"
    },
    {
     "name": "Tracey Simmons",
@@ -776,7 +856,7 @@
    {
     "name": "Elizabeth A. Bredall",
     "party": "",
-    "designation": ""
+    "designation": "Special Education Paraprofessional"
    }
   ]
  },
@@ -789,12 +869,12 @@
    {
     "name": "Robert Kx Jin",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Aimee Armsby",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -807,22 +887,30 @@
    {
     "name": "Laura Nunez",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Mele Kasavu Latu",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Tamara Sobomehin",
     "party": "",
-    "designation": "Yes - 7/20/2026"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3643",
+  "title": "Redwood City School District Member, Governing Board, Trustee Area 2",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "David E. Weekly",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -835,7 +923,7 @@
    {
     "name": "Cecilia I. Marquez",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -848,7 +936,7 @@
    {
     "name": "Denise Cook",
     "party": "",
-    "designation": ""
+    "designation": "Parent"
    }
   ]
  },
@@ -861,12 +949,12 @@
    {
     "name": "Duane Beadles",
     "party": "",
-    "designation": ""
+    "designation": "Union Electrician / Parent"
    }
   ]
  },
  {
-  "code": "3720",
+  "code": "3666",
   "title": "San Bruno Park School District Member, Governing Board, Trustee Area 5",
   "vote_for": 1,
   "on_ballot": false,
@@ -874,8 +962,16 @@
    {
     "name": "Raymond Giusti",
     "party": "",
-    "designation": "San Carlos School District Member, Governing Board"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3680",
+  "title": "San Carlos School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Boris Lipkin",
     "party": "",
@@ -884,42 +980,74 @@
    {
     "name": "Richard F. Wahl",
     "party": "",
-    "designation": ""
+    "designation": "Optician / Parent"
    },
    {
     "name": "Megha Chawla",
     "party": "",
-    "designation": ""
+    "designation": "Tech Executive / Mother"
    },
    {
     "name": "Shivani Tripathi",
     "party": "",
-    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 1 (Full Term)"
-   },
+    "designation": "Community Volunteer"
+   }
+  ]
+ },
+ {
+  "code": "3702",
+  "title": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 1 (Full Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Allyson Chan",
     "party": "",
-    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 2 (Full Term)"
-   },
+    "designation": "Education Programs Director"
+   }
+  ]
+ },
+ {
+  "code": "3703",
+  "title": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 2 (Full Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Sabrina Ocampo",
     "party": "",
-    "designation": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 3 (Short Term)"
-   },
+    "designation": "Parent / Account Executive"
+   }
+  ]
+ },
+ {
+  "code": "3704",
+  "title": "San Mateo-Foster City School District Member, Governing Board, Trustee Area 3 (Short Term)",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Stacey Ho",
     "party": "",
-    "designation": "San Mateo, CA 94402"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "3720",
+  "title": "Woodside Elementary School District Member, Governing Board",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Sujay Jaswa",
     "party": "",
-    "designation": ""
+    "designation": "Tech Entrepreneur / Parent"
    },
    {
     "name": "Amanda Peiffer",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Mia Hall",
@@ -937,12 +1065,12 @@
    {
     "name": "Mark Nagales",
     "party": "",
-    "designation": ""
+    "designation": "Vice Mayor"
    },
    {
     "name": "Juslyn Cabrera Manalo",
     "party": "",
-    "designation": ""
+    "designation": "Daly City Councilmember"
    }
   ]
  },
@@ -955,17 +1083,17 @@
    {
     "name": "Rick Degolia",
     "party": "",
-    "designation": "Yes - 7/29/2026"
+    "designation": "Incumbent"
    },
    {
     "name": "Christine David",
     "party": "",
-    "designation": "Yes - 7/30/2026"
+    "designation": "Non-Profit Leader"
    },
    {
     "name": "Jerry Leugers",
     "party": "",
-    "designation": "Yes - 7/30/2026"
+    "designation": "Planning Commissioner"
    }
   ]
  },
@@ -978,12 +1106,20 @@
    {
     "name": "Bill Widmer",
     "party": "",
-    "designation": "City of Belmont Mayor"
-   },
+    "designation": "Council Member"
+   }
+  ]
+ },
+ {
+  "code": "5022",
+  "title": "City of Belmont Mayor",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Julia Mates",
     "party": "",
-    "designation": ""
+    "designation": "Mayor of Belmont"
    }
   ]
  },
@@ -996,7 +1132,7 @@
    {
     "name": "Gina Latimerlo",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1007,9 +1143,9 @@
   "on_ballot": true,
   "candidates": [
    {
-    "name": "Sarah K.m. Delisle",
+    "name": "Sarah K.M. Delisle",
     "party": "",
-    "designation": "Belmont, CA 94002"
+    "designation": "Mother / Business Owner"
    }
   ]
  },
@@ -1022,27 +1158,27 @@
    {
     "name": "Julie Sims",
     "party": "",
-    "designation": ""
+    "designation": "Small Business Owner"
    },
    {
     "name": "Charles Spencer",
     "party": "",
-    "designation": "Yes - 8/06/2026"
+    "designation": "Small Business Owner"
    },
    {
     "name": "Madison Davis",
     "party": "",
-    "designation": "Yes - 8/12/2026"
+    "designation": "Incumbent"
    },
    {
     "name": "Chaya-Bella David",
     "party": "",
-    "designation": ""
+    "designation": "Community Volunteer"
    },
    {
     "name": "Christopher Hornick",
     "party": "",
-    "designation": "Yes - 7/20/2026"
+    "designation": "Businessman / Entrepreneur"
    }
   ]
  },
@@ -1055,7 +1191,7 @@
    {
     "name": "Andrea Pappajohn",
     "party": "",
-    "designation": ""
+    "designation": "Burlingame Vice Mayor"
    }
   ]
  },
@@ -1086,7 +1222,7 @@
    {
     "name": "Peter W. Stevenson",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1099,12 +1235,12 @@
    {
     "name": "Helen Fisicaro",
     "party": "",
-    "designation": "Yes - 7/24/2026"
+    "designation": "Incumbent"
    },
    {
     "name": "Laura M Walsh",
     "party": "",
-    "designation": ""
+    "designation": "Medical Assistant"
    },
    {
     "name": "Joanne F. Del Rosario",
@@ -1114,7 +1250,7 @@
    {
     "name": "Elisabeth Aurora Jenson",
     "party": "",
-    "designation": ""
+    "designation": "Entrepreneur / Artist"
    }
   ]
  },
@@ -1127,32 +1263,32 @@
    {
     "name": "Thomas A. Nuris",
     "party": "",
-    "designation": "Daly City, CA 94015"
+    "designation": "Attorney"
    },
    {
     "name": "Pamela Digiovanni",
     "party": "",
-    "designation": ""
+    "designation": "Daly City Councilmember"
    },
    {
     "name": "Teresa Proaño",
     "party": "",
-    "designation": ""
+    "designation": "City Councilmember / Businesswoman"
    },
    {
-    "name": "Yes - 8/05/2026",
+    "name": "Tony Bayudan",
     "party": "",
-    "designation": "Daly City, CA 94015"
+    "designation": "Chief of Staff"
    },
    {
     "name": "Rod Daus-Magbual",
     "party": "",
-    "designation": ""
+    "designation": "Councilman / Professor / Director"
    },
    {
     "name": "Asia Su",
     "party": "",
-    "designation": ""
+    "designation": "Small Business Owner"
    },
    {
     "name": "Barry Rodriguez",
@@ -1170,42 +1306,50 @@
    {
     "name": "Holifa Windom",
     "party": "",
-    "designation": ""
+    "designation": "Businesswoman"
    },
    {
     "name": "Gail Wilk Dixon",
     "party": "",
-    "designation": ""
+    "designation": "Legal Investigator"
    },
    {
     "name": "Ruben Abrica",
     "party": "",
-    "designation": ""
+    "designation": "Substitute Teacher"
    },
    {
     "name": "Sam Jimenez",
     "party": "",
-    "designation": ""
+    "designation": "Plumbing Business Owner"
    },
    {
     "name": "Ofelia Bello",
     "party": "",
-    "designation": ""
+    "designation": "Nonprofit Executive Director"
    },
    {
     "name": "Deborah Lewis-Virges",
     "party": "",
-    "designation": ""
+    "designation": "Pastor / Community Advocate"
    },
    {
     "name": "Michael Mashack",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Planning Commissioner"
+   }
+  ]
+ },
+ {
+  "code": "5142",
+  "title": "City of Foster City Member, City Council, District 1",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Art Kiesel",
     "party": "",
-    "designation": ""
+    "designation": "Mayor"
    },
    {
     "name": "Phoebe Shin Venkat",
@@ -1223,7 +1367,7 @@
    {
     "name": "Stacy Jimenez",
     "party": "",
-    "designation": ""
+    "designation": "Councilmember / Attorney"
    }
   ]
  },
@@ -1236,12 +1380,12 @@
    {
     "name": "Robert Brownstone",
     "party": "",
-    "designation": "Yes - 8/07/2026"
+    "designation": "Incumbent"
    },
    {
     "name": "David Gorn",
     "party": "",
-    "designation": "Yes - 7/30/2026"
+    "designation": "Planning Commissioner Chair"
    }
   ]
  },
@@ -1254,12 +1398,12 @@
    {
     "name": "Ron Kies",
     "party": "",
-    "designation": ""
+    "designation": "Geologist"
    },
    {
     "name": "Debbie Ruddock",
     "party": "",
-    "designation": "Yes - 8/12/2026"
+    "designation": "Retired Legislative Analyst"
    }
   ]
  },
@@ -1272,22 +1416,30 @@
    {
     "name": "Susie Morasci",
     "party": "",
-    "designation": ""
+    "designation": "Paralegal"
    },
    {
     "name": "Steven R. Booker",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Electrician"
+   }
+  ]
+ },
+ {
+  "code": "5181",
+  "title": "Town of Hillsborough Member, City Council",
+  "vote_for": 2,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Leslie Marden Ragsdale",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Jeff Baxter",
     "party": "",
-    "designation": ""
+    "designation": "Retired Accounting Partner"
    }
   ]
  },
@@ -1300,12 +1452,12 @@
    {
     "name": "James Rohr",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    },
    {
     "name": "Wonman Lee",
     "party": "",
-    "designation": ""
+    "designation": "Software Engineer"
    }
   ]
  },
@@ -1318,12 +1470,12 @@
    {
     "name": "Drew Combs",
     "party": "",
-    "designation": ""
+    "designation": "Menlo Park City Councilmember"
    },
    {
     "name": "Vamsi Velagapudi",
     "party": "",
-    "designation": ""
+    "designation": "Community Volunteer"
    }
   ]
  },
@@ -1336,12 +1488,12 @@
    {
     "name": "Charlotte Reed",
     "party": "",
-    "designation": "Yes - 8/06/2026"
+    "designation": "Communications Professional / Singer"
    },
    {
-    "name": "Not Authorized To Release",
+    "name": "Laura Melahn",
     "party": "",
-    "designation": "Yes - 7/31/2026"
+    "designation": "Entrepreneur / Nonprofit Director"
    }
   ]
  },
@@ -1354,18 +1506,34 @@
    {
     "name": "Sissy Riley",
     "party": "",
-    "designation": "Yes - 8/07/2026"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "5224",
+  "title": "City of Millbrae Member, City Council, District 3 (Short Term)",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Juan Gámez",
     "party": "",
-    "designation": ""
+    "designation": "Business Consultant / Parent"
    },
    {
     "name": "Ann Schneider",
     "party": "",
-    "designation": "City of Millbrae Member, City Council, District 4 (Full Term)"
-   },
+    "designation": "Community Volunteer"
+   }
+  ]
+ },
+ {
+  "code": "5225",
+  "title": "City of Millbrae Member, City Council, District 4 (Full Term)",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Albert Yam",
     "party": "",
@@ -1374,7 +1542,7 @@
    {
     "name": "Bob Nguyen",
     "party": "",
-    "designation": ""
+    "designation": "Small Business Owner"
    }
   ]
  },
@@ -1387,12 +1555,12 @@
    {
     "name": "Christine Boles",
     "party": "",
-    "designation": ""
+    "designation": "Architect / Businesswoman / Councilmember"
    },
    {
-    "name": "Mail: P.o. Box 336",
+    "name": "Dan Urban",
     "party": "",
-    "designation": ""
+    "designation": "Retired Regional Director"
    }
   ]
  },
@@ -1405,7 +1573,7 @@
    {
     "name": "Cindy Abbott",
     "party": "",
-    "designation": "Pacifica, CA 94044"
+    "designation": "Nonprofit Director"
    }
   ]
  },
@@ -1418,12 +1586,12 @@
    {
     "name": "Margo Meiman",
     "party": "",
-    "designation": ""
+    "designation": "Retired Teacher"
    },
    {
     "name": "Sam Casillas",
     "party": "",
-    "designation": ""
+    "designation": "Climate Resiliency Manager"
    }
   ]
  },
@@ -1436,17 +1604,17 @@
    {
     "name": "Mary Hufty",
     "party": "",
-    "designation": ""
+    "designation": "Portola Valley Vice Mayor"
    },
    {
     "name": "Craig S Taylor",
     "party": "",
-    "designation": ""
+    "designation": "Town Council Member"
    },
    {
     "name": "Judith A. Hasko",
     "party": "",
-    "designation": ""
+    "designation": "Town Council Member"
    }
   ]
  },
@@ -1472,7 +1640,7 @@
    {
     "name": "Kaia Eakin",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1485,7 +1653,7 @@
    {
     "name": "Diane Howard",
     "party": "",
-    "designation": ""
+    "designation": "City Councilmember / Nurse"
    }
   ]
  },
@@ -1498,7 +1666,7 @@
    {
     "name": "Rico E. Medina",
     "party": "",
-    "designation": "Yes - 8/12/2026"
+    "designation": "Mayor, City of San Bruno"
    }
   ]
  },
@@ -1511,12 +1679,12 @@
    {
     "name": "Jennifer M. Blanco",
     "party": "",
-    "designation": ""
+    "designation": "Juvenile Justice Commissioner"
    },
    {
     "name": "Kingsley Ma",
     "party": "",
-    "designation": ""
+    "designation": "School Board President"
    }
   ]
  },
@@ -1529,12 +1697,12 @@
    {
     "name": "Marty P. Medina",
     "party": "",
-    "designation": ""
+    "designation": "San Bruno City Councilmember District 4"
    },
    {
     "name": "Auros Harman",
     "party": "",
-    "designation": ""
+    "designation": "Planning Commissioner / Engineer"
    }
   ]
  },
@@ -1547,7 +1715,7 @@
    {
     "name": "Pranita Venkatesh",
     "party": "",
-    "designation": ""
+    "designation": "Councilmember / Educator"
    },
    {
     "name": "Sara McDowell",
@@ -1557,12 +1725,12 @@
    {
     "name": "Adam Rak",
     "party": "",
-    "designation": ""
+    "designation": "San Carlos City Councilmember"
    },
    {
     "name": "Mark D. Iwanowski",
     "party": "",
-    "designation": ""
+    "designation": "Business Owner / Entrepreneur"
    }
   ]
  },
@@ -1575,12 +1743,12 @@
    {
     "name": "Taso Zografos",
     "party": "",
-    "designation": ""
+    "designation": "Business Executive / Engineer"
    },
    {
     "name": "Lisa Diaz Nash",
     "party": "",
-    "designation": ""
+    "designation": "San Mateo Councilmember, District 1"
    }
   ]
  },
@@ -1593,12 +1761,12 @@
    {
     "name": "Seema Patel",
     "party": "",
-    "designation": "Yes - 8/03/2026"
+    "designation": "Planning Commissioner"
    },
    {
     "name": "Robert G. Newsom JR.",
     "party": "",
-    "designation": "Yes - 8/04/2026"
+    "designation": "Councilmember / Businessman / Father"
    }
   ]
  },
@@ -1611,17 +1779,17 @@
    {
     "name": "Dave Johnson",
     "party": "",
-    "designation": ""
+    "designation": "Pastor / Coach"
    },
    {
     "name": "Dana Yates Sahae",
     "party": "",
-    "designation": ""
+    "designation": "Community Advocate / Parent"
    },
    {
     "name": "Adam Loraine",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1647,17 +1815,17 @@
    {
     "name": "Buenaflor (Flor) Nicolas",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Sophia Cyris",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    },
    {
     "name": "Melanie Olson",
     "party": "",
-    "designation": ""
+    "designation": "Associate Planner"
    }
   ]
  },
@@ -1670,17 +1838,33 @@
    {
     "name": "Eddie Flores",
     "party": "",
-    "designation": "Yes - 8/10/2026"
-   },
+    "designation": "South San Francisco Councilmember, District 5"
+   }
+  ]
+ },
+ {
+  "code": "5370",
+  "title": "City of South San Francisco City Clerk",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Rosa Govea Acosta",
     "party": "",
-    "designation": "City of South San Francisco City Treasurer"
-   },
+    "designation": "City Clerk"
+   }
+  ]
+ },
+ {
+  "code": "5371",
+  "title": "City of South San Francisco City Treasurer",
+  "vote_for": 1,
+  "on_ballot": true,
+  "candidates": [
    {
     "name": "Frank Risso",
     "party": "",
-    "designation": "FRANKRISSOFORCITYTREASURER@"
+    "designation": "City Treasurer"
    }
   ]
  },
@@ -1693,7 +1877,7 @@
    {
     "name": "Lyle Weaver",
     "party": "",
-    "designation": "org"
+    "designation": "Retired Engineer"
    }
   ]
  },
@@ -1706,7 +1890,7 @@
    {
     "name": "Daniel Druker",
     "party": "",
-    "designation": ""
+    "designation": "Retired Technology Executive"
    }
   ]
  },
@@ -1719,12 +1903,12 @@
    {
     "name": "Iris Gallagher",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Kenneth A. Tonna",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1737,12 +1921,12 @@
    {
     "name": "John V. Aguerre",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Anna Marie Brizuela",
     "party": "",
-    "designation": ""
+    "designation": "Investment Compliance Officer"
    }
   ]
  },
@@ -1755,7 +1939,7 @@
    {
     "name": "David R. Dickson",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    }
   ]
  },
@@ -1768,7 +1952,7 @@
    {
     "name": "Chris R Mickelsen",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1781,12 +1965,12 @@
    {
     "name": "Nancy Eleanora Poss",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    },
    {
     "name": "Joey P. Silva",
     "party": "",
-    "designation": ""
+    "designation": "Retired Maintenance Supervisor"
    }
   ]
  },
@@ -1799,7 +1983,7 @@
    {
     "name": "Patrick Hanna",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1817,7 +2001,7 @@
    {
     "name": "Cynthia Sherrill",
     "party": "",
-    "designation": "Yes - 8/07/2026"
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1830,12 +2014,12 @@
    {
     "name": "Gary Burke",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Alex Carrillo",
     "party": "",
-    "designation": "Yes - 7/31/2026"
+    "designation": "Crisis Management Professional"
    }
   ]
  },
@@ -1848,22 +2032,22 @@
    {
     "name": "Barbara Dye",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Kevin W. Sniecinski",
     "party": "",
-    "designation": ""
+    "designation": "Researcher / Community Advocate"
    },
    {
     "name": "Matt Allen",
     "party": "",
-    "designation": ""
+    "designation": "Appointed Incumbent"
    },
    {
     "name": "Patrick Tierney",
     "party": "",
-    "designation": ""
+    "designation": "Retired Professor"
    }
   ]
  },
@@ -1876,13 +2060,21 @@
    {
     "name": "Gordon Strause",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    },
    {
     "name": "Uy Ut",
     "party": "",
-    "designation": "Ladera Recreation District Member, Board of Directors (Full Term)"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6160",
+  "title": "Ladera Recreation District Member, Board of Directors (Full Term)",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Shawn Salmon",
     "party": "",
@@ -1891,7 +2083,7 @@
    {
     "name": "Brian Wall",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1904,47 +2096,87 @@
    {
     "name": "Helen Wang",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6200",
+  "title": "Menlo Park Fire Protection District Member, Board of Directors",
+  "vote_for": 3,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Chuck Bernstein",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Gary L. Bloom",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Robert Jones",
     "party": "",
-    "designation": "Mid-Peninsula Water District Member, Board of Directors, Division 3"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6224",
+  "title": "Mid-Peninsula Water District Member, Board of Directors, Division 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Neela Patel",
     "party": "",
-    "designation": "Yes - 7/14/2026"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6225",
+  "title": "Mid-Peninsula Water District Member, Board of Directors, Division 4",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Joann Covington",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Member, MPWD Board of Directors"
+   }
+  ]
+ },
+ {
+  "code": "6226",
+  "title": "Mid-Peninsula Water District Member, Board of Directors, Division 5",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Charles \"chuck\" Cotten",
     "party": "",
-    "designation": "Midcoast Community Council Councilmember"
-   },
+    "designation": "Appointed Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6240",
+  "title": "Midcoast Community Council Councilmember",
+  "vote_for": 4,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Scott Bollinger",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Joan Brennan",
     "party": "",
-    "designation": ""
+    "designation": "Garden Designer"
    }
   ]
  },
@@ -1957,7 +2189,7 @@
    {
     "name": "Karen C. Holman",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -1970,7 +2202,7 @@
    {
     "name": "Bryan Beck",
     "party": "",
-    "designation": "Yes - 7/28/2026"
+    "designation": "Retired Statistical Programmer"
    }
   ]
  },
@@ -1983,7 +2215,7 @@
    {
     "name": "William \"bill\" Softky",
     "party": "",
-    "designation": ""
+    "designation": "MWSD Board Director"
    }
   ]
  },
@@ -2009,7 +2241,7 @@
    {
     "name": "Virginia \"ginny\" McShane",
     "party": "",
-    "designation": ""
+    "designation": "Retired Teacher"
    }
   ]
  },
@@ -2022,7 +2254,7 @@
    {
     "name": "William Hauser",
     "party": "",
-    "designation": ""
+    "designation": "(No Ballot Designation)"
    }
   ]
  },
@@ -2035,8 +2267,16 @@
    {
     "name": "Anne Dejarnatt",
     "party": "",
-    "designation": "North Coast County Water District Member, Board of Directors, Zone E"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6306",
+  "title": "North Coast County Water District Member, Board of Directors, Zone E",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Ron Ash",
     "party": "",
@@ -2053,17 +2293,17 @@
    {
     "name": "Lawrence William Cappel",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Dennis Zell",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Henry Sanchez",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -2076,23 +2316,55 @@
    {
     "name": "Cullen Rose",
     "party": "",
-    "designation": "San Mateo County Harbor District Member, Board of Commissioners, District 2"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6363",
+  "title": "San Mateo County Harbor District Member, Board of Commissioners, District 2",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "George W. Domurat",
     "party": "",
-    "designation": "Yes - 7/15/2026"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6364",
+  "title": "San Mateo County Harbor District Member, Board of Commissioners, District 3",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Kathryn Slater-Carter",
     "party": "",
-    "designation": ""
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6382",
+  "title": "Sequoia Healthcare District Member, Board of Directors, Zone A",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "William Fong",
     "party": "",
-    "designation": "Sequoia Healthcare District Member, Board of Directors, Zone C"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6384",
+  "title": "Sequoia Healthcare District Member, Board of Directors, Zone C",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Rosanne Foust",
     "party": "",
@@ -2109,7 +2381,7 @@
    {
     "name": "Brian Greenberg",
     "party": "",
-    "designation": ""
+    "designation": "Psychologist / Health Advocate"
    }
   ]
  },
@@ -2122,12 +2394,12 @@
    {
     "name": "Edward Moritz",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    },
    {
     "name": "Roy Thiele-Sardina",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -2140,12 +2412,20 @@
    {
     "name": "Thomas Chambers",
     "party": "",
-    "designation": "Westborough Water District Member, Board of Directors, Zone 4"
-   },
+    "designation": "Incumbent"
+   }
+  ]
+ },
+ {
+  "code": "6425",
+  "title": "Westborough Water District Member, Board of Directors, Zone 4",
+  "vote_for": 1,
+  "on_ballot": false,
+  "candidates": [
    {
     "name": "Perry Bautista",
     "party": "",
-    "designation": ""
+    "designation": "Incumbent"
    }
   ]
  },
@@ -2158,7 +2438,7 @@
    {
     "name": "Matt Miller",
     "party": "",
-    "designation": "Total Qualified: 263"
+    "designation": "Incumbent"
    }
   ]
  }

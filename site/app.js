@@ -3,12 +3,33 @@
 // district choices + marked ovals in localStorage. Text is always set via
 // textContent, never innerHTML.
 
-const STORE_KEY = 'sf-voter-guide.2026-11';
+// ?county= picks the ballot. SF is the full guide; the others are shallow
+// previews built by tools/build_county_ballot.py into data/counties/<id>/.
+const COUNTIES = {
+  sf: { name: 'San Francisco', title: 'SF Voter Guide 2026' },
+  alameda: { name: 'Alameda County', title: 'Alameda County Ballot 2026', preview: true },
+  sanmateo: { name: 'San Mateo County', title: 'San Mateo County Ballot 2026', preview: true },
+};
+const COUNTY = (() => {
+  const c = new URLSearchParams(location.search).get('county');
+  return c && COUNTIES[c] ? c : 'sf';
+})();
+const PREVIEW = !!COUNTIES[COUNTY].preview;
+const DATA_BASE = COUNTY === 'sf' ? './data/' : `./data/counties/${COUNTY}/`;
+const STORE_KEY = 'sf-voter-guide.2026-11' + (COUNTY === 'sf' ? '' : `.${COUNTY}`);
 const RCV_MAX_RANKS = 10;            // SF ballots allow up to 10 rankings
 const RANK_LABEL = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'];
 
 const SOLE_SHARE = 0.995;            // a ZIP this much inside one district counts as "only that one"
-const DIMS = ['cd', 'ad', 'sup', 'bart'];
+const DIMS = ['cd', 'ad', 'sd', 'sup', 'bart', 'city'];
+const DIM_NAMES = { cd: 'Congressional District', ad: 'Assembly District', sd: 'State Senate District',
+  sup: 'Supervisor District', bart: 'BART District' };
+const DIM_SHORT = { cd: 'CD', ad: 'AD', sd: 'SD', sup: 'Sup.', bart: 'BART' };
+
+// Picker label for one option: a number, or a name from the ballot's labels map (cities, "Another district").
+function optionLabel(dim, n) {
+  return BALLOT.districts[dim]?.labels?.[n] ?? String(n);
+}
 
 const state = loadState();
 let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL;
@@ -72,8 +93,8 @@ function districtTag(contest) {
   const a = contest.applies;
   if (!a) return null;
   const [dim, n] = Object.entries(a)[0];
-  const label = { cd: 'Congressional District', ad: 'Assembly District', sup: 'Supervisor District', bart: 'BART District' }[dim];
-  return `${label} ${n} only`;
+  if (dim === 'city') return `${optionLabel(dim, n)} only`;
+  return `${DIM_NAMES[dim]} ${n} only`;
 }
 
 function candidateOrder(contest) {
@@ -428,6 +449,12 @@ function measureMoney(contest) {
 }
 
 function renderMeasureMore(contest) {
+  if (!hasDepth(contest)) {
+    const src = BALLOT.election.official_sources?.[0];
+    return el('p', { class: 'vg-fineprint vg-preview-note' },
+      'Early preview: title only. Full text, the impartial analysis and arguments are in the ',
+      src ? el('a', { href: src.url, target: '_blank', rel: 'noopener' }, 'county’s official materials') : 'county voter guide', '.');
+  }
   const a = ANALYSIS?.measures?.[contest.id];
   return el('details', { class: 'vg-details vg-more' }, el('summary', {}, 'More about this measure'),
     renderTabs(contest.id, [
@@ -496,7 +523,15 @@ function candidateTldr(contest, c) {
   return [el('p', { class: 'vg-tldr' }, `${first} ${second}`), goosebasePosition(contest, c.name)];
 }
 
+function hasDepth(contest) {
+  if (!PREVIEW) return true;
+  const id = contest.id;
+  return !!(ANALYSIS?.candidates?.[id] || EXTERNAL?.candidates?.[id] || FUNDING?.candidates?.[id]
+    || ANALYSIS?.measures?.[id] || contest.summary);
+}
+
 function renderCandidateMore(contest, c) {
+  if (!hasDepth(contest)) return null;
   const a = ANALYSIS?.candidates?.[contest.id]?.[c.name];
   const firstName = c.name.replace(/[“"(].*?[”")]/g, ' ').trim().split(/\s+/)[0];
   return el('details', { class: 'vg-cand-more' }, el('summary', {}, `More on ${firstName}`),
@@ -744,7 +779,7 @@ function zipOptions() {
   const z = state.zip && ZIPS?.zips[state.zip];
   if (!z) return null;
   const out = {};
-  for (const dim of DIMS) out[dim] = z[dim] || [];
+  for (const dim of Object.keys(BALLOT.districts)) out[dim] = z[dim] || [];
   return out;
 }
 
@@ -760,12 +795,12 @@ function applyZip(zip) {
     msg.className = 'vg-zip-msg is-warn';
     msg.textContent = state.zip.startsWith('941')
       ? `We don't have boundary data for ${state.zip} (PO-box ZIPs have none). Choose your districts below.`
-      : `${state.zip} isn't a San Francisco ZIP. This guide covers San Francisco County only. Other counties are coming.`;
+      : `${state.zip} isn't a San Francisco ZIP. Alameda and San Mateo County previews are linked above; other counties aren't covered yet.`;
     state.zip = null;
   } else {
     const opts = zipOptions();
     const unresolved = [];
-    for (const dim of DIMS) {
+    for (const dim of Object.keys(BALLOT.districts)) {
       const list = opts[dim];
       const sole = list.length === 1 || (list[0] && list[0][1] >= SOLE_SHARE);
       if (sole) state.districts[dim] = list[0][0];
@@ -823,11 +858,12 @@ function renderDistricts() {
       },
     }, el('option', { value: '' }, zopts && allowed.length > 1 ? 'Choose…' : 'Show all'),
       allowed.map(([n, share]) => el('option', { value: n, selected: state.districts[dim] === n },
-        share != null && allowed.length > 1 ? `${n} (${Math.max(1, Math.round(share * 100))}% of ZIP area)` : String(n))));
+        share != null && allowed.length > 1 ? `${n} (${Math.max(1, Math.round(share * 100))}% of ZIP area)` : optionLabel(dim, n))));
     box.append(el('label', { class: 'vg-district' },
       el('span', { class: 'vg-district-label' }, spec.label), sel,
       spec.note ? el('span', { class: 'vg-district-note' }, spec.note) : null));
-    if (state.districts[dim] != null) summary.push(`${{ cd: 'CD', ad: 'AD', sup: 'Sup.', bart: 'BART' }[dim]} ${state.districts[dim]}`);
+    const v = state.districts[dim];
+    if (v != null) summary.push(dim === 'city' || v === 0 ? optionLabel(dim, v) : `${DIM_SHORT[dim]} ${v}`);
   }
   document.getElementById('districts-summary').textContent = summary.length ? `· ${summary.join(' · ')}` : '· showing all';
 }
@@ -1105,7 +1141,7 @@ function validate() {
   // Catch transcription slips in preview: guide picks must name real candidates.
   for (const [id, byGuide] of Object.entries(BALLOT_POSITIONS)) {
     const hit = CONTEST_INDEX[id];
-    if (!hit) { console.warn(`[voter-guide] endorsements: unknown contest "${id}"`); continue; }
+    if (!hit) { if (!PREVIEW) console.warn(`[voter-guide] endorsements: unknown contest "${id}"`); continue; }
     const names = new Set((hit.contest.candidates || []).map(c => c.name));
     for (const [g, p] of Object.entries(byGuide)) {
       const n = normPosition(p);
@@ -1113,9 +1149,36 @@ function validate() {
     }
   }
   for (const [id, list] of Object.entries(PICKS.picks || {})) {
-    if (!CONTEST_INDEX[id]) console.warn(`[voter-guide] picks: unknown contest "${id}"`);
+    if (!CONTEST_INDEX[id] && !PREVIEW) console.warn(`[voter-guide] picks: unknown contest "${id}"`);
     for (const p of list) if (!p.reasoning) console.warn(`[voter-guide] picks: ${id} has no reasoning`);
   }
+}
+
+function renderCountyChrome() {
+  const info = COUNTIES[COUNTY];
+  document.getElementById('county-name').textContent = info.name;
+  document.getElementById('guide-title').textContent = info.title;
+  document.title = `${info.title} · Goosebase`;
+  const nav = document.getElementById('county-nav');
+  nav.replaceChildren(el('span', { class: 'vg-county-label' }, 'County:'),
+    ...Object.entries(COUNTIES).map(([id, c]) => id === COUNTY
+      ? el('strong', { class: 'vg-county-opt is-current', 'aria-current': 'page' }, c.name, c.preview ? el('span', { class: 'vg-preview-pill' }, 'preview') : null)
+      : el('a', { class: 'vg-county-opt', href: id === 'sf' ? './' : `./?county=${id}` }, c.name, c.preview ? el('span', { class: 'vg-preview-pill' }, 'preview') : null)));
+  if (PREVIEW) document.querySelector('.subpage-lead').textContent =
+    'Your ballot, contest by contest. Fill in the ovals as you go, see what statewide groups recommend, ' +
+    'and take your finished list with you to mark the real thing.';
+  if (PREVIEW) {
+    // The lookup link in the district hint points at the county's own elections site.
+    const link = document.getElementById('lookup-link');
+    const src = BALLOT.election.official_sources?.[0];
+    if (link && src) { link.href = src.url; link.textContent = `${info.name} elections site`; }
+  }
+  const banner = document.getElementById('preview-banner');
+  banner.hidden = !PREVIEW;
+  if (PREVIEW) banner.replaceChildren(el('strong', {}, 'Early preview. '),
+    `Every contest and measure here is from ${info.name}'s official lists, but we haven't verified candidate order or ` +
+    'district boundaries, and local measures show titles only. Statewide races carry the same research as the San Francisco guide. ' +
+    'Pick your districts and city below to trim the list, and check your official sample ballot.');
 }
 
 async function main() {
@@ -1126,8 +1189,8 @@ async function main() {
   });
   try {
     [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL] = await Promise.all([
-      get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
-      get('./data/zip_districts.json'), get('./data/topics.json'),
+      get(DATA_BASE + 'ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
+      COUNTY === 'sf' ? get('./data/zip_districts.json') : null, get('./data/topics.json'),
       get('./data/funding.json').catch(() => null), get('./data/money.json').catch(() => null),
       get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null),
       get('./data/external_money.json').catch(() => null)]);
@@ -1138,6 +1201,9 @@ async function main() {
     return;
   }
   BALLOT_POSITIONS = GUIDES.positions || {};
+  // Only groups whose recommendations cover this county (statewide groups, plus SF-only ones on the SF guide).
+  GUIDES = { ...GUIDES, guides: GUIDES.guides.filter(g => (g.covers || ['sf']).includes(COUNTY)) };
+  renderCountyChrome();
   for (const s of BALLOT.sections) for (const c of s.contests) CONTEST_INDEX[c.id] = { contest: c, section: s };
   validate();
 
@@ -1146,15 +1212,20 @@ async function main() {
   for (const s of BALLOT.election.official_sources || []) {
     official.append(el('li', {}, el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.label)));
   }
-  document.getElementById('fineprint').textContent =
-    `Ballot order follows the official Ballot Worksheet in the Voter Information Pamphlet. ` +
+  document.getElementById('fineprint').textContent = PREVIEW
+    ? `Contest lists come from ${BALLOT.election.jurisdiction}'s official candidate and measure lists. ` +
+      `Statewide offices, propositions, the Regional Transit Measure and judicial retention are shared with the full ` +
+      `San Francisco guide. Local candidate order, district boundaries and measure details are not verified yet. ` +
+      `Your sample ballot is the authority. Data built ${formatDate(BALLOT.built)}.`
+    : `Ballot order follows the official Ballot Worksheet in the Voter Information Pamphlet. ` +
     `Candidate order is computed from the Secretary of State's randomized alphabet ` +
     `(${BALLOT.randomized_alphabet.letters.split('').join(' ')}) and may differ from your printed ballot. ` +
     `Your sample ballot is the authority. Data built ${formatDate(BALLOT.built)}.`;
 
   renderGroups();
   renderTopicBar();
-  initZip();
+  if (COUNTY === 'sf') initZip();
+  else { document.getElementById('zip-form').hidden = true; state.zip = null; }
   if (state.zip) applyZip(state.zip);      // re-narrow pickers; keeps choices that still fit
   else { renderDistricts(); renderBallot(); renderProgress(); }
   if (location.hash) {

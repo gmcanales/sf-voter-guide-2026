@@ -1,0 +1,3312 @@
+{
+ "election": {
+  "name": "Statewide General Election",
+  "jurisdiction": "Alameda County",
+  "county": "alameda",
+  "short": "Alameda",
+  "date": "2026-11-03",
+  "preview": true,
+  "official_sources": [
+   {
+    "label": "Alameda County Registrar: Nov 3, 2026 election page",
+    "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=260"
+   },
+   {
+    "label": "Alameda County Voter Information Guide (PDF)",
+    "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf"
+   },
+   {
+    "label": "Alameda County official candidate list",
+    "url": "https://alamedacountyca.gov/rov_app/candidatelist"
+   },
+   {
+    "label": "CA Official Voter Information Guide",
+    "url": "https://voterguide.sos.ca.gov/"
+   }
+  ]
+ },
+ "built": "2026-10-24",
+ "randomized_alphabet": {
+  "letters": "HXKWCPJOZALDNSQBIRYGVEFMTU",
+  "source": {
+   "label": "SoS randomized alphabet drawing, Aug 13 2026",
+   "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-results-randomized-alphabet-drawing-november-3-2026-general-election"
+  }
+ },
+ "districts": {
+  "cd": {
+   "label": "U.S. House district",
+   "options": [
+    10,
+    12,
+    14,
+    17
+   ]
+  },
+  "ad": {
+   "label": "State Assembly district",
+   "options": [
+    14,
+    16,
+    18,
+    20,
+    24
+   ]
+  },
+  "sd": {
+   "label": "State Senate district",
+   "options": [
+    10,
+    0
+   ],
+   "labels": {
+    "0": "Another district"
+   },
+   "note": "Only State Senate District 10 votes in Alameda County this year."
+  },
+  "bart": {
+   "label": "BART district",
+   "options": [
+    4,
+    0
+   ],
+   "labels": {
+    "0": "Another district"
+   },
+   "note": "Only BART District 4 has a contested race in Alameda County this year."
+  },
+  "city": {
+   "label": "City",
+   "options": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    0
+   ],
+   "labels": {
+    "1": "Alameda",
+    "2": "Albany",
+    "3": "Berkeley",
+    "4": "Dublin",
+    "5": "Emeryville",
+    "6": "Fremont",
+    "7": "Hayward",
+    "8": "Livermore",
+    "9": "Newark",
+    "10": "Oakland",
+    "11": "Piedmont",
+    "12": "Pleasanton",
+    "13": "San Leandro",
+    "14": "Union City",
+    "0": "Unincorporated area"
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "voter-nominated",
+   "heading": "Voter-Nominated Offices",
+   "group": "offices",
+   "instruction": "Vote for One",
+   "note": "All voters may vote for any candidate, whatever their own party preference. The party shown is the candidate's own registered preference and does not mean the party endorses them.",
+   "contests": [
+    {
+     "id": "governor",
+     "kind": "office",
+     "title": "Governor",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Steve Hilton",
+       "party": "Republican",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "Xavier Becerra",
+       "party": "Democratic",
+       "designation": "Voting Rights Attorney"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ],
+      "16": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ],
+      "18": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ],
+      "20": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ],
+      "24": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ]
+     }
+    },
+    {
+     "id": "lt-governor",
+     "kind": "office",
+     "title": "Lieutenant Governor",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Gloria Romero",
+       "party": "Republican",
+       "designation": "Educator/Businesswoman"
+      },
+      {
+       "name": "Fiona Ma",
+       "party": "Democratic",
+       "designation": "State Treasurer/CPA"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ],
+      "16": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ],
+      "18": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ],
+      "20": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ],
+      "24": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ]
+     }
+    },
+    {
+     "id": "secretary-of-state",
+     "kind": "office",
+     "title": "Secretary of State",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Donald P. (Don) Wagner",
+       "party": "Republican",
+       "designation": "Orange County Supervisor"
+      },
+      {
+       "name": "Shirley N. Weber",
+       "party": "Democratic",
+       "designation": "California Secretary of State",
+       "incumbent": true
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ],
+      "16": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ],
+      "18": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ],
+      "20": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ],
+      "24": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ]
+     }
+    },
+    {
+     "id": "controller",
+     "kind": "office",
+     "title": "Controller",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Malia M. Cohen",
+       "party": "Democratic",
+       "designation": "State Controller/Mother",
+       "incumbent": true
+      },
+      {
+       "name": "Herb W Morgan",
+       "party": "Republican",
+       "designation": "Chief Investment Officer"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ],
+      "16": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ],
+      "18": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ],
+      "20": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ],
+      "24": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ]
+     }
+    },
+    {
+     "id": "treasurer",
+     "kind": "office",
+     "title": "Treasurer",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Jennifer Hawks",
+       "party": "Republican",
+       "designation": "Retired Business Executive"
+      },
+      {
+       "name": "Eleni Kounalakis",
+       "party": "Democratic",
+       "designation": "Lieutenant Governor of California"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ],
+      "16": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ],
+      "18": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ],
+      "20": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ],
+      "24": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ]
+     }
+    },
+    {
+     "id": "attorney-general",
+     "kind": "office",
+     "title": "Attorney General",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Rob Bonta",
+       "party": "Democratic",
+       "designation": "California Attorney General",
+       "incumbent": true
+      },
+      {
+       "name": "Michael E. Gates",
+       "party": "Republican",
+       "designation": "Deputy United States Attorney"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ],
+      "16": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ],
+      "18": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ],
+      "20": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ],
+      "24": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ]
+     }
+    },
+    {
+     "id": "insurance-commissioner",
+     "kind": "office",
+     "title": "Insurance Commissioner",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Jane Kim",
+       "party": "Democratic",
+       "designation": "Attorney/Consumer Advocate"
+      },
+      {
+       "name": "Ben Allen",
+       "party": "Democratic",
+       "designation": "California State Senator"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Ben Allen",
+       "Jane Kim"
+      ],
+      "16": [
+       "Ben Allen",
+       "Jane Kim"
+      ],
+      "18": [
+       "Ben Allen",
+       "Jane Kim"
+      ],
+      "20": [
+       "Ben Allen",
+       "Jane Kim"
+      ],
+      "24": [
+       "Ben Allen",
+       "Jane Kim"
+      ]
+     }
+    },
+    {
+     "id": "boe-2",
+     "kind": "office",
+     "title": "Board of Equalization Member, District 2",
+     "order": "verified",
+     "candidates": [
+      {
+       "name": "John Pimentel",
+       "party": "Democratic",
+       "designation": "Member, Board of Trustees, San Mateo County Community College District"
+      },
+      {
+       "name": "Sally J. Lieber",
+       "party": "Democratic",
+       "designation": "Incumbent",
+       "incumbent": true
+      }
+     ],
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
+    },
+    {
+     "id": "us-rep-10",
+     "kind": "office",
+     "title": "United States Representative, District 10",
+     "candidates": [
+      {
+       "name": "Mark Desaulnier",
+       "designation": "United States Congressman",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Jeff Frese",
+       "designation": "Small Business Owner",
+       "party": "/> Republican Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 10
+     }
+    },
+    {
+     "id": "us-rep-12",
+     "kind": "office",
+     "title": "United States Representative, District 12",
+     "candidates": [
+      {
+       "name": "Jamie Joyce",
+       "designation": "Nonprofit Executive Director",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Lateefah Simon",
+       "designation": "U.S. Representative",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 12
+     }
+    },
+    {
+     "id": "us-rep-14",
+     "kind": "office",
+     "title": "United States Representative, District 14",
+     "candidates": [
+      {
+       "name": "Melissa Hernandez",
+       "designation": "Healthcare Services Director",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Aisha Wahab",
+       "designation": "State Senator",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 14
+     }
+    },
+    {
+     "id": "us-rep-17",
+     "kind": "office",
+     "title": "United States Representative, District 17",
+     "candidates": [
+      {
+       "name": "Ro Khanna",
+       "designation": "United States Congressmember",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Ritesh Tandon",
+       "designation": "CEO/Entrepreneur/Researcher",
+       "party": "/> Republican Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 17
+     }
+    },
+    {
+     "id": "state-senate-10",
+     "kind": "office",
+     "title": "State Senator, District 10",
+     "candidates": [
+      {
+       "name": "Linda R. Price",
+       "designation": "Businesswoman",
+       "party": "/> Republican Party"
+      },
+      {
+       "name": "Scott Sakakihara",
+       "designation": "Councilmember/Navy Officer",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "sd": 10
+     }
+    },
+    {
+     "id": "assembly-14",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 14",
+     "candidates": [
+      {
+       "name": "Mark Rendon",
+       "designation": "Teacher",
+       "party": "/> Green Party"
+      },
+      {
+       "name": "Buffy Wicks",
+       "designation": "Assemblymember/Mom",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 14
+     }
+    },
+    {
+     "id": "assembly-16",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 16",
+     "candidates": [
+      {
+       "name": "Rebecca Bauer-Kahan",
+       "designation": "Assemblymember/Mother",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Joseph A. Rubay",
+       "designation": "Businessman/Father",
+       "party": "/> Republican Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 16
+     }
+    },
+    {
+     "id": "assembly-18",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 18",
+     "candidates": [
+      {
+       "name": "Mia Bonta",
+       "designation": "California State Assemblymember, Assembly District 18",
+       "party": "/> Democratic Party"
+      },
+      {
+       "name": "Andre Sandford",
+       "designation": "Housing Program Director",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 18
+     }
+    },
+    {
+     "id": "assembly-20",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 20",
+     "candidates": [
+      {
+       "name": "Patricia Muga",
+       "designation": "Real Estate Appraiser",
+       "party": "/> Republican Party"
+      },
+      {
+       "name": "Liz Ortega",
+       "designation": "Assemblymember",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 20
+     }
+    },
+    {
+     "id": "assembly-24",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 24",
+     "candidates": [
+      {
+       "name": "Max Hsia",
+       "designation": "Small Business Owner",
+       "party": "/> Republican Party"
+      },
+      {
+       "name": "Alex Lee",
+       "designation": "State Assemblymember",
+       "party": "/> Democratic Party"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 24
+     }
+    }
+   ]
+  },
+  {
+   "id": "judicial",
+   "heading": "Judicial",
+   "group": "offices",
+   "instruction": "Vote YES or NO for each office",
+   "note": "Retention elections: each sitting justice is unopposed and voters decide whether they stay for a new term.",
+   "contests": [
+    {
+     "id": "scotus-groban",
+     "kind": "retention",
+     "title": "Associate Justice of the Supreme Court",
+     "justice": "Joshua Groban"
+    },
+    {
+     "id": "scotus-evans",
+     "kind": "retention",
+     "title": "Associate Justice of the Supreme Court",
+     "justice": "Kelli M. Evans"
+    },
+    {
+     "id": "coa-1-1-wilson",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Monique Langhorne Wilson"
+    },
+    {
+     "id": "coa-1-1-smiley",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Charles A. Smiley"
+    },
+    {
+     "id": "coa-1-1-banke",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Kathleen M. Banke"
+    },
+    {
+     "id": "coa-1-2-stewart",
+     "kind": "retention",
+     "title": "Presiding Justice, Court of Appeal, First District, Division Two",
+     "justice": "Therese M. Stewart"
+    },
+    {
+     "id": "coa-1-2-desautels",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Two",
+     "justice": "Tara M. Desautels"
+    },
+    {
+     "id": "coa-1-3-petrou",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Three",
+     "justice": "Ioana Petrou"
+    },
+    {
+     "id": "coa-1-3-rodriguez",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Three",
+     "justice": "Victor A. Rodriguez"
+    },
+    {
+     "id": "coa-1-4-brown",
+     "kind": "retention",
+     "title": "Presiding Justice, Court of Appeal, First District, Division Four",
+     "justice": "Tracie L. Brown"
+    },
+    {
+     "id": "coa-1-5-chou",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Danny Y. Chou"
+    },
+    {
+     "id": "coa-1-5-simons",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Mark Simons"
+    },
+    {
+     "id": "coa-1-5-burns",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Gordon Burns"
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "heading": "School",
+   "group": "offices",
+   "note": "Local school seats appear only on ballots inside that school or college district.",
+   "contests": [
+    {
+     "id": "superintendent",
+     "kind": "office",
+     "title": "State Superintendent of Public Instruction",
+     "vote_for": 1,
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Sonja Shaw",
+       "designation": "School District President"
+      },
+      {
+       "name": "Richard Barrera",
+       "designation": "State Superintendent Advisor"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "14": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ],
+      "16": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ],
+      "18": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ],
+      "20": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ],
+      "24": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ]
+     }
+    },
+    {
+     "id": "ala-ohlone-community-college-district-trustee-area-6",
+     "kind": "office",
+     "title": "Ohlone Community College District Trustee, Area 6",
+     "candidates": [
+      {
+       "name": "Suzanne \"sue\" Lee Chan",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Sonia Salwan",
+       "designation": "Veterinarian/Nonprofit Founder"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-chabot-las-positas-community-college-district-trustee-area-2",
+     "kind": "office",
+     "title": "Chabot - Las Positas Community College District Trustee, Area 2",
+     "candidates": [
+      {
+       "name": "Linda Granger",
+       "designation": "Education Administrator"
+      },
+      {
+       "name": "Cindy Rocha",
+       "designation": "San Leandro Unified School District Board Trustee Area 3"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-chabot-las-positas-community-college-district-trustee-area-3",
+     "kind": "office",
+     "title": "Chabot - Las Positas Community College District Trustee, Area 3",
+     "candidates": [
+      {
+       "name": "Mark Fay",
+       "designation": "Airworthiness Engineer"
+      },
+      {
+       "name": "Wendy Huang",
+       "designation": "Real Estate Investor"
+      },
+      {
+       "name": "Harris Mojadedi",
+       "designation": "Chabot-Las Positas Governing Board Member"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-chabot-las-positas-community-college-district-trustee-area-6",
+     "kind": "office",
+     "title": "Chabot - Las Positas Community College District Trustee, Area 6",
+     "candidates": [
+      {
+       "name": "Hal G. Gin",
+       "designation": "Chabot-Las Positas College Trustee"
+      },
+      {
+       "name": "Joe Orlando Ramos",
+       "designation": "Author/Adult Educator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-peralta-community-college-district-trustee-area-5",
+     "kind": "office",
+     "title": "Peralta Community College District Trustee, Area 5",
+     "candidates": [
+      {
+       "name": "Cindi Reiss",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Sandra Weese",
+       "designation": "Retired Labor Organizer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-alameda-unified-school-district-governing-board-member-full-term",
+     "kind": "office",
+     "title": "Alameda Unified School District Governing Board Member, Full Term",
+     "candidates": [
+      {
+       "name": "Joyce Boyd",
+       "designation": "Certified Public Accountant"
+      },
+      {
+       "name": "Carrie Hahnel",
+       "designation": "Appointed AUSD Board Member"
+      },
+      {
+       "name": "Gary Lym",
+       "designation": "Alameda Unified School District Governing Board Member"
+      },
+      {
+       "name": "Mike McMahon",
+       "designation": "Independent Contractor"
+      },
+      {
+       "name": "Sarah Putnam",
+       "designation": "Parent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-castro-valley-unified-school-district-governing-board-member-area-2-short-term",
+     "kind": "office",
+     "title": "Castro Valley Unified School District Governing Board Member, Area 2, Short Term",
+     "candidates": [
+      {
+       "name": "Jesus Jacobo",
+       "designation": "Autopilot Engineer"
+      },
+      {
+       "name": "Myla Long",
+       "designation": "Planning Manager/Parent"
+      },
+      {
+       "name": "Frederick Regala",
+       "designation": "Construction Technology Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-castro-valley-unified-school-district-governing-board-member-area-3",
+     "kind": "office",
+     "title": "Castro Valley Unified School District Governing Board Member, Area 3",
+     "candidates": [
+      {
+       "name": "Dan Jacowitz",
+       "designation": "Peace Officer/Father"
+      },
+      {
+       "name": "Eryka N Mathews-Cain",
+       "designation": "Financial Manager/Parent"
+      },
+      {
+       "name": "Glenn A. Miller",
+       "designation": "Certified Public Accountant"
+      },
+      {
+       "name": "Kara Wong",
+       "designation": "Parent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-castro-valley-unified-school-district-governing-board-member-area-4",
+     "kind": "office",
+     "title": "Castro Valley Unified School District Governing Board Member, Area 4",
+     "candidates": [
+      {
+       "name": "Faith Carroll",
+       "designation": "Classified Substitute/Parent"
+      },
+      {
+       "name": "Brian A. Foster",
+       "designation": "Retired Teacher"
+      },
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-dublin-unified-school-district-governing-board-members-area-3-short-term",
+     "kind": "office",
+     "title": "Dublin Unified School District Governing Board Members, Area 3, Short Term",
+     "candidates": [
+      {
+       "name": "Shalini Bhandari",
+       "designation": "Energy Sustainability Manager"
+      },
+      {
+       "name": "Tanner Frye",
+       "designation": "Energy Compliance Inspector"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-dublin-unified-school-district-governing-board-members-area-5",
+     "kind": "office",
+     "title": "Dublin Unified School District Governing Board Members, Area 5",
+     "candidates": [
+      {
+       "name": "Seema Badar",
+       "designation": "Community Volunteer"
+      },
+      {
+       "name": "Dan Cherrier",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-emery-unified-school-district-governing-board-members",
+     "kind": "office",
+     "title": "Emery Unified School District Governing Board Members",
+     "candidates": [
+      {
+       "name": "Christopher Keith Allen",
+       "designation": "Parent"
+      },
+      {
+       "name": "Regina Chagolla",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Brian Donahue",
+       "designation": "Businessman/Journalist/Parent"
+      },
+      {
+       "name": "David Ridlehuber",
+       "designation": "Parent/Contractor"
+      },
+      {
+       "name": "Kimberly Solis",
+       "designation": "Student"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-hayward-unified-school-district-governing-board-member-area-2",
+     "kind": "office",
+     "title": "Hayward Unified School District Governing Board Member, Area 2",
+     "candidates": [
+      {
+       "name": "Joann Guzman",
+       "designation": "Community Volunteer"
+      },
+      {
+       "name": "Joe Orlando Ramos",
+       "designation": "Author/Adult Educator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-hayward-unified-school-district-governing-board-member-area-4",
+     "kind": "office",
+     "title": "Hayward Unified School District Governing Board Member, Area 4",
+     "candidates": [
+      {
+       "name": "Michelle Fernelius",
+       "designation": "Parent/Research Director"
+      },
+      {
+       "name": "Maria Araceli Orozco",
+       "designation": "Parent/Caregiver/Student"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-livermore-valley-joint-unified-school-district-governing-board-member-area-2",
+     "kind": "office",
+     "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #2",
+     "candidates": [
+      {
+       "name": "Tara Boyce",
+       "designation": "Parent/Finance Consultant"
+      },
+      {
+       "name": "Stephen R Orgain",
+       "designation": "Regional Sales Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-livermore-valley-joint-unified-school-district-governing-board-member-area-3",
+     "kind": "office",
+     "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #3",
+     "candidates": [
+      {
+       "name": "Angela M. Brady",
+       "designation": "Parent/Data Analyst"
+      },
+      {
+       "name": "Deborah Gibson",
+       "designation": "Retired Teacher"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-livermore-valley-joint-unified-school-district-governing-board-member-area-5",
+     "kind": "office",
+     "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #5",
+     "candidates": [
+      {
+       "name": "Deena Kaplanis",
+       "designation": "Livermore Valley Joint Unified School District Board Member"
+      },
+      {
+       "name": "Sam Phelps",
+       "designation": "Father"
+      },
+      {
+       "name": "Christiaan Vandenheuvel",
+       "designation": "Member, Board of Education, Livermore Valley Joint Unified School District"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-new-haven-unified-school-district-governing-board-member-area-4",
+     "kind": "office",
+     "title": "New Haven Unified School District Governing Board Member, Area 4",
+     "candidates": [
+      {
+       "name": "Shruti Kumar",
+       "designation": "Professor/School Trustee"
+      },
+      {
+       "name": "Charandeep Singh Tatlah",
+       "designation": "Entrepreneur/IT Professional"
+      },
+      {
+       "name": "Kashif Wasim",
+       "designation": "Software Engineer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-new-haven-unified-school-district-governing-board-member-area-5",
+     "kind": "office",
+     "title": "New Haven Unified School District Governing Board Member, Area 5",
+     "candidates": [
+      {
+       "name": "Deepti Garg",
+       "designation": "Mother/Program Manager"
+      },
+      {
+       "name": "Francis Rojas",
+       "designation": "Educational Consultant/Parent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-pleasanton-unified-school-district-governing-board-member-area-5",
+     "kind": "office",
+     "title": "Pleasanton Unified School District Governing Board Member, Area 5",
+     "candidates": [
+      {
+       "name": "Thomas Choi",
+       "designation": "Attorney/Parent"
+      },
+      {
+       "name": "Karen Fletcher",
+       "designation": "Teacher/Parent"
+      },
+      {
+       "name": "Brett Gerald Martinez",
+       "designation": "Business Owner"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-sunol-glen-unified-school-district-governing-board-member",
+     "kind": "office",
+     "title": "Sunol Glen Unified School District Governing Board Member",
+     "candidates": [
+      {
+       "name": "Gagan Bassi",
+       "designation": "Parent/Cybersecurity Professional"
+      },
+      {
+       "name": "Jennifer Kavouniaris",
+       "designation": "Businesswoman/Grandmother"
+      },
+      {
+       "name": "Karen Ruth Newcomb",
+       "designation": "Retired Investment Strategist"
+      },
+      {
+       "name": "René Turnbull",
+       "designation": "Retired College Dean"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    }
+   ]
+  },
+  {
+   "id": "city-offices",
+   "heading": "City",
+   "group": "offices",
+   "note": "Pick your city above to see only its races. Unincorporated areas have no city races.",
+   "contests": [
+    {
+     "id": "ala-mayor-alameda",
+     "kind": "office",
+     "title": "Mayor, Alameda",
+     "candidates": [
+      {
+       "name": "Tony Daysog",
+       "designation": "Councilmember/Urban Planner"
+      },
+      {
+       "name": "Tracy Jensen",
+       "designation": "Councilmember/Nonprofit Director"
+      },
+      {
+       "name": "Malia Vella",
+       "designation": "Businesswoman/Educator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-alameda",
+     "kind": "office",
+     "title": "Members of City Council, Alameda",
+     "candidates": [
+      {
+       "name": "Thushan Amarasiriwardena",
+       "designation": "Software Product Manager"
+      },
+      {
+       "name": "Maria L. Bondonno",
+       "designation": "Public Service Attorney"
+      },
+      {
+       "name": "Marcie Johnson",
+       "designation": "Social Worker"
+      },
+      {
+       "name": "Tyler Savage",
+       "designation": "Technology Partner Manager"
+      },
+      {
+       "name": "Steve Slauson",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "Amos White",
+       "designation": "Environmental Nonprofit Executive"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-albany",
+     "kind": "office",
+     "title": "Members Of City Council, Albany",
+     "candidates": [
+      {
+       "name": "Jon Destin",
+       "designation": "Albany Business Owner"
+      },
+      {
+       "name": "Katherine Enos",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "Robin D. López",
+       "designation": "Incumbent/Ecologist"
+      },
+      {
+       "name": "Chris McDaniels",
+       "designation": "Public Works Manager"
+      },
+      {
+       "name": "Aaron Tiedemann",
+       "designation": "Housing Policy Analyst"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 2
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-members-of-the-board-of-education-albany",
+     "kind": "office",
+     "title": "Members Of The Board Of Education, Albany",
+     "candidates": [
+      {
+       "name": "Margaret Allen",
+       "designation": "Finance Director"
+      },
+      {
+       "name": "Melissa Boyd",
+       "designation": "Appointed Incumbent"
+      },
+      {
+       "name": "Becky Hopwood",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Josh Mahoney",
+       "designation": "Appointed Incumbent"
+      },
+      {
+       "name": "David McKinney",
+       "designation": "Education Researcher"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 4,
+     "applies": {
+      "city": 2
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-rent-stabilization-board-commissioners-berkeley",
+     "kind": "office",
+     "title": "Rent Stabilization Board Commissioners, Berkeley",
+     "candidates": [
+      {
+       "name": "Avery Arbaugh",
+       "designation": "Tenant Union Organizer"
+      },
+      {
+       "name": "Carole Marasovic",
+       "designation": "Attorney/City Commissioner"
+      },
+      {
+       "name": "Ida Martinac",
+       "designation": "Rent Stabilization Board Commissioner"
+      },
+      {
+       "name": "Nathan Mizell",
+       "designation": "Rent Stabilization Board Commissioner"
+      },
+      {
+       "name": "Vylma Ortiz",
+       "designation": "Attorney/Meditation Teacher"
+      },
+      {
+       "name": "Derek Rodriguez",
+       "designation": "Student/National Guardsman"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 5,
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-school-directors-berkeley",
+     "kind": "office",
+     "title": "School Directors, Berkeley",
+     "candidates": [
+      {
+       "name": "Ka'dijah A. Brown",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Reichi Lee",
+       "designation": "Write-in Candidate"
+      },
+      {
+       "name": "Sandy Park",
+       "designation": "Education Consultant"
+      },
+      {
+       "name": "Jennifer Shanoski",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-district-1-berkeley",
+     "kind": "office",
+     "title": "Member Of City Council District #1, Berkeley",
+     "candidates": [
+      {
+       "name": "Laura Babitt",
+       "designation": "Auditor/Operations Director"
+      },
+      {
+       "name": "Ross Bernet",
+       "designation": "Environmental Program Manager"
+      },
+      {
+       "name": "Moni Gangopadhyay",
+       "designation": "Consumer Protection Investigator"
+      },
+      {
+       "name": "Steve Kromer",
+       "designation": "Energy Efficiency Engineer"
+      },
+      {
+       "name": "Daria Wrubel",
+       "designation": "Youth Therapist"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 3
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-district-4-berkeley",
+     "kind": "office",
+     "title": "Member Of City Council District #4, Berkeley",
+     "candidates": [
+      {
+       "name": "Majdi \"gaith\" Abuhamdieh",
+       "designation": "Entrepreneur/Technologist/Parent"
+      },
+      {
+       "name": "Igor A. Tregub",
+       "designation": "Berkeley City Councilmember, District 4"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 3
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-district-7-berkeley",
+     "kind": "office",
+     "title": "Member Of City Council District #7, Berkeley",
+     "candidates": [
+      {
+       "name": "Aidan Hill",
+       "designation": "Medical Case Manager"
+      },
+      {
+       "name": "Syrak Micael",
+       "designation": "Community Engagement Liaison"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 3
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-district-8-berkeley",
+     "kind": "office",
+     "title": "Member Of City Council District #8, Berkeley",
+     "candidates": [
+      {
+       "name": "Fred M. Feller",
+       "designation": "Attorney"
+      },
+      {
+       "name": "Mark Humbert",
+       "designation": "City Councilmember"
+      },
+      {
+       "name": "Mari Mendonca",
+       "designation": "No Ballot Designation"
+      },
+      {
+       "name": "Michael Wallman",
+       "designation": "Systems Engineer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 3
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-auditor-berkeley",
+     "kind": "office",
+     "title": "Auditor, Berkeley",
+     "candidates": [
+      {
+       "name": "Jenny Wong",
+       "designation": "City Auditor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 3
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-mayor-dublin",
+     "kind": "office",
+     "title": "Mayor, Dublin",
+     "candidates": [
+      {
+       "name": "Sherry Hu",
+       "designation": "Mayor/Entrepreneur/Engineer"
+      },
+      {
+       "name": "Michael McCorriston",
+       "designation": "Councilmember"
+      },
+      {
+       "name": "Kiran Mohammad",
+       "designation": "Author"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-2-dublin",
+     "kind": "office",
+     "title": "Members Of City Council #2, Dublin",
+     "candidates": [
+      {
+       "name": "Daniel Hor",
+       "designation": "Researcher"
+      },
+      {
+       "name": "Steve Lorey",
+       "designation": "Intelligence Analyst"
+      },
+      {
+       "name": "Tejpreet Singh",
+       "designation": "Investor/Father"
+      },
+      {
+       "name": "Richard Thornbury",
+       "designation": "Principal Scientist"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-4-dublin",
+     "kind": "office",
+     "title": "Members Of City Council #4, Dublin",
+     "candidates": [
+      {
+       "name": "Kashef Qaadri",
+       "designation": "City Councilmember/Scientist"
+      },
+      {
+       "name": "Shivraj Singh",
+       "designation": "Business Owner"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-emeryville",
+     "kind": "office",
+     "title": "Members of City Council, Emeryville",
+     "candidates": [
+      {
+       "name": "Corry Frydlewicz",
+       "designation": "Web Developer/Manager"
+      },
+      {
+       "name": "David Mourra",
+       "designation": "Emeryville City Councilmember"
+      },
+      {
+       "name": "Kalimah Atreyu Priforce",
+       "designation": "City Councilmember"
+      },
+      {
+       "name": "Brandon Soublet",
+       "designation": "No Ballot Designation"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 5
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-2-fremont",
+     "kind": "office",
+     "title": "Member Of City Council #2, Fremont",
+     "candidates": [
+      {
+       "name": "Desrie Campbell",
+       "designation": "Councilmember/Healthcare Director"
+      },
+      {
+       "name": "Keith Parker",
+       "designation": "Marketing Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 6
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-3-fremont",
+     "kind": "office",
+     "title": "Member Of City Council #3, Fremont",
+     "candidates": [
+      {
+       "name": "Kathy Kimberlin",
+       "designation": "County Field Director"
+      },
+      {
+       "name": "Vipin Sharma",
+       "designation": "Senior Engineering Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 6
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-4-fremont",
+     "kind": "office",
+     "title": "Member Of City Council #4, Fremont",
+     "candidates": [
+      {
+       "name": "Aziz Akbari",
+       "designation": "Director, Alameda County Water District"
+      },
+      {
+       "name": "Ying Min Li",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "Anurag Mishra",
+       "designation": "Technical Leader"
+      },
+      {
+       "name": "Manisha Pathak",
+       "designation": "Educator/Nonprofit Executive"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 6
+     }
+    },
+    {
+     "id": "ala-mayor-hayward",
+     "kind": "office",
+     "title": "Mayor, Hayward",
+     "candidates": [
+      {
+       "name": "Mark Salinas",
+       "designation": "Mayor/College Instructor"
+      },
+      {
+       "name": "Tom Wong",
+       "designation": "Businessman"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 7
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-district-1-hayward",
+     "kind": "office",
+     "title": "Members Of City Council District #1, Hayward",
+     "candidates": [
+      {
+       "name": "Brian M. Schott",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "George Syrop",
+       "designation": "Council Member"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 7
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-district-6-hayward",
+     "kind": "office",
+     "title": "Members Of City Council District #6, Hayward",
+     "candidates": [
+      {
+       "name": "Julie Roche",
+       "designation": "Hayward City Councilmember"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 7
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-2-livermore",
+     "kind": "office",
+     "title": "Member Of City Council #2, Livermore",
+     "candidates": [
+      {
+       "name": "Ben Barrientos",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Narayan Tadimeti",
+       "designation": "Physician"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 8
+     }
+    },
+    {
+     "id": "ala-mayor-newark",
+     "kind": "office",
+     "title": "Mayor, Newark",
+     "candidates": [
+      {
+       "name": "Michael K. Hannon",
+       "designation": "Mayor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 9
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-newark",
+     "kind": "office",
+     "title": "Members Of City Council, Newark",
+     "candidates": [
+      {
+       "name": "Tonya Connolly",
+       "designation": "Retired Maintenance Superintendent"
+      },
+      {
+       "name": "Noah Patrick Grushkin",
+       "designation": "No Ballot Designation"
+      },
+      {
+       "name": "Matthew Jorgens",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Eve Marie Little",
+       "designation": "Councilmember/College Professor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 9
+     }
+    },
+    {
+     "id": "ala-mayor-oakland",
+     "kind": "office",
+     "title": "Mayor, Oakland",
+     "candidates": [
+      {
+       "name": "Brenda F. Grisham",
+       "designation": "Business Owner"
+      },
+      {
+       "name": "Barbara Lee",
+       "designation": "Mayor, City of Oakland"
+      },
+      {
+       "name": "Mindy Ruth Pechenuk",
+       "designation": "Educator/Researcher"
+      },
+      {
+       "name": "Julius Robinson",
+       "designation": "Community Investment Executive"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-councilmember-district-no-2-oakland",
+     "kind": "office",
+     "title": "Councilmember, District No. 2, Oakland",
+     "candidates": [
+      {
+       "name": "Nate Adams",
+       "designation": "Community Organizer"
+      },
+      {
+       "name": "Charlene Wang",
+       "designation": "City Councilmember, District 2"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-councilmember-district-no-4-oakland",
+     "kind": "office",
+     "title": "Councilmember, District No. 4, Oakland",
+     "candidates": [
+      {
+       "name": "Janani Ramachandran",
+       "designation": "Councilmember/Attorney/Mother"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-councilmember-district-no-6-oakland",
+     "kind": "office",
+     "title": "Councilmember, District No. 6, Oakland",
+     "candidates": [
+      {
+       "name": "Kevin E. Jenkins",
+       "designation": "City Council President"
+      },
+      {
+       "name": "Nancy S. Sidebotham",
+       "designation": "Tax Preparer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-auditor-oakland",
+     "kind": "office",
+     "title": "Auditor, Oakland",
+     "candidates": [
+      {
+       "name": "Michael C. Houston",
+       "designation": "Oakland City Auditor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-school-director-district-no-2-oakland",
+     "kind": "office",
+     "title": "School Director, District No. 2, Oakland",
+     "candidates": [
+      {
+       "name": "Jennifer Brouhard",
+       "designation": "Retired Educator"
+      },
+      {
+       "name": "Arielle Fleisher",
+       "designation": "Parent/Policy Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-school-director-district-no-4-oakland",
+     "kind": "office",
+     "title": "School Director, District No. 4, Oakland",
+     "candidates": [
+      {
+       "name": "Kathryn Camp",
+       "designation": "Public Policy Professional"
+      },
+      {
+       "name": "Mike Hutchinson",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Sylvia Pfeiffer Williams",
+       "designation": "Adult Educator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-school-director-district-no-6-oakland",
+     "kind": "office",
+     "title": "School Director, District No. 6, Oakland",
+     "candidates": [
+      {
+       "name": "Valarie Bachelor",
+       "designation": "School Board Director"
+      },
+      {
+       "name": "Leana Powell",
+       "designation": "Family Advocate/Parent"
+      },
+      {
+       "name": "Alexandra Williams",
+       "designation": "Teacher/Program Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 10
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-members-of-city-council-piedmont",
+     "kind": "office",
+     "title": "Members of City Council, Piedmont",
+     "candidates": [
+      {
+       "name": "Nancy Beninati",
+       "designation": "Supervising Deputy Attorney-General"
+      },
+      {
+       "name": "Sunny Bostrom-Fleming",
+       "designation": "No Ballot Designation"
+      },
+      {
+       "name": "Adam Hundt",
+       "designation": "Businessman"
+      },
+      {
+       "name": "Tom Ramsey",
+       "designation": "Architect/City Councilmember"
+      },
+      {
+       "name": "Bill Reichle",
+       "designation": "Retired University Administrator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "applies": {
+      "city": 11
+     }
+    },
+    {
+     "id": "ala-mayor-pleasanton",
+     "kind": "office",
+     "title": "Mayor, Pleasanton",
+     "candidates": [
+      {
+       "name": "Jack Balch",
+       "designation": "Mayor/CPA"
+      },
+      {
+       "name": "Julie Testa",
+       "designation": "Councilmember, City of Pleasanton"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 12
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-1-pleasanton",
+     "kind": "office",
+     "title": "Members Of City Council #1, Pleasanton",
+     "candidates": [
+      {
+       "name": "Vin Kruttiventi",
+       "designation": "Business Owner"
+      },
+      {
+       "name": "Kathy Narum",
+       "designation": "Businesswoman"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 12
+     }
+    },
+    {
+     "id": "ala-members-of-city-council-3-pleasanton",
+     "kind": "office",
+     "title": "Members Of City Council #3, Pleasanton",
+     "candidates": [
+      {
+       "name": "Reena Gupta",
+       "designation": "Local Business Owner"
+      },
+      {
+       "name": "Jamie Yee",
+       "designation": "Communications Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 12
+     }
+    },
+    {
+     "id": "ala-mayor-san-leandro",
+     "kind": "office",
+     "title": "Mayor, San Leandro",
+     "candidates": [
+      {
+       "name": "Juan González III",
+       "designation": "Mayor, City of San Leandro"
+      },
+      {
+       "name": "James Maes",
+       "designation": "Business Operations Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 13
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-1-san-leandro",
+     "kind": "office",
+     "title": "Member Of City Council #1, San Leandro",
+     "candidates": [
+      {
+       "name": "Sbeydeh Viveros-Walton",
+       "designation": "San Leandro Councilwoman"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 13
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-2-san-leandro-short-term",
+     "kind": "office",
+     "title": "Member Of City Council #2, San Leandro - Short Term",
+     "candidates": [
+      {
+       "name": "James Aguilar",
+       "designation": "Appointed City Councilmember"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 13
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-3-san-leandro",
+     "kind": "office",
+     "title": "Member Of City Council #3, San Leandro",
+     "candidates": [
+      {
+       "name": "Lee Thomas",
+       "designation": "Nonprofit Executive Director"
+      },
+      {
+       "name": "Joseph Trujillo",
+       "designation": "Chief Plant Operator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 13
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-5-san-leandro",
+     "kind": "office",
+     "title": "Member Of City Council #5, San Leandro",
+     "candidates": [
+      {
+       "name": "Xouhoa Bowen",
+       "designation": "San Leandro Councilmember"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 13
+     },
+     "subtitle": "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+    },
+    {
+     "id": "ala-member-of-city-council-2-union-city",
+     "kind": "office",
+     "title": "Member Of City Council #2, Union City",
+     "candidates": [
+      {
+       "name": "Victor Lopez Pulido",
+       "designation": "Legal Advocate/Translator"
+      },
+      {
+       "name": "Jaime Patino",
+       "designation": "Councilmember/Finance Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 14
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-3-union-city",
+     "kind": "office",
+     "title": "Member Of City Council #3, Union City",
+     "candidates": [
+      {
+       "name": "Cheris Crocker-Root",
+       "designation": "Financial Asset Manager"
+      },
+      {
+       "name": "Jeff Wang",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 14
+     }
+    },
+    {
+     "id": "ala-member-of-city-council-4-union-city",
+     "kind": "office",
+     "title": "Member Of City Council #4, Union City",
+     "candidates": [
+      {
+       "name": "Vipan S. Bajwa",
+       "designation": "City Commissioner/Accountant"
+      },
+      {
+       "name": "Sarabjit Kaur Cheema",
+       "designation": "High School Teacher"
+      },
+      {
+       "name": "Qasim Lodhi",
+       "designation": "Software Engineer/Father"
+      },
+      {
+       "name": "Ann Yap-Jequinto",
+       "designation": "Planning Commissioner/Caregiver"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 14
+     }
+    }
+   ]
+  },
+  {
+   "id": "district-offices",
+   "heading": "Special Districts",
+   "group": "offices",
+   "note": "Transit, water, park, sanitary, fire and healthcare districts. Each appears only on ballots inside that district.",
+   "contests": [
+    {
+     "id": "ala-ac-transit-district-director-ward-3",
+     "kind": "office",
+     "title": "AC Transit District Director, Ward 3",
+     "candidates": [
+      {
+       "name": "Adriana Valencia",
+       "designation": "Product Manager/Mother"
+      },
+      {
+       "name": "Joel B. Young",
+       "designation": "AC Transit District Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-ac-transit-district-director-ward-4",
+     "kind": "office",
+     "title": "AC Transit District Director, Ward 4",
+     "candidates": [
+      {
+       "name": "Gabriel Morales",
+       "designation": "Educator"
+      },
+      {
+       "name": "Sarah Syed",
+       "designation": "AC Transit Director"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-ac-transit-district-director-ward-5",
+     "kind": "office",
+     "title": "AC Transit District Director, Ward 5",
+     "candidates": [
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      },
+      {
+       "name": "Murphy McCalley",
+       "designation": "AC Transit District Board Member"
+      },
+      {
+       "name": "Luis Reynoso",
+       "designation": "University Business Professor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-alameda-county-water-district-director-ward-2",
+     "kind": "office",
+     "title": "Alameda County Water District Director, Ward 2",
+     "candidates": [
+      {
+       "name": "Judy C. Huang",
+       "designation": "Director, Alameda County Water District, Ward 2"
+      },
+      {
+       "name": "Jason Miguel",
+       "designation": "Water District Engineer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-alameda-county-water-district-director-ward-3",
+     "kind": "office",
+     "title": "Alameda County Water District Director, Ward 3",
+     "candidates": [
+      {
+       "name": "Paul Sethy",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Yang Shao",
+       "designation": "Councilmember, City of Fremont"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-bart-director-district-4",
+     "kind": "office",
+     "title": "BART Director, District 4",
+     "candidates": [
+      {
+       "name": "Robert Raburn",
+       "designation": "BART Director"
+      },
+      {
+       "name": "Luis Reynoso",
+       "designation": "University Business Professor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "bart": 4
+     }
+    },
+    {
+     "id": "ala-castro-valley-sanitary-district-directors",
+     "kind": "office",
+     "title": "Castro Valley Sanitary District Directors",
+     "candidates": [
+      {
+       "name": "Kristy (Dooman) Woerz",
+       "designation": "Castro Valley Sanitary District Director"
+      },
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      },
+      {
+       "name": "Ralph Johnson",
+       "designation": "Board Member Castro Valley Sanitary District"
+      },
+      {
+       "name": "Ken Owen",
+       "designation": "Sewer Contractor/Attorney"
+      },
+      {
+       "name": "Darshan Saini",
+       "designation": "Organization Change Manager"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-ebmud-director-ward-3",
+     "kind": "office",
+     "title": "EBMUD Director, Ward 3",
+     "candidates": [
+      {
+       "name": "Don Gray",
+       "designation": "Retired Wastewater Manager"
+      },
+      {
+       "name": "Marguerite Young",
+       "designation": "EBMUD Director Ward 3"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-ebmud-director-ward-7",
+     "kind": "office",
+     "title": "EBMUD Director, Ward 7",
+     "candidates": [
+      {
+       "name": "April Chan",
+       "designation": "Director, East Bay Municipal Utility District, Ward 7"
+      },
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      },
+      {
+       "name": "Luis Reynoso",
+       "designation": "University Business Professor"
+      },
+      {
+       "name": "Gary Wolff",
+       "designation": "Licensed Civil Engineer"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-east-bay-regional-park-district-director-ward-3",
+     "kind": "office",
+     "title": "East Bay Regional Park District Director, Ward 3",
+     "candidates": [
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      },
+      {
+       "name": "Rebecca Lewington",
+       "designation": "Retired Brand Strategist"
+      },
+      {
+       "name": "William Yragui",
+       "designation": "Business Owner"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-east-bay-regional-park-district-director-ward-5",
+     "kind": "office",
+     "title": "East Bay Regional Park District Director, Ward 5",
+     "candidates": [
+      {
+       "name": "Bruce Henry",
+       "designation": "Retired Sales Director"
+      },
+      {
+       "name": "Olivia Sanwong",
+       "designation": "Director, East Bay Regional Park District Ward 5"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-eden-township-healthcare-district-director-area-3",
+     "kind": "office",
+     "title": "Eden Township Healthcare District Director, Area 3",
+     "candidates": [
+      {
+       "name": "Narges Dillon",
+       "designation": "Nonprofit Director/Therapist"
+      },
+      {
+       "name": "Joseph Grcar",
+       "designation": "Retired Laboratory Scientist"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-fairview-fire-protection-district-directors",
+     "kind": "office",
+     "title": "Fairview Fire Protection District Directors",
+     "candidates": [
+      {
+       "name": "Michelle Biche",
+       "designation": "Paralegal/Goat Farmer"
+      },
+      {
+       "name": "Vandana Singh Gautam",
+       "designation": "Nonprofit Director"
+      },
+      {
+       "name": "Michael D. Justice",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-hayward-area-recreation-park-district-director-area-2",
+     "kind": "office",
+     "title": "Hayward Area Recreation & Park District Director, Area 2",
+     "candidates": [
+      {
+       "name": "Amanda Alysia Daniels",
+       "designation": "Law Student/Analyst"
+      },
+      {
+       "name": "Sara Lamnin",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-hayward-area-recreation-park-district-director-area-4",
+     "kind": "office",
+     "title": "Hayward Area Recreation & Park District Director, Area 4",
+     "candidates": [
+      {
+       "name": "Joseph \"joe\" Giltner",
+       "designation": "Community Advocate"
+      },
+      {
+       "name": "Paul W. Hodges, JR.",
+       "designation": "Incumbent"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-livermore-area-recreation-park-district-directors",
+     "kind": "office",
+     "title": "Livermore Area Recreation & Park District Directors",
+     "candidates": [
+      {
+       "name": "Timothy Barry",
+       "designation": "Retired General Manager"
+      },
+      {
+       "name": "Larry Bird",
+       "designation": "Retired Police Sergeant"
+      },
+      {
+       "name": "Matt Bogdanowicz",
+       "designation": "Recreation Manager"
+      },
+      {
+       "name": "Maryalice Summers Faltings",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Philip Pierpont",
+       "designation": "Incumbent"
+      },
+      {
+       "name": "Mike Ralph",
+       "designation": "Bike Shop Manager"
+      },
+      {
+       "name": "Laureen Turner",
+       "designation": "Nursing Professor"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-member-board-of-director-oro-loma-sanitary-dist-1",
+     "kind": "office",
+     "title": "Member, Board Of Director, Oro Loma Sanitary Dist #1",
+     "candidates": [
+      {
+       "name": "Tiare Peña",
+       "designation": "Land Use Planner"
+      },
+      {
+       "name": "Shelia Young",
+       "designation": "Director, Oro Loma Sanitary District"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-member-board-of-director-oro-loma-sanitary-dist-3",
+     "kind": "office",
+     "title": "Member, Board Of Director, Oro Loma Sanitary Dist #3",
+     "candidates": [
+      {
+       "name": "Benny Lee",
+       "designation": "Director, Oro Loma Sanitary District"
+      },
+      {
+       "name": "Fred Simon",
+       "designation": "Director, Oro Loma Sanitary District"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-member-board-of-director-oro-loma-sanitary-dist-5",
+     "kind": "office",
+     "title": "Member, Board Of Director, Oro Loma Sanitary Dist #5",
+     "candidates": [
+      {
+       "name": "Rita Duncan",
+       "designation": "Board Director Oro Loma Sanitary District"
+      },
+      {
+       "name": "Koroush \"cyrus\" Farsaei",
+       "designation": "Plant Operator"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    }
+   ]
+  },
+  {
+   "id": "state-props",
+   "heading": "State Propositions",
+   "group": "measures",
+   "contests": [
+    {
+     "id": "prop-1",
+     "kind": "measure",
+     "level": "state",
+     "letter": "1",
+     "title": "Authorizes Bonds for Housing Affordability Programs",
+     "type": "Legislative Statute",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+     "fiscal": "Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+     "yes_means": "The state could borrow $11.25 billion to support veterans and affordable housing.",
+     "no_means": "The state could not borrow $11.25 billion to support veterans and affordable housing.",
+     "official_args": {
+      "for": "Prop. 1 builds affordable homes for veterans, seniors, people with disabilities, low- and middle-income working families, vulnerable Californians and essential workers—teachers, firefighters and nurses. Expands homeownership opportunities, fast-tracks affordable shovel-ready homes, helps those one crisis away from homelessness. Requires strict fiscal accountability and public oversight with no new taxes.",
+      "against": "NO ARGUMENT AGAINST PROPOSITION 1 WAS SUBMITTED."
+     },
+     "listed_supporters": "US Vets; CA Federation of Teachers; Self-Help for the Elderly; Habitat for Humanity CA; CA Alliance of Child & Family Services",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 1",
+       "url": "https://voterguide.sos.ca.gov/propositions/1/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-2",
+     "kind": "measure",
+     "level": "state",
+     "letter": "2",
+     "title": "Increases State’s Rainy Day Fund",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Increases California's Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.",
+     "fiscal": "State budget reserves would be higher.",
+     "yes_means": "Rules for building state budget reserves and paying down extra state debts would change. As a result, state budget reserves would be higher. The state also would be required to make extra debt payments for longer.",
+     "no_means": "Rules for building state budget reserves and paying down extra state debts would not change.",
+     "official_args": {
+      "for": "Vote yes on Proposition 2 to protect schools, healthcare, and public safety funding. Proposition 2 doubles the state's Rainy Day Fund, stops politicians from overspending when there is a budget surplus, and ensures education funding continues during economic downturns. It has bipartisan support from firefighters, hospitals, health clinics, and educators.",
+      "against": "Proposition 2 guarantees more spending, not savings, creating a loophole that makes taxpayer rebates less likely by excluding reserve deposits from California's constitutional spending limit. It provides no new funding for education, healthcare, or public safety. Vote No to protect taxpayer rebates and constitutional limits."
+     },
+     "listed_supporters": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 2",
+       "url": "https://voterguide.sos.ca.gov/propositions/2/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-3",
+     "kind": "measure",
+     "level": "state",
+     "letter": "3",
+     "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation). Allocates tax revenues to public education.",
+     "fiscal": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+     "yes_means": "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+     "no_means": "An income tax increase on high-income earners in place since 2012 would expire in 2031.",
+     "official_args": {
+      "for": "PROPOSITION 3 PROTECTS OUR SCHOOLS AND HEALTHCARE WITHOUT RAISING YOUR TAXES. Prop. 3 prevents a massive tax cut for millionaires and billionaires by maintaining the current tax rates the wealthiest 2% have paid for 15 years and requires strict accountability and audits to ensure school funding gets to classrooms. Vote YES.",
+      "against": "Californians already pay the nation’s highest income, sales, and gas taxes—and have the highest cost of living. Prop. 3 makes temporary income taxes permanent while Sacramento wastes billions on failed programs instead of voters’ priorities. Don’t reward failure. Fix spending first before making taxes permanent. No on Prop. 3."
+     },
+     "listed_supporters": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+     "listed_opponents": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 3",
+       "url": "https://voterguide.sos.ca.gov/propositions/3/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-4",
+     "kind": "measure",
+     "level": "state",
+     "letter": "4",
+     "title": "Repeals Prohibition Against Public Funding of Election Campaigns",
+     "type": "Legislative Statute",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Repeals prohibition on state and local governments offering public funding of candidate election campaigns. Public funding programs may not use funds earmarked for education, transportation, or public safety.",
+     "fiscal": "Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",
+     "yes_means": "State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "no_means": "State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
+     "official_args": {
+      "for": "YES ON 4. California is the ONLY state that bans public funding of campaigns— communities in all other 49 states have this right. Special interests want to keep the ban to protect their power. Prop. 4 removes it. Strict taxpayer safeguards. Vote YES: Elections should be won, not bought.",
+      "against": "Prop. 4 allows politicians to use YOUR taxpayer money to fund their negative campaigns. Prop. 4 has NO LIMIT on the number of candidates who can get taxpayer money and NO LIMIT on how much taxpayer money they can get. Worse yet, Prop. 4 allows SPECIAL INTEREST MONEY IN POLITICS. NO ON PROP. 4."
+     },
+     "listed_supporters": "League of Women Voters of CA; California Nurses Association; Mental Health Advocacy; Social Security Works; Consumer Watchdog",
+     "listed_opponents": "California Taxpayers Assn; Howard Jarvis Taxpayers Assn; Family Business Assn of California; United Latinos Action",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 4",
+       "url": "https://voterguide.sos.ca.gov/propositions/4/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-5",
+     "kind": "measure",
+     "level": "state",
+     "letter": "5",
+     "title": "Changes Recall Election Process for Statewide Officers",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Under current law, voters elect replacement candidates at the same time as the recall election. This measure instead fills recall vacancies by subsequent special election or appointment.",
+     "fiscal": "Net fiscal effect unknown. In the event of a recall, savings or costs of millions of dollars to administer the election depending on the office recalled.",
+     "yes_means": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "no_means": "Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+     "official_args": {
+      "for": "Proposition 5 restores the recall to its original purpose: removing corrupt officials. It closes the loophole that allows replacements to win with a small fraction of the vote, reducing the politics and costs of future recalls. Endorsed by League of Women Voters of California and California Common Cause. Vote YES",
+      "against": "Proposition 5 degrades California’s century-old recall process by limiting voters’ right to select a replacement for recalled officials. Instead, when statewide elected officials are recalled, other politicians would choose a replacement. For lower offices, another costly, taxpayer-funded election would come months later, leaving the office vacant and the people unrepresented."
+     },
+     "listed_supporters": "None submitted",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 5",
+       "url": "https://voterguide.sos.ca.gov/propositions/5/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-37",
+     "kind": "measure",
+     "level": "state",
+     "letter": "37",
+     "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million. Borrowers must be California residents, occupy the home, meet income limits, and pay at least 3% down. Bonds repaid by mortgage payments, not State.",
+     "fiscal": "No direct state or local costs.",
+     "yes_means": "The state would create a new homebuying assistance program. The state could sell up to $25 billion in revenue bonds to fund the program. Bonds would be paid back by homeowners’ payments on their home loans.",
+     "no_means": "The state would not be required to create a new homebuying assistance program.",
+     "official_args": {
+      "for": "Zero Taxpayer Cost—No Taxpayer Risk. Prop. 37 makes buying a home more affordable, keeping homeownership attainable for hardworking and middle-class Californians, with low-interest mortgages funded by private bond investors, NOT TAXPAYERS. Must be CA resident to qualify, meet income requirements, occupy home, make monthly payments, repay loan. Strict accountability/audits.",
+      "against": "NO ARGUMENT AGAINST PROPOSITION 37 WAS SUBMITTED."
+     },
+     "listed_supporters": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 37",
+       "url": "https://voterguide.sos.ca.gov/propositions/37/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-38",
+     "kind": "measure",
+     "level": "state",
+     "letter": "38",
+     "title": "Authorizes Bonds for Immunology Medical Research",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+     "fiscal": "Increased state cost of $500 million to $600 million annually for about 20 years to repay the research bond, with some or all of the cost offset if the funded research generates revenue.",
+     "yes_means": "The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+     "no_means": "The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+     "official_args": {
+      "for": "YES on 38 supports life-saving immunology research to cure and prevent diseases like cancer, heart disease, Alzheimer’s. Strong accountability including independent audits. Mandates 20% Rx discount. Designed to ensure no cost to taxpayers. YES on 38 could save your life and someone you love. Alzheimer’s Association, The Michael J. Fox Foundation for Parkinson’s Research urge YES on 38! www.YESon38.com",
+      "against": "California should continue supporting biomedical research, but Proposition 38 is the wrong approach. It would commit taxpayers to decades of new bond debt while limiting California’s flexibility to address changing health priorities. Research funding should be guided through the normal budget process—not by ballot initiatives."
+     },
+     "listed_supporters": "Michael J. Fox Foundation; Alzheimer’s Los Angeles; Kidney Cancer Assoc; American Nurses Assoc\\CA",
+     "listed_opponents": "Robert M Kaplan Ph.D.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 38",
+       "url": "https://voterguide.sos.ca.gov/propositions/38/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-39",
+     "kind": "measure",
+     "level": "state",
+     "letter": "39",
+     "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.",
+     "fiscal": "Costs of between tens of millions of dollars and low hundreds of millions of dollars each year to implement new voting requirements.",
+     "yes_means": "Voters would be required to present additional identifying information to elections officials each time they vote.",
+     "no_means": "A voter’s identity would continue to be established with the voter’s signature.",
+     "official_args": {
+      "for": "Yes on Prop. 39 gives California a BIPARTISAN solution for VOTER ID. Supported by a solid majority of Democratic, Independent and Republican voters. Increases trust and confidence in our elections.",
+      "against": "No on Prop. 39. This would advance Trump’s voter suppression agenda by adding costly, unnecessary barriers that could block eligible California voters, expose personal information to identity theft, and waste hundreds of millions in taxpayer dollars. Don’t let MAGA billionaires decide which voters count. Vote No."
+     },
+     "listed_supporters": "The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women’s Leadership Assn",
+     "listed_opponents": "ACLU California Action; Common Cause; League of Women Voters of California",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 39",
+       "url": "https://voterguide.sos.ca.gov/propositions/39/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-40",
+     "kind": "measure",
+     "level": "state",
+     "letter": "40",
+     "title": "Imposes One-Time Tax on Certain Taxpayers",
+     "type": "Initiative Constitutional Amendment and Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care. Exempts revenues from constitutional requirements for school funding and spending limit.",
+     "fiscal": "Temporary revenue increase of tens of billions of dollars spread over several years from wealth tax on billionaires. Possible ongoing decrease of less than $1 billion per year in income tax revenue from billionaires.",
+     "yes_means": "The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "no_means": "The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "official_args": {
+      "for": "Vote YES on 40 to tax billionaires. Trump slashed healthcare funding to pay for billionaire tax breaks, eliminating coverage for over a million Californians and doubling health insurance premiums for millions more. It’s time to make billionaires pay their fair share and stop sticking the middle class with the bill.",
+      "against": "Prop. 40 is a flawed, one-time tax scheme that hurts our economy, damages our state budget, and contains a loophole exposing all Californians to taxes we can’t afford—but does nothing to lower healthcare costs. No safeguards, no accountability. Join California Teachers Association, California Medical Association, California Children’s Hospital Association, California Professional Firefighters, State Building and Construction Trades Council of California, Democrats and Republicans: NO on 40."
+     },
+     "listed_supporters": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "listed_opponents": "California Primary Care Association; California School Boards Association; California Taxpayers Association",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 40",
+       "url": "https://voterguide.sos.ca.gov/propositions/40/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-41",
+     "kind": "measure",
+     "level": "state",
+     "letter": "41",
+     "title": "Prohibits New State Taxes that Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+     "fiscal": "The net fiscal effect is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+     "yes_means": "When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+     "no_means": "The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+     "official_args": {
+      "for": "Californians deserve better results for our taxes. Billions have flowed into programs like homelessness, with too little to show for it. Prop. 41 requires the independent State Auditor to conduct PUBLIC AUDITS of programs funded by new taxes—so we get more transparency, more accountability and better outcomes for taxpayers.",
+      "against": "Prop. 41 isn’t really about audits—it’s a billionaire-funded trick designed to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Don’t fall for the billionaires’ lies. Vote NO on 41."
+     },
+     "listed_supporters": "CA Society of Certified Public Accountants (CalCPAs); CalAsian Chamber of Commerce; California Taxpayers Association (CalTax)",
+     "listed_opponents": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 41",
+       "url": "https://voterguide.sos.ca.gov/propositions/41/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-42",
+     "kind": "measure",
+     "level": "state",
+     "letter": "42",
+     "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Prohibits any new state tax (1) imposed on the ownership of personal property (all things people own other than real estate), or (2) that applies retroactively based on taxpayer’s past activities. Nullifies taxes enacted after January 1, 2026 that conflict with this measure.",
+     "fiscal": "Possibility that tax revenues will not go up as much in the future.",
+     "yes_means": "The state could not establish new taxes on the ownership of financial assets or other personal property.",
+     "no_means": "The state would continue to have the option to establish new taxes on the ownership of financial assets or other personal property.",
+     "official_args": {
+      "for": "California’s Constitution currently allows the Legislature to tax retirement and savings—even though you already paid taxes on that money when you earned it! Prop. 42 protects Californians from this double taxation, by prohibiting new and retroactive taxes on personal property, including retirement and savings. You earned it. Prop. 42 protects it.",
+      "against": "This is just another billionaire-funded trick. Prop. 42 isn’t really about protecting your retirement savings—its only real purpose is to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Vote NO on 42."
+     },
+     "listed_supporters": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+     "listed_opponents": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 42",
+       "url": "https://voterguide.sos.ca.gov/propositions/42/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-43",
+     "kind": "measure",
+     "level": "state",
+     "letter": "43",
+     "title": "Limits Voters’ Ability to Raise Revenues for Local Government Services",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+     "fiscal": "Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+     "yes_means": "Certain local government taxes would require two-thirds approval by voters.",
+     "no_means": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+     "official_args": {
+      "for": "Prop. 43 protects taxpayers by restoring Proposition 13’s two-thirds vote requirement to pass local special taxes, including sales taxes, real estate taxes and utility taxes. Courts have allowed special interests to pass earmarked tax increases with fewer votes. Prop. 43 closes this loophole, protecting taxpayers, homeowners and renters. Vote yes.",
+      "against": "PROPOSITION 43 LIMITS VOTERS’ ABILITY TO FUND ESSENTIAL LOCAL SERVICES including fire protection, 911 response, schools, roads, hospitals and affordable housing. It doesn’t cut your taxes and lets just 33.4% of voters veto what nearly 67% want. Protect your vote and majority rule. Vote NO on Proposition 43."
+     },
+     "listed_supporters": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "listed_opponents": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 43",
+       "url": "https://voterguide.sos.ca.gov/propositions/43/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-44",
+     "kind": "measure",
+     "level": "state",
+     "letter": "44",
+     "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+     "fiscal": "Increased state costs in the low tens of millions of dollars per year, covered by fees.",
+     "yes_means": "Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+     "no_means": "The new requirement on health care clinic spending would not go into effect.",
+     "official_args": {
+      "for": "Prop. 44 holds community clinics and their executives accountable by requiring that 90% of clinic revenue be spent on clinics’ charitable mission: patient care and services that make care possible. It increases transparency, reduces wasteful executive spending, and ensures healthcare dollars go where they belong: caring for Californians in need.",
+      "against": "Prop. 44 is a dangerous measure that will shut down hundreds of community health clinics and eliminate vital patient services for millions of Californians. American Academy of Pediatrics CA, California Medical Association, California Academy of Family Physicians, California School Nurses Organization, doctors, nurses and patients urge NO on 44! www.NOProp44.com"
+     },
+     "listed_supporters": "None submitted",
+     "listed_opponents": "American Academy of Pediatrics CA; CA School Nurses Org; CA Academy of Family Physicians; CA Medical Assoc.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 44",
+       "url": "https://voterguide.sos.ca.gov/propositions/44/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-45",
+     "kind": "measure",
+     "level": "state",
+     "letter": "45",
+     "title": "Modifies Environmental Review for Certain Projects",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+     "fiscal": "Initial costs for state and local governments, likely in the high tens of millions of dollars—potentially exceeding $100 million—annually, partly covered by fees. Uncertain, potentially more significant positive or negative longer-term fiscal effects.",
+     "yes_means": "Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.",
+     "no_means": "Public and private projects would continue to use existing project review and court challenge procedures.",
+     "official_args": {
+      "for": "The failing status quo is making California unaffordable. Prop. 45 fixes our broken system and lowers our high cost of living by cutting red tape to build housing, water, schools, hospitals, clean energy, and wildfire prevention faster—while maintaining California’s strong environmental protections. Vote YES for a more affordable California. YESonProp45.com",
+      "against": "PROPOSITION 45 LIMITS ENVIRONMENTAL AND PUBLIC REVIEW OF PROJECTS BUILT IN YOUR COMMUNITY. It guts The California Environmental Quality Act—flipping California law to protect corporate profits over public health and our air and water. Prop. 45 won’t lower your costs: its utility and corporate funders profit while taxpayers pay more. VOTE NO."
+     },
+     "listed_supporters": "California Children’s Hospital Association; California Water Association; California Council for Affordable Housing",
+     "listed_opponents": "Coalition for Clean Air; CA Environmental Voters; Physicians for Social Responsibility, LA; National Wildlife Federation",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 45",
+       "url": "https://voterguide.sos.ca.gov/propositions/45/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "regional",
+   "heading": "Regional",
+   "group": "measures",
+   "contests": [
+    {
+     "id": "rtm",
+     "kind": "measure",
+     "level": "regional",
+     "letter": "RTM",
+     "title": "Regional Transit Measure",
+     "question": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+     "threshold": "50%+1 of all votes cast in the five Bay Area counties",
+     "way_it_is_now": null,
+     "proposal": "This measure was placed on the ballot by voter initiative, signed by the requisite number of voters within the Public Transit Revenue Measure District (“District”). The District was created by the Legislature through Senate Bill 63 (“SB 63”) in 2025 (Government Code sections 67700-67788), which was enacted to preserve and improve public transit service in the San Francisco Bay Area. The District comprises the counties of Alameda, Contra Costa, San Mateo, and Santa Clara, and the City and County of San Francisco, and is governed by the same board that governs the Metropolitan Transportation Commission (“MTC”). SB 63 authorizes District voters to approve a retail transactions and use tax (commonly referred to as a sales tax) for specified purposes. This measure would impose a tax of 0.5% in the counties of Alameda, Contra Costa, San Mateo, and Santa Clara and 1.0% in the City and County of San Francisco. The tax would be imposed and collected in largely the same manner as a state-imposed sales tax. The tax would be in effect for 14 years and would not count toward the statutory limit on combined local sales tax rates. It is estimated that the tax would raise approximately $980 million per year. After payment of defined costs, including election costs and administrative expenses, the District must transfer all remaining revenues to MTC and county transportation agencies for distribution and expenditure according to percentages set forth in the measure, which vary by county and recipient. Recipients include BART, Muni, Caltrain, AC Transit, Santa Clara Valley Transportation Authority, San Francisco Bay Ferry, Golden Gate Transit, smaller bus operators in Alameda and Contra Costa Counties, and county transportation agencies. Revenues would also support free and reduced-cost transit transfers, expansion of the Clipper START reduced-fare program, accessibility programs, mapping and wayfinding and transit priority projects and programs, and repavement projects for roads served by fixed-route transit. While the tax would be imposed throughout the District, the allocation of revenue generated in each county, and the authorized uses of those funds, would vary. For example, 64.70% of all revenues generated in Alameda County would be allocated to BART for transit operations expenses. By contrast, 84.37% of all revenues generated in Santa Clara County would be allocated to the Santa Clara Valley Transportation Authority for public transit expenses and roadway repavement projects on roads served by fixed-route transit. Such repavement projects would be an authorized use of measure revenues in Alameda, Contra Costa, San Mateo, and Santa Clara counties, but would not be authorized in the City and County of San Francisco. Revenue allocation is set forth in Section 12 of the measure. Tax revenues would be subject to accountability requirements in SB 63, which requires BART, Muni, AC Transit, and Caltrain to undergo financial efficiency reviews and adopt implementation plans and authorizes MTC to withhold funds from any of those operators for noncompliance. The measure would also require an independent oversight committee to review whether all revenues are distributed as required. The tax would become effective if approved by a majority of those voting on the measure throughout the entire District.",
+     "yes_means": "a vote to impose the tax described above for 14 years.",
+     "no_means": "a vote against imposing the tax.",
+     "fiscal": null,
+     "how_placed": "On May 26, 2026, the “Connect Bay Area Transit Initiative” was submitted to election officials in Alameda, Contra Costa, San Mateo, and Santa Clara counties, as well as the City and County of San Francisco. The petition included 306,288 unverified signatures. State law required 187,119 valid signatures to qualify the initiative for the ballot. This number is equal to 5% of the total number of registered voters within the District. A random check of the signatures submitted by the proponents of the initiative petition showed that an estimated 235,503 signatures were valid. Because this number was greater than the 205,831 signature threshold, which represents 110% of the required number of signatures, the petition was found to be sufficient. On July 1, 2026, the District Elections Official certified that the petition contained enough valid signatures to qualify for the November 3, 2026 ballot.",
+     "sources": [
+      {
+       "id": "VIP",
+       "label": "SF Voter Information Pamphlet, Nov 3 2026 (Dept. of Elections), p. 52",
+       "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf#page=54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "school-measures",
+   "heading": "School & District Measures",
+   "group": "measures",
+   "note": "Each appears only on ballots inside that district. Titles are from the county's official list; full text is in the county voter guide.",
+   "contests": [
+    {
+     "id": "ala-measure-i",
+     "kind": "measure",
+     "level": "local",
+     "letter": "I",
+     "title": "Parcel Tax Measure",
+     "subtitle": "Dublin USD · Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-measure-j",
+     "kind": "measure",
+     "level": "local",
+     "letter": "J",
+     "title": "Education Parcel Tax",
+     "subtitle": "San Lorenzo USD · Only voters who live in this district see it."
+    },
+    {
+     "id": "ala-measure-k",
+     "kind": "measure",
+     "level": "local",
+     "letter": "K",
+     "title": "GO Bond Measure",
+     "subtitle": "Sunol Glen · Only voters who live in this district see it."
+    }
+   ]
+  },
+  {
+   "id": "city-measures",
+   "heading": "City Measures",
+   "group": "measures",
+   "note": "Titles are from the county's official list; full text and arguments are in the county voter guide.",
+   "contests": [
+    {
+     "id": "ala-measure-l",
+     "kind": "measure",
+     "level": "local",
+     "letter": "L",
+     "title": "GO Bond Measure",
+     "subtitle": "City of Alameda",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "ala-measure-m",
+     "kind": "measure",
+     "level": "local",
+     "letter": "M",
+     "title": "Charter Amendment - Amend and Repeal Outdated Provisions",
+     "subtitle": "City of Alameda",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "ala-measure-n",
+     "kind": "measure",
+     "level": "local",
+     "letter": "N",
+     "title": "Charter Amendment - Leases and Sales of Real Property Measure",
+     "subtitle": "City of Alameda",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "ala-measure-o",
+     "kind": "measure",
+     "level": "local",
+     "letter": "O",
+     "title": "Requirement to Zoning Changes Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-p",
+     "kind": "measure",
+     "level": "local",
+     "letter": "P",
+     "title": "Street Paving and Storm Drain Parcel Tax Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-q",
+     "kind": "measure",
+     "level": "local",
+     "letter": "Q",
+     "title": "EMS, ALS, Fire Protection Parcel Tax Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-r",
+     "kind": "measure",
+     "level": "local",
+     "letter": "R",
+     "title": "Business License Tax Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-s",
+     "kind": "measure",
+     "level": "local",
+     "letter": "S",
+     "title": "Real Property Transfer Tax Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-t",
+     "kind": "measure",
+     "level": "local",
+     "letter": "T",
+     "title": "Street Trees & Streetlighting Parcel Tax Measure",
+     "subtitle": "City of Albany",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "ala-measure-u",
+     "kind": "measure",
+     "level": "local",
+     "letter": "U",
+     "title": "Bond Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-v",
+     "kind": "measure",
+     "level": "local",
+     "letter": "V",
+     "title": "Sales Tax Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-w",
+     "kind": "measure",
+     "level": "local",
+     "letter": "W",
+     "title": "Charter Amendment Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-x",
+     "kind": "measure",
+     "level": "local",
+     "letter": "X",
+     "title": "Rent Ordinance Amendment Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-y",
+     "kind": "measure",
+     "level": "local",
+     "letter": "Y",
+     "title": "Initiative - Arts Tax Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-z",
+     "kind": "measure",
+     "level": "local",
+     "letter": "Z",
+     "title": "Initiative - Public Bank Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-aa",
+     "kind": "measure",
+     "level": "local",
+     "letter": "AA",
+     "title": "Initiative - Soda Tax Measure",
+     "subtitle": "City of Berkeley",
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "ala-measure-bb",
+     "kind": "measure",
+     "level": "local",
+     "letter": "BB",
+     "title": "Business Tax Measure",
+     "subtitle": "City of Emeryville",
+     "applies": {
+      "city": 5
+     }
+    },
+    {
+     "id": "ala-measure-cc",
+     "kind": "measure",
+     "level": "local",
+     "letter": "CC",
+     "title": "Business Tax Ordinance Measure",
+     "subtitle": "City of Hayward",
+     "applies": {
+      "city": 7
+     }
+    },
+    {
+     "id": "ala-measure-dd",
+     "kind": "measure",
+     "level": "local",
+     "letter": "DD",
+     "title": "Newark Essential Services Protection Measure",
+     "subtitle": "City of Newark",
+     "applies": {
+      "city": 9
+     }
+    },
+    {
+     "id": "ala-measure-ee",
+     "kind": "measure",
+     "level": "local",
+     "letter": "EE",
+     "title": "Charter Amendment Measure",
+     "subtitle": "City of Oakland",
+     "applies": {
+      "city": 10
+     }
+    },
+    {
+     "id": "ala-measure-ff",
+     "kind": "measure",
+     "level": "local",
+     "letter": "FF",
+     "title": "Real Property Tax Measure",
+     "subtitle": "City of Oakland",
+     "applies": {
+      "city": 10
+     }
+    },
+    {
+     "id": "ala-measure-gg",
+     "kind": "measure",
+     "level": "local",
+     "letter": "GG",
+     "title": "Real Property Conveyance Tax Measure",
+     "subtitle": "City of Piedmont",
+     "applies": {
+      "city": 11
+     }
+    },
+    {
+     "id": "ala-measure-hh",
+     "kind": "measure",
+     "level": "local",
+     "letter": "HH",
+     "title": "Uniform Transient Occupancy Tax Measure",
+     "subtitle": "City of Pleasanton",
+     "applies": {
+      "city": 12
+     }
+    },
+    {
+     "id": "ala-measure-ii",
+     "kind": "measure",
+     "level": "local",
+     "letter": "II",
+     "title": "Union City Essential Services Extension Measure",
+     "subtitle": "City of Union City",
+     "applies": {
+      "city": 14
+     }
+    }
+   ]
+  }
+ ]
+}

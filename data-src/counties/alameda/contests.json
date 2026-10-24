@@ -1,0 +1,2222 @@
+[
+ {
+  "title": "Governor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Xavier Becerra",
+    "party": "/> Democratic Party",
+    "designation": "Voting Rights Attorney",
+    "incumbent": false
+   },
+   {
+    "name": "Steve Hilton",
+    "party": "/> Republican Party",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Lieutenant Governor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Fiona Ma",
+    "party": "/> Democratic Party",
+    "designation": "State Treasurer/CPA",
+    "incumbent": false
+   },
+   {
+    "name": "Gloria Romero",
+    "party": "/> Republican Party",
+    "designation": "Educator/Businesswoman",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Secretary Of State",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Donald P. (Don) Wagner",
+    "party": "/> Republican Party",
+    "designation": "Orange County Supervisor",
+    "incumbent": false
+   },
+   {
+    "name": "Shirley N. Weber",
+    "party": "/> Democratic Party",
+    "designation": "California Secretary of State",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Controller",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Malia M. Cohen",
+    "party": "/> Democratic Party",
+    "designation": "State Controller/Mother",
+    "incumbent": true
+   },
+   {
+    "name": "Herb W Morgan",
+    "party": "/> Republican Party",
+    "designation": "Chief Investment Officer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jennifer Hawks",
+    "party": "/> Republican Party",
+    "designation": "Retired Business Executive",
+    "incumbent": false
+   },
+   {
+    "name": "Eleni Kounalakis",
+    "party": "/> Democratic Party",
+    "designation": "Lieutenant Governor of California",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Attorney General",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rob Bonta",
+    "party": "/> Democratic Party",
+    "designation": "California Attorney General",
+    "incumbent": true
+   },
+   {
+    "name": "Michael E. Gates",
+    "party": "/> Republican Party",
+    "designation": "Deputy United States Attorney",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Insurance Commissioner",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Ben Allen",
+    "party": "/> Democratic Party",
+    "designation": "California State Senator",
+    "incumbent": false
+   },
+   {
+    "name": "Jane Kim",
+    "party": "/> Democratic Party",
+    "designation": "Attorney/Consumer Advocate",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Member, State Board Of Equalization, 2nd District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sally J. Lieber",
+    "party": "/> Democratic Party",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "John Pimentel",
+    "party": "/> Democratic Party",
+    "designation": "Member, Board of Trustees, San Mateo County Community College District",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "10th Congressional District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mark Desaulnier",
+    "party": "/> Democratic Party",
+    "designation": "United States Congressman",
+    "incumbent": false
+   },
+   {
+    "name": "Jeff Frese",
+    "party": "/> Republican Party",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "12th Congressional District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jamie Joyce",
+    "party": "/> Democratic Party",
+    "designation": "Nonprofit Executive Director",
+    "incumbent": false
+   },
+   {
+    "name": "Lateefah Simon",
+    "party": "/> Democratic Party",
+    "designation": "U.S. Representative",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "14th Congressional District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Melissa Hernandez",
+    "party": "/> Democratic Party",
+    "designation": "Healthcare Services Director",
+    "incumbent": false
+   },
+   {
+    "name": "Aisha Wahab",
+    "party": "/> Democratic Party",
+    "designation": "State Senator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "17th Congressional District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Ro Khanna",
+    "party": "/> Democratic Party",
+    "designation": "United States Congressmember",
+    "incumbent": false
+   },
+   {
+    "name": "Ritesh Tandon",
+    "party": "/> Republican Party",
+    "designation": "CEO/Entrepreneur/Researcher",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "10th State Senate District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Linda R. Price",
+    "party": "/> Republican Party",
+    "designation": "Businesswoman",
+    "incumbent": false
+   },
+   {
+    "name": "Scott Sakakihara",
+    "party": "/> Democratic Party",
+    "designation": "Councilmember/Navy Officer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "14th Assembly District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mark Rendon",
+    "party": "/> Green Party",
+    "designation": "Teacher",
+    "incumbent": false
+   },
+   {
+    "name": "Buffy Wicks",
+    "party": "/> Democratic Party",
+    "designation": "Assemblymember/Mom",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "16th Assembly District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rebecca Bauer-Kahan",
+    "party": "/> Democratic Party",
+    "designation": "Assemblymember/Mother",
+    "incumbent": true
+   },
+   {
+    "name": "Joseph A. Rubay",
+    "party": "/> Republican Party",
+    "designation": "Businessman/Father",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "18th Assembly District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mia Bonta",
+    "party": "/> Democratic Party",
+    "designation": "California State Assemblymember, Assembly District 18",
+    "incumbent": true
+   },
+   {
+    "name": "Andre Sandford",
+    "party": "/> Democratic Party",
+    "designation": "Housing Program Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "20th Assembly District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Patricia Muga",
+    "party": "/> Republican Party",
+    "designation": "Real Estate Appraiser",
+    "incumbent": false
+   },
+   {
+    "name": "Liz Ortega",
+    "party": "/> Democratic Party",
+    "designation": "Assemblymember",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "24th Assembly District",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Max Hsia",
+    "party": "/> Republican Party",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Alex Lee",
+    "party": "/> Democratic Party",
+    "designation": "State Assemblymember",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "State Superintendent Of Public Instruction",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Richard Barrera",
+    "party": "/>",
+    "designation": "State Superintendent Advisor",
+    "incumbent": false
+   },
+   {
+    "name": "Sonja Shaw",
+    "party": "/>",
+    "designation": "School District President",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Ohlone Community College District Trustee, Area 6",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Suzanne \"sue\" Lee Chan",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Sonia Salwan",
+    "party": "/>",
+    "designation": "Veterinarian/Nonprofit Founder",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Chabot - Las Positas Community College District Trustee, Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Linda Granger",
+    "party": "/>",
+    "designation": "Education Administrator",
+    "incumbent": true
+   },
+   {
+    "name": "Cindy Rocha",
+    "party": "/>",
+    "designation": "San Leandro Unified School District Board Trustee Area 3",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Chabot - Las Positas Community College District Trustee, Area 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mark Fay",
+    "party": "/>",
+    "designation": "Airworthiness Engineer",
+    "incumbent": false
+   },
+   {
+    "name": "Wendy Huang",
+    "party": "/>",
+    "designation": "Real Estate Investor",
+    "incumbent": false
+   },
+   {
+    "name": "Harris Mojadedi",
+    "party": "/>",
+    "designation": "Chabot-Las Positas Governing Board Member",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Chabot - Las Positas Community College District Trustee, Area 6",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Hal G. Gin",
+    "party": "/>",
+    "designation": "Chabot-Las Positas College Trustee",
+    "incumbent": true
+   },
+   {
+    "name": "Joe Orlando Ramos",
+    "party": "/>",
+    "designation": "Author/Adult Educator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Peralta Community College District Trustee, Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Cindi Reiss",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Sandra Weese",
+    "party": "/>",
+    "designation": "Retired Labor Organizer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Alameda Unified School District Governing Board Member, Full Term",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Joyce Boyd",
+    "party": "/>",
+    "designation": "Certified Public Accountant",
+    "incumbent": false
+   },
+   {
+    "name": "Carrie Hahnel",
+    "party": "/>",
+    "designation": "Appointed AUSD Board Member",
+    "incumbent": false
+   },
+   {
+    "name": "Gary Lym",
+    "party": "/>",
+    "designation": "Alameda Unified School District Governing Board Member",
+    "incumbent": true
+   },
+   {
+    "name": "Mike McMahon",
+    "party": "/>",
+    "designation": "Independent Contractor",
+    "incumbent": false
+   },
+   {
+    "name": "Sarah Putnam",
+    "party": "/>",
+    "designation": "Parent",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Castro Valley Unified School District Governing Board Member, Area 2, Short Term",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jesus Jacobo",
+    "party": "/>",
+    "designation": "Autopilot Engineer",
+    "incumbent": false
+   },
+   {
+    "name": "Myla Long",
+    "party": "/>",
+    "designation": "Planning Manager/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Frederick Regala",
+    "party": "/>",
+    "designation": "Construction Technology Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Castro Valley Unified School District Governing Board Member, Area 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Dan Jacowitz",
+    "party": "/>",
+    "designation": "Peace Officer/Father",
+    "incumbent": false
+   },
+   {
+    "name": "Eryka N Mathews-Cain",
+    "party": "/>",
+    "designation": "Financial Manager/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Glenn A. Miller",
+    "party": "/>",
+    "designation": "Certified Public Accountant",
+    "incumbent": false
+   },
+   {
+    "name": "Kara Wong",
+    "party": "/>",
+    "designation": "Parent",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Castro Valley Unified School District Governing Board Member, Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Faith Carroll",
+    "party": "/>",
+    "designation": "Classified Substitute/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Brian A. Foster",
+    "party": "/>",
+    "designation": "Retired Teacher",
+    "incumbent": false
+   },
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Dublin Unified School District Governing Board Members, Area 3, Short Term",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Shalini Bhandari",
+    "party": "/>",
+    "designation": "Energy Sustainability Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Tanner Frye",
+    "party": "/>",
+    "designation": "Energy Compliance Inspector",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Dublin Unified School District Governing Board Members, Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Seema Badar",
+    "party": "/>",
+    "designation": "Community Volunteer",
+    "incumbent": false
+   },
+   {
+    "name": "Dan Cherrier",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Emery Unified School District Governing Board Members",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Christopher Keith Allen",
+    "party": "/>",
+    "designation": "Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Regina Chagolla",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Brian Donahue",
+    "party": "/>",
+    "designation": "Businessman/Journalist/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "David Ridlehuber",
+    "party": "/>",
+    "designation": "Parent/Contractor",
+    "incumbent": false
+   },
+   {
+    "name": "Kimberly Solis",
+    "party": "/>",
+    "designation": "Student",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Hayward Unified School District Governing Board Member, Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Joann Guzman",
+    "party": "/>",
+    "designation": "Community Volunteer",
+    "incumbent": false
+   },
+   {
+    "name": "Joe Orlando Ramos",
+    "party": "/>",
+    "designation": "Author/Adult Educator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Hayward Unified School District Governing Board Member, Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Michelle Fernelius",
+    "party": "/>",
+    "designation": "Parent/Research Director",
+    "incumbent": false
+   },
+   {
+    "name": "Maria Araceli Orozco",
+    "party": "/>",
+    "designation": "Parent/Caregiver/Student",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Tara Boyce",
+    "party": "/>",
+    "designation": "Parent/Finance Consultant",
+    "incumbent": false
+   },
+   {
+    "name": "Stephen R Orgain",
+    "party": "/>",
+    "designation": "Regional Sales Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Angela M. Brady",
+    "party": "/>",
+    "designation": "Parent/Data Analyst",
+    "incumbent": false
+   },
+   {
+    "name": "Deborah Gibson",
+    "party": "/>",
+    "designation": "Retired Teacher",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Livermore Valley Joint Unified School District Governing Board Member, Area #5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Deena Kaplanis",
+    "party": "/>",
+    "designation": "Livermore Valley Joint Unified School District Board Member",
+    "incumbent": false
+   },
+   {
+    "name": "Sam Phelps",
+    "party": "/>",
+    "designation": "Father",
+    "incumbent": false
+   },
+   {
+    "name": "Christiaan Vandenheuvel",
+    "party": "/>",
+    "designation": "Member, Board of Education, Livermore Valley Joint Unified School District",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "New Haven Unified School District Governing Board Member, Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Shruti Kumar",
+    "party": "/>",
+    "designation": "Professor/School Trustee",
+    "incumbent": true
+   },
+   {
+    "name": "Charandeep Singh Tatlah",
+    "party": "/>",
+    "designation": "Entrepreneur/IT Professional",
+    "incumbent": false
+   },
+   {
+    "name": "Kashif Wasim",
+    "party": "/>",
+    "designation": "Software Engineer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "New Haven Unified School District Governing Board Member, Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Deepti Garg",
+    "party": "/>",
+    "designation": "Mother/Program Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Francis Rojas",
+    "party": "/>",
+    "designation": "Educational Consultant/Parent",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Pleasanton Unified School District Governing Board Member, Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Thomas Choi",
+    "party": "/>",
+    "designation": "Attorney/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Karen Fletcher",
+    "party": "/>",
+    "designation": "Teacher/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Brett Gerald Martinez",
+    "party": "/>",
+    "designation": "Business Owner",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Sunol Glen Unified School District Governing Board Member",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Gagan Bassi",
+    "party": "/>",
+    "designation": "Parent/Cybersecurity Professional",
+    "incumbent": false
+   },
+   {
+    "name": "Jennifer Kavouniaris",
+    "party": "/>",
+    "designation": "Businesswoman/Grandmother",
+    "incumbent": false
+   },
+   {
+    "name": "Karen Ruth Newcomb",
+    "party": "/>",
+    "designation": "Retired Investment Strategist",
+    "incumbent": false
+   },
+   {
+    "name": "René Turnbull",
+    "party": "/>",
+    "designation": "Retired College Dean",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Alameda",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Tony Daysog",
+    "party": "/>",
+    "designation": "Councilmember/Urban Planner",
+    "incumbent": false
+   },
+   {
+    "name": "Tracy Jensen",
+    "party": "/>",
+    "designation": "Councilmember/Nonprofit Director",
+    "incumbent": false
+   },
+   {
+    "name": "Malia Vella",
+    "party": "/>",
+    "designation": "Businesswoman/Educator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members of City Council, Alameda",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Thushan Amarasiriwardena",
+    "party": "/>",
+    "designation": "Software Product Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Maria L. Bondonno",
+    "party": "/>",
+    "designation": "Public Service Attorney",
+    "incumbent": false
+   },
+   {
+    "name": "Marcie Johnson",
+    "party": "/>",
+    "designation": "Social Worker",
+    "incumbent": false
+   },
+   {
+    "name": "Tyler Savage",
+    "party": "/>",
+    "designation": "Technology Partner Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Steve Slauson",
+    "party": "/>",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Amos White",
+    "party": "/>",
+    "designation": "Environmental Nonprofit Executive",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Rent Stabilization Board Commissioners, Berkeley",
+  "vote_for": 5,
+  "candidates": [
+   {
+    "name": "Avery Arbaugh",
+    "party": "/>",
+    "designation": "Tenant Union Organizer",
+    "incumbent": false
+   },
+   {
+    "name": "Carole Marasovic",
+    "party": "/>",
+    "designation": "Attorney/City Commissioner",
+    "incumbent": false
+   },
+   {
+    "name": "Ida Martinac",
+    "party": "/>",
+    "designation": "Rent Stabilization Board Commissioner",
+    "incumbent": false
+   },
+   {
+    "name": "Nathan Mizell",
+    "party": "/>",
+    "designation": "Rent Stabilization Board Commissioner",
+    "incumbent": false
+   },
+   {
+    "name": "Vylma Ortiz",
+    "party": "/>",
+    "designation": "Attorney/Meditation Teacher",
+    "incumbent": false
+   },
+   {
+    "name": "Derek Rodriguez",
+    "party": "/>",
+    "designation": "Student/National Guardsman",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For School Directors, Berkeley",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Ka'dijah A. Brown",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Reichi Lee",
+    "party": "/>",
+    "designation": "Write-in Candidate",
+    "incumbent": false
+   },
+   {
+    "name": "Sandy Park",
+    "party": "/>",
+    "designation": "Education Consultant",
+    "incumbent": false
+   },
+   {
+    "name": "Jennifer Shanoski",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Dublin",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sherry Hu",
+    "party": "/>",
+    "designation": "Mayor/Entrepreneur/Engineer",
+    "incumbent": false
+   },
+   {
+    "name": "Michael McCorriston",
+    "party": "/>",
+    "designation": "Councilmember",
+    "incumbent": false
+   },
+   {
+    "name": "Kiran Mohammad",
+    "party": "/>",
+    "designation": "Author",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council #2, Dublin",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Daniel Hor",
+    "party": "/>",
+    "designation": "Researcher",
+    "incumbent": false
+   },
+   {
+    "name": "Steve Lorey",
+    "party": "/>",
+    "designation": "Intelligence Analyst",
+    "incumbent": false
+   },
+   {
+    "name": "Tejpreet Singh",
+    "party": "/>",
+    "designation": "Investor/Father",
+    "incumbent": false
+   },
+   {
+    "name": "Richard Thornbury",
+    "party": "/>",
+    "designation": "Principal Scientist",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council #4, Dublin",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Kashef Qaadri",
+    "party": "/>",
+    "designation": "City Councilmember/Scientist",
+    "incumbent": false
+   },
+   {
+    "name": "Shivraj Singh",
+    "party": "/>",
+    "designation": "Business Owner",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members of City Council, Emeryville",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Corry Frydlewicz",
+    "party": "/>",
+    "designation": "Web Developer/Manager",
+    "incumbent": false
+   },
+   {
+    "name": "David Mourra",
+    "party": "/>",
+    "designation": "Emeryville City Councilmember",
+    "incumbent": false
+   },
+   {
+    "name": "Kalimah Atreyu Priforce",
+    "party": "/>",
+    "designation": "City Councilmember",
+    "incumbent": false
+   },
+   {
+    "name": "Brandon Soublet",
+    "party": "/>",
+    "designation": "No Ballot Designation",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #2, Fremont",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Desrie Campbell",
+    "party": "/>",
+    "designation": "Councilmember/Healthcare Director",
+    "incumbent": false
+   },
+   {
+    "name": "Keith Parker",
+    "party": "/>",
+    "designation": "Marketing Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #3, Fremont",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Kathy Kimberlin",
+    "party": "/>",
+    "designation": "County Field Director",
+    "incumbent": false
+   },
+   {
+    "name": "Vipin Sharma",
+    "party": "/>",
+    "designation": "Senior Engineering Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #4, Fremont",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Aziz Akbari",
+    "party": "/>",
+    "designation": "Director, Alameda County Water District",
+    "incumbent": false
+   },
+   {
+    "name": "Ying Min Li",
+    "party": "/>",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Anurag Mishra",
+    "party": "/>",
+    "designation": "Technical Leader",
+    "incumbent": false
+   },
+   {
+    "name": "Manisha Pathak",
+    "party": "/>",
+    "designation": "Educator/Nonprofit Executive",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Hayward",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mark Salinas",
+    "party": "/>",
+    "designation": "Mayor/College Instructor",
+    "incumbent": false
+   },
+   {
+    "name": "Tom Wong",
+    "party": "/>",
+    "designation": "Businessman",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council District #1, Hayward",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Brian M. Schott",
+    "party": "/>",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "George Syrop",
+    "party": "/>",
+    "designation": "Council Member",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council District #6, Hayward",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Julie Roche",
+    "party": "/>",
+    "designation": "Hayward City Councilmember",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #2, Livermore",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Ben Barrientos",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Narayan Tadimeti",
+    "party": "/>",
+    "designation": "Physician",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Newark",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Michael K. Hannon",
+    "party": "/>",
+    "designation": "Mayor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council, Newark",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Tonya Connolly",
+    "party": "/>",
+    "designation": "Retired Maintenance Superintendent",
+    "incumbent": false
+   },
+   {
+    "name": "Noah Patrick Grushkin",
+    "party": "/>",
+    "designation": "No Ballot Designation",
+    "incumbent": false
+   },
+   {
+    "name": "Matthew Jorgens",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Eve Marie Little",
+    "party": "/>",
+    "designation": "Councilmember/College Professor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members of City Council, Piedmont",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Nancy Beninati",
+    "party": "/>",
+    "designation": "Supervising Deputy Attorney-General",
+    "incumbent": false
+   },
+   {
+    "name": "Sunny Bostrom-Fleming",
+    "party": "/>",
+    "designation": "No Ballot Designation",
+    "incumbent": false
+   },
+   {
+    "name": "Adam Hundt",
+    "party": "/>",
+    "designation": "Businessman",
+    "incumbent": false
+   },
+   {
+    "name": "Tom Ramsey",
+    "party": "/>",
+    "designation": "Architect/City Councilmember",
+    "incumbent": false
+   },
+   {
+    "name": "Bill Reichle",
+    "party": "/>",
+    "designation": "Retired University Administrator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Pleasanton",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jack Balch",
+    "party": "/>",
+    "designation": "Mayor/CPA",
+    "incumbent": false
+   },
+   {
+    "name": "Julie Testa",
+    "party": "/>",
+    "designation": "Councilmember, City of Pleasanton",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council #1, Pleasanton",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Vin Kruttiventi",
+    "party": "/>",
+    "designation": "Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Kathy Narum",
+    "party": "/>",
+    "designation": "Businesswoman",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council #3, Pleasanton",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Reena Gupta",
+    "party": "/>",
+    "designation": "Local Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Jamie Yee",
+    "party": "/>",
+    "designation": "Communications Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, San Leandro",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Juan González III",
+    "party": "/>",
+    "designation": "Mayor, City of San Leandro",
+    "incumbent": false
+   },
+   {
+    "name": "James Maes",
+    "party": "/>",
+    "designation": "Business Operations Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #1, San Leandro",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sbeydeh Viveros-Walton",
+    "party": "/>",
+    "designation": "San Leandro Councilwoman",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #2, San Leandro - Short Term",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "James Aguilar",
+    "party": "/>",
+    "designation": "Appointed City Councilmember",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #3, San Leandro",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Lee Thomas",
+    "party": "/>",
+    "designation": "Nonprofit Executive Director",
+    "incumbent": false
+   },
+   {
+    "name": "Joseph Trujillo",
+    "party": "/>",
+    "designation": "Chief Plant Operator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #5, San Leandro",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Xouhoa Bowen",
+    "party": "/>",
+    "designation": "San Leandro Councilmember",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #2, Union City",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Victor Lopez Pulido",
+    "party": "/>",
+    "designation": "Legal Advocate/Translator",
+    "incumbent": false
+   },
+   {
+    "name": "Jaime Patino",
+    "party": "/>",
+    "designation": "Councilmember/Finance Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #3, Union City",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Cheris Crocker-Root",
+    "party": "/>",
+    "designation": "Financial Asset Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Jeff Wang",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council #4, Union City",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Vipan S. Bajwa",
+    "party": "/>",
+    "designation": "City Commissioner/Accountant",
+    "incumbent": false
+   },
+   {
+    "name": "Sarabjit Kaur Cheema",
+    "party": "/>",
+    "designation": "High School Teacher",
+    "incumbent": false
+   },
+   {
+    "name": "Qasim Lodhi",
+    "party": "/>",
+    "designation": "Software Engineer/Father",
+    "incumbent": false
+   },
+   {
+    "name": "Ann Yap-Jequinto",
+    "party": "/>",
+    "designation": "Planning Commissioner/Caregiver",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "AC Transit District Director, Ward 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Adriana Valencia",
+    "party": "/>",
+    "designation": "Product Manager/Mother",
+    "incumbent": false
+   },
+   {
+    "name": "Joel B. Young",
+    "party": "/>",
+    "designation": "AC Transit District Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "AC Transit District Director, Ward 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Gabriel Morales",
+    "party": "/>",
+    "designation": "Educator",
+    "incumbent": false
+   },
+   {
+    "name": "Sarah Syed",
+    "party": "/>",
+    "designation": "AC Transit Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "AC Transit District Director, Ward 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   },
+   {
+    "name": "Murphy McCalley",
+    "party": "/>",
+    "designation": "AC Transit District Board Member",
+    "incumbent": false
+   },
+   {
+    "name": "Luis Reynoso",
+    "party": "/>",
+    "designation": "University Business Professor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Alameda County Water District Director, Ward 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Judy C. Huang",
+    "party": "/>",
+    "designation": "Director, Alameda County Water District, Ward 2",
+    "incumbent": true
+   },
+   {
+    "name": "Jason Miguel",
+    "party": "/>",
+    "designation": "Water District Engineer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Alameda County Water District Director, Ward 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Paul Sethy",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Yang Shao",
+    "party": "/>",
+    "designation": "Councilmember, City of Fremont",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "BART Director, District 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Robert Raburn",
+    "party": "/>",
+    "designation": "BART Director",
+    "incumbent": true
+   },
+   {
+    "name": "Luis Reynoso",
+    "party": "/>",
+    "designation": "University Business Professor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Castro Valley Sanitary District Directors",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Kristy (Dooman) Woerz",
+    "party": "/>",
+    "designation": "Castro Valley Sanitary District Director",
+    "incumbent": true
+   },
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   },
+   {
+    "name": "Ralph Johnson",
+    "party": "/>",
+    "designation": "Board Member Castro Valley Sanitary District",
+    "incumbent": true
+   },
+   {
+    "name": "Ken Owen",
+    "party": "/>",
+    "designation": "Sewer Contractor/Attorney",
+    "incumbent": false
+   },
+   {
+    "name": "Darshan Saini",
+    "party": "/>",
+    "designation": "Organization Change Manager",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "EBMUD Director, Ward 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Don Gray",
+    "party": "/>",
+    "designation": "Retired Wastewater Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Marguerite Young",
+    "party": "/>",
+    "designation": "EBMUD Director Ward 3",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "EBMUD Director, Ward 7",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "April Chan",
+    "party": "/>",
+    "designation": "Director, East Bay Municipal Utility District, Ward 7",
+    "incumbent": true
+   },
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   },
+   {
+    "name": "Luis Reynoso",
+    "party": "/>",
+    "designation": "University Business Professor",
+    "incumbent": false
+   },
+   {
+    "name": "Gary Wolff",
+    "party": "/>",
+    "designation": "Licensed Civil Engineer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "East Bay Regional Park District Director, Ward 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   },
+   {
+    "name": "Rebecca Lewington",
+    "party": "/>",
+    "designation": "Retired Brand Strategist",
+    "incumbent": false
+   },
+   {
+    "name": "William Yragui",
+    "party": "/>",
+    "designation": "Business Owner",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "East Bay Regional Park District Director, Ward 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Bruce Henry",
+    "party": "/>",
+    "designation": "Retired Sales Director",
+    "incumbent": false
+   },
+   {
+    "name": "Olivia Sanwong",
+    "party": "/>",
+    "designation": "Director, East Bay Regional Park District Ward 5",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Eden Township Healthcare District Director, Area 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Narges Dillon",
+    "party": "/>",
+    "designation": "Nonprofit Director/Therapist",
+    "incumbent": false
+   },
+   {
+    "name": "Joseph Grcar",
+    "party": "/>",
+    "designation": "Retired Laboratory Scientist",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Fairview Fire Protection District Directors",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Michelle Biche",
+    "party": "/>",
+    "designation": "Paralegal/Goat Farmer",
+    "incumbent": false
+   },
+   {
+    "name": "Vandana Singh Gautam",
+    "party": "/>",
+    "designation": "Nonprofit Director",
+    "incumbent": false
+   },
+   {
+    "name": "Michael D. Justice",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Hayward Area Recreation & Park District Director, Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Amanda Alysia Daniels",
+    "party": "/>",
+    "designation": "Law Student/Analyst",
+    "incumbent": false
+   },
+   {
+    "name": "Sara Lamnin",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Hayward Area Recreation & Park District Director, Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Joseph \"joe\" Giltner",
+    "party": "/>",
+    "designation": "Community Advocate",
+    "incumbent": false
+   },
+   {
+    "name": "Paul W. Hodges, JR.",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   }
+  ]
+ },
+ {
+  "title": "Livermore Area Recreation & Park District Directors",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Timothy Barry",
+    "party": "/>",
+    "designation": "Retired General Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Larry Bird",
+    "party": "/>",
+    "designation": "Retired Police Sergeant",
+    "incumbent": false
+   },
+   {
+    "name": "Matt Bogdanowicz",
+    "party": "/>",
+    "designation": "Recreation Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Maryalice Summers Faltings",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Philip Pierpont",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": true
+   },
+   {
+    "name": "Mike Ralph",
+    "party": "/>",
+    "designation": "Bike Shop Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Laureen Turner",
+    "party": "/>",
+    "designation": "Nursing Professor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Member, Board Of Director, Oro Loma Sanitary Dist #1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Tiare Peña",
+    "party": "/>",
+    "designation": "Land Use Planner",
+    "incumbent": false
+   },
+   {
+    "name": "Shelia Young",
+    "party": "/>",
+    "designation": "Director, Oro Loma Sanitary District",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Member, Board Of Director, Oro Loma Sanitary Dist #3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Benny Lee",
+    "party": "/>",
+    "designation": "Director, Oro Loma Sanitary District",
+    "incumbent": false
+   },
+   {
+    "name": "Fred Simon",
+    "party": "/>",
+    "designation": "Director, Oro Loma Sanitary District",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Member, Board Of Director, Oro Loma Sanitary Dist #5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rita Duncan",
+    "party": "/>",
+    "designation": "Board Director Oro Loma Sanitary District",
+    "incumbent": false
+   },
+   {
+    "name": "Koroush \"cyrus\" Farsaei",
+    "party": "/>",
+    "designation": "Plant Operator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Members Of City Council, Albany",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Jon Destin",
+    "party": "/>",
+    "designation": "Albany Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Katherine Enos",
+    "party": "/>",
+    "designation": "Small Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Robin D. López",
+    "party": "/>",
+    "designation": "Incumbent/Ecologist",
+    "incumbent": false
+   },
+   {
+    "name": "Chris McDaniels",
+    "party": "/>",
+    "designation": "Public Works Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Aaron Tiedemann",
+    "party": "/>",
+    "designation": "Housing Policy Analyst",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "Members Of The Board Of Education, Albany",
+  "vote_for": 4,
+  "candidates": [
+   {
+    "name": "Margaret Allen",
+    "party": "/>",
+    "designation": "Finance Director",
+    "incumbent": false
+   },
+   {
+    "name": "Melissa Boyd",
+    "party": "/>",
+    "designation": "Appointed Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Becky Hopwood",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Josh Mahoney",
+    "party": "/>",
+    "designation": "Appointed Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "David McKinney",
+    "party": "/>",
+    "designation": "Education Researcher",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council District #1, Berkeley",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Laura Babitt",
+    "party": "/>",
+    "designation": "Auditor/Operations Director",
+    "incumbent": false
+   },
+   {
+    "name": "Ross Bernet",
+    "party": "/>",
+    "designation": "Environmental Program Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Moni Gangopadhyay",
+    "party": "/>",
+    "designation": "Consumer Protection Investigator",
+    "incumbent": false
+   },
+   {
+    "name": "Steve Kromer",
+    "party": "/>",
+    "designation": "Energy Efficiency Engineer",
+    "incumbent": false
+   },
+   {
+    "name": "Daria Wrubel",
+    "party": "/>",
+    "designation": "Youth Therapist",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council District #4, Berkeley",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Majdi \"gaith\" Abuhamdieh",
+    "party": "/>",
+    "designation": "Entrepreneur/Technologist/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Igor A. Tregub",
+    "party": "/>",
+    "designation": "Berkeley City Councilmember, District 4",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council District #7, Berkeley",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Aidan Hill",
+    "party": "/>",
+    "designation": "Medical Case Manager",
+    "incumbent": false
+   },
+   {
+    "name": "Syrak Micael",
+    "party": "/>",
+    "designation": "Community Engagement Liaison",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Member Of City Council District #8, Berkeley",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Fred M. Feller",
+    "party": "/>",
+    "designation": "Attorney",
+    "incumbent": false
+   },
+   {
+    "name": "Mark Humbert",
+    "party": "/>",
+    "designation": "City Councilmember",
+    "incumbent": false
+   },
+   {
+    "name": "Mari Mendonca",
+    "party": "/>",
+    "designation": "No Ballot Designation",
+    "incumbent": false
+   },
+   {
+    "name": "Michael Wallman",
+    "party": "/>",
+    "designation": "Systems Engineer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Auditor, Berkeley",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jenny Wong",
+    "party": "/>",
+    "designation": "City Auditor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Mayor, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Brenda F. Grisham",
+    "party": "/>",
+    "designation": "Business Owner",
+    "incumbent": false
+   },
+   {
+    "name": "Barbara Lee",
+    "party": "/>",
+    "designation": "Mayor, City of Oakland",
+    "incumbent": false
+   },
+   {
+    "name": "Mindy Ruth Pechenuk",
+    "party": "/>",
+    "designation": "Educator/Researcher",
+    "incumbent": false
+   },
+   {
+    "name": "Julius Robinson",
+    "party": "/>",
+    "designation": "Community Investment Executive",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Councilmember, District No. 2, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Nate Adams",
+    "party": "/>",
+    "designation": "Community Organizer",
+    "incumbent": false
+   },
+   {
+    "name": "Charlene Wang",
+    "party": "/>",
+    "designation": "City Councilmember, District 2",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Councilmember, District No. 4, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Janani Ramachandran",
+    "party": "/>",
+    "designation": "Councilmember/Attorney/Mother",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Councilmember, District No. 6, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Kevin E. Jenkins",
+    "party": "/>",
+    "designation": "City Council President",
+    "incumbent": false
+   },
+   {
+    "name": "Nancy S. Sidebotham",
+    "party": "/>",
+    "designation": "Tax Preparer",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For Auditor, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Michael C. Houston",
+    "party": "/>",
+    "designation": "Oakland City Auditor",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For School Director, District No. 2, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jennifer Brouhard",
+    "party": "/>",
+    "designation": "Retired Educator",
+    "incumbent": false
+   },
+   {
+    "name": "Arielle Fleisher",
+    "party": "/>",
+    "designation": "Parent/Policy Director",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For School Director, District No. 4, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Kathryn Camp",
+    "party": "/>",
+    "designation": "Public Policy Professional",
+    "incumbent": false
+   },
+   {
+    "name": "Mike Hutchinson",
+    "party": "/>",
+    "designation": "Incumbent",
+    "incumbent": false
+   },
+   {
+    "name": "Sylvia Pfeiffer Williams",
+    "party": "/>",
+    "designation": "Adult Educator",
+    "incumbent": false
+   }
+  ]
+ },
+ {
+  "title": "For School Director, District No. 6, Oakland",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Valarie Bachelor",
+    "party": "/>",
+    "designation": "School Board Director",
+    "incumbent": false
+   },
+   {
+    "name": "Leana Powell",
+    "party": "/>",
+    "designation": "Family Advocate/Parent",
+    "incumbent": false
+   },
+   {
+    "name": "Alexandra Williams",
+    "party": "/>",
+    "designation": "Teacher/Program Director",
+    "incumbent": false
+   }
+  ]
+ }
+]

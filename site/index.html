@@ -52,15 +52,16 @@
 
   <main class="subpage-main">
     <div class="subpage-inner vg-inner">
-      <div class="subpage-eyebrow">San Francisco · <span id="election-date">November 3, 2026</span></div>
-      <h1 class="subpage-title">SF Voter Guide 2026</h1>
+      <div class="subpage-eyebrow"><span id="county-name">San Francisco</span> · <span id="election-date">November 3, 2026</span></div>
+      <h1 class="subpage-title" id="guide-title">SF Voter Guide 2026</h1>
       <p class="subpage-lead">
         Your ballot, in the order it's printed. Fill in the ovals as you go, check what the major
         local groups recommend, and take your finished list with you to mark the real thing.
       </p>
 
       <section class="vg-setup" aria-labelledby="setup-title">
-        <p class="vg-county"><strong>San Francisco County</strong> ballot only. Guides for other counties are coming later.</p>
+        <nav class="vg-county" id="county-nav" aria-label="County"><strong>San Francisco</strong></nav>
+        <p class="vg-preview-banner" id="preview-banner" hidden></p>
 
         <form class="vg-zip" id="zip-form" autocomplete="on">
           <label for="zip" class="vg-setup-title" id="setup-title">Your ZIP code <span class="vg-optional">(optional)</span></label>
@@ -77,7 +78,7 @@
           <summary>Districts <span class="vg-districts-summary" id="districts-summary"></span></summary>
           <p class="vg-setup-hint">
             Your districts are printed on your sample ballot, or you can look them up in the
-            <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener">Voter Portal</a>.
+            <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener" id="lookup-link">Voter Portal</a>.
             Leave any you're unsure of on “Show all”.
           </p>
           <div class="vg-districts" id="districts"></div>

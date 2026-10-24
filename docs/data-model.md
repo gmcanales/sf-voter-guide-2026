@@ -222,3 +222,27 @@ District choices, marked ovals and toggles live in `localStorage`
 `?zip=94110` or `?cd=11&ad=17&sup=8&bart=8`, plus `&picks=1`, preselect a
 ballot, which is handy for sharing a district-specific link. Section collapse
 state is saved too.
+
+## Other counties (early previews)
+
+`?county=alameda` and `?county=sanmateo` load `site/data/counties/<id>/ballot.json`
+(same schema as the SF ballot) and show an "early preview" banner whenever
+`election.preview` is set. Everything else (`endorsements.json`, `analysis.json`,
+`external_money.json`, `topics.json`) is shared and keyed by contest id, so the statewide
+contests (offices, justices, propositions, RTM) and shared district ids (`us-rep-15`,
+`assembly-19`) carry the SF guide's research automatically. County-only contests use a
+`ala-` / `smc-` prefix and get no tabs until they are researched.
+
+| Tool | Source | Output |
+|---|---|---|
+| `tools/county_alameda.py` | Registrar's candidate-list search (election 260, on ballot, filing completed) + the election page's measure list | `data-src/counties/alameda/{contests,measures}.json` |
+| `tools/county_sanmateo.py <roster.pdf>` | Roster of Candidates PDF (smcacre.gov/media/8827; only `On Ballot: Yes` contests are used) + the election page's measure list | `data-src/counties/sanmateo/{roster,measures}.json` |
+| `tools/build_county_ballot.py <county>` | the above + the SF build's statewide contests | `site/data/counties/<county>/ballot.json` |
+
+Not verified yet: local candidate order (lists are in the county's list order), district
+boundaries (no ZIP lookup; readers pick CD/AD/SD/city by hand), and local measure details
+(titles only, linking the county's materials). Statewide offices get their Assembly-District
+rotation recomputed for the county's ADs. Ranked-choice city contests (Oakland, Berkeley,
+San Leandro, Albany) carry a note rather than an RCV grid. Guides appear in a county only if
+their `covers` list includes it (statewide groups everywhere; Sierra Club SF Bay also
+covers Alameda; the SF-only guides stay on the SF page).

@@ -36,6 +36,9 @@
      "label": "Party",
      "cat": "party"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -83,6 +86,9 @@
      "label": "Pro-housing (YIMBY)",
      "cat": "housing"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -119,6 +125,9 @@
      "label": "Socialist",
      "cat": "progressive"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -159,6 +168,9 @@
      "label": "Labor",
      "cat": "labor"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -215,6 +227,9 @@
      "label": "Business",
      "cat": "business"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -253,6 +268,9 @@
      "label": "Urban policy",
      "cat": "policy"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -290,6 +308,9 @@
      "label": "Teachers",
      "cat": "labor"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -335,6 +356,11 @@
      "label": "Statewide",
      "cat": "scope"
     }
+   ],
+   "covers": [
+    "sf",
+    "alameda",
+    "sanmateo"
    ]
   },
   {
@@ -372,6 +398,11 @@
      "label": "Statewide",
      "cat": "scope"
     }
+   ],
+   "covers": [
+    "sf",
+    "alameda",
+    "sanmateo"
    ]
   },
   {
@@ -420,6 +451,9 @@
      "label": "Nonpartisan",
      "cat": "civic"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -465,6 +499,9 @@
      "label": "Progressive",
      "cat": "progressive"
     }
+   ],
+   "covers": [
+    "sf"
    ]
   },
   {
@@ -507,6 +544,10 @@
      "label": "Environment",
      "cat": "environment"
     }
+   ],
+   "covers": [
+    "sf",
+    "alameda"
    ]
   },
   {
@@ -544,6 +585,11 @@
      "label": "Statewide",
      "cat": "scope"
     }
+   ],
+   "covers": [
+    "sf",
+    "alameda",
+    "sanmateo"
    ]
   }
  ],
