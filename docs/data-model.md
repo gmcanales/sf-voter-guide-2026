@@ -1,6 +1,6 @@
 # Data model
 
-The page (`site/app.js`) is a pure renderer over nine JSON files in
+The page (`site/app.js`) is a pure renderer over ten JSON files in
 `site/data/`. Two kinds of content are kept apart on purpose:
 
 | File | What | Who edits it |
@@ -13,6 +13,7 @@ The page (`site/app.js`) is a pure renderer over nine JSON files in
 | `funding.json` | Funding tags for groups and local candidates | **Generated** by `tools/funding_tags.py` |
 | `money.json` | Local measure committees + top donors; outside spenders per candidate | **Generated** by `tools/money_flows.py` |
 | `state_money.json` | State-prop support/oppose totals + committees (SoS official) | **Generated** by `tools/state_money.py` |
+| `external_money.json` | State (Cal-Access) & federal (FEC) candidate money; judicial committees | **Generated** by `tools/candidate_money_external.py` |
 | `analysis.json` | Plain-English tab text: measure "Average goose" + "TL;DR", candidate "Who?" + "Average goose" | Hand-written from official text / KQED only |
 
 ## Pipeline for `ballot.json`
@@ -184,6 +185,35 @@ and fiscal statements already cited on that measure. Candidate text is a
 paraphrase of KQED's summaries, with a link. It stays neutral, and opinion
 belongs in `picks.json`. Verification of outside research:
 `docs/research-verification.md`.
+
+## State & federal candidate money (`external_money.json`)
+
+`py tools/candidate_money_external.py <dbwebexport.zip>` (or `--federal-only`):
+
+- **State offices** come from the Secretary of State's Cal-Access **bulk export**
+  (`https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip`, ~1.6 GB, updated
+  daily). The Cal-Access website sits behind a bot wall, but the export is the
+  sanctioned machine-readable copy. Each candidate's own committee is pinned in
+  `data-src/state_committees.json`. Contributions = Form 460 Summary line 5
+  (period column) summed over report periods since 2025-01-01, using the latest
+  amendment and latest filing per period. Small-donor share = Schedule A
+  unitemized ÷ total. Outside money = Form 496 independent expenditures naming the
+  candidate, **grouped by the spender's filer ID** (committees vary their names).
+- **Federal (House 11 & 15)**: FEC API totals and Schedule E independent
+  expenditures for the 2025–26 cycle.
+- **Judicial retention**: committees whose names pair a justice's surname with
+  "justice", "court" or "retain". Common surnames make bare-name matches useless.
+- `data-src/filing_notes.json` attaches a ⚠ note to a filing that looks wrong as
+  filed (e.g. a support/oppose code that contradicts the filer's other reports).
+  The data is never altered.
+
+## Judges' tabs
+
+Each retention contest has a **More about this justice** panel with four tabs:
+*Who?* (official Court of Appeal biography or the state voter guide's statement),
+*Money* (judicial committee scan), *Average goose* (what a retention vote does,
+sourced to the voter guide and Cal. Const. art. VI §16) and *Seriously TL;DR*
+(plus the Goosebase position).
 
 ## Reader state
 

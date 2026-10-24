@@ -1,0 +1,14 @@
+{
+  "_about": "Cal-Access filer IDs of each state candidate's own (controlled) 2026 committee, identified from Form 460 cover pages in the Secretary of State's bulk export. Used by tools/state_candidate_money.py. Empty list = no 2026 committee found. Kounalakis moved from her governor committee to a treasurer committee; only the treasurer one is counted.",
+  "governor": { "Xavier Becerra": [1480025], "Steve Hilton": [1480425] },
+  "lt-governor": { "Fiona Ma": [1457360], "Gloria Romero": [1486862] },
+  "secretary-of-state": { "Shirley N. Weber": [1456658], "Donald P. (Don) Wagner": [1482695] },
+  "controller": { "Malia M. Cohen": [1456350], "Herb W Morgan": [1480103] },
+  "treasurer": { "Eleni Kounalakis": [1483008], "Jennifer Hawks": [1488439] },
+  "attorney-general": { "Rob Bonta": [1456428], "Michael E. Gates": [1486227] },
+  "insurance-commissioner": { "Ben Allen": [1483889], "Jane Kim": [1485530] },
+  "boe-2": { "Sally J. Lieber": [1478243], "John Pimentel": [1485721] },
+  "assembly-17": { "Matt Haney": [1476944], "Manuel Noris-Barrera": [] },
+  "assembly-19": { "Catherine Stefani": [1477293], "Philip Louis Wing": [] },
+  "superintendent": { "Richard Barrera": [1478161], "Sonja Shaw": [1479719] }
+}

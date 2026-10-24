@@ -11,7 +11,7 @@ const SOLE_SHARE = 0.995;            // a ZIP this much inside one district coun
 const DIMS = ['cd', 'ad', 'sup', 'bart'];
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -449,7 +449,7 @@ function backingGroups(contestId, name) {
 function candidateMoney(contest, c) {
   const f = FUNDING?.candidates?.[contest.id]?.[c.name];
   const outside = MONEY?.candidates?.[contest.id]?.[c.name]?.outside || [];
-  if (!f) return emptyNote('Money for state and federal races is reported to the CA Secretary of State and the FEC, which this guide doesn’t cover yet.');
+  if (!f) return externalCandidateMoney(contest, c);
   if (f.no_committee && !outside.length) return emptyNote('No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.');
   const own = (f.total || 0) + (f.public_funds || 0);
   return [
@@ -510,6 +510,69 @@ function renderCandidateMore(contest, c) {
     ]));
 }
 
+
+// State (Cal-Access) and federal (FEC) candidates --------------------------
+function outsideList(rows) {
+  return rows.length ? el('ul', { class: 'vg-donors' }, rows.slice(0, 6).map(o => el('li', {}, `${o.committee} `,
+    o.support ? el('strong', { class: 'vg-for' }, `+${shortMoney(o.support)} for`) : null,
+    o.support && o.oppose ? ' · ' : null,
+    o.oppose ? el('strong', { class: 'vg-against' }, `${shortMoney(o.oppose)} against`) : null,
+    (o.notes || []).map(n => el('div', { class: 'vg-filing-note' }, '⚠ ', n)))))
+    : emptyNote('None reported.');
+}
+
+function externalCandidateMoney(contest, c) {
+  const x = EXTERNAL?.candidates?.[contest.id]?.[c.name];
+  if (!x) return emptyNote(contest.id.startsWith('us-rep')
+    ? 'FEC figures for this race haven’t been loaded into this build yet.'
+    : 'No campaign-finance data found for this candidate.');
+  const federal = contest.id.startsWith('us-rep');
+  const src = federal ? EXTERNAL.sources.federal : EXTERNAL.sources.state;
+  if (x.no_committee && !(x.outside || []).length) {
+    return [emptyNote(x.note || 'No 2026 campaign committee found for this candidate.'), sourceLine(src.label, src.url)];
+  }
+  return [
+    el('div', { class: 'vg-money-sides' },
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'The campaign’s own money'),
+        el('p', {}, el('strong', { class: 'vg-num vg-big' }, shortMoney(x.total || 0)), federal ? ' raised this cycle' : ' raised since Jan 2025'),
+        el('ul', { class: 'vg-donors' },
+          x.small_pct != null ? el('li', {}, `Small donors (under $${federal ? 200 : 100}): `, el('strong', {}, floorPct(x.small_pct))) : null,
+          x.pac ? el('li', {}, `From PACs and other committees: ${shortMoney(x.pac)}`) : null,
+          x.through ? el('li', {}, `Reports through ${formatDate(x.through)}`) : null)),
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'Outside committees'), outsideList(x.outside || []))),
+    sourceLine(src.label, x.fec_url || src.url,
+      federal ? 'Independent expenditures from FEC Schedule E.' : 'Outside money: Form 496 independent expenditures (filed in the 90 days before an election).')];
+}
+
+// Judicial retention ------------------------------------------------------
+function renderRetentionMore(contest) {
+  const r = ANALYSIS?.retention?.[contest.id];
+  const how = ANALYSIS?.retention?._how;
+  const groups = GUIDES.guides.filter(g => {
+    const v = BALLOT_POSITIONS[contest.id]?.[g.id];
+    return v && normPosition(v).kind === 'vote' && normPosition(v).value === 'yes';
+  });
+  const jm = EXTERNAL?.judicial?.[contest.id];
+  return el('details', { class: 'vg-details vg-more' }, el('summary', {}, 'More about this justice'),
+    renderTabs(contest.id, [
+      { key: 'who', label: 'Who?', render: () => [
+          el('p', {}, r?.who || 'No sourced biography yet.'),
+          groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommend YES: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
+          r?.source ? sourceLine(r.source.includes('vig.cdn') ? 'CA Official Voter Information Guide' : 'Court of Appeal biography (official)', r.source) : null] },
+      { key: 'money', label: 'Money', render: () => jm
+          ? [jm.committees?.length ? outsideList(jm.committees) : emptyNote('No campaign committee or independent expenditure in Cal-Access names this justice (2025–26).'),
+             sourceLine(EXTERNAL.sources.state.label, EXTERNAL.sources.state.url, 'Judicial retention campaigns rarely raise money.')]
+          : emptyNote('No money data yet.') },
+      { key: 'goose', label: 'Average goose', render: () => how ? [el('p', {}, how.goose),
+          el('p', { class: 'vg-fineprint' }, 'Sources: ', how.sources.map((s, i) => [i ? ' · ' : '', el('a', { href: s.url, target: '_blank', rel: 'noopener' }, s.label)]))] : emptyNote('Coming soon.') },
+      { key: 'tldr', label: 'Seriously TL;DR', render: () => {
+          const first = r?.who ? (r.who.match(/^.*?[a-z]{3,}[.!?](?=\s|$)/) || [r.who])[0] : `${contest.justice}.`;
+          const second = groups.length ? `${groups.map(g => g.short).join(', ')} recommend${groups.length === 1 ? 's' : ''} keeping ${contest.justice.split(' ').slice(-1)[0]}; no group we track recommends NO.` : 'None of the groups we track takes a position.';
+          return [el('p', { class: 'vg-tldr' }, `${first} ${second}`), goosebasePosition(contest)];
+        } },
+    ]));
+}
+
 // ── contest card ──────────────────────────────────────────────────────────
 function instructionFor(contest, section) {
   if (contest.kind === 'retention') return null;
@@ -553,7 +616,8 @@ function renderContest(contest, section) {
     el('p', { class: 'vg-flash', role: 'status', hidden: true }),
     renderPickBox(contest),
     renderGuideLine(contest),
-    isMeasure ? renderMeasureMore(contest) : renderDetails(contest));
+    isMeasure ? renderMeasureMore(contest)
+      : contest.kind === 'retention' ? renderRetentionMore(contest) : renderDetails(contest));
 }
 
 const CONTEST_INDEX = {};        // id → { contest, section }
@@ -1061,11 +1125,12 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL] = await Promise.all([
       get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
       get('./data/zip_districts.json'), get('./data/topics.json'),
       get('./data/funding.json').catch(() => null), get('./data/money.json').catch(() => null),
-      get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null)]);
+      get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null),
+      get('./data/external_money.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     document.getElementById('ballot').replaceChildren(

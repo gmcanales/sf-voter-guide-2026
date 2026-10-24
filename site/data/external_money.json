@@ -1,0 +1,731 @@
+{
+ "candidates": {
+  "governor": {
+   "Xavier Becerra": {
+    "total": 41190603,
+    "outside": [
+     {
+      "committee": "Working Families for Healthy Communities supporting Becerra for Governor 2026 sponsored by labor and community health organizations",
+      "support": 17317466,
+      "oppose": 0
+     },
+     {
+      "committee": "Latinos United for Xavier Becerra for Governor 2026",
+      "support": 1798423,
+      "oppose": 0
+     },
+     {
+      "committee": "Mobilizing Economic Transformation Across (Meta) California",
+      "support": 737615,
+      "oppose": 0
+     },
+     {
+      "committee": "California Professional Firefighters IE PAC",
+      "support": 488359,
+      "oppose": 0
+     },
+     {
+      "committee": "Californios Unidos por Becerra for Governor 2026, Sponsored by Laborers' International Union of North America, Local 300",
+      "support": 483806,
+      "oppose": 0
+     },
+     {
+      "committee": "California People Supporting Xavier Becerra for Governor 2026",
+      "support": 356000,
+      "oppose": 0
+     },
+     {
+      "committee": "Union of American Physicians and Dentists Independent Expenditure Committee",
+      "support": 246500,
+      "oppose": 0
+     },
+     {
+      "committee": "Working Families for a Stronger California, Sponsored by LCCC PAC, A Bi-partisan Coalition of Municipal, County, Latino Appointed and Elected Leaders PAC",
+      "support": 168052,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 134882,
+      "oppose": 0
+     },
+     {
+      "committee": "OUTFRONT MEDIA, INC. AND AFFILIATED ENTITIES",
+      "support": 22500,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 21547,
+      "oppose": 0
+     },
+     {
+      "committee": "California's Best",
+      "support": 15000,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 14512,
+      "oppose": 0
+     },
+     {
+      "committee": "Los Angeles County Democratic Party - Issues and Advocacy Committee",
+      "support": 11004,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 3260,
+      "oppose": 0
+     },
+     {
+      "committee": "ACLU California Action Votes",
+      "support": 2369,
+      "oppose": 0
+     },
+     {
+      "committee": "California Federation of Teachers COPE",
+      "support": 2018,
+      "oppose": 0
+     },
+     {
+      "committee": "Alice B. Toklas LGBTQ Democratic Club PAC",
+      "support": 1754,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.05,
+    "through": "2026-10-17"
+   },
+   "Steve Hilton": {
+    "total": 32626822,
+    "outside": [
+     {
+      "committee": "HILTON FOR GOVERNOR 2026, SPONSORED BY ORGANIZATIONS OPPOSING REPUBLICAN CANDIDATES FOR GOVERNOR; GREATER GOLDEN STATE, OPPOSING",
+      "support": 0,
+      "oppose": 2178228
+     },
+     {
+      "committee": "NEW MAJORITY PAC",
+      "support": 104310,
+      "oppose": 0
+     },
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 13750,
+      "oppose": 0
+     },
+     {
+      "committee": "Republican Party of Fresno County (State)",
+      "support": 7386,
+      "oppose": 0
+     },
+     {
+      "committee": "El Dorado County Republican Central Committee (State)",
+      "support": 3263,
+      "oppose": 0
+     },
+     {
+      "committee": "RESCUE CALIFORNIA COALITION",
+      "support": 3090,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN DIEGO COUNTY GUN OWNERS POLITICAL ACTION COMMITTEE",
+      "support": 3035,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.168,
+    "through": "2026-10-17"
+   }
+  },
+  "lt-governor": {
+   "Fiona Ma": {
+    "total": 3745249,
+    "outside": [
+     {
+      "committee": "TAXPAYERS AGAINST SEXUAL HARASSMENT BY GOVERNMENT OFFICIALS - NO ON FIONA MA FOR LIEUTENANT GOVERNOR 2026",
+      "support": 0,
+      "oppose": 752819
+     },
+     {
+      "committee": "GOLDEN STATE LEADERSHIP FUND PAC",
+      "support": 58923,
+      "oppose": 0
+     },
+     {
+      "committee": "Asian Americans for Representation",
+      "support": 38795,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 10884,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 6710,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 6054,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.003,
+    "through": "2026-10-17"
+   },
+   "Gloria Romero": {
+    "total": 292442,
+    "outside": [
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 10000,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.061,
+    "through": "2026-10-17"
+   }
+  },
+  "secretary-of-state": {
+   "Shirley N. Weber": {
+    "total": 647527,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 15774,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 7200,
+      "oppose": 0
+     },
+     {
+      "committee": "Los Angeles County Democratic Party State Candidate Committee",
+      "support": 1689,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 1025,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.008,
+    "through": "2026-10-17"
+   },
+   "Donald P. (Don) Wagner": {
+    "total": 856287,
+    "outside": [
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 10000,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN DIEGO COUNTY GUN OWNERS POLITICAL ACTION COMMITTEE",
+      "support": 3035,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.011,
+    "through": "2026-10-17"
+   }
+  },
+  "controller": {
+   "Malia M. Cohen": {
+    "total": 1981941,
+    "outside": [
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 7200,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 4890,
+      "oppose": 0
+     },
+     {
+      "committee": "Los Angeles County Democratic Party State Candidate Committee",
+      "support": 1689,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 1025,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.002,
+    "through": "2026-10-17"
+   },
+   "Herb W Morgan": {
+    "total": 766212,
+    "outside": [
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 10000,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN DIEGO COUNTY GUN OWNERS POLITICAL ACTION COMMITTEE",
+      "support": 3035,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.029,
+    "through": "2026-10-17"
+   }
+  },
+  "treasurer": {
+   "Eleni Kounalakis": {
+    "total": 9275288,
+    "outside": [
+     {
+      "committee": "Advance California, Sponsored by California Apartment Association",
+      "support": 75000,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 15774,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 3260,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   },
+   "Jennifer Hawks": {
+    "total": 140507,
+    "outside": [
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "HOROWITZ, DAVID L.",
+      "support": 10000,
+      "oppose": 0
+     },
+     {
+      "committee": "Joseph Yossie Hollander",
+      "support": 10000,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 10000,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.031,
+    "through": "2026-10-17"
+   }
+  },
+  "attorney-general": {
+   "Rob Bonta": {
+    "total": 3523835,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 15714,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "Courage California State PAC",
+      "support": 11249,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 7508,
+      "oppose": 0
+     },
+     {
+      "committee": "Los Angeles County Democratic Party State Candidate Committee",
+      "support": 1689,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 1025,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.094,
+    "through": "2026-10-17"
+   },
+   "Michael E. Gates": {
+    "total": 2121073,
+    "outside": [
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Newport Beach Police Association Political Action Committee",
+      "support": 14300,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 10000,
+      "oppose": 0
+     },
+     {
+      "committee": "Deputy Sheriffs' Association of San Diego County PAC",
+      "support": 5000,
+      "oppose": 0
+     },
+     {
+      "committee": "SAN DIEGO COUNTY GUN OWNERS POLITICAL ACTION COMMITTEE",
+      "support": 3035,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.075,
+    "through": "2026-10-17"
+   }
+  },
+  "insurance-commissioner": {
+   "Ben Allen": {
+    "total": 3302165,
+    "outside": [
+     {
+      "committee": "Californians for an Affordable Future, Sponsored by California Environmental Voters, Supporting Ben Allen for Insurance Commissioner 2026",
+      "support": 2097176,
+      "oppose": 0
+     },
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 793229,
+      "oppose": 0
+     },
+     {
+      "committee": "Coalition for Homeowners Insurance Reform, sponsored by home builders and clean energy advocates",
+      "support": 450000,
+      "oppose": 0
+     },
+     {
+      "committee": "CALIFORNIANS FOR AFFORDABLE INSURANCE, SUPPORTING BEN ALLEN FOR INSURANCE COMMISSIONER 2026, SPONSORED BY THE CALIFORNIA BUSINESS ROUNDTABLE",
+      "support": 297788,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 13622,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.003,
+    "through": "2026-10-17"
+   },
+   "Jane Kim": {
+    "total": 1417036,
+    "outside": [
+     {
+      "committee": "JOBSPAC, A BI-PARTISAN COALITION OF CALIFORNIA EMPLOYERS, SPONSORED BY THE CALIFORNIA CHAMBER OF COMMERCE",
+      "support": 0,
+      "oppose": 1508481
+     },
+     {
+      "committee": "CALIFORNIA WORKING FAMILIES PARTY",
+      "support": 817223,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 157200,
+      "oppose": 0
+     },
+     {
+      "committee": "California Teachers Association Independent Expenditure Committee",
+      "support": 150195,
+      "oppose": 0
+     },
+     {
+      "committee": "CALIFORNIANS FOR AFFORDABLE INSURANCE, SUPPORTING BEN ALLEN FOR INSURANCE COMMISSIONER 2026, SPONSORED BY THE CALIFORNIA BUSINESS ROUNDTABLE",
+      "support": 0,
+      "oppose": 56538
+     },
+     {
+      "committee": "Asian Americans for Representation",
+      "support": 37495,
+      "oppose": 0
+     },
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 0,
+      "oppose": 9994
+     },
+     {
+      "committee": "RAMAN FOR MAYOR 2026; WORKING FAMILIES PARTY FOR",
+      "support": 9556,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.036,
+    "through": "2026-10-17"
+   }
+  },
+  "boe-2": {
+   "Sally J. Lieber": {
+    "total": 425117,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 2708,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.005,
+    "through": "2026-10-17"
+   },
+   "John Pimentel": {
+    "total": 608800,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 14512,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   }
+  },
+  "assembly-17": {
+   "Matt Haney": {
+    "total": 765037,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 6336,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.0,
+    "through": "2026-10-17"
+   },
+   "Manuel Noris-Barrera": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "assembly-19": {
+   "Catherine Stefani": {
+    "total": 1272221,
+    "outside": [
+     {
+      "committee": "GrowSF Voter Guide",
+      "support": 6336,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   },
+   "Philip Louis Wing": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "superintendent": {
+   "Richard Barrera": {
+    "total": 818197,
+    "outside": [
+     {
+      "committee": "California Teachers Association Independent Expenditure Committee",
+      "support": 6234404,
+      "oppose": 0
+     },
+     {
+      "committee": "California Democratic Party",
+      "support": 506189,
+      "oppose": 0
+     },
+     {
+      "committee": "Families & Teachers United , sponsored by California Charter Schools Association Advocates",
+      "support": 39656,
+      "oppose": 0
+     },
+     {
+      "committee": "Planned Parenthood Affiliates of California VOTES PAC",
+      "support": 13535,
+      "oppose": 0
+     },
+     {
+      "committee": "Educate the Future Supporting Barrera for Superintendent of Public Schools 2026",
+      "support": 10500,
+      "oppose": 0
+     },
+     {
+      "committee": "United Domestic Workers of America Independent Expenditure PAC",
+      "support": 7200,
+      "oppose": 0
+     },
+     {
+      "committee": "TEACHERS AND COMMUNITIES UNITED FOR ESTUARDO MAZARIEGOS FOR CITY COUNCIL AND MARISSA ROY FOR CITY ATTORNEY 2026, SPONSORED BY UNITED TEACHERS LOS ANGELES AND",
+      "support": 5224,
+      "oppose": 0
+     },
+     {
+      "committee": "San Diego Labor Coalition, Sponsored by Laborers' International Union of North America Local 89",
+      "support": 2026,
+      "oppose": 0
+     },
+     {
+      "committee": "California Federation of Teachers COPE",
+      "support": 2018,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.009,
+    "through": "2026-10-17"
+   },
+   "Sonja Shaw": {
+    "total": 637226,
+    "outside": [
+     {
+      "committee": "California Teachers Association Independent Expenditure Committee",
+      "support": 275037,
+      "oppose": 420100,
+      "notes": [
+       "Filed as SUPPORTING Sonja Shaw ($275,037, Oct 17). Every other CTA filing about Shaw is coded OPPOSE, and the committee backs her opponent, so this is likely a coding error by the filer."
+      ]
+     },
+     {
+      "committee": "RIGHT PATH CALIFORNIA ISSUES PAC, SPONSORED BY TAXPAYER AND BUSINESS ADVOCATES",
+      "support": 62593,
+      "oppose": 0
+     },
+     {
+      "committee": "Reform Local Government PAC",
+      "support": 20000,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.079,
+    "through": "2026-10-17"
+   }
+  }
+ },
+ "judicial": {
+  "scotus-groban": {
+   "committees": []
+  },
+  "scotus-evans": {
+   "committees": []
+  },
+  "coa-1-1-wilson": {
+   "committees": []
+  },
+  "coa-1-1-smiley": {
+   "committees": []
+  },
+  "coa-1-1-banke": {
+   "committees": []
+  },
+  "coa-1-2-stewart": {
+   "committees": []
+  },
+  "coa-1-2-desautels": {
+   "committees": []
+  },
+  "coa-1-3-petrou": {
+   "committees": []
+  },
+  "coa-1-3-rodriguez": {
+   "committees": []
+  },
+  "coa-1-4-brown": {
+   "committees": []
+  },
+  "coa-1-5-chou": {
+   "committees": []
+  },
+  "coa-1-5-simons": {
+   "committees": []
+  },
+  "coa-1-5-burns": {
+   "committees": []
+  }
+ },
+ "built": "2026-10-24",
+ "sources": {
+  "state": {
+   "label": "CA Secretary of State, Cal-Access bulk export",
+   "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+  },
+  "federal": {
+   "label": "Federal Election Commission (FEC) API",
+   "url": "https://www.fec.gov/data/"
+  }
+ }
+}

@@ -586,3 +586,4 @@
 .vg-who-groups { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--text-muted); }
 @media (max-width: 767px) { .vg-money-sides { grid-template-columns: 1fr; } }
 .vg-rcv-row > .vg-cand-more { grid-column: 1 / -1; }
+.vg-filing-note { margin: 2px 0 4px; font-size: 0.74rem; color: var(--text-muted); }

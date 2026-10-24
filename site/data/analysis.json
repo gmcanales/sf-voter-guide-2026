@@ -227,5 +227,72 @@
         "source": "https://www.kqed.org/voterguide/sanfrancisco/school"
       }
     }
+  },
+  "retention": {
+    "_how": {
+      "goose": "A retention vote is not a contest: each justice runs alone and you vote YES (keep) or NO (remove). If YES wins, they serve the rest of their term (four or eight years, or a full 12-year term). If NO wins, the seat becomes vacant and the Governor appoints a replacement, who then faces voters at the next gubernatorial election. Justices are nominated by the Governor, evaluated by a state bar commission, and confirmed by the Commission on Judicial Appointments before they ever reach your ballot.",
+      "sources": [
+        {
+          "label": "CA Official Voter Information Guide: Justices",
+          "url": "https://vig.cdn.sos.ca.gov/2026/general/pdf/justices.pdf"
+        },
+        {
+          "label": "California Constitution, Art. VI §16",
+          "url": "https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&sectionNum=SEC.%2016.&article=VI"
+        }
+      ]
+    },
+    "scotus-evans": {
+      "who": "Associate Justice of the California Supreme Court since 2023, appointed by Gov. Newsom. Previously an Alameda County Superior Court judge, chief deputy legal affairs secretary to Gov. Newsom, a U.S. Justice Department civil-rights trial attorney, and an ACLU of Northern California attorney.",
+      "source": "https://vig.cdn.sos.ca.gov/2026/general/pdf/justices.pdf"
+    },
+    "scotus-groban": {
+      "who": "Associate Justice of the California Supreme Court since 2018, appointed by Gov. Jerry Brown. Previously Brown's senior advisor (2011–2018) and a litigator at Munger, Tolles & Olson and Paul, Weiss.",
+      "source": "https://vig.cdn.sos.ca.gov/2026/general/pdf/justices.pdf"
+    },
+    "coa-1-1-wilson": {
+      "who": "Appointed to the First District, Division One, by Gov. Newsom in December 2023. Previously a Napa Superior Court judge (appointed 2018, the court's first African American judge) and a court commissioner for 12 years.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/monique-langhorne-wilson"
+    },
+    "coa-1-1-smiley": {
+      "who": "Confirmed to the First District, Division One, in February 2025 after nomination by Gov. Newsom. Previously 17 years on the Alameda County Superior Court, including as its presiding judge.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/charles-smiley"
+    },
+    "coa-1-1-banke": {
+      "who": "On the First District, Division One, since 2009. Previously an Alameda County Superior Court judge (appointed 2006, elected 2008).",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/kathleen-m-banke"
+    },
+    "coa-1-2-stewart": {
+      "who": "Presiding Justice of Division Two since 2022 (appointed by Gov. Newsom), on the court since 2014 (appointed by Gov. Jerry Brown). Previously San Francisco's Chief Deputy City Attorney for 12 years, litigating the marriage-equality cases In re Marriage Cases and Perry v. Brown.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/therese-m-stewart"
+    },
+    "coa-1-2-desautels": {
+      "who": "Appointed to Division Two by Gov. Newsom in 2024. Previously 14 years as an Alameda County Superior Court judge (appointed by Gov. Schwarzenegger), including presiding judge, plus civil litigation and eight years as a deputy district attorney.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/tara-m-desautels"
+    },
+    "coa-1-3-petrou": {
+      "who": "Appointed to the First District by Gov. Jerry Brown in 2018. Previously an Alameda County Superior Court judge and an Assistant U.S. Attorney who led the Northern District of California's major-crimes unit.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/ioana-petrou"
+    },
+    "coa-1-3-rodriguez": {
+      "who": "Appointed to Division Three by Gov. Newsom in 2021. Previously an Alameda County Superior Court judge running a domestic-violence restraining-order department, and a long-time California Supreme Court staff attorney.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/victor-rodriguez"
+    },
+    "coa-1-4-brown": {
+      "who": "Presiding Justice of Division Four since 2023 (appointed by Gov. Newsom), on the court since 2018 (appointed by Gov. Jerry Brown). Previously a San Francisco Superior Court judge and an Assistant U.S. Attorney.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/tracie-l-brown"
+    },
+    "coa-1-5-chou": {
+      "who": "Appointed to Division Five by Gov. Newsom in 2023. Previously a San Mateo County Superior Court judge and chief of appellate litigation at the San Francisco City Attorney's Office.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/danny-y-chou"
+    },
+    "coa-1-5-simons": {
+      "who": "On the First District, Division Five, since 2000. Previously a Contra Costa Superior Court judge and presiding judge, a municipal court judge, and a deputy public defender.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/mark-b-simons"
+    },
+    "coa-1-5-burns": {
+      "who": "Appointed to Division Five by Gov. Jerry Brown in 2018. Previously a long-time California Department of Justice attorney and the state's first Deputy Solicitor General for Civil Law.",
+      "source": "https://appellate.courts.ca.gov/district-courts/1dca/bio/gordon-b-burns"
+    }
   }
 }
