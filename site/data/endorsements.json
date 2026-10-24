@@ -49,12 +49,13 @@
    "money": [
     {
      "label": "Political committee receipts (4 committees)",
-     "amount": 989377,
-     "period": "Jan 2025 – Oct 16, 2026",
+     "amount": 990094,
+     "period": "Jan 2025 – filings through 2026-10-24",
      "source": {
       "label": "SF Ethics Commission campaign finance data (DataSF)",
       "url": "https://data.sf.gov/d/pitq-e56w"
-     }
+     },
+     "note": "Counts itemized, unitemized and late contributions, using only the latest version of each filing (tools/funding_tags.py)."
     },
     {
      "label": "501(c)(4) annual revenue",
@@ -140,12 +141,13 @@
     },
     {
      "label": "Political committee receipts (3 committees)",
-     "amount": 340203,
-     "period": "Jan 2025 – Aug 31, 2026",
+     "amount": 360203,
+     "period": "Jan 2025 – filings through 2026-10-24",
      "source": {
       "label": "SF Ethics Commission campaign finance data (DataSF)",
       "url": "https://data.sf.gov/d/pitq-e56w"
-     }
+     },
+     "note": "Counts itemized, unitemized and late contributions, using only the latest version of each filing (tools/funding_tags.py)."
     }
    ],
    "members": {
@@ -179,12 +181,13 @@
     },
     {
      "label": "SF Forward PAC receipts",
-     "amount": 1450185,
-     "period": "Jan 2025 – Oct 16, 2026",
+     "amount": 1451240,
+     "period": "Jan 2025 – filings through 2026-10-24",
      "source": {
       "label": "SF Ethics Commission campaign finance data (DataSF)",
       "url": "https://data.sf.gov/d/pitq-e56w"
-     }
+     },
+     "note": "Counts itemized, unitemized and late contributions, using only the latest version of each filing (tools/funding_tags.py)."
     },
     {
      "label": "Co-sponsored “Yes on C, No on I” committee (with the Building Trades Council)",
@@ -441,13 +444,13 @@
    "money": [
     {
      "label": "Political committee receipts",
-     "amount": 15415,
-     "period": "Jan 2025 – Jun 30, 2026",
+     "amount": 27750,
+     "period": "Jan 2025 – filings through 2026-10-24",
      "source": {
       "label": "SF Ethics Commission campaign finance data (DataSF)",
       "url": "https://data.sf.gov/d/pitq-e56w"
      },
-     "note": "From 377 itemized contributions."
+     "note": "Counts itemized, unitemized and late contributions, using only the latest version of each filing (tools/funding_tags.py)."
     }
    ],
    "members": {
