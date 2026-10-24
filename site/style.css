@@ -495,3 +495,45 @@
 .vg-effect-down  { background: linear-gradient(rgba(74, 144, 226, 0.26), rgba(74, 144, 226, 0.26)), var(--bg); box-shadow: inset 3px 0 0 #4a90e2; }
 .vg-effect-limit { background: var(--bg); box-shadow: inset 3px 0 0 #4a90e2; }
 .vg-effect-stable { box-shadow: inset 3px 0 0 #9a9a9a; }
+
+/* ── figures in impact lines ───────────────────────────────────────────── */
+.vg-num { font-weight: 900; color: var(--accent); }
+.vg-impact-share { font-weight: 500; }
+
+/* ── group categories ──────────────────────────────────────────────────────
+   Fixed hues so groups read the same in every palette. Business is purple:
+   green = environment, red = labor, blue = party (and the Decrease chip),
+   amber = the tax Increase chip. Each class sets --cat for borders/dots. */
+.vg-cat-environment { --cat: #2f9e57; }
+.vg-cat-labor       { --cat: #d64545; }
+.vg-cat-business    { --cat: #7b5cc4; }
+.vg-cat-party       { --cat: #3b6fd8; }
+.vg-cat-progressive { --cat: #c2418f; }
+.vg-cat-growth      { --cat: #e07b2a; }
+.vg-cat-policy      { --cat: #1f9aa8; }
+.vg-cat-civic       { --cat: #8a8a8a; }
+.vg-cat-scope, .vg-cat-none { --cat: var(--border-strong); }
+
+.vg-group-card[class*="vg-cat-"] { border-left: 4px solid var(--cat); }
+.vg-group-tags { display: inline-flex; flex-wrap: wrap; gap: 4px; }
+.vg-group-tag {
+  padding: 1px 7px;
+  border-radius: 999px;
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+  color: #fff;
+  background: var(--cat);
+}
+.vg-group-tag.vg-cat-scope { color: var(--text-muted); background: none; border: 1px solid var(--border-strong); }
+
+/* Ballot-row chips: a small dot in the group's color. */
+.vg-chip[class*="vg-cat-"]::before {
+  content: "";
+  display: inline-block;
+  width: 6px; height: 6px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background: var(--cat);
+  vertical-align: 1px;
+}

@@ -1,5 +1,5 @@
 {
- "_about": "Other organizations' published recommendations, transcribed from each guide's own page (see guides[].url / accessed). Position values: \"yes\" | \"no\" | [candidate names exactly as on the ballot] | {\"none\": \"<their wording>\"} for an explicit no-position/abstain, or {\"vote\"|\"picks\": ..., \"note\": \"...\"} when the guide qualifies it. A contest/guide pair that's absent means the guide didn't address it. Schema: docs/data-model.md.",
+ "_about": "Other organizations' published recommendations, transcribed from each guide's own page (see guides[].url / accessed). Position values: \"yes\" | \"no\" | [candidate names exactly as on the ballot] | {\"none\": \"<their wording>\"} for an explicit no-position/abstain, or {\"vote\"|\"picks\": ..., \"note\": \"...\"} when the guide qualifies it. A contest/guide pair that's absent means the guide didn't address it. Schema: docs/data-model.md. Each guide's `tags` ({label, cat}) color-code it by what it is; the first tag's `cat` colors its card and its chips on the ballot (see docs/data-model.md).",
  "guides": [
   {
    "id": "sfdems",
@@ -30,7 +30,13 @@
    "self_description": {
     "text": "The San Francisco Democratic Party represents voters who want to see fundamental change in our political system. With more than 330,000 members, we are one of the most active communities of Democrats in California.",
     "source": "https://www.sfdems.org/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Party",
+     "cat": "party"
+    }
+   ]
   },
   {
    "id": "growsf",
@@ -66,7 +72,13 @@
    "self_description": {
     "text": "But today, bad policy decisions have made it too hard to build homes, afford a place to live, run a small business, or feel safe walking down the street. The good news? These are solvable problems. GrowSF is here to fix them. We're focused on winning local elections, holding leaders accountable, and giving voters clear, honest information.",
     "source": "https://growsf.org/about/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Pro-growth",
+     "cat": "growth"
+    }
+   ]
   },
   {
    "id": "dsasf",
@@ -96,7 +108,13 @@
    "self_description": {
     "text": "We’re the San Francisco chapter of the Democratic Socialists of America (DSA), and alongside hundreds of chapters nationwide, we’re working to build a better world.",
     "source": "https://dsasf.org/about/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Socialist",
+     "cat": "progressive"
+    }
+   ]
   },
   {
    "id": "sflc",
@@ -129,7 +147,13 @@
    "members": {
     "text": "Current affiliate and worker counts aren't published on its site."
    },
-   "self_description_missing": "Its website (a JavaScript app) doesn't expose an about statement we could quote."
+   "self_description_missing": "Its website (a JavaScript app) doesn't expose an about statement we could quote.",
+   "tags": [
+    {
+     "label": "Labor",
+     "cat": "labor"
+    }
+   ]
   },
   {
    "id": "sfchamber",
@@ -178,7 +202,13 @@
    "self_description": {
     "text": "The San Francisco Chamber of Commerce is San Francisco’s most vibrant business network.",
     "source": "https://sfchamber.com/about/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Business",
+     "cat": "business"
+    }
+   ]
   },
   {
    "id": "spur",
@@ -210,7 +240,13 @@
    "self_description": {
     "text": "SPUR — the San Francisco Bay Area Planning and Urban Research Association — is a nonprofit public policy organization. We bring people together from across the political spectrum to develop solutions to the big problems cities face.",
     "source": "https://www.spur.org/about"
-   }
+   },
+   "tags": [
+    {
+     "label": "Urban policy",
+     "cat": "policy"
+    }
+   ]
   },
   {
    "id": "uesf",
@@ -237,7 +273,17 @@
    "self_description": {
     "text": "UESF is the collective voice of San Francisco Unified School District teachers and paraprofessionals, organized and professional educators committed to learning and to the bond between students and their teachers.",
     "source": "https://uesf.org/about/mission-and-vision/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Labor",
+     "cat": "labor"
+    },
+    {
+     "label": "Teachers",
+     "cat": "labor"
+    }
+   ]
   },
   {
    "id": "cna",
@@ -268,7 +314,21 @@
    "self_description": {
     "text": "Founded in 1903, the California Nurses Association is a premiere organization of registered nurses and one of the nation’s fastest growing labor and professional organizations in the U.S.",
     "source": "https://www.nationalnursesunited.org/california-nurses-association"
-   }
+   },
+   "tags": [
+    {
+     "label": "Labor",
+     "cat": "labor"
+    },
+    {
+     "label": "Nurses",
+     "cat": "labor"
+    },
+    {
+     "label": "Statewide",
+     "cat": "scope"
+    }
+   ]
   },
   {
    "id": "calchamber",
@@ -295,7 +355,17 @@
    "self_description": {
     "text": "Since 1890, we have been a dedicated not-for-profit organization, positively impacting California's business landscape. We are a trusted resource for advocacy and California human resources compliance.",
     "source": "https://www.calchamber.com/aboutus"
-   }
+   },
+   "tags": [
+    {
+     "label": "Business",
+     "cat": "business"
+    },
+    {
+     "label": "Statewide",
+     "cat": "scope"
+    }
+   ]
   },
   {
    "id": "lwv",
@@ -337,7 +407,13 @@
    ],
    "members": {
     "text": "Not published on its site."
-   }
+   },
+   "tags": [
+    {
+     "label": "Nonpartisan",
+     "cat": "civic"
+    }
+   ]
   },
   {
    "id": "league",
@@ -376,7 +452,13 @@
    "self_description": {
     "text": "Real people (pissed off ones) do the researching, endorsing, writing, editing, designing, and distributing of the Pissed Off Voter Guide. No oligarch or AI had a hand in any step of creating this voter guide.",
     "source": "https://occupysf.net/index.php/2026/10/23/s-f-pissed-off-voter-guide-for-november-2026-2/"
-   }
+   },
+   "tags": [
+    {
+     "label": "Progressive",
+     "cat": "progressive"
+    }
+   ]
   },
   {
    "id": "sierra",
@@ -412,7 +494,13 @@
    ],
    "members": {
     "text": "Not published on its endorsement page."
-   }
+   },
+   "tags": [
+    {
+     "label": "Environment",
+     "cat": "environment"
+    }
+   ]
   }
  ],
  "positions": {

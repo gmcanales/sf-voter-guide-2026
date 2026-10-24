@@ -43,7 +43,7 @@ function el(tag, attrs = {}, ...children) {
     else if (k.startsWith('on')) node.addEventListener(k.slice(2), v);
     else node.setAttribute(k, v === true ? '' : v);
   }
-  for (const c of children.flat()) {
+  for (const c of children.flat(Infinity)) {
     if (c == null || c === false) continue;
     node.append(typeof c === 'string' ? document.createTextNode(c) : c);
   }
@@ -205,7 +205,7 @@ function guideChipsForRow(contest, row) {
   }
   if (!who.length) return null;
   return el('span', { class: 'vg-row-guides' },
-    who.map(g => el('span', { class: 'vg-chip', title: g.name }, g.short)));
+    who.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}`, title: g.name }, g.short)));
 }
 
 function renderOfficeRows(contest) {
@@ -667,10 +667,10 @@ function renderTopicImpact(contest, vote = 'yes') {
   if (!lines.length) return null;
   return el('div', { class: 'vg-impact' }, lines.map(t => el('p', {},
     lines.length > 1 ? el('span', { class: 'vg-impact-topic' }, `${topicLabel(t.topic)}: `) : null,
-    t.share ? el('span', { class: 'vg-impact-share' }, t.share) : null,
+    t.share ? el('span', { class: 'vg-impact-share' }, highlightNumbers(t.share)) : null,
     t.share && t.affects_if ? ' · ' : null,
     t.affects_if ? (t.affects_if.startsWith('No one') ? t.affects_if
-      : [el('span', { class: 'vg-impact-label' }, 'Affects you if '), t.affects_if]) : null)));
+      : [el('span', { class: 'vg-impact-label' }, 'Affects you if '), highlightNumbers(t.affects_if)]) : null)));
 }
 
 function renderTopicBar() {
@@ -701,6 +701,16 @@ function renderTopicBar() {
       : el('p', { class: 'vg-fineprint' }, 'Topic tags are our own labels: what a measure is about and which way a YES vote moves it, not whether it’s good. Hover or long-press a tag for the reason.'));
 }
 
+// Wrap money and percentages ("~2%", "$371K", "$1 billion", "$129+") so they stand out.
+const NUM_RE = /(~?\$\d[\d,.]*(?:K|M|B)?\+?(?: (?:billion|million))?|~?\d[\d,.]*%)/g;  // money or percent only, not dates/ages
+function highlightNumbers(text) {
+  return text.split(NUM_RE).map((part, i) => i % 2 ? el('strong', { class: 'vg-num' }, part) : part);
+}
+
+function primaryCat(guide) {
+  return guide.tags?.find(t => t.cat !== 'scope')?.cat || 'none';
+}
+
 // ── "Other groups included" panel ─────────────────────────────────────────
 function money(m) {
   if (m.text) return m.text;
@@ -714,10 +724,11 @@ function renderGroups() {
   body.replaceChildren(
     el('p', { class: 'vg-setup-hint' },
       'These are the published guides we track. Their picks appear as small tags on each ballot line. Money and membership figures are rough public-record numbers.'),
-    el('div', { class: 'vg-group-cards' }, GUIDES.guides.map(g => el('article', { class: 'vg-group-card' },
+    el('div', { class: 'vg-group-cards' }, GUIDES.guides.map(g => el('article', { class: `vg-group-card vg-cat-${primaryCat(g)}` },
       el('header', {},
         el('a', { href: g.url, target: '_blank', rel: 'noopener', class: 'vg-group-name' }, g.name),
-        el('span', { class: 'vg-group-kind' }, g.kind)),
+        el('span', { class: 'vg-group-tags' }, (g.tags || []).map(t =>
+          el('span', { class: `vg-group-tag vg-cat-${t.cat}` }, t.label)))),
       g.self_description
         ? el('blockquote', { class: 'vg-self' },
             el('span', { class: 'vg-self-label' }, 'In their words'),

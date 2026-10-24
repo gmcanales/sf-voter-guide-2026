@@ -81,6 +81,14 @@ to say why. Use public
 records only (IRS 990s via ProPublica, SF Ethics, FEC, SoS registration) or
 the group's own published claim, quoted. Never estimate.
 
+Each guide has `tags` (`[{label, cat}]`) shown as colored pills on its card.
+The first non-`scope` tag colors the card's edge and the dot on its ballot
+chips. Categories and fixed hues: `environment` green, `labor` red, `business`
+purple, `party` blue, `progressive` magenta, `growth` orange, `policy` teal,
+`civic` gray, `scope` (e.g. "Statewide") outline only. Business is purple
+because green, red, blue and amber are already spoken for (environment, labor,
+party/Decrease, and Increase).
+
 Absent = the guide didn't address the contest. Picks render as small chips
 on the matching ballot row, and a pick's `note` renders as a muted footnote.
 Explicit no-positions (`{"none": …}`) are recorded for completeness but not
