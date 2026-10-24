@@ -10,16 +10,22 @@ Neutral explainers by default. Our own picks are opt-in behind a
 ## Layout
 
 ```
-site/                 ← everything served at /sf-2026/ (bind-mounted read-only)
-  index.html          ← Goosebase page shell
-  app.js              ← renders data/ballot.json → DOM (no framework, no build)
-  style.css           ← page styles (uses goosebase design tokens)
-  data/ballot.json    ← ALL guide content — the only file most edits touch
-  css/, js/           ← site-shell assets copied from congress_trader/frontend
+site/                     ← everything served at /sf-2026/ (bind-mounted read-only)
+  index.html, app.js      ← page shell + renderer (no framework, no build)
+  style.css               ← ballot-style layout on goosebase design tokens
+  data/ballot.json        ← GENERATED official facts, in ballot order
+  data/endorsements.json  ← other groups' picks (hand-edited, cited)
+  data/picks.json         ← OUR picks: Golden Goose Egg / Certified HONK
+  css/, js/               ← site-shell assets copied from congress_trader/frontend
+data-src/                 ← build inputs (skeleton + extracted official text)
+tools/                    ← extract_vip.py, extract_sos_props.py, build_ballot.py
 docs/
-  data-model.md       ← ballot.json schema
-  sourcing.md         ← sourcing rules (read before adding content)
+  data-model.md           ← schemas + pipeline
+  sourcing.md             ← sourcing rules (read before adding content)
 ```
+
+Rebuild official data: `py tools/build_ballot.py` (extractors only when a
+source changes; see docs/data-model.md).
 
 ## Local preview
 

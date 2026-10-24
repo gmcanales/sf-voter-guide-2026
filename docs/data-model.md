@@ -1,54 +1,76 @@
-# Data model — `site/data/ballot.json`
+# Data model
 
-The page is a pure renderer: every word a voter reads about a race or measure
-comes from this one file. Edit the JSON, reload, done — no build step.
+The page (`site/app.js`) is a pure renderer over three JSON files in
+`site/data/`. Two kinds of content are kept apart on purpose:
 
-## Top level
-
-| Field | Type | Notes |
+| File | What | Who edits it |
 |---|---|---|
-| `election` | object | `name`, `jurisdiction`, `date` (ISO), `official_sources[]` (`{label, url}`) |
-| `updated` | ISO date \| null | Last content review. Shown in the page header. |
-| `contests` | array | One entry per race or measure, in ballot order. |
+| `ballot.json` | Official facts: contests in ballot order, candidates, measure digests | **Generated.** Don't hand-edit; run `py tools/build_ballot.py` |
+| `endorsements.json` | Other organizations' published picks | Hand-edited, each guide cited |
+| `picks.json` | **Our** picks (Golden Goose Egg / Certified HONK) | Hand-edited, opinion |
 
-## Contest
+## Pipeline for `ballot.json`
+
+```
+official pamphlet PDF ──tools/extract_vip.py──────▶ data-src/vip_measures.json ─┐
+voterguide.sos.ca.gov ──tools/extract_sos_props.py▶ data-src/sos_props.json ────┼─tools/build_ballot.py─▶ site/data/ballot.json
+hand-curated ──────────────────────────────────────▶ data-src/ballot_skeleton.json ┘
+```
+
+- **`ballot_skeleton.json`** sets section and contest **order**, copied from the
+  official Ballot Worksheet (pamphlet pp. 246–248). It also holds candidates
+  (statewide: SoS Certified List; local: pamphlet statements) and the
+  district a contest `applies` to (`{"sup": 8}`, `{"cd": 11}`, …).
+- **Candidate order** is computed by `build_ballot.py` from the SoS
+  randomized alphabet (`order: "statewide" | "sos_alphabet" | "county_draw"`).
+  Each candidate needs a `surname` for sorting; set `surname_uncertain`
+  when a compound name could sort either way.
+- Re-run the extractors only when a source changes, then re-run the build.
+
+## `endorsements.json`
 
 ```jsonc
 {
-  "id": "sf-prop-a",               // stable slug, used as the URL #anchor
-  "kind": "measure",               // "office" | "measure"
-  "level": "city",                 // "federal" | "state" | "county" | "city" | "district"
-  "title": "Proposition A",
-  "subtitle": "…",                 // official short title, verbatim
-  "district": null,                // e.g. "Supervisor District 4" — null = citywide
-  "summary": "…",                  // neutral, plain-language, sourced
-  "yes_means": "…",                // measures only
-  "no_means": "…",                 // measures only
-  "threshold": "majority",         // measures only: "majority" | "55%" | "two-thirds"
-  "candidates": [                  // offices only
-    { "name": "…", "party": "…", "incumbent": false,
-      "ballot_designation": "…",   // verbatim from the official ballot
-      "links": [{ "label": "Campaign site", "url": "…" }] }
-  ],
-  "arguments": {                   // steelman each side, attributed
-    "for":     [{ "text": "…", "source": "S1" }],
-    "against": [{ "text": "…", "source": "S2" }]
-  },
-  "money": [                       // committee totals, always with an as-of date
-    { "side": "for", "committee": "…", "amount": 0, "as_of": "2026-10-24", "source": "S3" }
-  ],
-  "pick": null,                    // or { "choice": "Yes", "reasoning": "…", "sources": ["S1"] }
-  "sources": [
-    { "id": "S1", "label": "…", "url": "…", "accessed": "2026-10-24" }
-  ]
+  "guides": [{ "id": "growsf", "name": "GrowSF", "short": "GrowSF", "kind": "Political club",
+               "url": "…", "accessed": "2026-10-24", "about": "optional caveat" }],
+  "positions": {
+    "<contest id>": {
+      "<guide id>": "yes" | "no"                          // measures, retention
+                  | ["Name", …]                           // offices: names EXACTLY as on the ballot
+                  | { "none": "No Recommendation" }        // explicit no-position, in their words
+                  | { "picks": [...], "note": "…" }        // qualified pick
+                  | { "vote": "yes", "note": "…" }
+    }
+  }
 }
 ```
 
-## Rules the renderer enforces
+Absent = the guide didn't address the contest. Picks render as small chips
+on the matching ballot row, while no-positions and notes render as a muted
+footnote. The page logs a console warning for any name that isn't on the
+ballot.
 
-- `pick` is **hidden by default**. It shows only when the reader turns on
-  "Show our picks", and it is always drawn in a visually distinct, labeled box.
-  The neutral content must stand on its own with picks off.
-- Every `source` reference in `arguments`, `money` and `pick` must resolve to
-  an entry in that contest's `sources[]`; unresolved refs are flagged in the
-  browser console so they're caught in preview.
+## `picks.json` — ours
+
+```jsonc
+{ "picks": {
+    "prop-h": [{ "verdict": "egg",  "reasoning": "…" }],                 // measure: egg = YES
+    "prop-g": [{ "verdict": "honk", "reasoning": "…" }],                 // measure: honk = NO
+    "sup-8":  [{ "verdict": "egg",  "target": "Darshini Patel", "reasoning": "…" },
+               { "verdict": "honk", "target": "…", "reasoning": "…" }]  // offices: per candidate
+} }
+```
+
+- **Golden Goose Egg** (`egg`) is positive and **Certified HONK** (`honk`) is
+  negative. For measures and retention votes, egg means vote YES and honk
+  means vote NO.
+- Picks are hidden until the reader turns on "Show our picks". `reasoning`
+  is required, and a pick may reference facts but never restate them as
+  official.
+
+## Reader state
+
+District choices, marked ovals and toggles live in `localStorage`
+(`sf-voter-guide.2026-11`). Nothing is sent anywhere. URL parameters
+`?cd=11&ad=17&sup=8&bart=8&picks=1` preselect a ballot, which is handy
+for sharing a district-specific link.

@@ -7,20 +7,27 @@ layout and deploy path.
 
 ## Ground rules
 
-- **Content lives only in `site/data/ballot.json`.** `app.js` is a pure
-  renderer. Schema: `docs/data-model.md`.
+- **`site/data/ballot.json` is generated**: edit `data-src/` and run
+  `py tools/build_ballot.py`. Other groups' picks go in
+  `site/data/endorsements.json` and ours in `site/data/picks.json`. `app.js`
+  is a pure renderer. Schemas and pipeline: `docs/data-model.md`.
+- **Ballot order is sacred.** Section/contest order comes from the official
+  Ballot Worksheet; candidate order is computed from the SoS randomized
+  alphabet. Never reorder by hand.
+- **Never invent our picks.** `picks.json` holds the owner's opinions; only
+  add a pick the user has stated.
 - **Follow `docs/sourcing.md` without exception.** Never write a candidate
   name, ballot designation, measure title, dollar figure or date from
   memory. Each one comes from a cited source with an access date, and
   ballot facts come from Tier-1 official sources (SF Dept. of Elections,
   CA SoS, SF Ethics, Cal-Access). If a fact can't be confirmed, leave it
   out and say so.
-- **Neutral content and picks stay separate.** `summary`, `yes_means`,
-  `no_means` and `arguments` are neutral and steelman both sides. Opinion
-  goes only in `pick`, which the UI hides by default.
+- **Neutral content and picks stay separate.** Official text stays verbatim.
+  Opinion goes only in `picks.json`, which the UI hides by default. Other
+  groups' picks are visually quieter than ours.
 - **Public page.** It's exempt from Cloudflare Access, so never put
   anything private in this repo.
-- No build step, no framework, no external JS. Styling uses goosebase
+- The site has no build step, framework or external JS (the data build in `tools/` runs offline). Styling uses goosebase
   tokens from `site/css/tokens.css`; don't hardcode colors.
 
 ## Timeline

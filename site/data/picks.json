@@ -1,0 +1,4 @@
+{
+  "_about": "OUR recommendations, which are opinion and shown only when the reader turns on picks. verdict: \"egg\" (Golden Goose Egg, positive) or \"honk\" (Certified HONK, negative). For a measure, egg = vote YES and honk = vote NO. For an office or a retention vote, `target` names the candidate or justice being praised or warned against. Every pick needs `reasoning`. Schema: docs/data-model.md.",
+  "picks": {}
+}

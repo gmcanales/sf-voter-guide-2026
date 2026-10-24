@@ -1,40 +1,82 @@
-/* SF Voter Guide — page-specific styles. Colors come from goosebase tokens
-   (css/tokens.css); don't hardcode. Mobile breakpoint: 767px. */
+/* SF Voter Guide — page styles. Colors come from goosebase tokens
+   (css/tokens.css), which change with the reader's palette; don't hardcode.
+   Mobile breakpoint: 767px.
 
-.vg-toolbar {
+   Visual hierarchy, loudest to quietest:
+     1. the ballot itself (section bars, ovals): mirrors the printed ballot
+     2. OUR picks (Golden Goose Egg / Certified HONK), opt-in
+     3. other groups' picks: small muted chips
+     4. official details, collapsed */
+
+.vg-inner { max-width: 820px; }
+
+/* goosebase's base CSS has no [hidden] rule, so display:grid/flex would win. */
+[hidden] { display: none !important; }
+
+/* ── setup ─────────────────────────────────────────────────────────────── */
+.vg-setup {
+  margin: 28px 0 20px;
+  padding: 18px 20px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+}
+.vg-setup-title { margin: 0 0 4px; font-size: 1.05rem; }
+.vg-setup-hint { margin: 0 0 14px; color: var(--text-muted); font-size: 0.9rem; }
+.vg-setup-hint a { color: var(--accent); }
+
+.vg-districts {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 12px;
+}
+.vg-district { display: flex; flex-direction: column; gap: 4px; font-size: 0.85rem; }
+.vg-district-label { font-weight: 700; }
+.vg-district select {
+  font: inherit;
+  padding: 6px 8px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg);
+  color: var(--text);
+}
+.vg-district-note { color: var(--text-faint); font-size: 0.75rem; }
+
+.vg-toggles { display: flex; flex-wrap: wrap; gap: 8px 20px; margin-top: 16px; }
+.vg-switch { display: inline-flex; align-items: center; gap: 8px; cursor: pointer; font-weight: 500; }
+
+.vg-btn { font: inherit; font-size: 0.875rem; padding: 6px 12px; cursor: pointer; }
+
+/* ── legend ────────────────────────────────────────────────────────────── */
+.vg-legend {
+  display: grid;
+  gap: 8px;
+  margin-bottom: 20px;
+  padding: 14px 18px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+}
+.vg-legend-item { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+.vg-legend-note { margin: 4px 0 0; font-size: 0.8rem; color: var(--text-faint); }
+
+/* ── progress bar (sticky) ─────────────────────────────────────────────── */
+.vg-progress {
+  position: sticky;
+  top: calc(env(safe-area-inset-top, 0px) + 64px);
+  z-index: 5;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  margin: 28px 0 16px;
-}
-
-.vg-picks-toggle {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  cursor: pointer;
-  font-weight: 500;
-}
-
-.vg-updated { color: var(--text-faint); font-size: 0.875rem; }
-
-.vg-toc {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px;
-  margin-bottom: 28px;
-}
-.vg-toc a {
-  padding: 4px 10px;
+  margin-bottom: 8px;
+  padding: 8px 12px;
+  background: var(--header-glass, var(--surface));
+  backdrop-filter: blur(8px);
   border: 1px solid var(--border);
-  border-radius: 999px;
-  color: var(--text-muted);
-  text-decoration: none;
+  border-radius: var(--radius);
   font-size: 0.875rem;
+  color: var(--text-muted);
 }
-.vg-toc a:hover { border-color: var(--border-strong); color: var(--text); }
 
 .vg-empty {
   padding: 24px;
@@ -43,84 +85,246 @@
   color: var(--text-muted);
 }
 
-.vg-level-head {
-  margin: 40px 0 12px;
+/* ── ballot structure ──────────────────────────────────────────────────── */
+.vg-group {
+  margin: 40px 0 10px;
   font-family: var(--font-display);
-  font-size: 0.8rem;
-  letter-spacing: 0.08em;
+  font-size: 1.6rem;
+  letter-spacing: -0.01em;
+}
+
+.vg-section { margin-bottom: 28px; }
+
+/* The black header bar of the printed ballot. Inverted tokens so it works on
+   every palette. */
+.vg-section-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px 12px;
+  padding: 8px 12px;
+  background: var(--text);
+  color: var(--bg);
+  font-weight: 700;
   text-transform: uppercase;
-  color: var(--text-faint);
+  letter-spacing: 0.04em;
+  font-size: 0.85rem;
+  border-radius: var(--radius) var(--radius) 0 0;
+}
+.vg-section-instr { font-weight: 500; text-transform: none; letter-spacing: 0; }
+.vg-section-note {
+  margin: 0;
+  padding: 8px 12px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+  border-top: 0;
 }
 
 .vg-contest {
+  padding: 14px 14px 12px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: 20px 22px;
-  margin-bottom: 16px;
-  scroll-margin-top: 80px;
+  border-top: 0;
+  scroll-margin-top: 120px;
 }
-.vg-contest h3 { margin: 0; font-size: 1.25rem; }
-.vg-contest .vg-sub { margin: 4px 0 0; color: var(--text-muted); }
-.vg-contest h4 {
-  margin: 18px 0 6px;
+.vg-section > .vg-contest:last-child { border-radius: 0 0 var(--radius) var(--radius); }
+.vg-contest.is-done { box-shadow: inset 3px 0 0 var(--accent); }
+
+.vg-contest-head { margin-bottom: 8px; }
+.vg-contest-title { margin: 0; font-size: 1.05rem; line-height: 1.3; }
+.vg-letter {
+  display: inline-grid;
+  place-items: center;
+  min-width: 1.9em;
+  height: 1.9em;
+  margin-right: 8px;
+  padding: 0 4px;
+  border: 2px solid var(--text);
+  border-radius: 4px;
+  font-weight: 900;
+  font-size: 0.9em;
+}
+.vg-sub { margin: 4px 0 0; color: var(--text-muted); font-size: 0.9rem; }
+.vg-instr { margin: 4px 0 0; font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; color: var(--text-muted); }
+.vg-tag {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* ── ovals & rows ──────────────────────────────────────────────────────── */
+.vg-rows { display: grid; }
+.vg-row {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: start;
+  padding: 8px 4px;
+  border-top: 1px solid var(--border);
+}
+.vg-row.is-marked { background: var(--accent-soft); }
+
+.vg-oval {
+  width: 30px;
+  height: 18px;
+  margin-top: 2px;
+  padding: 0;
+  border: 2px solid var(--text);
+  border-radius: 50%;
+  background: transparent;
+  cursor: pointer;
+  flex: none;
+}
+.vg-oval:hover { background: var(--surface2); }
+.vg-oval:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.vg-oval.is-marked { background: var(--text); }
+.vg-oval.is-static { cursor: default; border-style: dashed; opacity: 0.5; display: inline-block; }
+
+.vg-cand { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+.vg-cand-name { font-weight: 700; }
+.vg-party { font-size: 0.8rem; color: var(--text-muted); }
+.vg-desig { font-size: 0.85rem; color: var(--text-muted); }
+.vg-cand-note { margin-top: 2px; font-size: 0.8rem; color: var(--warn); }
+.vg-cand-note a { color: inherit; }
+.vg-writein { opacity: 0.7; }
+
+/* Ranked-choice grid: names left, one oval column per rank. */
+.vg-rcv { overflow-x: auto; }
+.vg-rcv-head, .vg-rcv-row {
+  display: grid;
+  grid-template-columns: minmax(180px, 1fr) repeat(var(--ranks), 38px);
+  align-items: center;
+  gap: 0 4px;
+  min-width: calc(200px + var(--ranks) * 42px);
+}
+.vg-rcv-head { font-size: 0.7rem; font-weight: 700; color: var(--text-muted); text-align: center; padding-bottom: 4px; }
+.vg-rcv-row { padding: 8px 4px; border-top: 1px solid var(--border); }
+.vg-rcv-row.is-marked { background: var(--accent-soft); }
+.vg-rcv-ovals { display: contents; }
+.vg-rcv-ovals .vg-oval { justify-self: center; margin: 0; }
+
+.vg-flash {
+  margin: 8px 0 0;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  background: var(--warn-soft);
+  color: var(--text);
+  font-size: 0.85rem;
+}
+
+/* ── other groups (deliberately quiet) ─────────────────────────────────── */
+.vg-row-guides { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.vg-chip {
+  padding: 0 6px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.7rem;
+  line-height: 1.6;
+  color: var(--text-faint);
+  white-space: nowrap;
+}
+.vg-guides {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 14px;
+  margin: 8px 0 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.75rem;
+  color: var(--text-faint);
+}
+.vg-guides a { color: var(--text-muted); }
+
+/* ── OUR picks ─────────────────────────────────────────────────────────── */
+.vg-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.7rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  white-space: nowrap;
+  line-height: 1;
+}
+.vg-badge-egg {
+  padding: 4px 9px 4px 6px;
+  border-radius: 999px;
+  background: var(--warn-soft);
+  color: var(--text);
+  border: 1px solid var(--warn);
+}
+.vg-badge-egg svg { width: 12px; height: 15px; fill: var(--warn); filter: drop-shadow(0 0 3px var(--warn)); }
+/* Rubber-stamp look: double border, slight tilt. */
+.vg-badge-honk {
+  padding: 4px 8px;
+  color: var(--sell);
+  border: 2px double var(--sell);
+  border-radius: 4px;
+  transform: rotate(-3deg);
+  background: var(--sell-soft);
+}
+
+.vg-pick {
+  display: grid;
+  gap: 8px;
+  margin-top: 10px;
+  padding: 10px 12px;
+  border-left: 3px solid var(--warn);
+  background: var(--surface2);
+  border-radius: var(--radius);
+}
+.vg-pick-item p { margin: 6px 0 0; font-size: 0.9rem; line-height: 1.5; }
+
+/* ── official details ──────────────────────────────────────────────────── */
+.vg-details { margin-top: 10px; font-size: 0.9rem; }
+.vg-details summary {
+  cursor: pointer;
+  font-weight: 700;
   font-size: 0.8rem;
+  color: var(--accent);
+}
+.vg-detail h4, .vg-args h4 {
+  margin: 14px 0 4px;
+  font-size: 0.72rem;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-faint);
 }
-.vg-contest p, .vg-contest li { line-height: 1.55; }
-
-.vg-meaning {
+.vg-detail p { margin: 0 0 6px; line-height: 1.55; }
+.vg-detail ul { margin: 0 0 6px; padding-left: 18px; line-height: 1.5; }
+.vg-meaning, .vg-args {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  gap: 10px;
+  margin-top: 12px;
 }
-.vg-meaning > div {
-  padding: 10px 12px;
-  border-radius: var(--radius);
-  background: var(--surface2);
-}
+.vg-meaning > div { padding: 10px 12px; border-radius: var(--radius); background: var(--surface2); line-height: 1.5; }
+.vg-args p { margin: 0; line-height: 1.5; }
+.vg-sources { padding-left: 18px; }
+.vg-fineprint { margin: 10px 0 0; font-size: 0.78rem; color: var(--text-faint); line-height: 1.5; }
 
-/* Yes/No and For/Against use neutral styling on purpose; buy/sell greens
-   and reds would imply a judgment. */
-.vg-args {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 16px;
-}
-.vg-args ul { margin: 0; padding-left: 18px; }
-
-.vg-cands { list-style: none; padding: 0; margin: 0; }
-.vg-cands li { padding: 6px 0; border-bottom: 1px solid var(--border); }
-.vg-cands li:last-child { border-bottom: 0; }
-.vg-cands .vg-desig { color: var(--text-muted); font-size: 0.9rem; }
-
-.vg-money { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
-.vg-money td { padding: 4px 0; border-bottom: 1px solid var(--border); }
-.vg-money td.num { text-align: right; font-family: var(--font-mono); }
-
-.vg-src { font-size: 0.75rem; vertical-align: super; margin-left: 2px; }
-.vg-sources { font-size: 0.85rem; color: var(--text-muted); padding-left: 18px; }
-
-/* Picks: deliberately set apart from the neutral content. */
-.vg-pick {
-  margin-top: 18px;
-  padding: 12px 14px;
-  border-left: 3px solid var(--accent);
-  background: var(--accent-soft);
-  border-radius: var(--radius);
-}
-.vg-pick-label {
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  color: var(--accent-text);
-}
-body:not(.show-picks) .vg-pick { display: none; }
+/* ── summary ───────────────────────────────────────────────────────────── */
+.vg-summary-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; }
+.vg-summary-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.vg-summary-list { padding-left: 22px; }
+.vg-summary-list li { padding: 6px 0; border-bottom: 1px solid var(--border); }
+.vg-summary-list li.is-blank { color: var(--text-faint); }
+.vg-summary-list a { color: inherit; font-weight: 700; }
+.vg-summary-choice { display: block; font-size: 0.9rem; }
 
 .vg-official { margin-top: 48px; }
 
 @media (max-width: 767px) {
   .vg-meaning, .vg-args { grid-template-columns: 1fr; }
+  .vg-progress { top: calc(env(safe-area-inset-top, 0px) + 56px); }
+}
+
+@media print {
+  .site-header, .site-footer, .vg-setup, .vg-legend, .vg-progress, .vg-official, .vg-summary-actions { display: none !important; }
 }
