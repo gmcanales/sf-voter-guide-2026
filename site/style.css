@@ -426,3 +426,43 @@
 }
 .vg-self p { margin: 2px 0; font-style: italic; line-height: 1.45; }
 .vg-self-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); }
+
+/* ── topic filter (our editorial tags) ─────────────────────────────────── */
+.vg-topics {
+  margin: 0 0 16px;
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  background: var(--surface);
+}
+.vg-topics-head { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.vg-topics-title { font-weight: 700; }
+.vg-topics-clear { font: inherit; font-size: 0.8rem; background: none; border: 0; color: var(--accent); cursor: pointer; padding: 0; }
+.vg-topic-chips { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
+.vg-topic-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 10px;
+  font: inherit;
+  font-size: 0.82rem;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--bg);
+  color: var(--text);
+  cursor: pointer;
+}
+.vg-topic-chip.is-active { background: var(--text); color: var(--bg); border-color: var(--text); }
+.vg-topic-count { font-size: 0.72rem; opacity: 0.65; }
+
+.vg-topic-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 0; padding: 0; list-style: none; }
+.vg-topic-tag {
+  padding: 1px 8px;
+  border-radius: 4px;
+  background: var(--surface2);
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  cursor: help;
+}
+.vg-topic-tag.is-active { background: var(--text); color: var(--bg); }
+.vg-arrow { font-weight: 900; }

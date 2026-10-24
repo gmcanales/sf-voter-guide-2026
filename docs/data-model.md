@@ -1,6 +1,6 @@
 # Data model
 
-The page (`site/app.js`) is a pure renderer over four JSON files in
+The page (`site/app.js`) is a pure renderer over five JSON files in
 `site/data/`. Two kinds of content are kept apart on purpose:
 
 | File | What | Who edits it |
@@ -9,6 +9,7 @@ The page (`site/app.js`) is a pure renderer over four JSON files in
 | `endorsements.json` | Other organizations' published picks | Hand-edited, each guide cited |
 | `picks.json` | **Our** picks (Golden Goose Egg / Certified HONK) | Hand-edited, opinion |
 | `zip_districts.json` | Which districts each SF ZIP overlaps | **Generated** by `tools/build_zip_districts.py` |
+| `topics.json` | **Our** topic tags on measures (for browsing) | Hand-edited, editorial but factual |
 
 ## Pipeline for `ballot.json`
 
@@ -102,6 +103,22 @@ ballot.
 - Picks are hidden until the reader turns on "Show our picks". `reasoning`
   is required, and a pick may reference facts but never restate them as
   official.
+
+## `topics.json` — our topic tags
+
+```jsonc
+{ "topics": [{ "id": "housing", "label": "Housing construction", "description": "…" }],
+  "tags": { "prop-c": [{ "topic": "housing", "effect": "up", "why": "Raises the City's yearly…" }] } }
+```
+
+- Tags say what a measure is **about** and which way a YES vote moves it
+  (`effect`: `up` raises/funds/expands, `down` cuts/limits). They never say
+  whether that's good. Every tag needs a factual `why` drawn from the
+  official digest; readers see it on hover and in the measure's details.
+- Keep it symmetric: taxes are tagged in both directions, and *Regressive tax*
+  sits next to *Progressive tax*. A topic that only ever flags one side is
+  a bias.
+- Measures with no fitting topic stay untagged and drop out of filtered views.
 
 ## Reader state
 

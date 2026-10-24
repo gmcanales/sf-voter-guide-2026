@@ -11,21 +11,23 @@ const SOLE_SHARE = 0.995;            // a ZIP this much inside one district coun
 const DIMS = ['cd', 'ad', 'sup', 'bart'];
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
-  const blank = { zip: null, districts: {}, marks: {}, collapsed: {}, showGuides: true, showPicks: false };
+  const blank = { zip: null, districts: {}, marks: {}, collapsed: {}, topics: [], showGuides: true, showPicks: false };
   let s;
   try { s = { ...blank, ...JSON.parse(localStorage.getItem(STORE_KEY) || '{}') }; }
   catch { s = blank; }
-  // Shareable links: ?zip=94110 or ?sup=8&ad=17 preselect a ballot; ?picks=1 turns picks on.
+  // Shareable links: ?zip=94110 or ?sup=8&ad=17 preselect a ballot; ?picks=1 turns picks on;
+  // ?topic=housing,transit filters measures by topic.
   const q = new URLSearchParams(location.search);
   if (/^\d{5}$/.test(q.get('zip') || '')) s.zip = q.get('zip');
   for (const dim of DIMS) {
     if (q.has(dim) && /^\d+$/.test(q.get(dim))) s.districts = { ...s.districts, [dim]: Number(q.get(dim)) };
   }
   if (q.has('picks')) s.showPicks = q.get('picks') === '1';
+  if (q.has('topic')) s.topics = q.get('topic').split(',').filter(Boolean);
   return s;
 }
 function saveState() {
@@ -321,6 +323,9 @@ function renderDetails(contest) {
       para('Listed supporters', contest.listed_supporters),
       para('Listed opponents', contest.listed_opponents),
       para('How it got on the ballot', contest.how_placed || contest.placed_by),
+      topicTags(contest).length ? el('div', { class: 'vg-detail' }, el('h4', {}, 'Why these topic tags (our labels)'),
+        el('ul', {}, topicTags(contest).map(t => el('li', {},
+          el('strong', {}, topicLabel(t.topic) + (t.effect ? ` ${ARROW[t.effect]}` : '') + ': '), t.why)))) : null,
       contest.threshold ? el('p', { class: 'vg-fineprint' }, `Passes with: ${contest.threshold}`) : null);
   }
   if (contest.list_note) blocks.push(el('p', { class: 'vg-fineprint' }, contest.list_note));
@@ -378,6 +383,7 @@ function renderContest(contest, section) {
         ? el('span', { class: 'vg-tag' }, districtTag(contest)) : null),
     body,
     el('p', { class: 'vg-flash', role: 'status', hidden: true }),
+    renderTopicTags(contest),
     renderPickBox(contest),
     renderGuideLine(contest),
     renderDetails(contest));
@@ -407,10 +413,17 @@ function visibleContests() {
 // Each ballot section folds away so a phone reader can work through the
 // ballot one section at a time. By default only the first section is open.
 function visibleSections() {
-  return BALLOT.sections.filter(s => s.contests.some(appliesToReader));
+  return BALLOT.sections.filter(s => s.contests.some(shown));
+}
+
+// Ballot + topic filter. Progress counts ignore the topic filter on purpose:
+// filtering is a way to browse, not a smaller ballot.
+function shown(contest) {
+  return appliesToReader(contest) && matchesTopics(contest);
 }
 
 function isCollapsed(section) {
+  if (state.topics.length) return false;          // filtered view: everything open
   if (section.id in state.collapsed) return state.collapsed[section.id];
   return visibleSections()[0]?.id !== section.id;
 }
@@ -448,7 +461,7 @@ function sectionStatus(section) {
 }
 
 function renderSection(section) {
-  const contests = section.contests.filter(appliesToReader);
+  const contests = section.contests.filter(shown);
   const collapsed = isCollapsed(section);
   const order = visibleSections();
   const isLast = order[order.length - 1]?.id === section.id;
@@ -597,6 +610,58 @@ function renderProgress() {
     done ? `${done} of ${total} contests marked` : `${total} contests on your ballot`;
 }
 
+// ── topics (our editorial tags on measures) ───────────────────────────────
+function topicTags(contest) {
+  return (TOPICS?.tags || {})[contest.id] || [];
+}
+
+function matchesTopics(contest) {
+  if (!state.topics.length) return true;
+  return topicTags(contest).some(t => state.topics.includes(t.topic));
+}
+
+function topicLabel(id) {
+  return TOPICS.topics.find(t => t.id === id)?.label || id;
+}
+
+const ARROW = { up: '↑', down: '↓' };
+
+function renderTopicTags(contest) {
+  const tags = topicTags(contest);
+  if (!tags.length) return null;
+  return el('ul', { class: 'vg-topic-tags', 'aria-label': 'Topics' }, tags.map(t =>
+    el('li', { class: 'vg-topic-tag' + (state.topics.includes(t.topic) ? ' is-active' : ''), title: t.why },
+      topicLabel(t.topic), t.effect ? el('span', { class: 'vg-arrow' }, ` ${ARROW[t.effect]}`) : null)));
+}
+
+function renderTopicBar() {
+  const box = document.getElementById('topics');
+  if (!TOPICS?.topics?.length) return;
+  box.hidden = false;
+  const counts = {};
+  for (const [cid, tags] of Object.entries(TOPICS.tags)) {
+    if (!CONTEST_INDEX[cid] || !appliesToReader(CONTEST_INDEX[cid].contest)) continue;
+    for (const t of new Set(tags.map(t => t.topic))) counts[t] = (counts[t] || 0) + 1;
+  }
+  const toggle = id => {
+    state.topics = state.topics.includes(id) ? state.topics.filter(t => t !== id) : [...state.topics, id];
+    saveState(); renderTopicBar(); renderBallot();
+  };
+  box.replaceChildren(
+    el('div', { class: 'vg-topics-head' },
+      el('span', { class: 'vg-topics-title' }, 'Browse measures by topic'),
+      state.topics.length
+        ? el('button', { type: 'button', class: 'vg-topics-clear', onclick: () => { state.topics = []; saveState(); renderTopicBar(); renderBallot(); } }, 'Show everything')
+        : null),
+    el('div', { class: 'vg-topic-chips' }, TOPICS.topics.map(t => el('button', {
+      type: 'button', class: 'vg-topic-chip' + (state.topics.includes(t.id) ? ' is-active' : ''),
+      'aria-pressed': String(state.topics.includes(t.id)), title: t.description, onclick: () => toggle(t.id),
+    }, t.label, el('span', { class: 'vg-topic-count' }, String(counts[t.id] || 0))))),
+    state.topics.length
+      ? el('p', { class: 'vg-fineprint' }, `Showing only measures tagged ${state.topics.map(topicLabel).join(' or ')}. Offices are hidden while a topic is selected.`)
+      : el('p', { class: 'vg-fineprint' }, 'Topic tags are our own labels: what a measure is about and which way a YES vote moves it, not whether it’s good. Hover or long-press a tag for the reason.'));
+}
+
 // ── "Other groups included" panel ─────────────────────────────────────────
 function money(m) {
   if (m.text) return m.text;
@@ -713,9 +778,9 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS] = await Promise.all([
       get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
-      get('./data/zip_districts.json')]);
+      get('./data/zip_districts.json'), get('./data/topics.json')]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     document.getElementById('ballot').replaceChildren(
@@ -738,6 +803,7 @@ async function main() {
     `Your sample ballot is the authority. Data built ${formatDate(BALLOT.built)}.`;
 
   renderGroups();
+  renderTopicBar();
   initZip();
   if (state.zip) applyZip(state.zip);      // re-narrow pickers; keeps choices that still fit
   else { renderDistricts(); renderBallot(); renderProgress(); }
