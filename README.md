@@ -19,8 +19,10 @@ site/                     ← everything served at /sf-2026/ (bind-mounted read-
   data/zip_districts.json ← GENERATED ZIP → district overlaps
   css/, js/               ← site-shell assets copied from congress_trader/frontend
 data-src/                 ← build inputs (skeleton + extracted official text)
+  sample_ballots/         ← transcribed sample ballots (CSV) used to verify lists/order
 tools/                    ← extract_vip.py, extract_sos_props.py, build_ballot.py,
-                            build_zip_districts.py (needs .venv with tools/requirements.txt)
+                            build_zip_districts.py (needs .venv with tools/requirements.txt),
+                            sample_ballot.py (verify against a transcribed sample ballot)
 docs/
   data-model.md           ← schemas + pipeline
   sourcing.md             ← sourcing rules (read before adding content)

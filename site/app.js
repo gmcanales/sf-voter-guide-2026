@@ -614,6 +614,12 @@ function renderGroups() {
       el('header', {},
         el('a', { href: g.url, target: '_blank', rel: 'noopener', class: 'vg-group-name' }, g.name),
         el('span', { class: 'vg-group-kind' }, g.kind)),
+      g.self_description
+        ? el('blockquote', { class: 'vg-self' },
+            el('span', { class: 'vg-self-label' }, 'In their words'),
+            el('p', {}, `“${g.self_description.text}”`),
+            el('a', { href: g.self_description.source, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source'))
+        : g.self_description_missing ? el('p', { class: 'vg-fineprint' }, g.self_description_missing) : null,
       g.about ? el('p', { class: 'vg-group-about' }, g.about) : null,
       el('dl', {},
         el('dt', {}, 'Money'),

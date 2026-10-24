@@ -21,11 +21,15 @@
     }
    ],
    "members": {
-    "text": "332,330 registered Democrats in SF (62% of registered voters) as of Sept 4, 2026. These are the party's voters, not dues-paying members.",
+    "text": "332,330 registered Democrats in SF (62% of registered voters) as of Sept 4, 2026. The party itself says “more than 330,000 members”, meaning its registered voters, not dues-paying members.",
     "source": {
      "label": "CA SoS Report of Registration",
      "url": "https://elections.cdn.sos.ca.gov/ror/60day-gen-2026/county.pdf"
     }
+   },
+   "self_description": {
+    "text": "The San Francisco Democratic Party represents voters who want to see fundamental change in our political system. With more than 330,000 members, we are one of the most active communities of Democrats in California.",
+    "source": "https://www.sfdems.org/"
    }
   },
   {
@@ -48,8 +52,8 @@
     },
     {
      "label": "501(c)(4) annual revenue",
-     "amount": 615974,
-     "period": "2022 (latest itemized filing)",
+     "amount": 938316,
+     "period": "2024 (latest itemized filing)",
      "source": {
       "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
       "url": "https://projects.propublica.org/nonprofits/organizations/852716857"
@@ -58,6 +62,10 @@
    ],
    "members": {
     "text": "Not published."
+   },
+   "self_description": {
+    "text": "But today, bad policy decisions have made it too hard to build homes, afford a place to live, run a small business, or feel safe walking down the street. The good news? These are solvable problems. GrowSF is here to fix them. We're focused on winning local elections, holding leaders accountable, and giving voters clear, honest information.",
+    "source": "https://growsf.org/about/"
    }
   },
   {
@@ -84,6 +92,10 @@
      "label": "DSA SF voter guide",
      "url": "https://dsasf.org/dsa-sf-november-2026-voter-guide/"
     }
+   },
+   "self_description": {
+    "text": "We’re the San Francisco chapter of the Democratic Socialists of America (DSA), and alongside hundreds of chapters nationwide, we’re working to build a better world.",
+    "source": "https://dsasf.org/about/"
    }
   },
   {
@@ -97,8 +109,8 @@
    "money": [
     {
      "label": "Annual revenue",
-     "amount": 1717240,
-     "period": "2023 (latest itemized filing)",
+     "amount": 3141813,
+     "period": "2024 (latest itemized filing)",
      "source": {
       "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
       "url": "https://projects.propublica.org/nonprofits/organizations/940835955"
@@ -116,7 +128,8 @@
    ],
    "members": {
     "text": "Current affiliate and worker counts aren't published on its site."
-   }
+   },
+   "self_description_missing": "Its website (a JavaScript app) doesn't expose an about statement we could quote."
   },
   {
    "id": "sfchamber",
@@ -129,8 +142,8 @@
    "money": [
     {
      "label": "Annual revenue",
-     "amount": 2605527,
-     "period": "2023 (latest itemized filing)",
+     "amount": 2679690,
+     "period": "2024 (latest itemized filing)",
      "source": {
       "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
       "url": "https://projects.propublica.org/nonprofits/organizations/940834950"
@@ -156,7 +169,15 @@
     }
    ],
    "members": {
-    "text": "Not published."
+    "text": "Says it and its partners “represent the nearly 250,000 employees of San Francisco businesses.” Its own member count isn't published.",
+    "source": {
+     "label": "SF Chamber about page",
+     "url": "https://sfchamber.com/about/"
+    }
+   },
+   "self_description": {
+    "text": "The San Francisco Chamber of Commerce is San Francisco’s most vibrant business network.",
+    "source": "https://sfchamber.com/about/"
    }
   },
   {
@@ -170,13 +191,13 @@
    "money": [
     {
      "label": "Annual revenue",
-     "amount": 6221950,
-     "period": "FY ending Mar 2023 (latest itemized filing)",
+     "amount": 6502318,
+     "period": "FY ending Mar 2025 (latest itemized filing)",
      "source": {
       "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
       "url": "https://projects.propublica.org/nonprofits/organizations/941498232"
      },
-     "note": "Expenses that year were $8.44M."
+     "note": "Expenses that year were $6.08M."
     }
    ],
    "members": {
@@ -185,6 +206,95 @@
      "label": "SPUR membership page",
      "url": "https://www.spur.org/join"
     }
+   },
+   "self_description": {
+    "text": "SPUR — the San Francisco Bay Area Planning and Urban Research Association — is a nonprofit public policy organization. We bring people together from across the political spectrum to develop solutions to the big problems cities face.",
+    "source": "https://www.spur.org/about"
+   }
+  },
+  {
+   "id": "uesf",
+   "name": "United Educators of San Francisco",
+   "short": "UESF (teachers)",
+   "kind": "Labor · teachers",
+   "url": "https://uesf.org/our-work/political-action/",
+   "accessed": "2026-10-24",
+   "about": "SF's public-school teachers' union.",
+   "money": [
+    {
+     "label": "Annual revenue",
+     "amount": 9200492,
+     "period": "FY ending June 2025 (latest itemized filing)",
+     "source": {
+      "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
+      "url": "https://projects.propublica.org/nonprofits/organizations/941455079"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published on its site."
+   },
+   "self_description": {
+    "text": "UESF is the collective voice of San Francisco Unified School District teachers and paraprofessionals, organized and professional educators committed to learning and to the bond between students and their teachers.",
+    "source": "https://uesf.org/about/mission-and-vision/"
+   }
+  },
+  {
+   "id": "cna",
+   "name": "California Nurses Association",
+   "short": "CA Nurses",
+   "kind": "Labor · nurses (statewide)",
+   "url": "https://igs.berkeley.edu/library/california-ballot-proposition-guides/november-3-2026-general-election/november-3-2026",
+   "accessed": "2026-10-24",
+   "about": "State propositions only. Positions come from UC Berkeley IGS's compiled endorsement table (updated Oct 21, 2026) because CNA hasn't published its own list.",
+   "money": [
+    {
+     "label": "Annual revenue",
+     "amount": 187087566,
+     "period": "FY ending June 2025 (latest itemized filing)",
+     "source": {
+      "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
+      "url": "https://projects.propublica.org/nonprofits/organizations/940362060"
+     }
+    }
+   ],
+   "members": {
+    "text": "“More than 100,000 members in more than 200 facilities throughout California” (its own description).",
+    "source": {
+     "label": "CNA page, National Nurses United",
+     "url": "https://www.nationalnursesunited.org/california-nurses-association"
+    }
+   },
+   "self_description": {
+    "text": "Founded in 1903, the California Nurses Association is a premiere organization of registered nurses and one of the nation’s fastest growing labor and professional organizations in the U.S.",
+    "source": "https://www.nationalnursesunited.org/california-nurses-association"
+   }
+  },
+  {
+   "id": "calchamber",
+   "name": "California Chamber of Commerce",
+   "short": "CalChamber",
+   "kind": "Business (statewide)",
+   "url": "https://advocacy.calchamber.com/2026/09/11/calchamber-board-of-directors-announces-positions-on-november-ballot-measures/",
+   "accessed": "2026-10-24",
+   "about": "State propositions only (10 of 14). It led the campaign to qualify Prop 45.",
+   "money": [
+    {
+     "label": "Annual revenue",
+     "amount": 29799246,
+     "period": "FY ending Sept 2025 (latest itemized filing)",
+     "source": {
+      "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
+      "url": "https://projects.propublica.org/nonprofits/organizations/940361980"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published on its site."
+   },
+   "self_description": {
+    "text": "Since 1890, we have been a dedicated not-for-profit organization, positively impacting California's business landscape. We are a trusted resource for advocacy and California human resources compliance.",
+    "source": "https://www.calchamber.com/aboutus"
    }
   }
  ],
@@ -261,6 +371,9 @@
     "Scott Wiener"
    ],
    "sflc": [
+    "Connie Chan"
+   ],
+   "uesf": [
     "Connie Chan"
    ]
   },
@@ -342,6 +455,9 @@
    ],
    "growsf": [
     "Richard Barrera"
+   ],
+   "uesf": [
+    "Richard Barrera"
    ]
   },
   "board-of-education": {
@@ -362,6 +478,11 @@
    ],
    "dsasf": [
     "Reina Tello"
+   ],
+   "uesf": [
+    "Reina Tello",
+    "Virginia Cheung",
+    "Ryan Hazelton"
    ]
   },
   "ccb-full": {
@@ -382,6 +503,11 @@
    ],
    "dsasf": [
     "Bunny McFadden"
+   ],
+   "uesf": [
+    "Bunny McFadden",
+    "Leah LaCroix",
+    "Jeremy Lee"
    ]
   },
   "ccb-partial": {
@@ -470,7 +596,15 @@
    },
    "sflc": [
     "Gary McCoy"
-   ]
+   ],
+   "uesf": {
+    "picks": [
+     "Gary McCoy",
+     "Michael T. Nguyen",
+     "Darshini Patel"
+    ],
+    "note": "All three endorsed, no ranking given."
+   }
   },
   "sup-10": {
    "sfdems": [
@@ -478,13 +612,22 @@
    ],
    "growsf": [
     "Theo Ellington"
-   ]
+   ],
+   "uesf": {
+    "picks": [
+     "Dionjay (DJ) Brookter",
+     "J.R. Eppler",
+     "Deandra Bryant"
+    ],
+    "note": "Brookter as #1. Eppler and Bryant endorsed unranked."
+   }
   },
   "prop-1": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
-   "dsasf": "yes"
+   "dsasf": "yes",
+   "calchamber": "yes"
   },
   "prop-2": {
    "sfdems": "yes",
@@ -492,19 +635,24 @@
    "spur": "yes",
    "dsasf": {
     "none": "No Recommendation"
-   }
+   },
+   "calchamber": "yes"
   },
   "prop-3": {
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
-   "dsasf": "yes"
+   "dsasf": "yes",
+   "uesf": "yes",
+   "cna": "yes"
   },
   "prop-4": {
    "sfdems": "yes",
    "growsf": "no",
    "spur": "yes",
-   "dsasf": "yes"
+   "dsasf": "yes",
+   "cna": "yes",
+   "calchamber": "no"
   },
   "prop-5": {
    "sfdems": "yes",
@@ -516,7 +664,8 @@
    "sfdems": "yes",
    "growsf": "yes",
    "spur": "yes",
-   "dsasf": "no"
+   "dsasf": "no",
+   "calchamber": "yes"
   },
   "prop-38": {
    "sfdems": "yes",
@@ -527,7 +676,8 @@
    "sfdems": "no",
    "growsf": "no",
    "spur": "no",
-   "dsasf": "no"
+   "dsasf": "no",
+   "cna": "no"
   },
   "prop-40": {
    "sfdems": "no",
@@ -536,35 +686,44 @@
     "none": "No Recommendation"
    },
    "dsasf": "yes",
-   "sfchamber": "no"
+   "sfchamber": "no",
+   "cna": "yes",
+   "calchamber": "no"
   },
   "prop-41": {
    "sfdems": "no",
    "growsf": "yes",
    "spur": "no",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "cna": "no",
+   "calchamber": "yes"
   },
   "prop-42": {
    "sfdems": "no",
    "growsf": "yes",
    "spur": "no",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "cna": "no",
+   "calchamber": "yes"
   },
   "prop-43": {
    "sfdems": "no",
    "growsf": "yes",
    "spur": "no",
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "cna": "no",
+   "calchamber": "yes"
   },
   "prop-44": {
    "sfdems": "no",
    "growsf": "no",
    "dsasf": {
     "none": "No Recommendation"
-   }
+   },
+   "calchamber": "no"
   },
   "prop-45": {
    "sfdems": "no",
@@ -573,7 +732,8 @@
     "none": "No Recommendation"
    },
    "dsasf": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "calchamber": "yes"
   },
   "rtm": {
    "sfdems": "yes",
@@ -596,7 +756,8 @@
    "spur": "no",
    "dsasf": "yes",
    "sflc": "yes",
-   "sfchamber": "no"
+   "sfchamber": "no",
+   "uesf": "yes"
   },
   "prop-c": {
    "sfdems": "yes",
@@ -611,7 +772,8 @@
    "spur": "yes",
    "dsasf": "no",
    "sflc": "no",
-   "sfchamber": "yes"
+   "sfchamber": "yes",
+   "uesf": "no"
   },
   "prop-e": {
    "sfdems": "yes",
@@ -657,7 +819,8 @@
    "sflc": {
     "none": "No Recommendation"
    },
-   "sfchamber": "no"
+   "sfchamber": "no",
+   "uesf": "yes"
   },
   "prop-j": {
    "sfdems": "yes",

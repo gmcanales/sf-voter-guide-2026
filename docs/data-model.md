@@ -27,6 +27,15 @@ hand-curated ──────────────────────�
   Each candidate needs a `surname` for sorting; set `surname_uncertain`
   when a compound name could sort either way.
 - Re-run the extractors only when a source changes, then re-run the build.
+- **Verifying against a real sample ballot:** `py tools/sample_ballot.py template
+  --cd 11 --ad 17 --sup 8 --bart 8 > data-src/sample_ballots/<name>.csv`
+  writes our current view of that ballot type as CSV
+  (`id, contest, choice, designation, party`, top to bottom). Edit it to
+  match the printed ballot exactly, then run `py tools/sample_ballot.py check
+  <file>` to list differences and `--apply` to write them into the skeleton
+  (`order: "verified"`; statewide offices get `verified_order_by_ad`
+  because names rotate by Assembly District). Rebuild afterwards. The CSV
+  lists what's *on* the ballot, never how anyone voted.
 
 ## `zip_districts.json`
 
@@ -63,7 +72,11 @@ district map changes.
 
 Each guide also carries `money` (a list of `{label, amount, period, source, note?}`,
 or `{label, text}` when there's no number) and `members` (`{text, source?}`), both
-rendered in the "Other groups included in this guide" panel. Use public
+rendered in the "Other groups included in this guide" panel, plus
+`self_description` (`{text, source}`): the group describing itself, quoted
+**verbatim** from its own site and shown as "In their words". Don't paraphrase
+it or write one for them. If none can be found, set `self_description_missing`
+to say why. Use public
 records only (IRS 990s via ProPublica, SF Ethics, FEC, SoS registration) or
 the group's own published claim, quoted. Never estimate.
 

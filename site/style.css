@@ -416,3 +416,13 @@
 @media print {
   .site-header, .site-footer, .vg-setup, .vg-legend, .vg-progress, .vg-official, .vg-summary-actions { display: none !important; }
 }
+
+/* Group self-descriptions: their words, visibly quoted and attributed. */
+.vg-self {
+  margin: 8px 0 0;
+  padding: 6px 0 6px 10px;
+  border-left: 2px solid var(--border-strong);
+  color: var(--text-muted);
+}
+.vg-self p { margin: 2px 0; font-style: italic; line-height: 1.45; }
+.vg-self-label { font-size: 0.68rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); }

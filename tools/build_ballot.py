@@ -31,6 +31,7 @@ ORDER_NOTES = {
     "sos_alphabet": "Order computed from the Secretary of State's randomized alphabet. "
                     "Confirm on your sample ballot.",
     "county_draw": "Order set by a county drawing we haven't verified yet. Check your sample ballot.",
+    "verified": "List and order checked against an official sample ballot.",
 }
 LOCAL_LIST_NOTE = ("Candidate list taken from statements in the official pamphlet. Statements are "
                    "voluntary, so candidates who didn't submit one may be missing. Your sample "
@@ -70,8 +71,15 @@ def order_candidates(contest: dict, key, ad_options: list[int]) -> None:
         for ad in ad_options:
             shift = (ad - 1) % len(cands)
             by_ad[str(ad)] = [c["name"] for c in cands[shift:] + cands[:shift]]
+        # A transcribed sample ballot (tools/sample_ballot.py) beats the computation.
+        verified = contest.pop("verified_order_by_ad", {})
+        by_ad.update(verified)
+        if verified:
+            ads = ", ".join(f"AD {a}" for a in sorted(verified))
+            contest["order_note"] += f" Checked against an official sample ballot for {ads}."
         if len({tuple(v) for v in by_ad.values()}) > 1:
             contest["order_by_ad"] = by_ad
+    contest.pop("verified_from", None)
     for c in cands:
         c.pop("surname", None)
         c.pop("surname_uncertain", None)
