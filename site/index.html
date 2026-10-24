@@ -60,17 +60,38 @@
       </p>
 
       <section class="vg-setup" aria-labelledby="setup-title">
-        <h2 id="setup-title" class="vg-setup-title">Which ballot do you have?</h2>
-        <p class="vg-setup-hint">
-          Your districts are printed on your sample ballot, or you can look them up in the
-          <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener">Voter Portal</a>.
-          Leave any you're unsure of on “Show all”.
-        </p>
-        <div class="vg-districts" id="districts"></div>
+        <p class="vg-county"><strong>San Francisco County</strong> ballot only. Guides for other counties are coming later.</p>
+
+        <form class="vg-zip" id="zip-form" autocomplete="on">
+          <label for="zip" class="vg-setup-title" id="setup-title">Your ZIP code <span class="vg-optional">(optional)</span></label>
+          <div class="vg-zip-row">
+            <input id="zip" name="postal-code" inputmode="numeric" autocomplete="postal-code"
+              pattern="[0-9]{5}" maxlength="5" placeholder="e.g. 94110">
+            <button type="submit" class="btn-ghost vg-btn">Filter my ballot</button>
+            <button type="button" class="btn-ghost vg-btn" id="zip-clear" hidden>Clear</button>
+          </div>
+          <p class="vg-zip-msg" id="zip-msg" role="status"></p>
+        </form>
+
+        <details class="vg-districts-box" id="districts-box">
+          <summary>Districts <span class="vg-districts-summary" id="districts-summary"></span></summary>
+          <p class="vg-setup-hint">
+            Your districts are printed on your sample ballot, or you can look them up in the
+            <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener">Voter Portal</a>.
+            Leave any you're unsure of on “Show all”.
+          </p>
+          <div class="vg-districts" id="districts"></div>
+        </details>
+
         <div class="vg-toggles">
           <label class="vg-switch"><input type="checkbox" id="show-guides" checked> <span>Show other groups' picks</span></label>
           <label class="vg-switch vg-switch-picks"><input type="checkbox" id="show-picks"> <span>Show <em>our</em> picks</span></label>
         </div>
+
+        <details class="vg-groups" id="groups">
+          <summary>Other groups included in this guide</summary>
+          <div id="groups-body"></div>
+        </details>
       </section>
 
       <aside class="vg-legend" id="legend" hidden>

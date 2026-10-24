@@ -7,18 +7,22 @@ const STORE_KEY = 'sf-voter-guide.2026-11';
 const RCV_MAX_RANKS = 10;            // SF ballots allow up to 10 rankings
 const RANK_LABEL = ['1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th', '9th', '10th'];
 
+const SOLE_SHARE = 0.995;            // a ZIP this much inside one district counts as "only that one"
+const DIMS = ['cd', 'ad', 'sup', 'bart'];
+
 const state = loadState();
-let BALLOT, GUIDES, PICKS;
+let BALLOT, GUIDES, PICKS, ZIPS;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
-  const blank = { districts: {}, marks: {}, showGuides: true, showPicks: false };
+  const blank = { zip: null, districts: {}, marks: {}, collapsed: {}, showGuides: true, showPicks: false };
   let s;
   try { s = { ...blank, ...JSON.parse(localStorage.getItem(STORE_KEY) || '{}') }; }
   catch { s = blank; }
-  // Shareable links: ?sup=8&ad=17 preselects districts; ?picks=1 turns picks on.
+  // Shareable links: ?zip=94110 or ?sup=8&ad=17 preselect a ballot; ?picks=1 turns picks on.
   const q = new URLSearchParams(location.search);
-  for (const dim of ['cd', 'ad', 'sup', 'bart']) {
+  if (/^\d{5}$/.test(q.get('zip') || '')) s.zip = q.get('zip');
+  for (const dim of DIMS) {
     if (q.has(dim) && /^\d+$/.test(q.get(dim))) s.districts = { ...s.districts, [dim]: Number(q.get(dim)) };
   }
   if (q.has('picks')) s.showPicks = q.get('picks') === '1';
@@ -52,9 +56,12 @@ function formatDate(iso) {
 
 // ── data helpers ───────────────────────────────────────────────────────────
 function appliesToReader(contest) {
+  const zopts = zipOptions();
   for (const [dim, want] of Object.entries(contest.applies || {})) {
     const have = state.districts[dim];
     if (have != null && have !== want) return false;
+    // District not chosen yet, but the ZIP rules some out: hide the impossible ones.
+    if (have == null && zopts && !zopts[dim].some(([n]) => n === want)) return false;
   }
   return true;
 }
@@ -135,6 +142,7 @@ function setMark(id, value) {
   else state.marks[id] = value;
   saveState();
   rerenderContest(id);
+  refreshSectionStatus(CONTEST_INDEX[id]?.section.id);
   renderProgress();
 }
 
@@ -395,42 +403,189 @@ function visibleContests() {
   return out;
 }
 
+// ── collapsible sections ──────────────────────────────────────────────────
+// Each ballot section folds away so a phone reader can work through the
+// ballot one section at a time. By default only the first section is open.
+function visibleSections() {
+  return BALLOT.sections.filter(s => s.contests.some(appliesToReader));
+}
+
+function isCollapsed(section) {
+  if (section.id in state.collapsed) return state.collapsed[section.id];
+  return visibleSections()[0]?.id !== section.id;
+}
+
+function sectionCounts(section) {
+  const contests = section.contests.filter(appliesToReader);
+  return { done: contests.filter(c => getMark(c.id)).length, total: contests.length };
+}
+
+function setCollapsed(sectionId, collapsed) {
+  state.collapsed[sectionId] = collapsed;
+  saveState();
+  const node = document.querySelector(`[data-section="${sectionId}"]`);
+  if (!node) return;
+  node.classList.toggle('is-collapsed', collapsed);
+  node.querySelector('.vg-section-bar').setAttribute('aria-expanded', String(!collapsed));
+}
+
+function finishSection(section) {
+  const order = visibleSections();
+  const next = order[order.findIndex(s => s.id === section.id) + 1];
+  setCollapsed(section.id, true);
+  if (next) {
+    setCollapsed(next.id, false);
+    document.querySelector(`[data-section="${next.id}"]`)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else {
+    document.getElementById('progress').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+}
+
+function sectionStatus(section) {
+  const { done, total } = sectionCounts(section);
+  return el('span', { class: 'vg-section-status' + (done === total ? ' is-complete' : '') },
+    done === total ? `✓ ${done}/${total}` : `${done}/${total}`);
+}
+
+function renderSection(section) {
+  const contests = section.contests.filter(appliesToReader);
+  const collapsed = isCollapsed(section);
+  const order = visibleSections();
+  const isLast = order[order.length - 1]?.id === section.id;
+  return el('section', {
+    class: 'vg-section' + (collapsed ? ' is-collapsed' : ''), 'data-section': section.id,
+    'aria-label': section.heading,
+  },
+    el('button', {
+      type: 'button', class: 'vg-section-bar', 'aria-expanded': String(!collapsed),
+      onclick: () => setCollapsed(section.id, !isCollapsed(section)),
+    },
+      el('span', { class: 'vg-section-name' }, section.heading),
+      el('span', { class: 'vg-section-meta' },
+        section.instruction ? el('span', { class: 'vg-section-instr' }, section.instruction) : null,
+        sectionStatus(section),
+        el('span', { class: 'vg-chevron', 'aria-hidden': 'true' }))),
+    el('div', { class: 'vg-section-body' },
+      section.note ? el('p', { class: 'vg-section-note' }, section.note) : null,
+      contests.map(c => renderContest(c, section)),
+      el('div', { class: 'vg-section-foot' },
+        el('button', { type: 'button', class: 'btn-ghost vg-btn', onclick: () => finishSection(section) },
+          isLast ? 'Done with this section ✓' : 'Done, next section ↓'))));
+}
+
+function refreshSectionStatus(sectionId) {
+  const section = BALLOT.sections.find(s => s.id === sectionId);
+  const old = document.querySelector(`[data-section="${sectionId}"] .vg-section-status`);
+  if (section && old) old.replaceWith(sectionStatus(section));
+}
+
 function renderBallot() {
   const root = document.getElementById('ballot');
   root.replaceChildren();
   let lastGroup = null;
-  for (const section of BALLOT.sections) {
-    const contests = section.contests.filter(appliesToReader);
-    if (!contests.length) continue;
+  for (const section of visibleSections()) {
     if (section.group !== lastGroup) {
       root.append(el('h2', { class: 'vg-group' }, section.group === 'offices' ? 'Offices' : 'Measures'));
       lastGroup = section.group;
     }
-    root.append(el('section', { class: 'vg-section', 'aria-label': section.heading },
-      el('div', { class: 'vg-section-bar' },
-        el('span', {}, section.heading),
-        section.instruction ? el('span', { class: 'vg-section-instr' }, section.instruction) : null),
-      section.note ? el('p', { class: 'vg-section-note' }, section.note) : null,
-      contests.map(c => renderContest(c, section))));
+    root.append(renderSection(section));
   }
+}
+
+// ── ZIP → districts ───────────────────────────────────────────────────────
+// A ZIP narrows each district picker to the districts it overlaps. It only
+// auto-selects when the ZIP sits (almost) entirely inside one district;
+// otherwise the reader picks, because area share isn't where *they* live.
+function zipOptions() {
+  const z = state.zip && ZIPS?.zips[state.zip];
+  if (!z) return null;
+  const out = {};
+  for (const dim of DIMS) out[dim] = z[dim] || [];
+  return out;
+}
+
+function applyZip(zip) {
+  const msg = document.getElementById('zip-msg');
+  const clearBtn = document.getElementById('zip-clear');
+  state.zip = zip || null;
+  clearBtn.hidden = !state.zip;
+  if (!state.zip) {
+    msg.textContent = '';
+    msg.className = 'vg-zip-msg';
+  } else if (!ZIPS.zips[state.zip]) {
+    msg.className = 'vg-zip-msg is-warn';
+    msg.textContent = state.zip.startsWith('941')
+      ? `We don't have boundary data for ${state.zip} (PO-box ZIPs have none). Choose your districts below.`
+      : `${state.zip} isn't a San Francisco ZIP. This guide covers San Francisco County only. Other counties are coming.`;
+    state.zip = null;
+  } else {
+    const opts = zipOptions();
+    const unresolved = [];
+    for (const dim of DIMS) {
+      const list = opts[dim];
+      const sole = list.length === 1 || (list[0] && list[0][1] >= SOLE_SHARE);
+      if (sole) state.districts[dim] = list[0][0];
+      else {
+        if (!list.some(([n]) => n === state.districts[dim])) delete state.districts[dim];
+        if (state.districts[dim] == null) unresolved.push(BALLOT.districts[dim].label);
+      }
+    }
+    msg.className = 'vg-zip-msg' + (unresolved.length ? ' is-warn' : ' is-ok');
+    msg.textContent = unresolved.length
+      ? `${state.zip} crosses district lines for: ${unresolved.join(', ')}. Pick yours below, using your sample ballot or the Voter Portal.`
+      : `Ballot filtered for ${state.zip}.`;
+    if (unresolved.length) document.getElementById('districts-box').open = true;
+  }
+  saveState();
+  renderDistricts();
+  renderBallot();
+  renderProgress();
+}
+
+function initZip() {
+  const form = document.getElementById('zip-form');
+  const input = document.getElementById('zip');
+  input.value = state.zip || '';
+  form.addEventListener('submit', e => {
+    e.preventDefault();
+    const v = input.value.trim();
+    if (v && !/^\d{5}$/.test(v)) {
+      const msg = document.getElementById('zip-msg');
+      msg.className = 'vg-zip-msg is-warn';
+      msg.textContent = 'Enter a 5-digit ZIP code.';
+      return;
+    }
+    applyZip(v);
+  });
+  document.getElementById('zip-clear').addEventListener('click', () => {
+    input.value = '';
+    state.districts = {};
+    applyZip('');
+  });
 }
 
 function renderDistricts() {
   const box = document.getElementById('districts');
   box.replaceChildren();
+  const zopts = zipOptions();
+  const summary = [];
   for (const [dim, spec] of Object.entries(BALLOT.districts)) {
+    const allowed = zopts ? zopts[dim] : spec.options.map(n => [n, null]);
     const sel = el('select', {
       id: `d-${dim}`, onchange: e => {
         const v = e.target.value;
         if (v === '') delete state.districts[dim]; else state.districts[dim] = Number(v);
-        saveState(); renderBallot(); renderProgress();
+        saveState(); renderDistricts(); renderBallot(); renderProgress();
       },
-    }, el('option', { value: '' }, 'Show all'),
-      spec.options.map(n => el('option', { value: n, selected: state.districts[dim] === n }, String(n))));
+    }, el('option', { value: '' }, zopts && allowed.length > 1 ? 'Choose…' : 'Show all'),
+      allowed.map(([n, share]) => el('option', { value: n, selected: state.districts[dim] === n },
+        share != null && allowed.length > 1 ? `${n} (${Math.max(1, Math.round(share * 100))}% of ZIP area)` : String(n))));
     box.append(el('label', { class: 'vg-district' },
       el('span', { class: 'vg-district-label' }, spec.label), sel,
       spec.note ? el('span', { class: 'vg-district-note' }, spec.note) : null));
+    if (state.districts[dim] != null) summary.push(`${{ cd: 'CD', ad: 'AD', sup: 'Sup.', bart: 'BART' }[dim]} ${state.districts[dim]}`);
   }
+  document.getElementById('districts-summary').textContent = summary.length ? `· ${summary.join(' · ')}` : '· showing all';
 }
 
 function renderProgress() {
@@ -440,6 +595,37 @@ function renderProgress() {
   bar.hidden = false;
   document.getElementById('progress-text').textContent =
     done ? `${done} of ${total} contests marked` : `${total} contests on your ballot`;
+}
+
+// ── "Other groups included" panel ─────────────────────────────────────────
+function money(m) {
+  if (m.text) return m.text;
+  const n = m.amount;
+  const amt = n >= 1e6 ? `$${(n / 1e6).toFixed(2)}M` : `$${Math.round(n / 1e3)}K`;
+  return `${amt} · ${m.period}`;
+}
+
+function renderGroups() {
+  const body = document.getElementById('groups-body');
+  body.replaceChildren(
+    el('p', { class: 'vg-setup-hint' },
+      'These are the published guides we track. Their picks appear as small tags on each ballot line. Money and membership figures are rough public-record numbers.'),
+    el('div', { class: 'vg-group-cards' }, GUIDES.guides.map(g => el('article', { class: 'vg-group-card' },
+      el('header', {},
+        el('a', { href: g.url, target: '_blank', rel: 'noopener', class: 'vg-group-name' }, g.name),
+        el('span', { class: 'vg-group-kind' }, g.kind)),
+      g.about ? el('p', { class: 'vg-group-about' }, g.about) : null,
+      el('dl', {},
+        el('dt', {}, 'Money'),
+        el('dd', {}, el('ul', {}, (g.money || []).map(m => el('li', {},
+          m.label ? el('span', { class: 'vg-money-label' }, `${m.label}: `) : null, money(m),
+          m.note ? el('span', { class: 'vg-money-note' }, ` ${m.note}`) : null,
+          m.source ? [' ', el('a', { href: m.source.url, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source')] : null)))),
+        el('dt', {}, 'Members'),
+        el('dd', {}, g.members?.text || 'Not published.',
+          g.members?.source ? [' ', el('a', { href: g.members.source.url, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source')] : null)),
+      el('p', { class: 'vg-fineprint' }, `Guide checked ${formatDate(g.accessed)}`)))),
+    GUIDES.money_note ? el('p', { class: 'vg-fineprint' }, GUIDES.money_note) : null);
 }
 
 function summaryText(contest) {
@@ -521,8 +707,9 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS] = await Promise.all([
-      get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json')]);
+    [BALLOT, GUIDES, PICKS, ZIPS] = await Promise.all([
+      get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
+      get('./data/zip_districts.json')]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     document.getElementById('ballot').replaceChildren(
@@ -544,10 +731,16 @@ async function main() {
     `(${BALLOT.randomized_alphabet.letters.split('').join(' ')}) and may differ from your printed ballot. ` +
     `Your sample ballot is the authority. Data built ${formatDate(BALLOT.built)}.`;
 
-  renderDistricts();
-  renderBallot();
-  renderProgress();
-  if (location.hash) document.getElementById(location.hash.slice(1))?.scrollIntoView();
+  renderGroups();
+  initZip();
+  if (state.zip) applyZip(state.zip);      // re-narrow pickers; keeps choices that still fit
+  else { renderDistricts(); renderBallot(); renderProgress(); }
+  if (location.hash) {
+    // Deep link to a contest: open its section first.
+    const hit = CONTEST_INDEX[location.hash.slice(1)];
+    if (hit) setCollapsed(hit.section.id, false);
+    document.getElementById(location.hash.slice(1))?.scrollIntoView();
+  }
 }
 
 main();

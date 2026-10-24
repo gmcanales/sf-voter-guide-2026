@@ -25,6 +25,57 @@
 .vg-setup-hint { margin: 0 0 14px; color: var(--text-muted); font-size: 0.9rem; }
 .vg-setup-hint a { color: var(--accent); }
 
+.vg-county {
+  margin: 0 0 14px;
+  padding: 8px 12px;
+  border-radius: var(--radius);
+  background: var(--surface2);
+  font-size: 0.9rem;
+}
+.vg-zip { margin-bottom: 12px; }
+.vg-optional { font-weight: 500; color: var(--text-faint); font-size: 0.85rem; }
+.vg-zip-row { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.vg-zip-row input {
+  width: 8.5em;
+  font: inherit;
+  font-size: 1.05rem;
+  letter-spacing: 0.08em;
+  padding: 6px 10px;
+  border-radius: var(--radius);
+  border: 1px solid var(--border-strong);
+  background: var(--bg);
+  color: var(--text);
+}
+.vg-zip-msg { margin: 6px 0 0; font-size: 0.85rem; min-height: 1.2em; color: var(--text-muted); }
+.vg-zip-msg.is-warn { color: var(--text); }
+.vg-zip-msg.is-warn::before { content: "⚠ "; color: var(--warn); }
+.vg-zip-msg.is-ok::before { content: "✓ "; color: var(--accent); }
+
+.vg-districts-box, .vg-groups { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+.vg-districts-box > summary, .vg-groups > summary { cursor: pointer; font-weight: 700; }
+.vg-districts-box > .vg-setup-hint { margin-top: 8px; }
+.vg-districts-summary { font-weight: 500; color: var(--text-muted); }
+
+.vg-group-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
+.vg-group-card {
+  padding: 12px 14px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  background: var(--bg);
+  font-size: 0.85rem;
+}
+.vg-group-card header { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 4px 8px; align-items: baseline; }
+.vg-group-name { font-weight: 700; color: var(--text); }
+.vg-group-kind { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); }
+.vg-group-about { margin: 6px 0 0; color: var(--text-muted); }
+.vg-group-card dl { margin: 8px 0 0; }
+.vg-group-card dt { margin-top: 6px; font-size: 0.7rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--text-faint); }
+.vg-group-card dd { margin: 2px 0 0; line-height: 1.45; }
+.vg-group-card dd ul { margin: 0; padding-left: 16px; }
+.vg-money-label { color: var(--text-muted); }
+.vg-money-note { color: var(--text-faint); }
+.vg-src-link { font-size: 0.75rem; color: var(--accent); }
+
 .vg-districts {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -95,23 +146,61 @@
 
 .vg-section { margin-bottom: 28px; }
 
-/* The black header bar of the printed ballot. Inverted tokens so it works on
-   every palette. */
+/* The black header bar of the printed ballot, doubling as the section's
+   collapse toggle. Inverted tokens so it works on every palette. */
 .vg-section-bar {
   display: flex;
   flex-wrap: wrap;
+  align-items: center;
   justify-content: space-between;
   gap: 4px 12px;
-  padding: 8px 12px;
+  width: 100%;
+  padding: 10px 12px;
   background: var(--text);
   color: var(--bg);
+  font: inherit;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.04em;
   font-size: 0.85rem;
+  text-align: left;
+  border: 0;
   border-radius: var(--radius) var(--radius) 0 0;
+  cursor: pointer;
 }
+.vg-section.is-collapsed .vg-section-bar { border-radius: var(--radius); }
+.vg-section-bar:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+.vg-section-meta { display: inline-flex; align-items: center; gap: 10px; }
 .vg-section-instr { font-weight: 500; text-transform: none; letter-spacing: 0; }
+.vg-section-status {
+  padding: 1px 8px;
+  border-radius: 999px;
+  border: 1px solid currentColor;
+  font-size: 0.75rem;
+  letter-spacing: 0;
+  opacity: 0.8;
+}
+.vg-section-status.is-complete { background: var(--accent); border-color: var(--accent); color: var(--bg); opacity: 1; }
+.vg-chevron {
+  width: 8px; height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(45deg) translateY(-2px);
+  transition: transform 0.15s;
+}
+.vg-section.is-collapsed .vg-chevron { transform: rotate(-45deg); }
+.vg-section.is-collapsed .vg-section-body { display: none; }
+.vg-section.is-collapsed { margin-bottom: 10px; }
+.vg-section-foot {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-top: 0;
+  border-radius: 0 0 var(--radius) var(--radius);
+  background: var(--surface);
+}
+
 .vg-section-note {
   margin: 0;
   padding: 8px 12px;
@@ -128,7 +217,6 @@
   border-top: 0;
   scroll-margin-top: 120px;
 }
-.vg-section > .vg-contest:last-child { border-radius: 0 0 var(--radius) var(--radius); }
 .vg-contest.is-done { box-shadow: inset 3px 0 0 var(--accent); }
 
 .vg-contest-head { margin-bottom: 8px; }

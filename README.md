@@ -16,9 +16,11 @@ site/                     ← everything served at /sf-2026/ (bind-mounted read-
   data/ballot.json        ← GENERATED official facts, in ballot order
   data/endorsements.json  ← other groups' picks (hand-edited, cited)
   data/picks.json         ← OUR picks: Golden Goose Egg / Certified HONK
+  data/zip_districts.json ← GENERATED ZIP → district overlaps
   css/, js/               ← site-shell assets copied from congress_trader/frontend
 data-src/                 ← build inputs (skeleton + extracted official text)
-tools/                    ← extract_vip.py, extract_sos_props.py, build_ballot.py
+tools/                    ← extract_vip.py, extract_sos_props.py, build_ballot.py,
+                            build_zip_districts.py (needs .venv with tools/requirements.txt)
 docs/
   data-model.md           ← schemas + pipeline
   sourcing.md             ← sourcing rules (read before adding content)
