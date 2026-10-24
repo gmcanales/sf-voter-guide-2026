@@ -77,6 +77,10 @@
     {
      "label": "Pro-growth",
      "cat": "growth"
+    },
+    {
+     "label": "Pro-housing (YIMBY)",
+     "cat": "housing"
     }
    ]
   },
@@ -501,6 +505,43 @@
      "cat": "environment"
     }
    ]
+  },
+  {
+   "id": "yimby",
+   "name": "YIMBY Action / SF YIMBY",
+   "short": "YIMBY Action",
+   "kind": "Housing advocacy",
+   "url": "https://yimbyaction.org/endorsements/november-2026-california-general",
+   "accessed": "2026-10-24",
+   "about": "SF YIMBY is its San Francisco chapter, and sfyimby.org links here for the slate. Members ratify every endorsement. On the ballot, its endorsement is what earns a candidate the “Pro-housing (YIMBY)” tag.",
+   "self_description": {
+    "text": "Our members voted to back each one for making more homes possible.",
+    "source": "https://yimbyaction.org/endorsements/november-2026-california-general"
+   },
+   "money": [
+    {
+     "label": "Annual revenue",
+     "amount": 2162308,
+     "period": "2024 (latest itemized filing)",
+     "source": {
+      "label": "IRS Form 990 via ProPublica Nonprofit Explorer",
+      "url": "https://projects.propublica.org/nonprofits/organizations/815140915"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published on its endorsement page."
+   },
+   "tags": [
+    {
+     "label": "Pro-housing (YIMBY)",
+     "cat": "housing"
+    },
+    {
+     "label": "Statewide",
+     "cat": "scope"
+    }
+   ]
   }
  ],
  "positions": {
@@ -513,7 +554,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "yimby": [
+    "Xavier Becerra"
+   ]
   },
   "lt-governor": {
    "sfdems": [
@@ -524,7 +568,10 @@
    ],
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "yimby": [
+    "Fiona Ma"
+   ]
   },
   "secretary-of-state": {
    "sfdems": [
@@ -580,6 +627,9 @@
    },
    "sierra": [
     "Rob Bonta"
+   ],
+   "yimby": [
+    "Rob Bonta"
    ]
   },
   "insurance-commissioner": {
@@ -593,6 +643,9 @@
     "Jane Kim"
    ],
    "sierra": [
+    "Ben Allen"
+   ],
+   "yimby": [
     "Ben Allen"
    ]
   },
@@ -625,6 +678,9 @@
    ],
    "sierra": [
     "Scott Wiener"
+   ],
+   "yimby": [
+    "Scott Wiener"
    ]
   },
   "us-rep-15": {
@@ -656,6 +712,9 @@
    },
    "sierra": [
     "Matt Haney"
+   ],
+   "yimby": [
+    "Matt Haney"
    ]
   },
   "assembly-19": {
@@ -672,6 +731,9 @@
     "none": "No Endorsement"
    },
    "sierra": [
+    "Catherine Stefani"
+   ],
+   "yimby": [
     "Catherine Stefani"
    ]
   },
@@ -826,6 +888,9 @@
    },
    "sierra": [
     "Sara Barz"
+   ],
+   "yimby": [
+    "Sara Barz"
    ]
   },
   "assessor": {
@@ -839,6 +904,9 @@
     "Joaquín Torres"
    ],
    "league": [
+    "Joaquín Torres"
+   ],
+   "yimby": [
     "Joaquín Torres"
    ]
   },
@@ -874,6 +942,9 @@
    },
    "sierra": [
     "Stephen Sherrill"
+   ],
+   "yimby": [
+    "Stephen Sherrill"
    ]
   },
   "sup-4": {
@@ -888,7 +959,10 @@
    },
    "league": {
     "none": "No Endorsement"
-   }
+   },
+   "yimby": [
+    "Alan Wong"
+   ]
   },
   "sup-6": {
    "sfdems": [
@@ -904,6 +978,9 @@
     "none": "No Endorsement"
    },
    "sierra": [
+    "Matt Dorsey"
+   ],
+   "yimby": [
     "Matt Dorsey"
    ]
   },
@@ -937,6 +1014,9 @@
    },
    "sierra": [
     "Gary McCoy"
+   ],
+   "yimby": [
+    "Gary McCoy"
    ]
   },
   "sup-10": {
@@ -967,7 +1047,10 @@
      "Theo Ellington"
     ],
     "note": "Ranked: #1 J.R. Eppler, #2 Theo Ellington."
-   }
+   },
+   "yimby": [
+    "Theo Ellington"
+   ]
   },
   "prop-1": {
    "sfdems": "yes",
@@ -977,7 +1060,8 @@
    "calchamber": "yes",
    "lwv": "yes",
    "league": "yes",
-   "sierra": "yes"
+   "sierra": "yes",
+   "yimby": "yes"
   },
   "prop-2": {
    "sfdems": "yes",
@@ -1040,7 +1124,8 @@
    "lwv": "no",
    "league": {
     "none": "No position"
-   }
+   },
+   "yimby": "yes"
   },
   "prop-38": {
    "sfdems": "yes",
@@ -1121,7 +1206,8 @@
     "vote": "no",
     "note": "“Hell No!”"
    },
-   "sierra": "no"
+   "sierra": "no",
+   "yimby": "no"
   },
   "prop-44": {
    "sfdems": "no",
@@ -1144,7 +1230,10 @@
    "calchamber": "yes",
    "lwv": "no",
    "league": "no",
-   "sierra": "no"
+   "sierra": "no",
+   "yimby": {
+    "none": "No consensus"
+   }
   },
   "rtm": {
    "sfdems": "yes",
@@ -1158,7 +1247,8 @@
     "vote": "yes",
     "note": "“Yes, and…”"
    },
-   "sierra": "yes"
+   "sierra": "yes",
+   "yimby": "yes"
   },
   "prop-a": {
    "sfdems": "yes",
@@ -1167,7 +1257,8 @@
    "dsasf": "no",
    "sfchamber": "yes",
    "lwv": "no",
-   "league": "no"
+   "league": "no",
+   "yimby": "yes"
   },
   "prop-b": {
    "sfdems": "yes",
@@ -1191,7 +1282,8 @@
    "sfchamber": "yes",
    "lwv": "yes",
    "league": "yes",
-   "sierra": "yes"
+   "sierra": "yes",
+   "yimby": "yes"
   },
   "prop-d": {
    "sfdems": "yes",
@@ -1205,7 +1297,8 @@
    "league": {
     "vote": "no",
     "note": "“Hellllllll No!”"
-   }
+   },
+   "yimby": "yes"
   },
   "prop-e": {
    "sfdems": "yes",
@@ -1217,7 +1310,8 @@
    "league": {
     "vote": "no",
     "note": "“Hell No!”"
-   }
+   },
+   "yimby": "yes"
   },
   "prop-f": {
    "sfdems": "yes",
@@ -1229,7 +1323,8 @@
    "league": {
     "vote": "no",
     "note": "“Hell No!”"
-   }
+   },
+   "yimby": "yes"
   },
   "prop-g": {
    "sfdems": "no",
@@ -1250,7 +1345,8 @@
    "league": {
     "none": "No position"
    },
-   "sierra": "no"
+   "sierra": "no",
+   "yimby": "no"
   },
   "prop-h": {
    "sfdems": "yes",
@@ -1264,7 +1360,8 @@
     "vote": "yes",
     "note": "“Yes, and…”"
    },
-   "sierra": "yes"
+   "sierra": "yes",
+   "yimby": "yes"
   },
   "prop-i": {
    "sfdems": "no",
@@ -1281,7 +1378,8 @@
     "vote": "yes",
     "note": "“Oh Hell Yes!”"
    },
-   "sierra": "yes"
+   "sierra": "yes",
+   "yimby": "no"
   },
   "prop-j": {
    "sfdems": "yes",

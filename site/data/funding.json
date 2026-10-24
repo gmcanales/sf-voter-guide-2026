@@ -1,0 +1,477 @@
+{
+ "built": "2026-10-24",
+ "since": "2025-01-01",
+ "source": {
+  "label": "SF Ethics Commission campaign finance data (DataSF)",
+  "url": "https://data.sf.gov/d/pitq-e56w"
+ },
+ "rules": {
+  "small_guide": 250,
+  "small_candidate": 100,
+  "big": 10000,
+  "thresholds": {
+   "small-donor": 0.5,
+   "big-donor": 0.5,
+   "tech-funded": 0.25
+  },
+  "outside_ratio": 1.0,
+  "outside_min": 10000
+ },
+ "guides": {
+  "growsf": {
+   "total": 990094,
+   "donors": 103,
+   "small_pct": 0.003,
+   "tech_pct": 0.153,
+   "big_pct": 0.777,
+   "tags": [
+    {
+     "tag": "big-donor",
+     "pct": 0.777
+    }
+   ]
+  },
+  "sflc": {
+   "total": 360203,
+   "donors": 36,
+   "small_pct": 0.001,
+   "tech_pct": 0.0,
+   "big_pct": 0.767,
+   "tags": [
+    {
+     "tag": "big-donor",
+     "pct": 0.767
+    }
+   ]
+  },
+  "sfchamber": {
+   "total": 1451240,
+   "donors": 44,
+   "small_pct": 0.003,
+   "tech_pct": 0.362,
+   "big_pct": 0.996,
+   "tags": [
+    {
+     "tag": "big-donor",
+     "pct": 0.996
+    },
+    {
+     "tag": "tech-funded",
+     "pct": 0.362
+    }
+   ]
+  },
+  "league": {
+   "total": 27750,
+   "donors": 71,
+   "small_pct": 0.432,
+   "tech_pct": 0.182,
+   "big_pct": 0.0,
+   "tags": []
+  }
+ },
+ "candidates": {
+  "board-of-education": {
+   "Autumn Brown Garibay": {
+    "total": 41068,
+    "donors": 123,
+    "small_pct": 0.158,
+    "tech_pct": 0.107,
+    "outside_support": 115517,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 115517
+     }
+    ]
+   },
+   "Virginia Cheung": {
+    "total": 15066,
+    "donors": 55,
+    "small_pct": 0.248,
+    "tech_pct": 0.066,
+    "outside_support": 166874,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 166874
+     }
+    ]
+   },
+   "Alida Fisher": {
+    "total": 6114,
+    "donors": 20,
+    "small_pct": 0.157,
+    "tech_pct": 0.0,
+    "outside_support": 18175,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 18175
+     }
+    ]
+   },
+   "Ryan Hazelton": {
+    "total": 35648,
+    "donors": 131,
+    "small_pct": 0.258,
+    "tech_pct": 0.02,
+    "outside_support": 57291,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 57291
+     }
+    ]
+   },
+   "Phil Kim": {
+    "total": 73446,
+    "donors": 211,
+    "small_pct": 0.092,
+    "tech_pct": 0.093,
+    "outside_support": 97621,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 97621
+     }
+    ]
+   },
+   "Laurance Lee": {
+    "total": 7013,
+    "donors": 29,
+    "small_pct": 0.196,
+    "tech_pct": 0.029,
+    "tags": []
+   },
+   "Reina Tello": {
+    "total": 28497,
+    "donors": 117,
+    "small_pct": 0.339,
+    "tech_pct": 0.018,
+    "outside_support": 57665,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 57665
+     }
+    ]
+   },
+   "Tim Tung": {
+    "total": 33478,
+    "donors": 75,
+    "small_pct": 0.029,
+    "tech_pct": 0.03,
+    "outside_support": 98682,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 98682
+     }
+    ]
+   }
+  },
+  "ccb-full": {
+   "Elijah Ball": {
+    "total": 34015,
+    "donors": 114,
+    "small_pct": 0.204,
+    "tech_pct": 0.05,
+    "outside_support": 2662,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Rome Moses Jones": {
+    "total": 0,
+    "no_committee": true,
+    "tags": []
+   },
+   "Monroe Lace": {
+    "total": 24027,
+    "donors": 73,
+    "small_pct": 0.165,
+    "tech_pct": 0.012,
+    "outside_support": 2017,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Leah LaCroix": {
+    "total": 8693,
+    "donors": 28,
+    "small_pct": 0.304,
+    "tech_pct": 0.012,
+    "outside_support": 11136,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 11136
+     }
+    ]
+   },
+   "Jeremy Lee": {
+    "total": 13352,
+    "donors": 54,
+    "small_pct": 0.379,
+    "tech_pct": 0.131,
+    "outside_support": 11136,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Bunny McFadden": {
+    "total": 17882,
+    "donors": 73,
+    "small_pct": 0.427,
+    "tech_pct": 0.112,
+    "outside_support": 1168,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Erwin Tam": {
+    "total": 32845,
+    "donors": 64,
+    "small_pct": 0.067,
+    "tech_pct": 0.046,
+    "outside_support": 1917,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Lisa Palagi Wynn II": {
+    "total": 0,
+    "no_committee": true,
+    "tags": []
+   }
+  },
+  "ccb-partial": {
+   "Ruth Ferguson": {
+    "total": 14341,
+    "donors": 36,
+    "small_pct": 0.093,
+    "tech_pct": 0.052,
+    "outside_support": 157,
+    "outside_oppose": 0,
+    "tags": []
+   }
+  },
+  "bart-8": {
+   "Sara Barz": {
+    "total": 0,
+    "no_committee": true,
+    "outside_support": 157,
+    "outside_oppose": 0,
+    "tags": []
+   }
+  },
+  "assessor": {
+   "Joaquín Torres": {
+    "total": 75575,
+    "donors": 220,
+    "small_pct": 0.1,
+    "tech_pct": 0.018,
+    "outside_support": 7972,
+    "outside_oppose": 0,
+    "tags": []
+   }
+  },
+  "public-defender": {
+   "Mano Raju": {
+    "total": 25742,
+    "donors": 72,
+    "small_pct": 0.075,
+    "tech_pct": 0.039,
+    "tags": []
+   }
+  },
+  "sup-2": {
+   "Guy McCoy": {
+    "total": 0,
+    "no_committee": true,
+    "tags": []
+   },
+   "Monthanus Ratanapakdee": {
+    "total": 9341,
+    "donors": 24,
+    "small_pct": 0.258,
+    "tech_pct": 0.011,
+    "tags": []
+   },
+   "Stephen Sherrill": {
+    "total": 470106,
+    "donors": 1078,
+    "small_pct": 0.032,
+    "tech_pct": 0.041,
+    "outside_support": 616556,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 616556
+     }
+    ]
+   }
+  },
+  "sup-4": {
+   "Albert Chow": {
+    "total": 64449,
+    "donors": 247,
+    "small_pct": 0.082,
+    "tech_pct": 0.023,
+    "outside_support": 2020,
+    "outside_oppose": 1841,
+    "tags": []
+   },
+   "Jeremy Julian Greco": {
+    "total": 9725,
+    "donors": 42,
+    "small_pct": 0.377,
+    "tech_pct": 0.072,
+    "tags": []
+   },
+   "Alan Wong": {
+    "total": 261214,
+    "donors": 683,
+    "small_pct": 0.072,
+    "tech_pct": 0.045,
+    "outside_support": 848295,
+    "outside_oppose": 24754,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 848295
+     }
+    ]
+   }
+  },
+  "sup-6": {
+   "Alex Behrend": {
+    "total": 3829,
+    "donors": 10,
+    "small_pct": 0.228,
+    "tech_pct": 0.131,
+    "tags": []
+   },
+   "Matt Dorsey": {
+    "total": 121403,
+    "donors": 339,
+    "small_pct": 0.072,
+    "tech_pct": 0.033,
+    "outside_support": 31937,
+    "outside_oppose": 0,
+    "tags": []
+   }
+  },
+  "sup-8": {
+   "Gary McCoy": {
+    "total": 142957,
+    "donors": 420,
+    "small_pct": 0.161,
+    "tech_pct": 0.047,
+    "outside_support": 512292,
+    "outside_oppose": 23011,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 512292
+     }
+    ]
+   },
+   "Michael T. Nguyen": {
+    "total": 79739,
+    "donors": 293,
+    "small_pct": 0.209,
+    "tech_pct": 0.069,
+    "outside_support": 874,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Darshini Patel": {
+    "total": 61562,
+    "donors": 226,
+    "small_pct": 0.18,
+    "tech_pct": 0.1,
+    "outside_support": 69187,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 69187
+     }
+    ]
+   },
+   "Emanuel “Manny” Yekutiel": {
+    "total": 527880,
+    "donors": 1401,
+    "small_pct": 0.035,
+    "tech_pct": 0.063,
+    "outside_support": 500,
+    "outside_oppose": 0,
+    "tags": []
+   }
+  },
+  "sup-10": {
+   "Pearci “PJ” Bastiany III": {
+    "total": 1196,
+    "donors": 2,
+    "small_pct": 0.081,
+    "tech_pct": 0.0,
+    "tags": []
+   },
+   "Dionjay (DJ) Brookter": {
+    "total": 103322,
+    "donors": 312,
+    "small_pct": 0.128,
+    "tech_pct": 0.035,
+    "outside_support": 300,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Deandra Bryant": {
+    "total": 0,
+    "outside_support": 500,
+    "outside_oppose": 0,
+    "tags": []
+   },
+   "Theo Ellington": {
+    "total": 239722,
+    "donors": 707,
+    "small_pct": 0.078,
+    "tech_pct": 0.052,
+    "outside_support": 678322,
+    "outside_oppose": 0,
+    "tags": [
+     {
+      "tag": "outside-backed",
+      "amount": 678322
+     }
+    ]
+   },
+   "J.R. Eppler": {
+    "total": 64757,
+    "donors": 206,
+    "small_pct": 0.161,
+    "tech_pct": 0.052,
+    "tags": []
+   },
+   "Mike Trouble Lin": {
+    "total": 0,
+    "no_committee": true,
+    "tags": []
+   },
+   "Jessica Pessecow": {
+    "total": 0,
+    "tags": []
+   },
+   "Shawn M. Richard": {
+    "total": 0,
+    "tags": []
+   }
+  }
+ }
+}

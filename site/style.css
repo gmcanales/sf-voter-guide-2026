@@ -537,3 +537,23 @@
   background: var(--cat);
   vertical-align: 1px;
 }
+
+/* ── housing category + funding tags ───────────────────────────────────── */
+.vg-cat-housing { --cat: #a0522d; }   /* sienna: distinct from growth orange */
+.vg-cand-tags { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 3px; }
+.vg-cand-tag {
+  padding: 1px 7px; border-radius: 999px; font-size: 0.68rem; font-weight: 700;
+  color: #fff; background: var(--cat);
+}
+/* Funding pills are outlined (data, not identity) with the number in bold. */
+.vg-fund-pill {
+  display: inline-flex; align-items: baseline; gap: 2px;
+  padding: 0 7px; border-radius: 999px; font-size: 0.68rem; line-height: 1.6;
+  border: 1px solid var(--border-strong); color: var(--text-muted); background: var(--bg);
+  cursor: help; white-space: nowrap;
+}
+.vg-fund-pill strong { color: var(--accent); font-weight: 900; }
+.vg-fund-none { border-style: dashed; }
+.vg-group-tags .vg-fund-pill { margin-left: 2px; }
+.vg-fund-mix { font-size: 0.78rem; color: var(--text-muted); margin-bottom: 4px; }
+.vg-fund-mix strong { color: var(--accent); }

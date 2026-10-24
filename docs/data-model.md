@@ -1,6 +1,6 @@
 # Data model
 
-The page (`site/app.js`) is a pure renderer over five JSON files in
+The page (`site/app.js`) is a pure renderer over six JSON files in
 `site/data/`. Two kinds of content are kept apart on purpose:
 
 | File | What | Who edits it |
@@ -10,6 +10,7 @@ The page (`site/app.js`) is a pure renderer over five JSON files in
 | `picks.json` | **Our** picks (Golden Goose Egg / Certified HONK) | Hand-edited, opinion |
 | `zip_districts.json` | Which districts each SF ZIP overlaps | **Generated** by `tools/build_zip_districts.py` |
 | `topics.json` | **Our** topic tags on measures (for browsing) | Hand-edited, editorial but factual |
+| `funding.json` | Funding tags for groups and local candidates | **Generated** by `tools/funding_tags.py` |
 
 ## Pipeline for `ballot.json`
 
@@ -140,6 +141,26 @@ ballot.
   sits next to *Progressive tax*. A topic that only ever flags one side is
   a bias.
 - Measures with no fitting topic stay untagged and drop out of filtered views.
+
+## `funding.json` — evidence-based funding & housing tags
+
+Built by `py tools/funding_tags.py [--since 2025-01-01]` from SF Ethics data
+(DataSF `pitq-e56w`) for the committees mapped in `data-src/funding_entities.json`.
+Only the latest version of each filing counts (no double-counted amendments),
+and donors are aggregated by name + ZIP before sizing. Tags fire only past
+published thresholds, and each one shows its number:
+
+| Tag | Rule |
+|---|---|
+| Small-donor funded | ≥ 50% of money from donors totaling ≤ $100 (candidates) / ≤ $250 (groups), incl. unitemized |
+| Big-donor funded (groups) | ≥ 50% from donors totaling ≥ $10,000 (candidates can't: SF caps gifts at $500) |
+| Tech-funded | ≥ 25% from donors employed in tech/VC (explicit employer + occupation lists in the tool) |
+| Outside money (candidates) | Other committees' supporting spending/giving (Sched. D + later Form 496) ≥ the candidate's own money and ≥ $10K |
+| Pro-housing (YIMBY) | Candidate endorsed by YIMBY Action / SF YIMBY. Groups: housing is central to their own self-description |
+
+There is deliberately no pejorative label. "Housing-skeptic" may only be applied
+with a sourced position against new housing, and none has been applied yet.
+Statewide and federal candidates aren't covered (their money isn't in SF Ethics data).
 
 ## Reader state
 

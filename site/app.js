@@ -11,7 +11,7 @@ const SOLE_SHARE = 0.995;            // a ZIP this much inside one district coun
 const DIMS = ['cd', 'ad', 'sup', 'bart'];
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -219,6 +219,7 @@ function renderOfficeRows(contest) {
           el('span', { class: 'vg-cand-name' }, c.name),
           c.party ? el('span', { class: 'vg-party' }, `Party Preference: ${c.party}`) : null,
           state.showPicks ? rowVerdicts(contest, c.name).map(p => badge(p.verdict)) : null),
+        renderCandidateTags(contest, c.name),
         c.designation ? el('div', { class: 'vg-desig' }, c.designation) : null,
         c.note ? el('div', { class: 'vg-cand-note' }, c.note,
           c.note_source ? [' (', el('a', { href: c.note_source.url, target: '_blank', rel: 'noopener' }, 'source'), ')'] : null) : null,
@@ -241,6 +242,7 @@ function renderRcvGrid(contest) {
         el('div', { class: 'vg-cand' },
           el('span', { class: 'vg-cand-name' }, c.name),
           state.showPicks ? rowVerdicts(contest, c.name).map(p => badge(p.verdict)) : null),
+        renderCandidateTags(contest, c.name),
         c.designation ? el('div', { class: 'vg-desig' }, c.designation) : null,
         c.note ? el('div', { class: 'vg-cand-note' }, c.note) : null,
         guideChipsForRow(contest, c.name)),
@@ -711,6 +713,69 @@ function primaryCat(guide) {
   return guide.tags?.find(t => t.cat !== 'scope')?.cat || 'none';
 }
 
+// ── funding & housing tags (evidence-based; rules in tools/funding_tags.py) ──
+const FUNDING_LABEL = {
+  'small-donor': 'Small-donor funded', 'big-donor': 'Big-donor funded',
+  'tech-funded': 'Tech-funded', 'outside-backed': 'Outside money',
+};
+
+function shortMoney(n) {
+  return n >= 1e6 ? `$${(n / 1e6).toFixed(1)}M` : n >= 1e3 ? `$${Math.round(n / 1e3)}K` : `$${Math.round(n)}`;
+}
+
+function fundingRuleText(tag) {
+  const r = FUNDING?.rules || {};
+  const pct = k => `${Math.round((r.thresholds?.[k] || 0) * 100)}%`;
+  return {
+    'small-donor': `At least ${pct('small-donor')} of the money came from donors giving $${r.small_candidate} or less in total (candidates) or $${r.small_guide} or less (groups), counting unitemized gifts.`,
+    'big-donor': `At least ${pct('big-donor')} of the money came from donors giving $${(r.big || 0).toLocaleString()}+ in total.`,
+    'tech-funded': `At least ${pct('tech-funded')} of the money came from donors employed in tech or venture capital (by employer/occupation).`,
+    'outside-backed': 'Other committees spent or gave more supporting this candidate than the candidate raised (and at least $10K).',
+  }[tag] + ` SF Ethics data since ${sinceLabel()}.`;
+}
+
+// Round DOWN so 99.6% never reads as "100%".
+function floorPct(x) { return `${Math.floor((x || 0) * 100)}%`; }
+function sinceLabel() {
+  const [y, m] = (FUNDING?.since || '').split('-').map(Number);
+  return y ? new Date(y, m - 1, 1).toLocaleDateString('en-US', { month: 'short', year: 'numeric' }) : '';
+}
+
+function fundingPills(m) {
+  if (!m?.tags?.length) return [];
+  return m.tags.map(t => el('span', { class: `vg-fund-pill vg-fund-${t.tag}`, title: fundingRuleText(t.tag) },
+    FUNDING_LABEL[t.tag], ' ', el('strong', {}, t.pct != null ? floorPct(t.pct) : shortMoney(t.amount))));
+}
+
+function fundingMix(m) {
+  if (!m?.total) return null;
+  const pct = floorPct;
+  return el('dd', { class: 'vg-fund-mix' },
+    `Funding mix (SF committees since ${sinceLabel()}, ${shortMoney(m.total)}): `,
+    el('strong', {}, pct(m.small_pct)), ' small donors · ',
+    m.big_pct != null ? [el('strong', {}, pct(m.big_pct)), ' $10K+ donors · '] : null,
+    el('strong', {}, pct(m.tech_pct)), ' tech/VC.');
+}
+
+function yimbyEndorses(contestId, name) {
+  const v = BALLOT_POSITIONS[contestId]?.yimby;
+  return v && normPosition(v).kind === 'picks' && normPosition(v).value.includes(name);
+}
+
+function renderCandidateTags(contest, name) {
+  const pills = [];
+  if (yimbyEndorses(contest.id, name)) {
+    pills.push(el('span', { class: 'vg-cand-tag vg-cat-housing', title: 'Endorsed by YIMBY Action / SF YIMBY, whose members back candidates "for making more homes possible."' },
+      'Pro-housing (YIMBY)'));
+  }
+  const m = FUNDING?.candidates?.[contest.id]?.[name];
+  if (m) pills.push(...fundingPills(m));
+  if (m?.no_committee) {
+    pills.push(el('span', { class: 'vg-fund-pill vg-fund-none', title: 'No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.' }, 'No campaign committee'));
+  }
+  return pills.length ? el('div', { class: 'vg-cand-tags' }, pills) : null;
+}
+
 // ── "Other groups included" panel ─────────────────────────────────────────
 function money(m) {
   if (m.text) return m.text;
@@ -728,7 +793,8 @@ function renderGroups() {
       el('header', {},
         el('a', { href: g.url, target: '_blank', rel: 'noopener', class: 'vg-group-name' }, g.name),
         el('span', { class: 'vg-group-tags' }, (g.tags || []).map(t =>
-          el('span', { class: `vg-group-tag vg-cat-${t.cat}` }, t.label)))),
+          el('span', { class: `vg-group-tag vg-cat-${t.cat}` }, t.label)),
+          fundingPills(FUNDING?.guides?.[g.id]))),
       g.self_description
         ? el('blockquote', { class: 'vg-self' },
             el('span', { class: 'vg-self-label' }, 'In their words'),
@@ -740,6 +806,7 @@ function renderGroups() {
         el('li', {}, el('a', { href: s.url, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, s.label)))) : null,
       el('dl', {},
         el('dt', {}, 'Money'),
+        fundingMix(FUNDING?.guides?.[g.id]),
         el('dd', {}, el('ul', {}, (g.money || []).map(m => el('li', {},
           m.label ? el('span', { class: 'vg-money-label' }, `${m.label}: `) : null, money(m),
           m.note ? el('span', { class: 'vg-money-note' }, ` ${m.note}`) : null,
@@ -830,9 +897,10 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING] = await Promise.all([
       get('./data/ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
-      get('./data/zip_districts.json'), get('./data/topics.json')]);
+      get('./data/zip_districts.json'), get('./data/topics.json'),
+      get('./data/funding.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     document.getElementById('ballot').replaceChildren(
