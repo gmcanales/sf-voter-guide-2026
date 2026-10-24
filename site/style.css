@@ -455,7 +455,7 @@
 .vg-topic-chip.is-active { background: var(--text); color: var(--bg); border-color: var(--text); }
 .vg-topic-count { font-size: 0.72rem; opacity: 0.65; }
 
-.vg-topic-tags { display: flex; flex-wrap: wrap; gap: 4px; margin: 8px 0 0; padding: 0; list-style: none; }
+.vg-topic-tags { display: inline-flex; flex-wrap: wrap; gap: 4px; margin: 0; padding: 0; list-style: none; }
 .vg-topic-tag {
   padding: 1px 8px;
   border-radius: 4px;

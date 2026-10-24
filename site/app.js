@@ -259,6 +259,8 @@ function renderYesNo(contest, yesLabel = 'YES', noLabel = 'NO') {
       el('div', { class: 'vg-row-main' },
         el('div', { class: 'vg-cand' },
           el('span', { class: 'vg-cand-name' }, v === 'yes' ? yesLabel : noLabel),
+          // Topic tags describe what a YES vote does, so they live on the YES line only.
+          v === 'yes' ? renderTopicTags(contest) : null,
           state.showPicks ? rowVerdicts(contest, v).map(p => badge(p.verdict)) : null),
         guideChipsForRow(contest, v)));
   }));
@@ -383,7 +385,6 @@ function renderContest(contest, section) {
         ? el('span', { class: 'vg-tag' }, districtTag(contest)) : null),
     body,
     el('p', { class: 'vg-flash', role: 'status', hidden: true }),
-    renderTopicTags(contest),
     renderPickBox(contest),
     renderGuideLine(contest),
     renderDetails(contest));
