@@ -1,0 +1,126 @@
+/* SF Voter Guide — page-specific styles. Colors come from goosebase tokens
+   (css/tokens.css); don't hardcode. Mobile breakpoint: 767px. */
+
+.vg-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 28px 0 16px;
+}
+
+.vg-picks-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.vg-updated { color: var(--text-faint); font-size: 0.875rem; }
+
+.vg-toc {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 28px;
+}
+.vg-toc a {
+  padding: 4px 10px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.875rem;
+}
+.vg-toc a:hover { border-color: var(--border-strong); color: var(--text); }
+
+.vg-empty {
+  padding: 24px;
+  border: 1px dashed var(--border-strong);
+  border-radius: var(--radius-lg);
+  color: var(--text-muted);
+}
+
+.vg-level-head {
+  margin: 40px 0 12px;
+  font-family: var(--font-display);
+  font-size: 0.8rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+
+.vg-contest {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: 20px 22px;
+  margin-bottom: 16px;
+  scroll-margin-top: 80px;
+}
+.vg-contest h3 { margin: 0; font-size: 1.25rem; }
+.vg-contest .vg-sub { margin: 4px 0 0; color: var(--text-muted); }
+.vg-contest h4 {
+  margin: 18px 0 6px;
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+}
+.vg-contest p, .vg-contest li { line-height: 1.55; }
+
+.vg-meaning {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.vg-meaning > div {
+  padding: 10px 12px;
+  border-radius: var(--radius);
+  background: var(--surface2);
+}
+
+/* Yes/No and For/Against use neutral styling on purpose; buy/sell greens
+   and reds would imply a judgment. */
+.vg-args {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+.vg-args ul { margin: 0; padding-left: 18px; }
+
+.vg-cands { list-style: none; padding: 0; margin: 0; }
+.vg-cands li { padding: 6px 0; border-bottom: 1px solid var(--border); }
+.vg-cands li:last-child { border-bottom: 0; }
+.vg-cands .vg-desig { color: var(--text-muted); font-size: 0.9rem; }
+
+.vg-money { width: 100%; border-collapse: collapse; font-size: 0.9rem; }
+.vg-money td { padding: 4px 0; border-bottom: 1px solid var(--border); }
+.vg-money td.num { text-align: right; font-family: var(--font-mono); }
+
+.vg-src { font-size: 0.75rem; vertical-align: super; margin-left: 2px; }
+.vg-sources { font-size: 0.85rem; color: var(--text-muted); padding-left: 18px; }
+
+/* Picks: deliberately set apart from the neutral content. */
+.vg-pick {
+  margin-top: 18px;
+  padding: 12px 14px;
+  border-left: 3px solid var(--accent);
+  background: var(--accent-soft);
+  border-radius: var(--radius);
+}
+.vg-pick-label {
+  font-size: 0.75rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent-text);
+}
+body:not(.show-picks) .vg-pick { display: none; }
+
+.vg-official { margin-top: 48px; }
+
+@media (max-width: 767px) {
+  .vg-meaning, .vg-args { grid-template-columns: 1fr; }
+}

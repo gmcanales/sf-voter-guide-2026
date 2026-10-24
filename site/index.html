@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SF Voter Guide 2026 — Goosebase</title>
+  <meta name="description" content="A sourced, plain-language guide to every race and measure on San Francisco's November 3, 2026 ballot.">
+  <script src="./js/palette.js"></script>
+  <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
+  <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/tokens.css">
+  <link rel="stylesheet" href="./css/landing.css">
+  <link rel="stylesheet" href="./css/subpage.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="brand">
+        <span class="brand-mark">𓅮</span>
+        <span class="brand-name">Goosebase</span>
+      </a>
+      <nav class="primary-nav">
+        <a href="/sf-2026/" class="nav-link">Voter Guide</a>
+      </nav>
+      <div class="header-cta">
+        <button class="theme-toggle" data-goosebase-toggle type="button" aria-label="Toggle dark/light theme"
+          title="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="4" />
+            <path d="M12 2v2" />
+            <path d="M12 20v2" />
+            <path d="m4.93 4.93 1.41 1.41" />
+            <path d="m17.66 17.66 1.41 1.41" />
+            <path d="M2 12h2" />
+            <path d="M20 12h2" />
+            <path d="m4.93 19.07 1.41-1.41" />
+            <path d="m17.66 6.34 1.41-1.41" />
+          </svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main class="subpage-main">
+    <div class="subpage-inner">
+      <div class="subpage-eyebrow">San Francisco · <span id="election-date">November 3, 2026</span></div>
+      <h1 class="subpage-title">SF Voter Guide 2026</h1>
+      <p class="subpage-lead">
+        Every race and measure on San Francisco's ballot, in plain language, with sources.
+        Each entry covers what a vote means, the strongest case on each side, and who's paying for it.
+      </p>
+
+      <div class="vg-toolbar">
+        <label class="vg-picks-toggle">
+          <input type="checkbox" id="show-picks">
+          <span>Show our picks</span>
+        </label>
+        <span class="vg-updated" id="updated"></span>
+      </div>
+
+      <nav class="vg-toc" id="toc" aria-label="Contests"></nav>
+
+      <div id="contests" aria-live="polite">
+        <p class="vg-empty">Loading the ballot…</p>
+      </div>
+
+      <section class="vg-official">
+        <h2 class="subpage-section-title">Official sources</h2>
+        <ul id="official-sources"></ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <span class="footer-brand">𓅮 Goosebase</span>
+      <div class="footer-links">
+        <a href="/" class="footer-link">Home</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+
+</html>

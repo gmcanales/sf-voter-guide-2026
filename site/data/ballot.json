@@ -1,0 +1,14 @@
+{
+  "election": {
+    "name": "California General Election (Midterm)",
+    "jurisdiction": "City and County of San Francisco",
+    "date": "2026-11-03",
+    "official_sources": [
+      { "label": "SF Department of Elections", "url": "https://www.sf.gov/departments/department-elections" },
+      { "label": "CA Secretary of State — elections", "url": "https://www.sos.ca.gov/elections" },
+      { "label": "Check your registration / ballot status", "url": "https://voterstatus.sos.ca.gov/" }
+    ]
+  },
+  "updated": null,
+  "contests": []
+}

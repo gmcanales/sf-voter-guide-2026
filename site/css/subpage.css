@@ -1,0 +1,325 @@
+/* ── Subpage shell (docs, honks, friends, etc.) ── */
+
+/* Override landing.css hero-gated header — subpages show the header immediately */
+body .site-header {
+  position: sticky !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+body .site-footer {
+  position: static !important;
+  opacity: 1 !important;
+  pointer-events: auto !important;
+}
+
+.subpage-main {
+  flex: 1;
+  padding: 64px 28px 80px;
+}
+
+.subpage-inner {
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.subpage-eyebrow {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: var(--accent);
+  text-shadow: 0 0 12px var(--accent-glow);
+  margin-bottom: 16px;
+}
+
+.subpage-title {
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(36px, 6vw, 64px);
+  line-height: 1;
+  letter-spacing: -0.03em;
+  color: var(--text);
+  margin: 0 0 20px;
+}
+
+.subpage-lead {
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--text-muted);
+  margin: 0 0 48px;
+  max-width: 560px;
+}
+
+/* ── FAQ ── */
+
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.faq-item {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: border-color 0.15s;
+}
+
+.faq-item:hover { border-color: var(--border-strong); }
+
+.faq-item summary {
+  padding: 18px 20px;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  color: var(--text);
+  user-select: none;
+}
+
+.faq-item summary::-webkit-details-marker { display: none; }
+
+.faq-item summary::after {
+  content: '+';
+  font-size: 20px;
+  font-weight: 300;
+  color: var(--text-muted);
+  flex-shrink: 0;
+  transition: transform 0.2s;
+}
+
+.faq-item[open] summary::after {
+  transform: rotate(45deg);
+}
+
+.faq-item p {
+  padding: 0 20px 18px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--text-muted);
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+
+.faq-item p a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+/* ── Placeholder (honks, friends) ── */
+
+.honks-placeholder,
+.friends-placeholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  padding: 80px 20px;
+  color: var(--text-muted);
+  font-size: 15px;
+}
+
+.honk-icon {
+  font-size: 52px;
+  opacity: 0.5;
+}
+
+/* Section heading above the honks-page CTA cards (Friends, Games). Sized
+ * and centred to line up with the .game-cta cards (max-width 560, auto). */
+.honks-section-title {
+  max-width: 560px;
+  margin: 64px auto 4px;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 22px;
+  color: var(--text);
+  text-align: center;
+}
+
+/* ── Docs page: reports + markdown file index ── */
+
+.subpage-section-title {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 56px 0 8px 0;
+  color: var(--text);
+}
+
+.subpage-lead-small {
+  font-size: 14px;
+  color: var(--text-muted);
+  margin: 0 0 24px 0;
+  max-width: 720px;
+}
+
+/* The collapsible summary on the file-index blocks shows the count
+ * inline on the right, mirroring the "n unread" UI pattern. */
+.faq-item summary > span:first-child {
+  flex: 1;
+}
+
+.file-count {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-right: 28px;  /* leave room for the ::after chevron */
+  font-variant-numeric: tabular-nums;
+}
+
+/* .file-list lives directly inside <details> like the FAQ <p> does,
+ * so we mirror its padding + top border for visual consistency. */
+.file-list {
+  list-style: none;
+  margin: 0;
+  padding: 14px 20px 18px;
+  border-top: 1px solid var(--border);
+}
+
+.file-list-row {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 8px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.file-list-row:last-child {
+  border-bottom: none;
+}
+
+.file-name {
+  color: var(--accent, #58a6ff);
+  text-decoration: none;
+  font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  font-size: 13px;
+  word-break: break-all;
+  flex: 1;
+  min-width: 0;
+}
+
+.file-name:hover {
+  text-decoration: underline;
+}
+
+.file-meta {
+  color: var(--text-muted);
+  font-size: 12px;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+.file-list-empty {
+  color: var(--text-muted);
+  font-size: 13px;
+  font-style: italic;
+  padding: 8px 0;
+}
+
+/* ── Mobile ── */
+
+@media (max-width: 767px) {
+  .subpage-main { padding: 40px 16px 60px; }
+  .subpage-lead { font-size: 16px; }
+  .file-list-row { flex-direction: column; gap: 2px; align-items: flex-start; }
+}
+
+/* ── Game cards (used by /games landing) ─────────────────────────── */
+
+.game-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 18px;
+  margin-top: 28px;
+}
+
+.game-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 22px 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  color: var(--text);
+  transition: transform 0.15s, border-color 0.15s, box-shadow 0.15s, background 0.15s;
+}
+
+.game-card:hover {
+  transform: translateY(-2px);
+  border-color: var(--accent, #58a6ff);
+  background: color-mix(in srgb, var(--accent, #58a6ff) 6%, var(--surface));
+  box-shadow: 0 8px 22px -10px color-mix(in srgb, var(--accent, #58a6ff) 60%, transparent);
+}
+
+.game-card-mark {
+  font-size: 32px;
+  line-height: 1;
+  color: var(--accent, #58a6ff);
+}
+
+.game-card-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: 22px;
+  color: var(--text);
+}
+
+.game-card-blurb {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.55;
+  color: var(--text-muted);
+}
+
+.game-card-cta {
+  margin-top: 4px;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent, #58a6ff);
+}
+
+/* ── Game categories (puzzle / arcade / strategy groupings) ──────── */
+
+.game-category { margin-top: 44px; }
+.game-category:first-of-type { margin-top: 28px; }
+
+.game-category-head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.game-category-icon {
+  font-size: 20px;
+  line-height: 1;
+}
+
+.game-category-label {
+  margin: 0;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+/* Tighter top gap — the category head already provides the breathing room. */
+.game-category .game-grid { margin-top: 18px; }
