@@ -101,7 +101,7 @@
        "designation": "Voting Rights Attorney"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "lt-governor",
@@ -120,7 +120,7 @@
        "designation": "State Treasurer/CPA"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "secretary-of-state",
@@ -140,7 +140,7 @@
        "incumbent": true
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "controller",
@@ -160,7 +160,7 @@
        "designation": "Chief Investment Officer"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "treasurer",
@@ -179,7 +179,7 @@
        "designation": "Lieutenant Governor of California"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "attorney-general",
@@ -199,7 +199,7 @@
        "designation": "Deputy United States Attorney"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "insurance-commissioner",
@@ -218,13 +218,13 @@
        "designation": "California State Senator"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "boe-2",
      "kind": "office",
      "title": "Board of Equalization Member, District 2",
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "John Pimentel",
@@ -238,7 +238,7 @@
        "incumbent": true
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "us-rep-11",
@@ -247,7 +247,7 @@
      "applies": {
       "cd": 11
      },
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Scott Wiener",
@@ -260,7 +260,7 @@
        "designation": "San Francisco Supervisor"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "us-rep-15",
@@ -291,7 +291,7 @@
      "applies": {
       "ad": 17
      },
-     "order": "county_draw",
+     "order": "verified",
      "candidates": [
       {
        "name": "Matt Haney",
@@ -305,7 +305,7 @@
        "designation": "No Ballot Designation"
       }
      ],
-     "order_note": "Order set by a county drawing we haven't verified yet. Check your sample ballot."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "assembly-19",
@@ -440,14 +440,14 @@
        "designation": "State Superintendent Advisor"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District."
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Checked against an official sample ballot for AD 17."
     },
     {
      "id": "board-of-education",
      "kind": "office",
      "title": "Member, Board of Education",
      "vote_for": 3,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Ryan Hazelton"
@@ -476,8 +476,7 @@
        "name": "Tim Tung"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot. (One surname is ambiguous, so its position is uncertain.)",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "ccb-full",
@@ -485,7 +484,7 @@
      "title": "Trustee, Community College Board",
      "subtitle": "4-year term ending January 8, 2031",
      "vote_for": 3,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Lisa Palagi Wynn II"
@@ -512,8 +511,7 @@
        "name": "Erwin Tam"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot.",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "ccb-partial",
@@ -521,15 +519,14 @@
      "title": "Trustee, Community College Board",
      "subtitle": "Remainder of the current term ending January 8, 2029",
      "vote_for": 1,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Ruth Ferguson",
        "incumbent": true
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot.",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     }
    ]
   },
@@ -569,30 +566,28 @@
      "kind": "office",
      "title": "Assessor-Recorder",
      "rcv": true,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Joaquín Torres",
        "incumbent": true
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot.",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "public-defender",
      "kind": "office",
      "title": "Public Defender",
      "rcv": true,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Mano Raju",
        "incumbent": true
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot.",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "sup-2",
@@ -671,7 +666,7 @@
       "sup": 8
      },
      "rcv": true,
-     "order": "sos_alphabet",
+     "order": "verified",
      "candidates": [
       {
        "name": "Darshini Patel"
@@ -691,8 +686,7 @@
        "name": "Gary McCoy"
       }
      ],
-     "order_note": "Order computed from the Secretary of State's randomized alphabet. Confirm on your sample ballot.",
-     "list_note": "Candidate list taken from statements in the official pamphlet. Statements are voluntary, so candidates who didn't submit one may be missing. Your sample ballot has the complete list."
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
      "id": "sup-10",

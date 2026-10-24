@@ -19,9 +19,9 @@
        py tools/sample_ballot.py check data-src/sample_ballots/ad17-sup8.csv --apply
        py tools/build_ballot.py
 
-`--apply` replaces each office's candidate list with the ballot's, in the
-ballot's order, and marks it `order: "verified"` with the ballot type it came
-from. Statewide offices rotate by Assembly District, so their order is
+`--apply` marks every office on the ballot `order: "verified"` with the ballot
+type it came from, replacing the candidate list (in the ballot's order) where
+it differed. Statewide offices rotate by Assembly District, so their order is
 recorded per AD (`verified_order_by_ad`) and other ADs keep the computed order.
 """
 import argparse
@@ -126,6 +126,7 @@ def cmd_check(args) -> None:
             ours_ordered = ours
         if theirs == ours_ordered:
             print(f"✓ {cid}: list and order match")
+            changes.append((c, by_contest[cid]))     # still record it as verified
             continue
         problems += 1
         added = [n for n in theirs if n not in ours]
@@ -143,7 +144,8 @@ def cmd_check(args) -> None:
     if args.apply and changes:
         apply_changes(skel, changes, ballot_type, path.name)
         SKELETON.write_text(json.dumps(skel, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-        print(f"applied {len(changes)} contest correction(s) to {SKELETON.relative_to(ROOT)}; now run tools/build_ballot.py")
+        print(f"marked {len(changes)} office contest(s) verified in {SKELETON.relative_to(ROOT)} "
+              f"(corrections applied where they differed); now run tools/build_ballot.py")
 
 
 def ours_in_built_order(cid: str, ballot_type: dict) -> list[str]:

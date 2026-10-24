@@ -56,6 +56,12 @@ def alpha_key(alphabet: str):
     return key
 
 
+def ballot_type_label(bt: dict) -> str:
+    names = {"cd": "Congressional District", "ad": "Assembly District",
+             "sup": "Supervisor District", "bart": "BART District"}
+    return ", ".join(f"{names[k]} {v}" for k, v in bt.items() if k in names)
+
+
 def order_candidates(contest: dict, key, ad_options: list[int]) -> None:
     rule = contest.get("order")
     cands = contest.get("candidates")
@@ -64,6 +70,9 @@ def order_candidates(contest: dict, key, ad_options: list[int]) -> None:
     if rule in ("statewide", "sos_alphabet"):
         cands.sort(key=key)
     contest["order_note"] = ORDER_NOTES[rule]
+    vf = contest.get("verified_from")
+    if rule == "verified" and vf and vf.get("ballot_type"):
+        contest["order_note"] = ORDER_NOTES[rule].rstrip(".") + f" ({ballot_type_label(vf['ballot_type'])})."
     if any(c.get("surname_uncertain") for c in cands):
         contest["order_note"] += " (One surname is ambiguous, so its position is uncertain.)"
     if rule == "statewide" and len(cands) > 1:

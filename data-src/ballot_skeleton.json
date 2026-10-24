@@ -5,22 +5,76 @@
     "jurisdiction": "City and County of San Francisco",
     "date": "2026-11-03",
     "official_sources": [
-      { "label": "SF Voter Information Pamphlet (PDF)", "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf" },
-      { "label": "CA Official Voter Information Guide", "url": "https://voterguide.sos.ca.gov/" },
-      { "label": "Your sample ballot & ballot status (SF Voter Portal)", "url": "https://sfelections.gov/voterportal" },
-      { "label": "Qualified write-in candidates", "url": "https://sfelections.gov/writein" },
-      { "label": "SoS Certified List of Candidates (PDF)", "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf" }
+      {
+        "label": "SF Voter Information Pamphlet (PDF)",
+        "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf"
+      },
+      {
+        "label": "CA Official Voter Information Guide",
+        "url": "https://voterguide.sos.ca.gov/"
+      },
+      {
+        "label": "Your sample ballot & ballot status (SF Voter Portal)",
+        "url": "https://sfelections.gov/voterportal"
+      },
+      {
+        "label": "Qualified write-in candidates",
+        "url": "https://sfelections.gov/writein"
+      },
+      {
+        "label": "SoS Certified List of Candidates (PDF)",
+        "url": "https://elections.cdn.sos.ca.gov/statewide-elections/2026-general/cert-list-candidates.pdf"
+      }
     ]
   },
   "randomized_alphabet": {
     "letters": "HXKWCPJOZALDNSQBIRYGVEFMTU",
-    "source": { "label": "SoS randomized alphabet drawing, Aug 13 2026", "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-results-randomized-alphabet-drawing-november-3-2026-general-election" }
+    "source": {
+      "label": "SoS randomized alphabet drawing, Aug 13 2026",
+      "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-results-randomized-alphabet-drawing-november-3-2026-general-election"
+    }
   },
   "districts": {
-    "cd": { "label": "U.S. House district", "options": [11, 15] },
-    "ad": { "label": "State Assembly district", "options": [17, 19] },
-    "sup": { "label": "Supervisor district", "options": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], "note": "Only even districts (2, 4, 6, 8, 10) elect a supervisor this year." },
-    "bart": { "label": "BART district", "options": [7, 8, 9], "note": "Only BART District 8 votes this year." }
+    "cd": {
+      "label": "U.S. House district",
+      "options": [
+        11,
+        15
+      ]
+    },
+    "ad": {
+      "label": "State Assembly district",
+      "options": [
+        17,
+        19
+      ]
+    },
+    "sup": {
+      "label": "Supervisor district",
+      "options": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "note": "Only even districts (2, 4, 6, 8, 10) elect a supervisor this year."
+    },
+    "bart": {
+      "label": "BART district",
+      "options": [
+        7,
+        8,
+        9
+      ],
+      "note": "Only BART District 8 votes this year."
+    }
   },
   "sections": [
     {
@@ -30,54 +84,386 @@
       "instruction": "Vote for One",
       "note": "All voters may vote for any candidate, whatever their own party preference. The party shown is the candidate's own registered preference and does not mean the party endorses them.",
       "contests": [
-        { "id": "governor", "kind": "office", "title": "Governor", "order": "statewide",
+        {
+          "id": "governor",
+          "kind": "office",
+          "title": "Governor",
+          "order": "statewide",
           "candidates": [
-            { "name": "Xavier Becerra", "surname": "Becerra", "party": "Democratic", "designation": "Voting Rights Attorney" },
-            { "name": "Steve Hilton", "surname": "Hilton", "party": "Republican", "designation": "Small Business Owner" } ] },
-        { "id": "lt-governor", "kind": "office", "title": "Lieutenant Governor", "order": "statewide",
+            {
+              "name": "Xavier Becerra",
+              "surname": "Becerra",
+              "party": "Democratic",
+              "designation": "Voting Rights Attorney"
+            },
+            {
+              "name": "Steve Hilton",
+              "surname": "Hilton",
+              "party": "Republican",
+              "designation": "Small Business Owner"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Steve Hilton",
+              "Xavier Becerra"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "lt-governor",
+          "kind": "office",
+          "title": "Lieutenant Governor",
+          "order": "statewide",
           "candidates": [
-            { "name": "Fiona Ma", "surname": "Ma", "party": "Democratic", "designation": "State Treasurer/CPA" },
-            { "name": "Gloria Romero", "surname": "Romero", "party": "Republican", "designation": "Educator/Businesswoman" } ] },
-        { "id": "secretary-of-state", "kind": "office", "title": "Secretary of State", "order": "statewide",
+            {
+              "name": "Fiona Ma",
+              "surname": "Ma",
+              "party": "Democratic",
+              "designation": "State Treasurer/CPA"
+            },
+            {
+              "name": "Gloria Romero",
+              "surname": "Romero",
+              "party": "Republican",
+              "designation": "Educator/Businesswoman"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Gloria Romero",
+              "Fiona Ma"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "secretary-of-state",
+          "kind": "office",
+          "title": "Secretary of State",
+          "order": "statewide",
           "candidates": [
-            { "name": "Shirley N. Weber", "surname": "Weber", "party": "Democratic", "designation": "California Secretary of State", "incumbent": true },
-            { "name": "Donald P. (Don) Wagner", "surname": "Wagner", "party": "Republican", "designation": "Orange County Supervisor" } ] },
-        { "id": "controller", "kind": "office", "title": "Controller", "order": "statewide",
+            {
+              "name": "Shirley N. Weber",
+              "surname": "Weber",
+              "party": "Democratic",
+              "designation": "California Secretary of State",
+              "incumbent": true
+            },
+            {
+              "name": "Donald P. (Don) Wagner",
+              "surname": "Wagner",
+              "party": "Republican",
+              "designation": "Orange County Supervisor"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Donald P. (Don) Wagner",
+              "Shirley N. Weber"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "controller",
+          "kind": "office",
+          "title": "Controller",
+          "order": "statewide",
           "candidates": [
-            { "name": "Malia M. Cohen", "surname": "Cohen", "party": "Democratic", "designation": "State Controller/Mother", "incumbent": true },
-            { "name": "Herb W Morgan", "surname": "Morgan", "party": "Republican", "designation": "Chief Investment Officer" } ] },
-        { "id": "treasurer", "kind": "office", "title": "Treasurer", "order": "statewide",
+            {
+              "name": "Malia M. Cohen",
+              "surname": "Cohen",
+              "party": "Democratic",
+              "designation": "State Controller/Mother",
+              "incumbent": true
+            },
+            {
+              "name": "Herb W Morgan",
+              "surname": "Morgan",
+              "party": "Republican",
+              "designation": "Chief Investment Officer"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Malia M. Cohen",
+              "Herb W Morgan"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "treasurer",
+          "kind": "office",
+          "title": "Treasurer",
+          "order": "statewide",
           "candidates": [
-            { "name": "Eleni Kounalakis", "surname": "Kounalakis", "party": "Democratic", "designation": "Lieutenant Governor of California" },
-            { "name": "Jennifer Hawks", "surname": "Hawks", "party": "Republican", "designation": "Retired Business Executive" } ] },
-        { "id": "attorney-general", "kind": "office", "title": "Attorney General", "order": "statewide",
+            {
+              "name": "Eleni Kounalakis",
+              "surname": "Kounalakis",
+              "party": "Democratic",
+              "designation": "Lieutenant Governor of California"
+            },
+            {
+              "name": "Jennifer Hawks",
+              "surname": "Hawks",
+              "party": "Republican",
+              "designation": "Retired Business Executive"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Jennifer Hawks",
+              "Eleni Kounalakis"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "attorney-general",
+          "kind": "office",
+          "title": "Attorney General",
+          "order": "statewide",
           "candidates": [
-            { "name": "Rob Bonta", "surname": "Bonta", "party": "Democratic", "designation": "California Attorney General", "incumbent": true },
-            { "name": "Michael E. Gates", "surname": "Gates", "party": "Republican", "designation": "Deputy United States Attorney" } ] },
-        { "id": "insurance-commissioner", "kind": "office", "title": "Insurance Commissioner", "order": "statewide",
+            {
+              "name": "Rob Bonta",
+              "surname": "Bonta",
+              "party": "Democratic",
+              "designation": "California Attorney General",
+              "incumbent": true
+            },
+            {
+              "name": "Michael E. Gates",
+              "surname": "Gates",
+              "party": "Republican",
+              "designation": "Deputy United States Attorney"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Rob Bonta",
+              "Michael E. Gates"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "insurance-commissioner",
+          "kind": "office",
+          "title": "Insurance Commissioner",
+          "order": "statewide",
           "candidates": [
-            { "name": "Ben Allen", "surname": "Allen", "party": "Democratic", "designation": "California State Senator" },
-            { "name": "Jane Kim", "surname": "Kim", "party": "Democratic", "designation": "Attorney/Consumer Advocate" } ] },
-        { "id": "boe-2", "kind": "office", "title": "Board of Equalization Member, District 2", "order": "sos_alphabet",
+            {
+              "name": "Ben Allen",
+              "surname": "Allen",
+              "party": "Democratic",
+              "designation": "California State Senator"
+            },
+            {
+              "name": "Jane Kim",
+              "surname": "Kim",
+              "party": "Democratic",
+              "designation": "Attorney/Consumer Advocate"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Jane Kim",
+              "Ben Allen"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "boe-2",
+          "kind": "office",
+          "title": "Board of Equalization Member, District 2",
+          "order": "verified",
           "candidates": [
-            { "name": "Sally J. Lieber", "surname": "Lieber", "party": "Democratic", "designation": "Incumbent", "incumbent": true },
-            { "name": "John Pimentel", "surname": "Pimentel", "party": "Democratic", "designation": "Member, Board of Trustees, San Mateo County Community College District" } ] },
-        { "id": "us-rep-11", "kind": "office", "title": "United States Representative, District 11", "applies": { "cd": 11 }, "order": "sos_alphabet",
+            {
+              "name": "John Pimentel",
+              "surname": "Pimentel",
+              "party": "Democratic",
+              "designation": "Member, Board of Trustees, San Mateo County Community College District"
+            },
+            {
+              "name": "Sally J. Lieber",
+              "surname": "Lieber",
+              "party": "Democratic",
+              "designation": "Incumbent",
+              "incumbent": true
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "us-rep-11",
+          "kind": "office",
+          "title": "United States Representative, District 11",
+          "applies": {
+            "cd": 11
+          },
+          "order": "verified",
           "candidates": [
-            { "name": "Connie Chan", "surname": "Chan", "party": "Democratic", "designation": "San Francisco Supervisor" },
-            { "name": "Scott Wiener", "surname": "Wiener", "party": "Democratic", "designation": "State Senator" } ] },
-        { "id": "us-rep-15", "kind": "office", "title": "United States Representative, District 15", "applies": { "cd": 15 }, "order": "sos_alphabet",
+            {
+              "name": "Scott Wiener",
+              "surname": "Wiener",
+              "party": "Democratic",
+              "designation": "State Senator"
+            },
+            {
+              "name": "Connie Chan",
+              "surname": "Chan",
+              "party": "Democratic",
+              "designation": "San Francisco Supervisor"
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "us-rep-15",
+          "kind": "office",
+          "title": "United States Representative, District 15",
+          "applies": {
+            "cd": 15
+          },
+          "order": "sos_alphabet",
           "candidates": [
-            { "name": "Kevin Mullin", "surname": "Mullin", "party": "Democratic", "designation": "U.S. Representative" },
-            { "name": "Charles Hoelter", "surname": "Hoelter", "party": "Republican", "designation": "Retired Training Supervisor" } ] },
-        { "id": "assembly-17", "kind": "office", "title": "State Assembly Member, District 17", "applies": { "ad": 17 }, "order": "county_draw",
+            {
+              "name": "Kevin Mullin",
+              "surname": "Mullin",
+              "party": "Democratic",
+              "designation": "U.S. Representative"
+            },
+            {
+              "name": "Charles Hoelter",
+              "surname": "Hoelter",
+              "party": "Republican",
+              "designation": "Retired Training Supervisor"
+            }
+          ]
+        },
+        {
+          "id": "assembly-17",
+          "kind": "office",
+          "title": "State Assembly Member, District 17",
+          "applies": {
+            "ad": 17
+          },
+          "order": "verified",
           "candidates": [
-            { "name": "Matt Haney", "surname": "Haney", "party": "Democratic", "designation": "Assemblymember", "incumbent": true },
-            { "name": "Manuel Noris-Barrera", "surname": "Noris-Barrera", "party": "Republican", "designation": "No Ballot Designation" } ] },
-        { "id": "assembly-19", "kind": "office", "title": "State Assembly Member, District 19", "applies": { "ad": 19 }, "order": "county_draw",
+            {
+              "name": "Matt Haney",
+              "surname": "Haney",
+              "party": "Democratic",
+              "designation": "Assemblymember",
+              "incumbent": true
+            },
+            {
+              "name": "Manuel Noris-Barrera",
+              "surname": "Noris-Barrera",
+              "party": "Republican",
+              "designation": "No Ballot Designation"
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "assembly-19",
+          "kind": "office",
+          "title": "State Assembly Member, District 19",
+          "applies": {
+            "ad": 19
+          },
+          "order": "county_draw",
           "candidates": [
-            { "name": "Catherine Stefani", "surname": "Stefani", "party": "Democratic", "designation": "Assemblymember", "incumbent": true },
-            { "name": "Philip Louis Wing", "surname": "Wing", "party": "Republican", "designation": "Retired Financial Advisor" } ] }
+            {
+              "name": "Catherine Stefani",
+              "surname": "Stefani",
+              "party": "Democratic",
+              "designation": "Assemblymember",
+              "incumbent": true
+            },
+            {
+              "name": "Philip Louis Wing",
+              "surname": "Wing",
+              "party": "Republican",
+              "designation": "Retired Financial Advisor"
+            }
+          ]
+        }
       ]
     },
     {
@@ -87,19 +473,84 @@
       "instruction": "Vote YES or NO for each office",
       "note": "Retention elections: each sitting justice is unopposed and voters decide whether they stay for a new term.",
       "contests": [
-        { "id": "scotus-groban", "kind": "retention", "title": "Associate Justice of the Supreme Court", "justice": "Joshua Groban" },
-        { "id": "scotus-evans", "kind": "retention", "title": "Associate Justice of the Supreme Court", "justice": "Kelli M. Evans" },
-        { "id": "coa-1-1-wilson", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division One", "justice": "Monique Langhorne Wilson" },
-        { "id": "coa-1-1-smiley", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division One", "justice": "Charles A. Smiley" },
-        { "id": "coa-1-1-banke", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division One", "justice": "Kathleen M. Banke" },
-        { "id": "coa-1-2-stewart", "kind": "retention", "title": "Presiding Justice, Court of Appeal, First District, Division Two", "justice": "Therese M. Stewart" },
-        { "id": "coa-1-2-desautels", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Two", "justice": "Tara M. Desautels" },
-        { "id": "coa-1-3-petrou", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Three", "justice": "Ioana Petrou" },
-        { "id": "coa-1-3-rodriguez", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Three", "justice": "Victor A. Rodriguez" },
-        { "id": "coa-1-4-brown", "kind": "retention", "title": "Presiding Justice, Court of Appeal, First District, Division Four", "justice": "Tracie L. Brown" },
-        { "id": "coa-1-5-chou", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Five", "justice": "Danny Y. Chou" },
-        { "id": "coa-1-5-simons", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Five", "justice": "Mark Simons" },
-        { "id": "coa-1-5-burns", "kind": "retention", "title": "Associate Justice, Court of Appeal, First District, Division Five", "justice": "Gordon Burns" }
+        {
+          "id": "scotus-groban",
+          "kind": "retention",
+          "title": "Associate Justice of the Supreme Court",
+          "justice": "Joshua Groban"
+        },
+        {
+          "id": "scotus-evans",
+          "kind": "retention",
+          "title": "Associate Justice of the Supreme Court",
+          "justice": "Kelli M. Evans"
+        },
+        {
+          "id": "coa-1-1-wilson",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division One",
+          "justice": "Monique Langhorne Wilson"
+        },
+        {
+          "id": "coa-1-1-smiley",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division One",
+          "justice": "Charles A. Smiley"
+        },
+        {
+          "id": "coa-1-1-banke",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division One",
+          "justice": "Kathleen M. Banke"
+        },
+        {
+          "id": "coa-1-2-stewart",
+          "kind": "retention",
+          "title": "Presiding Justice, Court of Appeal, First District, Division Two",
+          "justice": "Therese M. Stewart"
+        },
+        {
+          "id": "coa-1-2-desautels",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Two",
+          "justice": "Tara M. Desautels"
+        },
+        {
+          "id": "coa-1-3-petrou",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Three",
+          "justice": "Ioana Petrou"
+        },
+        {
+          "id": "coa-1-3-rodriguez",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Three",
+          "justice": "Victor A. Rodriguez"
+        },
+        {
+          "id": "coa-1-4-brown",
+          "kind": "retention",
+          "title": "Presiding Justice, Court of Appeal, First District, Division Four",
+          "justice": "Tracie L. Brown"
+        },
+        {
+          "id": "coa-1-5-chou",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Five",
+          "justice": "Danny Y. Chou"
+        },
+        {
+          "id": "coa-1-5-simons",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Five",
+          "justice": "Mark Simons"
+        },
+        {
+          "id": "coa-1-5-burns",
+          "kind": "retention",
+          "title": "Associate Justice, Court of Appeal, First District, Division Five",
+          "justice": "Gordon Burns"
+        }
       ]
     },
     {
@@ -107,33 +558,163 @@
       "heading": "Nonpartisan Offices — School",
       "group": "offices",
       "contests": [
-        { "id": "superintendent", "kind": "office", "title": "State Superintendent of Public Instruction", "vote_for": 1, "order": "statewide",
+        {
+          "id": "superintendent",
+          "kind": "office",
+          "title": "State Superintendent of Public Instruction",
+          "vote_for": 1,
+          "order": "statewide",
           "candidates": [
-            { "name": "Richard Barrera", "surname": "Barrera", "designation": "State Superintendent Advisor" },
-            { "name": "Sonja Shaw", "surname": "Shaw", "designation": "School District President" } ] },
-        { "id": "board-of-education", "kind": "office", "title": "Member, Board of Education", "vote_for": 3, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Richard Barrera",
+              "surname": "Barrera",
+              "designation": "State Superintendent Advisor"
+            },
+            {
+              "name": "Sonja Shaw",
+              "surname": "Shaw",
+              "designation": "School District President"
+            }
+          ],
+          "verified_order_by_ad": {
+            "17": [
+              "Sonja Shaw",
+              "Richard Barrera"
+            ]
+          },
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "board-of-education",
+          "kind": "office",
+          "title": "Member, Board of Education",
+          "vote_for": 3,
+          "order": "verified",
           "candidates": [
-            { "name": "Autumn Brown Garibay", "surname": "Brown Garibay", "surname_uncertain": true },
-            { "name": "Virginia Cheung", "surname": "Cheung" },
-            { "name": "Alida Fisher", "surname": "Fisher", "incumbent": true },
-            { "name": "Ryan Hazelton", "surname": "Hazelton" },
-            { "name": "Phil Kim", "surname": "Kim", "incumbent": true },
-            { "name": "Laurance Lee", "surname": "Lee" },
-            { "name": "Reina Tello", "surname": "Tello" },
-            { "name": "Tim Tung", "surname": "Tung" } ] },
-        { "id": "ccb-full", "kind": "office", "title": "Trustee, Community College Board", "subtitle": "4-year term ending January 8, 2031", "vote_for": 3, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Ryan Hazelton",
+              "surname": "Hazelton"
+            },
+            {
+              "name": "Phil Kim",
+              "surname": "Kim",
+              "incumbent": true
+            },
+            {
+              "name": "Virginia Cheung",
+              "surname": "Cheung"
+            },
+            {
+              "name": "Laurance Lee",
+              "surname": "Lee"
+            },
+            {
+              "name": "Autumn Brown Garibay",
+              "surname": "Brown Garibay"
+            },
+            {
+              "name": "Alida Fisher",
+              "surname": "Fisher",
+              "incumbent": true
+            },
+            {
+              "name": "Reina Tello",
+              "surname": "Tello"
+            },
+            {
+              "name": "Tim Tung",
+              "surname": "Tung"
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "ccb-full",
+          "kind": "office",
+          "title": "Trustee, Community College Board",
+          "subtitle": "4-year term ending January 8, 2031",
+          "vote_for": 3,
+          "order": "verified",
           "candidates": [
-            { "name": "Elijah Ball", "surname": "Ball" },
-            { "name": "Rome Moses Jones", "surname": "Jones" },
-            { "name": "Monroe Lace", "surname": "Lace" },
-            { "name": "Leah LaCroix", "surname": "LaCroix" },
-            { "name": "Jeremy Lee", "surname": "Lee" },
-            { "name": "Bunny McFadden", "surname": "McFadden" },
-            { "name": "Erwin Tam", "surname": "Tam" },
-            { "name": "Lisa Palagi Wynn II", "surname": "Wynn" } ] },
-        { "id": "ccb-partial", "kind": "office", "title": "Trustee, Community College Board", "subtitle": "Remainder of the current term ending January 8, 2029", "vote_for": 1, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Lisa Palagi Wynn II",
+              "surname": "Wynn"
+            },
+            {
+              "name": "Rome Moses Jones",
+              "surname": "Jones"
+            },
+            {
+              "name": "Leah LaCroix",
+              "surname": "LaCroix"
+            },
+            {
+              "name": "Monroe Lace",
+              "surname": "Lace"
+            },
+            {
+              "name": "Jeremy Lee",
+              "surname": "Lee"
+            },
+            {
+              "name": "Elijah Ball",
+              "surname": "Ball"
+            },
+            {
+              "name": "Bunny McFadden",
+              "surname": "McFadden"
+            },
+            {
+              "name": "Erwin Tam",
+              "surname": "Tam"
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "ccb-partial",
+          "kind": "office",
+          "title": "Trustee, Community College Board",
+          "subtitle": "Remainder of the current term ending January 8, 2029",
+          "vote_for": 1,
+          "order": "verified",
           "candidates": [
-            { "name": "Ruth Ferguson", "surname": "Ferguson", "incumbent": true } ] }
+            {
+              "name": "Ruth Ferguson",
+              "surname": "Ferguson",
+              "incumbent": true
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        }
       ]
     },
     {
@@ -142,9 +723,22 @@
       "group": "offices",
       "instruction": "Vote for One",
       "contests": [
-        { "id": "bart-8", "kind": "office", "title": "BART Director, District 8", "applies": { "bart": 8 }, "order": "sos_alphabet", "local_list": true,
+        {
+          "id": "bart-8",
+          "kind": "office",
+          "title": "BART Director, District 8",
+          "applies": {
+            "bart": 8
+          },
+          "order": "sos_alphabet",
+          "local_list": true,
           "candidates": [
-            { "name": "Sara Barz", "surname": "Barz" } ] }
+            {
+              "name": "Sara Barz",
+              "surname": "Barz"
+            }
+          ]
+        }
       ]
     },
     {
@@ -154,44 +748,210 @@
       "instruction": "Elected using ranked-choice voting",
       "rcv": true,
       "contests": [
-        { "id": "assessor", "kind": "office", "title": "Assessor-Recorder", "rcv": true, "order": "sos_alphabet", "local_list": true,
+        {
+          "id": "assessor",
+          "kind": "office",
+          "title": "Assessor-Recorder",
+          "rcv": true,
+          "order": "verified",
           "candidates": [
-            { "name": "Joaquín Torres", "surname": "Torres", "incumbent": true } ] },
-        { "id": "public-defender", "kind": "office", "title": "Public Defender", "rcv": true, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Joaquín Torres",
+              "surname": "Torres",
+              "incumbent": true
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "public-defender",
+          "kind": "office",
+          "title": "Public Defender",
+          "rcv": true,
+          "order": "verified",
           "candidates": [
-            { "name": "Mano Raju", "surname": "Raju", "incumbent": true } ] },
-        { "id": "sup-2", "kind": "office", "title": "Member, Board of Supervisors, District 2", "applies": { "sup": 2 }, "rcv": true, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Mano Raju",
+              "surname": "Raju",
+              "incumbent": true
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "sup-2",
+          "kind": "office",
+          "title": "Member, Board of Supervisors, District 2",
+          "applies": {
+            "sup": 2
+          },
+          "rcv": true,
+          "order": "sos_alphabet",
+          "local_list": true,
           "candidates": [
-            { "name": "Guy McCoy", "surname": "McCoy" },
-            { "name": "Monthanus Ratanapakdee", "surname": "Ratanapakdee" },
-            { "name": "Stephen Sherrill", "surname": "Sherrill", "incumbent": true } ] },
-        { "id": "sup-4", "kind": "office", "title": "Member, Board of Supervisors, District 4", "applies": { "sup": 4 }, "rcv": true, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Guy McCoy",
+              "surname": "McCoy"
+            },
+            {
+              "name": "Monthanus Ratanapakdee",
+              "surname": "Ratanapakdee"
+            },
+            {
+              "name": "Stephen Sherrill",
+              "surname": "Sherrill",
+              "incumbent": true
+            }
+          ]
+        },
+        {
+          "id": "sup-4",
+          "kind": "office",
+          "title": "Member, Board of Supervisors, District 4",
+          "applies": {
+            "sup": 4
+          },
+          "rcv": true,
+          "order": "sos_alphabet",
+          "local_list": true,
           "candidates": [
-            { "name": "Albert Chow", "surname": "Chow" },
-            { "name": "Jeremy Julian Greco", "surname": "Greco" },
-            { "name": "Alan Wong", "surname": "Wong", "incumbent": true } ] },
-        { "id": "sup-6", "kind": "office", "title": "Member, Board of Supervisors, District 6", "applies": { "sup": 6 }, "rcv": true, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Albert Chow",
+              "surname": "Chow"
+            },
+            {
+              "name": "Jeremy Julian Greco",
+              "surname": "Greco"
+            },
+            {
+              "name": "Alan Wong",
+              "surname": "Wong",
+              "incumbent": true
+            }
+          ]
+        },
+        {
+          "id": "sup-6",
+          "kind": "office",
+          "title": "Member, Board of Supervisors, District 6",
+          "applies": {
+            "sup": 6
+          },
+          "rcv": true,
+          "order": "sos_alphabet",
+          "local_list": true,
           "candidates": [
-            { "name": "Alex Behrend", "surname": "Behrend" },
-            { "name": "Matt Dorsey", "surname": "Dorsey", "incumbent": true } ] },
-        { "id": "sup-8", "kind": "office", "title": "Member, Board of Supervisors, District 8", "applies": { "sup": 8 }, "rcv": true, "order": "sos_alphabet", "local_list": true,
+            {
+              "name": "Alex Behrend",
+              "surname": "Behrend"
+            },
+            {
+              "name": "Matt Dorsey",
+              "surname": "Dorsey",
+              "incumbent": true
+            }
+          ]
+        },
+        {
+          "id": "sup-8",
+          "kind": "office",
+          "title": "Member, Board of Supervisors, District 8",
+          "applies": {
+            "sup": 8
+          },
+          "rcv": true,
+          "order": "verified",
           "candidates": [
-            { "name": "Gary McCoy", "surname": "McCoy" },
-            { "name": "Michael T. Nguyen", "surname": "Nguyen" },
-            { "name": "Darshini Patel", "surname": "Patel" },
-            { "name": "Emanuel “Manny” Yekutiel", "surname": "Yekutiel",
+            {
+              "name": "Darshini Patel",
+              "surname": "Patel"
+            },
+            {
+              "name": "Michael T. Nguyen",
+              "surname": "Nguyen"
+            },
+            {
+              "name": "Emanuel “Manny” Yekutiel",
+              "surname": "Yekutiel",
               "note": "Ended his campaign on October 1; his name remains on the ballot.",
-              "note_source": { "label": "GrowSF voter guide, District 8", "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/" } } ] },
-        { "id": "sup-10", "kind": "office", "title": "Member, Board of Supervisors, District 10", "applies": { "sup": 10 }, "rcv": true, "order": "sos_alphabet", "local_list": true,
+              "note_source": {
+                "label": "GrowSF voter guide, District 8",
+                "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/"
+              }
+            },
+            {
+              "name": "Gary McCoy",
+              "surname": "McCoy"
+            }
+          ],
+          "verified_from": {
+            "file": "94114-cd11-ad17-sup8-bart9.csv",
+            "ballot_type": {
+              "cd": 11,
+              "ad": 17,
+              "sup": 8
+            }
+          }
+        },
+        {
+          "id": "sup-10",
+          "kind": "office",
+          "title": "Member, Board of Supervisors, District 10",
+          "applies": {
+            "sup": 10
+          },
+          "rcv": true,
+          "order": "sos_alphabet",
+          "local_list": true,
           "candidates": [
-            { "name": "Pearci “PJ” Bastiany III", "surname": "Bastiany" },
-            { "name": "Dionjay (DJ) Brookter", "surname": "Brookter" },
-            { "name": "Deandra Bryant", "surname": "Bryant" },
-            { "name": "Theo Ellington", "surname": "Ellington" },
-            { "name": "J.R. Eppler", "surname": "Eppler" },
-            { "name": "Mike Trouble Lin", "surname": "Lin" },
-            { "name": "Jessica Pessecow", "surname": "Pessecow" },
-            { "name": "Shawn M. Richard", "surname": "Richard" } ] }
+            {
+              "name": "Pearci “PJ” Bastiany III",
+              "surname": "Bastiany"
+            },
+            {
+              "name": "Dionjay (DJ) Brookter",
+              "surname": "Brookter"
+            },
+            {
+              "name": "Deandra Bryant",
+              "surname": "Bryant"
+            },
+            {
+              "name": "Theo Ellington",
+              "surname": "Ellington"
+            },
+            {
+              "name": "J.R. Eppler",
+              "surname": "Eppler"
+            },
+            {
+              "name": "Mike Trouble Lin",
+              "surname": "Lin"
+            },
+            {
+              "name": "Jessica Pessecow",
+              "surname": "Pessecow"
+            },
+            {
+              "name": "Shawn M. Richard",
+              "surname": "Richard"
+            }
+          ]
+        }
       ]
     },
     {
@@ -199,20 +959,104 @@
       "heading": "State Propositions",
       "group": "measures",
       "contests": [
-        { "id": "prop-1", "kind": "measure", "level": "state", "letter": "1", "title": "Authorizes Bonds for Housing Affordability Programs" },
-        { "id": "prop-2", "kind": "measure", "level": "state", "letter": "2", "title": "Increases State’s Rainy Day Fund" },
-        { "id": "prop-3", "kind": "measure", "level": "state", "letter": "3", "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes" },
-        { "id": "prop-4", "kind": "measure", "level": "state", "letter": "4", "title": "Repeals Prohibition Against Public Funding of Election Campaigns" },
-        { "id": "prop-5", "kind": "measure", "level": "state", "letter": "5", "title": "Changes Recall Election Process for Statewide Officers" },
-        { "id": "prop-37", "kind": "measure", "level": "state", "letter": "37", "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes" },
-        { "id": "prop-38", "kind": "measure", "level": "state", "letter": "38", "title": "Authorizes Bonds for Immunology Medical Research" },
-        { "id": "prop-39", "kind": "measure", "level": "state", "letter": "39", "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification" },
-        { "id": "prop-40", "kind": "measure", "level": "state", "letter": "40", "title": "Imposes One-Time Tax on Certain Taxpayers" },
-        { "id": "prop-41", "kind": "measure", "level": "state", "letter": "41", "title": "Prohibits New State Taxes that Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes" },
-        { "id": "prop-42", "kind": "measure", "level": "state", "letter": "42", "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes" },
-        { "id": "prop-43", "kind": "measure", "level": "state", "letter": "43", "title": "Limits Voters’ Ability to Raise Revenues for Local Government Services" },
-        { "id": "prop-44", "kind": "measure", "level": "state", "letter": "44", "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services" },
-        { "id": "prop-45", "kind": "measure", "level": "state", "letter": "45", "title": "Modifies Environmental Review for Certain Projects" }
+        {
+          "id": "prop-1",
+          "kind": "measure",
+          "level": "state",
+          "letter": "1",
+          "title": "Authorizes Bonds for Housing Affordability Programs"
+        },
+        {
+          "id": "prop-2",
+          "kind": "measure",
+          "level": "state",
+          "letter": "2",
+          "title": "Increases State’s Rainy Day Fund"
+        },
+        {
+          "id": "prop-3",
+          "kind": "measure",
+          "level": "state",
+          "letter": "3",
+          "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes"
+        },
+        {
+          "id": "prop-4",
+          "kind": "measure",
+          "level": "state",
+          "letter": "4",
+          "title": "Repeals Prohibition Against Public Funding of Election Campaigns"
+        },
+        {
+          "id": "prop-5",
+          "kind": "measure",
+          "level": "state",
+          "letter": "5",
+          "title": "Changes Recall Election Process for Statewide Officers"
+        },
+        {
+          "id": "prop-37",
+          "kind": "measure",
+          "level": "state",
+          "letter": "37",
+          "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes"
+        },
+        {
+          "id": "prop-38",
+          "kind": "measure",
+          "level": "state",
+          "letter": "38",
+          "title": "Authorizes Bonds for Immunology Medical Research"
+        },
+        {
+          "id": "prop-39",
+          "kind": "measure",
+          "level": "state",
+          "letter": "39",
+          "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification"
+        },
+        {
+          "id": "prop-40",
+          "kind": "measure",
+          "level": "state",
+          "letter": "40",
+          "title": "Imposes One-Time Tax on Certain Taxpayers"
+        },
+        {
+          "id": "prop-41",
+          "kind": "measure",
+          "level": "state",
+          "letter": "41",
+          "title": "Prohibits New State Taxes that Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes"
+        },
+        {
+          "id": "prop-42",
+          "kind": "measure",
+          "level": "state",
+          "letter": "42",
+          "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes"
+        },
+        {
+          "id": "prop-43",
+          "kind": "measure",
+          "level": "state",
+          "letter": "43",
+          "title": "Limits Voters’ Ability to Raise Revenues for Local Government Services"
+        },
+        {
+          "id": "prop-44",
+          "kind": "measure",
+          "level": "state",
+          "letter": "44",
+          "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services"
+        },
+        {
+          "id": "prop-45",
+          "kind": "measure",
+          "level": "state",
+          "letter": "45",
+          "title": "Modifies Environmental Review for Certain Projects"
+        }
       ]
     },
     {
@@ -220,7 +1064,13 @@
       "heading": "Regional Measure",
       "group": "measures",
       "contests": [
-        { "id": "rtm", "kind": "measure", "level": "regional", "letter": "RTM", "title": "Regional Transit Measure" }
+        {
+          "id": "rtm",
+          "kind": "measure",
+          "level": "regional",
+          "letter": "RTM",
+          "title": "Regional Transit Measure"
+        }
       ]
     },
     {
@@ -228,16 +1078,76 @@
       "heading": "City and County Propositions",
       "group": "measures",
       "contests": [
-        { "id": "prop-a", "kind": "measure", "level": "city", "letter": "A", "title": "Charter Changes Affecting Various City Departments and Commissions" },
-        { "id": "prop-b", "kind": "measure", "level": "city", "letter": "B", "title": "Establishing a Municipal Finance Corporation and a Public Bank" },
-        { "id": "prop-c", "kind": "measure", "level": "city", "letter": "C", "title": "Contributions to the Housing Trust Fund" },
-        { "id": "prop-d", "kind": "measure", "level": "city", "letter": "D", "title": "Changes to Ballot Measure Process" },
-        { "id": "prop-e", "kind": "measure", "level": "city", "letter": "E", "title": "City Administrator’s Authority and Changes to City Contracting" },
-        { "id": "prop-f", "kind": "measure", "level": "city", "letter": "F", "title": "Changes to Executive Branch Management" },
-        { "id": "prop-g", "kind": "measure", "level": "city", "letter": "G", "title": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park" },
-        { "id": "prop-h", "kind": "measure", "level": "city", "letter": "H", "title": "Parcel Tax to Fund Muni Operations" },
-        { "id": "prop-i", "kind": "measure", "level": "city", "letter": "I", "title": "Changes to Real Property Transfer Tax" },
-        { "id": "prop-j", "kind": "measure", "level": "city", "letter": "J", "title": "Removal of Foreclosure Exemption for Real Property Transfer Tax" }
+        {
+          "id": "prop-a",
+          "kind": "measure",
+          "level": "city",
+          "letter": "A",
+          "title": "Charter Changes Affecting Various City Departments and Commissions"
+        },
+        {
+          "id": "prop-b",
+          "kind": "measure",
+          "level": "city",
+          "letter": "B",
+          "title": "Establishing a Municipal Finance Corporation and a Public Bank"
+        },
+        {
+          "id": "prop-c",
+          "kind": "measure",
+          "level": "city",
+          "letter": "C",
+          "title": "Contributions to the Housing Trust Fund"
+        },
+        {
+          "id": "prop-d",
+          "kind": "measure",
+          "level": "city",
+          "letter": "D",
+          "title": "Changes to Ballot Measure Process"
+        },
+        {
+          "id": "prop-e",
+          "kind": "measure",
+          "level": "city",
+          "letter": "E",
+          "title": "City Administrator’s Authority and Changes to City Contracting"
+        },
+        {
+          "id": "prop-f",
+          "kind": "measure",
+          "level": "city",
+          "letter": "F",
+          "title": "Changes to Executive Branch Management"
+        },
+        {
+          "id": "prop-g",
+          "kind": "measure",
+          "level": "city",
+          "letter": "G",
+          "title": "Allowing Private Vehicles on the Upper Great Highway in Sunset Dunes Park"
+        },
+        {
+          "id": "prop-h",
+          "kind": "measure",
+          "level": "city",
+          "letter": "H",
+          "title": "Parcel Tax to Fund Muni Operations"
+        },
+        {
+          "id": "prop-i",
+          "kind": "measure",
+          "level": "city",
+          "letter": "I",
+          "title": "Changes to Real Property Transfer Tax"
+        },
+        {
+          "id": "prop-j",
+          "kind": "measure",
+          "level": "city",
+          "letter": "J",
+          "title": "Removal of Foreclosure Exemption for Real Property Transfer Tax"
+        }
       ]
     }
   ]
