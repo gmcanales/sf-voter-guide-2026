@@ -83,6 +83,21 @@
 .vg-districts-box > .vg-setup-hint { margin-top: 8px; }
 .vg-districts-summary { font-weight: 500; color: var(--text-muted); }
 
+.vg-group-divider {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 18px 0 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+.vg-group-divider::after { content: ''; flex: 1; height: 1px; background: var(--border); }
+.vg-group-divider:first-of-type { margin-top: 6px; }
+/* County official text arrives with paragraph breaks. */
+.vg-detail p, .vg-args p { white-space: pre-line; }
 .vg-group-cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 10px; }
 .vg-group-card {
   padding: 12px 14px;

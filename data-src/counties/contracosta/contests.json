@@ -1,0 +1,1591 @@
+[
+ {
+  "level": "Federal",
+  "group": "Legislative Branch Voter Nominated Offices United States Representative",
+  "title": "United States Representative, District 8",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rudy Recile",
+    "party": "REP",
+    "designation": ""
+   },
+   {
+    "name": "John Garamendi",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Federal",
+  "group": "Legislative Branch Voter Nominated Offices United States Representative",
+  "title": "United States Representative, District 9",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Josh Harder",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "John McBride",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Federal",
+  "group": "Legislative Branch Voter Nominated Offices United States Representative",
+  "title": "United States Representative, District 10",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Mark DeSaulnier",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Jeff Frese",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Member of the State Board of Equalization, District 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "John Pimentel",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Sally J. Lieber",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Governor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Steve Hilton",
+    "party": "REP",
+    "designation": ""
+   },
+   {
+    "name": "Xavier Becerra",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Lieutenant Governor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Gloria Romero",
+    "party": "REP",
+    "designation": ""
+   },
+   {
+    "name": "Fiona Ma",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Secretary of State",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Donald P. (Don) Wagner",
+    "party": "REP",
+    "designation": ""
+   },
+   {
+    "name": "Shirley N. Weber",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Controller",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Malia M. Cohen",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Herb W Morgan",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jennifer Hawks",
+    "party": "REP",
+    "designation": ""
+   },
+   {
+    "name": "Eleni Kounalakis",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Attorney General",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rob Bonta",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Michael E. Gates",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Executive Branch Voter Nominated Offices",
+  "title": "Insurance Commissioner",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jane Kim",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Ben Allen",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Legislative Branch Voter Nominated Offices Member of the State Assembly",
+  "title": "Member Of The State Assembly, District 11",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Lori D Wilson",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Jenny Leilani Callison",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Legislative Branch Voter Nominated Offices Member of the State Assembly",
+  "title": "Member Of The State Assembly, District 14",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Buffy Wicks",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Mark Rendon",
+    "party": "GRN",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Legislative Branch Voter Nominated Offices Member of the State Assembly",
+  "title": "Member Of The State Assembly, District 15",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Arthur Webb",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Anamarie Avila Farias",
+    "party": "DEM",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "State",
+  "group": "Legislative Branch Voter Nominated Offices Member of the State Assembly",
+  "title": "Member Of The State Assembly, District 16",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rebecca Bauer-Kahan",
+    "party": "DEM",
+    "designation": ""
+   },
+   {
+    "name": "Joseph A. Rubay",
+    "party": "REP",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Antioch",
+  "title": "City of Antioch, City Council, District 1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Joy Motts",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Tamisha Torres-Walker",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Antioch",
+  "title": "City of Antioch, City Council, District 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sandra G White",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Monica E Wilson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Matty Matthews Alappat",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Andrew Becker",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Brentwood",
+  "title": "City of Brentwood, City Council, District 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Tammy Zickuhr",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kris Brand",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Vinoy Mereddy",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Brentwood",
+  "title": "City of Brentwood, City Council, District 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Stephanie Williams-Rogers",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sheree Shannon",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Holley Bishop-Mello",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Clayton",
+  "title": "City of Clayton, City Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Maria Shulman",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Amy Callaghan",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Charles J. Schmidt",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Kim Trupiano",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Concord",
+  "title": "City of Concord, City Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Patti Barsotti",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Concord",
+  "title": "City of Concord, City Council, District 1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Laura Hoffmeister",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Maria Bagley",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Trish Brazil",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Concord",
+  "title": "City of Concord, City Council, District 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Robyn Kuslits",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dena Acosta Beere",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Douglas Lezameta",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Don Seta",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Concord",
+  "title": "City of Concord, City Council, District 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Aeysha Corio",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Laura Nakamura",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "Town of Danville",
+  "title": "Town of Danville, Town Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Denton Carlson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Pratima Sonavne",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Robert Storer",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of El Cerrito",
+  "title": "City of El Cerrito, City Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Kimberly White",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Carolyn Wysinger",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mary Ann \"MJ\" Jawili",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Forrest M. Lanning",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Wally Nowinski",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Gabe Quinto",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Hercules",
+  "title": "City of Hercules, City Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "John Delgado",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Preet Sidhu",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dion Bailey",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Adrena Breckenridge",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Martinez",
+  "title": "City of Martinez, City Council, District 1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jay Howard",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Nakenya Allen",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "Town of Moraga",
+  "title": "Town of Moraga, Town Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Kerry Hillis",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Steven Woehleke",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Bill Carman",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alexis I. Mapel",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Orinda",
+  "title": "City of Orinda, City Council",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Brandyn Iverson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Janet Riley",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Juana Rudati",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Latika Malkani",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pinole",
+  "title": "City of Pinole, City Council",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Matthew \"Matty\" Avery",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Truc \"Christy\" Lam-Julian",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Libby Duarte",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Gabriel Sandoval",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Tina Brown",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pittsburg",
+  "title": "City of Pittsburg, City Council",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Arlene Kobata (Siu Ling)",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "C.C. Cardinalli-Macaluso",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Wolf Croskey",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Amhari Perkins",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Pauline Johnson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dionne Adams",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mark Linde",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alvin Nelson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sonja Shephard",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Carolynne Born",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Iztaccuauhtli Hector Gonzalez",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pittsburg",
+  "title": "City of Pittsburg, City Clerk",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Latoyya P. Ella Bordelon",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Angel Rodriguez",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Melaine Apple Venenciano",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alice E. Evenson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pittsburg",
+  "title": "City of Pittsburg, Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Nancy Parent",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pleasant Hill",
+  "title": "City of Pleasant Hill, City Council, District 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jason Seto",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Zac Shess",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Pleasant Hill",
+  "title": "City of Pleasant Hill, City Council, District 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sue Noack",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Quy Tran",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Richmond",
+  "title": "City of Richmond, Mayor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Claudia Jiménez",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Ahmad Anderson",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Pablo",
+  "title": "City of San Pablo, City Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Rita Xavier",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Caden Cotton-Blake",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Elizabeth Pabon-Alvarado",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Anna Villalobos",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Pablo",
+  "title": "City of San Pablo, City Clerk",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Dorothy Gantt",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Pablo",
+  "title": "City of San Pablo, Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Viviana Toledo",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Ramon",
+  "title": "City of San Ramon, Mayor",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Emma Chigbu",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mark H. Armstrong",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Paschalis Ntatsos",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Ramon",
+  "title": "City of San Ramon, City Council, District 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Chirag Kathrani",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Richard J. Adler",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of San Ramon",
+  "title": "City of San Ramon, City Council, District 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Jeffrey Joh",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Marisol Rubio",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Walnut Creek",
+  "title": "City of Walnut Creek, City Council",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Cherise Marie Khaund",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Brendan Moran",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "City",
+  "group": "City of Walnut Creek",
+  "title": "City of Walnut Creek, Treasurer",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Ronald Cassano",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Acalanes Union High School District",
+  "title": "Acalanes Union High School District, Trustee Area 1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Stacy Schweppe",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Nithin Iyengar",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Antioch Unified School District",
+  "title": "Antioch Unified School District, Trustee Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Brandon Dawkins",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mary H Rocha",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Brentwood Union School District",
+  "title": "Brentwood Union School District",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Oxsana Pajoluk",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mark Anderson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Scott S. Dudek",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Emil Johnson Geddes",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Steve Gursky",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Contra Costa Community College District",
+  "title": "Contra Costa Community College District, Ward 1",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Raquel Donoso",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Cameron Sasai",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Contra Costa Community College District",
+  "title": "Contra Costa Community College District, Ward 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Becca Barrett",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Allyse Tanovitz",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Contra Costa County Board Of Education",
+  "title": "Contra Costa County Board Of Education, Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Pamela West",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sarah Butler",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sibyl Minighini",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "John Swett Unified School District",
+  "title": "John Swett Unified School District",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Bruce Hoeger",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Samantha Watson-Alavarado",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Terri Burk",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Shane Reinhart",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Knightsen Elementary School District",
+  "title": "Knightsen Elementary School District",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Erik M. Hansen",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Liesel Williams",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Robin Pastor",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Liberty Union High School District",
+  "title": "Liberty Union High School District, Trustee Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Tamara Weber",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Hillary Fairbairn Pedrotti",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Mt. Diablo Unified School District",
+  "title": "Mt. Diablo Unified School District, Trustee Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Dorothy Weisenberger",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jane Baulch-Enloe",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Mt. Diablo Unified School District",
+  "title": "Mt. Diablo Unified School District, Trustee Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Al Anderson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Brian Thomas Lawrence",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Oakley Union Elementary School District",
+  "title": "Oakley Union Elementary School District, Trustee Area 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Craig Pearson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Isaiah B.N. Mateas",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Orinda Union School District",
+  "title": "Orinda Union School District",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "John Chabalko",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Edda Collins Coleman",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Chloe Aftel",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Katie Shogan",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "San Ramon Valley Unified School District",
+  "title": "San Ramon Valley Unified School District, Trustee Area 5",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Rachel Hurd",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Joel Woods",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Superintendent of Public Instruction",
+  "title": "State Superintendent of Public Instruction",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Sonja Shaw",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Richard Barrera",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Schools",
+  "group": "Walnut Creek School District",
+  "title": "Walnut Creek School District",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Eryn Holl King",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Wenlei  Johnson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Aileen Ong",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Geetha Ganti",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Heidi Hernandez Gatty",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Rod Ehsani",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Central Contra Costa Sanitary District",
+  "title": "Central Contra Costa Sanitary District, Director, Division 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Brian Henderson",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Michael Robert McGill",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Contra Costa Water District",
+  "title": "Contra Costa Water District, Division 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Allison Picard",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Daniel T. Fitzpatrick",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Diablo Community Services District",
+  "title": "Diablo Community Services District, Director",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Gregory R Lorenz",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Steven Lichliter",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alan Bonny",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Jessica Raefield",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Dublin San Ramon Services District",
+  "title": "Dublin San Ramon Services District - Division 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Kismat Kathrani",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Donald Downey",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "East Bay Municipal Utility District",
+  "title": "East Bay M.U.D. Ward 3, Director",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Marguerite Young",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Don Gray",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "East Bay Municipal Utility District",
+  "title": "East Bay M.U.D. Ward 7, Director",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Gary Wolff",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "April Chan",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Luis Reynoso",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Joseph Grcar",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "East Bay Regional Park District",
+  "title": "East Bay Reg. Park District Ward 7, Director",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Colin J. Coffey",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Inderprit \"Indy Rishi Singh\" Sekhon",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Ironhouse Sanitary District",
+  "title": "Ironhouse Sanitary District",
+  "vote_for": 2,
+  "candidates": [
+   {
+    "name": "Kerry Harvey",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Chris A. Christean",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Dave Corridon",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Chris Lauritzen",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Paschal Iwuh",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Moraga-Orinda Fire Protection District",
+  "title": "Moraga-Orinda Fire Protection District, Division 3",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Steve Cohn",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "John Donnelly",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Moraga-Orinda Fire Protection District",
+  "title": "Moraga-Orinda Fire Protection District, Division 4",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Linda Stevens",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Mike Roemer",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Mt. View Sanitary District",
+  "title": "Mt. View Sanitary District, Area 2",
+  "vote_for": 1,
+  "candidates": [
+   {
+    "name": "Gwyneth Gilkey",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Ed McGee",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ },
+ {
+  "level": "Special District",
+  "group": "Pleasant Hill Recreation & Park District",
+  "title": "Pleasant Hill Recreation & Park District",
+  "vote_for": 3,
+  "candidates": [
+   {
+    "name": "Derek M Wurst",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Raul Ortega",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Alex Nichol",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Sandra Bonato",
+    "party": "",
+    "designation": ""
+   },
+   {
+    "name": "Robert \"Bobby\" Glover",
+    "party": "",
+    "designation": ""
+   }
+  ]
+ }
+]

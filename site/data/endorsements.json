@@ -39,7 +39,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "growsf",
@@ -89,7 +90,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "dsasf",
@@ -128,7 +130,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "sflc",
@@ -171,7 +174,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "sfchamber",
@@ -230,7 +234,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "spur",
@@ -271,7 +276,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "uesf",
@@ -311,7 +317,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "cna",
@@ -361,7 +368,8 @@
     "sf",
     "alameda",
     "sanmateo"
-   ]
+   ],
+   "scope": "statewide"
   },
   {
    "id": "calchamber",
@@ -403,7 +411,8 @@
     "sf",
     "alameda",
     "sanmateo"
-   ]
+   ],
+   "scope": "statewide"
   },
   {
    "id": "lwv",
@@ -454,7 +463,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "league",
@@ -502,7 +512,8 @@
    ],
    "covers": [
     "sf"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "sierra",
@@ -548,7 +559,8 @@
    "covers": [
     "sf",
     "alameda"
-   ]
+   ],
+   "scope": "local"
   },
   {
    "id": "yimby",
@@ -590,7 +602,8 @@
     "sf",
     "alameda",
     "sanmateo"
-   ]
+   ],
+   "scope": "statewide"
   }
  ],
  "positions": {

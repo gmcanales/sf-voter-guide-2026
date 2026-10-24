@@ -9,6 +9,7 @@ const COUNTIES = {
   sf: { name: 'San Francisco', title: 'SF Voter Guide 2026' },
   alameda: { name: 'Alameda County', title: 'Alameda County Ballot 2026', preview: true },
   sanmateo: { name: 'San Mateo County', title: 'San Mateo County Ballot 2026', preview: true },
+  contracosta: { name: 'Contra Costa County', title: 'Contra Costa County Ballot 2026', preview: true },
 };
 const COUNTY = (() => {
   const c = new URLSearchParams(location.search).get('county');
@@ -338,7 +339,7 @@ function renderDetails(contest, asBlocks = false) {
   if (contest.kind === 'measure') {
     blocks.push(
       para('On the ballot', contest.question),
-      para('Summary', contest.summary),
+      para(contest.summary_label || 'Summary', contest.summary),
       para('The way it is now', contest.way_it_is_now),
       para('The proposal', contest.proposal),
       contest.yes_means || contest.no_means ? el('div', { class: 'vg-meaning' },
@@ -346,11 +347,16 @@ function renderDetails(contest, asBlocks = false) {
         el('div', {}, el('strong', {}, 'A NO vote means: '), contest.no_means || '—')) : null,
       para('Fiscal impact', contest.fiscal),
       contest.official_args ? el('div', { class: 'vg-args' },
-        el('div', {}, el('h4', {}, 'Official argument for'), el('p', {}, contest.official_args.for || '—')),
-        el('div', {}, el('h4', {}, 'Official argument against'), el('p', {}, contest.official_args.against || '—'))) : null,
+        el('div', {}, el('h4', {}, contest.official_args_label === 'digest' ? 'Argument for (our digest)' : 'Official argument for'), el('p', {}, contest.official_args.for || 'None filed.')),
+        el('div', {}, el('h4', {}, contest.official_args_label === 'digest' ? 'Argument against (our digest)' : 'Official argument against'), el('p', {}, contest.official_args.against || 'None filed.'))) : null,
       para('Listed supporters', contest.listed_supporters),
       para('Listed opponents', contest.listed_opponents),
       para('How it got on the ballot', contest.how_placed || contest.placed_by),
+      contest.note ? el('p', { class: 'vg-fineprint' }, contest.note) : null,
+      contest.source ? el('p', { class: 'vg-fineprint' }, 'Source: ',
+        el('a', { href: contest.source.url, target: '_blank', rel: 'noopener' }, contest.source.label)) : null,
+      contest.sources?.length ? el('p', { class: 'vg-fineprint' }, 'Official documents: ',
+        contest.sources.map((x, i) => [i ? ' · ' : '', el('a', { href: x.url, target: '_blank', rel: 'noopener' }, x.label)])) : null,
       topicTags(contest).length ? el('div', { class: 'vg-detail' }, el('h4', {}, 'Why these topic tags (our labels)'),
         el('ul', {}, topicTags(contest).map(t => el('li', {},
           el('strong', {}, `${t.on === 'no' ? 'If NO: ' : ''}${topicLabel(t.topic)}${t.effect ? ` ${ARROW[t.effect]}` : ''}: `), t.why)))) : null,
@@ -1048,12 +1054,22 @@ function money(m) {
   return `${amt} · ${m.period}`;
 }
 
+// Local (county/city) groups and statewide groups, in that order, each under its own label.
+function groupBlocks() {
+  const local = GUIDES.guides.filter(g => g.scope !== 'statewide');
+  const state = GUIDES.guides.filter(g => g.scope === 'statewide');
+  const where = COUNTY === 'sf' ? 'San Francisco' : COUNTIES[COUNTY].name;
+  return [[`${where} groups`, local], ['Statewide groups', state]].filter(([, list]) => list.length);
+}
+
 function renderGroups() {
   const body = document.getElementById('groups-body');
   body.replaceChildren(
     el('p', { class: 'vg-setup-hint' },
       'These are the published guides we track. Their picks appear as small tags on each ballot line. Money and membership figures are rough public-record numbers.'),
-    el('div', { class: 'vg-group-cards' }, GUIDES.guides.map(g => el('article', { class: `vg-group-card vg-cat-${primaryCat(g)}` },
+    groupBlocks().map(([label, list]) => [
+      el('h4', { class: 'vg-group-divider' }, el('span', {}, label)),
+      el('div', { class: 'vg-group-cards' }, list.map(g => el('article', { class: `vg-group-card vg-cat-${primaryCat(g)}` },
       el('header', {},
         el('a', { href: g.url, target: '_blank', rel: 'noopener', class: 'vg-group-name' }, g.name),
         el('span', { class: 'vg-group-tags' }, (g.tags || []).map(t =>
@@ -1078,7 +1094,7 @@ function renderGroups() {
         el('dt', {}, 'Members'),
         el('dd', {}, g.members?.text || 'Not published.',
           g.members?.source ? [' ', el('a', { href: g.members.source.url, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source')] : null)),
-      el('p', { class: 'vg-fineprint' }, `Guide checked ${formatDate(g.accessed)}`)))),
+      el('p', { class: 'vg-fineprint' }, `Guide checked ${formatDate(g.accessed)}`))))]),
     GUIDES.money_note ? el('p', { class: 'vg-fineprint' }, GUIDES.money_note) : null);
 }
 
@@ -1154,6 +1170,15 @@ function validate() {
   }
 }
 
+// How much of the local measure text this preview carries, for the banner.
+function localMeasureDepth() {
+  const local = BALLOT.sections.flatMap(sec => sec.contests).filter(c => c.kind === 'measure' && c.level === 'local');
+  const deep = local.filter(c => c.summary).length;
+  if (!deep) return ', and local measures show titles only.';
+  if (deep === local.length) return '. Local measures include the official question, impartial analysis and arguments.';
+  return `. ${deep} of ${local.length} local measures include the official text so far; the rest show titles only.`;
+}
+
 function renderCountyChrome() {
   const info = COUNTIES[COUNTY];
   document.getElementById('county-name').textContent = info.name;
@@ -1177,7 +1202,7 @@ function renderCountyChrome() {
   banner.hidden = !PREVIEW;
   if (PREVIEW) banner.replaceChildren(el('strong', {}, 'Early preview. '),
     `Every contest and measure here is from ${info.name}'s official lists, but we haven't verified candidate order or ` +
-    'district boundaries, and local measures show titles only. Statewide races carry the same research as the San Francisco guide. ' +
+    `district boundaries${localMeasureDepth()} Statewide races carry the same research as the San Francisco guide. ` +
     'Pick your districts and city below to trim the list, and check your official sample ballot.');
 }
 

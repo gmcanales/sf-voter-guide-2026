@@ -36,6 +36,7 @@ LOCAL_ORDER_NOTE = ("Listed in the order of the county's official candidate list
 DISTRICT_ORDER_NOTE = ("Listed in the order of the county's official candidate list. Your printed ballot "
                        "uses a randomized-alphabet order. Check your sample ballot.")
 DISTRICT_NOTE = "Only voters who live in this district see it."
+PARA = "\n\n"   # paragraph break inside official text; the page renders it with white-space: pre-line
 
 COUNTIES = {
     "alameda": {
@@ -54,6 +55,22 @@ COUNTIES = {
             {"label": "Alameda County Registrar: Nov 3, 2026 election page", "url": "https://acvote.alamedacountyca.gov/election-information/elections?id=260"},
             {"label": "Alameda County Voter Information Guide (PDF)", "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf"},
             {"label": "Alameda County official candidate list", "url": "https://alamedacountyca.gov/rov_app/candidatelist"},
+            {"label": "CA Official Voter Information Guide", "url": "https://voterguide.sos.ca.gov/"},
+        ],
+    },
+    "contracosta": {
+        "name": "Contra Costa County", "short": "Contra Costa", "prefix": "cc",
+        "cities": ["Antioch", "Brentwood", "Clayton", "Concord", "Danville", "El Cerrito", "Hercules",
+                   "Lafayette", "Martinez", "Moraga", "Oakley", "Orinda", "Pinole", "Pittsburg",
+                   "Pleasant Hill", "Richmond", "San Pablo", "San Ramon", "Walnut Creek"],
+        # Richmond Annex is a neighborhood inside Richmond's city limits.
+        "city_labels": {"Richmond": "Richmond (incl. Richmond Annex)"},
+        "districts": {
+            "cd": {"label": "U.S. House district", "options": [8, 9, 10]},
+            "ad": {"label": "State Assembly district", "options": [11, 14, 15, 16]},
+        },
+        "sources": [
+            {"label": "Contra Costa Elections: Nov 3, 2026 election page", "url": "https://www.contracostavote.gov/election/november-3-2026-general-election/"},
             {"label": "CA Official Voter Information Guide", "url": "https://voterguide.sos.ca.gov/"},
         ],
     },
@@ -136,7 +153,7 @@ def office(cfg, title, vote_for, raw, applies=None, district_level=False, partis
 
 def city_of(title: str, cities: list) -> str | None:
     # "For Mayor, Oakland" / "City of Belmont Mayor" / "Town of Atherton ..." / "..., Albany"
-    m = re.match(r"(?:City|Town) of (.+?) (?:Member|Mayor|City Clerk|City Treasurer)", title)
+    m = re.match(r"(?:City|Town) of (.+?),? (?:Member|Mayor|City Clerk|City Treasurer|City Council|Town Council|Treasurer)", title)
     if m and m.group(1) in cities:
         return m.group(1)
     for c in sorted(cities, key=len, reverse=True):
@@ -184,7 +201,7 @@ def check_statewide(shared: dict, cid: str, raw: list, title: str) -> None:
 
 def load_county(county: str, cfg: dict):
     d = SRC / county
-    if county == "alameda":
+    if county in ("alameda", "contracosta"):
         contests = json.loads((d / "contests.json").read_text(encoding="utf-8"))
     else:
         contests = [c for c in json.loads((d / "roster.json").read_text(encoding="utf-8")) if c["on_ballot"]]
@@ -231,7 +248,27 @@ def classify(cfg, c):
     return ("school" if school else "district"), office(cfg, t, c["vote_for"], c["candidates"], district_level=True)
 
 
-def measure(cfg, m, city_index):
+def apply_digest(c: dict, dg: dict) -> None:
+    """Merge a hand-checked deep-dive digest (data-src/counties/<county>/measure_digests.json)."""
+    for k in ("question", "summary", "fiscal", "yes_means", "no_means", "threshold", "note"):
+        if dg.get(k):
+            c[k] = dg[k]
+    c["summary_label"] = "What it does (our digest of the impartial analysis)"
+    args = dg.get("args") or {}
+    gist = lambda side: (args.get(side) or {}).get("gist")
+    if gist("for") or gist("against"):
+        c["official_args"] = {"for": gist("for"), "against": gist("against")}
+        c["official_args_label"] = "digest"
+    signers = lambda side: "; ".join((args.get(side) or {}).get("signers") or []) or None
+    if signers("for"):
+        c["listed_supporters"] = signers("for")
+    if signers("against"):
+        c["listed_opponents"] = signers("against")
+    c["sources"] = dg.get("sources", [])
+    c.pop("source", None)
+
+
+def measure(cfg, m, city_index, digests=None):
     c = {"id": f"{cfg['prefix']}-measure-{m['letter'].lower()}", "kind": "measure", "level": "local",
          "letter": m["letter"], "title": m["title"], "subtitle": m["jurisdiction"]}
     city = re.match(r"(?:City|Town) of (.+)$", m["jurisdiction"])
@@ -239,6 +276,19 @@ def measure(cfg, m, city_index):
         c["applies"] = {"city": city_index[city.group(1)]}
     elif m["jurisdiction"] != cfg["name"]:
         c["subtitle"] = f"{m['jurisdiction']} · {DISTRICT_NOTE}"
+    # Counties whose measure pages were captured (Contra Costa) get the official text.
+    if m.get("question"):
+        c["question"] = m["question"]
+    if m.get("analysis"):
+        c["summary"] = PARA.join(m["analysis"])
+        c["summary_label"] = "Impartial analysis"
+    if m.get("arg_for") or m.get("arg_against"):
+        c["official_args"] = {"for": PARA.join(m.get("arg_for") or []) or None,
+                              "against": PARA.join(m.get("arg_against") or []) or None}
+    if m.get("source"):
+        c["source"] = {"label": "County measure page (official)", "url": m["source"]}
+    if digests and m["letter"] in digests:
+        apply_digest(c, digests[m["letter"]])
     return c
 
 
@@ -247,6 +297,8 @@ def main(county: str) -> None:
     sf = json.loads(SF_BALLOT.read_text(encoding="utf-8"))
     shared = shared_statewide(sf, cfg["districts"]["ad"]["options"])
     contests, measures = load_county(county, cfg)
+    dpath = SRC / county / "measure_digests.json"
+    digests = json.loads(dpath.read_text(encoding="utf-8")) if dpath.exists() else {}
     buckets = {"statewide": [], "voter": [], "school": [], "county": [], "city": [], "district": []}
     for c in contests:
         kind, val = classify(cfg, c)
@@ -263,10 +315,10 @@ def main(county: str) -> None:
                      "treasurer", "attorney-general", "insurance-commissioner", "boe-2"]]
     city_index = {name: i + 1 for i, name in enumerate(cfg["cities"])}
     city_contests = [c for _, c in sorted(buckets["city"], key=lambda x: cfg["cities"].index(x[0]))]
-    county_measures = [measure(cfg, m, city_index) for m in measures if m["jurisdiction"] == cfg["name"]]
-    school_measures = [measure(cfg, m, city_index) for m in measures
+    county_measures = [measure(cfg, m, city_index, digests) for m in measures if m["jurisdiction"] == cfg["name"]]
+    school_measures = [measure(cfg, m, city_index, digests) for m in measures
                        if m["letter"] != "RTM" and m["jurisdiction"] != cfg["name"] and not m["jurisdiction"].startswith(("City of", "Town of"))]
-    city_measures = [measure(cfg, m, city_index) for m in measures if m["jurisdiction"].startswith(("City of", "Town of"))]
+    city_measures = [measure(cfg, m, city_index, digests) for m in measures if m["jurisdiction"].startswith(("City of", "Town of"))]
 
     sections = [
         sec("voter-nominated", "Voter-Nominated Offices", "offices", state_offices + buckets["voter"]),
@@ -289,7 +341,7 @@ def main(county: str) -> None:
     sections = [s for s in sections if s and s["contests"]]
     districts = dict(cfg["districts"])
     districts["city"] = {"label": "City", "options": list(range(1, len(cfg["cities"]) + 1)) + [0],
-                         "labels": {**{str(i + 1): n for i, n in enumerate(cfg["cities"])}, "0": "Unincorporated area"}}
+                         "labels": {**{str(i + 1): cfg.get("city_labels", {}).get(n, n) for i, n in enumerate(cfg["cities"])}, "0": "Unincorporated area"}}
     out = {
         "election": {"name": "Statewide General Election", "jurisdiction": cfg["name"], "county": county,
                      "short": cfg["short"], "date": sf["election"]["date"], "preview": True,

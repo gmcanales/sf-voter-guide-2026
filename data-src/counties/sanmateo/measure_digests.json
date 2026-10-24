@@ -1,0 +1,81 @@
+{
+ "_about": "Deep-dive digests for measures on the Redwood City, San Mateo and South San Francisco ballots. `question` is the exact ballot question from the measure's resolution. `summary`, `fiscal`, `args.*.gist` are our plain-language digests of the official documents (impartial analysis, filed arguments); `args.*.signers` lists only typed signer names that are legible in the filing. Source PDFs are scans posted by the San Mateo County Elections Office; text was read with tools/ocr_pdf.py and checked by hand. Figures inside arguments are the arguing side's claims, not verified facts.",
+ "E": {
+  "question": "Shall the measure repealing Redwood City Municipal Code Chapter 42 and replacing it with a new Chapter 42 that (1) limits rent increases on multifamily housing built before February 1, 1995; (2) expands just-cause eviction protections to most rental housing, including single-family homes, ADUs, and affordable housing; (3) requires new City administration estimated to cost $5 million to $11 million annually, funded by annual rental property owner fees; and (4) increases relocation assistance for no-fault evictions, be adopted?",
+  "summary": "A citizen initiative (placed by petition; needs a simple majority). It replaces Redwood City's current renter rules (Chapter 42) with a stricter version.\n\nRent control: today's rules cap yearly increases at 5% to 10% on certain units 15+ years old and exempt single-family homes, condos and housing built after Feb 1, 1995. The measure covers specified units built before Feb 1, 1995, rolls base rents back to what was paid on Oct 29, 2025 (or the initial rent for later tenancies), and caps yearly increases at 60% of local inflation, never more than 5%. Landlords and tenants could petition the City for adjustments.\n\nEvictions: just-cause protections would extend to single-family homes, ADUs, deed-restricted affordable housing and mobile homes, with added notice rules and protections for elderly and disabled tenants and for households with children or educators during the school year. Tenants evicted for no fault would have a right to return if the unit comes back on the market.\n\nRelocation: no-fault evictions would pay the greater of 4 times HUD fair-market rent or $12,000, plus $6,000 more for elderly or disabled tenants.\n\nAlso: tenant safety plans before repairs, rules on buyout offers, bad-faith prohibitions, and civil remedies including treble damages. The City would set annual increases, hear petitions and charge landlords an annual fee to run the program.",
+  "fiscal": "The ballot question estimates new City administration at $5 million to $11 million a year, funded by annual fees on rental property owners.",
+  "yes_means": "Redwood City adopts the new, stricter rent-control and eviction rules.",
+  "no_means": "Redwood City's current Chapter 42 tenant protections stay as they are.",
+  "threshold": "Simple majority",
+  "args": {
+   "for": {"gist": "Corporate landlords own most local multifamily housing and rents have jumped; predictable increases tied to inflation, just-cause evictions and bigger relocation payments would keep families, teachers and seniors housed. Landlords can petition for a fair return, and the program is paid for by a landlord fee, not the general fund. The argument says over 7,000 voters signed to qualify it.",
+           "signers": ["Amelia Garibay, Community Leader, Faith in Action Bay Area", "Edith Salvatore, President, Sequoia District Teachers Association"]},
+   "against": {"gist": "The City Council voted 6-0 to oppose it. It would repeal the City's own tenant protections, which already exceed state law; a City-commissioned analysis put its cost at up to $11 million a year and 18 staff, which the opponents say would squeeze services. They argue it burdens nonprofit affordable housing, single-family homes and in-law units, and that fixing it later would require another citywide election.",
+               "signers": ["Elmer Martinez Saballos, Redwood City Mayor", "Isabella Chu, Redwood City Councilmember", "Amy Buckmaster, CEO, Chamber San Mateo County", "Michael Pierce, Board President, St. Francis Center"]}
+  },
+  "sources": [
+   {"label": "Resolution with ballot question (PDF)", "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M108-Contest%20Code-Reso-RWC%20Housing_Redacted.pdf"},
+   {"label": "City Attorney's impartial analysis (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-ME-ImpartialAnalysis-RWC-Housing_Redacted.pdf"},
+   {"label": "Argument in favor (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-5ArgInFavor-RWC%20Housing_Redacted_0.pdf"},
+   {"label": "Argument against (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M108-Contest%20Code-7ArgAgainst-RWC%20Housing_Redacted.pdf"}
+  ]
+ },
+ "F": {
+  "question": "Shall the measure amending the City of San Mateo's Charter to reflect the City's current district-based election system, update the process for scheduling Council meetings and filling Council vacancies, update or remove obsolete provisions, and make other technical and conforming changes, be adopted?",
+  "summary": "Placed by the City Council; needs a simple majority. A cleanup of San Mateo's City Charter:\n\n• Writes the district elections San Mateo has used since 2022 into the Charter, with boundaries redrawn after each federal census, and drops language about running for more than one at-large seat.\n• Removes an expired provision that extended the terms of Councilmembers elected in 2015 and 2017.\n• Gives the City 60 days instead of 30 to fill a Council vacancy.\n• A Councilmember would forfeit office after 60 days' unapproved absence from the City, up from 30.\n• Lets the Council set its regular meeting day and time by resolution.\n• Allows publishing a summary of urgency ordinances, and ends their automatic repeal on day 91.\n• Drops the Charter's detailed candidate-statement requirement and the sealed-bid, low-bidder rule for the City's legal-notice newspaper.\n• Clarifies the Finance Director's title and appointment; gender-neutral wording.",
+  "yes_means": "The Charter amendments take effect.",
+  "no_means": "The Charter stays as written.",
+  "threshold": "Simple majority",
+  "args": {
+   "for": {"gist": "Practical, commonsense updates: the Charter would match district elections, state law and how the City actually works, with no new taxes or programs.",
+           "signers": ["Danielle Cwirko-Godycki, San Mateo City Councilmember", "Nicole Fernandez, Deputy Mayor, City of San Mateo"]},
+   "against": null
+  },
+  "sources": [
+   {"label": "Resolution with ballot question (PDF)", "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M209-Contest%20Code-Reso-San%20Mateo%20Charter%20Amendment_Redacted.pdf"},
+   {"label": "City Attorney's impartial analysis (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MF-ImpartialAnalysis-San-Mateo-Charter-Amendment-Redacted.pdf"},
+   {"label": "Argument in favor (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M209-Contest%20Code-5ArgInFavor-San%20Mateo%20Charter%20Amendment_Redacted.pdf"}
+  ],
+  "note": "The county's election page lists no argument against Measure F."
+ },
+ "H": {
+  "question": "To provide funding for San Mateo city services, such as keeping local streets, sidewalks, parks, infrastructure, and community facilities safe, clean, and well-maintained, fixing potholes, providing fire protection, paramedic, crime prevention, and 9-1-1 emergency response, and improvements to traffic safety/traffic management, shall the City of San Mateo's ordinance establishing a one-quarter cent sales tax be adopted, providing 7 million dollars annually for general government use until ended by voters, with independent audits and all funds locally-controlled?",
+  "summary": "Placed by the City Council (July 20, 2026); needs a simple majority. Raises San Mateo's local sales tax from 0.25% to 0.50%, an extra 25 cents per $100, with no end date. It's a general tax: the roughly $7 million a year can go to any City purpose. Groceries and prescription medicine stay exempt. It uses the last 0.25% of room under the state's 2% cap on combined city and county add-on sales taxes. Requires an annual audit and a five-member public oversight committee. Collection would start the first calendar quarter beginning 110 days after the results are certified.",
+  "fiscal": "About $7 million a year in general-fund revenue (City Attorney's analysis).",
+  "yes_means": "San Mateo's local sales tax rises from 0.25% to 0.50% until voters end it.",
+  "no_means": "The local sales tax stays at 0.25%.",
+  "threshold": "Simple majority (general tax)",
+  "args": {
+   "for": {"gist": "Keeps police, fire, paramedic and 911 response fast, fixes streets and traffic safety, and keeps parks and libraries open while the City faces a structural deficit; the current budget already cuts services 2%. Groceries and prescriptions are exempt, visitors pay a share, and the money stays local with audits and oversight.",
+           "signers": ["Susan Manheimer, Retired Police Chief of San Mateo"]},
+   "against": {"gist": "Cost of living is already too high and the combined sales tax is already 9.625%. It's a general tax, so the money isn't restricted to the services the ballot names, and it has no sunset. The opponents say the ~$7 million wouldn't close a projected $16.8 million deficit and the City should control spending first.",
+               "signers": []}
+  },
+  "sources": [
+   {"label": "Resolution with ballot question (PDF)", "url": "https://smcacre.gov/system/files/2026-07/52-ENG-M301-Contest%20Code-Reso-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf"},
+   {"label": "City Attorney's impartial analysis (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MH-ImpartialAnalysis-San-Mateo-Transactions-and-Use-Tax-Redacted.pdf"},
+   {"label": "Argument in favor (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-5ArgInFavor-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted.pdf"},
+   {"label": "Argument against (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M301-Contest%20Code-7ArgAgainst-San%20Mateo%20Transactions%20and%20Use%20Tax_Redacted%20%282%29%20%281%29_Redacted.pdf"}
+  ]
+ },
+ "V": {
+  "question": "Without increasing current tax rates and to protect affordable higher education at College of San Mateo, Cañada College, and Skyline College by repairing/constructing science, engineering, math, technology, skilled trades, and career-training classrooms that prepare students for in-demand careers; and repairing roofs, plumbing, electrical, shall San Mateo County Community College District's measure authorizing $848,000,000 in bonds at legal rates be adopted, levying approximately $18 per $100,000 assessed value ($75,000,000 annually) while bonds are outstanding, with independent audits, oversight, and all money locally controlled?",
+  "summary": "Placed by the District's Board of Trustees; needs 55%. Authorizes up to $848 million in general obligation bonds for College of San Mateo, Cañada and Skyline: infrastructure, plumbing, HVAC and electrical systems, roofs, safety and security systems, technology and classroom equipment, roads and parking, and modernization or new construction districtwide, including future sites. The project list sets no priority order. Bond money can't pay teacher or administrator salaries. Requires a citizens' oversight committee, a separate account and annual independent audits.",
+  "fiscal": "The District's best estimate of the highest annual levy is $18 per $100,000 of assessed value, with bonds outstanding until about June 2049 and about $1.35 billion repaid in principal and interest (impartial analysis).",
+  "yes_means": "The District may issue up to $848 million in bonds, repaid by property taxes.",
+  "no_means": "The District may not issue these bonds.",
+  "threshold": "55%",
+  "args": {
+   "for": {"gist": "Community colleges are an affordable path (the argument says 42% of local high-school graduates choose them) and train nurses, firefighters and skilled trades. Many campus buildings are over 50 years old and below modern codes. Supporters say it continues the current tax rate rather than raising it, with a project list, oversight and audits.",
+           "signers": []},
+   "against": {"gist": "The District's fifth bond request since 2001; opponents say past bonds (more than $1.1 billion, in their count) paid for projects not named on the ballot, such as administrative offices and fitness facilities, and that the fine print plans new wellness and fine-arts centers. They argue a new bond is new debt and decades of added taxes, even if the rate stays flat.",
+               "signers": ["Mark W.A. Hinkle, President, Silicon Valley Taxpayers Association"]}
+  },
+  "sources": [
+   {"label": "Resolution with ballot question (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-Reso-SMCCD%20Bond_Redacted.pdf"},
+   {"label": "Impartial analysis (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-MV-ImpartialAnalysis-SMCCD-Bond.pdf"},
+   {"label": "Argument in favor (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-5ArgInFavor-SMCCD%20Bond_Redacted.pdf"},
+   {"label": "Argument against (PDF)", "url": "https://smcacre.gov/system/files/2026-08/52-ENG-M307-Contest%20Code-6ArgAgainst-SMCCD%20Bond_Redacted.pdf"}
+  ]
+ }
+}

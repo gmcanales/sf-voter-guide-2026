@@ -3260,7 +3260,32 @@
      "subtitle": "City of Oakland",
      "applies": {
       "city": 10
-     }
+     },
+     "question": "Shall the measure to amend Oakland's City Charter to, among other things, (1) make the Mayor the City's chief executive with a legislative veto, (2) empower the Council to override vetoes, confirm appointments of certain directors, and appoint an Independent Budget and Legislative Analyst, (3) affirm Councilmembers' right to acquire information from other City officials, (4) require Councilmembers to work full-time, and (5) empower the Public Ethics Commission to set salaries for all City elected officials using similar formulas, be adopted?",
+     "summary": "Placed by the City Council; needs a simple majority. A \"strong mayor\" charter change:\n\n• The Mayor, not the City Administrator, would run most departments and appoint most department heads. The Administrator keeps Human Resources and Finance and is still appointed by the Mayor with Council confirmation.\n• The Council would confirm the heads of HR, Finance and infrastructure departments, could create an Independent Budget and Legislative Analyst office, could hold hearings and issue subpoenas, and councilmembers could relay constituent concerns to staff and get prompt answers. The misdemeanor for councilmember \"interference\" in administration is removed.\n• The Mayor loses the tie-breaking vote but gains a veto over legislation and a line-item veto over the budget; six councilmembers can override.\n• Councilmembers must work full time, with no conflicting outside jobs.\n• The Public Ethics Commission would set Mayor and Council salaries, comparable to similar full-time officials in California.\n• Ordinances could be published by newspaper or another Council-approved method within 15 days of passage.",
+     "fiscal": "The City Auditor estimates $2.0 million to $2.6 million in the first year: $288,000 to $867,000 more for Council salaries and benefits, and about $1.7 million to $1.8 million for the Independent Budget and Legislative Analyst office. No significant change is expected for the Mayor's pay.",
+     "yes_means": "Oakland moves to a strong-mayor charter with the changes above.",
+     "no_means": "Oakland keeps its current charter, with a City Administrator running departments.",
+     "threshold": "Simple majority",
+     "note": "Rebuttal signers include Nate Miley, Nancy Nadel, Ralph Kanz, James Vann and Sharon Rose (rebutting YES), and Ernestine Nettles (League of Women Voters of Oakland), Kevin Jenkins, Michael Wallace, Libby Schaaf and Barbara Parker (rebutting NO).",
+     "summary_label": "What it does (our digest of the impartial analysis)",
+     "official_args": {
+      "for": "One accountable executive voters can judge, faster action on homelessness, public safety and illegal dumping, an independent budget analyst, a veto with a six-vote override, and full-time councilmembers. Supporters cite a public Charter Reform Working Group process with 1,150 residents' input.",
+      "against": "Opponents call it a \"strong mayor\" power grab that Oakland tried from 1998 and dropped four years later: the executive needn't attend council meetings, future mayors could appoint allies, a veto plus losing the tie-break invites gridlock, and councilmembers get large raises. They note four councilmembers voted against placing it and favor a council-manager system instead."
+     },
+     "official_args_label": "digest",
+     "listed_supporters": "Barbara Lee, Mayor of Oakland; Fred Blackwell, Former Oakland City Administrator; Isaac Abid, Board Chair, Revitalize East Bay; Richard Fuentes, Labor Leader/Small Business Owner; Sheryl Walton, Co-Chair, Block by Block Organizing Network",
+     "listed_opponents": "Ben Gould, Budget Advisory Commission Member and Organizer, Oakland Residents for Good Government; Pamela A. Drake, Community Advocate; Loren Taylor, Former Councilmember; Naomi Beryl Schiff, Community Advocate",
+     "sources": [
+      {
+       "label": "Alameda County Voter Information Guide, pp. 933-936 (PDF)",
+       "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=933"
+      },
+      {
+       "label": "Full measure text (PDF)",
+       "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_oakland_charter_amendment_provisions_measure.pdf"
+      }
+     ]
     },
     {
      "id": "ala-measure-ff",
@@ -3271,7 +3296,31 @@
      "subtitle": "City of Oakland",
      "applies": {
       "city": 10
-     }
+     },
+     "question": "Shall the measure amending Oakland's Real Property Transfer Tax Ordinance to eliminate the foreclosure exception for all property transfers except transfers converting commercial property to certain housing or healthcare uses, transfers to community banking organizations, and certain transfers of residential properties of four units or less, and allowing the City Council to establish, amend, or remove foreclosure-related exceptions, raising approximately $4-$13 million annually pursuant to tax rates in Oakland Municipal Code section 4.20.020, beginning January 1, 2027 until repealed, be adopted?",
+     "summary": "Placed by the City Council; needs a simple majority; takes effect Jan 1, 2027. Oakland's transfer tax now exempts transfers through foreclosure or deed-in-lieu. The measure ends that general exemption, keeping exceptions only for (1) converting commercial property to certain housing or healthcare uses, (2) transfers to community banking organizations, and (3) homes of four units or fewer going to a person or family trust. The Council could later change those exceptions by ordinance. Taxable foreclosure transfers would be valued at fair market value and taxed at existing rates. The revenue is general-purpose.",
+     "fiscal": "The ballot question says about $4 million to $13 million a year. The City Auditor estimates $10.4 million to $13.8 million in the first year, based on commercial foreclosures in 2024 through mid-2026, with first-year costs of $592,900 to $651,100 (two tax auditors, partial supervisor, county collection fee).",
+     "yes_means": "Most foreclosure-related property transfers in Oakland pay the transfer tax.",
+     "no_means": "Foreclosure transfers stay exempt from Oakland's transfer tax.",
+     "threshold": "Simple majority",
+     "note": "No argument against Measure FF was submitted.",
+     "summary_label": "What it does (our digest of the impartial analysis)",
+     "official_args": {
+      "for": "Families pay the transfer tax when they buy homes, but investors acquiring property through foreclosure don't; supporters say the loophole cost up to $25 million in the first half of 2026. Homeowners in foreclosure and ordinary homebuyers stay exempt, and buyers converting distressed buildings to housing or healthcare get relief.",
+      "against": null
+     },
+     "official_args_label": "digest",
+     "listed_supporters": "Charlene Wang, District 2 Councilmember, Public Safety Chair; Barbara Lee, Mayor; Robert Apodaca, Co-Founder, Two Hundred for Homeownership and Casita Coalition; Raymond Lankford, Pastor, CEO, Oakland Private Industry Council",
+     "sources": [
+      {
+       "label": "Alameda County Voter Information Guide, pp. 947-948 (PDF)",
+       "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=947"
+      },
+      {
+       "label": "Full measure text (PDF)",
+       "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Measures/city_of_oakland_real_property_tax.pdf"
+      }
+     ]
     },
     {
      "id": "ala-measure-gg",

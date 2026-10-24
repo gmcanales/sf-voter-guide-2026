@@ -5,7 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SF Voter Guide 2026 — Goosebase</title>
-  <meta name="description" content="San Francisco's November 3, 2026 ballot in official ballot order: plain-language explainers, other groups' endorsements, and an optional set of opinionated picks.">
+  <meta name="description"
+    content="San Francisco's November 3, 2026 ballot in official ballot order: plain-language explainers, other groups' endorsements, and an optional set of opinionated picks.">
   <script src="./js/palette.js"></script>
   <link rel="preconnect" href="https://api.fontshare.com" crossorigin>
   <link href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap" rel="stylesheet">
@@ -52,11 +53,12 @@
 
   <main class="subpage-main">
     <div class="subpage-inner vg-inner">
-      <div class="subpage-eyebrow"><span id="county-name">San Francisco</span> · <span id="election-date">November 3, 2026</span></div>
+      <div class="subpage-eyebrow"><span id="county-name">San Francisco</span> · <span id="election-date">November 3,
+          2026</span></div>
       <h1 class="subpage-title" id="guide-title">SF Voter Guide 2026</h1>
       <p class="subpage-lead">
-        Your ballot, in the order it's printed. Fill in the ovals as you go, check what the major
-        local groups recommend, and take your finished list with you to mark the real thing.
+        Ballot filling tool with hopefully accesible funding data, endorsements and consolidated offical ballot guide
+        information. I AM BIASED, but I tried to include as much data as possible.
       </p>
 
       <section class="vg-setup" aria-labelledby="setup-title">
@@ -64,10 +66,11 @@
         <p class="vg-preview-banner" id="preview-banner" hidden></p>
 
         <form class="vg-zip" id="zip-form" autocomplete="on">
-          <label for="zip" class="vg-setup-title" id="setup-title">Your ZIP code <span class="vg-optional">(optional)</span></label>
+          <label for="zip" class="vg-setup-title" id="setup-title">Your ZIP code <span
+              class="vg-optional">(optional)</span></label>
           <div class="vg-zip-row">
-            <input id="zip" name="postal-code" inputmode="numeric" autocomplete="postal-code"
-              pattern="[0-9]{5}" maxlength="5" placeholder="e.g. 94110">
+            <input id="zip" name="postal-code" inputmode="numeric" autocomplete="postal-code" pattern="[0-9]{5}"
+              maxlength="5" placeholder="e.g. 94110">
             <button type="submit" class="btn-ghost vg-btn">Filter my ballot</button>
             <button type="button" class="btn-ghost vg-btn" id="zip-clear" hidden>Clear</button>
           </div>
@@ -78,15 +81,18 @@
           <summary>Districts <span class="vg-districts-summary" id="districts-summary"></span></summary>
           <p class="vg-setup-hint">
             Your districts are printed on your sample ballot, or you can look them up in the
-            <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener" id="lookup-link">Voter Portal</a>.
+            <a href="https://sfelections.gov/voterportal" target="_blank" rel="noopener" id="lookup-link">Voter
+              Portal</a>.
             Leave any you're unsure of on “Show all”.
           </p>
           <div class="vg-districts" id="districts"></div>
         </details>
 
         <div class="vg-toggles">
-          <label class="vg-switch"><input type="checkbox" id="show-guides" checked> <span>Show other groups' picks</span></label>
-          <label class="vg-switch vg-switch-picks"><input type="checkbox" id="show-picks"> <span>Show <em>our</em> picks</span></label>
+          <label class="vg-switch"><input type="checkbox" id="show-guides" checked> <span>Show other groups'
+              picks</span></label>
+          <label class="vg-switch vg-switch-picks"><input type="checkbox" id="show-picks"> <span>Show <em>our</em>
+              picks</span></label>
         </div>
 
         <details class="vg-groups" id="groups">
@@ -97,14 +103,17 @@
 
       <aside class="vg-legend" id="legend" hidden>
         <div class="vg-legend-item">
-          <span class="vg-badge vg-badge-egg"><svg viewBox="0 0 20 26" aria-hidden="true"><path d="M10 1C5 1 1 9 1 15.5 1 21 5 25 10 25s9-4 9-9.5C19 9 15 1 10 1Z"/></svg>Golden Goose Egg</span>
+          <span class="vg-badge vg-badge-egg"><svg viewBox="0 0 20 26" aria-hidden="true">
+              <path d="M10 1C5 1 1 9 1 15.5 1 21 5 25 10 25s9-4 9-9.5C19 9 15 1 10 1Z" />
+            </svg>Golden Egg</span>
           <span>We think this one's a winner.</span>
         </div>
         <div class="vg-legend-item">
           <span class="vg-badge vg-badge-honk">Certified HONK</span>
           <span>We'd steer clear.</span>
         </div>
-        <p class="vg-legend-note">These are our own opinions, kept separate from the neutral explainers. Turn them off any time.</p>
+        <p class="vg-legend-note">These are our own opinions, kept separate from the neutral explainers. Turn them off
+          any time.</p>
       </aside>
 
       <div class="vg-progress" id="progress" hidden>
@@ -126,7 +135,8 @@
             <button type="button" class="btn-ghost vg-btn" id="clear-marks">Clear all</button>
           </div>
         </div>
-        <p class="vg-setup-hint">Copy these onto your official ballot cards. Your choices are saved only in this browser.</p>
+        <p class="vg-setup-hint">Copy these onto your official ballot cards. Your choices are saved only in this
+          browser.</p>
         <ol class="vg-summary-list" id="summary-list"></ol>
       </section>
 

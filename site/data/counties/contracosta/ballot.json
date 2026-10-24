@@ -1,0 +1,2637 @@
+{
+ "election": {
+  "name": "Statewide General Election",
+  "jurisdiction": "Contra Costa County",
+  "county": "contracosta",
+  "short": "Contra Costa",
+  "date": "2026-11-03",
+  "preview": true,
+  "official_sources": [
+   {
+    "label": "Contra Costa Elections: Nov 3, 2026 election page",
+    "url": "https://www.contracostavote.gov/election/november-3-2026-general-election/"
+   },
+   {
+    "label": "CA Official Voter Information Guide",
+    "url": "https://voterguide.sos.ca.gov/"
+   }
+  ]
+ },
+ "built": "2026-10-24",
+ "randomized_alphabet": {
+  "letters": "HXKWCPJOZALDNSQBIRYGVEFMTU",
+  "source": {
+   "label": "SoS randomized alphabet drawing, Aug 13 2026",
+   "url": "https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-results-randomized-alphabet-drawing-november-3-2026-general-election"
+  }
+ },
+ "districts": {
+  "cd": {
+   "label": "U.S. House district",
+   "options": [
+    8,
+    9,
+    10
+   ]
+  },
+  "ad": {
+   "label": "State Assembly district",
+   "options": [
+    11,
+    14,
+    15,
+    16
+   ]
+  },
+  "city": {
+   "label": "City",
+   "options": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    0
+   ],
+   "labels": {
+    "1": "Antioch",
+    "2": "Brentwood",
+    "3": "Clayton",
+    "4": "Concord",
+    "5": "Danville",
+    "6": "El Cerrito",
+    "7": "Hercules",
+    "8": "Lafayette",
+    "9": "Martinez",
+    "10": "Moraga",
+    "11": "Oakley",
+    "12": "Orinda",
+    "13": "Pinole",
+    "14": "Pittsburg",
+    "15": "Pleasant Hill",
+    "16": "Richmond (incl. Richmond Annex)",
+    "17": "San Pablo",
+    "18": "San Ramon",
+    "19": "Walnut Creek",
+    "0": "Unincorporated area"
+   }
+  }
+ },
+ "sections": [
+  {
+   "id": "voter-nominated",
+   "heading": "Voter-Nominated Offices",
+   "group": "offices",
+   "instruction": "Vote for One",
+   "note": "All voters may vote for any candidate, whatever their own party preference. The party shown is the candidate's own registered preference and does not mean the party endorses them.",
+   "contests": [
+    {
+     "id": "governor",
+     "kind": "office",
+     "title": "Governor",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Steve Hilton",
+       "party": "Republican",
+       "designation": "Small Business Owner"
+      },
+      {
+       "name": "Xavier Becerra",
+       "party": "Democratic",
+       "designation": "Voting Rights Attorney"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Steve Hilton",
+       "Xavier Becerra"
+      ],
+      "14": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ],
+      "15": [
+       "Steve Hilton",
+       "Xavier Becerra"
+      ],
+      "16": [
+       "Xavier Becerra",
+       "Steve Hilton"
+      ]
+     }
+    },
+    {
+     "id": "lt-governor",
+     "kind": "office",
+     "title": "Lieutenant Governor",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Gloria Romero",
+       "party": "Republican",
+       "designation": "Educator/Businesswoman"
+      },
+      {
+       "name": "Fiona Ma",
+       "party": "Democratic",
+       "designation": "State Treasurer/CPA"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Gloria Romero",
+       "Fiona Ma"
+      ],
+      "14": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ],
+      "15": [
+       "Gloria Romero",
+       "Fiona Ma"
+      ],
+      "16": [
+       "Fiona Ma",
+       "Gloria Romero"
+      ]
+     }
+    },
+    {
+     "id": "secretary-of-state",
+     "kind": "office",
+     "title": "Secretary of State",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Donald P. (Don) Wagner",
+       "party": "Republican",
+       "designation": "Orange County Supervisor"
+      },
+      {
+       "name": "Shirley N. Weber",
+       "party": "Democratic",
+       "designation": "California Secretary of State",
+       "incumbent": true
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Donald P. (Don) Wagner",
+       "Shirley N. Weber"
+      ],
+      "14": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ],
+      "15": [
+       "Donald P. (Don) Wagner",
+       "Shirley N. Weber"
+      ],
+      "16": [
+       "Shirley N. Weber",
+       "Donald P. (Don) Wagner"
+      ]
+     }
+    },
+    {
+     "id": "controller",
+     "kind": "office",
+     "title": "Controller",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Malia M. Cohen",
+       "party": "Democratic",
+       "designation": "State Controller/Mother",
+       "incumbent": true
+      },
+      {
+       "name": "Herb W Morgan",
+       "party": "Republican",
+       "designation": "Chief Investment Officer"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Malia M. Cohen",
+       "Herb W Morgan"
+      ],
+      "14": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ],
+      "15": [
+       "Malia M. Cohen",
+       "Herb W Morgan"
+      ],
+      "16": [
+       "Herb W Morgan",
+       "Malia M. Cohen"
+      ]
+     }
+    },
+    {
+     "id": "treasurer",
+     "kind": "office",
+     "title": "Treasurer",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Jennifer Hawks",
+       "party": "Republican",
+       "designation": "Retired Business Executive"
+      },
+      {
+       "name": "Eleni Kounalakis",
+       "party": "Democratic",
+       "designation": "Lieutenant Governor of California"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Jennifer Hawks",
+       "Eleni Kounalakis"
+      ],
+      "14": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ],
+      "15": [
+       "Jennifer Hawks",
+       "Eleni Kounalakis"
+      ],
+      "16": [
+       "Eleni Kounalakis",
+       "Jennifer Hawks"
+      ]
+     }
+    },
+    {
+     "id": "attorney-general",
+     "kind": "office",
+     "title": "Attorney General",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Rob Bonta",
+       "party": "Democratic",
+       "designation": "California Attorney General",
+       "incumbent": true
+      },
+      {
+       "name": "Michael E. Gates",
+       "party": "Republican",
+       "designation": "Deputy United States Attorney"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Rob Bonta",
+       "Michael E. Gates"
+      ],
+      "14": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ],
+      "15": [
+       "Rob Bonta",
+       "Michael E. Gates"
+      ],
+      "16": [
+       "Michael E. Gates",
+       "Rob Bonta"
+      ]
+     }
+    },
+    {
+     "id": "insurance-commissioner",
+     "kind": "office",
+     "title": "Insurance Commissioner",
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Jane Kim",
+       "party": "Democratic",
+       "designation": "Attorney/Consumer Advocate"
+      },
+      {
+       "name": "Ben Allen",
+       "party": "Democratic",
+       "designation": "California State Senator"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Jane Kim",
+       "Ben Allen"
+      ],
+      "14": [
+       "Ben Allen",
+       "Jane Kim"
+      ],
+      "15": [
+       "Jane Kim",
+       "Ben Allen"
+      ],
+      "16": [
+       "Ben Allen",
+       "Jane Kim"
+      ]
+     }
+    },
+    {
+     "id": "boe-2",
+     "kind": "office",
+     "title": "Board of Equalization Member, District 2",
+     "order": "verified",
+     "candidates": [
+      {
+       "name": "John Pimentel",
+       "party": "Democratic",
+       "designation": "Member, Board of Trustees, San Mateo County Community College District"
+      },
+      {
+       "name": "Sally J. Lieber",
+       "party": "Democratic",
+       "designation": "Incumbent",
+       "incumbent": true
+      }
+     ],
+     "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
+    },
+    {
+     "id": "assembly-11",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 11",
+     "candidates": [
+      {
+       "name": "Lori D Wilson",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "Jenny Leilani Callison",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 11
+     }
+    },
+    {
+     "id": "assembly-14",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 14",
+     "candidates": [
+      {
+       "name": "Buffy Wicks",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "Mark Rendon",
+       "designation": "",
+       "party": "Green"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 14
+     }
+    },
+    {
+     "id": "assembly-15",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 15",
+     "candidates": [
+      {
+       "name": "Arthur Webb",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "Anamarie Avila Farias",
+       "designation": "",
+       "party": "Democratic"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 15
+     }
+    },
+    {
+     "id": "assembly-16",
+     "kind": "office",
+     "title": "Member of the State Assembly, District 16",
+     "candidates": [
+      {
+       "name": "Rebecca Bauer-Kahan",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "Joseph A. Rubay",
+       "designation": "",
+       "party": "Republican"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "ad": 16
+     }
+    }
+   ]
+  },
+  {
+   "id": "judicial",
+   "heading": "Judicial",
+   "group": "offices",
+   "instruction": "Vote YES or NO for each office",
+   "note": "Retention elections: each sitting justice is unopposed and voters decide whether they stay for a new term.",
+   "contests": [
+    {
+     "id": "scotus-groban",
+     "kind": "retention",
+     "title": "Associate Justice of the Supreme Court",
+     "justice": "Joshua Groban"
+    },
+    {
+     "id": "scotus-evans",
+     "kind": "retention",
+     "title": "Associate Justice of the Supreme Court",
+     "justice": "Kelli M. Evans"
+    },
+    {
+     "id": "coa-1-1-wilson",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Monique Langhorne Wilson"
+    },
+    {
+     "id": "coa-1-1-smiley",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Charles A. Smiley"
+    },
+    {
+     "id": "coa-1-1-banke",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division One",
+     "justice": "Kathleen M. Banke"
+    },
+    {
+     "id": "coa-1-2-stewart",
+     "kind": "retention",
+     "title": "Presiding Justice, Court of Appeal, First District, Division Two",
+     "justice": "Therese M. Stewart"
+    },
+    {
+     "id": "coa-1-2-desautels",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Two",
+     "justice": "Tara M. Desautels"
+    },
+    {
+     "id": "coa-1-3-petrou",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Three",
+     "justice": "Ioana Petrou"
+    },
+    {
+     "id": "coa-1-3-rodriguez",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Three",
+     "justice": "Victor A. Rodriguez"
+    },
+    {
+     "id": "coa-1-4-brown",
+     "kind": "retention",
+     "title": "Presiding Justice, Court of Appeal, First District, Division Four",
+     "justice": "Tracie L. Brown"
+    },
+    {
+     "id": "coa-1-5-chou",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Danny Y. Chou"
+    },
+    {
+     "id": "coa-1-5-simons",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Mark Simons"
+    },
+    {
+     "id": "coa-1-5-burns",
+     "kind": "retention",
+     "title": "Associate Justice, Court of Appeal, First District, Division Five",
+     "justice": "Gordon Burns"
+    }
+   ]
+  },
+  {
+   "id": "school",
+   "heading": "School",
+   "group": "offices",
+   "note": "Local school seats appear only on ballots inside that school or college district.",
+   "contests": [
+    {
+     "id": "superintendent",
+     "kind": "office",
+     "title": "State Superintendent of Public Instruction",
+     "vote_for": 1,
+     "order": "statewide",
+     "candidates": [
+      {
+       "name": "Sonja Shaw",
+       "designation": "School District President"
+      },
+      {
+       "name": "Richard Barrera",
+       "designation": "State Superintendent Advisor"
+      }
+     ],
+     "order_note": "Order computed from the Secretary of State's randomized alphabet with statewide rotation by Assembly District. Pick your AD above to see yours.",
+     "order_by_ad": {
+      "11": [
+       "Sonja Shaw",
+       "Richard Barrera"
+      ],
+      "14": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ],
+      "15": [
+       "Sonja Shaw",
+       "Richard Barrera"
+      ],
+      "16": [
+       "Richard Barrera",
+       "Sonja Shaw"
+      ]
+     }
+    },
+    {
+     "id": "cc-acalanes-union-high-school-district-trustee-area-1",
+     "kind": "office",
+     "title": "Acalanes Union High School District, Trustee Area 1",
+     "candidates": [
+      {
+       "name": "Stacy Schweppe",
+       "designation": ""
+      },
+      {
+       "name": "Nithin Iyengar",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-antioch-unified-school-district-trustee-area-5",
+     "kind": "office",
+     "title": "Antioch Unified School District, Trustee Area 5",
+     "candidates": [
+      {
+       "name": "Brandon Dawkins",
+       "designation": ""
+      },
+      {
+       "name": "Mary H Rocha",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-brentwood-union-school-district",
+     "kind": "office",
+     "title": "Brentwood Union School District",
+     "candidates": [
+      {
+       "name": "Oxsana Pajoluk",
+       "designation": ""
+      },
+      {
+       "name": "Mark Anderson",
+       "designation": ""
+      },
+      {
+       "name": "Scott S. Dudek",
+       "designation": ""
+      },
+      {
+       "name": "Emil Johnson Geddes",
+       "designation": ""
+      },
+      {
+       "name": "Steve Gursky",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-contra-costa-community-college-district-ward-1",
+     "kind": "office",
+     "title": "Contra Costa Community College District, Ward 1",
+     "candidates": [
+      {
+       "name": "Raquel Donoso",
+       "designation": ""
+      },
+      {
+       "name": "Cameron Sasai",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-contra-costa-community-college-district-ward-3",
+     "kind": "office",
+     "title": "Contra Costa Community College District, Ward 3",
+     "candidates": [
+      {
+       "name": "Becca Barrett",
+       "designation": ""
+      },
+      {
+       "name": "Allyse Tanovitz",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-contra-costa-county-board-of-education-area-2",
+     "kind": "office",
+     "title": "Contra Costa County Board Of Education, Area 2",
+     "candidates": [
+      {
+       "name": "Pamela West",
+       "designation": ""
+      },
+      {
+       "name": "Sarah Butler",
+       "designation": ""
+      },
+      {
+       "name": "Sibyl Minighini",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-john-swett-unified-school-district",
+     "kind": "office",
+     "title": "John Swett Unified School District",
+     "candidates": [
+      {
+       "name": "Bruce Hoeger",
+       "designation": ""
+      },
+      {
+       "name": "Samantha Watson-Alavarado",
+       "designation": ""
+      },
+      {
+       "name": "Terri Burk",
+       "designation": ""
+      },
+      {
+       "name": "Shane Reinhart",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-knightsen-elementary-school-district",
+     "kind": "office",
+     "title": "Knightsen Elementary School District",
+     "candidates": [
+      {
+       "name": "Erik M. Hansen",
+       "designation": ""
+      },
+      {
+       "name": "Liesel Williams",
+       "designation": ""
+      },
+      {
+       "name": "Robin Pastor",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-liberty-union-high-school-district-trustee-area-4",
+     "kind": "office",
+     "title": "Liberty Union High School District, Trustee Area 4",
+     "candidates": [
+      {
+       "name": "Tamara Weber",
+       "designation": ""
+      },
+      {
+       "name": "Hillary Fairbairn Pedrotti",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-mt-diablo-unified-school-district-trustee-area-2",
+     "kind": "office",
+     "title": "Mt. Diablo Unified School District, Trustee Area 2",
+     "candidates": [
+      {
+       "name": "Dorothy Weisenberger",
+       "designation": ""
+      },
+      {
+       "name": "Jane Baulch-Enloe",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-mt-diablo-unified-school-district-trustee-area-4",
+     "kind": "office",
+     "title": "Mt. Diablo Unified School District, Trustee Area 4",
+     "candidates": [
+      {
+       "name": "Al Anderson",
+       "designation": ""
+      },
+      {
+       "name": "Brian Thomas Lawrence",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-oakley-union-elementary-school-district-trustee-area-4",
+     "kind": "office",
+     "title": "Oakley Union Elementary School District, Trustee Area 4",
+     "candidates": [
+      {
+       "name": "Craig Pearson",
+       "designation": ""
+      },
+      {
+       "name": "Isaiah B.N. Mateas",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-orinda-union-school-district",
+     "kind": "office",
+     "title": "Orinda Union School District",
+     "candidates": [
+      {
+       "name": "John Chabalko",
+       "designation": ""
+      },
+      {
+       "name": "Edda Collins Coleman",
+       "designation": ""
+      },
+      {
+       "name": "Chloe Aftel",
+       "designation": ""
+      },
+      {
+       "name": "Katie Shogan",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-san-ramon-valley-unified-school-district-trustee-area-5",
+     "kind": "office",
+     "title": "San Ramon Valley Unified School District, Trustee Area 5",
+     "candidates": [
+      {
+       "name": "Rachel Hurd",
+       "designation": ""
+      },
+      {
+       "name": "Joel Woods",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-walnut-creek-school-district",
+     "kind": "office",
+     "title": "Walnut Creek School District",
+     "candidates": [
+      {
+       "name": "Eryn Holl King",
+       "designation": ""
+      },
+      {
+       "name": "Wenlei  Johnson",
+       "designation": ""
+      },
+      {
+       "name": "Aileen Ong",
+       "designation": ""
+      },
+      {
+       "name": "Geetha Ganti",
+       "designation": ""
+      },
+      {
+       "name": "Heidi Hernandez Gatty",
+       "designation": ""
+      },
+      {
+       "name": "Rod Ehsani",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    }
+   ]
+  },
+  {
+   "id": "city-offices",
+   "heading": "City",
+   "group": "offices",
+   "note": "Pick your city above to see only its races. Unincorporated areas have no city races.",
+   "contests": [
+    {
+     "id": "cc-city-of-antioch-city-council-district-1",
+     "kind": "office",
+     "title": "City of Antioch, City Council, District 1",
+     "candidates": [
+      {
+       "name": "Joy Motts",
+       "designation": ""
+      },
+      {
+       "name": "Tamisha Torres-Walker",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "cc-city-of-antioch-city-council-district-4",
+     "kind": "office",
+     "title": "City of Antioch, City Council, District 4",
+     "candidates": [
+      {
+       "name": "Sandra G White",
+       "designation": ""
+      },
+      {
+       "name": "Monica E Wilson",
+       "designation": ""
+      },
+      {
+       "name": "Matty Matthews Alappat",
+       "designation": ""
+      },
+      {
+       "name": "Andrew Becker",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 1
+     }
+    },
+    {
+     "id": "cc-city-of-brentwood-city-council-district-2",
+     "kind": "office",
+     "title": "City of Brentwood, City Council, District 2",
+     "candidates": [
+      {
+       "name": "Tammy Zickuhr",
+       "designation": ""
+      },
+      {
+       "name": "Kris Brand",
+       "designation": ""
+      },
+      {
+       "name": "Vinoy Mereddy",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "cc-city-of-brentwood-city-council-district-4",
+     "kind": "office",
+     "title": "City of Brentwood, City Council, District 4",
+     "candidates": [
+      {
+       "name": "Stephanie Williams-Rogers",
+       "designation": ""
+      },
+      {
+       "name": "Sheree Shannon",
+       "designation": ""
+      },
+      {
+       "name": "Holley Bishop-Mello",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 2
+     }
+    },
+    {
+     "id": "cc-city-of-clayton-city-council",
+     "kind": "office",
+     "title": "City of Clayton, City Council",
+     "candidates": [
+      {
+       "name": "Maria Shulman",
+       "designation": ""
+      },
+      {
+       "name": "Amy Callaghan",
+       "designation": ""
+      },
+      {
+       "name": "Charles J. Schmidt",
+       "designation": ""
+      },
+      {
+       "name": "Kim Trupiano",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 3
+     }
+    },
+    {
+     "id": "cc-city-of-concord-city-treasurer",
+     "kind": "office",
+     "title": "City of Concord, City Treasurer",
+     "candidates": [
+      {
+       "name": "Patti Barsotti",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "cc-city-of-concord-city-council-district-1",
+     "kind": "office",
+     "title": "City of Concord, City Council, District 1",
+     "candidates": [
+      {
+       "name": "Laura Hoffmeister",
+       "designation": ""
+      },
+      {
+       "name": "Maria Bagley",
+       "designation": ""
+      },
+      {
+       "name": "Trish Brazil",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "cc-city-of-concord-city-council-district-3",
+     "kind": "office",
+     "title": "City of Concord, City Council, District 3",
+     "candidates": [
+      {
+       "name": "Robyn Kuslits",
+       "designation": ""
+      },
+      {
+       "name": "Dena Acosta Beere",
+       "designation": ""
+      },
+      {
+       "name": "Douglas Lezameta",
+       "designation": ""
+      },
+      {
+       "name": "Don Seta",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "cc-city-of-concord-city-council-district-5",
+     "kind": "office",
+     "title": "City of Concord, City Council, District 5",
+     "candidates": [
+      {
+       "name": "Aeysha Corio",
+       "designation": ""
+      },
+      {
+       "name": "Laura Nakamura",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 4
+     }
+    },
+    {
+     "id": "cc-town-of-danville-town-council",
+     "kind": "office",
+     "title": "Town of Danville, Town Council",
+     "candidates": [
+      {
+       "name": "Denton Carlson",
+       "designation": ""
+      },
+      {
+       "name": "Pratima Sonavne",
+       "designation": ""
+      },
+      {
+       "name": "Robert Storer",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 5
+     }
+    },
+    {
+     "id": "cc-city-of-el-cerrito-city-council",
+     "kind": "office",
+     "title": "City of El Cerrito, City Council",
+     "candidates": [
+      {
+       "name": "Kimberly White",
+       "designation": ""
+      },
+      {
+       "name": "Carolyn Wysinger",
+       "designation": ""
+      },
+      {
+       "name": "Mary Ann \"MJ\" Jawili",
+       "designation": ""
+      },
+      {
+       "name": "Forrest M. Lanning",
+       "designation": ""
+      },
+      {
+       "name": "Wally Nowinski",
+       "designation": ""
+      },
+      {
+       "name": "Gabe Quinto",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 6
+     }
+    },
+    {
+     "id": "cc-city-of-hercules-city-council",
+     "kind": "office",
+     "title": "City of Hercules, City Council",
+     "candidates": [
+      {
+       "name": "John Delgado",
+       "designation": ""
+      },
+      {
+       "name": "Preet Sidhu",
+       "designation": ""
+      },
+      {
+       "name": "Dion Bailey",
+       "designation": ""
+      },
+      {
+       "name": "Adrena Breckenridge",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 7
+     }
+    },
+    {
+     "id": "cc-city-of-martinez-city-council-district-1",
+     "kind": "office",
+     "title": "City of Martinez, City Council, District 1",
+     "candidates": [
+      {
+       "name": "Jay Howard",
+       "designation": ""
+      },
+      {
+       "name": "Nakenya Allen",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 9
+     }
+    },
+    {
+     "id": "cc-town-of-moraga-town-council",
+     "kind": "office",
+     "title": "Town of Moraga, Town Council",
+     "candidates": [
+      {
+       "name": "Kerry Hillis",
+       "designation": ""
+      },
+      {
+       "name": "Steven Woehleke",
+       "designation": ""
+      },
+      {
+       "name": "Bill Carman",
+       "designation": ""
+      },
+      {
+       "name": "Alexis I. Mapel",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 10
+     }
+    },
+    {
+     "id": "cc-city-of-orinda-city-council",
+     "kind": "office",
+     "title": "City of Orinda, City Council",
+     "candidates": [
+      {
+       "name": "Brandyn Iverson",
+       "designation": ""
+      },
+      {
+       "name": "Janet Riley",
+       "designation": ""
+      },
+      {
+       "name": "Juana Rudati",
+       "designation": ""
+      },
+      {
+       "name": "Latika Malkani",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "applies": {
+      "city": 12
+     }
+    },
+    {
+     "id": "cc-city-of-pinole-city-council",
+     "kind": "office",
+     "title": "City of Pinole, City Council",
+     "candidates": [
+      {
+       "name": "Matthew \"Matty\" Avery",
+       "designation": ""
+      },
+      {
+       "name": "Truc \"Christy\" Lam-Julian",
+       "designation": ""
+      },
+      {
+       "name": "Libby Duarte",
+       "designation": ""
+      },
+      {
+       "name": "Gabriel Sandoval",
+       "designation": ""
+      },
+      {
+       "name": "Tina Brown",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "applies": {
+      "city": 13
+     }
+    },
+    {
+     "id": "cc-city-of-pittsburg-city-council",
+     "kind": "office",
+     "title": "City of Pittsburg, City Council",
+     "candidates": [
+      {
+       "name": "Arlene Kobata (Siu Ling)",
+       "designation": ""
+      },
+      {
+       "name": "C.C. Cardinalli-Macaluso",
+       "designation": ""
+      },
+      {
+       "name": "Wolf Croskey",
+       "designation": ""
+      },
+      {
+       "name": "Amhari Perkins",
+       "designation": ""
+      },
+      {
+       "name": "Pauline Johnson",
+       "designation": ""
+      },
+      {
+       "name": "Dionne Adams",
+       "designation": ""
+      },
+      {
+       "name": "Mark Linde",
+       "designation": ""
+      },
+      {
+       "name": "Alvin Nelson",
+       "designation": ""
+      },
+      {
+       "name": "Sonja Shephard",
+       "designation": ""
+      },
+      {
+       "name": "Carolynne Born",
+       "designation": ""
+      },
+      {
+       "name": "Iztaccuauhtli Hector Gonzalez",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "applies": {
+      "city": 14
+     }
+    },
+    {
+     "id": "cc-city-of-pittsburg-city-clerk",
+     "kind": "office",
+     "title": "City of Pittsburg, City Clerk",
+     "candidates": [
+      {
+       "name": "Latoyya P. Ella Bordelon",
+       "designation": ""
+      },
+      {
+       "name": "Angel Rodriguez",
+       "designation": ""
+      },
+      {
+       "name": "Melaine Apple Venenciano",
+       "designation": ""
+      },
+      {
+       "name": "Alice E. Evenson",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 14
+     }
+    },
+    {
+     "id": "cc-city-of-pittsburg-treasurer",
+     "kind": "office",
+     "title": "City of Pittsburg, Treasurer",
+     "candidates": [
+      {
+       "name": "Nancy Parent",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 14
+     }
+    },
+    {
+     "id": "cc-city-of-pleasant-hill-city-council-district-3",
+     "kind": "office",
+     "title": "City of Pleasant Hill, City Council, District 3",
+     "candidates": [
+      {
+       "name": "Jason Seto",
+       "designation": ""
+      },
+      {
+       "name": "Zac Shess",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 15
+     }
+    },
+    {
+     "id": "cc-city-of-pleasant-hill-city-council-district-4",
+     "kind": "office",
+     "title": "City of Pleasant Hill, City Council, District 4",
+     "candidates": [
+      {
+       "name": "Sue Noack",
+       "designation": ""
+      },
+      {
+       "name": "Quy Tran",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 15
+     }
+    },
+    {
+     "id": "cc-city-of-richmond-mayor",
+     "kind": "office",
+     "title": "City of Richmond, Mayor",
+     "candidates": [
+      {
+       "name": "Claudia Jiménez",
+       "designation": ""
+      },
+      {
+       "name": "Ahmad Anderson",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 16
+     }
+    },
+    {
+     "id": "cc-city-of-san-pablo-city-council",
+     "kind": "office",
+     "title": "City of San Pablo, City Council",
+     "candidates": [
+      {
+       "name": "Rita Xavier",
+       "designation": ""
+      },
+      {
+       "name": "Caden Cotton-Blake",
+       "designation": ""
+      },
+      {
+       "name": "Elizabeth Pabon-Alvarado",
+       "designation": ""
+      },
+      {
+       "name": "Anna Villalobos",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 17
+     }
+    },
+    {
+     "id": "cc-city-of-san-pablo-city-clerk",
+     "kind": "office",
+     "title": "City of San Pablo, City Clerk",
+     "candidates": [
+      {
+       "name": "Dorothy Gantt",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 17
+     }
+    },
+    {
+     "id": "cc-city-of-san-pablo-treasurer",
+     "kind": "office",
+     "title": "City of San Pablo, Treasurer",
+     "candidates": [
+      {
+       "name": "Viviana Toledo",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 17
+     }
+    },
+    {
+     "id": "cc-city-of-san-ramon-mayor",
+     "kind": "office",
+     "title": "City of San Ramon, Mayor",
+     "candidates": [
+      {
+       "name": "Emma Chigbu",
+       "designation": ""
+      },
+      {
+       "name": "Mark H. Armstrong",
+       "designation": ""
+      },
+      {
+       "name": "Paschalis Ntatsos",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 18
+     }
+    },
+    {
+     "id": "cc-city-of-san-ramon-city-council-district-2",
+     "kind": "office",
+     "title": "City of San Ramon, City Council, District 2",
+     "candidates": [
+      {
+       "name": "Chirag Kathrani",
+       "designation": ""
+      },
+      {
+       "name": "Richard J. Adler",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 18
+     }
+    },
+    {
+     "id": "cc-city-of-san-ramon-city-council-district-4",
+     "kind": "office",
+     "title": "City of San Ramon, City Council, District 4",
+     "candidates": [
+      {
+       "name": "Jeffrey Joh",
+       "designation": ""
+      },
+      {
+       "name": "Marisol Rubio",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 18
+     }
+    },
+    {
+     "id": "cc-city-of-walnut-creek-city-council",
+     "kind": "office",
+     "title": "City of Walnut Creek, City Council",
+     "candidates": [
+      {
+       "name": "Cherise Marie Khaund",
+       "designation": ""
+      },
+      {
+       "name": "Brendan Moran",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "applies": {
+      "city": 19
+     }
+    },
+    {
+     "id": "cc-city-of-walnut-creek-treasurer",
+     "kind": "office",
+     "title": "City of Walnut Creek, Treasurer",
+     "candidates": [
+      {
+       "name": "Ronald Cassano",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "applies": {
+      "city": 19
+     }
+    }
+   ]
+  },
+  {
+   "id": "district-offices",
+   "heading": "Special Districts",
+   "group": "offices",
+   "note": "Transit, water, park, sanitary, fire and healthcare districts. Each appears only on ballots inside that district.",
+   "contests": [
+    {
+     "id": "cc-united-states-representative-district-8",
+     "kind": "office",
+     "title": "United States Representative, District 8",
+     "candidates": [
+      {
+       "name": "Rudy Recile",
+       "designation": ""
+      },
+      {
+       "name": "John Garamendi",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-united-states-representative-district-9",
+     "kind": "office",
+     "title": "United States Representative, District 9",
+     "candidates": [
+      {
+       "name": "Josh Harder",
+       "designation": ""
+      },
+      {
+       "name": "John McBride",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-united-states-representative-district-10",
+     "kind": "office",
+     "title": "United States Representative, District 10",
+     "candidates": [
+      {
+       "name": "Mark DeSaulnier",
+       "designation": ""
+      },
+      {
+       "name": "Jeff Frese",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-member-of-the-state-board-of-equalization-district-2",
+     "kind": "office",
+     "title": "Member of the State Board of Equalization, District 2",
+     "candidates": [
+      {
+       "name": "John Pimentel",
+       "designation": ""
+      },
+      {
+       "name": "Sally J. Lieber",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-central-contra-costa-sanitary-district-director-division-2",
+     "kind": "office",
+     "title": "Central Contra Costa Sanitary District, Director, Division 2",
+     "candidates": [
+      {
+       "name": "Brian Henderson",
+       "designation": ""
+      },
+      {
+       "name": "Michael Robert McGill",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-contra-costa-water-district-division-2",
+     "kind": "office",
+     "title": "Contra Costa Water District, Division 2",
+     "candidates": [
+      {
+       "name": "Allison Picard",
+       "designation": ""
+      },
+      {
+       "name": "Daniel T. Fitzpatrick",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-diablo-community-services-district-director",
+     "kind": "office",
+     "title": "Diablo Community Services District, Director",
+     "candidates": [
+      {
+       "name": "Gregory R Lorenz",
+       "designation": ""
+      },
+      {
+       "name": "Steven Lichliter",
+       "designation": ""
+      },
+      {
+       "name": "Alan Bonny",
+       "designation": ""
+      },
+      {
+       "name": "Jessica Raefield",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-dublin-san-ramon-services-district-division-2",
+     "kind": "office",
+     "title": "Dublin San Ramon Services District - Division 2",
+     "candidates": [
+      {
+       "name": "Kismat Kathrani",
+       "designation": ""
+      },
+      {
+       "name": "Donald Downey",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-east-bay-m-u-d-ward-3-director",
+     "kind": "office",
+     "title": "East Bay M.U.D. Ward 3, Director",
+     "candidates": [
+      {
+       "name": "Marguerite Young",
+       "designation": ""
+      },
+      {
+       "name": "Don Gray",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-east-bay-m-u-d-ward-7-director",
+     "kind": "office",
+     "title": "East Bay M.U.D. Ward 7, Director",
+     "candidates": [
+      {
+       "name": "Gary Wolff",
+       "designation": ""
+      },
+      {
+       "name": "April Chan",
+       "designation": ""
+      },
+      {
+       "name": "Luis Reynoso",
+       "designation": ""
+      },
+      {
+       "name": "Joseph Grcar",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-east-bay-reg-park-district-ward-7-director",
+     "kind": "office",
+     "title": "East Bay Reg. Park District Ward 7, Director",
+     "candidates": [
+      {
+       "name": "Colin J. Coffey",
+       "designation": ""
+      },
+      {
+       "name": "Inderprit \"Indy Rishi Singh\" Sekhon",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-ironhouse-sanitary-district",
+     "kind": "office",
+     "title": "Ironhouse Sanitary District",
+     "candidates": [
+      {
+       "name": "Kerry Harvey",
+       "designation": ""
+      },
+      {
+       "name": "Chris A. Christean",
+       "designation": ""
+      },
+      {
+       "name": "Dave Corridon",
+       "designation": ""
+      },
+      {
+       "name": "Chris Lauritzen",
+       "designation": ""
+      },
+      {
+       "name": "Paschal Iwuh",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 2,
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-moraga-orinda-fire-protection-district-division-3",
+     "kind": "office",
+     "title": "Moraga-Orinda Fire Protection District, Division 3",
+     "candidates": [
+      {
+       "name": "Steve Cohn",
+       "designation": ""
+      },
+      {
+       "name": "John Donnelly",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-moraga-orinda-fire-protection-district-division-4",
+     "kind": "office",
+     "title": "Moraga-Orinda Fire Protection District, Division 4",
+     "candidates": [
+      {
+       "name": "Linda Stevens",
+       "designation": ""
+      },
+      {
+       "name": "Mike Roemer",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-mt-view-sanitary-district-area-2",
+     "kind": "office",
+     "title": "Mt. View Sanitary District, Area 2",
+     "candidates": [
+      {
+       "name": "Gwyneth Gilkey",
+       "designation": ""
+      },
+      {
+       "name": "Ed McGee",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "subtitle": "Only voters who live in this district see it."
+    },
+    {
+     "id": "cc-pleasant-hill-recreation-park-district",
+     "kind": "office",
+     "title": "Pleasant Hill Recreation & Park District",
+     "candidates": [
+      {
+       "name": "Derek M Wurst",
+       "designation": ""
+      },
+      {
+       "name": "Raul Ortega",
+       "designation": ""
+      },
+      {
+       "name": "Alex Nichol",
+       "designation": ""
+      },
+      {
+       "name": "Sandra Bonato",
+       "designation": ""
+      },
+      {
+       "name": "Robert \"Bobby\" Glover",
+       "designation": ""
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
+     "vote_for": 3,
+     "subtitle": "Only voters who live in this district see it."
+    }
+   ]
+  },
+  {
+   "id": "state-props",
+   "heading": "State Propositions",
+   "group": "measures",
+   "contests": [
+    {
+     "id": "prop-1",
+     "kind": "measure",
+     "level": "state",
+     "letter": "1",
+     "title": "Authorizes Bonds for Housing Affordability Programs",
+     "type": "Legislative Statute",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Authorizes $11.25 billion in state general obligation bonds for housing affordability programs, including multifamily rental housing, mortgages for veterans, supportive housing, preservation of existing affordable housing, and downpayment assistance.",
+     "fiscal": "Increased state cost of $500 million to $600 million annually for about 25 years to repay the housing bond.",
+     "yes_means": "The state could borrow $11.25 billion to support veterans and affordable housing.",
+     "no_means": "The state could not borrow $11.25 billion to support veterans and affordable housing.",
+     "official_args": {
+      "for": "Prop. 1 builds affordable homes for veterans, seniors, people with disabilities, low- and middle-income working families, vulnerable Californians and essential workers—teachers, firefighters and nurses. Expands homeownership opportunities, fast-tracks affordable shovel-ready homes, helps those one crisis away from homelessness. Requires strict fiscal accountability and public oversight with no new taxes.",
+      "against": "NO ARGUMENT AGAINST PROPOSITION 1 WAS SUBMITTED."
+     },
+     "listed_supporters": "US Vets; CA Federation of Teachers; Self-Help for the Elderly; Habitat for Humanity CA; CA Alliance of Child & Family Services",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 1",
+       "url": "https://voterguide.sos.ca.gov/propositions/1/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-2",
+     "kind": "measure",
+     "level": "state",
+     "letter": "2",
+     "title": "Increases State’s Rainy Day Fund",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Increases California's Rainy Day Fund, approved by voters in 2014, to provide funding for education, health care, public safety, and other essential services during economic downturns.",
+     "fiscal": "State budget reserves would be higher.",
+     "yes_means": "Rules for building state budget reserves and paying down extra state debts would change. As a result, state budget reserves would be higher. The state also would be required to make extra debt payments for longer.",
+     "no_means": "Rules for building state budget reserves and paying down extra state debts would not change.",
+     "official_args": {
+      "for": "Vote yes on Proposition 2 to protect schools, healthcare, and public safety funding. Proposition 2 doubles the state's Rainy Day Fund, stops politicians from overspending when there is a budget surplus, and ensures education funding continues during economic downturns. It has bipartisan support from firefighters, hospitals, health clinics, and educators.",
+      "against": "Proposition 2 guarantees more spending, not savings, creating a loophole that makes taxpayer rebates less likely by excluding reserve deposits from California's constitutional spending limit. It provides no new funding for education, healthcare, or public safety. Vote No to protect taxpayer rebates and constitutional limits."
+     },
+     "listed_supporters": "CA Professional Firefighters; LA Chamber of Commerce; Gavin Newsom; Xavier Becerra; Assemblymember Jesse Gabriel",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 2",
+       "url": "https://voterguide.sos.ca.gov/propositions/2/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-3",
+     "kind": "measure",
+     "level": "state",
+     "letter": "3",
+     "title": "Provides Permanent Funding for Schools and Health Care by Extending Existing Tax on High Incomes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Makes permanent existing voter-approved tax rates for individuals earning over $371,000 (adjusted annually for inflation). Allocates tax revenues to public education.",
+     "fiscal": "Maintains $5 billion to $15 billion of annual state income tax revenue by making a temporary tax increase on high-income earners permanent instead of letting it expire in 2031.",
+     "yes_means": "An income tax increase on high-income earners in place since 2012 would become permanent instead of expiring in 2031.",
+     "no_means": "An income tax increase on high-income earners in place since 2012 would expire in 2031.",
+     "official_args": {
+      "for": "PROPOSITION 3 PROTECTS OUR SCHOOLS AND HEALTHCARE WITHOUT RAISING YOUR TAXES. Prop. 3 prevents a massive tax cut for millionaires and billionaires by maintaining the current tax rates the wealthiest 2% have paid for 15 years and requires strict accountability and audits to ensure school funding gets to classrooms. Vote YES.",
+      "against": "Californians already pay the nation’s highest income, sales, and gas taxes—and have the highest cost of living. Prop. 3 makes temporary income taxes permanent while Sacramento wastes billions on failed programs instead of voters’ priorities. Don’t reward failure. Fix spending first before making taxes permanent. No on Prop. 3."
+     },
+     "listed_supporters": "California Teachers Association; CA School Nurses Organization; California State PTA; Planned Parenthood Affiliates of CA",
+     "listed_opponents": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 3",
+       "url": "https://voterguide.sos.ca.gov/propositions/3/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-4",
+     "kind": "measure",
+     "level": "state",
+     "letter": "4",
+     "title": "Repeals Prohibition Against Public Funding of Election Campaigns",
+     "type": "Legislative Statute",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Repeals prohibition on state and local governments offering public funding of candidate election campaigns. Public funding programs may not use funds earmarked for education, transportation, or public safety.",
+     "fiscal": "Ongoing costs to the state of a few hundred thousand dollars each year for the Fair Political Practices Commission to answer questions from state and local governments about public campaign finance programs.",
+     "yes_means": "State and local governments could create public campaign financing programs for public office candidates, subject to limits on which public funds could be used, how the public funds could be used, and who could receive them.",
+     "no_means": "State and most local governments would remain unable to create public campaign finance programs for public office candidates.",
+     "official_args": {
+      "for": "YES ON 4. California is the ONLY state that bans public funding of campaigns— communities in all other 49 states have this right. Special interests want to keep the ban to protect their power. Prop. 4 removes it. Strict taxpayer safeguards. Vote YES: Elections should be won, not bought.",
+      "against": "Prop. 4 allows politicians to use YOUR taxpayer money to fund their negative campaigns. Prop. 4 has NO LIMIT on the number of candidates who can get taxpayer money and NO LIMIT on how much taxpayer money they can get. Worse yet, Prop. 4 allows SPECIAL INTEREST MONEY IN POLITICS. NO ON PROP. 4."
+     },
+     "listed_supporters": "League of Women Voters of CA; California Nurses Association; Mental Health Advocacy; Social Security Works; Consumer Watchdog",
+     "listed_opponents": "California Taxpayers Assn; Howard Jarvis Taxpayers Assn; Family Business Assn of California; United Latinos Action",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 4",
+       "url": "https://voterguide.sos.ca.gov/propositions/4/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-5",
+     "kind": "measure",
+     "level": "state",
+     "letter": "5",
+     "title": "Changes Recall Election Process for Statewide Officers",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Under current law, voters elect replacement candidates at the same time as the recall election. This measure instead fills recall vacancies by subsequent special election or appointment.",
+     "fiscal": "Net fiscal effect unknown. In the event of a recall, savings or costs of millions of dollars to administer the election depending on the office recalled.",
+     "yes_means": "Recall elections would no longer include a question about who should fill the vacancy. Instead, vacancies typically would be filled through special elections or appointments, depending on the office and timing.",
+     "no_means": "Voters would continue to be asked who should fill the vacancy as part of recall elections.",
+     "official_args": {
+      "for": "Proposition 5 restores the recall to its original purpose: removing corrupt officials. It closes the loophole that allows replacements to win with a small fraction of the vote, reducing the politics and costs of future recalls. Endorsed by League of Women Voters of California and California Common Cause. Vote YES",
+      "against": "Proposition 5 degrades California’s century-old recall process by limiting voters’ right to select a replacement for recalled officials. Instead, when statewide elected officials are recalled, other politicians would choose a replacement. For lower offices, another costly, taxpayer-funded election would come months later, leaving the office vacant and the people unrepresented."
+     },
+     "listed_supporters": "None submitted",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 5",
+       "url": "https://voterguide.sos.ca.gov/propositions/5/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-37",
+     "kind": "measure",
+     "level": "state",
+     "letter": "37",
+     "title": "Creates Loan Program for Middle-Income Buyers of Qualified New Homes",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Authorizes $25 billion in bonds to offer eligible buyers fixed-rate mortgages for up to 17% of purchase price of a newly constructed home priced below about $1.5 million. Borrowers must be California residents, occupy the home, meet income limits, and pay at least 3% down. Bonds repaid by mortgage payments, not State.",
+     "fiscal": "No direct state or local costs.",
+     "yes_means": "The state would create a new homebuying assistance program. The state could sell up to $25 billion in revenue bonds to fund the program. Bonds would be paid back by homeowners’ payments on their home loans.",
+     "no_means": "The state would not be required to create a new homebuying assistance program.",
+     "official_args": {
+      "for": "Zero Taxpayer Cost—No Taxpayer Risk. Prop. 37 makes buying a home more affordable, keeping homeownership attainable for hardworking and middle-class Californians, with low-interest mortgages funded by private bond investors, NOT TAXPAYERS. Must be CA resident to qualify, meet income requirements, occupy home, make monthly payments, repay loan. Strict accountability/audits.",
+      "against": "NO ARGUMENT AGAINST PROPOSITION 37 WAS SUBMITTED."
+     },
+     "listed_supporters": "United Nurses Associations of California; California Conference of Carpenters; California State Treasurer Fiona Ma",
+     "listed_opponents": "None submitted",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 37",
+       "url": "https://voterguide.sos.ca.gov/propositions/37/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-38",
+     "kind": "measure",
+     "level": "state",
+     "letter": "38",
+     "title": "Authorizes Bonds for Immunology Medical Research",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Authorizes $8.4 billion in general obligation bonds for immunology and immunotherapy research, half to a single University of California-affiliated nonprofit medical research institute, half to research grants.",
+     "fiscal": "Increased state cost of $500 million to $600 million annually for about 20 years to repay the research bond, with some or all of the cost offset if the funded research generates revenue.",
+     "yes_means": "The state could borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+     "no_means": "The state could not borrow $8.4 billion to support medical research in immunology and immunotherapy conducted by California research institutes and universities.",
+     "official_args": {
+      "for": "YES on 38 supports life-saving immunology research to cure and prevent diseases like cancer, heart disease, Alzheimer’s. Strong accountability including independent audits. Mandates 20% Rx discount. Designed to ensure no cost to taxpayers. YES on 38 could save your life and someone you love. Alzheimer’s Association, The Michael J. Fox Foundation for Parkinson’s Research urge YES on 38! www.YESon38.com",
+      "against": "California should continue supporting biomedical research, but Proposition 38 is the wrong approach. It would commit taxpayers to decades of new bond debt while limiting California’s flexibility to address changing health priorities. Research funding should be guided through the normal budget process—not by ballot initiatives."
+     },
+     "listed_supporters": "Michael J. Fox Foundation; Alzheimer’s Los Angeles; Kidney Cancer Assoc; American Nurses Assoc\\CA",
+     "listed_opponents": "Robert M Kaplan Ph.D.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 38",
+       "url": "https://voterguide.sos.ca.gov/propositions/38/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-39",
+     "kind": "measure",
+     "level": "state",
+     "letter": "39",
+     "title": "Prohibits Citizens from Voting Unless They Present Government-Issued Identification",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Invalidates mail ballots that do not have last four digits of designated government-issued identification number written on envelope. Prohibits in-person voting without presenting government-issued identification.",
+     "fiscal": "Costs of between tens of millions of dollars and low hundreds of millions of dollars each year to implement new voting requirements.",
+     "yes_means": "Voters would be required to present additional identifying information to elections officials each time they vote.",
+     "no_means": "A voter’s identity would continue to be established with the voter’s signature.",
+     "official_args": {
+      "for": "Yes on Prop. 39 gives California a BIPARTISAN solution for VOTER ID. Supported by a solid majority of Democratic, Independent and Republican voters. Increases trust and confidence in our elections.",
+      "against": "No on Prop. 39. This would advance Trump’s voter suppression agenda by adding costly, unnecessary barriers that could block eligible California voters, expose personal information to identity theft, and waste hundreds of millions in taxpayer dollars. Don’t let MAGA billionaires decide which voters count. Vote No."
+     },
+     "listed_supporters": "The Transparency Foundation; Latino American Political Assn; Howard Jarvis Taxpayers Assn; CA Women’s Leadership Assn",
+     "listed_opponents": "ACLU California Action; Common Cause; League of Women Voters of California",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 39",
+       "url": "https://voterguide.sos.ca.gov/propositions/39/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-40",
+     "kind": "measure",
+     "level": "state",
+     "letter": "40",
+     "title": "Imposes One-Time Tax on Certain Taxpayers",
+     "type": "Initiative Constitutional Amendment and Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Imposes 5% tax on certain taxpayers with assets over $1 billion; revenue primarily for health care. Exempts revenues from constitutional requirements for school funding and spending limit.",
+     "fiscal": "Temporary revenue increase of tens of billions of dollars spread over several years from wealth tax on billionaires. Possible ongoing decrease of less than $1 billion per year in income tax revenue from billionaires.",
+     "yes_means": "The state would collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "no_means": "The state would not collect a one-time tax from billionaires equal to 5 percent of their wealth.",
+     "official_args": {
+      "for": "Vote YES on 40 to tax billionaires. Trump slashed healthcare funding to pay for billionaire tax breaks, eliminating coverage for over a million Californians and doubling health insurance premiums for millions more. It’s time to make billionaires pay their fair share and stop sticking the middle class with the bill.",
+      "against": "Prop. 40 is a flawed, one-time tax scheme that hurts our economy, damages our state budget, and contains a loophole exposing all Californians to taxes we can’t afford—but does nothing to lower healthcare costs. No safeguards, no accountability. Join California Teachers Association, California Medical Association, California Children’s Hospital Association, California Professional Firefighters, State Building and Construction Trades Council of California, Democrats and Republicans: NO on 40."
+     },
+     "listed_supporters": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "listed_opponents": "California Primary Care Association; California School Boards Association; California Taxpayers Association",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 40",
+       "url": "https://voterguide.sos.ca.gov/propositions/40/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-41",
+     "kind": "measure",
+     "level": "state",
+     "letter": "41",
+     "title": "Prohibits New State Taxes that Exclude Revenues from State Spending Limit. Requires Audits for New State Special Taxes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Nullifies state taxes enacted after January 1, 2026 that exempt their revenues from voter-approved state spending limit. Requires pre-election and recurring audits of programs funded by new special taxes.",
+     "fiscal": "The net fiscal effect is unknown as it depends on future decisions by voters, the Legislature, and other policymakers.",
+     "yes_means": "When special taxes are proposed by voter initiatives, the California State Auditor would review programs funded by the tax before the initiative appears on the ballot. The California State Auditor also would regularly review programs funded by special taxes approved by voters or the Legislature. In addition, the state might not be able to exclude any new special tax spending from its spending limit.",
+     "no_means": "The California State Auditor’s responsibility to review government programs would not change. The state spending limit requirements would not change.",
+     "official_args": {
+      "for": "Californians deserve better results for our taxes. Billions have flowed into programs like homelessness, with too little to show for it. Prop. 41 requires the independent State Auditor to conduct PUBLIC AUDITS of programs funded by new taxes—so we get more transparency, more accountability and better outcomes for taxpayers.",
+      "against": "Prop. 41 isn’t really about audits—it’s a billionaire-funded trick designed to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Don’t fall for the billionaires’ lies. Vote NO on 41."
+     },
+     "listed_supporters": "CA Society of Certified Public Accountants (CalCPAs); CalAsian Chamber of Commerce; California Taxpayers Association (CalTax)",
+     "listed_opponents": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 41",
+       "url": "https://voterguide.sos.ca.gov/propositions/41/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-42",
+     "kind": "measure",
+     "level": "state",
+     "letter": "42",
+     "title": "Prohibits New State Personal Property Taxes and Certain Retroactive State Taxes",
+     "type": "Initiative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Prohibits any new state tax (1) imposed on the ownership of personal property (all things people own other than real estate), or (2) that applies retroactively based on taxpayer’s past activities. Nullifies taxes enacted after January 1, 2026 that conflict with this measure.",
+     "fiscal": "Possibility that tax revenues will not go up as much in the future.",
+     "yes_means": "The state could not establish new taxes on the ownership of financial assets or other personal property.",
+     "no_means": "The state would continue to have the option to establish new taxes on the ownership of financial assets or other personal property.",
+     "official_args": {
+      "for": "California’s Constitution currently allows the Legislature to tax retirement and savings—even though you already paid taxes on that money when you earned it! Prop. 42 protects Californians from this double taxation, by prohibiting new and retroactive taxes on personal property, including retirement and savings. You earned it. Prop. 42 protects it.",
+      "against": "This is just another billionaire-funded trick. Prop. 42 isn’t really about protecting your retirement savings—its only real purpose is to undo the California Billionaire Tax. Billionaires would rather millions of Californians lose healthcare than pay a modest tax on their extreme wealth. Vote NO on 42."
+     },
+     "listed_supporters": "CA Professional Firefighters; State Building & Construction Trades Council of CA; AMVETS Department of CA",
+     "listed_opponents": "US Senator Bernie Sanders; SEIU United Healthcare Workers West",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 42",
+       "url": "https://voterguide.sos.ca.gov/propositions/42/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-43",
+     "kind": "measure",
+     "level": "state",
+     "letter": "43",
+     "title": "Limits Voters’ Ability to Raise Revenues for Local Government Services",
+     "type": "Legislative Constitutional Amendment",
+     "placed_by": "Put on the Ballot by the Legislature",
+     "summary": "Limits voters’ ability to pass voter-proposed local special taxes by increasing percentage of votes needed to approve such ballot measures from a majority (over 50%) to two-thirds, beginning January 1, 2027.",
+     "fiscal": "Possibility that local government tax revenues will not go up as much in the future due to a higher vote threshold for certain taxes.",
+     "yes_means": "Certain local government taxes would require two-thirds approval by voters.",
+     "no_means": "Certain local government taxes could continue to be approved by voters with a majority vote.",
+     "official_args": {
+      "for": "Prop. 43 protects taxpayers by restoring Proposition 13’s two-thirds vote requirement to pass local special taxes, including sales taxes, real estate taxes and utility taxes. Courts have allowed special interests to pass earmarked tax increases with fewer votes. Prop. 43 closes this loophole, protecting taxpayers, homeowners and renters. Vote yes.",
+      "against": "PROPOSITION 43 LIMITS VOTERS’ ABILITY TO FUND ESSENTIAL LOCAL SERVICES including fire protection, 911 response, schools, roads, hospitals and affordable housing. It doesn’t cut your taxes and lets just 33.4% of voters veto what nearly 67% want. Protect your vote and majority rule. Vote NO on Proposition 43."
+     },
+     "listed_supporters": "California Taxpayers Association; Family Business Association of California; California Hispanic Chambers of Commerce",
+     "listed_opponents": "California Professional Firefighters; California Federation of Teachers; Nurse Alliance of SEIU CA.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 43",
+       "url": "https://voterguide.sos.ca.gov/propositions/43/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-44",
+     "kind": "measure",
+     "level": "state",
+     "letter": "44",
+     "title": "Requires Community Health Clinics Spend 90% of Revenue on Program Services",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Imposes penalties on nonprofit Federally Qualified Health Centers (community clinics providing primary care to medically underserved areas and populations) that spend less than 90% of revenue on “program services” advancing their charitable purpose, including but not limited to patient services.",
+     "fiscal": "Increased state costs in the low tens of millions of dollars per year, covered by fees.",
+     "yes_means": "Certain private nonprofit health care clinics would have to spend at least 90 percent of their revenue each year on providing health care services.",
+     "no_means": "The new requirement on health care clinic spending would not go into effect.",
+     "official_args": {
+      "for": "Prop. 44 holds community clinics and their executives accountable by requiring that 90% of clinic revenue be spent on clinics’ charitable mission: patient care and services that make care possible. It increases transparency, reduces wasteful executive spending, and ensures healthcare dollars go where they belong: caring for Californians in need.",
+      "against": "Prop. 44 is a dangerous measure that will shut down hundreds of community health clinics and eliminate vital patient services for millions of Californians. American Academy of Pediatrics CA, California Medical Association, California Academy of Family Physicians, California School Nurses Organization, doctors, nurses and patients urge NO on 44! www.NOProp44.com"
+     },
+     "listed_supporters": "None submitted",
+     "listed_opponents": "American Academy of Pediatrics CA; CA School Nurses Org; CA Academy of Family Physicians; CA Medical Assoc.",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 44",
+       "url": "https://voterguide.sos.ca.gov/propositions/44/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    },
+    {
+     "id": "prop-45",
+     "kind": "measure",
+     "level": "state",
+     "letter": "45",
+     "title": "Modifies Environmental Review for Certain Projects",
+     "type": "Initiative Statute",
+     "placed_by": "Put on the Ballot by Petition Signatures",
+     "summary": "Amends California Environmental Quality Act (CEQA) to expedite environmental review for certain projects (including most housing, transportation, water, and health projects) by setting deadlines to complete environmental review and resolve lawsuits challenging project approvals.",
+     "fiscal": "Initial costs for state and local governments, likely in the high tens of millions of dollars—potentially exceeding $100 million—annually, partly covered by fees. Uncertain, potentially more significant positive or negative longer-term fiscal effects.",
+     "yes_means": "Certain public and private projects would be eligible for new project review and court challenge procedures. For example, new procedures would tighten time limits for environmental review and reduce the scope of what courts can consider when reviewing legal challenges.",
+     "no_means": "Public and private projects would continue to use existing project review and court challenge procedures.",
+     "official_args": {
+      "for": "The failing status quo is making California unaffordable. Prop. 45 fixes our broken system and lowers our high cost of living by cutting red tape to build housing, water, schools, hospitals, clean energy, and wildfire prevention faster—while maintaining California’s strong environmental protections. Vote YES for a more affordable California. YESonProp45.com",
+      "against": "PROPOSITION 45 LIMITS ENVIRONMENTAL AND PUBLIC REVIEW OF PROJECTS BUILT IN YOUR COMMUNITY. It guts The California Environmental Quality Act—flipping California law to protect corporate profits over public health and our air and water. Prop. 45 won’t lower your costs: its utility and corporate funders profit while taxpayers pay more. VOTE NO."
+     },
+     "listed_supporters": "California Children’s Hospital Association; California Water Association; California Council for Affordable Housing",
+     "listed_opponents": "Coalition for Clean Air; CA Environmental Voters; Physicians for Social Responsibility, LA; National Wildlife Federation",
+     "sources": [
+      {
+       "id": "VIG",
+       "label": "CA Official Voter Information Guide — Prop 45",
+       "url": "https://voterguide.sos.ca.gov/propositions/45/",
+       "accessed": "2026-10-24"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "regional",
+   "heading": "Regional",
+   "group": "measures",
+   "contests": [
+    {
+     "id": "rtm",
+     "kind": "measure",
+     "level": "regional",
+     "letter": "RTM",
+     "title": "Regional Transit Measure",
+     "question": "To prevent major service cuts to BART and other transit, avoid increased traffic, and reduce pollution by: Preserving BART, Caltrain, VTA, SamTrans, AC Transit, Muni, other transit for everyone, including workers, students, seniors, persons with disabilities; Supporting transit safety, cleanliness, affordability, reliability; Repairing targeted roads/potholes; Requiring financial transparency, oversight, accountability; shall the measure enacting a 0.5% (Alameda, Contra Costa, San Mateo, Santa Clara counties), and 1% (San Francisco) sales tax for 14 years generating approximately $980,000,000 annually, be adopted?",
+     "threshold": "50%+1 of all votes cast in the five Bay Area counties",
+     "way_it_is_now": null,
+     "proposal": "This measure was placed on the ballot by voter initiative, signed by the requisite number of voters within the Public Transit Revenue Measure District (“District”). The District was created by the Legislature through Senate Bill 63 (“SB 63”) in 2025 (Government Code sections 67700-67788), which was enacted to preserve and improve public transit service in the San Francisco Bay Area. The District comprises the counties of Alameda, Contra Costa, San Mateo, and Santa Clara, and the City and County of San Francisco, and is governed by the same board that governs the Metropolitan Transportation Commission (“MTC”). SB 63 authorizes District voters to approve a retail transactions and use tax (commonly referred to as a sales tax) for specified purposes. This measure would impose a tax of 0.5% in the counties of Alameda, Contra Costa, San Mateo, and Santa Clara and 1.0% in the City and County of San Francisco. The tax would be imposed and collected in largely the same manner as a state-imposed sales tax. The tax would be in effect for 14 years and would not count toward the statutory limit on combined local sales tax rates. It is estimated that the tax would raise approximately $980 million per year. After payment of defined costs, including election costs and administrative expenses, the District must transfer all remaining revenues to MTC and county transportation agencies for distribution and expenditure according to percentages set forth in the measure, which vary by county and recipient. Recipients include BART, Muni, Caltrain, AC Transit, Santa Clara Valley Transportation Authority, San Francisco Bay Ferry, Golden Gate Transit, smaller bus operators in Alameda and Contra Costa Counties, and county transportation agencies. Revenues would also support free and reduced-cost transit transfers, expansion of the Clipper START reduced-fare program, accessibility programs, mapping and wayfinding and transit priority projects and programs, and repavement projects for roads served by fixed-route transit. While the tax would be imposed throughout the District, the allocation of revenue generated in each county, and the authorized uses of those funds, would vary. For example, 64.70% of all revenues generated in Alameda County would be allocated to BART for transit operations expenses. By contrast, 84.37% of all revenues generated in Santa Clara County would be allocated to the Santa Clara Valley Transportation Authority for public transit expenses and roadway repavement projects on roads served by fixed-route transit. Such repavement projects would be an authorized use of measure revenues in Alameda, Contra Costa, San Mateo, and Santa Clara counties, but would not be authorized in the City and County of San Francisco. Revenue allocation is set forth in Section 12 of the measure. Tax revenues would be subject to accountability requirements in SB 63, which requires BART, Muni, AC Transit, and Caltrain to undergo financial efficiency reviews and adopt implementation plans and authorizes MTC to withhold funds from any of those operators for noncompliance. The measure would also require an independent oversight committee to review whether all revenues are distributed as required. The tax would become effective if approved by a majority of those voting on the measure throughout the entire District.",
+     "yes_means": "a vote to impose the tax described above for 14 years.",
+     "no_means": "a vote against imposing the tax.",
+     "fiscal": null,
+     "how_placed": "On May 26, 2026, the “Connect Bay Area Transit Initiative” was submitted to election officials in Alameda, Contra Costa, San Mateo, and Santa Clara counties, as well as the City and County of San Francisco. The petition included 306,288 unverified signatures. State law required 187,119 valid signatures to qualify the initiative for the ballot. This number is equal to 5% of the total number of registered voters within the District. A random check of the signatures submitted by the proponents of the initiative petition showed that an estimated 235,503 signatures were valid. Because this number was greater than the 205,831 signature threshold, which represents 110% of the required number of signatures, the petition was found to be sufficient. On July 1, 2026, the District Elections Official certified that the petition contained enough valid signatures to qualify for the November 3, 2026 ballot.",
+     "sources": [
+      {
+       "id": "VIP",
+       "label": "SF Voter Information Pamphlet, Nov 3 2026 (Dept. of Elections), p. 52",
+       "url": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf#page=54"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "school-measures",
+   "heading": "School & District Measures",
+   "group": "measures",
+   "note": "Each appears only on ballots inside that district. Titles are from the county's official list; full text is in the county voter guide.",
+   "contests": [
+    {
+     "id": "cc-measure-w",
+     "kind": "measure",
+     "level": "local",
+     "letter": "W",
+     "title": "Parcel tax increase",
+     "subtitle": "Acalanes Union High School District · Only voters who live in this district see it.",
+     "question": "Shall the measure supporting high-quality education in local high schools by:",
+     "summary": "The governing board of the Acalanes Union High School District has adopted a resolution proposing a parcel tax (a qualified special tax).\n\nIf this measure passes, beginning on July 1, 2027, the current parcel tax would be increased by $168 annually on parcels of taxable real property within the District for eight years, expiring on June 30, 2035. Based on information from the County Auditor-Controller’s Office, there are two existing parcel taxes totaling $301 per parcel annually. If this measure passes, the total amount of annual parcel taxes would be $469 per parcel.\n\nThe parcel tax would apply to each parcel of taxable real property in the District. A parcel of taxable real property is any unit of real property in the District that receives a separate tax bill for property taxes from the Contra Costa County Treasurer-Tax Collector’s Office.\n\nThe ballot measure includes certain exemptions. Upon proper application to the District, the District may exempt any parcel from the parcel tax that is owned and occupied as a principal residence by (1) a person 65 years of age or older; (2) a person receiving Supplemental Security Income for a disability; or (3) a person receiving Social Security Disability Insurance benefits, whose yearly income does not exceed 250 percent of the 2012 federal poverty guidelines issued by the United States Department of Health and Human Services. Additionally, property that is otherwise exempt from property taxes shall also be exempt from the parcel tax.\n\nThe ballot measure states that the proceeds of the parcel tax will be used to support “high-quality education in local high schools by attracting/retaining highly qualified teachers; continuing advanced academic programs in science, technology, engineering, math and arts that prepare students for success in college and careers; [and] maintaining manageable class sizes.” Proceeds from the parcel tax may be used only for the specific purposes set forth in the ballot measure and according to constitutional and statutory provisions.\n\nState law requires the District’s chief fiscal officer to file an annual report with the District’s governing board that states the amount of funds received and expended in each year and the status of any projects required or authorized to be funded from the parcel tax proceeds. State law also requires the proceeds from the parcel tax to be deposited into a separate designated account. The measure also would require the District to have an appointed citizens’ oversight committee to oversee the use of parcel tax proceeds.\n\nOf those voting on the measure, two-thirds must approve the measure for it to pass.\n\nA ”yes” vote is in favor of authorizing the parcel tax for an eight-year period.\n\nA “no” vote is against authorizing the parcel tax for an eight-year period.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Vote Yes on Measure W to protect the outstanding quality of education local high school students receive from Acalanes Union High School District schools.\n\nToday’s high school graduates must be prepared to compete in a highly technical and competitive global workforce. Our four public high schools —Acalanes High School, Campolindo High School, Las Lomas High School, and Miramonte High School—have answered the educational call, today ranking among the top 5% of all high schools nationwide.\n\nHere’s the problem: years of inadequate state funding have taken their toll. This is not an expense problem; it’s a revenue problem.\n\nAUHSD’s last new funding measure was 16 years ago. While educational costs continue rising, AUHSD has cut $4.2M in the last 2 years alone! Without Measure W, drastic cuts will continue. Our students will suffer in academic program losses, increasing class sizes, and layoffs of valued teachers, counselors, and support staff.\n\nMeasure W will:\n\n● Protect advanced science, technology, engineering, and math programs that help students get into college\n\n● Retain/attract highly-qualified teachers\n\n● Maintain manageable class sizes\n\n● Preserve high-quality music, visual, and performing arts programs\n\n● Continue Career Technical Education for in-demand fields like auto mechanics, fabrication, skilled trades, biotech, medical and health sciences\n\n● Keep classroom technology/instructional materials current\n\n● Provide academic intervention for students in need\n\n● Restore positions lost to budget cuts – especially teachers, counselors, and school librarians.\n\nSenior Citizens are eligible for exemption.\n\nMandatory Taxpayer Protections: No funds for administrators’ salaries; Citizens’ Oversight and independent audits ensure proper spending; Measure W lasts 8 years only; all funds stay local, benefitting AUHSD only.\n\nMaintaining high-quality schools is a wise investment. Great schools protect property values and quality of life.\n\nTeachers, parents, seniors, civic leaders and residents across our community are voting Yes . They know, as we do, the need is great and our kids are worth it!\n\nJoin us! Vote Yes on W!\n\nwww.YesForOurHighSchools.com\n\nMatt Francois, Parent of Las Lomas Grads, Attorney, Walnut Creek City Councilmember & Former Mayor\n\nConnie Collier, Local Business Owner, Diablo Foods, 58-yr. Lafayette Resident, Past PTA Pres.\n\nFred Weil, Taxation/Corp. Attorney, School Trustee (’79-2000), Co-Founder, Moraga Ed Found., 54-yr. Homeowner\n\nAmy Worth, Former Orinda Mayor, 24-yr City Councilmember, 44-yr. Orinda Homeowner, Parent of Miramonte Grads\n\nDennis Fay, Rossmoor Resident, Former Orinda Mayor/Civic Leader, Retired Transportation Executive",
+      "against": "Just last year, the Acalanes Union High School District (AUHSD) spent $834,000 of taxpayer money on Measure T, a special election for a $130 parcel tax.\n\nWe rejected it.\n\nThe board’s response? Return to the ballot with a bigger tax, $168 per parcel for eight years, adding to the existing $301 parcel tax : same district, eighteen months later, demanding nearly 30% more than in Measure T.\n\nBut AUHSD doesn’t have a revenue problem; AUHSD has a spending problem.\n\nState data show the District’s cost per student essentially doubling from 2012-13 to 2024-25, from $10,305 to $20,508 — a 99% jump, while Bay Area CPI inflation was only 45%. That’s unsustainable, and much of the increase never reached the classroom.\n\nWhere did it go?\n\n• Wellness Centers on each high-school campus;\n\n• A costly Central Administration;\n\n• Non-academic Diversity, Equity, Inclusion and Belonging programming.\n\n• AUHSD teaches seniors an elective Deconstructing Race course, grounded in Critical Race Theory , that could put federal funding at risk. And AUHSD voluntarily requires Ethnic Studies for graduation, though it is neither funded nor required by the state.\n\nSuch choices are unrelated to math, science, or teacher pay.\n\nAUHSD is financed mainly by local property taxes that keep climbing with home values.\n\nAnd California’s new budget handed AUHSD a one-time grant of nearly $5 million.\n\nThe money is there. The priorities are wrong.\n\nAUHSD already collects two permanent parcel taxes , atop the hefty TK-8 parcel taxes we also pay.\n\nAdding a third AUHSD tax rewards the same runaway spending.\n\nRather than cut administrative overhead or consolidate high schools with AUHSD’s feeder districts (as other communities have done to reduce spending), AUHSD’s Board is doubling down on duplicate bureaucracy.\n\nHomeowner budgets are stressed enough already.\n\nDon’t reward AUHSD’s runaway spending. Vote No on Measure W.\n\nSee StopMeasureW.com.\n\nContra Costa Taxpayers Association, Marc D. Joffe, President\n\nSarah Lind, Activist Mom and Small Business Owner, Lafayette\n\nJeff Frese, Father and Candidate for U.S. Congress, Moraga\n\nFrank Darling, Father and Grandfather, Orinda\n\nKathleen Young, Mother and Grandmother, Walnut Creek"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9002-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-x",
+     "kind": "measure",
+     "level": "local",
+     "letter": "X",
+     "title": "Bond measure",
+     "subtitle": "Liberty Union High School District · Only voters who live in this district see it.",
+     "question": "In order to repair and improve aging classrooms, fix deteriorating roofs, plumbing, heating, ventilation and electrical systems, remove asbestos/ lead pipes, upgrade science labs, libraries, technology and other facilities to support college/ career readiness in math, science, health, engineering, arts and skilled trades; shall Liberty Union High School District’s measure be adopted authorizing $165,000,000 in bonds at legal rates, levying $20 per $100,000 assessed value (raising $11,300,000 annually) while bonds are outstanding and all funds benefiting local schools?",
+     "summary": "The California Constitution provides that school districts may issue bonds for the construction, reconstruction, rehabilitation or replacement of school facilities, including the furnishing and equipping of school facilities or the acquisition or lease of real property for school facilities, with the approval of 55% of the voters voting at an election for that purpose.\n\nBy resolution, the Liberty Union High School District has proposed that bonds of the District be issued in an amount up to $165,000,000. The measure provides that proceeds from the sale of the bonds will be used to “repair and improve aging classrooms, fix deteriorating roofs, plumbing, heating, ventilation, and electrical systems, remove asbestos/lead pipes, upgrade science labs, libraries, technology and other facilities to support college/career readiness in math, science, health, engineering, arts and skilled trades.” The specific projects are set forth in the bond project list within the measure. The measure provides that a citizens’ oversight committee will be established to ensure that bond proceeds are properly expended and that annual performance and financial audits will be conducted. The measure further provides that bond proceeds will only be used for the purposes specified in the measure and not for any other purpose.\n\nApproval of this measure authorizes levy upon taxable property in the district to repay the bonded indebtedness, both principal and interest, in each year that the bonds are outstanding. The Liberty Union High School District has prepared a Tax Rate Statement, which represents the District’s best estimates of the property tax rates required to service the bonds. The estimated highest annual tax rate required to be levied to fund the bonds is expected to be $20 per $100,000 of assessed valuation.\n\nApproval of the measure does not guarantee that the proposed project or projects in the District that are the subject of the bonds under the measure will be funded beyond the local revenues generated by the measure. The proposed project or projects may assume receipt of matching state funds, which could be subject to appropriation by the Legislature or approval of a statewide bond measure.\n\nOf those voting on the measure, 55% must approve the measure for it to pass.\n\nA ”yes” vote is in favor of authorizing the bonded indebtedness.\n\nA “no” vote is against authorizing the bonded indebtedness.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Our high schools are among the best in the region. Liberty, Freedom, and Heritage High Schools provide outstanding instruction that prepares students for college, careers, and lucrative jobs. All three schools have earned recognition as California Distinguished Schools and California Gold Ribbon Schools.\n\nTo maintain that standard, Measure X will fund critical repairs and upgrades needed for student success. Many facilities are more than 60 years old. Aging infrastructure has caused gas leaks, water leaks, sewage backups, and more than 150 roof leaks in the past two years alone. These problems must be addressed.\n\nTop Priority projects have been identified at each school, including:\n\nRemoving hazardous materials such as asbestos and lead pipes from older schools\n\nUpgrading campuses to meet current health, safety, and accessibility standards\n\nRepairing or replacing deteriorating roofs, plumbing, gas lines, sewer lines, heating, ventilation, electrical systems, and aging portables\n\nProviding modern classrooms, technology, and facilities that support instruction in math, science, engineering, and technology\n\nExpanding career technical education with updated labs and equipment for programs such as health sciences, agriculture, skilled trades, law enforcement, and fire safety\n\nImproving student safety through upgraded fencing, cameras, emergency communication systems, smoke detectors, fire alarms, and sprinklers\n\nEvery penny from Measure X will stay in our community and cannot be used for salaries. Independent citizens’ oversight and annual audits are required to ensure funds are spent as promised.\n\nWhether or not you have children in our schools, strong local schools protect our quality of life and support property values. If approved, Measure X will bring up to $35 million in state matching funds to our district that would otherwise go elsewhere, maximizing the value of local taxpayer dollars.\n\nMeasure X will protect our schools, improve student safety, modernize aging facilities, and secure additional state funding for our community.\n\nPlease vote Yes on Measure X.\n\nSeana Fippin, Founder and CEO of Red Box Business Solutions\n\nRoy Ghiggeri, Former Liberty Union High School District Board\n\nMember; Partner/Owner of G&S Farms\n\nBrian Swisher, Former Mayor, City of Brentwood; Controller, Wayne E. Swisher Cement\n\nJames Hamilton, Vice President, Board of Directors, Delta Community Services\n\nEric L. Volta, Former Superintendent, Liberty Union High School District",
+      "against": "Vote No on Measure X because now is not the time to worsen East Contra Costa affordability.\n\nMeasure X increases costs for residents by $350 million of total debt service through 2058. Liberty Union High School District (LUHSD) is still paying off existing construction/maintenance bonds of Measure U (2016, $122 million, payoff 2047) and Measure A (2001, $65.4 million, payoff 2030).\n\nA $700,000 assessed value home now pays $178.50 annually for these two bonds. Measure X’s payoff, adding another $140.00 assessment, makes the total $318.50.\n\nLUHSD enrollment is flat, just 0.34% higher than 2016’s. So new bond funds would be used for maintenance and nice-to-have enhancements, not increased instructional capacity.\n\nVote No on Measure X because the expenditures are unaccountable.\n\nIn 2016 voters approved Measure U , borrowing $122 million (plus interest) to include maintenance issues similar to those cited now. Measure U was supposed to fix deteriorating roofs, plumbing, HVAC, electrical wiring, etc. Yet Measure X repeats those fixes now.\n\nMeasure X’s project list is a catch-all, not a plan. “Repair and improve aging classrooms,” “upgrade… other facilities,” and college/career readiness “in math, science, health, engineering, arts and skilled trades” covers virtually any expenditure. Voters are being asked to approve $165 million (plus $185 million interest) without a prioritized project list.\n\nMeasure X’s cited costs are “based upon projections and estimates only… and are not binding upon the District.” If home values drop, bond-payback tax rates could increase.\n\nVote No because Measure X’s project list isn’t sufficiently specific.\n\nCalifornia’s Constitution requires “A list of the specific school facilities projects to be funded….” Measure X ‘s Bond Project List states “The items presented on the following list provide are (sic) the types of projects authorized…. Examples included… are not intended to limit the broader types of projects described and authorized by this measure.” Sorry, that’s not specific.\n\nContra Costa Taxpayers Association, Marc D. Joffe, President\n\nBryan Scott, CBOC(2) Member, Brentwood Resident\n\nKathleen E. Griffin, 29-year Brentwood Resident\n\nTracy M Kasamoto, Retired, Courtroom Deputy Clerk\n\nTaiwo Abugan, CPA, member CBOC, BUSD"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9003-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-v",
+     "kind": "measure",
+     "level": "local",
+     "letter": "V",
+     "title": "Parcel tax",
+     "subtitle": "West Contra Costa Unified School District · Only voters who live in this district see it.",
+     "question": "Shall the measure supporting local quality education in West Contra Costa Unified School District, protecting core academics, science, music, arts, and career technical programs that prepare students for the changing economy; attracting and retaining qualified teachers; and maintaining mental health services and counselors to support student success; by renewing the parcel tax at the existing rate of 7.2¢/building square foot, raising approximately $10,238,737 annually for nine years, with senior exemptions, independent citizen oversight, audits, and local control, be adopted?",
+     "summary": "The governing board of the West Contra Costa Unified School District has adopted a resolution proposing to extend its current parcel tax (a qualified special tax). This ballot measure asks voters to decide whether an existing parcel tax should continue to be imposed on parcels of taxable real property within the District for nine years, beginning July 1, 2027 and expiring on June 30, 2036.\n\nIf the measure passes, the tax would apply to each “improved parcel” of taxable real property in the District. An improved parcel, property with a building on it, would be taxed at a rate of 7.2 cents per square foot of total building area on the parcel. For example, the annual tax on a parcel with a 2,000 square-foot building would be $144.\n\nBased on information from the County Auditor-Controller’s Office, the current parcel tax applying the same rate of 7.2 cents per square foot of total building area per parcel is set to expire on June 30, 2027.\n\nThe ballot measure includes certain exemptions. Upon proper application to the District, the District may exempt any parcel from the parcel tax that is owned and occupied as a principal residence by (1) a person 65 years of age or older; (2) a person receiving Supplemental Security Income for a disability; or (3) a person receiving Social Security Disability Insurance benefits, whose yearly income does not exceed 250 percent of the 2012 federal poverty guidelines issued by the United States Department of Health and Human Services.\n\nThe ballot measure states that the proceeds of the parcel tax will be used for “protecting core academics, science, music, arts and career technical programs that prepare students for the changing economy; attracting and retaining qualified teachers; and maintaining mental health services and counselors to support student success.” Proceeds from the parcel tax may be used only for the specific purposes set forth in the ballot measure and according to constitutional and statutory provisions.\n\nState law requires the District’s chief fiscal officer to file an annual report with the District’s Board of Education that states the amounts of funds collected and expended in each year and the status of any projects required or authorized to be funded from the parcel tax proceeds. The proceeds from the parcel tax will be deposited into a District account that will be kept separate from other District accounts. Parcel tax funds will be subject to an annual financial audit. The measure also requires the District to have an independent oversight committee to oversee the use of parcel tax proceeds.\n\nOf those voting on the measure, two-thirds must approve the measure for it to pass.\n\nA “yes” vote is in favor of authorizing the parcel tax for a nine-year period.\n\nA “no” vote is against authorizing the parcel tax for a nine-year period.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "A Yes vote on Measure V will preserve vital funds for local schools. It is not a new tax; it will renew local education funding and continue our investment in West Contra Costa students.\n\nMeasure V will continue local funding that has supported our students and our schools since 2004 with no rate increase. Measure V will raise $10.2 million annually. Every dollar remains in our community and cannot be taken by the state or federal government.\n\nCalifornia funding has not kept pace with rising costs for special education, employee salaries, utilities, insurance, and essential school operations. Without renewal, our schools face cuts to programs students rely on every day.\n\nA Yes vote helps by:\n\n• Protecting core academics in reading, writing, math, and science\n\n• Maintaining science, technology, engineering, and math (STEM) instruction\n\n• Attracting and retaining qualified teachers\n\n• Providing career and technical training to prepare students for careers in a changing economy\n\n• Maintaining mental health and counseling services\n\n• Supporting visual and performing arts\n\n• Improving campus safety\n\n• Supporting athletic and sports programs\n\n• Supporting after school programs\n\nMeasure V includes strong taxpayer protections. Independent citizen oversight ensures funds are spent as promised, with annual audits by a state-approved certified public accountant. Revenue stays local and cannot be used for administrator salaries. Seniors and qualified individuals with disabilities remain eligible for an exemption.\n\nStrong schools build strong communities. They strengthen our neighborhoods, prepare our future workforce, and help make West Contra Costa a community where families and businesses want to invest. We all benefit from strong schools.\n\nProtect what we have built and invest in our future.\n\nVote Yes on Measure V – vital funds for local schools.\n\nVisit www.VoteYesOnV.com\n\nFrancisco Ortiz, Ed.D., President, United Teachers of Richmond\n\nJen Komaromi, Small Business Owner\n\nBisa French, Executive Director\n\nJeffrey Wright, Realtor\n\nJudy Sanders, Retired WCCUSD Educator",
+      "against": "Vote No on Measure V.\n\nThe West Contra Costa Unified School District (WCCUSD) does not have a revenue problem.\n\n● The 2026-27 budget shows anticipated revenue of $532 Million, with expected spending of $520 Million — an operating surplus of $12 million.\n\n● Since 2016-17, enrollment has declined from 28,518 to 24,423 — more than 4,000 students!\n\n● So WCCUSD will spend $21,304 for each of its 2026-27 estimated 24,423 enrolled students, on record state funding levels. Per-student funding based on projected “Average Daily Attendance” (ADA) of 22,677 students is even higher.\n\n● Measure V would now extend a parcel tax first imposed in 2004 to 2036, having annually taken $10 Million extra for 32 years by then, and guaranteeing the district an extra $10 million every year, no matter how much lower WCCUSD enrollments drop.\n\nConsider what WCCUSD residents already pay:\n\n● The highest school-bond tax in Contra Costa County, about $254 per $100,000 of assessed value (stacked from bonds passed in 2000, 2002, 2005, 2010, 2012, and 2020), and 3½ times Mt. Diablo Unified’s $72.\n\n● Some of the highest sales taxes in the Bay Area, 10.75% percent in El Cerrito and 9.75% percent in Richmond, against California’s 7.25% statewide base.\n\n● A West Contra Costa Healthcare District parcel tax of $52 per home (higher for other properties), still collected years after Doctors Medical Center closed in 2015.\n\nNow consider the district’s direction:\n\n● Spending has climbed to $520 million in 2026-27 from $377 million in COVID Year 2019-20 (a 38% increase), even as enrollment has fallen 13.5 percent over those years, from 28,247 students then to 24,423 now.\n\nA “No” vote on Measure V takes not a dollar from other record funding the schools already receive. Voting “No” requires a district already running a surplus to live within its means.\n\nEnough is enough. Vote No on V.\n\nContra Costa Tax Payers Association, Denise Gianni, Member of Executive Committee\n\nLyle Miller, Retired Business Owner, San Pablo\n\nRobin MacDonald, Business Owner, Pinole\n\nMarilynne Mellander, Coordinator Save El Sobrante"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9004-en-2/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "city-measures",
+   "heading": "City Measures",
+   "group": "measures",
+   "note": "Titles are from the county's official list; full text and arguments are in the county voter guide.",
+   "contests": [
+    {
+     "id": "cc-measure-m",
+     "kind": "measure",
+     "level": "local",
+     "letter": "M",
+     "title": "City of clayton sales tax measure",
+     "subtitle": "City of Clayton",
+     "applies": {
+      "city": 3
+     },
+     "question": "To provide local funding to maintain City of Clayton programs, services, and facilities, including: police services, traffic enforcement and road safety, road and sidewalk improvements, enhance library and recreation opportunities, park maintenance, recruitment and retention of city employees and other city services, shall the City of Clayton levy a 1% sales tax until ended by voters generating approximately $1,000,000 annually, subject to public review, the annual audit and all funds benefitting Clayton?",
+     "summary": "On June 16, 2026, the City Council voted unanimously to place Measure M on the November 3, 2026 General Municipal Election ballot.\n\nIf approved by a majority of Clayton voters, this Measure would authorize a one percent (1%) retail transactions and use (sales) tax within the City of Clayton. A one percent (1%) rate equates to an extra $1 per $100 purchased. It is estimated that Measure M will provide an additional $1,000,000 in annual local funding that could be used for City of Clayton programs, services and facilities, including police services, traffic enforcement and road safety programs, road and sidewalk improvements, enhancing library and recreation services, park maintenance, and recruitment and retention of City employees. This tax would be a “general tax,” meaning that revenues raised from the tax would go into the City’s general fund to pay for any lawful City program, improvement, or service.\n\nThe California Constitution (Proposition 218) and Revenue and Taxation Code section 7285.9 authorize the City to levy a general transactions and use/sales tax at a rate of one percent (1%) so long as the tax is approved by a majority of the voters voting in an election on that issue. If approved, the tax would become operative on April 1, 2027 and remain in effect until repealed by voters at a subsequent election.\n\nThe tax would be paid in addition to current sales taxes and would be collected at the same time and in the same manner as existing sales taxes. All revenues raised by the tax would remain in the City and would not be shared with the State, County or any other agency.\n\nA “yes” vote on Measure M will authorize the 1% transactions and use (sales) tax.\n\nA “no” vote on Measure M will not authorize the 1% transactions and use (sales) tax.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Measure M is an investment in Clayton’s quality of life designed to protect our city’s future.\n\nClayton will soon be facing a long-term structural deficit of $1.18 million due to rising costs of delivering essential services.\n\nThis deficit means that without action, the City will struggle to sustain our current police services, repair our streets and sidewalks, preserve parks and recreation programs, and maintain aging infrastructure.\n\nMeasure M offers a long-term solution to our deficit through a 1% sales tax increase. Projections estimate this will generate $1 million annually. This tax increase will ensure the City has the resources to continue delivering the quality services residents depend on.\n\nSince Clayton’s founding, City leaders have always fought to avoid tax increases.\n\nBefore proposing Measure M, the City exhausted every other available means of generating new revenue. This included updating fees, reorganizing staff, and reducing service contracts. Those measures have helped, but are simply not enough to close our deficit.\n\nThe City does not propose this lightly. Measure M would be our first sales tax increase in the City’s sixty-two year history, which is why Clayton’s sales tax rate is among the lowest in the County.\n\nMeasure M is a local decision designed to meet local priorities. Should residents choose to approve Measure M, all of the resulting funds would remain accountable to residents and under the control of the City, not the County or State. That means 100% of all revenues generated stay in Clayton.\n\nClayton is a special community defined by safe neighborhoods, well-maintained parks, and a high quality of life.\n\nBy acting now, we can protect the services that make Clayton a desirable place to live, work, and raise a family while avoiding more difficult and expensive choices later.\n\nKim Trupiano, Councilmember\n\nHolly Tillman, Councilmember\n\nJeff Wan, Mayor\n\nRichard G. Enea, Vice-Mayor\n\nJim Diaz, Councilmember",
+      "against": "Vote No on the 1% Clayton Sales Tax. We sent a message in June. Now, let’s stand firm in November.\n\n• In June 2026, Clayton residents joined voters across Contra Costa County to decisively defeat Measure B, a 0.625% sales tax hike. In Clayton, 69% of voters wisely said No to Measure B.\n\n• The message from our community was clear: inflation and the cost of living are hurting families, and we cannot afford more taxes. Yet, just weeks later, the Clayton City Council voted 5-0 to push an even larger 1% tax increase onto the November ballot.\n\n• This proposal ignores the clear financial mandate Clayton citizens just delivered at the polls.\n\n• Clayton’s overall sales tax rate is an already high 8.75%; Measure M would spike that rate to 9.75% , punishing working families and fixed-income seniors. If Measure RTM also passes, our total rate would reach 10.25%.\n\nFuel Staff Pay Hikes:\n\n• Our politicians have no set agreement for how the proposed tax hike will be used.\n\n• Ultimately, this revenue increase to the general fund will likely be absorbed by rising city salaries, continuing to leave deferred infrastructure neglected and triggering future tax hikes to pay for actual community needs.\n\nA Losing Compensation Race:\n\n• Government salaries and employee benefits have risen significantly since the pandemic, while the private sector faces layoffs. Between 2019 and 2025, total Clayton employee compensation rose 37%, well ahead of Bay Area consumer price inflation.\n\n• Setting Clayton’s small-town employee salaries to other city governments ensures that future spending will likely exceed revenues, requiring more tax increases.\n\nNo End in Sight:\n\n• Unlike the failed Measure B, which was set to expire after 5 years, Clayton’s Measure M is a permanent tax hike.\n\n• Clayton government must learn to live within its means, just like Clayton families do every single day.\n\nKeep Clayton Sensible. Vote No on Measure M.\n\nContra Costa Taxpayers Association, Marc D. Joffe, President\n\nJames Killoran, Credit Union Supervisory Committee Chair, Clayton\n\nAllison Snow, Retired Healthcare Executive, Clayton\n\nNancy Topp, CPA/CFO, Clayton\n\nBill Calkins, Clayton Resident"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9005-en/"
+     }
+    },
+    {
+     "id": "cc-measure-n",
+     "kind": "measure",
+     "level": "local",
+     "letter": "N",
+     "title": "Citywide landscape maintenance extension and alteration of rate of existing special tax",
+     "subtitle": "City of Clayton",
+     "applies": {
+      "city": 3
+     },
+     "question": "Shall the measure to fund on-going trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services of the Clayton Community Facility District No. 2007-1 (Citywide Landscape Maintenance) by extending the special tax for ten years and amending its rate and methodology to $354.45/year per residential parcel and $354.45/year per non-residential acre, including annual inflationary adjustments, subject to citizen’s committee oversight, be approved?",
+     "summary": "The City of Clayton has established Community Facilities District 2007-1 within the City (“CFD”), which is authorized to levy a special parcel tax on real property within the CFD to fund City trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services. Pursuant to City Measure “H”, the CFD currently levies the tax at the annual rate of $312.84 per residential parcel and $312.84 per acre, or fraction thereof, for non-residential parcels. The tax started collection on July 1, 2007 and will expire on June 30, 2027, unless extended by voters.\n\nAfter conducting a noticed public hearing on July 7, 2026, the City Council unanimously voted to place Measure N on the November 3, 2026 General Municipal Election ballot. It proposes to extend the CFD parcel tax for ten (10) years, with a new expiration date of June 30, 2037. It also proposes to increase the annual parcel tax rate, starting July 1, 2027, to $354.45 per residential parcel and $354.45 per acre, or fraction thereof, for non-residential parcels.\n\nThe Measure allows the City Council to increase the tax rate, starting July 1, 2028 and in each fiscal year thereafter by the applicable Consumer Price Index, with a 3% annual cap, after making such a determination at a regular public meeting and after receiving a prior recommendation from the City’s Citizens’ Trails and Landscaping Committee.\n\nThe tax will expire on June 30, 2037, unless further extended by Clayton voters at a future election. Measure N does not change the purposes of the parcel tax. Tax revenues will continue to be deposited into a special City fund and used solely to fund City trail system operations and maintenance, roadway landscaping, open space weed abatement, and related services.\n\nMeasure N incorporates citizen’s committee oversight. This CFD parcel tax would be collected in the same time and manner and subject to the same requirements as other property taxes fixed and collected by the County of Contra Costa on behalf of the City of Clayton.\n\nMeasure N requires the approval of two-thirds (2/3) of Clayton voters voting on the Measure to pass.\n\nA “yes” vote on Measure N will approve this CFD parcel tax.\n\nA “no” vote on Measure N will not approve this CFD parcel tax.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "In 1997, Clayton established the Trails and Landscape Maintenance District (District) to fund the maintenance of trails, open space, weed abatement, firebreaks, and roadside landscaping. A 10-year parcel tax was adopted, providing dedicated funding for Clayton’s landscaping.\n\nIn 2007, a citizens’ Blue Ribbon Committee reviewed the District’s successes and challenges. The importance of Clayton’s “Front Yard” was reaffirmed, and a new plan was recommended. It included a Trails and Landscape Committee (TLC), a citizen advisory body appointed by the City Council, to advise the Council and staff on maintenance, improvements, and financial matters related to the Landscape Maintenance District (LMD). Voters overwhelmingly extended the parcel tax in 2007 and 2017, ensuring continued investment in Clayton’s medians, parks, trails, and open spaces.\n\nIn FY 2026-2027, residents currently pay $312.84/year per parcel and nonresidents $312.84/per acre or fraction thereof. The LMD maintains approximately 2 million square feet of roadway landscaping, 40,700 square feet of lawns and flowerbeds, 515 acres of open space, 27 miles of trails, 50 street islands and medians, and roughly 3,000 City trees. The LMD funds also support critical fire mitigation efforts in open spaces and around trails, including weed abatement. Evolving fire safety requirements are expected to increase these costs, making dedicated funding increasingly important.\n\nMeasure N includes a one-time, 10% reserve fee dedicated to capital improvements and longstanding deferred maintenance. For FY 2027-2028, residents will pay no more than $354.45/year per parcel and nonresidents $354.45/year per acre or fraction thereof, generating $1.5 million annually through 2037, with continued oversight by the TLC.\n\nClayton’s modest General Fund cannot adequately fund public landscaping and trails. Without this dedicated funding, maintenance would rapidly decline, forever changing Clayton’s beauty and character.\n\nPlease support Measure N and essential fire mitigation efforts, and preserve Clayton’s landscaping, trails, open spaces, and community character for future generations.\n\nHolly Tillman, Councilmember\n\nKim Trupiano, Councilmember\n\nRichard G. Enea, Vice-Mayor\n\nJeff Wan, Mayor\n\nJim Diaz, Councilmember",
+      "against": "We know from experience or hearsay (depending on age) that last midcentury, two dimes would buy a gallon of gas or two scoops of ice cream; ten dimes could buy 6 basic hamburgers. If the dimes are silver, they still do. But the digital and paper currencies aren’t doing as well.\n\nYou may be aware that Japan was bailed out by the U.S. because they are our biggest buyer of Treasurys and need money, but if they sell our debt, it devalues faster.\n\nWhat does this have to do with this proposed Special Tax? It would rise with inflation. The United States of America is inflating like crazy, and they’re just getting started.\n\nThe next ten years are likely to be challenging for everyone.\n\nPerhaps the landscaping budget could be funded by sponsorships, voluntary neighborhood workdays, fundraisers.\n\nAlso bad: spending public funds to defend against violations of election code.\n\nCalifornia Elections Code section 13119(a) requires ballots to use this language:\n\n“Shall the measure (stating the nature thereof) be adopted?”\n\n“The nature thereof” does not mean “why,” or “how,” or “for whom,” or anything other than “what is the nature” of the measure being adopted.\n\nContra Costa County wrote a ballot question recently. It was ruled “prejudicial and argumentative” in Superior Court. The court ordered offending language removed, including “independent citizens oversight.”\n\nSection 9051(e) requires it “shall neither be an argument, nor be likely to create prejudice, for or against the proposed measure.”\n\nClayton’s Measure N ballot question lists benefits, not costs like pay-raises; it is not neutral.\n\nIf you don’t like public funds spent defending violations, the best way to save court costs and stop cheating, is vote “No” every time you see a ballot question containing sales pitches. Save that for the argument.\n\nLibertarian Party of Contra Costa County, Sandra Kallander, Chair"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9006-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-o",
+     "kind": "measure",
+     "level": "local",
+     "letter": "O",
+     "title": "Business license tax update",
+     "subtitle": "City of Concord",
+     "applies": {
+      "city": 4
+     },
+     "question": "To protect City of Concord services/ensure smaller businesses pay less than larger businesses, shall the measure be adopted to: repair potholes on neighborhood and major streets; maintain 9-1-1 emergency response; keep parks/playgrounds safe/clean; relieve traffic congestion along major corridors; maintain senior/youth programs; for general government use; by updating Concord’s 37-year-old business license rates to 0.1% of gross receipts until ended by voters, providing an additional $2,900,000 annually, requiring independent citizen oversight?",
+     "summary": "The Concord City Council has placed Measure O (“Business License Tax Simplification Ballot Measure”) on the ballot. Concord’s existing gross receipts business license tax rate schedule, based on graduated tiers of gross receipts, with rates that become progressively lower from 0.1% to 0.03% as business gross receipts increase, has remained substantially unchanged for approximately 40 years. Measure O would replace those tiered rates with a single uniform rate of one tenth of one percent (0.1%) of gross receipts for gross receipts-based businesses. Measure O would expand the small business exemption for students and seniors making less than $3,600 to any business making less than $5,000. Neither the existing gross receipts tax rates nor the rates as amended by Measure O contain inflation adjustments. Measure O also clarifies the initial due and delinquency dates for tax payments; clarifies that refund claims must be submitted within one year of payment consistent with state law; subjects the existing $25 minimum tax to inflationary adjustments; and imposes interest of 1.5% per month on delinquent amounts.\n\nBecause Measure O does not legally restrict use of the tax revenues to any specific purpose, it is a “general tax.” The tax proceeds would be deposited in Concord’s general fund and may be used for any valid governmental purpose, including: pothole repair and street maintenance, 911 emergency response, park and playground upkeep, traffic congestion relief, and senior and youth programs. It is an independent source of revenue for Concord that neither Sacramento nor the federal government can take.\n\nMeasure O requires the City’s independent auditors to prepare a publicly available annual report on the collection, management, and expenditure of $2.9 million of the additional revenue generated by Measure O. Concord’s existing Measure V Citizens’ Oversight Committee would review/report on the receipt/expenditure of those funds.\n\nBusiness license tax is paid only by businesses operating in Concord and not by residents who are not business owners. Under current law, smaller businesses subject to the general gross receipts tax with lower gross receipts pay a higher effective tax rate than larger businesses with higher gross receipts because the tax rate decreases at each successive tier.\n\nMeasure O would eliminate that tiered structure and apply the same 0.1% rate to all general gross receipts taxed businesses, regardless of size. Measure O would not change the rates for manufacturing, specified professions and trades, apartments, hotels, motels, contractors, or other specifically identified business categories.\n\nMeasure O will be approved if it receives a simple majority of “Yes” votes. Measure O would terminate when repealed by Concord voters. If Measure O is not approved, the existing tiered gross receipts business license tax rates and exemption for only student/senior businesses making under $3,600 (rather than any business making $5,000 or less) in annual gross receipts would remain in place; due-date, delinquency date, and refund claim date clarifications would not be made; the $25 minimum tax would not be subject to inflationary adjustments; and interest on delinquent amounts would not be imposed.\n\nA “Yes” vote is a vote in favor of Measure O.\n\nA “No” vote is a vote against Measure O.\n\nDated: August 13, 2026\n\n______________________\n\nSusanne Meyer Brown\n\nCity Attorney\n\nCity of Concord",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Vote Yes on O – Maintain Concord’s safety and quality of life!\n\nYes on O simplifies and updates Concord’s nearly 40-year-old business license structure to ensure that large businesses are paying their fair share, and smaller businesses are not unfairly shouldering the cost of keeping Concord a safe, well-maintained community. Measure O is not a tax on homeowners or residents. Measure O simply updates an outdated business tax structure.\n\nYes on O will:\n\n• Repair potholes, neighborhood and major city streets\n\n• Maintain 9-1-1 emergency response\n\n• Keep parks/playgrounds safe and clean for kids\n\n• Relieve traffic congestion along major corridors\n\n• Maintain senior and youth programs\n\nYes on O requires strict transparency and accountability – including Independent Citizens Oversight, public disclosure of all spending, financial audits, and yearly reports to the community to ensure that all funds are spent locally and as promised.\n\nYes on O ensures local control over local dollars for our own local needs. Not a penny can be taken by the state.\n\nWe need Yes on O . Did you know? Concord has approximately 65 million square feet of public streets to maintain and keep safe! In an accident, disaster or medical emergency, Measure O helps ensure rapid 9-1-1 emergency services are ready when we need them the most, including first responders who must safely and quickly reach people that need help.\n\nVote Yes on O ! By simplifying the business license structure, Measure O ensures smaller businesses, homeowners, and residents aren’t unfairly shouldering the cost of vital local services like public safety, roads, parks, and emergency response.\n\nLet’s keep Concord safe and maintain our quality of life – Join a unanimous City Council, local businesses, community leaders, and neighbors in voting Yes on O!\n\nZulay Loftin, Owner, Loftin Dental\n\nMary Totah, Owner, Parma Deli\n\nAntonio Barragan, Store Manager, Las Montanas Supermarket\n\nWes Andreen, Owner, Just Trains\n\nMohamed Habib Jacifi, Owner, Luna Restaurant",
+      "against": "Who Pays?\n\n• The City claims residents who aren’t business owners won’t pay more. Businesses rarely absorb new costs passively — they pass them along through higher prices at the shops,\n\nrestaurants, and services you use every day.\n\n• A tax on business is, in actual effect, a tax on everyone who spends money in Concord.\n\nWhere does the money go?\n\n• This measure funds the General Fund, not a locked account earmarked specifically for roads or emergency response.\n\n• Like past measures, future City Councils retain full discretion over how the money is actually spent, regardless of what’s advertised now.\n\nRight time?\n\n• Concord voters are already facing a regional transit sales tax and other county measures on this same ballot. Stacking another new tax on top — even one branded as\n\n“modernization” — adds to a real cumulative burden on households and businesses at a moment when affordability is already strained.\n\nStartup Penalties?\n\n• New companies losing money still owe the tax because the levy ignores production costs\n\nWell Written?\n\n• This overhaul of a 40-year-old structure is significant and deserves more scrutiny than a single election cycle allows.\n\n• The rewrite must include a truly independent, binding oversight and sunset mechanism without which voters are being asked to trust the outcome rather than control it.\n\nVote No, and ask the City to return with a plan that includes real accountability — a hard spending lock, a sunset date, and full transparency — before asking Concord to pay more.\n\nNo on O!\n\nContra Costa Taxpayers Assn, Cynthia Johnson, Co-Treasurer\n\nJennifer Wang-Filomeo, Concord Resident\n\nEric Rotsten, Real Estate Broker"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9007-en/"
+     }
+    },
+    {
+     "id": "cc-measure-p",
+     "kind": "measure",
+     "level": "local",
+     "letter": "P",
+     "title": "Sales tax",
+     "subtitle": "City of Hercules",
+     "applies": {
+      "city": 7
+     },
+     "question": "Shall the measure providing Hercules with locally controlled funding to maintain financial stability/general city services, such as fast 911 response; neighborhood police patrols; water quality standards; keeping public areas/parks safe/ clean; repairing deteriorating streets/potholes; and retaining/attracting local businesses, by establishing a one-cent (1%) sales tax generating approximately $4,000,000 annually until ended by voters; requiring audits, public disclosure, and funds only for Hercules, be adopted?",
+     "summary": "This measure (the “Hercules Public Safety/ Financial Stability Measure”) would add Chapter 11 to Title 8 to the Hercules Municipal Code and would impose a transactions and use tax, commonly known as a sales tax, of up to 1% in the City of Hercules.\n\nThe tax would be imposed on the sale or use of tangible personal property in the City. The tax would be administered by the California Department of Tax and Fee Administration, which administers all sales and use taxes and transactions and use taxes in California.\n\nThe tax would be collected in addition to the existing sales and use and transactions and use taxes already imposed by the State of California, Contra Costa County, and BART in the City of Hercules. It would also be collected in addition to the City’s existing transactions and use tax in Chapter 9 of Title 8 of the Hercules Municipal Code. The current combined rate for all sales and use and transactions and use taxes in Hercules is 9.25%.\n\nGroceries and prescription medicines would be exempt from the tax.\n\nThe proposed tax is estimated to generate $4,000,000 per year, and the California Constitution prohibits the State from taking this revenue from the City.\n\nThe proposed tax is a general tax, which means the revenues could be used by the City for any lawful municipal purpose, such as 911 response, neighborhood police patrols, water quality standards, keeping public areas and parks safe and clean, repairing deteriorating streets and fixing potholes, and retaining and attracting local businesses.\n\nIf approved, the tax would begin to be collected on April 1, 2027 and would continue to be collected until repealed.\n\nThe tax would be imposed at a rate of 1%, unless state law limits the tax rate to a lower rate, in which case it would be imposed at the maximum rate allowed under the law, but no more than 1%\n\nRevenues collected under this tax will be subject to an independent financial audit conducted annually by a certified public accountant, and the expenditure of the revenues will be stated in the annual budget. Both the annual audit and the budget will be presented and reviewed by the Hercules City Council in an open public meeting.\n\nThe measure was placed on the ballot by the Hercules City Council. The measure will take effect if a majority (50% plus 1) of voters voting on the measure vote “Yes.”\n\ns/Christine Crowl, City Attorney, City of Hercules",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "If you care about Public Safety and Health in Hercules, vote Yes on P!\n\nHercules is finally a place where people want to live and raise their families. Voting Yes on P maintains our community momentum and the essential City services that make Hercules a safe, well-maintained place to live during a time of economic and national uncertainty.\n\nYes on P maintains a healthy, safe and vibrant Hercules community.\n\nYes on P maintains fast 911 response and the police officers patrolling our neighborhoods.\n\nYes on P helps our City meet current water quality standards.\n\nYes on P keeps public areas and parks safe and clean.\n\nYes on P retains and attracts local businesses.\n\nWith the State facing its own major budget deficit and declining federal funding, Measure P is a critical strategy to continue to maintain Hercules’s long-term financial stability. Measure P is fiscally accountable with mandatory financial audits, yearly reports, and public disclosure to ensure its funds are spent on the community’s priorities, responsibly.\n\nAll Measure P funding must stay here in Hercules for our own local needs. Not a dime can be taken by Sacramento politicians, the County, or federal government.\n\nHere’s what Yes on P Won’t do:\n\nMeasure P is Not a tax on your property or home.\n\nMeasure P is Not applied to food purchased as groceries or prescription medication.\n\nJoin the majority of the Hercules City Council and community leaders: Vote Yes on P: Protect our Public Safety and our Safe, Healthy Hercules!\n\nTo read the official Measure P documents, visit herculesca.gov\n\nHercules Police Officer’s Association, Chris Costa, President\n\nDarrel “Jay” Tucker, President, Hercules Historical Society, Former Hercules Mayor and Council Member\n\nRichard Mitchell, Former Hercules Planning Commissioner\n\nJo Ellen Marcotte, Member, Hercules Library Foundation",
+      "against": "Vote No on the Measure P tax hike!\n\nEverything in and around Hercules costs more, and now the City Council wants to add another 1% to the price of gas, school supplies, clothes, and other essentials.\n\nA higher tax on nearly everything you buy:\n\n• Measure P raises Hercules’ sales tax from 9.25% to 10.25%. Your ballot also carries a separate 0.5% regional transit tax. If both pass, Hercules shoppers will pay 10.75%, tying El\n\nCerrito and Pinole for the highest sales tax in Contra Costa County, and well above the national and California averages.\n\n• It even raises the price of a new car. California charges vehicle tax at the buyer’s home address, so Hercules residents would pay 10.75% no matter where they buy, e.g., $5,375 on a\n\n$50,000 vehicle. You can’t escape it by shopping out of town.\n\n• Sales taxes hit low- and middle-income families hardest. If Hercules truly values equity, why penalize those who can least afford it? If Measure P passes, shoppers can save 1.5%\n\non necessities simply by buying in unincorporated Rodeo or El Sobrante.\n\nThe real problem is spending, not revenue:\n\n• Hercules’ own audited statements show General Fund spending more than doubled in a decade, from $10.2 million in 2015 to $20.7 million in 2025. Where is the money going?\n\n• Nine city employees each received more than $200,000 in wages in 2025 according to State Controller data.\n\n• Staff admit the retail tax base is “not robust enough to fund anything more than basic service levels.” If spending can double while services stay “basic,” the problem isn’t too little\n\ntax money; it’s how the money is managed.\n\nBefore charging residents the highest sales tax in the county, the Council should show real spending restraint.\n\nThe sales tax in Hercules is high enough already.\n\nVote No on Measure P.\n\nContra Costa Taxpayers Association, Marc D. Joffe, President\n\nMichael Hernandez, Hercules Resident\n\nMichael Letcher, Hercules Resident"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9008-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-q",
+     "kind": "measure",
+     "level": "local",
+     "letter": "Q",
+     "title": "Bond measure",
+     "subtitle": "City of Richmond",
+     "applies": {
+      "city": 16
+     },
+     "question": "To support rapid, 911 emergency medical response, modernize and rehabilitate unsafe/deteriorating firefighter housing and facilities, including mold/asbestos abatement/removal, replace electrical systems, leaky pipes/roofs, and improve structure resiliency during disasters, shall the City of Richmond’s measure authorizing $120,000,000 in bonds at legal rates, levying an estimated average tax rate of $22.15/$100,000 of assessed valuation, averaging $7,568,158 annually while bonds are outstanding, requiring citizen oversight, audits, and spending only on approved projects, be adopted?",
+     "summary": "This measure was placed on the ballot by the Richmond City Council. It requires a two-thirds vote of the electorate to pass.\n\nIf approved, this measure would authorize the City of Richmond to issue general obligation bonds in a principal amount not to exceed $120,000,000, to be repaid through an ad valorem property tax levied on all taxable property within the City.\n\nThe proceeds of the bonds would fund:\n\n• Repair, replacement, or reconstruction of fire stations, including seismic improvements;\n\n• Renovation, upgrade, reconstruction, or acquisition of firefighter living quarters, including remediation of hazardous materials and improvements related to applicable building standards;\n\n• Repair or replacement of electrical systems, roofs, plumbing, and piping at fire stations;\n\n• Structural, seismic, and other resiliency improvements at fire stations;\n\n• Repair, replacement, or installation of fixtures and building systems such as emergency generators, HVAC systems, and communications infrastructure; and\n\n• Construction, renovation, upgrade, reconstruction, or acquisition of training facilities, administrative offices, apparatus bays, and other facilities supporting Fire Department operations.\n\nThe City Council retains discretion over the scope and sequencing of individual projects, and completion of all listed improvements is not guaranteed.\n\nBond proceeds may be used only for the acquisition or improvement of real property and fixtures, and related incidental costs, and may not be used for other municipal purposes.\n\nThe measure includes the following accountability requirements: proceeds may be spent only for the specific purposes described in the measure; proceeds will be deposited into a separate account; the City Council will appoint a Community Oversight Committee of City residents to monitor expenditure of the proceeds; the Director of Finance will file an annual report to the City Council on funds collected and expended and the status of authorized projects; and all expenditures will be subject to an annual independent financial audit.\n\nThe average tax rate to repay the bonds is projected to be $22.15 per $100,000 of assessed valuation, averaging approximately $7,568,158 annually while the bonds remain outstanding. The highest tax rate is projected to be $24.06 per $100,000 of assessed valuation, first applying in fiscal year 2028. The total debt service, including principal and interest, if all bonds are issued and sold, is estimated to be $249,749,206, with the final fiscal year in which the tax is anticipated to be collected being 2060. The Tax Rate Statement, prepared under Elections Code Section 9401, contains additional detail and is available from the Richmond City Clerk.\n\nThe maximum interest rate on the bonds would be 12 percent per annum. Bonds may be issued in one or more series as determined by the City Council.\n\nA “YES” vote authorizes the City to issue the bonds as summarized above.\n\nA “NO” vote does not authorize the City to issue the bonds.\n\nThis analysis summarizes the measure’s legal effect and is not an argument for or against the measure. The full text of the measure is available in the Voter Information Guide and from the Richmond City Clerk.\n\nSHANNON MOORE\n\nInterim City Attorney, City of Richmond",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Richmond’s emergency response infrastructure is failing us—and our first responders.\n\nWhen a heart attack, stroke, serious injury, or other emergency strikes, every second counts . But our aging, undersized stations can’t accommodate enough firefighters or the latest equipment needed to respond quickly. Slower response times put residents at risk when speed is a matter of life or death.\n\nToday, some Richmond firefighters work in seismically unsafe buildings, with cracking foundations, leaky roofs, mold, and outdated electrical systems, jeopardizing their health and safety while they work to protect ours.\n\nMeasure Q is a responsible, accountable plan to fix Richmond’s emergency response infrastructure. It authorizes $120 million in bonds to modernize and rehabilitate unsafe, deteriorating firefighter facilities, which will help improve emergency response times and protect the health and safety of our firefighters.\n\nKey investments will include:\n\n• Improving facilities and infrastructure to support rapid 911 emergency medical response, matching the standard of care available across the County.\n\n• Bringing firefighter apparatus, equipment, and facilities up to current safety and industry standards.\n\n• Rehabilitating unsafe firefighter housing, including removing mold and asbestos.\n\n• Replacing deteriorating electrical systems, leaky pipes, roofs, and other aging infrastructure in fire stations.\n\n• Bringing aging fire stations, some more than 80 years old, up to current building and safety codes.\n\n• Improving the resiliency of fire stations and emergency response facilities during earthquakes, wildfires, and other disasters.\n\nMeasure Q requires strict accountability: independent financial audits and mandatory citizen oversight ensure every dollar is spent only on approved projects.\n\nRichmond families deserve fast emergency response times and firefighters who are safe, equipped, and ready when they are needed most. Vote Yes on Measure Q to protect our neighbors, our first responders, and our community’s future.\n\nJoin Richmond firefighters, emergency medical responders, and neighbors across every district. Vote Yes on Measure Q.\n\nUnited Business Organization, Juan Muñoz, President\n\nSt. Cornelius Catholic Church, Rev. Sergio Mora, Pastor\n\nMyrtle L. Braxton, Senior Citizen\n\nKarla M. Palma Melgar, Registered Nurse\n\nFernando Ramirez, Richmond Firefighter",
+      "against": "Vote No on Measure Q.\n\nRichmond’s firefighters deserve safe, functional stations. Measure Q is the wrong way to pay for them.\n\nRichmond property owners are already among the most heavily taxed in California. On top of the basic one percent rate, they pay roughly 0.42 percent more every year in voter-approved bond levies, over $420 per $100,000 of assessed value. West Contra Costa school bonds alone cost about $250 per $100,000, the highest school-bond rate in the county. Community college bonds, two BART bonds, and a regional park bond pile on further. Homeowners still pay a $52 hospital parcel tax for Doctors Medical Center, which closed in 2016 and was demolished. Enough is enough.\n\nMeasure Q involves borrowing $120 million and forces property owners to repay $249,749,206, more than double, with the tax collected all the way through 2060. You would pay for decades, at interest, to fix leaky roofs, old pipes, mold and electrical systems that ordinary budgeting should have maintained.\n\nAnd Richmond does not need to borrow. The city just received the Chevron settlement, roughly $550 million over ten years. The entire fire-facility need it has identified is about $115 million. Two years of settlement money covers all of it, with no new tax and no interest.\n\nThe city knows this. When Councilmember Bana pressed for a backup plan, City Manager Shasa Curl confirmed that if voters say no, Richmond will simply use settlement funds to upgrade the stations. A no vote puts no firehouse at risk. Richmond’s own poll agrees: 81 percent said the city “should be more responsible and spend the money it already has.”\n\nFix the stations with the money already in hand. Do not pile another quarter-billion-dollar tax on property owners who already pay enough.\n\nVote No on Measure Q.\n\nContra Costa Taxpayers Association, Marc D. Joffe, President\n\nDenise Gianni, Richmond Resident"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9009-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-r",
+     "kind": "measure",
+     "level": "local",
+     "letter": "R",
+     "title": "Sales tax",
+     "subtitle": "City of San Pablo",
+     "applies": {
+      "city": 17
+     },
+     "question": "To provide funding to maintain City services, including crime prevention, police protection, reducing illegal dumping, the City’s daily senior meal program, youth scholarship programs, assisting the homeless, street maintenance, and other general services, shall San Pablo enact a temporary ½-cent sales tax for 5 years, generating approximately $2,000,000 annually, then reduced to ¼-cent for 5 years, generating approximately $1,000,000 annually, then terminate; with all funds staying in San Pablo, citizen oversight, and mandated annual audits?",
+     "summary": "The San Pablo City Council placed Measure R on the ballot to ask voters to approve an increase to the City’s transactions and use tax, more commonly known as a local sales tax. Measure R would temporarily increase the local sales tax by 0.50% for five years, lower this increase by 0.25% for the next five years, and then expire after that ten-year period.\n\nThe sales tax generally applies to retail sales of tangible personal property within the City. Purchases that are exempt from the state sales tax are also exempt from the additional tax proposed here. For example, most groceries and prescription drugs are exempt from Measure R.\n\nCurrently, the total sales tax in San Pablo is 9.50% of an item’s purchase price. The City’s share of this is only 1.75%, with the remainder going to the state and to Contra Costa County. Part of the City’s share is the temporary sales tax most recently approved by the voters as Measure S in 2020. The tax imposed under Measure S is set to decrease next year and then expire five years after that. With Measure R’s own scheduled decrease and expiration, this means that, if voters approve Measure R, the total sales tax rate in San Pablo will change as follows:\n\n• Immediately after Measure R’s approval, the total sales tax rate will increase to 10.00%.\n\n• In October 2027, under Measure S’s scheduled decrease, the rate will lower to 9.75%.\n\n• In October 2032, when Measure S expires and Measure R’s decrease goes into effect, the rate will lower to 9.25%.\n\n• In 2037, when Measure R expires, the rate will lower again to 9.00%.\n\nAll revenues from Measure R would belong to the City and would be placed into the City’s general fund to be used for any lawful purpose. The City estimates the measure would bring in an additional $2,000,000 annually for the first five years, dropping to approximately $1,000,000 annually for the five years after that. Measure R must be approved by a simple majority (50% plus one) of the City’s voters. If approved, as noted above, it will expire after ten years.\n\nEach year, an independent auditor must complete a public audit report of the revenues and expenditures from Measure R. The City Council is also required to appoint an oversight committee whose members are San Pablo residents or San Pablo business representatives. The oversight committee publicly reviews the audit report and makes recommendations on the use of the revenues. The audit report and the oversight committee’s recommendations would be a public record and reviewed at a public meeting.\n\nA “yes” vote is to permit the City of San Pablo to increase its local sales tax for ten years.\n\nA “no” vote is to prohibit the City of San Pablo from increasing its local sales tax.\n\nBrian P. Hickey\n\nCity Attorney\n\nDated: August 19, 2026",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Vote Yes to keep San Pablo’s Essential services strong.\n\nSan Pablo is a great place to live. But the City faces real financial challenges. A Yes vote will help keep important services in place, including:\n\n• Crime prevention and police protection\n\n• Cleaning up and preventing illegal dumping\n\n• Daily senior meal program\n\n• Youth scholarship and recreation programs\n\n• Street and road maintenance\n\n• Rental and tenant protections\n\n• Help for residents facing homelessness\n\nWhy is this measure needed:\n\nCasino revenue is declining. It funds 59% of the City’s general fund and has fallen $3.3 million short since 2023.\n\nReserves are for catastrophic events and emergencies only; not for ongoing operating costs.\n\nEveryone pays their fair share. Visitors who shop, buy gas, and eat here pay for it too.\n\nGroceries and prescription medicines are not taxed.\n\nThe tax is temporary and shifts down, over time. A temporary half-cent sales tax for five years (yielding $2 million a year), then reduced to a quarter-cent for five years (yielding $1 million per year), then terminating. It cannot be extended without another vote of the people.\n\nEvery dollar stays in San Pablo. 100% of this revenue must remain here. By law, the State cannot take one penny of the yield.\n\nAccountability is required, not promised. An independent Citizens’ Oversight Committee will review all spending; annual independent audits are mandatory and will be made public.\n\nSan Pablo’s sales tax rate remains among the lowest in West County. Even with Measure R, San Pablo remains below El Cerrito, Pinole, and Hercules. When previous adopted Measure S sales tax measure shifts down in October 2027, San Pablo ties Richmond for West County’s lowest sales tax rate.\n\nA temporary, responsible solution. A modest amount to maintain what we already have: Local services. Local control. Local dollars.\n\nQuestions? Visit: www.sanpabloca.gov/2943\n\nVote Yes on Measure R\n\nGenoveva Calloway, Registered Voter, Local Community Member\n\nDr. Raynato Castro, DDS., Registered Voter, Local Community Member/Medical Professional\n\nDorothy Gantt, Registered Voter, Local Community Member\n\nMartin Gonzalez, Registered Voter, Local Community Member/Business Owner\n\nDr. William Van Dyke, DDS., Registered Voter, Local Community Member/Medical Professional",
+      "against": "Measure R’s ballot question lists budget line-items chosen to get more votes, appealing to those who like clean streets or freebies for seniors\n\nand youth, prefer government to deal with the homeless, or dislike potholes or crime. Something for everyone.\n\nThey’re not supposed to take sides. Voters take sides.\n\nMeasure R does not guarantee what will be funded, as the question-wording implies.\n\nThe tax feeds the general fund spent on employee benefits and pensions, janitorial services, liability insurance, utility bills, consultants, legal fees, marketing materials, meeting expenses, holiday decorations, HVAC repairs, gasoline, window cleaning, toilet paper, and pay-raises.\n\nThey’re using the general fund to push voters to vote more funds. Is that okay?\n\nOf course not.\n\nCalifornia Elections Code section 13119(a) requires ballots to use this language:\n\n“Shall the measure (stating the nature thereof) be adopted?”\n\nMeasure R used one word, “shall.” The rest are missing.\n\n“The nature thereof” does not mean “why,” or “how,” or “for whom,” or anything other than “what is the nature” of the measure being adopted. It must be completely neutral.\n\nEarlier this year when Contra Costa County wrote a ballot question promoting imposition of a sales tax increase, it was ruled “prejudicial and argumentative” in Superior Court. Offending language was removed, including “independent citizens oversight” (a committee not created by the measure).\n\nThe Measure R ballot question similarly mentions “citizen oversight” and mandated audits but these are already in place. It’s just a sales pitch.\n\nAs a plaintiff in the county case, I know the window of time to challenge these ballot-question violations is extremely short. [If you’re reading this, it’s too late.]\n\nI don’t like public funds spent defending violations.\n\nThe best way to save court costs and stop the cheating is vote “No” every time you see a ballot question stuffed full of sales pitches.\n\nLibertarian Party of Contra Costa County, Sandra Kallander, Chair"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9010-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-s",
+     "kind": "measure",
+     "level": "local",
+     "letter": "S",
+     "title": "Rent stabilization ordinance",
+     "subtitle": "City of San Pablo",
+     "applies": {
+      "city": 17
+     },
+     "question": "Shall the proposed ordinance, prohibiting residential real property rental rate increases for some rental units that exceed sixty percent of the Consumer Price Index increase or three percent, whichever is lower, establishing a process for consideration of additional rent increases, requiring City administration estimated to cost approximately $1,080,000 to $2,360,000 annually, funded by annual rental property owner fees, limiting the grounds for evicting tenants of some rental units, and enacting additional housing regulations, be adopted?",
+     "summary": "Measure S qualified for the November 2026 ballot by citizen petition. This measure would repeal the City of San Pablo’s existing tenant relocation assistance ordinance (San Pablo Municipal Code Chapter 8.05) and replace it with a new, much broader ordinance called the “San Pablo Rent Stabilization and Tenant Protections Ordinance”. The new ordinance would also effectively replace the City’s current just cause for eviction protections ordinance (San Pablo Municipal Code Chapter 9.70) and housing stability and anti-harassment protections ordinance (San Pablo Municipal Code Chapter 9.80).\n\nThe City’s current tenant relocation assistance ordinance applies relatively narrowly, only when the City orders a rental unit vacated because of serious code violations. In that situation, the owner must pay the displaced tenant relocation benefits equal to two months’ fair market rent. The City’s current just cause for eviction protections ordinance is consistent with state law and provides additional relocation benefits of two months’ rent for certain no-fault evictions.\n\nThe City’s current ordinances do not otherwise add to state law regarding limits to rent increases.\n\nIf approved, Measure S would roll back rents to the amount charged as of July 1, 2025, for existing tenancies, and then limit how much a landlord may raise rent each year – generally to 60 percent of the increase in the regional Consumer Price Index, with a maximum of 3 percent. The measure would confirm existing law to require landlords to have a specific, legally recognized reason before ending a tenancy, such as nonpayment of rent, the owner’s plan to move into the property, or a substantial renovation, and it would prescribe notice and procedural requirements for each. Relocation payments would apply more broadly than under current law, generally in an amount equal to four months’ fair market rent or $12,000, whichever is greater, with an additional payment for elderly, disabled, or terminally ill tenants.\n\nThe measure would also expand existing prohibitions on specified forms of landlord harassment, protect tenants’ ability to organize, and regulate agreements in which a landlord pays a tenant to move out. It would create fees, a hearing process, and civil remedies, including damages and attorney fees, to administer and enforce these provisions.\n\nThe City ordered a report on the measure’s fiscal impact pursuant to Elections Code Section 9212. That report estimates the administrative resources required to implement the new ordinance are expected to range from approximately 3.2 to 7.9 full-time-equivalent employees and $1.08 million to $2.36 million annually, funded by annual rental property owner fees.\n\nA “yes” vote approves the revisions to the City of San Pablo’s tenant relocation assistance ordinance, and effectively replaces other related ordinances, as summarized above.\n\nA “no” vote leaves the City of San Pablo’s current tenant relocation assistance ordinance, and other related ordinances, in place.\n\nBrian P. Hickey\n\nCity Attorney\n\nDated: August 19, 2026",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "A stable San Pablo is a safer San Pablo.\n\nOur community is strongest when families can remain in their homes, children stay in the same schools, seniors can age in place, and neighbors continue looking out for one another.\n\nMeasure S will reduce homelessness and displacement of families in San Pablo by limiting rent increases to an amount that is fair to both tenants and landlords and by preventing evictions without a reason.\n\nThis will make our community safer.\n\nMeasure S is based on laws that have helped communities across California preserve stable neighborhoods by protecting working families, seniors, and longtime residents from being forced out by unreasonable rent increases.\n\nThis measure protects the people who make San Pablo home. It helps provide stability for renters while preserving the schools, small businesses, and community organizations that depend on long-term residents. That benefits everyone.\n\nEveryone agrees we need to strengthen tenant protections. The steps taken by the City Council will not protect renters and mobile home park residents. Measure S establishes reasonable limits on annual rent increases for covered units and creates clear, fair rules that help families plan for the future instead of living with constant uncertainty.\n\nThe measure protects responsible landlords by allowing fair annual rent increases and providing a process to seek additional adjustments when justified. It balances the interests of tenants and property owners while strengthening the long-term stability of our community.\n\nThe city will charge landlords a rental housing fee to fund the administration of this measure. The cost of instability and losing the people who make San Pablo home is far greater.\n\nCommunities are defined by the people who live in them. This measure protects the character, stability, and future of our city.\n\nVote Yes on Measure S for a stable, safe San Pablo.\n\nSchylon Stewart, San Pablo Resident\n\nAshley Quezada, San Pablo Resident\n\nMashel Lindstrom, San Pablo Resident\n\nRising Juntos, Rhea Elina Laughlin, Executive Director\n\nAlliance of Californians for Community Empowerment Action, David Sharples, Director",
+      "against": "Vote No on Measure S Initiative: San Pablo residents deserve housing policies that protect renters, support responsible housing providers, and strengthen our community. Measure S does not achieve that balance.\n\nSan Pablo Needs Local Solutions: San Pablo needs locally developed solutions that serve our local community, not policies promoted by outside special interest groups. Our residents deserve policies tailored to San Pablo, not a one-size-fits-all approach.\n\nNew Bureaucracy and Costs: Measure S creates a new, costly regulatory program. The City’s independent report estimates that implementing Measure S could require up to almost 8 full-time equivalent employees and cost up to $2.36 million annually. These funds could otherwise support public safety, street repairs, prevention of homelessness, and other essential City services.\n\nMeasure S Will Not Build New Homes: This measure does not create new housing; it does not increase San Pablo’s housing supply or directly contribute toward achieving the City’s state-mandated RHNA housingproduction goals. Additional regulations may discourage housing investment and could reduce the number of rental homes available.\n\nProperty Maintenance and Housing Quality: Research cited in the City’s analysis suggests that Measure S may reduce incentives for property improvements, potentially affecting housing quality and neighborhood conditions. Deteriorating conditions can contribute to blight and crime.\n\nMeasure S Burdens Housing Providers: This Measure adds costly new compliance requirements, fees, and relocation payments that can exceed $12,000, without proper exemptions for single-family homes or ADUs. These complex requirements will place a significant financial burden on small “mom-and-pop” housing providers.\n\nRenters Deserve Real Solutions: San Pablo should focus on creating more affordable housing and developing its Rent Review program – a more meaningful, less costly alternative to rent control.\n\nFor more information:\n\nhttps://www.sanpabloca.gov/2920/Housing-Stability-Hub\n\nVote No on Measure S\n\nElizabeth Pabon-Alvarado, Mayor, City of San Pablo\n\nRita Xavier, Vice-Mayor, City of San Pablo\n\nDorothy Gantt, Registered Voter and San Pablo Renter\n\nDavid Alvarado, Elected Official and San Pablo Homeowner"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9011-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-t",
+     "kind": "measure",
+     "level": "local",
+     "letter": "T",
+     "title": "Appointed city treasurer",
+     "subtitle": "City of Walnut Creek",
+     "applies": {
+      "city": 19
+     },
+     "question": "Shall the office of the City Treasurer be appointive?",
+     "summary": "Measure T presents to the voters of Walnut Creek the question of whether the office of City Treasurer should be made an appointed position, with the City Manager having the authority to appoint the City Treasurer. Currently, the office of City Treasurer is an elected office. State law authorizes a city election on the issue of whether to make the office of city treasurer an appointed position. Measure T was placed on the ballot by the City Council through Resolution No. 26-31.\n\nThe office of City Treasurer is one of the offices that make up the government of general law cities in California. City treasurers are responsible for performing the duties set forth in Government Code Section 41001 et seq., including but not limited to receiving and safely keeping city funds, complying with laws governing the deposit and securing of public and city trust funds, implementing a system of accounting and auditing of bond funds held by the city, paying out of City money based on properly executed warrants, submitting monthly financial reports showing receipts, disbursements and fund balances, and performing the duties related to the collection of City taxes and license fees as prescribed by ordinance. In 2026, the Walnut Creek City Treasurer is responsible for management of approximately 145 million dollars in average daily funds.\n\nCity treasurers may be either elected or appointed. By state law, elected city treasurers must reside and be a registered voter in the city in which they hold office. There are no additional minimum qualifications required under state law for the position of an elected city treasurer. The city may approve job specifications and minimum educational and professional qualifications for an appointed city treasurer.\n\nIf a simple majority of voters vote “YES” on this measure, the office of City Treasurer in the City of Walnut Creek will become appointive and will no longer be elected by voters. The City Manager, as authorized by the Walnut Creek Municipal Code, would appoint the City Treasurer when the term of the current incumbent expires in December 2026 or if the voters elect a City Treasurer on November 3, 2026, in December 2030, or earlier if a vacancy in the office occurs. If this measure is approved, this measure would save future costs associated with candidate elections related the position of City Treasurer.\n\nIf a simple majority of voters vote “NO” on this measure, the office of City Treasurer in the City of Walnut Creek will continue to be elected by voters.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Vote Yes on Measure T to improve the vital role of the Walnut Creek City Treasurer. The Walnut Creek City Council and currently elected City Treasurer, among others, urge your support.\n\nCurrently , the only requirement to be elected Walnut Creek City Treasurer, is to be “a registered voter” in our city. Measure T improves accountability and protects the City’s future by changing this position from an elected to an appointed position, ensuring that future city treasurers are qualified to serve, subject to proper criteria, screening and background checks.\n\nOur city is in strong financial condition. And, it’s also true that Walnut Creek’s City Treasurer responsibilities have expanded significantly and become more complex, including today overseeing approximately $145 million in municipal investments. The City Treasurer should be, at a minimum, a finance professional with a college degree, preferably a CPA, experienced in standard government accounting procedures, automated accounting systems, records management, and state and federal finance compliance laws.\n\nPer the California Municipal Treasurers Association, fewer than 10% of California’s 483 cities still locally elect their city treasurers. Voting Yes on T brings Walnut Creek in line with modern practices and over 90% of California cities that employ appointed city treasurers.\n\nPassage of Measure T will:\n\n• Authorize a smooth transition from an elected to an appointed City Treasurer by 2030.\n\n• Ensure that future Walnut Creek City Treasurers are appointed by the City Manager based on established professional qualifications.\n\n• Provide procedures so future Walnut Creek City Treasurers are qualified for and capably perform required duties of the position.\n\n• Require close collaboration between the City Treasurer, Finance Department, City Manager, elected City Council and City Council Finance Committee, to ensure financial transparency and accountability.\n\nThe City has a long history of sound financial management, and a professionally appointed City Treasurer will help protect that. Please join the Walnut Creek City Council, current elected (30-year) City Treasurer Ron Cassano, advocates of quality local government, and residents across Walnut Creek Voting Yes on T to help keep our city strong.\n\nKevin Wilk, Mayor\n\nMatt Francois, Mayor Pro Tem\n\nRon Cassano, City Treasurer\n\nSusan Hildreth, Rossmoor Resident and Member, Measure O Citizens’ Oversight Committee\n\nAudrey Gee, Board Chair, Chamber of Commerce (2023-2024), Attorney, and Walnut Creek Resident",
+      "against": "Measure T asks Walnut Creek voters to give up their right to elect the City Treasurer and hand that choice to the City Council. Vote no.\n\nThe Council argues that an appointed office would be less political, but appointment would place the choice in the hands of the body the Treasurer is meant to oversee. The Treasurer is the only financial officer who answers to residents rather than to the officials who authorize the spending. State law charges the Treasurer with assuring the proper handling of municipal funds, managing the city’s multimillion-dollar investment portfolio under a policy the Council adopts each year, and sitting on the committee that reviews the budget and the audit. Making the office appointive would let the\n\nCouncil hires the person assigned to review the Council’s own accounts, and a Council that prefers a Treasurer who approves what it brings forward has every reason to hire one.\n\nWalnut Creek voters have weighed this question before and rejected it, in 1956 and again in 1996. The Council notes that most other cities in the county appoint their treasurers, though common practice elsewhere is not evidence that the change would serve Walnut Creek taxpayers.\n\nThe change would also produce no meaningful savings. The seat sits on a ballot residents are already casting, and the Treasurer’s modest part-time stipend is unchanged whether the office is filled by election or by appointment. It would, however, weaken accountability. An elected Treasurer can question spending, borrowing, or investment risk and answers only to voters. An appointed Treasurer serves at the Council’s pleasure and can be replaced for raising concerns the Council would rather not hear. Keep the choice of Treasurer with the voters.\n\nVote no on Measure T.\n\nContra Costa Taxpayers Assn, Denise P Kalm, Vice President\n\nRobert Marshall, Retired Businessman\n\nGerman Eduardo Messidoro, Retired Court Interpreter, USDOJ"
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9012-en-2/"
+     }
+    },
+    {
+     "id": "cc-measure-u",
+     "kind": "measure",
+     "level": "local",
+     "letter": "U",
+     "title": "Senior mixed-use rezoning (N. California Blvd at Ygnacio Valley Rd)",
+     "subtitle": "City of Walnut Creek",
+     "applies": {
+      "city": 19
+     },
+     "question": "Shall the measure amending the City of Walnut Creek General Plan , the North Downtown Specific Plan , and the Municipal Code to redesignate a 2.4 acre site at the northeast corner of North California Boulevard and Ygnacio Valley Road from office uses to mixed use residential uses, and to create a new Mixed Use Residential Senior & Commercial zoning district to limit allowable uses on the site to multifamily senior housing (primarily 55 years of age or older) and commercial uses compatible with senior housing, be adopted?",
+     "summary": "Measure U was placed on the ballot through a voter-sponsored petition signed by the requisite number of Walnut Creek voters. It proposes to amend the city’s General Plan, North Downtown Specific Plan (NDSP), and the zoning ordinance/zoning map to establish a new “Mixed Use – Residential Senior & Commercial” (MU-RSC) zoning district and to specifically rezone a 2.4-acre parcel at the northeast corner of North California Boulevard and Ygnacio Valley Road across from the Walnut Creek BART station to MU-RSC. The MU-RSC district would change the site’s current use from office to mixed-use residential, consisting primarily of senior housing serving primarily persons 55 years or older, residential care and congregate living facilities, supportive and accessory housing required by state law, and compatible commercial retail uses. Future projects in MU-RSC district may, but are not required to, develop any or all of these uses, with required senior housing.\n\nThe Measure does not propose a specific project in the MU-RSC, but sets a base density at 1 unit per 425 square feet of net lot area and increases the maximum floor area ratio for commercial uses to 0.6 from the current 0.3. The city’s inclusionary ordinance would require future senior residential projects to develop affordable units or pay an in-lieu fee. These inclusionary units can be used to qualify the project for additional density and incentives/concessions. Future senior housing will likely qualify for a density bonus pursuant to Government Code section 65915, which grants a default 20 percent bonus. If density-bonus eligible, the project can also request waivers of applicable city development and design standards, including reducing setbacks and exceeding Measure A height limit applicable to the 2.4-acre property. A future project may be subject to California Environmental Quality Act (“CEQA”) review or may qualify for a CEQA exemption.\n\nAbsent voter approval or city approval of the landowner’s application, the city cannot substantively amend the MU-RSC or reduce its development capacities as they apply to 2.4-acre site. While the MU-RSC only includes the 2.4-acre site currently, other Walnut Creek properties could be rezoned to this zoning designation to utilize its development allowances, if approved by the city council.\n\nA “Yes” vote is a vote to approve Measure U and its proposed amendments. A “No” vote is a vote against Measure U and the proposed amendments. Measure U will be approved if it receives a simple majority of “Yes” votes. If approved, Measure U would take effect on the earliest date legally possible. If the city has already made the maximum four general plan amendments allowed in a calendar year under state law, Measure U’s General Plan amendments would take effect on January 1 of the next year and its other amendments will take effect subject to this effective date as applicable.",
+     "summary_label": "Impartial analysis",
+     "official_args": {
+      "for": "Walnut Creek is an amazing place to call home – and Measure U will help us keep it that way.\n\nSeniors make up nearly half of Walnut Creek’s population, but with the lack of emphasis for new housing designated for seniors, many seniors and older adults are being pushed out further and further into the East Bay, away from their families, healthcare providers and communities, at an age where they need to find a place that supports their changing needs.\n\nAn independent review recently found that 44% of the households within 2 miles of North Downtown are occupied by seniors but only 5% of the total future homes in the area are specifically designated for seniors.\n\nPassage of Measure U will be a crucial step forward by updating zoning in North Downtown Walnut Creek to permit over 200 units of high-quality senior housing and community-serving retail near BART – without raising taxes.\n\nThe project’s prime location next door to the Walnut Creek BART station offers easy access to regional destinations, local services, and the Downtown Trolley system. This promotes walkability, wellness, and independence, ensuring our seniors can stay connected without relying solely on a car.\n\nMeasure U facilitates a vibrant, mixed-use center which could include a multi-use market similar to the Rockridge Public Market/San Francsico Ferry Building or a full-service specialty market.\n\nThis initiative aligns with Walnut Creek’s General Plan, including the City’s recently adopted Housing Element and North Downtown Specific Plan. It advances Walnut Creek’s goals for sustainable growth, reduced traffic, and enhanced quality of life, and to begin to balance the supply of housing in Walnut Creek designated for seniors.\n\nMeasure U is a responsible, forward-thinking investment in Walnut Creek’s future. It provides the housing our seniors need while creating a thriving mixed-use area for everyone – without raising taxes.\n\nPlease join us, Yes on Measure U – https://www.wcseniorhousing.org/\n\nMarlene R. Farrell, Friends of Walnut Creek Senior Housing\n\nStephen L. Kostka, Advocate for Senior Housing\n\nHailey Murphy, Walnut Creek Resident",
+      "against": "No Argument Against was filed."
+     },
+     "source": {
+      "label": "County measure page (official)",
+      "url": "https://www.contracostavote.gov/m9013-en/"
+     }
+    }
+   ]
+  }
+ ]
+}
