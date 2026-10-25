@@ -295,3 +295,15 @@ were hidden, with a "Show them anyway" toggle (`state.trimDistricts`).
 names matched to the ballot spelling, and any miss aborts the import. Group money comes from
 `tools/group_money.py` (Cal-Access, committees listed in `data-src/group_committees.json`).
 Statewide groups (`scope: "statewide"`) show in every county; local ones only where `covers` lists the county.
+
+### Local measure money outside SF (`county_measure_money.json`)
+
+Built by `tools/local_measure_money.py` from the Cal-Access bulk export. Local measure
+committees file their reports with the city/county (NetFile: no open API, bot-challenged
+portal; Oakland's open-data Form 460s lag to June 30), but every committee registers with
+the Secretary of State and statewide committees report what they give them. Per measure:
+the registered committees (matched on letter + place keyword across all registered name
+variants; pins/excludes with reasons in `data-src/local_measure_committees.json`) and the
+contributions state-filing committees report giving them (Schedule D + Form 497 part 2,
+2025 on, latest amendments). Totals are floors and the page labels them "$X+" with a
+caveat. Multi-measure committees appear under each measure, flagged as unsplittable.

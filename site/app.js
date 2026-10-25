@@ -33,7 +33,7 @@ function optionLabel(dim, n) {
 }
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -532,8 +532,55 @@ function measureMoney(contest) {
     return [el('div', { class: 'vg-money-sides' }, sides),
       sourceLine(STATE_MONEY.source.label, st.url, `through ${st.as_of}. Committees active on several props appear under each one.`)];
   }
+  if (PREVIEW && contest.level === 'local') return countyMeasureMoney(contest);
   if (contest.id === 'rtm') return emptyNote('The regional committees report outside SF’s system, so this guide doesn’t cover their money yet.');
   return emptyNote('No money data for this measure yet.');
+}
+
+// Cal-Access committee names arrive in capitals; show them in readable case.
+const KEEP_UPPER = new Set(['PAC', 'USD', 'WCCUSD', 'SMCCD', 'EBMUD', 'BART', 'II', 'III', 'LLC', 'SEIU', 'ACCE', 'IAFF', 'HH', 'GG', 'AA', 'BB', 'CC', 'DD', 'EE', 'FF']);
+function prettyName(name) {
+  if (name !== name.toUpperCase()) return name;
+  const words = name.toLowerCase().split(/(\s+|-|\/)/);
+  return words.map((w, i) => {
+    const core = w.replace(/[^a-z0-9]/g, '');
+    const prev = (words[i - 2] || '').replace(/[^a-z]/g, '');
+    // Acronyms and measure letters ("Yes on E", "Measures O, P") stay capitals.
+    if (KEEP_UPPER.has(core.toUpperCase()) || (core.length <= 2 && /^(on|measure|measures)$/.test(prev)) || /^[a-z],?$/.test(w) && /,$/.test(words[i - 2] || '')) return w.toUpperCase();
+    if (i > 0 && /^(on|of|for|and|the|a|an|to|in|by|at)$/.test(core)) return w;
+    return w.charAt(0).toUpperCase() + w.slice(1);
+  }).join('');
+}
+
+// Local measures outside SF: committees registered with the Secretary of State, and the money
+// statewide committees report giving them (a floor: local donors file only with the city/county).
+function countyMeasureMoney(contest) {
+  const rows = COUNTY_MONEY?.measures?.[contest.id];
+  const src = COUNTY_MONEY?.source;
+  const office = BALLOT.election.official_sources?.[0];
+  const caveat = el('p', { class: 'vg-fineprint' },
+    'Totals count only money from committees that report to the state, like unions, realtors and business groups. ',
+    'Each measure committee’s full reports, including local donors, are filed with the local elections office',
+    office ? [' (', el('a', { href: office.url, target: '_blank', rel: 'noopener' }, 'county site'), ')'] : null, '.');
+  if (!rows?.length) {
+    return [emptyNote('No committee for or against this measure has registered with the CA Secretary of State.'), caveat];
+  }
+  const sides = ['yes', 'no'].map(side => {
+    const comms = rows.filter(r => r.side === side);
+    return el('div', { class: 'vg-money-side' }, el('h4', {}, side === 'yes' ? 'Committees for YES' : 'Committees for NO'),
+      comms.length ? comms.map(c => el('div', { class: 'vg-money-comm' },
+        el('div', { class: 'vg-money-head' }, el('span', {}, prettyName(c.name)),
+          c.from_state_committees ? el('strong', { class: 'vg-num' }, `${shortMoney(c.from_state_committees)}+`) : null),
+        c.from_state_committees
+          ? [el('p', { class: 'vg-fineprint' }, `At least ${shortMoney(c.from_state_committees)} from state-reporting committees${c.through ? `, through ${formatDate(c.through)}` : ''}:`),
+             el('ol', { class: 'vg-donors' }, c.top.map(t => el('li', {}, `${prettyName(t.name)} `, el('strong', {}, shortMoney(t.amount)))))]
+          : el('p', { class: 'vg-fineprint' }, 'Registered; no contributions from state-reporting committees yet.'),
+        c.shared?.length ? el('p', { class: 'vg-fineprint' },
+          `Also campaigns on Measure${c.shared.length > 1 ? 's' : ''} ${c.shared.join(', ')}, so its money can’t be split between them.`) : null))
+      : emptyNote('No committee registered.'));
+  });
+  return [el('div', { class: 'vg-money-sides' }, sides), caveat,
+    src ? sourceLine(src.label, src.url, `built ${formatDate(COUNTY_MONEY.built)}.`) : null];
 }
 
 function renderMeasureMore(contest) {
@@ -546,7 +593,10 @@ function renderMeasureMore(contest) {
   const a = ANALYSIS?.measures?.[contest.id];
   return el('details', { class: 'vg-details vg-more' }, el('summary', {}, 'More about this measure'),
     renderTabs(contest.id, [
-      { key: 'does', label: 'What it does', render: () => renderDetails(contest, true) || emptyNote('No official summary.') },
+      { key: 'does', label: 'What it does', render: () => renderDetails(contest, true) || (PREVIEW
+          ? el('p', { class: 'vg-fineprint' }, 'Early preview: the full text, impartial analysis and arguments are in the ',
+              el('a', { href: BALLOT.election.official_sources?.[0]?.url, target: '_blank', rel: 'noopener' }, 'county’s official materials'), '.')
+          : emptyNote('No official summary.')) },
       { key: 'money', label: 'Money', render: () => measureMoney(contest) },
       { key: 'goose', label: 'Average goose', render: () => a?.goose
           ? [el('p', {}, a.goose), el('p', { class: 'vg-fineprint' }, 'Our plain-English read of the official digest and fiscal analysis. ', ANALYSIS.renter_share_note)]
@@ -619,7 +669,7 @@ function hasDepth(contest) {
   if (!PREVIEW) return true;
   const id = contest.id;
   return !!(ANALYSIS?.candidates?.[id] || EXTERNAL?.candidates?.[id] || FUNDING?.candidates?.[id]
-    || ANALYSIS?.measures?.[id] || contest.summary || contest.statement_note
+    || ANALYSIS?.measures?.[id] || contest.summary || contest.statement_note || COUNTY_MONEY?.measures?.[id]
     || (contest.candidates || []).some(c => c.who));
 }
 
@@ -1334,12 +1384,13 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY] = await Promise.all([
       get(DATA_BASE + 'ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
       COUNTY === 'sf' ? get('./data/zip_districts.json') : null, get('./data/topics.json'),
       get('./data/funding.json').catch(() => null), get('./data/money.json').catch(() => null),
       get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null),
-      get('./data/external_money.json').catch(() => null)]);
+      get('./data/external_money.json').catch(() => null),
+      PREVIEW ? get('./data/county_measure_money.json').catch(() => null) : null]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     setKids(document.getElementById('ballot'), 

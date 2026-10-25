@@ -1,0 +1,26 @@
+{
+ "_about": "Overrides for tools/local_measure_money.py: pin a Cal-Access committee (filer id) to a contest when its name does not match automatically, or exclude a false match. Each entry needs a reason.",
+ "pin": {
+  "1481842": {
+   "contest": "ala-measure-ee",
+   "side": "no",
+   "reason": "Oakland Residents for Good Government: its organizer Ben Gould signed the official argument against Measure EE as 'Organizer, Oakland Residents for Good Government' (county voter guide p. 936)."
+  },
+  "1496594": {
+   "contest": "ala-measure-bb",
+   "side": "yes",
+   "reason": "'Yes on Measure B - Residents and Businesses for a Stronger Emeryville': Emeryville's only measure on this ballot is BB (business tax); the committee name predates or misstates the letter."
+  },
+  "1495170": {
+   "contest": "smc-measure-h",
+   "side": "yes",
+   "reason": "'Yes on H - San Mateans for Quality City Services': the City of San Mateo sales tax (Measure H); it also filed the official argument in favor. 'San Mateans' doesn't match the place keyword."
+  },
+  "1494606": {
+   "contest": "cc-measure-x",
+   "side": "yes",
+   "reason": "'Yes for Liberty Union Schools': Liberty Union High School District's only measure on this ballot is X (school bond)."
+  }
+ },
+ "exclude": []
+}

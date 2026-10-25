@@ -1,0 +1,889 @@
+{
+ "built": "2026-10-24",
+ "source": {
+  "label": "CA Secretary of State, Cal-Access bulk export",
+  "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+ },
+ "note": "Totals count only money given by committees that report to the state. The measure committees' own reports, including local individual donors, are filed with the local elections office.",
+ "measures": {
+  "ala-measure-i": [
+   {
+    "filer_id": "1494558",
+    "name": "PROTECT DUBLIN SCHOOLS -YES ON MEASURE I",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 12000,
+    "top": [
+     {
+      "name": "LIONAKIS",
+      "amount": 5000
+     },
+     {
+      "name": "CITATION HOMES CENTRAL DBA SCS DEVELOPMENT CO., INC.",
+      "amount": 2500
+     },
+     {
+      "name": "PBK",
+      "amount": 2500
+     },
+     {
+      "name": "LOZANO SMITH LLP",
+      "amount": 2000
+     }
+    ],
+    "through": "2026-10-14"
+   }
+  ],
+  "ala-measure-j": [
+   {
+    "filer_id": "1496846",
+    "name": "NEIGHBORS FOR SAN LORENZO SCHOOLS - YES ON J",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 1000,
+    "top": [
+     {
+      "name": "LOZANO SMITH LLP",
+      "amount": 1000
+     }
+    ],
+    "through": "2026-09-23"
+   }
+  ],
+  "ala-measure-k": [
+   {
+    "filer_id": "1497961",
+    "name": "YES ON K FOR SUNOL GLEN",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-l": [
+   {
+    "filer_id": "1494405",
+    "name": "SAFER ALAMEDA - YES ON BOND MEASURE 2026",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 77500,
+    "top": [
+     {
+      "name": "North Coast States Regional Council of Carpenters Issues PAC",
+      "amount": 30000
+     },
+     {
+      "name": "Science Corporation",
+      "amount": 25000
+     },
+     {
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 Issues Committee",
+      "amount": 10000
+     },
+     {
+      "name": "STEAMFITTERS LOCAL 342 POLITICAL ACTION COMMITTEE",
+      "amount": 10000
+     },
+     {
+      "name": "KITCHELL CEM, INC.",
+      "amount": 2500
+     }
+    ],
+    "through": "2026-10-21"
+   },
+   {
+    "filer_id": "1496826",
+    "name": "ALAMEDA CLIMATE CHANGE BELIEVERS OPPOSING MEASURE L 2026",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-o": [
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "P",
+     "Q",
+     "R",
+     "S",
+     "T"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-p": [
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "O",
+     "Q",
+     "R",
+     "S",
+     "T"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-q": [
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "O",
+     "P",
+     "R",
+     "S",
+     "T"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-r": [
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "O",
+     "P",
+     "Q",
+     "S",
+     "T"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-s": [
+   {
+    "filer_id": "1495541",
+    "name": "NEIGHBORS AND SMALL BUSINESS FOR AN AFFORDABLE ALBANY, SPONSORED BY REALTORS - NO ON S",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 93500,
+    "top": [
+     {
+      "name": "NATIONAL ASSOCIATION OF REALTORS",
+      "amount": 53500
+     },
+     {
+      "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+      "amount": 40000
+     }
+    ],
+    "through": "2026-10-13"
+   },
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "O",
+     "P",
+     "Q",
+     "R",
+     "T"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-t": [
+   {
+    "filer_id": "1496638",
+    "name": "COMMITTEE TO SUPPORT ALBANY MEASURES O, P, Q, R, S AND T",
+    "side": "yes",
+    "shared": [
+     "O",
+     "P",
+     "Q",
+     "R",
+     "S"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-u": [
+   {
+    "filer_id": "1495490",
+    "name": "COALITION FOR A SAFE & VIBRANT BERKELEY - YES ON U AND V",
+    "side": "yes",
+    "shared": [
+     "V"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-v": [
+   {
+    "filer_id": "1495490",
+    "name": "COALITION FOR A SAFE & VIBRANT BERKELEY - YES ON U AND V",
+    "side": "yes",
+    "shared": [
+     "U"
+    ],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-x": [
+   {
+    "filer_id": "1496465",
+    "name": "NON-PROFIT AFFORDABLE HOUSING PROVIDERS FOR BERKELEY MEASURE X, 2026",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-y": [
+   {
+    "filer_id": "1481176",
+    "name": "BERKELEY ARTS COALITION SPONSORED BY BERKELEY NON-PROFIT ARTS AND CULTURAL ORGANIZATIONS, YES ON MEASURE Y",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 25000,
+    "top": [
+     {
+      "name": "Scott Shenker",
+      "amount": 25000
+     }
+    ],
+    "through": "2025-12-08"
+   }
+  ],
+  "ala-measure-z": [
+   {
+    "filer_id": "1487160",
+    "name": "COALITION TO KEEP BERKELEY MONEY LOCAL SUPPORTING MEASURE Z 2026",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 55500,
+    "top": [
+     {
+      "name": "The San Francisco Foundation",
+      "amount": 45000
+     },
+     {
+      "name": "Service Employees International Union Local 1021 Issues PAC",
+      "amount": 10000
+     },
+     {
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 Issues Committee",
+      "amount": 500
+     }
+    ],
+    "through": "2026-10-16"
+   },
+   {
+    "filer_id": "1496629",
+    "name": "PROTECT BERKELEY, NO ON MEASURE Z",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-aa": [
+   {
+    "filer_id": "1490890",
+    "name": "YES ON MEASURE AA, BERKELEY HEALTHY CHILD COALITION, SPONSORED BY PUBLIC HEALTH ORGANIZATIONS",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-bb": [
+   {
+    "filer_id": "1496594",
+    "name": "YES ON MEASURE B- RESIDENTS AND BUSINESSES FOR A STRONGER EMERYVILLE",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-ee": [
+   {
+    "filer_id": "1494729",
+    "name": "COMMITTEE FOR A STRONG, ACCOUNTABLE OAKLAND: YES ON EE",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 865000,
+    "top": [
+     {
+      "name": "California Nurses Association Initiative Political Action Committee",
+      "amount": 500000
+     },
+     {
+      "name": "East Bay Community Foundation (nonprofit 501(c)(3))",
+      "amount": 160000
+     },
+     {
+      "name": "California Alliance for Jobs - Rebuild California Committee",
+      "amount": 100000
+     },
+     {
+      "name": "M. Quinn Delaney",
+      "amount": 25000
+     },
+     {
+      "name": "Sutter Health",
+      "amount": 25000
+     },
+     {
+      "name": "Blue Shield of California",
+      "amount": 25000
+     }
+    ],
+    "through": "2026-10-20"
+   },
+   {
+    "filer_id": "1496677",
+    "name": "BRINGING OAKLAND TOGETHER YES ON MEASURE EE, SPONSORED BY POWERPAC.ORG",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 74000,
+    "top": [
+     {
+      "name": "East Bay Community Foundation (nonprofit 501(c)(3))",
+      "amount": 74000
+     }
+    ],
+    "through": "2026-10-02"
+   },
+   {
+    "filer_id": "1481842",
+    "name": "OAKLAND RESIDENTS FOR GOOD GOVERNMENT",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "ala-measure-gg": [
+   {
+    "filer_id": "1496119",
+    "name": "NEIGHBORS FOR AN AFFORDABLE PIEDMONT, SPONSORED BY REALTORS - NO ON GG",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 62000,
+    "top": [
+     {
+      "name": "NATIONAL ASSOCIATION OF REALTORS",
+      "amount": 32000
+     },
+     {
+      "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+      "amount": 30000
+     }
+    ],
+    "through": "2026-10-13"
+   }
+  ],
+  "ala-measure-hh": [
+   {
+    "filer_id": "1496169",
+    "name": "FRIENDS OF PLEASANTON - YES ON MEASURE HH 2026",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "smc-measure-r": [
+   {
+    "filer_id": "1492209",
+    "name": "COMMITTEE FOR STRONG BURLINGAME SCHOOLS",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "smc-measure-t": [
+   {
+    "filer_id": "1496635",
+    "name": "SUPPORT PACIFICA SCHOOLS COMMITTEE FOR MEASURE T",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 5500,
+    "top": [
+     {
+      "name": "California Teachers Association/Issues PAC",
+      "amount": 4500
+     },
+     {
+      "name": "QUATTROCCHI KWOK ARCHITECTS",
+      "amount": 1000
+     }
+    ],
+    "through": "2026-10-16"
+   }
+  ],
+  "smc-measure-k": [
+   {
+    "filer_id": "1490893",
+    "name": "CITIZENS FOR SAN CARLOS SCHOOLS SUPPORTING THE PARCEL TAX MEASURE",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 5000,
+    "top": [
+     {
+      "name": "LIONAKIS",
+      "amount": 2500
+     },
+     {
+      "name": "PBK",
+      "amount": 2500
+     }
+    ],
+    "through": "2026-09-16"
+   }
+  ],
+  "smc-measure-v": [
+   {
+    "filer_id": "1493098",
+    "name": "YES ON V, SAN MATEO COUNTY CITIZENS FOR HIGHER EDUCATION, A COALITION INCLUDING BUILDING & CONSTRUCTION TRADES COUNCIL OF SAN MATEO COUNTY: AD COMMITTEE'S TOP FUNDER SAN MATEO COMMUNITY COLLEGES FOUND",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 50210,
+    "top": [
+     {
+      "name": "Members' Voice of the State Building and Construction Trades Council of California",
+      "amount": 20000
+     },
+     {
+      "name": "BUILDING & CONSTRUCTION TRADES COUNCIL OF SAN MATEO COUNTY",
+      "amount": 20000
+     },
+     {
+      "name": "San Francisco Laborer's Local 261 PAC",
+      "amount": 10000
+     },
+     {
+      "name": "San Mateo County Democratic Central Committee",
+      "amount": 210
+     }
+    ],
+    "through": "2026-10-22"
+   }
+  ],
+  "smc-measure-w": [
+   {
+    "filer_id": "1489852",
+    "name": "COMMITTEE FOR STRONG SAN MATEO AND FOSTER CITY SCHOOLS , YES ON W",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 26000,
+    "top": [
+     {
+      "name": "KITCHELL CEM, INC.",
+      "amount": 10000
+     },
+     {
+      "name": "Flint Design Build LLC dba FLINT",
+      "amount": 5000
+     },
+     {
+      "name": "LPA, INC.",
+      "amount": 5000
+     },
+     {
+      "name": "LIONAKIS",
+      "amount": 5000
+     },
+     {
+      "name": "Michael Blach Including Aggregated Contributions",
+      "amount": 1000
+     }
+    ],
+    "through": "2026-10-15"
+   }
+  ],
+  "smc-measure-y": [
+   {
+    "filer_id": "1485441",
+    "name": "FRIENDS OF BELMONT COMMUNITY CENTER - YES ON Y",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 8500,
+    "top": [
+     {
+      "name": "Plumbers and Steamfitters Local No. 467 State Political Action Fund",
+      "amount": 6000
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Political Action Committee",
+      "amount": 2500
+     }
+    ],
+    "through": "2026-10-16"
+   }
+  ],
+  "smc-measure-d": [
+   {
+    "filer_id": "1495450",
+    "name": "CITIZENS FOR A SAFE AND STRONG BURLINGAME - YES ON D",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 2000,
+    "top": [
+     {
+      "name": "AFSCME Local 829 Political Action Committee",
+      "amount": 2000
+     }
+    ],
+    "through": "2026-09-15"
+   }
+  ],
+  "smc-measure-o": [
+   {
+    "filer_id": "1494359",
+    "name": "YES ON MEASURE O, THE COMMITTEE FOR EAST PALO ALTO'S FUTURE",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "smc-measure-q": [
+   {
+    "filer_id": "1498172",
+    "name": "HALF MOON BAY RESIDENTS OPPOSING MEASURE Q 2026",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "smc-measure-p": [
+   {
+    "filer_id": "1486838",
+    "name": "MENLO PARK NEIGHBORS AND SMALL BUSINESS OWNERS FOR AFFORDABLE HOMES, SPONSORED BY HOUSING LEADERSHIP ACTION OF SAN MATEO COUNTY - NO ON P",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 204105,
+    "top": [
+     {
+      "name": "Karen Frances Grove/Grove Action Fund",
+      "amount": 68055
+     },
+     {
+      "name": "Housing Leadership Action of San Mateo County Issues Committee",
+      "amount": 50000
+     },
+     {
+      "name": "John Matthew Sobrato",
+      "amount": 49900
+     },
+     {
+      "name": "NPH Action Fund Political Issues Committee",
+      "amount": 20000
+     },
+     {
+      "name": "Marc Berman for State Assembly 2026",
+      "amount": 10000
+     },
+     {
+      "name": "ACLU of Northern California Issues Committee",
+      "amount": 5000
+     }
+    ],
+    "through": "2026-10-06"
+   },
+   {
+    "filer_id": "1481518",
+    "name": "SAVE DOWNTOWN MENLO: A COALITION OF RESIDENTS & LOCAL BUSINESSES SPONSORED BY DRAEGER'S MARKET AND MENLO PARK HARDWARE",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "smc-measure-e": [
+   {
+    "filer_id": "1492914",
+    "name": "NO ON MEASURE E - REDWOOD CITY COALITION FOR AFFORDABLE HOUSING, SPONSORED BY CALIFORNIA APARTMENT ASSOCIATION",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 420000,
+    "top": [
+     {
+      "name": "California Apartment Association Issues Committee",
+      "amount": 190000
+     },
+     {
+      "name": "NATIONAL ASSOCIATION OF REALTORS",
+      "amount": 160000
+     },
+     {
+      "name": "CALIFORNIA ASSOCIATION OF REALTORS ISSUES MOBILIZATION PAC",
+      "amount": 60000
+     },
+     {
+      "name": "Western Manufactured Housing Communities Association Issues Committee",
+      "amount": 10000
+     }
+    ],
+    "through": "2026-10-07"
+   }
+  ],
+  "smc-measure-dd": [
+   {
+    "filer_id": "1494321",
+    "name": "NO ON MEASURE DD - SAN BRUNO CITIZENS FOR A SAFE FOURTH OF JULY, SPONSORED BY FIREWORKS COMPANIES AND NONPROFIT YOUTH, VETERAN, AND CIVIC ORGANIZATIONS",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 100000,
+    "top": [
+     {
+      "name": "American Promotional Events, Inc. - West",
+      "amount": 100000
+     }
+    ],
+    "through": "2026-10-13"
+   }
+  ],
+  "smc-measure-g": [
+   {
+    "filer_id": "1492510",
+    "name": "YES ON G -  SAN CARLOS RESIDENTS & BUSINESSES FOR SAFE STREETS, GREAT PARKS, QUALITY SERVICES AND LOCAL CONTROL",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 1250,
+    "top": [
+     {
+      "name": "George M. Marcus and Affiliated Entities",
+      "amount": 1000
+     },
+     {
+      "name": "SAN MATEO COUNTY CENTRAL LABOR COUNCIL COMMITTEE ON POLITICAL EDUCATION",
+      "amount": 250
+     }
+    ],
+    "through": "2026-09-29"
+   }
+  ],
+  "smc-measure-h": [
+   {
+    "filer_id": "1495170",
+    "name": "YES ON H - SAN MATEANS FOR QUALITY CITY SERVICES",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 29500,
+    "top": [
+     {
+      "name": "David D. Bohannon and affiliated entities",
+      "amount": 10000
+     },
+     {
+      "name": "Plumbers and Steamfitters Local No. 467 Issues Committee",
+      "amount": 6000
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Political Action Committee",
+      "amount": 5000
+     },
+     {
+      "name": "OPERATING ENGINEERS LOCAL UNION NO. 3 ISSUES ADVOCACY/BALLOT INITIATIVE PAC",
+      "amount": 4000
+     },
+     {
+      "name": "San Francisco Laborer's Local 261 PAC",
+      "amount": 2000
+     },
+     {
+      "name": "United Food and Commercial Workers Western States Issues PAC",
+      "amount": 2000
+     }
+    ],
+    "through": "2026-10-16"
+   }
+  ],
+  "cc-measure-q": [
+   {
+    "filer_id": "1495415",
+    "name": "RICHMOND FIREFIGHTERS & COMMUNITY FOR YES ON MEASURE Q, SPONSORED BY INTERNATIONAL ASSOCIATION OF FIREFIGHTERS LOCAL 188",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 58800,
+    "top": [
+     {
+      "name": "Contra Costa United Working Families (CCUWF) Sponsored By Central Labor Council Of Contra Costa County, AFL-CIO",
+      "amount": 20000
+     },
+     {
+      "name": "California Professional Firefighters Ballot Issues Committee",
+      "amount": 20000
+     },
+     {
+      "name": "STEAMFITTERS LOCAL 342 POLITICAL ACTION COMMITTEE",
+      "amount": 5000
+     },
+     {
+      "name": "Sheet Metal Workers' International Association Local Union No. 104 Issues Committee",
+      "amount": 5000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Issues PAC",
+      "amount": 4000
+     },
+     {
+      "name": "Fremont Firefighters Local 1689",
+      "amount": 2000
+     }
+    ],
+    "through": "2026-10-22"
+   }
+  ],
+  "cc-measure-s": [
+   {
+    "filer_id": "1497609",
+    "name": "PROTECT SAN PABLO HOUSING - NO ON MEASURE S",
+    "side": "no",
+    "shared": [],
+    "from_state_committees": 100000,
+    "top": [
+     {
+      "name": "NATIONAL ASSOCIATION OF REALTORS",
+      "amount": 55000
+     },
+     {
+      "name": "California Apartment Association Issues Committee",
+      "amount": 40000
+     },
+     {
+      "name": "Western Manufactured Housing Communities Association Issues Committee",
+      "amount": 5000
+     }
+    ],
+    "through": "2026-10-02"
+   },
+   {
+    "filer_id": "1494954",
+    "name": "YES ON MEASURE S FOR A STABLE SAN PABLO, SPONSORED BY ALLIANCE OF CALIFORNIANS FOR COMMUNITY EMPOWERMENT ACTION",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 50000,
+    "top": [
+     {
+      "name": "East Bay Community Foundation (nonprofit 501(c)(3))",
+      "amount": 30000
+     },
+     {
+      "name": "The San Francisco Foundation",
+      "amount": 15000
+     },
+     {
+      "name": "Contra Costa United Working Families (CCUWF) Sponsored By Central Labor Council Of Contra Costa County, AFL-CIO",
+      "amount": 5000
+     }
+    ],
+    "through": "2026-10-15"
+   }
+  ],
+  "cc-measure-t": [
+   {
+    "filer_id": "1496233",
+    "name": "COMMITTEE FOR WALNUT CREEK MEASURE T",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "cc-measure-u": [
+   {
+    "filer_id": "1490332",
+    "name": "YES ON U, FRIENDS OF WALNUT CREEK SENIOR HOUSING; AD COMMITTEE'S TOP FUNDER HALL EQUITIES GROUP AND AFFILIATED ENTITIES, INCLUDING MARK HALL",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ],
+  "cc-measure-x": [
+   {
+    "filer_id": "1494606",
+    "name": "YES FOR LIBERTY UNION SCHOOLS",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 28200,
+    "top": [
+     {
+      "name": "Members' Voice of the State Building and Construction Trades Council of California",
+      "amount": 10000
+     },
+     {
+      "name": "United Assocation No.159 Consumer Protection Fund Sponsored by Plumbers & SteamfittersLocal 159",
+      "amount": 5000
+     },
+     {
+      "name": "QUATTROCCHI KWOK ARCHITECTS",
+      "amount": 5000
+     },
+     {
+      "name": "LATHROP CONSTRUCTION ASSOCIATES, INC.",
+      "amount": 5000
+     },
+     {
+      "name": "STEAMFITTERS LOCAL 342 POLITICAL ACTION COMMITTEE",
+      "amount": 3000
+     },
+     {
+      "name": "Bricklayers and Allied Craftworkers Local No. 3 Political Action Committee",
+      "amount": 200
+     }
+    ],
+    "through": "2026-10-09"
+   }
+  ],
+  "cc-measure-v": [
+   {
+    "filer_id": "1495230",
+    "name": "WEST CONTRA COSTA STRONG SCHOOLS ALLIANCE, YES ON MEASURE V",
+    "side": "yes",
+    "shared": [],
+    "from_state_committees": 0,
+    "top": [],
+    "through": null
+   }
+  ]
+ }
+}
