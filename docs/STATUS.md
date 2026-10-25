@@ -31,7 +31,7 @@ Average goose / Seriously TL;DR), header toggles "Show Goosebase bias" / "Show 3
 recommendation highlight boxes (gold = rated pick, gray = unrated lean), group panel with
 county/statewide dividers.
 
-**Picks:** 81 total (10 Golden Goose Eggs, 20 Certified HONKs, 51 Goosebase takes), all proofread
+**Picks:** 81 total (10 GOOSEBASED, 20 Certified HONKs, 51 Goosebase takes), all proofread
 and fact-checked. SF sheet `data-src/picks_sf.csv`, Alameda sheet `data-src/picks_alameda.csv`.
 
 **Groups (17):** SF Dems, GrowSF, DSA SF, SF Labor Council, SF Chamber, SPUR, UESF, LWV SF, Pissed

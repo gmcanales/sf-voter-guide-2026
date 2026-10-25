@@ -232,8 +232,8 @@ function flash(id, msg) {
 // ── badges ────────────────────────────────────────────────────────────────
 function badge(verdict) {
   if (verdict === 'egg') {
-    return el('span', { class: 'vg-badge vg-badge-egg', title: 'Golden Goose Egg: our pick' },
-      eggIcon(), 'Golden Goose Egg');
+    return el('span', { class: 'vg-badge vg-badge-egg', title: 'GOOSEBASED: our pick' },
+      eggIcon(), 'GOOSEBASED');
   }
   if (verdict === 'honk') {
     return el('span', { class: 'vg-badge vg-badge-honk', title: 'Certified HONK: we’d steer clear' }, honkIcon(), 'Certified HONK');

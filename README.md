@@ -15,7 +15,7 @@ site/                     ← everything served at /sf-2026/ (bind-mounted read-
   style.css               ← ballot-style layout on goosebase design tokens
   data/ballot.json        ← GENERATED official facts, in ballot order
   data/endorsements.json  ← other groups' picks (hand-edited, cited)
-  data/picks.json         ← OUR picks: Golden Goose Egg / Certified HONK
+  data/picks.json         ← OUR picks: GOOSEBASED / Certified HONK
   data/zip_districts.json ← GENERATED ZIP → district overlaps
   css/, js/               ← site-shell assets copied from congress_trader/frontend
 data-src/                 ← build inputs (skeleton + extracted official text)
