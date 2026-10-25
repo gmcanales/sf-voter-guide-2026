@@ -287,6 +287,38 @@
     "source": "https://media.api.sf.gov/documents/N26_EN_VIP.pdf#page=46",
     "source_label": "SF Voter Information Pamphlet, the candidate's own statement"
    }
+  },
+  "smc-sequoia-union-high-school-district-member-governing-board-trustee-area-a": {
+   "Amy Koo": {
+    "who": "The incumbent, on the Sequoia board since 2022 after nine years (2013-2022) on the Belmont-Redwood Shores School Board. A finance professional, formerly a director at Gilead Sciences.",
+    "goose": "Wants better communication, engagement and collaboration with parents and staff, and stronger teacher recruitment and retention; the campaign also stresses fiscal responsibility, efficient operations and a safe, inclusive learning environment.",
+    "source": "https://www.almanacnews.com/education/2026/09/03/school-board-candidates-running-for-menlo-park-and-sequoia-districts/",
+    "source_label": "The Almanac",
+    "source_note": "(our summary of the paper's reporting; priorities are the candidates' own)."
+   },
+   "Alon Shiran": {
+    "who": "A Belmont parent of three children in local public schools and vice president of product and design at Next Insurance, an insurance technology company. No prior elected office.",
+    "goose": "Runs on academic excellence, fiscal discipline and transparency: restore rigorous course pathways, a \"future-ready\" curriculum that exposes students to career paths, and more money for teachers and students rather than district administration.",
+    "source": "https://www.almanacnews.com/education/2026/09/03/school-board-candidates-running-for-menlo-park-and-sequoia-districts/",
+    "source_label": "The Almanac",
+    "source_note": "(our summary of the paper's reporting; priorities are the candidates' own)."
+   }
+  },
+  "smc-sequoia-union-high-school-district-member-governing-board-trustee-area-d": {
+   "Michael Dekshenieks": {
+    "who": "A management executive and former U.S. Navy officer; parent of two Menlo-Atherton graduates and a volunteer lacrosse coach there. Effectively the only active candidate: the incumbent withdrew and endorsed him.",
+    "goose": "Has advocated keeping ninth-grade honors courses. Priorities: academic excellence, student opportunity, data-driven policy, curriculum, student safety, teacher retention and budgeting.",
+    "source": "https://www.almanacnews.com/?p=650147",
+    "source_label": "The Almanac",
+    "source_note": "(our summary of the paper's reporting; priorities are the candidates' own)."
+   },
+   "Sathvik Nori": {
+    "who": "The incumbent, elected in 2022 as a new Menlo-Atherton graduate, the youngest person elected to the board. Has withdrawn from the race after the deadline, so the name stays on the ballot.",
+    "goose": "Not running: asked voters to support Michael Dekshenieks instead.",
+    "source": "https://www.almanacnews.com/?p=650147",
+    "source_label": "The Almanac",
+    "source_note": "(our summary of the paper's reporting; priorities are the candidates' own)."
+   }
   }
  },
  "retention": {

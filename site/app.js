@@ -702,8 +702,8 @@ function candidateWho(contest, c) {
     !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
     c.statement ? candidateStatement(c) : null,
     groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
-    a?.source ? sourceLine(a.source_label || 'KQED voter guide', a.source,
-        a.source_label ? '(our summary; claims are the candidate’s own).' : '(candidate interviews, questionnaires and debates).')
+    a?.source ? sourceLine(a.source_label || 'KQED voter guide', a.source, a.source_note
+        || (a.source_label ? '(our summary; claims are the candidate’s own).' : '(candidate interviews, questionnaires and debates).'))
       : c.who_source?.url ? sourceLine(c.who_source.label, c.who_source.url, '(our summary; claims are the candidate’s own).') : null];
 }
 

@@ -55,12 +55,13 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
 3. **More NetFile exports** (user downloads from the portal; complete Form 460 totals): Redwood City
    (RWC), City of San Mateo (MTO), San Mateo County (MAT), Richmond (RICH), Berkeley (BRK), Fremont
    (FRE). Rerun `local_measure_money.py` with all export paths.
-4. **San Mateo candidate statements.** The county doesn't post city-race statements (the page
-   says so). Contra Costa (`tools/county_statements_contracosta.py`, 139) and Alameda
-   (`tools/county_statements_alameda.py`, 206 from the VIG PDF's pages 632-757) are done. Alameda's
-   pages set candidates in two justified columns; text is rebuilt from poppler word boxes (the
-   local xpdf `pdftotext` can't separate them), and same-surname candidates in other races are
-   kept apart by requiring a first-name match outside the page's own contest.
+4. **San Mateo candidate profiles.** The county posts no candidate statements for any race.
+   Sequoia Union HSD (4 candidates) is done from The Almanac (2026-10-25). The rest of the focus-city
+   races need pages the user saves, because these refuse automated access (don't route around them):
+   San Mateo Daily Journal (403), cityofsanmateo.org (TLS refusal), ssfca.gov (403), Inquirer USA
+   (403). Hoodline's local pieces are AI-assisted, so they don't count as a source. Beware the SSFUSD
+   candidate Frank Lara ("Teacher / Union Leader"): searches conflate him with SF's UESF Frank Lara,
+   and nothing confirms they're the same person.
 5. **Measure digests** for larger non-focus cities (Berkeley's 7, Albany's 6, Hayward, San Bruno,
    Menlo Park P, Half Moon Bay I/Q).
 6. **Local groups for San Mateo:** SM County Democrats (Cloudflare challenge) and Sierra Club Loma
