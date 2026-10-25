@@ -315,6 +315,20 @@
 .vg-oval.is-marked { background: var(--text); }
 .vg-oval.is-static { cursor: default; border-style: dashed; opacity: 0.5; display: inline-block; }
 
+/* Our recommendation, when picks are on: a translucent box behind the oval.
+   Negative margins keep the oval exactly where it sits on unhighlighted rows. */
+.vg-rec {
+  display: inline-flex;
+  align-self: flex-start;
+  padding: 4px 5px;
+  margin: -4px -5px;
+  border-radius: 7px;
+  flex: none;
+}
+.vg-rec-egg { background: rgba(214, 160, 40, 0.38); box-shadow: inset 0 0 0 1px rgba(214, 160, 40, 0.75); }
+.vg-rec-take { background: rgba(128, 128, 128, 0.22); box-shadow: inset 0 0 0 1px rgba(128, 128, 128, 0.45); }
+.vg-rcv-ovals .vg-rec { justify-self: center; align-self: center; }
+
 .vg-cand { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
 .vg-cand-name { font-weight: 700; }
 .vg-party { font-size: 0.8rem; color: var(--text-muted); }
@@ -389,6 +403,8 @@
   color: var(--text);
   border: 1px solid var(--warn);
 }
+.vg-badge-honk { display: inline-flex; align-items: center; gap: 4px; }
+.vg-badge-honk .vg-honk-x { width: 11px; height: 11px; stroke: currentColor; stroke-width: 3; stroke-linecap: round; fill: none; }
 .vg-badge-egg svg { width: 12px; height: 15px; fill: var(--warn); filter: drop-shadow(0 0 3px var(--warn)); }
 /* Rubber-stamp look: double border, slight tilt. */
 .vg-badge-note {

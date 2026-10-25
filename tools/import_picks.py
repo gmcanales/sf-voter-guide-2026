@@ -33,8 +33,8 @@ SLATE_PREFIX = re.compile(r"^(Progressive|Moderate)\.\s+")
 
 def lean(text: str) -> str | None:
     t = text.lower()
-    yes = re.search(r"\b(vote|tentative|lean)\s+yes\b|^sure\b", t)
-    no = re.search(r"\b(vote|tentative|lean)\s+no\b", t)
+    yes = re.search(r"\b(vote|tentative|lean)\s+yes\b|^sure\b|^yes\b", t)
+    no = re.search(r"\b(vote|tentative|lean)\s+no\b|^no\b", t)
     if yes and not no:
         return "yes"
     if no and not yes:
@@ -79,6 +79,8 @@ def main() -> None:
                     p = {"verdict": "note", "reasoning": base}
                 else:
                     p = {"verdict": "note", "target": r["choice"], "reasoning": text}
+                    if lean(text):                 # e.g. a retention take: "Yes, if you like..."
+                        p["lean"] = lean(text)
                 if r["source"]:
                     p["source"] = r["source"]
                 out.append(p)

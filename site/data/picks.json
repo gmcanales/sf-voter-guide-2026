@@ -45,7 +45,8 @@
    {
     "verdict": "note",
     "target": "Joshua Groban",
-    "reasoning": "Yes, if you like Jerry Brown: Groban was Brown's senior advisor for seven years before Brown appointed Groban to the court in 2018."
+    "reasoning": "Yes, if you like Jerry Brown: Groban was Brown's senior advisor for seven years before Brown appointed Groban to the court in 2018.",
+    "lean": "yes"
    }
   ],
   "scotus-evans": [
@@ -157,8 +158,7 @@
   "prop-1": [
    {
     "verdict": "note",
-    "reasoning": "No argument against Prop 1 was even submitted. Vote yes.",
-    "lean": "yes"
+    "reasoning": "No argument against Prop 1 was even submitted. Vote yes."
    }
   ],
   "prop-2": [

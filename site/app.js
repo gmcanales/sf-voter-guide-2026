@@ -185,11 +185,27 @@ function badge(verdict) {
     return el('span', { class: 'vg-badge vg-badge-egg', title: 'Golden Goose Egg: our pick' },
       eggIcon(), 'Golden Goose Egg');
   }
+  if (verdict === 'honk') {
+    return el('span', { class: 'vg-badge vg-badge-honk', title: 'Certified HONK: we’d steer clear' }, honkIcon(), 'Certified HONK');
+  }
   if (verdict === 'note') {
     return el('span', { class: 'vg-badge vg-badge-note', title: 'Goosebase take: our comment, unrated' }, 'Goosebase take');
   }
   return el('span', { class: 'vg-badge vg-badge-honk', title: 'Certified HONK: we’d steer clear' }, 'Certified HONK');
 }
+// A bold ✕ so a HONK reads as a rejection at a glance.
+function honkIcon() {
+  const ns = 'http://www.w3.org/2000/svg';
+  const svg = document.createElementNS(ns, 'svg');
+  svg.setAttribute('viewBox', '0 0 16 16');
+  svg.setAttribute('aria-hidden', 'true');
+  svg.setAttribute('class', 'vg-honk-x');
+  const path = document.createElementNS(ns, 'path');
+  path.setAttribute('d', 'M3 3 13 13M13 3 3 13');
+  svg.append(path);
+  return svg;
+}
+
 function eggIcon() {
   const ns = 'http://www.w3.org/2000/svg';
   const svg = document.createElementNS(ns, 'svg');
@@ -205,10 +221,39 @@ function eggIcon() {
 // for offices the row is a candidate name.
 function rowVerdicts(contest, row) {
   return picksFor(contest.id).filter(p => {
-    if (contest.kind === 'office' || (p.target && contest.kind === 'retention')) return p.target === row;
+    if (contest.kind === 'office') return p.target === row;
     if (p.verdict === 'note') return p.lean === row;
     return (p.verdict === 'egg' && row === 'yes') || (p.verdict === 'honk' && row === 'no');
   });
+}
+
+// Which way we point on this row, for the highlight box: 'egg' (a rated pick,
+// gold), 'take' (an unrated lean, gray) or null. A HONK on a candidate isn't a
+// recommendation for anyone else, so it highlights nothing; a HONK on a measure
+// or retention vote points at NO.
+function recommendation(contest, row) {
+  if (!state.showPicks) return null;
+  for (const p of picksFor(contest.id)) {
+    if (contest.kind === 'office') {
+      if (p.verdict === 'egg' && p.target === row) return 'egg';
+      continue;
+    }
+    if (p.verdict === 'egg' && row === 'yes') return 'egg';
+    if (p.verdict === 'honk' && row === 'no') return 'egg';
+    if (p.verdict === 'note' && p.lean === row) return 'take';
+  }
+  return null;
+}
+
+// Rank our egg names in a ranked-choice contest ("Ranked choice: #2"), 0-based; default 1st.
+function recommendedRank(contest, name) {
+  const p = picksFor(contest.id).find(x => x.verdict === 'egg' && x.target === name);
+  const m = p?.reasoning.match(/#(\d+)/);
+  return m ? Number(m[1]) - 1 : 0;
+}
+
+function recBox(kind, node) {
+  return kind ? el('span', { class: `vg-rec vg-rec-${kind}`, title: kind === 'egg' ? 'Our pick' : 'Our lean' }, node) : node;
 }
 
 // ── ballot rows ────────────────────────────────────────────────────────────
@@ -239,7 +284,7 @@ function renderOfficeRows(contest) {
   const rows = candidateOrder(contest).map(c => {
     const pressed = marked.has(c.name);
     return el('div', { class: 'vg-row' + (pressed ? ' is-marked' : '') },
-      oval(pressed, `Vote for ${c.name}`, () => toggleChoice(contest, c.name)),
+      recBox(recommendation(contest, c.name), oval(pressed, `Vote for ${c.name}`, () => toggleChoice(contest, c.name))),
       el('div', { class: 'vg-row-main' },
         el('div', { class: 'vg-cand' },
           el('span', { class: 'vg-cand-name' }, c.name),
@@ -274,7 +319,8 @@ function renderRcvGrid(contest) {
         c.note ? el('div', { class: 'vg-cand-note' }, c.note) : null,
         guideChipsForRow(contest, c.name)),
       el('div', { class: 'vg-rcv-ovals' }, Array.from({ length: nRanks }, (_, r) =>
-        oval(ranks[r] === c.name, `${RANK_LABEL[r]} choice: ${c.name}`, () => toggleRank(contest, c.name, r)))),
+        recBox(recommendation(contest, c.name) && recommendedRank(contest, c.name) === r ? 'egg' : null,
+          oval(ranks[r] === c.name, `${RANK_LABEL[r]} choice: ${c.name}`, () => toggleRank(contest, c.name, r))))),
       // Full-width row under the ovals so the tabs aren't squeezed into the name column.
       renderCandidateMore(contest, c));
   });
@@ -286,7 +332,7 @@ function renderYesNo(contest, yesLabel = 'YES', noLabel = 'NO') {
   return el('div', { class: 'vg-rows vg-yesno' }, ['yes', 'no'].map(v => {
     const pressed = mark === v;
     return el('div', { class: 'vg-row' + (pressed ? ' is-marked' : '') },
-      oval(pressed, `${v.toUpperCase()} on ${contest.title}`, () => toggleYesNo(contest, v)),
+      recBox(recommendation(contest, v), oval(pressed, `${v.toUpperCase()} on ${contest.title}`, () => toggleYesNo(contest, v))),
       el('div', { class: 'vg-row-main' },
         el('div', { class: 'vg-cand' },
           el('span', { class: 'vg-cand-name' }, v === 'yes' ? yesLabel : noLabel),
