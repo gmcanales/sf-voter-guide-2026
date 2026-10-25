@@ -1209,7 +1209,14 @@ function renderTopicImpact(contest, vote = 'yes') {
     t.share ? el('span', { class: 'vg-impact-share' }, highlightNumbers(t.share)) : null,
     t.share && t.affects_if ? ' · ' : null,
     t.affects_if ? (t.affects_if.startsWith('No one') ? t.affects_if
-      : [el('span', { class: 'vg-impact-label' }, 'Affects you if '), highlightNumbers(t.affects_if)]) : null)));
+      : [el('span', { class: 'vg-impact-label' }, 'Affects you if '), highlightNumbers(t.affects_if), '.']) : null,
+    t.aside ? [' ', el('span', { class: 'vg-impact-aside' }, emphasize(t.aside))] : null)));
+}
+
+// Flavor text: *word* renders in italics (built as elements, never as HTML).
+function emphasize(text) {
+  return text.split(/(\*[^*]+\*)/).filter(Boolean)
+    .map(part => /^\*[^*]+\*$/.test(part) ? el('em', {}, part.slice(1, -1)) : part);
 }
 
 function renderTopicBar() {

@@ -1,273 +1,274 @@
 {
-  "_about": "OUR editorial topic tags for measures, so readers can find what they care about. Each tag needs a one-line factual `why` grounded in the official digest or analysis. Tags say what a vote DOES, not whether it's good. `on` is the vote that causes the effect (\"yes\", the default, or \"no\"). `effect` is \"up\" (raises, funds or expands), \"down\" (cuts or limits), \"stable\" (keeps an existing tax at today's level, e.g. making a temporary tax permanent), \"limit\" (restricts FUTURE taxes, changes no current tax) or omitted. Tax tags add `share` (roughly how many are affected) and `affects_if` (short, single-filer terms). Schema: docs/data-model.md.",
-  "topics": [
-    {
-      "id": "ethics",
-      "label": "Ethics & corruption",
-      "description": "Oversight of officials, contracting integrity, campaign money."
-    },
-    {
-      "id": "bureaucracy",
-      "label": "Bureaucracy reform",
-      "description": "How government is organized, staffed, audited or permits things."
-    },
-    {
-      "id": "business-tax",
-      "label": "Business taxes",
-      "description": "Taxes paid by businesses and commercial property. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
-    },
-    {
-      "id": "personal-tax",
-      "label": "Personal taxes",
-      "description": "Taxes paid by individuals and households. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
-    },
-    {
-      "id": "regressive",
-      "label": "Regressive tax",
-      "description": "A tax that takes a larger share of income from lower-income households, such as a sales tax."
-    },
-    {
-      "id": "progressive",
-      "label": "Progressive tax",
-      "description": "A tax aimed at high earners or the very wealthy."
-    },
-    {
-      "id": "transit",
-      "label": "Pro transit",
-      "description": "Funds or expands public transit."
-    },
-    {
-      "id": "housing",
-      "label": "Housing construction",
-      "description": "Funds, finances or speeds up building homes."
-    },
-    {
-      "id": "elections",
-      "label": "Elections & democracy",
-      "description": "How measures, recalls and votes work."
-    }
-  ],
-  "tags": {
-    "prop-1": [
-      {
-        "topic": "housing",
-        "effect": "up",
-        "why": "$11.25B in state bonds for affordable housing programs, including multifamily rentals and supportive housing."
-      }
-    ],
-    "prop-3": [
-      {
-        "topic": "personal-tax",
-        "effect": "stable",
-        "share": "Top ~2% of CA taxpayers",
-        "affects_if": "you're a single filer earning over ~$371K",
-        "why": "Makes permanent the 2012 rates on income over about $371K (single filers; $742K joint, $505K head of household). Without it they expire in 2031."
-      },
-      {
-        "topic": "progressive",
-        "why": "Applies only to the top ~2% of California taxpayers by income."
-      },
-      {
-        "topic": "personal-tax",
-        "effect": "down",
-        "on": "no",
-        "share": "Top ~2% of CA taxpayers",
-        "affects_if": "you're a single filer earning over ~$371K (from 2031)",
-        "why": "A NO vote lets the higher rates expire in 2031 for income over about $371K (single filers; $742K joint, $505K head of household), using 2025 thresholds adjusted for inflation."
-      }
-    ],
-    "prop-4": [
-      {
-        "topic": "ethics",
-        "why": "Lets state and local governments create public financing programs for candidates' campaigns."
-      },
-      {
-        "topic": "elections",
-        "why": "Changes how campaigns can be funded."
-      }
-    ],
-    "prop-5": [
-      {
-        "topic": "elections",
-        "why": "Removes the replacement-candidate question from statewide recall elections."
-      }
-    ],
-    "prop-37": [
-      {
-        "topic": "housing",
-        "effect": "up",
-        "why": "Creates a state loan program for middle-income buyers of newly built homes, funded by up to $25B in revenue bonds."
-      }
-    ],
-    "prop-39": [
-      {
-        "topic": "elections",
-        "why": "Requires government-issued ID to vote."
-      }
-    ],
-    "prop-40": [
-      {
-        "topic": "progressive",
-        "why": "Applies only to billionaires."
-      },
-      {
-        "topic": "personal-tax",
-        "effect": "up",
-        "share": "A few hundred Californians",
-        "affects_if": "your net worth was over $1 billion on Jan 1, 2026",
-        "why": "One-time tax of 5% of net worth on billionaires who lived in California on Jan 1, 2026. The LAO says California has “a few hundred” of them."
-      }
-    ],
-    "prop-41": [
-      {
-        "topic": "personal-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
-      },
-      {
-        "topic": "business-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
-      },
-      {
-        "topic": "bureaucracy",
-        "why": "Requires State Auditor reviews of programs funded by special taxes."
-      }
-    ],
-    "prop-42": [
-      {
-        "topic": "personal-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
-      },
-      {
-        "topic": "business-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
-      }
-    ],
-    "prop-43": [
-      {
-        "topic": "personal-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
-      },
-      {
-        "topic": "business-tax",
-        "effect": "limit",
-        "affects_if": "No one's taxes change now",
-        "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
-      }
-    ],
-    "prop-45": [
-      {
-        "topic": "housing",
-        "effect": "up",
-        "why": "Tightens environmental-review timelines and narrows court challenges for housing and other projects."
-      },
-      {
-        "topic": "bureaucracy",
-        "why": "Changes permitting and review procedures (CEQA)."
-      }
-    ],
-    "rtm": [
-      {
-        "topic": "transit",
-        "effect": "up",
-        "why": "Funds BART, Muni, Caltrain and other operators for 14 years (~$980M/yr regionwide)."
-      },
-      {
-        "topic": "regressive",
-        "why": "A sales tax takes a larger share of income from lower-income households."
-      },
-      {
-        "topic": "personal-tax",
-        "effect": "up",
-        "share": "Nearly all SF households",
-        "affects_if": "you buy taxable goods in SF (1% sales tax)",
-        "why": "Adds a 1% sales tax in San Francisco for 14 years."
-      }
-    ],
-    "prop-a": [
-      {
-        "topic": "bureaucracy",
-        "why": "Eliminates, merges or moves dozens of commissions and advisory bodies out of the Charter."
-      }
-    ],
-    "prop-b": [
-      {
-        "topic": "housing",
-        "why": "Authorizes a city finance corporation (and later a public bank) whose lending includes affordable housing. It doesn't fund one."
-      }
-    ],
-    "prop-c": [
-      {
-        "topic": "housing",
-        "effect": "up",
-        "why": "Raises the City's yearly Housing Trust Fund contribution toward $125M and extends the fund to 2058."
-      }
-    ],
-    "prop-d": [
-      {
-        "topic": "elections",
-        "why": "Raises signature requirements for initiatives (2% to 8%) and ends ballot placement by the Mayor or four Supervisors."
-      }
-    ],
-    "prop-e": [
-      {
-        "topic": "bureaucracy",
-        "why": "Centralizes purchasing rules under the City Administrator."
-      },
-      {
-        "topic": "ethics",
-        "why": "Raises the contract size needing Board approval from $10M to $25M."
-      }
-    ],
-    "prop-f": [
-      {
-        "topic": "bureaucracy",
-        "why": "Expands the Mayor's power to reorganize departments and hire and fire department heads."
-      }
-    ],
-    "prop-h": [
-      {
-        "topic": "transit",
-        "effect": "up",
-        "why": "Funds Muni service with ~$177M/yr for 15 years."
-      },
-      {
-        "topic": "personal-tax",
-        "effect": "up",
-        "share": "~39% of SF households own their home",
-        "affects_if": "you own SF property ($129+/yr; most owners 65+ pay less or nothing)",
-        "why": "New annual parcel tax for 15 years. Owners of rent-controlled units can pass up to 50%, capped at $65 per unit per year, to tenants whose rent was set before June 1, 2027."
-      },
-      {
-        "topic": "business-tax",
-        "effect": "up",
-        "affects_if": "you own commercial property in SF ($799+/yr, capped at $400K)",
-        "why": "New annual parcel tax on non-residential and mixed-use property."
-      }
-    ],
-    "prop-i": [
-      {
-        "topic": "housing",
-        "effect": "up",
-        "why": "Dedicates half of transfer-tax revenue from $10M+ property sales to affordable housing and housing assistance."
-      }
-    ],
-    "prop-j": [
-      {
-        "topic": "business-tax",
-        "effect": "up",
-        "affects_if": "a lender takes commercial or large residential property in foreclosure",
-        "why": "Applies the 0.5%–6% transfer tax to foreclosure transfers of commercial, industrial and large residential properties. Smaller residential buildings keep the exemption."
-      }
-    ]
+ "_about": "OUR editorial topic tags for measures, so readers can find what they care about. Each tag needs a one-line factual `why` grounded in the official digest or analysis. Tags say what a vote DOES, not whether it's good. `on` is the vote that causes the effect (\"yes\", the default, or \"no\"). `effect` is \"up\" (raises, funds or expands), \"down\" (cuts or limits), \"stable\" (keeps an existing tax at today's level, e.g. making a temporary tax permanent), \"limit\" (restricts FUTURE taxes, changes no current tax) or omitted. Tax tags add `share` (roughly how many are affected) and `affects_if` (short, single-filer terms). Schema: docs/data-model.md.",
+ "topics": [
+  {
+   "id": "ethics",
+   "label": "Ethics & corruption",
+   "description": "Oversight of officials, contracting integrity, campaign money."
+  },
+  {
+   "id": "bureaucracy",
+   "label": "Bureaucracy reform",
+   "description": "How government is organized, staffed, audited or permits things."
+  },
+  {
+   "id": "business-tax",
+   "label": "Business taxes",
+   "description": "Taxes paid by businesses and commercial property. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
+  },
+  {
+   "id": "personal-tax",
+   "label": "Personal taxes",
+   "description": "Taxes paid by individuals and households. Each tag sits on the vote that causes it: ↑ raises, ↓ cuts or limits, = keeps today's rate (e.g. making a temporary tax permanent), ⊘ limits future taxes."
+  },
+  {
+   "id": "regressive",
+   "label": "Regressive tax",
+   "description": "A tax that takes a larger share of income from lower-income households, such as a sales tax."
+  },
+  {
+   "id": "progressive",
+   "label": "Progressive tax",
+   "description": "A tax aimed at high earners or the very wealthy."
+  },
+  {
+   "id": "transit",
+   "label": "Pro transit",
+   "description": "Funds or expands public transit."
+  },
+  {
+   "id": "housing",
+   "label": "Housing construction",
+   "description": "Funds, finances or speeds up building homes."
+  },
+  {
+   "id": "elections",
+   "label": "Elections & democracy",
+   "description": "How measures, recalls and votes work."
   }
+ ],
+ "tags": {
+  "prop-1": [
+   {
+    "topic": "housing",
+    "effect": "up",
+    "why": "$11.25B in state bonds for affordable housing programs, including multifamily rentals and supportive housing."
+   }
+  ],
+  "prop-3": [
+   {
+    "topic": "personal-tax",
+    "effect": "stable",
+    "share": "Top ~2% of CA taxpayers",
+    "affects_if": "you're a single filer earning over ~$371K",
+    "why": "Makes permanent the 2012 rates on income over about $371K (single filers; $742K joint, $505K head of household). Without it they expire in 2031."
+   },
+   {
+    "topic": "progressive",
+    "why": "Applies only to the top ~2% of California taxpayers by income."
+   },
+   {
+    "topic": "personal-tax",
+    "effect": "down",
+    "on": "no",
+    "share": "Top ~2% of CA taxpayers",
+    "affects_if": "you're a single filer earning over ~$371K (from 2031)",
+    "why": "A NO vote lets the higher rates expire in 2031 for income over about $371K (single filers; $742K joint, $505K head of household), using 2025 thresholds adjusted for inflation."
+   }
+  ],
+  "prop-4": [
+   {
+    "topic": "ethics",
+    "why": "Lets state and local governments create public financing programs for candidates' campaigns."
+   },
+   {
+    "topic": "elections",
+    "why": "Changes how campaigns can be funded."
+   }
+  ],
+  "prop-5": [
+   {
+    "topic": "elections",
+    "why": "Removes the replacement-candidate question from statewide recall elections."
+   }
+  ],
+  "prop-37": [
+   {
+    "topic": "housing",
+    "effect": "up",
+    "why": "Creates a state loan program for middle-income buyers of newly built homes, funded by up to $25B in revenue bonds."
+   }
+  ],
+  "prop-39": [
+   {
+    "topic": "elections",
+    "why": "Requires government-issued ID to vote."
+   }
+  ],
+  "prop-40": [
+   {
+    "topic": "progressive",
+    "why": "Applies only to billionaires."
+   },
+   {
+    "topic": "personal-tax",
+    "effect": "up",
+    "share": "A few hundred Californians",
+    "affects_if": "your net worth was over $1 billion on Jan 1, 2026",
+    "why": "One-time tax of 5% of net worth on billionaires who lived in California on Jan 1, 2026. The LAO says California has “a few hundred” of them.",
+    "aside": "So not *you*."
+   }
+  ],
+  "prop-41": [
+   {
+    "topic": "personal-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
+   },
+   {
+    "topic": "business-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Bars new state taxes whose revenue is excluded from the state spending limit."
+   },
+   {
+    "topic": "bureaucracy",
+    "why": "Requires State Auditor reviews of programs funded by special taxes."
+   }
+  ],
+  "prop-42": [
+   {
+    "topic": "personal-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
+   },
+   {
+    "topic": "business-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Prohibits new state taxes on owning financial assets or other personal property, and certain retroactive taxes."
+   }
+  ],
+  "prop-43": [
+   {
+    "topic": "personal-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
+   },
+   {
+    "topic": "business-tax",
+    "effect": "limit",
+    "affects_if": "No one's taxes change now",
+    "why": "Requires two-thirds voter approval for certain local taxes that can now pass by majority."
+   }
+  ],
+  "prop-45": [
+   {
+    "topic": "housing",
+    "effect": "up",
+    "why": "Tightens environmental-review timelines and narrows court challenges for housing and other projects."
+   },
+   {
+    "topic": "bureaucracy",
+    "why": "Changes permitting and review procedures (CEQA)."
+   }
+  ],
+  "rtm": [
+   {
+    "topic": "transit",
+    "effect": "up",
+    "why": "Funds BART, Muni, Caltrain and other operators for 14 years (~$980M/yr regionwide)."
+   },
+   {
+    "topic": "regressive",
+    "why": "A sales tax takes a larger share of income from lower-income households."
+   },
+   {
+    "topic": "personal-tax",
+    "effect": "up",
+    "share": "Nearly all SF households",
+    "affects_if": "you buy taxable goods in SF (1% sales tax)",
+    "why": "Adds a 1% sales tax in San Francisco for 14 years."
+   }
+  ],
+  "prop-a": [
+   {
+    "topic": "bureaucracy",
+    "why": "Eliminates, merges or moves dozens of commissions and advisory bodies out of the Charter."
+   }
+  ],
+  "prop-b": [
+   {
+    "topic": "housing",
+    "why": "Authorizes a city finance corporation (and later a public bank) whose lending includes affordable housing. It doesn't fund one."
+   }
+  ],
+  "prop-c": [
+   {
+    "topic": "housing",
+    "effect": "up",
+    "why": "Raises the City's yearly Housing Trust Fund contribution toward $125M and extends the fund to 2058."
+   }
+  ],
+  "prop-d": [
+   {
+    "topic": "elections",
+    "why": "Raises signature requirements for initiatives (2% to 8%) and ends ballot placement by the Mayor or four Supervisors."
+   }
+  ],
+  "prop-e": [
+   {
+    "topic": "bureaucracy",
+    "why": "Centralizes purchasing rules under the City Administrator."
+   },
+   {
+    "topic": "ethics",
+    "why": "Raises the contract size needing Board approval from $10M to $25M."
+   }
+  ],
+  "prop-f": [
+   {
+    "topic": "bureaucracy",
+    "why": "Expands the Mayor's power to reorganize departments and hire and fire department heads."
+   }
+  ],
+  "prop-h": [
+   {
+    "topic": "transit",
+    "effect": "up",
+    "why": "Funds Muni service with ~$177M/yr for 15 years."
+   },
+   {
+    "topic": "personal-tax",
+    "effect": "up",
+    "share": "~39% of SF households own their home",
+    "affects_if": "you own SF property ($129+/yr; most owners 65+ pay less or nothing)",
+    "why": "New annual parcel tax for 15 years. Owners of rent-controlled units can pass up to 50%, capped at $65 per unit per year, to tenants whose rent was set before June 1, 2027."
+   },
+   {
+    "topic": "business-tax",
+    "effect": "up",
+    "affects_if": "you own commercial property in SF ($799+/yr, capped at $400K)",
+    "why": "New annual parcel tax on non-residential and mixed-use property."
+   }
+  ],
+  "prop-i": [
+   {
+    "topic": "housing",
+    "effect": "up",
+    "why": "Dedicates half of transfer-tax revenue from $10M+ property sales to affordable housing and housing assistance."
+   }
+  ],
+  "prop-j": [
+   {
+    "topic": "business-tax",
+    "effect": "up",
+    "affects_if": "a lender takes commercial or large residential property in foreclosure",
+    "why": "Applies the 0.5%–6% transfer tax to foreclosure transfers of commercial, industrial and large residential properties. Smaller residential buildings keep the exemption."
+   }
+  ]
+ }
 }
