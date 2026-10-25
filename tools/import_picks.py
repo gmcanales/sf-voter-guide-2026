@@ -1,4 +1,4 @@
-"""Build site/data/picks.json (our opinion picks) from data-src/picks_sf.csv.
+"""Build site/data/picks.json (our opinion picks) from data-src/picks_*.csv (SF + counties).
 
     py tools/import_picks.py
 
@@ -43,7 +43,22 @@ def lean(text: str) -> str | None:
 
 
 def main() -> None:
-    rows = [r for r in csv.DictReader(SRC.open(encoding="utf-8")) if r["position"].strip()]
+    # SF sheet plus one sheet per county (data-src/picks_<county>.csv); contest ids don't overlap
+    # except shared statewide ones, which live only in the SF sheet.
+    rows = []
+    for path in sorted(SRC.parent.glob("picks_*.csv")):
+        rows += [r for r in csv.DictReader(path.open(encoding="utf-8")) if r["position"].strip()]
+    # Every named candidate must be on a ballot, so a typo can't publish a pick for nobody.
+    names = {}
+    for bp in [ROOT / "site" / "data" / "ballot.json", *sorted((ROOT / "site" / "data" / "counties").glob("*/ballot.json"))]:
+        for sec in json.loads(bp.read_text(encoding="utf-8"))["sections"]:
+            for c in sec["contests"]:
+                names.setdefault(c["id"], set()).update(x["name"] for x in c.get("candidates", []))
+                if c.get("justice"):
+                    names[c["id"]].add(c["justice"])
+    bad = [(r["id"], r["choice"]) for r in rows if r["choice"] and r["choice"] not in names.get(r["id"], set())]
+    if bad:
+        raise SystemExit(f"picks name candidates not on the ballot: {bad}")
     by_contest = defaultdict(list)
     for r in rows:
         by_contest[r["id"]].append(r)
