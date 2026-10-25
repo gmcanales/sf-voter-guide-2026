@@ -307,3 +307,16 @@ variants; pins/excludes with reasons in `data-src/local_measure_committees.json`
 contributions state-filing committees report giving them (Schedule D + Form 497 part 2,
 2025 on, latest amendments). Totals are floors and the page labels them "$X+" with a
 caveat. Multi-measure committees appear under each measure, flagged as unsplittable.
+
+Local amounts, best source first:
+1. **NetFile "All Transactions" exports** (`efile_<AID>_2026.xlsx`, saved from the public portal;
+   pass their paths to the tool): Form 460 line 5 per period (latest amendment) plus Form 497
+   late contributions after the last period; donors from Schedule A. Exports so far: COAK, COA, CCC.
+2. **NetFile's documented public API** (netfile.com/Connect2/api/swagger-ui): agency list, filer
+   list (exact names by FPPC id), and transaction search with superseded amendments excluded.
+   Gives itemized contributions only (Schedule A + C + 497 part 1, late reports deduped), so the
+   page labels it "itemized; gifts under $100 aren't itemized". The yearly export endpoint is retired.
+3. **Cal-Access** state-reported gifts as a floor ("$X+"). Gifts are deduped across Form 497 and
+   the next 460 (Schedule D only), after a bug that double-counted them (e.g. CNA's $250K to Yes on EE).
+
+South San Francisco and some small cities aren't on NetFile.

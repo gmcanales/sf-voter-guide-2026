@@ -84,7 +84,159 @@ def side_of(name: str) -> str:
     return "yes"
 
 
-def main(zip_path: str) -> None:
+PORTALS = {"COAK": "City of Oakland", "COA": "Alameda County", "CCC": "Contra Costa County"}
+
+
+def netfile(paths: list[str], name_to_id: dict) -> dict:
+    """Full local totals from NetFile "All Transactions" exports (efile_<AID>_<year>.xlsx).
+
+    Per committee: Form 460 line 5 (contributions received) summed over reporting periods,
+    keeping the highest Report_Num (latest amendment) per period; itemized donors from
+    Schedule A of those same reports; plus Form 497 late contributions received after the
+    last 460 period. Committees are keyed by Filer_ID, or mapped by name when NetFile shows
+    "Pending" (name_to_id).
+    """
+    import openpyxl
+    out = {}
+    for path in paths:
+        aid = re.match(r"efile_([A-Z]+)_", Path(path).name).group(1)
+        wb = openpyxl.load_workbook(path, read_only=True)
+
+        def rows(sheet):
+            it = wb[sheet].iter_rows(values_only=True)
+            head = next(it)
+            for r in it:
+                yield dict(zip(head, r))
+
+        def key(r):
+            fid = str(r.get("Filer_ID") or "").strip()
+            return fid if fid.isdigit() else name_to_id.get((r.get("Filer_NamL") or "").strip())
+
+        latest = {}                                     # (fid, from, thru) -> report num
+        for r in rows("Summary"):
+            k = key(r)
+            if k and r.get("Form_Type") == "F460":
+                p = (k, r["From_Date"], r["Thru_Date"])
+                latest[p] = max(latest.get(p, -1), int(r.get("Report_Num") or 0))
+        totals, thru = defaultdict(float), {}
+        for r in rows("Summary"):
+            k = key(r)
+            if k and r.get("Form_Type") == "F460" and str(r.get("Line_Item")) == "5" \
+                    and int(r.get("Report_Num") or 0) == latest.get((k, r["From_Date"], r["Thru_Date"])):
+                totals[k] += float(r.get("Amount_A") or 0)
+                thru[k] = max(filter(None, [thru.get(k), r["Thru_Date"]]))
+        donors = defaultdict(lambda: defaultdict(float))
+        for r in rows("A-Contributions"):
+            k = key(r)
+            if k and int(r.get("Report_Num") or 0) == latest.get((k, r["From_Date"], r["Thru_Date"])):
+                who = " ".join(x for x in (r.get("Tran_NamF"), r.get("Tran_NamL")) if x).strip()
+                donors[k][who] += float(r.get("Tran_Amt1") or 0)
+        late, seen = defaultdict(float), {}
+        for r in rows("497"):
+            k = key(r)
+            if not k or r.get("Form_Type") != "F497P1":
+                continue
+            d = r.get("Ctrib_Date")
+            if thru.get(k) and d and d <= thru[k]:
+                continue                                # already inside a 460 period
+            tid = (k, r.get("Tran_ID"))
+            if int(r.get("Report_Num") or 0) < seen.get(tid, -1):
+                continue
+            seen[tid] = int(r.get("Report_Num") or 0)
+            who = " ".join(x for x in (r.get("Enty_NamF"), r.get("Enty_NamL")) if x).strip()
+            amt = float(r.get("Amount") or 0)
+            late[k] += amt
+            donors[k][who] += amt
+        for k in set(totals) | set(late):
+            top = sorted(donors[k].items(), key=lambda kv: -kv[1])
+            out[k] = {"agency": aid, "agency_name": PORTALS.get(aid, aid),
+                      "raised": round(totals[k]), "late_since": round(late[k]),
+                      "through": thru[k].strftime("%Y-%m-%d") if k in thru else None,
+                      "donor_count": len(top), "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
+    return out
+
+
+API = "https://netfile.com/Connect2/api/public"
+COUNTY_AGENCY = {"ala": "COA", "smc": "MAT", "cc": "CCC"}
+A_TYPES = {0: "Schedule A", 1: "Schedule C (non-monetary)", 20: "Form 497 late contribution"}
+
+
+def api_get(path: str, **params) -> dict:
+    import time
+    import urllib.parse
+    import urllib.request
+    url = f"{API}/{path}?{urllib.parse.urlencode(params)}"
+    req = urllib.request.Request(url, headers={"Accept": "application/json", "User-Agent": "sf_voter_guide/1.0"})
+    time.sleep(0.3)                                    # be polite to a free public API
+    return json.loads(urllib.request.urlopen(req, timeout=60).read().decode("utf-8"))
+
+
+def netfile_api(wanted: dict) -> dict:
+    """Itemized contributions per committee from NetFile's documented public API.
+
+    wanted: filer id -> (committee name, measure jurisdiction, contest id). The committee is
+    looked up in its city's NetFile agency (district and county measures: the county's), its
+    transactions found by name search with superseded amendments excluded, then filtered to
+    its own FPPC id. Counts Schedule A, Schedule C and Form 497 part 1, deduping late
+    contributions that reappear on the next Form 460 (same donor, date and amount).
+    Contributions under $100 aren't itemized, so this is "itemized", not the 460 total.
+    """
+    agencies = api_get("campaign/agencies")
+    agencies = agencies.get("agencies", agencies) if isinstance(agencies, dict) else agencies
+    out, filer_cache = {}, {}
+    for fid, (name, jur, cid) in wanted.items():
+        place = re.sub(r"^(City|Town) of\s+", "", jur)
+        ag = next((a for a in agencies if jur.startswith(("City of", "Town of"))
+                   and re.search(rf"\b{re.escape(place)}\b", a["name"]) and "County" not in a["name"]), None)
+        if not ag:
+            code = COUNTY_AGENCY[cid.split("-")[0]]
+            ag = next(a for a in agencies if a["shortcut"] == code) if not jur.startswith(("City of", "Town of")) else None
+        if not ag:
+            continue                                    # city not on NetFile (e.g. South San Francisco)
+        # Search by the committee's exact NetFile name (looked up by FPPC id in the agency's filer
+        # list); Cal-Access spellings differ and the search matches whole words.
+        if ag["shortcut"] not in filer_cache:
+            filers, page = {}, 0
+            while True:
+                d = api_get("campaign/list/filer", AID=ag["shortcut"], PageSize=500, CurrentPageIndex=page)
+                for f in d.get("filers", []):
+                    filers[(f.get("fppcId") or "").rstrip(".")] = f.get("name") or ""
+                page += 1
+                if page >= d.get("totalMatchingPages", 1):
+                    break
+            filer_cache[ag["shortcut"]] = filers
+        nf_name = filer_cache[ag["shortcut"]].get(fid)
+        if not nf_name:
+            continue                                    # files elsewhere, or not yet on NetFile
+        q = " ".join(re.sub(r"[^\w\s&'-]", " ", nf_name).split()[:8])
+        rows, page = [], 0
+        while True:
+            d = api_get("campaign/search/transaction/query", Agency=ag["id"], QueryString=q,
+                        PageSize=500, CurrentPageIndex=page, ShowSuperceded="false")
+            rows += d.get("results", [])
+            page += 1
+            if page >= d.get("totalMatchingPages", 1):
+                break
+        mine = [r for r in rows if r.get("filerFppcId", "").rstrip(".") == fid and r.get("transactionType") in A_TYPES]
+        if not mine:
+            continue
+        seen, donors, last = set(), defaultdict(float), None
+        for r in sorted(mine, key=lambda r: r["transactionType"]):   # 460 rows before 497 rows
+            k = ((r.get("name") or "").upper(), r["date"][:10], round(r["amount"], 2))
+            if k in seen:
+                continue
+            seen.add(k)
+            donors[r.get("name") or "Unitemized"] += r["amount"]
+            last = max(filter(None, [last, r["date"][:10]]))
+        top = sorted(donors.items(), key=lambda kv: -kv[1])
+        out[fid] = {"agency": ag["shortcut"], "agency_name": ag["name"], "itemized": round(sum(donors.values())),
+                    "through": last, "donor_count": len(top),
+                    "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
+        print(f"  api {ag['shortcut']:5} {fid} ${out[fid]['itemized']:,} itemized, {len(top)} donors: {name[:60]}")
+    return out
+
+
+def main(zip_path: str, netfile_paths: list[str] | None = None) -> None:
     z = zipfile.ZipFile(zip_path)
     ms = measures()
     pins = json.loads((ROOT / "data-src" / "local_measure_committees.json").read_text(encoding="utf-8"))
@@ -103,12 +255,15 @@ def main(zip_path: str) -> None:
         if len(nm) > len(names.get(fid, "")):
             names[fid] = nm
     committees = defaultdict(dict)     # contest id -> filer id -> info
+    for fid, p in pin.items():         # pinned committees can predate the cycle cutoff or be missing a name
+        names.setdefault(fid, p.get("name", fid))
     for fid, nm in names.items():
         if fid in exclude:
             continue
         if fid in pin:
             p = pin[fid]
-            committees[p["contest"]][fid] = {"name": nm, "side": p.get("side", side_of(nm))}
+            # A pinned name wins: committees reused across campaigns keep old names in Cal-Access.
+            committees[p["contest"]][fid] = {"name": p.get("name", nm), "side": p.get("side", side_of(nm))}
             continue
         if int(fid) < MIN_FILER_ID:
             continue
@@ -134,15 +289,20 @@ def main(zip_path: str) -> None:
         if amend >= best_amend.get(fid, -1):
             best_amend[fid] = amend
             filer_of[fid] = r.get("FILER_NAML", "").strip()
+    # One gift can appear three times: on the giver's Form 497 (late contribution made), then
+    # on its next Form 460 as Schedule D (contribution to a committee) AND Schedule E (payment).
+    # Count Schedule D and 497 part 2 only, and keep one row per (giver, recipient, date, amount).
     gifts = defaultdict(lambda: defaultdict(float))     # committee -> giver -> $
     last = {}
+    unique = set()
     for table, date_col in (("EXPN_CD", "EXPN_DATE"), ("S497_CD", "CTRIB_DATE")):
-        seen = set()
         for r in tsv(z, table):
             cid = r.get("CMTE_ID", "")
             if cid not in want:
                 continue
             if table == "S497_CD" and r.get("FORM_TYPE") != "F497P2":   # part 2 = contributions made
+                continue
+            if table == "EXPN_CD" and r.get("FORM_TYPE") != "D":         # Schedule D = contributions made
                 continue
             fid = r.get("FILING_ID")
             if int(r.get("AMEND_ID") or 0) != best_amend.get(fid, 0):
@@ -150,16 +310,25 @@ def main(zip_path: str) -> None:
             d = parse_dt(r.get(date_col))
             if not d or d < SINCE:
                 continue
-            key = (fid, r.get("TRAN_ID") or r.get("LINE_ITEM"))
-            if key in seen:
+            giver = filer_of.get(fid) or "Unnamed committee"
+            amt = round(float(r.get("AMOUNT") or 0), 2)
+            key = (giver.upper(), cid, d, amt)
+            if key in unique:
                 continue
-            seen.add(key)
-            gifts[cid][filer_of.get(fid) or "Unnamed committee"] += float(r.get("AMOUNT") or 0)
+            unique.add(key)
+            gifts[cid][giver] += amt
             last[cid] = max(filter(None, [last.get(cid), d]))
 
+    local = netfile(netfile_paths or [], pins.get("netfile_names", {}))
+    jur_of = {m["id"]: m["jurisdiction"] for m in ms}
+    need = {fid: (names[fid], jur_of[cid], cid) for cid, cs in committees.items() for fid in cs if fid not in local}
+    api = netfile_api(need) if "--no-api" not in sys.argv else {}
     out = {"built": date.today().isoformat(),
            "source": {"label": "CA Secretary of State, Cal-Access bulk export",
                       "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"},
+           "netfile_source": {"label": "NetFile public portal exports (local Form 460 / 497 filings)",
+                              "url": "https://public.netfile.com/pub2/",
+                              "agencies": sorted({v["agency"] for v in local.values()})},
            "note": ("Totals count only money given by committees that report to the state. The measure committees' "
                     "own reports, including local individual donors, are filed with the local elections office."),
            "measures": {}}
@@ -173,20 +342,24 @@ def main(zip_path: str) -> None:
             rows.append({"filer_id": fid, "name": info["name"], "side": info["side"], "shared": info.get("shared", []),
                          "from_state_committees": round(sum(v for _, v in top)),
                          "top": [{"name": n, "amount": round(a)} for n, a in top[:6]],
-                         "through": last[fid].strftime("%Y-%m-%d") if fid in last else None})
+                         "through": last[fid].strftime("%Y-%m-%d") if fid in last else None,
+                         **({"local": local[fid]} if fid in local else {}),
+                         **({"local_api": api[fid]} if fid in api else {})})
         out["measures"][m["id"]] = rows
     dest = ROOT / "site" / "data" / "county_measure_money.json"
     dest.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {dest.relative_to(ROOT)}: {len(out['measures'])} of {len(ms)} local measures have registered committees")
     for mid, rows in out["measures"].items():
         for r in rows:
-            print(f"  {mid:16} {r['side']:3} ${r['from_state_committees']:>9,} {r['name'][:90]}")
+            loc = r.get("local")
+            full = f" | local: ${loc['raised']:,} thru {loc['through']} + ${loc['late_since']:,} late ({loc['agency']})" if loc else ""
+            print(f"  {mid:16} {r['side']:3} ${r['from_state_committees']:>9,} {r['name'][:70]}{full}")
     missing = [m["id"] for m in ms if m["id"] not in out["measures"]]
     print("no committee found:", ", ".join(missing))
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
+    if len(sys.argv) < 2:
         sys.exit(__doc__)
     sys.stdout.reconfigure(encoding="utf-8")
-    main(sys.argv[1])
+    main(sys.argv[1], [a for a in sys.argv[2:] if not a.startswith("--")])

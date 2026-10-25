@@ -1,5 +1,5 @@
 {
- "_about": "Overrides for tools/local_measure_money.py: pin a Cal-Access committee (filer id) to a contest when its name does not match automatically, or exclude a false match. Each entry needs a reason.",
+ "_about": "Overrides for tools/local_measure_money.py: pin a Cal-Access committee (filer id) to a contest when its name does not match automatically, or exclude a false match. Each entry needs a reason. netfile_names maps NetFile committees whose Filer_ID shows 'Pending' to their Cal-Access id.",
  "pin": {
   "1481842": {
    "contest": "ala-measure-ee",
@@ -20,7 +20,22 @@
    "contest": "cc-measure-x",
    "side": "yes",
    "reason": "'Yes for Liberty Union Schools': Liberty Union High School District's only measure on this ballot is X (school bond)."
+  },
+  "1478885": {
+   "contest": "cc-measure-w",
+   "side": "yes",
+   "name": "Yes for Quality High Schools - Yes on W 2026",
+   "reason": "Acalanes Union High School District's Measure W committee; registered in 2025, before the cycle cutoff, so the automatic match skips it."
+  },
+  "1496526": {
+   "contest": "ala-measure-ii",
+   "side": "yes",
+   "name": "Committee to Support Measure II",
+   "reason": "Union City's Measure II committee (files with Alameda County); its name has no place word."
   }
  },
- "exclude": []
+ "exclude": [],
+ "netfile_names": {
+  "Yes for Liberty Union Schools": "1494606"
+ }
 }

@@ -552,35 +552,62 @@ function prettyName(name) {
   }).join('');
 }
 
-// Local measures outside SF: committees registered with the Secretary of State, and the money
-// statewide committees report giving them (a floor: local donors file only with the city/county).
+// Local measures outside SF. Best available figure per committee:
+//   local      NetFile export: Form 460 contributions (all, incl. unitemized) + late contributions since
+//   local_api  NetFile public API: itemized contributions (excludes unitemized gifts under $100)
+//   state      Cal-Access: what state-reporting committees say they gave (a floor)
+function committeeMoney(c) {
+  if (c.local) {
+    const l = c.local;
+    return { amount: l.raised + l.late_since, plus: false, top: l.top, count: l.donor_count,
+      text: `Raised${l.through ? ` through ${formatDate(l.through)}` : ''}${l.late_since ? `, including ${shortMoney(l.late_since)} in late contributions since` : ''} (${l.agency_name} filings).` };
+  }
+  if (c.local_api) {
+    const l = c.local_api;
+    return { amount: l.itemized, plus: false, top: l.top, count: l.donor_count,
+      text: `In itemized contributions${l.through ? ` through ${formatDate(l.through)}` : ''} (${l.agency_name} filings; gifts under $100 aren't itemized).` };
+  }
+  if (c.from_state_committees) {
+    return { amount: c.from_state_committees, plus: true, top: c.top,
+      text: `At least this much from state-reporting committees${c.through ? `, through ${formatDate(c.through)}` : ''}; the committee's own report isn't in our data.` };
+  }
+  return null;
+}
+
 function countyMeasureMoney(contest) {
   const rows = COUNTY_MONEY?.measures?.[contest.id];
-  const src = COUNTY_MONEY?.source;
   const office = BALLOT.election.official_sources?.[0];
-  const caveat = el('p', { class: 'vg-fineprint' },
-    'Totals count only money from committees that report to the state, like unions, realtors and business groups. ',
-    'Each measure committee’s full reports, including local donors, are filed with the local elections office',
-    office ? [' (', el('a', { href: office.url, target: '_blank', rel: 'noopener' }, 'county site'), ')'] : null, '.');
   if (!rows?.length) {
-    return [emptyNote('No committee for or against this measure has registered with the CA Secretary of State.'), caveat];
+    return [emptyNote('No committee for or against this measure has registered with the CA Secretary of State.'),
+      el('p', { class: 'vg-fineprint' }, 'Small local campaigns sometimes report only to the local elections office',
+        office ? [' (', el('a', { href: office.url, target: '_blank', rel: 'noopener' }, 'county site'), ')'] : null, '.')];
   }
   const sides = ['yes', 'no'].map(side => {
     const comms = rows.filter(r => r.side === side);
     return el('div', { class: 'vg-money-side' }, el('h4', {}, side === 'yes' ? 'Committees for YES' : 'Committees for NO'),
-      comms.length ? comms.map(c => el('div', { class: 'vg-money-comm' },
-        el('div', { class: 'vg-money-head' }, el('span', {}, prettyName(c.name)),
-          c.from_state_committees ? el('strong', { class: 'vg-num' }, `${shortMoney(c.from_state_committees)}+`) : null),
-        c.from_state_committees
-          ? [el('p', { class: 'vg-fineprint' }, `At least ${shortMoney(c.from_state_committees)} from state-reporting committees${c.through ? `, through ${formatDate(c.through)}` : ''}:`),
-             el('ol', { class: 'vg-donors' }, c.top.map(t => el('li', {}, `${prettyName(t.name)} `, el('strong', {}, shortMoney(t.amount)))))]
-          : el('p', { class: 'vg-fineprint' }, 'Registered; no contributions from state-reporting committees yet.'),
-        c.shared?.length ? el('p', { class: 'vg-fineprint' },
-          `Also campaigns on Measure${c.shared.length > 1 ? 's' : ''} ${c.shared.join(', ')}, so its money can’t be split between them.`) : null))
-      : emptyNote('No committee registered.'));
+      comms.length ? comms.map(c => {
+        const m = committeeMoney(c);
+        // Statewide gifts reported after the committee's last local report can exceed it.
+        const stateNote = m && !m.plus && c.from_state_committees > m.amount
+          ? el('p', { class: 'vg-fineprint' }, `State-reporting committees say they gave ${shortMoney(c.from_state_committees)}, more than this committee has reported locally so far (often gifts made after its last report).`)
+          : null;
+        return el('div', { class: 'vg-money-comm' },
+          el('div', { class: 'vg-money-head' }, el('span', {}, prettyName(c.name)),
+            m ? el('strong', { class: 'vg-num' }, `${shortMoney(m.amount)}${m.plus ? '+' : ''}`) : null),
+          m ? [el('p', { class: 'vg-fineprint' }, m.text, m.count ? ` ${m.count} donors.` : ''),
+               m.top?.length ? el('ol', { class: 'vg-donors' }, m.top.slice(0, 6).map(t => el('li', {}, `${prettyName(t.name)} `, el('strong', {}, shortMoney(t.amount))))) : null]
+            : el('p', { class: 'vg-fineprint' }, 'Registered; no contributions reported in our data yet.'),
+          stateNote,
+          c.shared?.length ? el('p', { class: 'vg-fineprint' },
+            `Also campaigns on Measure${c.shared.length > 1 ? 's' : ''} ${c.shared.join(', ')}, so its money can’t be split between them.`) : null);
+      }) : emptyNote('No committee registered.'));
   });
-  return [el('div', { class: 'vg-money-sides' }, sides), caveat,
-    src ? sourceLine(src.label, src.url, `built ${formatDate(COUNTY_MONEY.built)}.`) : null];
+  const src = COUNTY_MONEY.source, nf = COUNTY_MONEY.netfile_source;
+  return [el('div', { class: 'vg-money-sides' }, sides),
+    el('p', { class: 'vg-fineprint' }, 'Sources: ',
+      el('a', { href: nf.url, target: '_blank', rel: 'noopener' }, 'local filings via NetFile'), ' and ',
+      el('a', { href: src.url, target: '_blank', rel: 'noopener' }, 'Cal-Access'), ` (built ${formatDate(COUNTY_MONEY.built)}). `,
+      'Committees registered with the state; amounts from the committee’s own local reports where available.')];
 }
 
 function renderMeasureMore(contest) {
