@@ -42,20 +42,21 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
 
 ## 2. Next steps (priority order)
 
-1. **County candidate money** (biggest visible gap, tools exist):
-   - State legislators: add Cal-Access committee ids to `data-src/state_committees.json` for AD
-     11/14/15/16/18/20/21/23/24 and SD 10, then rerun `tools/candidate_money_external.py`.
-   - Congress (CD 8/10/12/14/16/17): add FEC candidate ids to `FEC` in the same tool and rerun with
-     `FEC_API_KEY` set.
-   - Council / local offices: NetFile public API (see §4), as done ad hoc for Fremont. Make it a
-     tool (`tools/local_candidate_money.py`) rather than a one-off.
+1. **County candidate money, local offices only** (state legislators and Congress done 2026-10-25:
+   `tools/find_state_committees.py` proposes Cal-Access ids, checked against the cover-page district;
+   FEC ids are in `tools/candidate_money_external.py`). Council / local offices: NetFile public API
+   (see §4), as done ad hoc for Fremont. Make it a tool (`tools/local_candidate_money.py`) rather
+   than a one-off.
 2. **RTM money:** its committees likely register with the state. Add them to `state_money.py` or
    `local_measure_money.py`; the Money tab still says "not covered" in every county.
 3. **More NetFile exports** (user downloads from the portal; complete Form 460 totals): Redwood City
    (RWC), City of San Mateo (MTO), San Mateo County (MAT), Richmond (RICH), Berkeley (BRK), Fremont
    (FRE). Rerun `local_measure_money.py` with all export paths.
-4. **Contra Costa candidate profiles:** every contest has a statement page (`cs<code>-en` URLs in
-   the election API's office names); summarize like Richmond's.
+4. **Candidate statements for Alameda and San Mateo.** Contra Costa is done (2026-10-25):
+   `tools/county_statements_contracosta.py` pulls all 139 statements verbatim from the county's
+   contest pages into `data-src/counties/contracosta/statements.json`, and `build_county_ballot.py`
+   attaches them (Who? tab → "Read the candidate's statement"). Alameda's statements exist only in
+   the VIG PDF (garbled text layer; `tools/ocr_pdf.py`); San Mateo doesn't post city-race statements.
 5. **Measure digests** for larger non-focus cities (Berkeley's 7, Albany's 6, Hayward, San Bruno,
    Menlo Park P, Half Moon Bay I/Q).
 6. **Local groups for San Mateo:** SM County Democrats (Cloudflare challenge) and Sierra Club Loma

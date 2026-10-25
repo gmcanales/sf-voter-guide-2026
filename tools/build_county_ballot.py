@@ -349,6 +349,24 @@ def apply_profiles(county: str, buckets: dict) -> None:
     missing = set(profiles) - seen
     if missing:
         print("  WARNING profiles matched no contest:", sorted(missing))
+    every = [c[1] if isinstance(c, tuple) else c for v in buckets.values() for c in v]
+    apply_statements(county, [c for c in every if isinstance(c, dict) and c.get("candidates")])
+
+
+def apply_statements(county: str, contests: list) -> None:
+    """Attach verbatim candidate statements (data-src/counties/<county>/statements.json,
+    e.g. from tools/county_statements_contracosta.py) as candidate["statement"]."""
+    path = SRC / county / "statements.json"
+    if not path.exists():
+        return
+    data = json.loads(path.read_text(encoding="utf-8"))
+    n, used = 0, set()
+    for c in contests:
+        st = data.get(c["title"], {})
+        for x in c["candidates"]:
+            if st.get(x["name"]) and st[x["name"]]["paragraphs"]:
+                x["statement"] = st[x["name"]]; n += 1; used.add(c["title"])
+    print(f"  statements: {n} attached" + (f"; unmatched contests: {sorted(set(data) - used)}" if set(data) - used else ""))
 
 
 def main(county: str) -> None:

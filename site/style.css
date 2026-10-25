@@ -649,6 +649,10 @@
 .vg-donors strong { color: var(--text); }
 .vg-big { font-size: 1.3rem; }
 .vg-against { color: var(--sell); }
+.vg-statement { margin: 10px 0; }
+.vg-statement > summary { cursor: pointer; font-size: 0.85rem; font-weight: 600; color: var(--accent); }
+.vg-statement-body { margin: 6px 0 0; padding: 8px 12px; border-left: 3px solid var(--border-strong); font-size: 0.88rem; line-height: 1.55; }
+.vg-statement-body p { margin: 0 0 8px; }
 .vg-who-groups { display: flex; flex-wrap: wrap; align-items: center; gap: 4px; font-size: 0.8rem; color: var(--text-muted); }
 @media (max-width: 767px) { .vg-money-sides { grid-template-columns: 1fr; } }
 .vg-rcv-row > .vg-cand-more { grid-column: 1 / -1; }

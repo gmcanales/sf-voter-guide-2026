@@ -699,10 +699,22 @@ function candidateWho(contest, c) {
     el('p', {}, a?.who || c.who || basics || 'No sourced description yet.'),
     !a?.who && c.who && basics ? el('p', { class: 'vg-fineprint' }, `On the ballot: ${basics}`) : null,
     !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
+    c.statement ? candidateStatement(c) : null,
     groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
     a?.source ? sourceLine(a.source_label || 'KQED voter guide', a.source,
         a.source_label ? '(our summary; claims are the candidate’s own).' : '(candidate interviews, questionnaires and debates).')
       : c.who_source?.url ? sourceLine(c.who_source.label, c.who_source.url, '(our summary; claims are the candidate’s own).') : null];
+}
+
+// The candidate's own statement from the official county voter guide, verbatim.
+function candidateStatement(c) {
+  const s = c.statement;
+  return el('details', { class: 'vg-statement' },
+    el('summary', {}, 'Read the candidate’s statement'),
+    el('div', { class: 'vg-statement-body' },
+      s.paragraphs.map(p => el('p', {}, p)),
+      s.website ? el('p', { class: 'vg-fineprint' }, `Website: ${s.website}`) : null),
+    sourceLine('Official county voter guide', s.source, '(printed as submitted; not fact-checked by any agency).'));
 }
 
 function candidateTldr(contest, c) {
