@@ -1,0 +1,2495 @@
+{
+ "built": "2026-10-25",
+ "source": {
+  "label": "NetFile public API (local Form 460 / 497 filings)",
+  "url": "https://netfile.com/Connect2/api/swagger-ui/"
+ },
+ "candidates": {
+  "smc-county-board-of-education-member-trustee-area-2": {
+   "Beverly Gerard": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 4450,
+    "through": "2026-10-13",
+    "donor_count": 16,
+    "top": [
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC Small Contributor Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Arlene Cohen",
+      "amount": 500
+     },
+     {
+      "name": "D & C Lee Management, LLC",
+      "amount": 500
+     },
+     {
+      "name": "Terry Hesselroth",
+      "amount": 250
+     },
+     {
+      "name": "Michael Milliken",
+      "amount": 250
+     },
+     {
+      "name": "Yvonne Chan",
+      "amount": 250
+     },
+     {
+      "name": "Jessica Speiser",
+      "amount": 250
+     },
+     {
+      "name": "Adrienne Tissier",
+      "amount": 250
+     }
+    ],
+    "committee": "Beverly Gerard for San Mateo County Board of Education 2026",
+    "fppc_id": "1495989",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Dana Johnson": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 6675,
+    "through": "2026-10-11",
+    "donor_count": 37,
+    "top": [
+     {
+      "name": "Patricia Watson",
+      "amount": 575
+     },
+     {
+      "name": "San Mateo County AAPI Alliance",
+      "amount": 500
+     },
+     {
+      "name": "Anne Campbell",
+      "amount": 450
+     },
+     {
+      "name": "Jessica Speiser",
+      "amount": 300
+     },
+     {
+      "name": "Hector Camacho for County Superintendent 2026",
+      "amount": 300
+     },
+     {
+      "name": "Andrew Lie",
+      "amount": 200
+     },
+     {
+      "name": "Sally Lieber",
+      "amount": 200
+     },
+     {
+      "name": "George Alexander",
+      "amount": 200
+     }
+    ],
+    "committee": "Dana Johnson for San Mateo County Board of Education - Area 2, 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-san-mateo-county-community-college-district-member-governing-board-trustee-area-2": {
+   "Jason Holt": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 31310,
+    "through": "2026-10-17",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "AFT Local 1493 COPE",
+      "amount": 28000
+     },
+     {
+      "name": "AFSCME Local 829 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees- Council 57 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Rachel Cunningham",
+      "amount": 510
+     },
+     {
+      "name": "Royce Cunningham",
+      "amount": 500
+     },
+     {
+      "name": "Renato Satorre",
+      "amount": 200
+     },
+     {
+      "name": "Chet Lexvold",
+      "amount": 100
+     }
+    ],
+    "committee": "Jason Holt for SMCCD Trustee Area 2 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-cabrillo-unified-school-district-member-governing-board-trustee-area-c": {
+   "Lizet Cortes-Ronquillo": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 1575,
+    "through": "2026-10-16",
+    "donor_count": 5,
+    "top": [
+     {
+      "name": "San Mateo County LatinX Democratic Club",
+      "amount": 1000
+     },
+     {
+      "name": "Mary Beth Alexander",
+      "amount": 250
+     },
+     {
+      "name": "Sophia Layne",
+      "amount": 175
+     },
+     {
+      "name": "Linda Meyer",
+      "amount": 100
+     },
+     {
+      "name": "Sheila Spieller",
+      "amount": 50
+     }
+    ],
+    "committee": "Lizet Cortes for Cabrillo Unified Board 2026",
+    "fppc_id": "1495746",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-cabrillo-unified-school-district-member-governing-board-trustee-area-e": {
+   "Mary Beth Alexander": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 3500,
+    "through": "2026-10-16",
+    "donor_count": 4,
+    "top": [
+     {
+      "name": "Mary Beth Alexander",
+      "amount": 2750
+     },
+     {
+      "name": "San Mateo County LatinX Democratic Club",
+      "amount": 500
+     },
+     {
+      "name": "Daud Azizi",
+      "amount": 150
+     },
+     {
+      "name": "Michael O'Neill",
+      "amount": 100
+     }
+    ],
+    "committee": "Mary Beth Alexander for Cabrillo Unified Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-south-san-francisco-unified-school-district-member-governing-board-trustee-area-c": {
+   "Chialin Hsieh": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Chialin Hsieh for SSFUSD, Trust Area C 2026",
+    "fppc_id": "1495223",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Avin Sharma": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 9228,
+    "through": "2026-10-15",
+    "donor_count": 14,
+    "top": [
+     {
+      "name": "Sharma Family Trust",
+      "amount": 5000
+     },
+     {
+      "name": "Plumbers & Steamfitters Local 467, State Political Action Fund ID#782481, Small Contributor Committee",
+      "amount": 1000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Narendra Narayan",
+      "amount": 500
+     },
+     {
+      "name": "Linda McGeever",
+      "amount": 489
+     },
+     {
+      "name": "Vishalkumar Patel",
+      "amount": 238
+     },
+     {
+      "name": "Leah Taylor",
+      "amount": 200
+     },
+     {
+      "name": "Jai Narayan",
+      "amount": 200
+     }
+    ],
+    "committee": "Avin Sharma for South San Francisco Unified School District 2026",
+    "fppc_id": "1495440",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-south-san-francisco-unified-school-district-member-governing-board-trustee-area-e": {
+   "Frank Lara": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 14993,
+    "through": "2026-10-17",
+    "donor_count": 27,
+    "top": [
+     {
+      "name": "Frank Lara for State Superintendent of Public Instruction 2026",
+      "amount": 3783
+     },
+     {
+      "name": "LALO VARGAS FOR INSURANCE COMMISSIONER 2026",
+      "amount": 2943
+     },
+     {
+      "name": "MEGHANN ADAMS FOR CONTROLLER 2026",
+      "amount": 2290
+     },
+     {
+      "name": "Ramsey Robinson for Governor 2026",
+      "amount": 1467
+     },
+     {
+      "name": "Peace and Freedom Party State Central Committee",
+      "amount": 500
+     },
+     {
+      "name": "Mei Mei Chan",
+      "amount": 500
+     },
+     {
+      "name": "Khalid Husain",
+      "amount": 500
+     },
+     {
+      "name": "Matt Haney",
+      "amount": 500
+     }
+    ],
+    "committee": "Frank Lara for South San Francisco Unified School District Governing Board Trustee Area E 2026",
+    "fppc_id": "1494836",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-san-mateo-union-high-school-district-member-governing-board-trustee-area-3": {
+   "Diana Harris": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 14453,
+    "through": "2026-10-05",
+    "donor_count": 43,
+    "top": [
+     {
+      "name": "BETTER CITIZENSHIP ASSOCIATION SPONSORED BY SAN MATEO UNION HIGH SCHOOL DISTRICT TEACHERS ASSOCIATION",
+      "amount": 7153
+     },
+     {
+      "name": "Alexander Lee",
+      "amount": 500
+     },
+     {
+      "name": "Noelle Chard",
+      "amount": 500
+     },
+     {
+      "name": "Maggie Trinh",
+      "amount": 500
+     },
+     {
+      "name": "Brendan Lee",
+      "amount": 300
+     },
+     {
+      "name": "Mia Karamatsu",
+      "amount": 300
+     },
+     {
+      "name": "Devra Harris",
+      "amount": 250
+     },
+     {
+      "name": "Marcine Jansen",
+      "amount": 250
+     }
+    ],
+    "committee": "Diana Harris for School Board 2026",
+    "fppc_id": "1493400",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Jennifer Jacobson": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 35391,
+    "through": "2026-10-16",
+    "donor_count": 51,
+    "top": [
+     {
+      "name": "Jennifer Jacobson",
+      "amount": 5600
+     },
+     {
+      "name": "Russell Tipton",
+      "amount": 5000
+     },
+     {
+      "name": "Tom Olds",
+      "amount": 5000
+     },
+     {
+      "name": "Molly Munk",
+      "amount": 2000
+     },
+     {
+      "name": "Jessica Rosenbaum",
+      "amount": 1180
+     },
+     {
+      "name": "Tricia Petersen",
+      "amount": 1000
+     },
+     {
+      "name": "Emily Fisher",
+      "amount": 1000
+     },
+     {
+      "name": "Mark Abelson",
+      "amount": 1000
+     }
+    ],
+    "committee": "Jennifer Jacobson for SMUHSD 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-san-mateo-union-high-school-district-member-governing-board-trustee-area-5": {
+   "Alison Proctor": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 15434,
+    "through": "2026-10-18",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "Alison Proctor",
+      "amount": 9648
+     },
+     {
+      "name": "The Better Citizenship Association sponsored by SMUHSDTA",
+      "amount": 3086
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC Small Contributor Committee Ctbs affiliate with NCSRCC SCC (ID #972107)",
+      "amount": 1000
+     },
+     {
+      "name": "Re-Elect Noelia Corzo for San Mateo County Supervisor 2026",
+      "amount": 1000
+     },
+     {
+      "name": "Diego Ochoa",
+      "amount": 500
+     },
+     {
+      "name": "Phoebe Venkat",
+      "amount": 100
+     },
+     {
+      "name": "Luanna Tang",
+      "amount": 100
+     }
+    ],
+    "committee": "Alison Proctor for School Board Area 5 2026",
+    "fppc_id": "1495208",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-sequoia-union-high-school-district-member-governing-board-trustee-area-a": {
+   "Amy Koo": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 6455,
+    "through": "2026-10-17",
+    "donor_count": 27,
+    "top": [
+     {
+      "name": "Alicia Aguirre",
+      "amount": 1500
+     },
+     {
+      "name": "Kathy Grant",
+      "amount": 1000
+     },
+     {
+      "name": "Stanley Koo",
+      "amount": 1000
+     },
+     {
+      "name": "Amourence Lee",
+      "amount": 250
+     },
+     {
+      "name": "Leslie Pettinelli",
+      "amount": 250
+     },
+     {
+      "name": "Florence Wong",
+      "amount": 250
+     },
+     {
+      "name": "Rick Hunter",
+      "amount": 200
+     },
+     {
+      "name": "Reichi Lee",
+      "amount": 150
+     }
+    ],
+    "committee": "Amy Koo for School Board 2026",
+    "fppc_id": "1446891",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Alon Shiran": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 20412,
+    "through": "2026-10-23",
+    "donor_count": 22,
+    "top": [
+     {
+      "name": "Hagit Shekel",
+      "amount": 5000
+     },
+     {
+      "name": "Igor Brener",
+      "amount": 3000
+     },
+     {
+      "name": "Alex Rozenfeld",
+      "amount": 2000
+     },
+     {
+      "name": "Eugene Fooksman",
+      "amount": 1500
+     },
+     {
+      "name": "Garry's list Action",
+      "amount": 1133
+     },
+     {
+      "name": "Elina Romankevich",
+      "amount": 1000
+     },
+     {
+      "name": "Lev Kantorovskiy",
+      "amount": 1000
+     },
+     {
+      "name": "Ilya Lipkind",
+      "amount": 1000
+     }
+    ],
+    "committee": "Alon Shiran for School Excellence, SUHSD Board Trustee 2026",
+    "fppc_id": "1495183",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-brisbane-school-district-member-governing-board": {
+   "Charlene Larson": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Charlene Larson for Brisbane School District 2026",
+    "fppc_id": "1497082",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Emily Wirowek": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 767,
+    "through": "2026-09-21",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Emily Wirowek",
+      "amount": 767
+     }
+    ],
+    "committee": "Friends of Emily Wirowek for Brisbane School District",
+    "fppc_id": "1497103",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-menlo-park-city-school-district-member-governing-board": {
+   "Maya Herstein": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 10710,
+    "through": "2026-10-16",
+    "donor_count": 28,
+    "top": [
+     {
+      "name": "Maya Herstein",
+      "amount": 4000
+     },
+     {
+      "name": "Andrea Draper",
+      "amount": 1070
+     },
+     {
+      "name": "Sheryl Sandberg",
+      "amount": 1000
+     },
+     {
+      "name": "Loren Dakin",
+      "amount": 500
+     },
+     {
+      "name": "Linda McGeever",
+      "amount": 500
+     },
+     {
+      "name": "Christine Slaton",
+      "amount": 268
+     },
+     {
+      "name": "Michal Segalov",
+      "amount": 250
+     },
+     {
+      "name": "Julia Popowitz",
+      "amount": 250
+     }
+    ],
+    "committee": "Maya Herstein for MPCSD School Board 2026",
+    "fppc_id": "1495343",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Andrew Barnes": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 2901,
+    "through": "2026-10-04",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Andrew Barnes",
+      "amount": 2701
+     },
+     {
+      "name": "John Woodell",
+      "amount": 100
+     },
+     {
+      "name": "Nav Gogia",
+      "amount": 100
+     }
+    ],
+    "committee": "Andrew Barnes for School Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-pacifica-school-district-member-governing-board-full-term": {
+   "Bridget Hardt": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Hardt for Pacifica School Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Grace Sobieski": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Grace Sobieski for Pacifica School Board 2026",
+    "fppc_id": "1494759",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Tiffany Button": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Tiffany Button for Pacifica School Board 2026",
+    "fppc_id": "1496892",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Christopher Swiedler": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Christopher Swiedler for Pacifica School Board 2026",
+    "fppc_id": "1493931",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Katy Bradley": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 1193,
+    "through": "2026-10-10",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Sarah Dukerschein",
+      "amount": 1042
+     },
+     {
+      "name": "Stephanie Jimenez",
+      "amount": 100
+     },
+     {
+      "name": "Kelly McCray",
+      "amount": 51
+     }
+    ],
+    "committee": "Katy Bradley for Pacifica School District Governing Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-pacifica-school-district-member-governing-board-short-term": {
+   "Kelly Mendoza": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Kelly Mendoza for Pacifica School Board 2026",
+    "fppc_id": "1495429",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-san-carlos-school-district-member-governing-board": {
+   "Boris Lipkin": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 8500,
+    "through": "2026-10-08",
+    "donor_count": 15,
+    "top": [
+     {
+      "name": "Alya Abbott",
+      "amount": 5000
+     },
+     {
+      "name": "Steven Ly",
+      "amount": 1000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Leeron Morad",
+      "amount": 300
+     },
+     {
+      "name": "Elena Asarina",
+      "amount": 200
+     },
+     {
+      "name": "Tracy Park",
+      "amount": 100
+     },
+     {
+      "name": "Sherry Irani",
+      "amount": 100
+     },
+     {
+      "name": "Mahrooz Javid",
+      "amount": 100
+     }
+    ],
+    "committee": "Boris Lipkin for San Carlos School Board 2026",
+    "fppc_id": "1489969",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Richard F. Wahl": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 2000,
+    "through": "2026-10-21",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Kenneth Pon",
+      "amount": 1000
+     }
+    ],
+    "committee": "Wahl for San Carlos School District Governing Board 2026",
+    "fppc_id": "1495653",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Megha Chawla": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Megha Chawla for School Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   },
+   "Shivani Tripathi": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 1905,
+    "through": "2026-09-15",
+    "donor_count": 13,
+    "top": [
+     {
+      "name": "Ankit Tripathi",
+      "amount": 300
+     },
+     {
+      "name": "Mrinalini Tripathi",
+      "amount": 251
+     },
+     {
+      "name": "Susan Rose",
+      "amount": 250
+     },
+     {
+      "name": "Alok Tripathi",
+      "amount": 200
+     },
+     {
+      "name": "Shivani Tripathi",
+      "amount": 101
+     },
+     {
+      "name": "Apurva Vedak",
+      "amount": 101
+     },
+     {
+      "name": "Malhar Thite",
+      "amount": 101
+     },
+     {
+      "name": "Yogesh Kore",
+      "amount": 101
+     }
+    ],
+    "committee": "Shivani Tripathi for San Carlos School Board",
+    "fppc_id": "1496076",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-member-board-of-supervisors-district-5-short-term": {
+   "Mark Nagales": {
+    "agency": "MAT",
+    "agency_name": "San Mateo County",
+    "itemized": 103575,
+    "through": "2026-10-22",
+    "donor_count": 119,
+    "top": [
+     {
+      "name": "Mark Nagales",
+      "amount": 43500
+     },
+     {
+      "name": "Amy Lam",
+      "amount": 1000
+     },
+     {
+      "name": "Jo-Ann Byrne Sockolov",
+      "amount": 1000
+     },
+     {
+      "name": "Karen Grove",
+      "amount": 1000
+     },
+     {
+      "name": "Nenar Nicolas",
+      "amount": 1000
+     },
+     {
+      "name": "Julian Cortella",
+      "amount": 1000
+     },
+     {
+      "name": "Lottie Rezneck",
+      "amount": 1000
+     },
+     {
+      "name": "Kenneth Cui",
+      "amount": 1000
+     }
+    ],
+    "committee": "Mark Nagales for Supervisor 2026",
+    "fppc_id": "1492502",
+    "portal": "https://public.netfile.com/pub2/?AID=MAT"
+   }
+  },
+  "smc-city-of-burlingame-member-city-council-district-3": {
+   "Jen Faber": {
+    "agency": "CBG",
+    "agency_name": "City of Burlingame",
+    "itemized": 34862,
+    "through": "2026-10-14",
+    "donor_count": 130,
+    "top": [
+     {
+      "name": "Plumbers and Steamfitters Local No. 467 State Political Action Fund",
+      "amount": 400
+     },
+     {
+      "name": "Jenese Sieben",
+      "amount": 400
+     },
+     {
+      "name": "Paula Faber",
+      "amount": 400
+     },
+     {
+      "name": "Charles Faber",
+      "amount": 400
+     },
+     {
+      "name": "Cristos Goodrow",
+      "amount": 400
+     },
+     {
+      "name": "Gloria Limbird",
+      "amount": 400
+     },
+     {
+      "name": "Rick Limbird",
+      "amount": 400
+     },
+     {
+      "name": "Jennifer Wade",
+      "amount": 400
+     }
+    ],
+    "committee": "Faber for Burlingame City Council 2026",
+    "fppc_id": "1487298",
+    "portal": "https://public.netfile.com/pub2/?AID=CBG"
+   },
+   "Howard Wettan": {
+    "agency": "CBG",
+    "agency_name": "City of Burlingame",
+    "itemized": 48262,
+    "through": "2026-10-10",
+    "donor_count": 46,
+    "top": [
+     {
+      "name": "Howard Wettan",
+      "amount": 42000
+     },
+     {
+      "name": "Janice A. Ochse",
+      "amount": 200
+     },
+     {
+      "name": "Liza Levitt",
+      "amount": 200
+     },
+     {
+      "name": "Cherie Yu",
+      "amount": 200
+     },
+     {
+      "name": "John Rafferty",
+      "amount": 200
+     },
+     {
+      "name": "Jennifer Pfaff",
+      "amount": 200
+     },
+     {
+      "name": "Jeff Holzman",
+      "amount": 200
+     },
+     {
+      "name": "Janelle A. Becerra",
+      "amount": 200
+     }
+    ],
+    "committee": "Wettan for Burlingame City Council 2026",
+    "fppc_id": "1486298",
+    "portal": "https://public.netfile.com/pub2/?AID=CBG"
+   }
+  },
+  "smc-city-of-east-palo-alto-member-city-council": {
+   "Deborah Lewis-Virges": {
+    "agency": "EPA",
+    "agency_name": "City of East Palo Alto",
+    "itemized": 1150,
+    "through": "2026-10-17",
+    "donor_count": 6,
+    "top": [
+     {
+      "name": "Mrs. Francis Rogers",
+      "amount": 500
+     },
+     {
+      "name": "Mr. Samuel Jimenez",
+      "amount": 250
+     },
+     {
+      "name": "Mr. Romain Taniere",
+      "amount": 100
+     },
+     {
+      "name": "Mrs. Margie Lewis",
+      "amount": 100
+     },
+     {
+      "name": "Mrs. Donna Rutherford",
+      "amount": 100
+     },
+     {
+      "name": "Mr. Antonio Lopez",
+      "amount": 100
+     }
+    ],
+    "committee": "DEBORAH LEWIS-VIRGES FOR EAST PALO ALTO CITY COUNCIL 2026",
+    "fppc_id": "1496941",
+    "portal": "https://public.netfile.com/pub2/?AID=EPA"
+   }
+  },
+  "smc-city-of-foster-city-member-city-council-district-1": {
+   "Art Kiesel": {
+    "agency": "FOS",
+    "agency_name": "Foster City",
+    "itemized": 703,
+    "through": "2026-09-18",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Shankar Kenkre",
+      "amount": 500
+     },
+     {
+      "name": "Jennifer Li",
+      "amount": 103
+     },
+     {
+      "name": "Patrick Sullivan",
+      "amount": 100
+     }
+    ],
+    "committee": "Art Kiesel for City Council 2026",
+    "fppc_id": "1491309",
+    "portal": "https://public.netfile.com/pub2/?AID=FOS"
+   },
+   "Phoebe Shin Venkat": {
+    "agency": "FOS",
+    "agency_name": "Foster City",
+    "itemized": 15929,
+    "through": "2026-10-16",
+    "donor_count": 56,
+    "top": [
+     {
+      "name": "AFSCME",
+      "amount": 2000
+     },
+     {
+      "name": "San Mateo County Firefighters Political Activities Committee",
+      "amount": 1000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees - Council 57 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "San Mateo County LatinX Democratic Club",
+      "amount": 1000
+     },
+     {
+      "name": "Anandhi Venkat",
+      "amount": 800
+     },
+     {
+      "name": "Donna Rancatore",
+      "amount": 588
+     },
+     {
+      "name": "Gordon Strause",
+      "amount": 500
+     },
+     {
+      "name": "Michael Swire",
+      "amount": 500
+     }
+    ],
+    "committee": "Phoebe Shin Venkat for City Council District 1 2026",
+    "fppc_id": "1488099",
+    "portal": "https://public.netfile.com/pub2/?AID=FOS"
+   }
+  },
+  "smc-city-of-half-moon-bay-member-city-council-district-1": {
+   "Robert Brownstone": {
+    "agency": "HMB",
+    "agency_name": "City of Half Moon Bay",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Robert Brownstone for HMB City Council 2026",
+    "fppc_id": "1411239",
+    "portal": "https://public.netfile.com/pub2/?AID=HMB"
+   },
+   "David Gorn": {
+    "agency": "HMB",
+    "agency_name": "City of Half Moon Bay",
+    "itemized": 2750,
+    "through": "2026-10-15",
+    "donor_count": 11,
+    "top": [
+     {
+      "name": "Margery Morse",
+      "amount": 250
+     },
+     {
+      "name": "Irmgard Morawietz",
+      "amount": 250
+     },
+     {
+      "name": "Renee Shimabukuro",
+      "amount": 250
+     },
+     {
+      "name": "Michael Ferreira",
+      "amount": 250
+     },
+     {
+      "name": "Jules Sofer",
+      "amount": 250
+     },
+     {
+      "name": "Eric Rice",
+      "amount": 250
+     },
+     {
+      "name": "Patric Jonsson",
+      "amount": 250
+     },
+     {
+      "name": "Keet Nerhan",
+      "amount": 250
+     }
+    ],
+    "committee": "David Gorn for Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=HMB"
+   }
+  },
+  "smc-city-of-half-moon-bay-member-city-council-district-4": {
+   "Ron Kies": {
+    "agency": "HMB",
+    "agency_name": "City of Half Moon Bay",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Ron Kies for City Council, District 4, 2026",
+    "fppc_id": "1491640",
+    "portal": "https://public.netfile.com/pub2/?AID=HMB"
+   }
+  },
+  "smc-city-of-half-moon-bay-member-city-council-district-5": {
+   "Susie Morasci": {
+    "agency": "HMB",
+    "agency_name": "City of Half Moon Bay",
+    "itemized": 11200,
+    "through": "2026-10-15",
+    "donor_count": 45,
+    "top": [
+     {
+      "name": "Half Moon Bay Building & Garden",
+      "amount": 500
+     },
+     {
+      "name": "Cameron's Pub & Restaurant",
+      "amount": 500
+     },
+     {
+      "name": "Shaw Cabinetry, LLC.",
+      "amount": 500
+     },
+     {
+      "name": "Small Town Sweets",
+      "amount": 500
+     },
+     {
+      "name": "Hawk Design",
+      "amount": 500
+     },
+     {
+      "name": "Farallon Company Engineering",
+      "amount": 500
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC) #890106",
+      "amount": 500
+     },
+     {
+      "name": "Beverly Ashcraft",
+      "amount": 250
+     }
+    ],
+    "committee": "Susan Morasci For City Council - District 5 - 2026",
+    "fppc_id": "",
+    "portal": "https://public.netfile.com/pub2/?AID=HMB"
+   },
+   "Steven R. Booker": {
+    "agency": "HMB",
+    "agency_name": "City of Half Moon Bay",
+    "itemized": 10050,
+    "through": "2026-10-17",
+    "donor_count": 38,
+    "top": [
+     {
+      "name": "Steven Booker",
+      "amount": 1500
+     },
+     {
+      "name": "Plumbers and Steamfitters Local 467 State PAC",
+      "amount": 500
+     },
+     {
+      "name": "IBEW PAC Educational Fund (FEC ID #C90022351)",
+      "amount": 500
+     },
+     {
+      "name": "Electrical Workers Minority Caucus",
+      "amount": 500
+     },
+     {
+      "name": "San Mateo County Central Labor Council Committee on Political Education",
+      "amount": 500
+     },
+     {
+      "name": "IBEW 302 Community Candidates PAC",
+      "amount": 500
+     },
+     {
+      "name": "California State Association of Electrical Workers",
+      "amount": 500
+     },
+     {
+      "name": "Harman Auros",
+      "amount": 250
+     }
+    ],
+    "committee": "Steven Booker for City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=HMB"
+   }
+  },
+  "smc-city-of-menlo-park-member-city-council-district-1": {
+   "Wonman Lee": {
+    "agency": "CMP",
+    "agency_name": "City of Menlo Park",
+    "itemized": 6653,
+    "through": "2026-10-17",
+    "donor_count": 29,
+    "top": [
+     {
+      "name": "AFSCME Local 829",
+      "amount": 2000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees - Council 57 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Peter Woo",
+      "amount": 500
+     },
+     {
+      "name": "Jason Chang",
+      "amount": 388
+     },
+     {
+      "name": "Mark Begich",
+      "amount": 250
+     },
+     {
+      "name": "Katie Behroozi",
+      "amount": 250
+     },
+     {
+      "name": "John Sykes",
+      "amount": 250
+     },
+     {
+      "name": "Gene Kim",
+      "amount": 250
+     }
+    ],
+    "committee": "Lee for Menlo Park City Council 2026",
+    "fppc_id": "423256814",
+    "portal": "https://public.netfile.com/pub2/?AID=CMP"
+   }
+  },
+  "smc-city-of-menlo-park-member-city-council-district-2": {
+   "Drew Combs": {
+    "agency": "CMP",
+    "agency_name": "City of Menlo Park",
+    "itemized": 18500,
+    "through": "2026-10-24",
+    "donor_count": 42,
+    "top": [
+     {
+      "name": "Drew Combs",
+      "amount": 5000
+     },
+     {
+      "name": "California Real Estate Political Action Committee",
+      "amount": 2500
+     },
+     {
+      "name": "Peter Joshua",
+      "amount": 2000
+     },
+     {
+      "name": "John Hanley",
+      "amount": 1000
+     },
+     {
+      "name": "Amjad Hanif",
+      "amount": 1000
+     },
+     {
+      "name": "Jeffrey Starr",
+      "amount": 1000
+     },
+     {
+      "name": "Shirley Chiu",
+      "amount": 800
+     },
+     {
+      "name": "Kristi Berg",
+      "amount": 500
+     }
+    ],
+    "committee": "DREW COMBS MENLO PARK CITY COUNCIL 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CMP"
+   },
+   "Vamsi Velagapudi": {
+    "agency": "CMP",
+    "agency_name": "City of Menlo Park",
+    "itemized": 20178,
+    "through": "2026-10-20",
+    "donor_count": 97,
+    "top": [
+     {
+      "name": "Vamsi Velagapudi",
+      "amount": 4053
+     },
+     {
+      "name": "AFSCME PAC, FPPC #1313474",
+      "amount": 2000
+     },
+     {
+      "name": "AFSCME",
+      "amount": 2000
+     },
+     {
+      "name": "Kathy Switky",
+      "amount": 1500
+     },
+     {
+      "name": "Michael Levinson",
+      "amount": 1000
+     },
+     {
+      "name": "Service Employees International Union Local 521 Independent Expenditure Committee",
+      "amount": 1000
+     },
+     {
+      "name": "San Mateo County Firefighters Political Activities Committee",
+      "amount": 1000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC Small Contributor Committee",
+      "amount": 1000
+     }
+    ],
+    "committee": "VAMSI VELAGAPUDI FOR CITY COUNCIL 2026",
+    "fppc_id": "1490945",
+    "portal": "https://public.netfile.com/pub2/?AID=CMP"
+   }
+  },
+  "smc-city-of-menlo-park-member-city-council-district-4": {
+   "Charlotte Reed": {
+    "agency": "CMP",
+    "agency_name": "City of Menlo Park",
+    "itemized": 24555,
+    "through": "2026-10-17",
+    "donor_count": 75,
+    "top": [
+     {
+      "name": "Anne-Marie Strohman",
+      "amount": 5900
+     },
+     {
+      "name": "AFSCME Local 829 Political Action Committee",
+      "amount": 2000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 2000
+     },
+     {
+      "name": "Kenneth Cation",
+      "amount": 1700
+     },
+     {
+      "name": "Jan Reed",
+      "amount": 1303
+     },
+     {
+      "name": "Patrick Reed",
+      "amount": 1084
+     },
+     {
+      "name": "Barbara Coll",
+      "amount": 1000
+     },
+     {
+      "name": "Mark Walsh",
+      "amount": 1000
+     }
+    ],
+    "committee": "Charlotte Reed for City Council 2026",
+    "fppc_id": "1489179",
+    "portal": "https://public.netfile.com/pub2/?AID=CMP"
+   },
+   "Laura Melahn": {
+    "agency": "CMP",
+    "agency_name": "City of Menlo Park",
+    "itemized": 15371,
+    "through": "2026-10-15",
+    "donor_count": 15,
+    "top": [
+     {
+      "name": "Patricia Perkins Leone",
+      "amount": 5000
+     },
+     {
+      "name": "Margaret Foody",
+      "amount": 1500
+     },
+     {
+      "name": "Glen Van Ligten",
+      "amount": 1500
+     },
+     {
+      "name": "Nadine Pflueger",
+      "amount": 1000
+     },
+     {
+      "name": "Michael DeMoss",
+      "amount": 1000
+     },
+     {
+      "name": "Alex Beltramo",
+      "amount": 940
+     },
+     {
+      "name": "Teresa Beltramo",
+      "amount": 940
+     },
+     {
+      "name": "John Beltramo",
+      "amount": 940
+     }
+    ],
+    "committee": "Laura Melahn for City Council 2026",
+    "fppc_id": "1491445",
+    "portal": "https://public.netfile.com/pub2/?AID=CMP"
+   }
+  },
+  "smc-city-of-millbrae-member-city-council-district-2-full-term": {
+   "Sissy Riley": {
+    "agency": "MLBR",
+    "agency_name": "City of Millbrae",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Sissy Yan Riley For City Council 2026",
+    "fppc_id": "1482497",
+    "portal": "https://public.netfile.com/pub2/?AID=MLBR"
+   }
+  },
+  "smc-city-of-millbrae-member-city-council-district-3-short-term": {
+   "Juan Gámez": {
+    "agency": "MLBR",
+    "agency_name": "City of Millbrae",
+    "itemized": 16047,
+    "through": "2026-10-19",
+    "donor_count": 27,
+    "top": [
+     {
+      "name": "California Real Estate Political Action Committee",
+      "amount": 5900
+     },
+     {
+      "name": "Juan Gamez",
+      "amount": 3000
+     },
+     {
+      "name": "Plumbers & Steamfitters Local 467",
+      "amount": 1000
+     },
+     {
+      "name": "Lynn Clinton",
+      "amount": 500
+     },
+     {
+      "name": "Calvin Chin",
+      "amount": 500
+     },
+     {
+      "name": "Natalie Macario",
+      "amount": 500
+     },
+     {
+      "name": "Eyad Musa",
+      "amount": 500
+     },
+     {
+      "name": "Michael Kuang",
+      "amount": 500
+     }
+    ],
+    "committee": "Juan Gamez for Millbrae City Council 2026",
+    "fppc_id": "",
+    "portal": "https://public.netfile.com/pub2/?AID=MLBR"
+   },
+   "Ann Schneider": {
+    "agency": "MLBR",
+    "agency_name": "City of Millbrae",
+    "itemized": 5247,
+    "through": "2026-10-16",
+    "donor_count": 12,
+    "top": [
+     {
+      "name": "Committee to Elect Ann Schneider to Millbrae City Council 2020",
+      "amount": 1097
+     },
+     {
+      "name": "Charleen Silvera",
+      "amount": 1000
+     },
+     {
+      "name": "Carol Krasilnikoff",
+      "amount": 1000
+     },
+     {
+      "name": "Diana Taylor",
+      "amount": 500
+     },
+     {
+      "name": "Michael Chu",
+      "amount": 500
+     },
+     {
+      "name": "Kalesita Maka",
+      "amount": 300
+     },
+     {
+      "name": "Kozo Kimura",
+      "amount": 250
+     },
+     {
+      "name": "Jean Wong",
+      "amount": 200
+     }
+    ],
+    "committee": "Ann Schneider for Millbrae City Council District 3 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MLBR"
+   }
+  },
+  "smc-city-of-millbrae-member-city-council-district-4-full-term": {
+   "Albert Yam": {
+    "agency": "MLBR",
+    "agency_name": "City of Millbrae",
+    "itemized": 19425,
+    "through": "2026-10-20",
+    "donor_count": 29,
+    "top": [
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC)",
+      "amount": 5900
+     },
+     {
+      "name": "Robert Gottschalk",
+      "amount": 2000
+     },
+     {
+      "name": "Operating Engineers 3 District 1, 2, 3 PAC",
+      "amount": 1200
+     },
+     {
+      "name": "PLUMBERS AND STEAMFITTERS LOCAL NO. 467 STATE POLITICAL ACTION FUND",
+      "amount": 1000
+     },
+     {
+      "name": "Keet Nerhan",
+      "amount": 1000
+     },
+     {
+      "name": "Diane Papan",
+      "amount": 1000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Kozo Kimura",
+      "amount": 500
+     }
+    ],
+    "committee": "Yam for Millbrae City Council 2026",
+    "fppc_id": "1494774",
+    "portal": "https://public.netfile.com/pub2/?AID=MLBR"
+   },
+   "Bob Nguyen": {
+    "agency": "MLBR",
+    "agency_name": "City of Millbrae",
+    "itemized": 12100,
+    "through": "2026-10-14",
+    "donor_count": 23,
+    "top": [
+     {
+      "name": "Kelly Chen",
+      "amount": 2000
+     },
+     {
+      "name": "Kai Sun",
+      "amount": 1000
+     },
+     {
+      "name": "Wen Jun Inc (dba Yummy Szechuan)",
+      "amount": 1000
+     },
+     {
+      "name": "Yummy Szechuan",
+      "amount": 1000
+     },
+     {
+      "name": "Michael Kuang",
+      "amount": 850
+     },
+     {
+      "name": "Joe Chen",
+      "amount": 550
+     },
+     {
+      "name": "Zhao Zhu",
+      "amount": 500
+     },
+     {
+      "name": "Chung Fong",
+      "amount": 500
+     }
+    ],
+    "committee": "Nguyen For Millbrae City Council 2026",
+    "fppc_id": "1485116",
+    "portal": "https://public.netfile.com/pub2/?AID=MLBR"
+   }
+  },
+  "smc-city-of-pacifica-member-city-council-district-2": {
+   "Christine Boles": {
+    "agency": "PAC",
+    "agency_name": "City of Pacifica",
+    "itemized": 8279,
+    "through": "2026-10-12",
+    "donor_count": 40,
+    "top": [
+     {
+      "name": "James Kremer",
+      "amount": 999
+     },
+     {
+      "name": "John Keener",
+      "amount": 500
+     },
+     {
+      "name": "Peter Loeb",
+      "amount": 500
+     },
+     {
+      "name": "Carlos Navarrete",
+      "amount": 500
+     },
+     {
+      "name": "Dinah Verby",
+      "amount": 500
+     },
+     {
+      "name": "Pete Shoemaker",
+      "amount": 299
+     },
+     {
+      "name": "Susan DesJardin",
+      "amount": 259
+     },
+     {
+      "name": "Ms. Vallerie Lapin Ganley",
+      "amount": 250
+     }
+    ],
+    "committee": "Christine Boles for Pacifica City Council 2026",
+    "fppc_id": "1444524",
+    "portal": "https://public.netfile.com/pub2/?AID=PAC"
+   },
+   "Dan Urban": {
+    "agency": "PAC",
+    "agency_name": "City of Pacifica",
+    "itemized": 3100,
+    "through": "2026-09-02",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Hal Urban",
+      "amount": 1000
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC)",
+      "amount": 1000
+     },
+     {
+      "name": "David Spini",
+      "amount": 500
+     },
+     {
+      "name": "Al Clark",
+      "amount": 200
+     },
+     {
+      "name": "Dan Urban",
+      "amount": 100
+     },
+     {
+      "name": "Scott Miller",
+      "amount": 100
+     },
+     {
+      "name": "Paul Soll",
+      "amount": 100
+     },
+     {
+      "name": "Ian Toomey",
+      "amount": 100
+     }
+    ],
+    "committee": "Dan Urban for City Council District 2, 2026",
+    "fppc_id": "1494374",
+    "portal": "https://public.netfile.com/pub2/?AID=PAC"
+   }
+  },
+  "smc-city-of-pacifica-member-city-council-district-3": {
+   "Cindy Abbott": {
+    "agency": "PAC",
+    "agency_name": "City of Pacifica",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Cindy Abbott for Pacifica City Council, District 3, 2026",
+    "fppc_id": "1492752",
+    "portal": "https://public.netfile.com/pub2/?AID=PAC"
+   }
+  },
+  "smc-city-of-pacifica-member-city-council-district-5": {
+   "Margo Meiman": {
+    "agency": "PAC",
+    "agency_name": "City of Pacifica",
+    "itemized": 1545,
+    "through": "2026-10-16",
+    "donor_count": 10,
+    "top": [
+     {
+      "name": "Adam Libert",
+      "amount": 400
+     },
+     {
+      "name": "Dierdre Martin",
+      "amount": 250
+     },
+     {
+      "name": "Ila Homsher",
+      "amount": 200
+     },
+     {
+      "name": "Seema Kantak",
+      "amount": 160
+     },
+     {
+      "name": "Julie Deardorff",
+      "amount": 100
+     },
+     {
+      "name": "Jana Hoffman",
+      "amount": 100
+     },
+     {
+      "name": "Jennifer Chaloemtiarana",
+      "amount": 100
+     },
+     {
+      "name": "Dan Shugar",
+      "amount": 100
+     }
+    ],
+    "committee": "Meiman for Pacifica City Council - District 5 - 2026",
+    "fppc_id": "1493971",
+    "portal": "https://public.netfile.com/pub2/?AID=PAC"
+   },
+   "Sam Casillas": {
+    "agency": "PAC",
+    "agency_name": "City of Pacifica",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Committee to Elect Sam Casillas for Pacifica City Council, District 5, 2026",
+    "fppc_id": "1494971",
+    "portal": "https://public.netfile.com/pub2/?AID=PAC"
+   }
+  },
+  "smc-city-of-redwood-city-member-city-council-district-2": {
+   "Chris Sturken": {
+    "agency": "RWC",
+    "agency_name": "Redwood City",
+    "itemized": 3950,
+    "through": "2026-08-12",
+    "donor_count": 24,
+    "top": [
+     {
+      "name": "Manuel Pena",
+      "amount": 500
+     },
+     {
+      "name": "Michael John Arruza",
+      "amount": 500
+     },
+     {
+      "name": "Samuel Williams",
+      "amount": 250
+     },
+     {
+      "name": "Nancy Goodban",
+      "amount": 250
+     },
+     {
+      "name": "Yu Deng",
+      "amount": 250
+     },
+     {
+      "name": "Maggie Cornejo",
+      "amount": 250
+     },
+     {
+      "name": "John Ebneter",
+      "amount": 200
+     },
+     {
+      "name": "Karyl Eldridge",
+      "amount": 150
+     }
+    ],
+    "committee": "Chris Sturken for City Council 2026",
+    "fppc_id": "1451623",
+    "portal": "https://public.netfile.com/pub2/?AID=RWC"
+   }
+  },
+  "smc-city-of-redwood-city-member-city-council-district-5": {
+   "Kaia Eakin": {
+    "agency": "RWC",
+    "agency_name": "Redwood City",
+    "itemized": 100,
+    "through": "2026-07-29",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Ms. Nancy Workman",
+      "amount": 100
+     }
+    ],
+    "committee": "Kaia Eakin for Redwood City Council District 5 2026",
+    "fppc_id": "1448100",
+    "portal": "https://public.netfile.com/pub2/?AID=RWC"
+   }
+  },
+  "smc-city-of-redwood-city-member-city-council-district-6": {
+   "Diane Howard": {
+    "agency": "RWC",
+    "agency_name": "Redwood City",
+    "itemized": 4500,
+    "through": "2026-10-15",
+    "donor_count": 11,
+    "top": [
+     {
+      "name": "SAMCAR",
+      "amount": 1000
+     },
+     {
+      "name": "John Shroyer",
+      "amount": 1000
+     },
+     {
+      "name": "California Apartment Association PA",
+      "amount": 500
+     },
+     {
+      "name": "Marguerite Casey",
+      "amount": 500
+     },
+     {
+      "name": "Daniela Gasparini",
+      "amount": 300
+     },
+     {
+      "name": "Monica Bendernagel",
+      "amount": 300
+     },
+     {
+      "name": "Dee Eva",
+      "amount": 250
+     },
+     {
+      "name": "Moon Lim",
+      "amount": 200
+     }
+    ],
+    "committee": "Diane Howard for Redwood City Council 2026 District 6",
+    "fppc_id": "1357417",
+    "portal": "https://public.netfile.com/pub2/?AID=RWC"
+   }
+  },
+  "smc-city-of-san-bruno-mayor": {
+   "Rico E. Medina": {
+    "agency": "BRU",
+    "agency_name": "City of San Bruno",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Committee to Re-Elect Rico Medina Mayor 2026",
+    "fppc_id": "1490213",
+    "portal": "https://public.netfile.com/pub2/?AID=BRU"
+   }
+  },
+  "smc-city-of-san-bruno-member-city-council-district-1": {
+   "Jennifer M. Blanco": {
+    "agency": "BRU",
+    "agency_name": "City of San Bruno",
+    "itemized": 7116,
+    "through": "2026-10-16",
+    "donor_count": 33,
+    "top": [
+     {
+      "name": "Diego Ochoa",
+      "amount": 750
+     },
+     {
+      "name": "Edward Ramos",
+      "amount": 500
+     },
+     {
+      "name": "San Francisco Laborers Local 261 P.A.C. #981076",
+      "amount": 500
+     },
+     {
+      "name": "IBEW Local Union No. 617",
+      "amount": 500
+     },
+     {
+      "name": "Teresa Chin",
+      "amount": 400
+     },
+     {
+      "name": "Sandy Alvarez",
+      "amount": 310
+     },
+     {
+      "name": "Yvonne Blanco",
+      "amount": 300
+     },
+     {
+      "name": "Nicolle Blanco",
+      "amount": 300
+     }
+    ],
+    "committee": "Committee to Elect Jennifer Blanco for San Bruno City Council, District 1, 2026",
+    "fppc_id": "1479842",
+    "portal": "https://public.netfile.com/pub2/?AID=BRU"
+   },
+   "Kingsley Ma": {
+    "agency": "BRU",
+    "agency_name": "City of San Bruno",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Kingsley Ma for San Bruno City Council 2026",
+    "fppc_id": "1496958",
+    "portal": "https://public.netfile.com/pub2/?AID=BRU"
+   }
+  },
+  "smc-city-of-san-bruno-member-city-council-district-4": {
+   "Marty P. Medina": {
+    "agency": "BRU",
+    "agency_name": "City of San Bruno",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Marty Medina for San Bruno City Council, District 4, 2026",
+    "fppc_id": "1494302",
+    "portal": "https://public.netfile.com/pub2/?AID=BRU"
+   },
+   "Auros Harman": {
+    "agency": "BRU",
+    "agency_name": "City of San Bruno",
+    "itemized": 29447,
+    "through": "2026-10-22",
+    "donor_count": 60,
+    "top": [
+     {
+      "name": "Auros Harman",
+      "amount": 6259
+     },
+     {
+      "name": "Mr. Auros Harman",
+      "amount": 5187
+     },
+     {
+      "name": "Auros Harman for San Bruno Council District 4 2022",
+      "amount": 1163
+     },
+     {
+      "name": "Giselle Hale",
+      "amount": 1016
+     },
+     {
+      "name": "Sherman Harman",
+      "amount": 1000
+     },
+     {
+      "name": "Steve Westly",
+      "amount": 1000
+     },
+     {
+      "name": "Steve Newman",
+      "amount": 1000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1000
+     }
+    ],
+    "committee": "Auros Harman for San Bruno Council District 4 2026",
+    "fppc_id": "1483588",
+    "portal": "https://public.netfile.com/pub2/?AID=BRU"
+   }
+  },
+  "smc-city-of-san-carlos-member-city-council": {
+   "Pranita Venkatesh": {
+    "agency": "SCS",
+    "agency_name": "City of San Carlos",
+    "itemized": 16283,
+    "through": "2026-10-20",
+    "donor_count": 19,
+    "top": [
+     {
+      "name": "San Mateo County Central Labor Council",
+      "amount": 5900
+     },
+     {
+      "name": "Mark Pegram",
+      "amount": 2000
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC)",
+      "amount": 2000
+     },
+     {
+      "name": "Bryan Silverthorn",
+      "amount": 1000
+     },
+     {
+      "name": "San Mateo County Firefighters Local 2400 Political Activities Committee",
+      "amount": 1000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees - Council 57 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Brian Perkins",
+      "amount": 500
+     },
+     {
+      "name": "Michael Crockett",
+      "amount": 500
+     }
+    ],
+    "committee": "Pranita Venkatesh for San Carlos City Council 2026",
+    "fppc_id": "1495421",
+    "portal": "https://public.netfile.com/pub2/?AID=SCS"
+   },
+   "Sara McDowell": {
+    "agency": "SCS",
+    "agency_name": "City of San Carlos",
+    "itemized": 24382,
+    "through": "2026-10-17",
+    "donor_count": 71,
+    "top": [
+     {
+      "name": "AFSCME Local 829",
+      "amount": 1500
+     },
+     {
+      "name": "Jackie King",
+      "amount": 1000
+     },
+     {
+      "name": "PLUMBERS & STEAMFITTERS LOCAL 467STATE POLITICAL ACTION FUND ID #782481SMALL CONTRIBUTOR COMMITTEE",
+      "amount": 1000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees - Council 57",
+      "amount": 1000
+     },
+     {
+      "name": "Jill Banyas",
+      "amount": 1000
+     },
+     {
+      "name": "Laura Gottsman",
+      "amount": 1000
+     },
+     {
+      "name": "San Mateo County Firefighters Political Activities Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Elizabeth Sloan",
+      "amount": 800
+     }
+    ],
+    "committee": "Sara McDowell for San Carlos City Council 2026",
+    "fppc_id": "1492893",
+    "portal": "https://public.netfile.com/pub2/?AID=SCS"
+   },
+   "Adam Rak": {
+    "agency": "SCS",
+    "agency_name": "City of San Carlos",
+    "itemized": 17890,
+    "through": "2026-10-16",
+    "donor_count": 52,
+    "top": [
+     {
+      "name": "Laura Gottsman",
+      "amount": 1000
+     },
+     {
+      "name": "Plumbers & Steamfitters Local 467",
+      "amount": 1000
+     },
+     {
+      "name": "Teamsters California 350 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "AFSCME",
+      "amount": 1000
+     },
+     {
+      "name": "San Mateo County Firefighters Local 2400 Political Activities Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Nancy Heinen",
+      "amount": 515
+     },
+     {
+      "name": "Brian Perkins",
+      "amount": 515
+     },
+     {
+      "name": "Deborah Baldocchi",
+      "amount": 515
+     }
+    ],
+    "committee": "Adam Rak for San Carlos City Council 2026",
+    "fppc_id": "1494797",
+    "portal": "https://public.netfile.com/pub2/?AID=SCS"
+   },
+   "Mark D. Iwanowski": {
+    "agency": "SCS",
+    "agency_name": "City of San Carlos",
+    "itemized": 1630,
+    "through": "2026-10-06",
+    "donor_count": 9,
+    "top": [
+     {
+      "name": "Dan McNamara",
+      "amount": 500
+     },
+     {
+      "name": "Alexander Hancock",
+      "amount": 261
+     },
+     {
+      "name": "Mike Turturici",
+      "amount": 261
+     },
+     {
+      "name": "Richard Kiehl",
+      "amount": 104
+     },
+     {
+      "name": "Mrs. Ann Ponty",
+      "amount": 104
+     },
+     {
+      "name": "Paul Iwanowski",
+      "amount": 100
+     },
+     {
+      "name": "Mr. Dennis Nakamura",
+      "amount": 100
+     },
+     {
+      "name": "Mr. Fred Padilla",
+      "amount": 100
+     }
+    ],
+    "committee": "Mark Iwanowski 4 San Carlos City Council 2026",
+    "fppc_id": "1496378",
+    "portal": "https://public.netfile.com/pub2/?AID=SCS"
+   }
+  },
+  "smc-city-of-san-mateo-member-city-council-district-1": {
+   "Taso Zografos": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Committee to Elect Taso Zografos for City Council 2026",
+    "fppc_id": "1497493",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   },
+   "Lisa Diaz Nash": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 76664,
+    "through": "2026-10-16",
+    "donor_count": 147,
+    "top": [
+     {
+      "name": "Mary Nash",
+      "amount": 1000
+     },
+     {
+      "name": "Jon Goulden",
+      "amount": 1000
+     },
+     {
+      "name": "Joe Owens",
+      "amount": 1000
+     },
+     {
+      "name": "Kwok Lau",
+      "amount": 1000
+     },
+     {
+      "name": "Michael Nash",
+      "amount": 1000
+     },
+     {
+      "name": "Chris Larsen",
+      "amount": 1000
+     },
+     {
+      "name": "Anthony deLeon",
+      "amount": 1000
+     },
+     {
+      "name": "Danielle Cwirko-Godycki",
+      "amount": 1000
+     }
+    ],
+    "committee": "Lisa Diaz Nash for City Council 2026",
+    "fppc_id": "1483665",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   }
+  },
+  "smc-city-of-san-mateo-member-city-council-district-3": {
+   "Seema Patel": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 60429,
+    "through": "2026-10-23",
+    "donor_count": 119,
+    "top": [
+     {
+      "name": "Neena Patel",
+      "amount": 1005
+     },
+     {
+      "name": "Daniel Schonberg",
+      "amount": 1000
+     },
+     {
+      "name": "John Ebneter",
+      "amount": 1000
+     },
+     {
+      "name": "Merideth Bergman",
+      "amount": 1000
+     },
+     {
+      "name": "Carolina Nugent",
+      "amount": 1000
+     },
+     {
+      "name": "Dilip Patel",
+      "amount": 1000
+     },
+     {
+      "name": "Jonathan New",
+      "amount": 1000
+     },
+     {
+      "name": "Heather Wolnick",
+      "amount": 1000
+     }
+    ],
+    "committee": "Seema Patel for City Council 2026",
+    "fppc_id": "1486058",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   },
+   "Robert G. Newsom Jr.": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 34433,
+    "through": "2026-10-23",
+    "donor_count": 66,
+    "top": [
+     {
+      "name": "Jerry Hill",
+      "amount": 1000
+     },
+     {
+      "name": "Susan Manheimer",
+      "amount": 1000
+     },
+     {
+      "name": "Danielle Cwirko-Godycki",
+      "amount": 1000
+     },
+     {
+      "name": "Michael Nash",
+      "amount": 1000
+     },
+     {
+      "name": "Lisa Diaz Nash",
+      "amount": 1000
+     },
+     {
+      "name": "Nicole Fernandez",
+      "amount": 1000
+     },
+     {
+      "name": "Chris Eckert",
+      "amount": 1000
+     },
+     {
+      "name": "Thomas Morgan",
+      "amount": 1000
+     }
+    ],
+    "committee": "Re-Elect Robert Newsom for San Mateo City Council 2026",
+    "fppc_id": "1486855",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   }
+  },
+  "smc-city-of-san-mateo-member-city-council-district-5": {
+   "Dave Johnson": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 11179,
+    "through": "2026-10-14",
+    "donor_count": 33,
+    "top": [
+     {
+      "name": "Jeanne McManus",
+      "amount": 1000
+     },
+     {
+      "name": "Diana Beatson",
+      "amount": 1000
+     },
+     {
+      "name": "Deanna Charlesworth",
+      "amount": 1000
+     },
+     {
+      "name": "Jessica Johnson",
+      "amount": 529
+     },
+     {
+      "name": "Linda Ware",
+      "amount": 500
+     },
+     {
+      "name": "Susan Orloff",
+      "amount": 500
+     },
+     {
+      "name": "Russell Fung",
+      "amount": 500
+     },
+     {
+      "name": "Roger Testa",
+      "amount": 500
+     }
+    ],
+    "committee": "Johnson for San Mateo City Council 2026",
+    "fppc_id": "",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   },
+   "Dana Yates Sahae": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 31164,
+    "through": "2026-10-07",
+    "donor_count": 95,
+    "top": [
+     {
+      "name": "Jerry Hill",
+      "amount": 1000
+     },
+     {
+      "name": "Randy Fink Sahae",
+      "amount": 1000
+     },
+     {
+      "name": "Genevieve Breed",
+      "amount": 1000
+     },
+     {
+      "name": "Thomas Morgan",
+      "amount": 1000
+     },
+     {
+      "name": "Lisa Nash",
+      "amount": 1000
+     },
+     {
+      "name": "Rick Sakuda",
+      "amount": 1000
+     },
+     {
+      "name": "Connie Weiss",
+      "amount": 1000
+     },
+     {
+      "name": "Dave Cohen",
+      "amount": 1000
+     }
+    ],
+    "committee": "Dana Sahae for San Mateo City Council 2026",
+    "fppc_id": "1485426",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   },
+   "Adam Loraine": {
+    "agency": "MTO",
+    "agency_name": "City of San Mateo",
+    "itemized": 46648,
+    "through": "2026-10-23",
+    "donor_count": 105,
+    "top": [
+     {
+      "name": "Adam Loraine",
+      "amount": 8000
+     },
+     {
+      "name": "Rich Hedges",
+      "amount": 1000
+     },
+     {
+      "name": "Linda Hedges",
+      "amount": 1000
+     },
+     {
+      "name": "Carolina Nugent",
+      "amount": 1000
+     },
+     {
+      "name": "Richard Ballard",
+      "amount": 1000
+     },
+     {
+      "name": "Alexandra Dove",
+      "amount": 1000
+     },
+     {
+      "name": "Laura Loraine",
+      "amount": 1000
+     },
+     {
+      "name": "Max Mautner",
+      "amount": 1000
+     }
+    ],
+    "committee": "Adam Loraine for City Council 2026",
+    "fppc_id": "1487496",
+    "portal": "https://public.netfile.com/pub2/?AID=MTO"
+   }
+  }
+ }
+}

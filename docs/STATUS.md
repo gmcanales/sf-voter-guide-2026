@@ -42,11 +42,14 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
 
 ## 2. Next steps (priority order)
 
-1. **County candidate money, local offices only** (state legislators and Congress done 2026-10-25:
-   `tools/find_state_committees.py` proposes Cal-Access ids, checked against the cover-page district;
-   FEC ids are in `tools/candidate_money_external.py`). Council / local offices: NetFile public API
-   (see §4), as done ad hoc for Fremont. Make it a tool (`tools/local_candidate_money.py`) rather
-   than a one-off.
+1. **Local candidate money gaps.** Done 2026-10-25 for what NetFile holds: state legislators
+   (Cal-Access; `tools/find_state_committees.py` proposes ids, checked against the cover-page
+   district), Congress (FEC ids in `tools/candidate_money_external.py`), and local races
+   (`tools/local_candidate_money.py`: 222 committees across ~30 city and county NetFile agencies,
+   itemized gifts since 2025, written to `site/data/counties/<county>/candidate_money.json`).
+   Remaining: candidates whose committee name lacks their surname (e.g. "vipin4fremont"), cities
+   not on NetFile (South San Francisco, Richmond council districts files elsewhere?), special
+   districts filing with another county, and outside (IE) money for local races.
 2. **RTM money:** its committees likely register with the state. Add them to `state_money.py` or
    `local_measure_money.py`; the Money tab still says "not covered" in every county.
 3. **More NetFile exports** (user downloads from the portal; complete Form 460 totals): Redwood City

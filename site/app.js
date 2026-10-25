@@ -33,7 +33,7 @@ function optionLabel(dim, n) {
 }
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -669,6 +669,7 @@ function backingGroups(contestId, name) {
 function candidateMoney(contest, c) {
   const f = FUNDING?.candidates?.[contest.id]?.[c.name];
   const outside = MONEY?.candidates?.[contest.id]?.[c.name]?.outside || [];
+  if (!f && PREVIEW && /^(ala|smc|cc)-/.test(contest.id)) return localCandidateMoney(contest, c);
   if (!f) return externalCandidateMoney(contest, c);
   if (f.no_committee && !outside.length) return emptyNote('No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.');
   const own = (f.total || 0) + (f.public_funds || 0);
@@ -738,7 +739,7 @@ function hasDepth(contest) {
   const id = contest.id;
   return !!(ANALYSIS?.candidates?.[id] || EXTERNAL?.candidates?.[id] || FUNDING?.candidates?.[id]
     || ANALYSIS?.measures?.[id] || contest.summary || contest.statement_note || COUNTY_MONEY?.measures?.[id]
-    || (contest.candidates || []).some(c => c.who));
+    || LOCAL_MONEY?.candidates?.[id] || (contest.candidates || []).some(c => c.who || c.statement));
 }
 
 function renderCandidateMore(contest, c) {
@@ -789,6 +790,25 @@ function externalCandidateMoney(contest, c) {
       el('div', { class: 'vg-money-side' }, el('h4', {}, 'Outside committees'), outsideList(x.outside || []))),
     sourceLine(src.label, x.fec_url || src.url,
       federal ? 'Independent expenditures from FEC Schedule E.' : 'Outside money: Form 496 independent expenditures (filed in the 90 days before an election).')];
+}
+
+// Local candidates on the county ballots (NetFile) ------------------------
+function localCandidateMoney(contest, c) {
+  const x = LOCAL_MONEY?.candidates?.[contest.id]?.[c.name];
+  if (!x) return emptyNote('No 2026 committee found on the city’s or county’s NetFile filings. '
+    + 'Candidates who raise under $2,000 don’t have to form one; some cities and districts file on paper or elsewhere.');
+  return [
+    el('div', { class: 'vg-money-sides' },
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'The campaign’s own money'),
+        el('p', {}, el('strong', { class: 'vg-num vg-big' }, shortMoney(x.itemized || 0)), ' in itemized contributions since Jan 2025'),
+        el('ul', { class: 'vg-donors' },
+          el('li', {}, `Committee: ${x.committee}`),
+          x.donor_count ? el('li', {}, `${x.donor_count} itemized donors${x.through ? `, through ${formatDate(x.through)}` : ''}`) : null)),
+      el('div', { class: 'vg-money-side' }, el('h4', {}, 'Largest donors'),
+        (x.top || []).length ? el('ul', { class: 'vg-donors' }, x.top.slice(0, 6).map(d => el('li', {}, `${d.name} `, el('strong', {}, shortMoney(d.amount)))))
+          : emptyNote('No itemized contributions filed yet.'))),
+    sourceLine(`${x.agency_name} filings via the NetFile public API`, x.portal,
+      '(itemized gifts of $100+ only; smaller gifts and loans aren’t included, so the full total is higher; outside spending isn’t covered).')];
 }
 
 // Judicial retention ------------------------------------------------------
@@ -1503,7 +1523,7 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY] = await Promise.all([
       get(DATA_BASE + 'ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
       get(COUNTY === 'sf' ? './data/zip_districts.json' : DATA_BASE + 'zip_districts.json').catch(() => ({ zips: {} })),
       get('./data/topics.json'),
@@ -1511,7 +1531,8 @@ async function main() {
       get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null),
       get('./data/external_money.json').catch(() => null),
       PREVIEW ? get('./data/county_measure_money.json').catch(() => null) : null,
-      get('./data/zip_counties.json').catch(() => null)]);
+      get('./data/zip_counties.json').catch(() => null),
+      PREVIEW ? get(DATA_BASE + 'candidate_money.json').catch(() => null) : null]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     setKids(document.getElementById('ballot'), 

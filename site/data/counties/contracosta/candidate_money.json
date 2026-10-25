@@ -1,0 +1,1915 @@
+{
+ "built": "2026-10-25",
+ "source": {
+  "label": "NetFile public API (local Form 460 / 497 filings)",
+  "url": "https://netfile.com/Connect2/api/swagger-ui/"
+ },
+ "candidates": {
+  "cc-acalanes-union-high-school-district-trustee-area-1": {
+   "Stacy Schweppe": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 1400,
+    "through": "2026-10-17",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "Kathleen Coppersmith",
+      "amount": 250
+     },
+     {
+      "name": "Cindy Darling",
+      "amount": 250
+     },
+     {
+      "name": "Cindy Silva",
+      "amount": 250
+     },
+     {
+      "name": "Samantha Francois",
+      "amount": 250
+     },
+     {
+      "name": "Denise Norkus",
+      "amount": 150
+     },
+     {
+      "name": "Katharine Hamlin",
+      "amount": 150
+     },
+     {
+      "name": "Elissa Lawson",
+      "amount": 100
+     }
+    ],
+    "committee": "Schweppe, Stacey 4 Acalanes Union High School District Governing Board 2024",
+    "fppc_id": "1477429",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-antioch-unified-school-district-trustee-area-5": {
+   "Brandon Dawkins": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 12952,
+    "through": "2026-10-17",
+    "donor_count": 32,
+    "top": [
+     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "amount": 5000
+     },
+     {
+      "name": "Contra Costa United Working Families (CCUWF), All Purpose Account, Sponsored by Central Labor Council of Contra Costa County, AFL-CIO",
+      "amount": 2000
+     },
+     {
+      "name": "Gordon Greenwood",
+      "amount": 1000
+     },
+     {
+      "name": "Sandor Straus",
+      "amount": 1000
+     },
+     {
+      "name": "William Morrison",
+      "amount": 750
+     },
+     {
+      "name": "Joseph Bryant",
+      "amount": 250
+     },
+     {
+      "name": "Marsh Creek Democratic Club",
+      "amount": 202
+     },
+     {
+      "name": "Kelly Kick",
+      "amount": 200
+     }
+    ],
+    "committee": "Dawkins, Brandon for Antioch School Board 2026",
+    "fppc_id": "1489877",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Mary H Rocha": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 6791,
+    "through": "2026-10-15",
+    "donor_count": 26,
+    "top": [
+     {
+      "name": "Scott Bergerhouse",
+      "amount": 991
+     },
+     {
+      "name": "Plumbing Industry Consumer Protection Fund United Association Local No. 159",
+      "amount": 500
+     },
+     {
+      "name": "Mr. Steve Sanchez",
+      "amount": 500
+     },
+     {
+      "name": "Joseph Goralka",
+      "amount": 500
+     },
+     {
+      "name": "Alicia Taylor",
+      "amount": 500
+     },
+     {
+      "name": "Laborers International Union of North America Local No. 324-FL-CIO",
+      "amount": 500
+     },
+     {
+      "name": "Sandra White",
+      "amount": 450
+     },
+     {
+      "name": "Michele Kuslits",
+      "amount": 250
+     }
+    ],
+    "committee": "Rocha, Mary for Antioch School Board 2026",
+    "fppc_id": "1408329",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-contra-costa-community-college-district-ward-1": {
+   "Cameron Sasai": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 34474,
+    "through": "2026-10-15",
+    "donor_count": 61,
+    "top": [
+     {
+      "name": "Cameron Sasai",
+      "amount": 7000
+     },
+     {
+      "name": "United Faculty of Contra Costa Community College District PAC Fund",
+      "amount": 5000
+     },
+     {
+      "name": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers Local 549 PAC",
+      "amount": 3000
+     },
+     {
+      "name": "FIONA MA FOR LIEUTENANT GOVERNOR 2026",
+      "amount": 2000
+     },
+     {
+      "name": "IBEW 302 Community Candidates PAC",
+      "amount": 2000
+     },
+     {
+      "name": "Stephen Tilton",
+      "amount": 1250
+     },
+     {
+      "name": "David Sasai",
+      "amount": 1200
+     },
+     {
+      "name": "Scott Sakakihara",
+      "amount": 1000
+     }
+    ],
+    "committee": "Sasai, Cameron for Contra Costa Community College Board Ward 1 2026",
+    "fppc_id": "1493029",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-contra-costa-community-college-district-ward-3": {
+   "Becca Barrett": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 22853,
+    "through": "2026-10-16",
+    "donor_count": 49,
+    "top": [
+     {
+      "name": "UNITED FACULTY OF CONTRA COSTA COMMUNITY COLLEGE DISTRICT PAC",
+      "amount": 10000
+     },
+     {
+      "name": "Melody Howe Weintraub",
+      "amount": 2500
+     },
+     {
+      "name": "IBEW 302 Community Candidates PAC - All Purpose Account",
+      "amount": 2000
+     },
+     {
+      "name": "Plumbing Industry Consumer Protection Fund - United Association Local 159",
+      "amount": 1000
+     },
+     {
+      "name": "Colin Coffey",
+      "amount": 500
+     },
+     {
+      "name": "Heather McCarty",
+      "amount": 500
+     },
+     {
+      "name": "Ms. Valerie Sloven",
+      "amount": 250
+     },
+     {
+      "name": "Mr. Jonathan Bash",
+      "amount": 250
+     }
+    ],
+    "committee": "Barrett, Rebecca for Contra Costa Community College Board Ward 3 2026",
+    "fppc_id": "1438778",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-contra-costa-county-board-of-education-area-2": {
+   "Pamela West": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 2650,
+    "through": "2026-10-02",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "Thomas & Cheryln Hart",
+      "amount": 2000
+     },
+     {
+      "name": "Elizabeth Boyle",
+      "amount": 650
+     }
+    ],
+    "committee": "West, Pam for County Board of Education 2026",
+    "fppc_id": "1496866",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Sarah Butler": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 69206,
+    "through": "2026-10-13",
+    "donor_count": 6,
+    "top": [
+     {
+      "name": "United Teachers of Richmond Political Action Committee Fund",
+      "amount": 46856
+     },
+     {
+      "name": "Sarah Butler",
+      "amount": 12350
+     },
+     {
+      "name": "Mt Diablo Education Association Political Action Committee",
+      "amount": 5000
+     },
+     {
+      "name": "Mrs. Nancy Genn",
+      "amount": 2000
+     },
+     {
+      "name": "IBEW 302 Comm Candidates PAC",
+      "amount": 2000
+     },
+     {
+      "name": "International Association of Fire Fighters Local 1230 PAC",
+      "amount": 1000
+     }
+    ],
+    "committee": "Butler, Sarah for Contra Costa Board of Education 2026",
+    "fppc_id": "1492690",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-liberty-union-high-school-district-trustee-area-4": {
+   "Tamara Weber": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 1100,
+    "through": "2026-10-12",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "Mrs. Jean Follmer",
+      "amount": 500
+     },
+     {
+      "name": "Mrs. Brooke Trost",
+      "amount": 100
+     },
+     {
+      "name": "Mr. William Jackson",
+      "amount": 100
+     },
+     {
+      "name": "Ms. Sherry Fisher",
+      "amount": 100
+     },
+     {
+      "name": "Mrs. Hillary Straw",
+      "amount": 100
+     },
+     {
+      "name": "Michael Bourgeois",
+      "amount": 100
+     },
+     {
+      "name": "Pamela Nette - Garcia",
+      "amount": 100
+     }
+    ],
+    "committee": "Weber, Tamara Elect for School Board 2026",
+    "fppc_id": "1495981",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-mt-diablo-unified-school-district-trustee-area-2": {
+   "Dorothy Weisenberger": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 14533,
+    "through": "2026-10-07",
+    "donor_count": 12,
+    "top": [
+     {
+      "name": "Dorothy W3isenberger",
+      "amount": 10000
+     },
+     {
+      "name": "IBEW Local 305",
+      "amount": 2000
+     },
+     {
+      "name": "livingston Schneider",
+      "amount": 500
+     },
+     {
+      "name": "Melody Royal",
+      "amount": 500
+     },
+     {
+      "name": "Lorrie Davis",
+      "amount": 291
+     },
+     {
+      "name": "Lynn Mackey",
+      "amount": 250
+     },
+     {
+      "name": "Melinda Hall",
+      "amount": 250
+     },
+     {
+      "name": "Mr. Peter Mierau",
+      "amount": 242
+     }
+    ],
+    "committee": "Weisenberger, Dorothy for Mount Diablo USD Board 2026 Trustee",
+    "fppc_id": "1497401",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Jane Baulch-Enloe": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 25780,
+    "through": "2026-10-13",
+    "donor_count": 25,
+    "top": [
+     {
+      "name": "Mount Diablo Education Association",
+      "amount": 20000
+     },
+     {
+      "name": "Contra Costa United Working Families Sponsored by Central Labor Council of Contra Costa County, AFL-CIO",
+      "amount": 1500
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Ryan Apperson",
+      "amount": 500
+     },
+     {
+      "name": "Shirley Shelangoski",
+      "amount": 250
+     },
+     {
+      "name": "Laura Rubin",
+      "amount": 205
+     },
+     {
+      "name": "Ken Carlson",
+      "amount": 200
+     },
+     {
+      "name": "Heidi Weller",
+      "amount": 200
+     }
+    ],
+    "committee": "Baulch-Enloe, Jane MDUSD School Board Trustee Area 2 2026",
+    "fppc_id": "1490003",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-mt-diablo-unified-school-district-trustee-area-4": {
+   "Brian Thomas Lawrence": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 20400,
+    "through": "2026-10-05",
+    "donor_count": 4,
+    "top": [
+     {
+      "name": "Mt. Diablo Education Association PAC",
+      "amount": 20000
+     },
+     {
+      "name": "David Kesselman",
+      "amount": 200
+     },
+     {
+      "name": "Matthew Francois",
+      "amount": 100
+     },
+     {
+      "name": "Dan Frank",
+      "amount": 100
+     }
+    ],
+    "committee": "Lawrence, Brian for MDUSD School Board 2026",
+    "fppc_id": "1497646",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-orinda-union-school-district": {
+   "John Chabalko": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 3172,
+    "through": "2026-09-28",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "John Chabalko",
+      "amount": 3022
+     },
+     {
+      "name": "Katherine Tibbets",
+      "amount": 150
+     }
+    ],
+    "committee": "Chabalko, John for OUSD Board 2026",
+    "fppc_id": "1496661",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Katie Shogan": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 1754,
+    "through": "2026-09-14",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Mary Shogan",
+      "amount": 1754
+     }
+    ],
+    "committee": "Shogan, Mary Kateri for Orinda School Board 2026",
+    "fppc_id": "1495507",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-san-ramon-valley-unified-school-district-trustee-area-5": {
+   "Rachel Hurd": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 2337,
+    "through": "2026-10-08",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Rachel Hurd",
+      "amount": 837
+     },
+     {
+      "name": "Shirley Lapp",
+      "amount": 500
+     },
+     {
+      "name": "John Ordway",
+      "amount": 250
+     },
+     {
+      "name": "Kathy Chiverton",
+      "amount": 250
+     },
+     {
+      "name": "Willard Perkins",
+      "amount": 200
+     },
+     {
+      "name": "Gary Alpert",
+      "amount": 100
+     },
+     {
+      "name": "Kyle Levy",
+      "amount": 100
+     },
+     {
+      "name": "Richard Adler",
+      "amount": 100
+     }
+    ],
+    "committee": "Hurd, Rachel Committee to Re-Elect SRVUSD Governing Board Member, Area 5 2026",
+    "fppc_id": "1330216",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-walnut-creek-school-district": {
+   "Aileen Ong": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 5030,
+    "through": "2026-10-17",
+    "donor_count": 22,
+    "top": [
+     {
+      "name": "Wendee Ong",
+      "amount": 1000
+     },
+     {
+      "name": "Benton Ong",
+      "amount": 1000
+     },
+     {
+      "name": "Bj Ong",
+      "amount": 500
+     },
+     {
+      "name": "Amelita Abaya",
+      "amount": 280
+     },
+     {
+      "name": "Jean Armas",
+      "amount": 250
+     },
+     {
+      "name": "Ronda Mananquil",
+      "amount": 250
+     },
+     {
+      "name": "Nielson Ballon",
+      "amount": 200
+     },
+     {
+      "name": "Holly Mar",
+      "amount": 150
+     }
+    ],
+    "committee": "Ong, Aileen for Walnut Creek School District Governing Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Geetha Ganti": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 8199,
+    "through": "2026-10-11",
+    "donor_count": 10,
+    "top": [
+     {
+      "name": "Vivek Ganti",
+      "amount": 6999
+     },
+     {
+      "name": "Meghan Tozer",
+      "amount": 250
+     },
+     {
+      "name": "Hui Chu Poole",
+      "amount": 200
+     },
+     {
+      "name": "Lara Heisler",
+      "amount": 150
+     },
+     {
+      "name": "Sandra Naughton",
+      "amount": 100
+     },
+     {
+      "name": "Sachin Hejaji",
+      "amount": 100
+     },
+     {
+      "name": "Joni Castro",
+      "amount": 100
+     },
+     {
+      "name": "David Tozer",
+      "amount": 100
+     }
+    ],
+    "committee": "Ganti, Geetha for Walnut Creek School District Governing Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-city-of-antioch-city-council-district-1": {
+   "Joy Motts": {
+    "agency": "ANT",
+    "agency_name": "City of Antioch",
+    "itemized": 8866,
+    "through": "2026-10-20",
+    "donor_count": 23,
+    "top": [
+     {
+      "name": "Willow Park Mercantile",
+      "amount": 1315
+     },
+     {
+      "name": "Martha Goralka",
+      "amount": 1000
+     },
+     {
+      "name": "Earlene Lanter",
+      "amount": 1000
+     },
+     {
+      "name": "SR Ventures LLC",
+      "amount": 1000
+     },
+     {
+      "name": "Connie Komar",
+      "amount": 925
+     },
+     {
+      "name": "Richard Stadtlander",
+      "amount": 500
+     },
+     {
+      "name": "Phillip Lubina",
+      "amount": 500
+     },
+     {
+      "name": "Lawrence Elcenko",
+      "amount": 300
+     }
+    ],
+    "committee": "Joy Motts for Antioch City Council, District 1",
+    "fppc_id": "1487902",
+    "portal": "https://public.netfile.com/pub2/?AID=ANT"
+   },
+   "Tamisha Torres-Walker": {
+    "agency": "ANT",
+    "agency_name": "City of Antioch",
+    "itemized": 28550,
+    "through": "2026-10-17",
+    "donor_count": 38,
+    "top": [
+     {
+      "name": "Service Employee International Union Local 1021, Candidate PAC - Small Contributor Committee",
+      "amount": 5000
+     },
+     {
+      "name": "Progressive Era PAC",
+      "amount": 2500
+     },
+     {
+      "name": "Jane Fonda Climate PAC",
+      "amount": 2500
+     },
+     {
+      "name": "Sandor Straus",
+      "amount": 2500
+     },
+     {
+      "name": "IBEW 302 Comm Candidates PAC",
+      "amount": 2000
+     },
+     {
+      "name": "Contra Costa Working Families (CCUWF) Sponsored by Central Labor Council of Contra Costa County, AFL-CIO",
+      "amount": 2000
+     },
+     {
+      "name": "Yahya Korin",
+      "amount": 1500
+     },
+     {
+      "name": "Sheet Metal Workers Local union 104 Political Committee",
+      "amount": 1500
+     }
+    ],
+    "committee": "Re-elect Tamisha Torres-Walker for Antioch City Council District 1 2026",
+    "fppc_id": "1488250",
+    "portal": "https://public.netfile.com/pub2/?AID=ANT"
+   }
+  },
+  "cc-city-of-antioch-city-council-district-4": {
+   "Sandra G White": {
+    "agency": "ANT",
+    "agency_name": "City of Antioch",
+    "itemized": 10710,
+    "through": "2026-10-03",
+    "donor_count": 20,
+    "top": [
+     {
+      "name": "Marjorie Katin",
+      "amount": 5000
+     },
+     {
+      "name": "Patricia White",
+      "amount": 1099
+     },
+     {
+      "name": "Martha Goralka",
+      "amount": 1000
+     },
+     {
+      "name": "Sarah Eraker",
+      "amount": 500
+     },
+     {
+      "name": "Elizabeth Palley",
+      "amount": 500
+     },
+     {
+      "name": "Jonathan Palley",
+      "amount": 255
+     },
+     {
+      "name": "Robin Agopian",
+      "amount": 250
+     },
+     {
+      "name": "Cornelius Johnson",
+      "amount": 250
+     }
+    ],
+    "committee": "Sandra G. White for City Council 2026",
+    "fppc_id": "1485902",
+    "portal": "https://public.netfile.com/pub2/?AID=ANT"
+   },
+   "Monica E Wilson": {
+    "agency": "ANT",
+    "agency_name": "City of Antioch",
+    "itemized": 55365,
+    "through": "2026-10-23",
+    "donor_count": 42,
+    "top": [
+     {
+      "name": "U.A. Local 342",
+      "amount": 10000
+     },
+     {
+      "name": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers Local 549 PAC",
+      "amount": 5900
+     },
+     {
+      "name": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers Local 549",
+      "amount": 5900
+     },
+     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "amount": 5000
+     },
+     {
+      "name": "ActBlue Technical Services",
+      "amount": 3815
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 2500
+     },
+     {
+      "name": "Progressive Era PAC",
+      "amount": 2500
+     },
+     {
+      "name": "Sandor Straus",
+      "amount": 2500
+     }
+    ],
+    "committee": "Monica E Wilson for Antioch City Council District 4 2026",
+    "fppc_id": "1458384",
+    "portal": "https://public.netfile.com/pub2/?AID=ANT"
+   }
+  },
+  "cc-city-of-concord-city-treasurer": {
+   "Patti Barsotti": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Barsotti Political Campaign Fund for Treasurer 2026",
+    "fppc_id": "1455381",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   }
+  },
+  "cc-city-of-concord-city-council-district-1": {
+   "Laura Hoffmeister": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 19000,
+    "through": "2026-10-05",
+    "donor_count": 9,
+    "top": [
+     {
+      "name": "Laura Hoffmeister",
+      "amount": 9000
+     },
+     {
+      "name": "Concord Police Association PAC",
+      "amount": 3500
+     },
+     {
+      "name": "IBEW Local Union #302 (Political Action Committee)",
+      "amount": 1500
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC) - All Purpose Account / Small Contributor Committee",
+      "amount": 1500
+     },
+     {
+      "name": "California Apartment Association PAC - All Purpose Account",
+      "amount": 1000
+     },
+     {
+      "name": "Brumley Properties, LLC (Cordova Apartment Homes); Greg Brumley, approving individual",
+      "amount": 1000
+     },
+     {
+      "name": "Contra Costa Properties Trust",
+      "amount": 500
+     },
+     {
+      "name": "Debby Hull",
+      "amount": 500
+     }
+    ],
+    "committee": "Laura Hoffmeister for Concord City Council 2026",
+    "fppc_id": "971181",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Maria Bagley": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 4914,
+    "through": "2026-10-13",
+    "donor_count": 14,
+    "top": [
+     {
+      "name": "Lett's Plumbing",
+      "amount": 2000
+     },
+     {
+      "name": "Sue Greenfeld",
+      "amount": 1000
+     },
+     {
+      "name": "Sandor Strauss",
+      "amount": 500
+     },
+     {
+      "name": "Lisa Dell'Anno",
+      "amount": 300
+     },
+     {
+      "name": "David Wiegleb",
+      "amount": 250
+     },
+     {
+      "name": "Edi Birsan",
+      "amount": 165
+     },
+     {
+      "name": "James Click",
+      "amount": 100
+     },
+     {
+      "name": "Jacob Berg",
+      "amount": 100
+     }
+    ],
+    "committee": "Maria Bagley for Concord City Council 2026",
+    "fppc_id": "1492608",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Trish Brazil": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Trish Brazil for Concord City Council 2026",
+    "fppc_id": "1496033",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   }
+  },
+  "cc-city-of-concord-city-council-district-3": {
+   "Robyn Kuslits": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 10835,
+    "through": "2026-10-15",
+    "donor_count": 42,
+    "top": [
+     {
+      "name": "Judith Jewett",
+      "amount": 1000
+     },
+     {
+      "name": "John Teget",
+      "amount": 1000
+     },
+     {
+      "name": "Deborah Kukuk",
+      "amount": 1000
+     },
+     {
+      "name": "Hope Dixon",
+      "amount": 625
+     },
+     {
+      "name": "Sonny Stormes",
+      "amount": 500
+     },
+     {
+      "name": "Crystal Mackey",
+      "amount": 500
+     },
+     {
+      "name": "Laura Nakamura",
+      "amount": 500
+     },
+     {
+      "name": "Shirley Shelangoski",
+      "amount": 500
+     }
+    ],
+    "committee": "Robyn Kuslits for Concord City Council District 3 2026",
+    "fppc_id": "1493303",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Dena Acosta Beere": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 13748,
+    "through": "2026-10-17",
+    "donor_count": 15,
+    "top": [
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1500
+     },
+     {
+      "name": "IBEW 302 Community Candidates PAC",
+      "amount": 1500
+     },
+     {
+      "name": "LCCC PAC, A Bi-Partisan Coalition of Municipal, County, Latino Appointed and Elected Leaders PAC",
+      "amount": 1500
+     },
+     {
+      "name": "East Bay Action",
+      "amount": 1009
+     },
+     {
+      "name": "United Association No. 159 Consumer Protection Fund Sponsored by Plumbers & Steamfitters Local 159",
+      "amount": 1000
+     },
+     {
+      "name": "Leidy Johanna Restrepo Rojo",
+      "amount": 1000
+     },
+     {
+      "name": "International Association of Fire Fighters Local 1230 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Dominic Aliano for Concord City Council 2026",
+      "amount": 1000
+     }
+    ],
+    "committee": "Dena Acosta Beere for City Council 2026",
+    "fppc_id": "",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Douglas Lezameta": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 14663,
+    "through": "2026-10-21",
+    "donor_count": 12,
+    "top": [
+     {
+      "name": "Concord Police Association PAC",
+      "amount": 4814
+     },
+     {
+      "name": "Contra Costa County Deputy Sheriff's Association PAC",
+      "amount": 1500
+     },
+     {
+      "name": "East Bay Jobs PAC",
+      "amount": 1500
+     },
+     {
+      "name": "David Deutscher",
+      "amount": 1000
+     },
+     {
+      "name": "Anamarie Farias",
+      "amount": 1000
+     },
+     {
+      "name": "Derek Raynor",
+      "amount": 1000
+     },
+     {
+      "name": "Tim Grayson for State Controller 2030",
+      "amount": 1000
+     },
+     {
+      "name": "Pablo Benavente for Concord City Council 2028",
+      "amount": 1000
+     }
+    ],
+    "committee": "Douglas Lezameta for Concord City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Don Seta": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 1737,
+    "through": "2026-10-17",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Dr. Don Seta",
+      "amount": 537
+     },
+     {
+      "name": "Carol Morodomi",
+      "amount": 500
+     },
+     {
+      "name": "Rex Takahashi",
+      "amount": 200
+     },
+     {
+      "name": "E.D.I. Inc",
+      "amount": 150
+     },
+     {
+      "name": "Mark Morodomi",
+      "amount": 100
+     },
+     {
+      "name": "Karen Jacobsen",
+      "amount": 100
+     },
+     {
+      "name": "Ray Morodomi",
+      "amount": 100
+     },
+     {
+      "name": "Mari Matsumoto",
+      "amount": 50
+     }
+    ],
+    "committee": "Seta, Don",
+    "fppc_id": "1493695",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   }
+  },
+  "cc-city-of-concord-city-council-district-5": {
+   "Aeysha Corio": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 40698,
+    "through": "2026-10-14",
+    "donor_count": 80,
+    "top": [
+     {
+      "name": "Mr. REED ROBERTSON",
+      "amount": 2000
+     },
+     {
+      "name": "CALIFORNIA REAL ESTATE POLITICAL ACTION COMMITTEE C/O REED & DAVIDSON LLP",
+      "amount": 1500
+     },
+     {
+      "name": "MARSTON ASSOC INC",
+      "amount": 1500
+     },
+     {
+      "name": "OWL TREE INVESTMENTS",
+      "amount": 1500
+     },
+     {
+      "name": "Contra Costa Sheriff Assn. Pac ID #880929 Contra Costa Sheriff Assn.",
+      "amount": 1500
+     },
+     {
+      "name": "Int'l Brotherhood of Boilmakers, Iron Ship Builders, Blacksmiths, Forgers, & Helpers",
+      "amount": 1500
+     },
+     {
+      "name": "THERESA MAAS",
+      "amount": 1000
+     },
+     {
+      "name": "CLIFF MAAS",
+      "amount": 1000
+     }
+    ],
+    "committee": "Aeysha Corio for Concord City Council 2026",
+    "fppc_id": "1484297",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   },
+   "Laura Nakamura": {
+    "agency": "CCD",
+    "agency_name": "City of Concord",
+    "itemized": 41387,
+    "through": "2026-10-17",
+    "donor_count": 143,
+    "top": [
+     {
+      "name": "Laura Nakamura",
+      "amount": 2500
+     },
+     {
+      "name": "Frank Lucas",
+      "amount": 1650
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1500
+     },
+     {
+      "name": "Steamfitters Local 342 Political Action Committee",
+      "amount": 1500
+     },
+     {
+      "name": "SEIU 1021",
+      "amount": 1500
+     },
+     {
+      "name": "Leslie Baxter",
+      "amount": 1000
+     },
+     {
+      "name": "Barbara Wolpman",
+      "amount": 1000
+     },
+     {
+      "name": "James Wolpman",
+      "amount": 1000
+     }
+    ],
+    "committee": "Laura Nakamura for Concord City Council 2026",
+    "fppc_id": "1464166",
+    "portal": "https://public.netfile.com/pub2/?AID=CCD"
+   }
+  },
+  "cc-city-of-martinez-city-council-district-1": {
+   "Jay Howard": {
+    "agency": "MTZ",
+    "agency_name": "City of Martinez",
+    "itemized": 25223,
+    "through": "2026-10-13",
+    "donor_count": 28,
+    "top": [
+     {
+      "name": "Western States Regional Council of Carpenters",
+      "amount": 5900
+     },
+     {
+      "name": "G Swanson Construction, Inc.",
+      "amount": 5000
+     },
+     {
+      "name": "Jay Howard for Martinez City Council 2022",
+      "amount": 2555
+     },
+     {
+      "name": "IBEW 302 Comm Candidates PAC",
+      "amount": 2000
+     },
+     {
+      "name": "International Brotherhood of Boilermakers, Iron Ship Builders, Blacksmiths, Forgers and Helpers Local 549 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Thousand Friends of Martinez",
+      "amount": 1000
+     },
+     {
+      "name": "International Association of Fire Fighters Local 1230 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1000
+     }
+    ],
+    "committee": "Jay Howard for Martinez City Council 2026",
+    "fppc_id": "1488810",
+    "portal": "https://public.netfile.com/pub2/?AID=MTZ"
+   },
+   "Nakenya Allen": {
+    "agency": "MTZ",
+    "agency_name": "City of Martinez",
+    "itemized": 1775,
+    "through": "2026-10-08",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Shirley Shelangoski",
+      "amount": 500
+     },
+     {
+      "name": "Nakenya Allen",
+      "amount": 400
+     },
+     {
+      "name": "Robert Patrick",
+      "amount": 250
+     },
+     {
+      "name": "Louis Lefrancois",
+      "amount": 200
+     },
+     {
+      "name": "Debra Vinson",
+      "amount": 125
+     },
+     {
+      "name": "Soledad Espinoza",
+      "amount": 100
+     },
+     {
+      "name": "Valerie Thurston",
+      "amount": 100
+     },
+     {
+      "name": "Dana Mims",
+      "amount": 100
+     }
+    ],
+    "committee": "Allen for Martinez City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=MTZ"
+   }
+  },
+  "cc-city-of-pittsburg-city-council": {
+   "Arlene Kobata (Siu Ling)": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Arlene Kobata for Pittsburg City Council 2026",
+    "fppc_id": "1491675",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   },
+   "Wolf Croskey": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Wolf Croskey for Pittsburg City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   },
+   "Amhari Perkins": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Amhari Perkins for City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   },
+   "Dionne Adams": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 39700,
+    "through": "2026-10-16",
+    "donor_count": 29,
+    "top": [
+     {
+      "name": "U.A. LOCAL 342 - P.A.C. FUND",
+      "amount": 5900
+     },
+     {
+      "name": "EAST BAY JOBS PAC",
+      "amount": 5900
+     },
+     {
+      "name": "LCCC PAC, A Bi-Partisan Coalition of Municipal, County, Latino Appointed and Elected Leaders",
+      "amount": 5900
+     },
+     {
+      "name": "UA JOURNEYMEN & APPRENTICES LOACAL #250 - PAC ID #743-959",
+      "amount": 5000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 4000
+     },
+     {
+      "name": "IBEW 302 Community Candidates PAC",
+      "amount": 3000
+     },
+     {
+      "name": "DYNAMIC NETWORKING LLC",
+      "amount": 2600
+     },
+     {
+      "name": "U A Local #159 Plumbers and Steamfitters",
+      "amount": 1000
+     }
+    ],
+    "committee": "Re-Elect Dionne Adams for City Council 2026",
+    "fppc_id": "1485226",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   },
+   "Sonja Shephard": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Sonja Shephard for City Council 2026",
+    "fppc_id": "1494223",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   },
+   "Iztaccuauhtli Hector Gonzalez": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 150,
+    "through": "2026-09-01",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Mrs. Linda Russo",
+      "amount": 150
+     }
+    ],
+    "committee": "Gonzalez for Pittsburg Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   }
+  },
+  "cc-city-of-pittsburg-city-clerk": {
+   "Angel Rodriguez": {
+    "agency": "PBG",
+    "agency_name": "City of Pittsburg",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Rodriguez for City Clerk 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=PBG"
+   }
+  },
+  "cc-city-of-pleasant-hill-city-council-district-3": {
+   "Zac Shess": {
+    "agency": "COPH",
+    "agency_name": "City of Pleasant Hill",
+    "itemized": 4632,
+    "through": "2026-10-18",
+    "donor_count": 23,
+    "top": [
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC) #890106",
+      "amount": 1000
+     },
+     {
+      "name": "Re-Elect Ken Carlson for County Supervisor 2026",
+      "amount": 500
+     },
+     {
+      "name": "Mr. Doug Leighton",
+      "amount": 500
+     },
+     {
+      "name": "Scott Jalowiec",
+      "amount": 500
+     },
+     {
+      "name": "Nicole Crenshaw",
+      "amount": 258
+     },
+     {
+      "name": "Joe Stokley",
+      "amount": 258
+     },
+     {
+      "name": "Timothy Flaherty",
+      "amount": 250
+     },
+     {
+      "name": "Andrei Obolenskiy",
+      "amount": 150
+     }
+    ],
+    "committee": "Zac Shess for Pleasant Hill Council 2026",
+    "fppc_id": "1448635",
+    "portal": "https://public.netfile.com/pub2/?AID=COPH"
+   }
+  },
+  "cc-city-of-pleasant-hill-city-council-district-4": {
+   "Sue Noack": {
+    "agency": "COPH",
+    "agency_name": "City of Pleasant Hill",
+    "itemized": 1100,
+    "through": "2026-10-14",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Contra Costa Association of Realtors",
+      "amount": 1000
+     },
+     {
+      "name": "Jennifer Allen",
+      "amount": 50
+     },
+     {
+      "name": "Ken Housefeld",
+      "amount": 50
+     }
+    ],
+    "committee": "Sue Noack for Pleasant Hill City Council 2026",
+    "fppc_id": "1366987",
+    "portal": "https://public.netfile.com/pub2/?AID=COPH"
+   },
+   "Quy Tran": {
+    "agency": "COPH",
+    "agency_name": "City of Pleasant Hill",
+    "itemized": 1558,
+    "through": "2026-09-22",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "Quang Tran",
+      "amount": 500
+     },
+     {
+      "name": "Duc Tran",
+      "amount": 500
+     },
+     {
+      "name": "Andrew Wesley",
+      "amount": 200
+     },
+     {
+      "name": "Heather Rosmarin",
+      "amount": 104
+     },
+     {
+      "name": "John Prosek",
+      "amount": 100
+     },
+     {
+      "name": "Maria Berta",
+      "amount": 78
+     },
+     {
+      "name": "Belle La",
+      "amount": 75
+     }
+    ],
+    "committee": "Dr Quy Tran for Pleasant Hill City Council District 4 2026",
+    "fppc_id": "1492285",
+    "portal": "https://public.netfile.com/pub2/?AID=COPH"
+   }
+  },
+  "cc-city-of-richmond-mayor": {
+   "Claudia Jiménez": {
+    "agency": "RICH",
+    "agency_name": "City of Richmond",
+    "itemized": 122288,
+    "through": "2026-10-17",
+    "donor_count": 170,
+    "top": [
+     {
+      "name": "Joseph Puleo",
+      "amount": 2500
+     },
+     {
+      "name": "Kathleen Wimer",
+      "amount": 2500
+     },
+     {
+      "name": "Rebecca Vasquez",
+      "amount": 2500
+     },
+     {
+      "name": "Johanna Parker",
+      "amount": 2500
+     },
+     {
+      "name": "Diana Wear",
+      "amount": 2500
+     },
+     {
+      "name": "Mr. Kenneth Paff",
+      "amount": 2500
+     },
+     {
+      "name": "Richard Marcantonio",
+      "amount": 2500
+     },
+     {
+      "name": "United Teachers of Richmond Political Action Fund #811678",
+      "amount": 2500
+     }
+    ],
+    "committee": "Claudia Jimenez for Mayor of Richmond 2026",
+    "fppc_id": "1488504",
+    "portal": "https://public.netfile.com/pub2/?AID=RICH"
+   },
+   "Ahmad Anderson": {
+    "agency": "RICH",
+    "agency_name": "City of Richmond",
+    "itemized": 30285,
+    "through": "2026-10-24",
+    "donor_count": 54,
+    "top": [
+     {
+      "name": "STEAMFITTERS & REFRIGERATION U.A. LOCAL 250 P.A.C.",
+      "amount": 2500
+     },
+     {
+      "name": "California Real Estate Political Action Committee",
+      "amount": 2500
+     },
+     {
+      "name": "International Brotherhood of Boilermakers",
+      "amount": 2500
+     },
+     {
+      "name": "Vinay Pimple for Richmond City Council 2020",
+      "amount": 2500
+     },
+     {
+      "name": "Alberto Engle",
+      "amount": 2000
+     },
+     {
+      "name": "Kathy Wong",
+      "amount": 2000
+     },
+     {
+      "name": "Chun Mai",
+      "amount": 2000
+     },
+     {
+      "name": "Zhuonong Liang",
+      "amount": 2000
+     }
+    ],
+    "committee": "Anderson for Mayor 2026",
+    "fppc_id": "1481105",
+    "portal": "https://public.netfile.com/pub2/?AID=RICH"
+   }
+  },
+  "cc-central-contra-costa-sanitary-district-director-division-2": {
+   "Michael Robert McGill": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 2500,
+    "through": "2026-10-16",
+    "donor_count": 4,
+    "top": [
+     {
+      "name": "Build Jobs PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Sheet Metal Workers' Local Union No. 104",
+      "amount": 1000
+     },
+     {
+      "name": "Mr. Paul Bleeg",
+      "amount": 300
+     },
+     {
+      "name": "Mr. James Pezzaglia",
+      "amount": 200
+     }
+    ],
+    "committee": "McGill, Mike Friends of Mike McGill 2026 Central Contra Costa Sanitary District Board Division 2",
+    "fppc_id": "1289715",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-contra-costa-water-district-division-2": {
+   "Allison Picard": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 3600,
+    "through": "2026-10-09",
+    "donor_count": 14,
+    "top": [
+     {
+      "name": "IBEW 302 Comm Candidates PAC",
+      "amount": 1000
+     },
+     {
+      "name": "International Association of Firefighters Local 1230 PAC",
+      "amount": 500
+     },
+     {
+      "name": "Janet Hoy",
+      "amount": 250
+     },
+     {
+      "name": "Ms. Marta Van Loan",
+      "amount": 250
+     },
+     {
+      "name": "Gail Murray",
+      "amount": 250
+     },
+     {
+      "name": "Mr. Gary Hernandez",
+      "amount": 200
+     },
+     {
+      "name": "David Requa",
+      "amount": 200
+     },
+     {
+      "name": "Michael McLafferty",
+      "amount": 200
+     }
+    ],
+    "committee": "Picard for Water District Director 2026",
+    "fppc_id": "1496845",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Daniel T. Fitzpatrick": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 34700,
+    "through": "2026-10-20",
+    "donor_count": 18,
+    "top": [
+     {
+      "name": "Mr. Daniel Fitzpatrick",
+      "amount": 27500
+     },
+     {
+      "name": "Mrs. Marjorie Leeds",
+      "amount": 1000
+     },
+     {
+      "name": "Build Jobs PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Jonathan Leidy",
+      "amount": 1000
+     },
+     {
+      "name": "Mrs. Marjorie B. Leeds Leeds",
+      "amount": 1000
+     },
+     {
+      "name": "1000 Friends of Martinez",
+      "amount": 1000
+     },
+     {
+      "name": "Chris Holland",
+      "amount": 500
+     },
+     {
+      "name": "Peter Lezak",
+      "amount": 250
+     }
+    ],
+    "committee": "Fitzpatrick, Daniel for Contra Costa Water District Director 2026",
+    "fppc_id": "1495954",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-dublin-san-ramon-services-district-division-2": {
+   "Kismat Kathrani": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 52490,
+    "through": "2026-05-18",
+    "donor_count": 6,
+    "top": [
+     {
+      "name": "Kismat Kathrani",
+      "amount": 50000
+     },
+     {
+      "name": "Kalisi Kofoa",
+      "amount": 1540
+     },
+     {
+      "name": "American 4 HIndu",
+      "amount": 500
+     },
+     {
+      "name": "Expand ADU Inc",
+      "amount": 250
+     },
+     {
+      "name": "Hari Gakkani",
+      "amount": 100
+     },
+     {
+      "name": "Rahul Kuruvilla",
+      "amount": 100
+     }
+    ],
+    "committee": "Kathrani, Kismat for Assessor 2026",
+    "fppc_id": "1487991",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-east-bay-m-u-d-ward-7-director": {
+   "April Chan": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Chan, April for East Bay Municipal Utility District, Ward 7, 2026",
+    "fppc_id": "1448739",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-east-bay-reg-park-district-ward-7-director": {
+   "Colin J. Coffey": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 1035,
+    "through": "2026-10-14",
+    "donor_count": 9,
+    "top": [
+     {
+      "name": "Marsh Creek Democratic Club",
+      "amount": 200
+     },
+     {
+      "name": "Robert Cheasty",
+      "amount": 200
+     },
+     {
+      "name": "Carlyn Obringer",
+      "amount": 135
+     },
+     {
+      "name": "John Mercurio",
+      "amount": 100
+     },
+     {
+      "name": "Ernesto Avila",
+      "amount": 100
+     },
+     {
+      "name": "Monica Wilson",
+      "amount": 100
+     },
+     {
+      "name": "Scott Bartlebaugh",
+      "amount": 100
+     },
+     {
+      "name": "Jennifer Steneberg",
+      "amount": 100
+     }
+    ],
+    "committee": "Coffey, Colin for East Bay Parks District 7 Director 2026",
+    "fppc_id": "1490455",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-ironhouse-sanitary-district": {
+   "Paschal Iwuh": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Iwuh, Paschal for Ironhouse Sanitary District 2026 Campaign Committee",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-moraga-orinda-fire-protection-district-division-4": {
+   "Linda Stevens": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 6656,
+    "through": "2026-10-14",
+    "donor_count": 11,
+    "top": [
+     {
+      "name": "International Asociation of Fire Fighters Local 1230",
+      "amount": 4500
+     },
+     {
+      "name": "Mark Lewis",
+      "amount": 515
+     },
+     {
+      "name": "Lisa Hecht",
+      "amount": 515
+     },
+     {
+      "name": "Lisa Stevens",
+      "amount": 258
+     },
+     {
+      "name": "Linda Franklin",
+      "amount": 200
+     },
+     {
+      "name": "Russel Johnson",
+      "amount": 155
+     },
+     {
+      "name": "Anthony Alex",
+      "amount": 103
+     },
+     {
+      "name": "Jeffery Hagenah",
+      "amount": 103
+     }
+    ],
+    "committee": "Stevens, Linda for Moraga Orinda Fire District 4 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  },
+  "cc-pleasant-hill-recreation-park-district": {
+   "Raul Ortega": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Ortega, Raul 2026 Board of Directors Pleasant Hill Rec & Park District",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Sandra Bonato": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 7320,
+    "through": "2026-10-08",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "Sandra Bonato",
+      "amount": 6070
+     },
+     {
+      "name": "Julie Baumhardt",
+      "amount": 1250
+     }
+    ],
+    "committee": "Bonato, Sandra for Pleasant Hill Recreation & Park District Director - 2026",
+    "fppc_id": "1496463",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   },
+   "Robert \"Bobby\" Glover": {
+    "agency": "CCC",
+    "agency_name": "Contra Costa County",
+    "itemized": 5900,
+    "through": "2026-09-29",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Build Jobs PAC",
+      "amount": 5900
+     }
+    ],
+    "committee": "Glover, Bobby for Pleasant Hill Recreation & Park District 2026",
+    "fppc_id": "1496189",
+    "portal": "https://public.netfile.com/pub2/?AID=CCC"
+   }
+  }
+ }
+}

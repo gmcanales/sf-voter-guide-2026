@@ -1,0 +1,3227 @@
+{
+ "built": "2026-10-25",
+ "source": {
+  "label": "NetFile public API (local Form 460 / 497 filings)",
+  "url": "https://netfile.com/Connect2/api/swagger-ui/"
+ },
+ "candidates": {
+  "ala-ohlone-community-college-district-trustee-area-6": {
+   "Sonia Salwan": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Sonia Salwan for Ohlone Community College District Trustee Area 6 2026",
+    "fppc_id": "1495084",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-chabot-las-positas-community-college-district-trustee-area-2": {
+   "Linda Granger": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 13920,
+    "through": "2026-10-06",
+    "donor_count": 21,
+    "top": [
+     {
+      "name": "Linda Granger for Chabot Las Positas Community College District 2022",
+      "amount": 5899
+     },
+     {
+      "name": "Service Employees International Union Local 1021-Candidate PAC--Small Contributor Committee",
+      "amount": 1021
+     },
+     {
+      "name": "Stephen Dowd",
+      "amount": 1000
+     },
+     {
+      "name": "Phillip Granger",
+      "amount": 1000
+     },
+     {
+      "name": "Lawrence Ratto",
+      "amount": 1000
+     },
+     {
+      "name": "Adrienne Granger",
+      "amount": 600
+     },
+     {
+      "name": "Ms. Linda Granger",
+      "amount": 500
+     },
+     {
+      "name": "Kimberly McEwen",
+      "amount": 500
+     }
+    ],
+    "committee": "Linda Granger for Chabot Las Positas Community College District 2026",
+    "fppc_id": "1494892",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-chabot-las-positas-community-college-district-trustee-area-3": {
+   "Harris Mojadedi": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 3171,
+    "through": "2026-10-17",
+    "donor_count": 9,
+    "top": [
+     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "amount": 1021
+     },
+     {
+      "name": "Patrick Ahrens",
+      "amount": 750
+     },
+     {
+      "name": "ActBlue Technical Services",
+      "amount": 500
+     },
+     {
+      "name": "Shawn Kumagai",
+      "amount": 250
+     },
+     {
+      "name": "East Bay Stonewall Dem Club",
+      "amount": 250
+     },
+     {
+      "name": "Hayward Demos Democratic Club",
+      "amount": 100
+     },
+     {
+      "name": "Ashley McHale",
+      "amount": 100
+     },
+     {
+      "name": "M Dhahan",
+      "amount": 100
+     }
+    ],
+    "committee": "Harris Mojadedi for College Board 2026",
+    "fppc_id": "1458686",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-chabot-las-positas-community-college-district-trustee-area-6": {
+   "Hal G. Gin": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 12470,
+    "through": "2026-10-19",
+    "donor_count": 26,
+    "top": [
+     {
+      "name": "Dr. Hal Gin",
+      "amount": 5249
+     },
+     {
+      "name": "Service Employees International Union Local 1021",
+      "amount": 1021
+     },
+     {
+      "name": "Bob Gin",
+      "amount": 1000
+     },
+     {
+      "name": "Lawrence Ratto",
+      "amount": 1000
+     },
+     {
+      "name": "Sue Chan for Ohlone Board Trustee",
+      "amount": 500
+     },
+     {
+      "name": "Frank Yan",
+      "amount": 500
+     },
+     {
+      "name": "Xiao Feng Zhen",
+      "amount": 300
+     },
+     {
+      "name": "Stewart Chen",
+      "amount": 300
+     }
+    ],
+    "committee": "Hal G. Gin for Chabot-Las Positas College Trustee, Area 6 2026",
+    "fppc_id": "1494751",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-peralta-community-college-district-trustee-area-5": {
+   "Sandra Weese": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Sandra Weese For Peralta Community College Trustee Area 5 2026",
+    "fppc_id": "1488219",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-alameda-unified-school-district-governing-board-member-full-term": {
+   "Carrie Hahnel": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Carrie Hahnel for AUSD Board of Education 2026",
+    "fppc_id": "1491388",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Gary Lym": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Gary Lym for School Board 2026",
+    "fppc_id": "1451095",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-castro-valley-unified-school-district-governing-board-member-area-2-short-term": {
+   "Myla Long": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 7007,
+    "through": "2026-10-06",
+    "donor_count": 5,
+    "top": [
+     {
+      "name": "Castro Valley Teachers Association PAC",
+      "amount": 4156
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1500
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Myla Long",
+      "amount": 251
+     },
+     {
+      "name": "Philip Long",
+      "amount": 100
+     }
+    ],
+    "committee": "Myla Long for Castro Valley School Board 2026",
+    "fppc_id": "1492321",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-castro-valley-unified-school-district-governing-board-member-area-3": {
+   "Dan Jacowitz": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Jacowitz for Castro Valley Unified School Board 2026",
+    "fppc_id": "1491392",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Eryka N Mathews-Cain": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 18228,
+    "through": "2026-10-07",
+    "donor_count": 36,
+    "top": [
+     {
+      "name": "Castro Valley Teachers Association",
+      "amount": 10570
+     },
+     {
+      "name": "Construction & General Laborers Local Union 304 Political Action Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Efrain Franco",
+      "amount": 500
+     },
+     {
+      "name": "Tracey Boyce",
+      "amount": 500
+     },
+     {
+      "name": "Marla Bleavins",
+      "amount": 500
+     },
+     {
+      "name": "Nora Mathews",
+      "amount": 500
+     },
+     {
+      "name": "California Teachers Association Independent Expenditure Committee",
+      "amount": 308
+     },
+     {
+      "name": "Dorothy Theodore",
+      "amount": 250
+     }
+    ],
+    "committee": "Eryka Mathews-Cain For Castro Valley School Board 2026",
+    "fppc_id": "1491102",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Kara Wong": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Kara Wong for CV School Board 2026",
+    "fppc_id": "1494545",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-castro-valley-unified-school-district-governing-board-member-area-4": {
+   "Faith Carroll": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 8010,
+    "through": "2026-10-12",
+    "donor_count": 6,
+    "top": [
+     {
+      "name": "Castro Valley Teachers Association PAC",
+      "amount": 4860
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1500
+     },
+     {
+      "name": "Laborers Local 304 PAC Account SCC",
+      "amount": 1000
+     },
+     {
+      "name": "Gary Howard",
+      "amount": 300
+     },
+     {
+      "name": "Jacqueline Berg",
+      "amount": 250
+     },
+     {
+      "name": "Faith Carroll",
+      "amount": 100
+     }
+    ],
+    "committee": "Faith Carroll for Castro Valley School Board 2026",
+    "fppc_id": "1492315",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-hayward-unified-school-district-governing-board-member-area-2": {
+   "Joann Guzman": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Joann Guzman for HUSD School Board 2026",
+    "fppc_id": "1494203",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-hayward-unified-school-district-governing-board-member-area-4": {
+   "Michelle Fernelius": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Michelle Fernelius For HUSD School Board 2026",
+    "fppc_id": "1492523",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-livermore-valley-joint-unified-school-district-governing-board-member-area-3": {
+   "Angela M. Brady": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 4460,
+    "through": "2026-10-15",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Katherine Runyon",
+      "amount": 2000
+     },
+     {
+      "name": "Livermore Education Association Political Action Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Angela Brady",
+      "amount": 510
+     },
+     {
+      "name": "Debbie Troxell",
+      "amount": 422
+     },
+     {
+      "name": "Robert Johnson",
+      "amount": 211
+     },
+     {
+      "name": "B.J. Reynolds-Koonce",
+      "amount": 106
+     },
+     {
+      "name": "Litza Bayless",
+      "amount": 106
+     },
+     {
+      "name": "Cheryl Cook-Kallio",
+      "amount": 106
+     }
+    ],
+    "committee": "Angela Brady For Area 3 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-new-haven-unified-school-district-governing-board-member-area-4": {
+   "Shruti Kumar": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 1000,
+    "through": "2026-09-26",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Laborers' Local 304 PAC Account Small Contributor Committee",
+      "amount": 1000
+     }
+    ],
+    "committee": "Shruti Kumar 2026 Committee For New Haven Unified School District Board",
+    "fppc_id": "1493261",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Charandeep Singh Tatlah": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Charandeep Tatlah for NHUSD Governing Board 2026",
+    "fppc_id": "1493922",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-new-haven-unified-school-district-governing-board-member-area-5": {
+   "Deepti Garg": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 450,
+    "through": "2026-09-27",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Ranjeet Kaur",
+      "amount": 250
+     },
+     {
+      "name": "Sugam Tiku",
+      "amount": 100
+     },
+     {
+      "name": "Ashok Garg",
+      "amount": 100
+     }
+    ],
+    "committee": "Deepti Garg For NHUSD Board 2026",
+    "fppc_id": "1492952",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Francis Rojas": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 3311,
+    "through": "2026-10-08",
+    "donor_count": 17,
+    "top": [
+     {
+      "name": "Rosalinda Canlas",
+      "amount": 1000
+     },
+     {
+      "name": "Tracie Noriega",
+      "amount": 261
+     },
+     {
+      "name": "Cheris Crocker Root",
+      "amount": 261
+     },
+     {
+      "name": "Tessie Zurbiano",
+      "amount": 250
+     },
+     {
+      "name": "Donald Hamblen",
+      "amount": 209
+     },
+     {
+      "name": "Richard Leung",
+      "amount": 157
+     },
+     {
+      "name": "Allen Que",
+      "amount": 157
+     },
+     {
+      "name": "Vivien Philips",
+      "amount": 104
+     }
+    ],
+    "committee": "Committee to Elect Dr. Francis Rojas for New Haven Unified School Board 2026",
+    "fppc_id": "1490966",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-pleasanton-unified-school-district-governing-board-member-area-5": {
+   "Karen Fletcher": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 6184,
+    "through": "2026-10-13",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Association of Pleasanton Teachers",
+      "amount": 6184
+     }
+    ],
+    "committee": "Karen Fletcher for Pleasanton USD",
+    "fppc_id": "1496991",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-sunol-glen-unified-school-district-governing-board-member": {
+   "Karen Ruth Newcomb": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Karen Newcomb for Sunol Glen School Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "René Turnbull": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Rene' Turnbull for Sunol Glen School Board 2026",
+    "fppc_id": "1497673",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-members-of-city-council-albany": {
+   "Jon Destin": {
+    "agency": "ALB",
+    "agency_name": "City of Albany",
+    "itemized": 8543,
+    "through": "2026-10-15",
+    "donor_count": 25,
+    "top": [
+     {
+      "name": "Suzanne Koebler",
+      "amount": 1000
+     },
+     {
+      "name": "Laura Schuler",
+      "amount": 993
+     },
+     {
+      "name": "East Bay Stonewall Dem Club PAC",
+      "amount": 750
+     },
+     {
+      "name": "Eric Reynolds",
+      "amount": 500
+     },
+     {
+      "name": "Ferenc Raj",
+      "amount": 500
+     },
+     {
+      "name": "Paula Raj",
+      "amount": 500
+     },
+     {
+      "name": "Daniel Winkler",
+      "amount": 500
+     },
+     {
+      "name": "Eugenie Hsu",
+      "amount": 500
+     }
+    ],
+    "committee": "Friends of Jon Destin for Albany City Council 2026",
+    "fppc_id": "1492565",
+    "portal": "https://public.netfile.com/pub2/?AID=ALB"
+   },
+   "Chris McDaniels": {
+    "agency": "ALB",
+    "agency_name": "City of Albany",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Friends of Chris McDaniels for Albany City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=ALB"
+   },
+   "Aaron Tiedemann": {
+    "agency": "ALB",
+    "agency_name": "City of Albany",
+    "itemized": 16735,
+    "through": "2026-10-16",
+    "donor_count": 25,
+    "top": [
+     {
+      "name": "Preston Jordan",
+      "amount": 7500
+     },
+     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "amount": 1600
+     },
+     {
+      "name": "Robin Lopez",
+      "amount": 1371
+     },
+     {
+      "name": "Izat Eliyan",
+      "amount": 1000
+     },
+     {
+      "name": "Unity PAC, a Sponsored Committee of the Alameda Labor Council, AFL-CIO",
+      "amount": 1000
+     },
+     {
+      "name": "Christiana Tiedemann",
+      "amount": 750
+     },
+     {
+      "name": "Geoffrey Piller",
+      "amount": 500
+     },
+     {
+      "name": "Lucinda Young",
+      "amount": 450
+     }
+    ],
+    "committee": "Albany Forward, Lopez and Tiedemann for Council 2026",
+    "fppc_id": "1493914",
+    "portal": "https://public.netfile.com/pub2/?AID=ALB"
+   }
+  },
+  "ala-rent-stabilization-board-commissioners-berkeley": {
+   "Avery Arbaugh": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1420,
+    "through": "2026-10-06",
+    "donor_count": 23,
+    "top": [
+     {
+      "name": "Derek Rodriguez",
+      "amount": 120
+     },
+     {
+      "name": "Ida Martinac",
+      "amount": 60
+     },
+     {
+      "name": "Juan Canham",
+      "amount": 60
+     },
+     {
+      "name": "Jonah Gottlieb",
+      "amount": 60
+     },
+     {
+      "name": "Vanessa Goss",
+      "amount": 60
+     },
+     {
+      "name": "Max Smiley",
+      "amount": 60
+     },
+     {
+      "name": "Allie McKay McVey",
+      "amount": 60
+     },
+     {
+      "name": "Jennifer Guarino",
+      "amount": 60
+     }
+    ],
+    "committee": "Avery Arbaugh for Berkeley Rent Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Carole Marasovic": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 2160,
+    "through": "2026-10-11",
+    "donor_count": 36,
+    "top": [
+     {
+      "name": "Jennie Morgan",
+      "amount": 60
+     },
+     {
+      "name": "David Blake",
+      "amount": 60
+     },
+     {
+      "name": "Sandra Curtis",
+      "amount": 60
+     },
+     {
+      "name": "Michael Cassidy",
+      "amount": 60
+     },
+     {
+      "name": "Christopher Hamilton",
+      "amount": 60
+     },
+     {
+      "name": "Andrea Cassidy",
+      "amount": 60
+     },
+     {
+      "name": "Risa Kagan",
+      "amount": 60
+     },
+     {
+      "name": "Richard Stern",
+      "amount": 60
+     }
+    ],
+    "committee": "Carole Marasovic for Rent Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Ida Martinac": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1010,
+    "through": "2026-10-15",
+    "donor_count": 17,
+    "top": [
+     {
+      "name": "Soli Alpert",
+      "amount": 60
+     },
+     {
+      "name": "Allie Dylan McKay McVey",
+      "amount": 60
+     },
+     {
+      "name": "Avery Arbaugh",
+      "amount": 60
+     },
+     {
+      "name": "Kriss Worthington",
+      "amount": 60
+     },
+     {
+      "name": "Susanne Koller",
+      "amount": 60
+     },
+     {
+      "name": "Lisa Adams",
+      "amount": 60
+     },
+     {
+      "name": "Alfred Twu",
+      "amount": 60
+     },
+     {
+      "name": "James Chang",
+      "amount": 60
+     }
+    ],
+    "committee": "Ida Martinac for Rent Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Nathan Mizell": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1070,
+    "through": "2026-10-14",
+    "donor_count": 18,
+    "top": [
+     {
+      "name": "Derek Rodriguez",
+      "amount": 60
+     },
+     {
+      "name": "Alfred Twu",
+      "amount": 60
+     },
+     {
+      "name": "Matthew Lewis",
+      "amount": 60
+     },
+     {
+      "name": "Elizabeth Morris",
+      "amount": 60
+     },
+     {
+      "name": "Soli Alpert",
+      "amount": 60
+     },
+     {
+      "name": "Judith MacLean",
+      "amount": 60
+     },
+     {
+      "name": "Avery Arbaugh",
+      "amount": 60
+     },
+     {
+      "name": "Cole McKay McVey",
+      "amount": 60
+     }
+    ],
+    "committee": "Nathan Mizell for Berkeley Rent Board 2026",
+    "fppc_id": "1491465",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Vylma Ortiz": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1740,
+    "through": "2026-10-06",
+    "donor_count": 29,
+    "top": [
+     {
+      "name": "Allie McKay McVey",
+      "amount": 60
+     },
+     {
+      "name": "Avery Arbaugh",
+      "amount": 60
+     },
+     {
+      "name": "Derek Rodriguez",
+      "amount": 60
+     },
+     {
+      "name": "Kriss Worthington",
+      "amount": 60
+     },
+     {
+      "name": "Alfred Twu",
+      "amount": 60
+     },
+     {
+      "name": "Vylma Ortiz",
+      "amount": 60
+     },
+     {
+      "name": "Ciaran Jacka",
+      "amount": 60
+     },
+     {
+      "name": "Deanne Ogawa",
+      "amount": 60
+     }
+    ],
+    "committee": "Vylma Ortiz for Berkeley Rent Board 2026",
+    "fppc_id": "1491600",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Derek Rodriguez": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1820,
+    "through": "2026-10-11",
+    "donor_count": 30,
+    "top": [
+     {
+      "name": "Manisha Gangopadhyay",
+      "amount": 90
+     },
+     {
+      "name": "Chris Polizzi",
+      "amount": 60
+     },
+     {
+      "name": "Gloria Ruiz",
+      "amount": 60
+     },
+     {
+      "name": "Maria Ruiz",
+      "amount": 60
+     },
+     {
+      "name": "Gabe Rodriguez",
+      "amount": 60
+     },
+     {
+      "name": "Armando Ulloa",
+      "amount": 60
+     },
+     {
+      "name": "Alicia Ruiz",
+      "amount": 60
+     },
+     {
+      "name": "Marco Reyes",
+      "amount": 60
+     }
+    ],
+    "committee": "Derek Rodriguez for Berkeley Rent Board 2026",
+    "fppc_id": "1491456",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-school-directors-berkeley": {
+   "Reichi Lee": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Reichi Lee for Berkeley School Board 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Sandy Park": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 3160,
+    "through": "2026-08-14",
+    "donor_count": 53,
+    "top": [
+     {
+      "name": "Jason Hirschton",
+      "amount": 60
+     },
+     {
+      "name": "Cathryn Campbell",
+      "amount": 60
+     },
+     {
+      "name": "Michael Chang",
+      "amount": 60
+     },
+     {
+      "name": "Jennifer Shanoski",
+      "amount": 60
+     },
+     {
+      "name": "Ty Alper",
+      "amount": 60
+     },
+     {
+      "name": "Tamar Todd",
+      "amount": 60
+     },
+     {
+      "name": "Iris Tsui",
+      "amount": 60
+     },
+     {
+      "name": "John McCarthy",
+      "amount": 60
+     }
+    ],
+    "committee": "Sandy Park for Berkeley Unified School District Director 2026",
+    "fppc_id": "1491920",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Jennifer Shanoski": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 5330,
+    "through": "2026-07-09",
+    "donor_count": 89,
+    "top": [
+     {
+      "name": "Jennifer Shanoski",
+      "amount": 100
+     },
+     {
+      "name": "Ray Yep",
+      "amount": 60
+     },
+     {
+      "name": "Nancy Yep",
+      "amount": 60
+     },
+     {
+      "name": "Jeff Sanceri",
+      "amount": 60
+     },
+     {
+      "name": "Joshua Daniels",
+      "amount": 60
+     },
+     {
+      "name": "Scott Hofmeister",
+      "amount": 60
+     },
+     {
+      "name": "Cielo Rios",
+      "amount": 60
+     },
+     {
+      "name": "Julie Caskey",
+      "amount": 60
+     }
+    ],
+    "committee": "Re-Elect Shanoski for Berkeley School Board 2026",
+    "fppc_id": "1486804",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-member-of-city-council-district-1-berkeley": {
+   "Laura Babitt": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 7840,
+    "through": "2026-10-12",
+    "donor_count": 129,
+    "top": [
+     {
+      "name": "Thom Seaton",
+      "amount": 120
+     },
+     {
+      "name": "Iris Greenberg-Smith",
+      "amount": 120
+     },
+     {
+      "name": "Matityahu Teiblum",
+      "amount": 60
+     },
+     {
+      "name": "Ray Yep",
+      "amount": 60
+     },
+     {
+      "name": "Bruce Hansen",
+      "amount": 60
+     },
+     {
+      "name": "Reichi Lee",
+      "amount": 60
+     },
+     {
+      "name": "Linda Wulf",
+      "amount": 60
+     },
+     {
+      "name": "Yossi Fendel",
+      "amount": 60
+     }
+    ],
+    "committee": "Laura Babitt for Berkeley City Council 2026",
+    "fppc_id": "",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Ross Bernet": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 13420,
+    "through": "2026-10-16",
+    "donor_count": 222,
+    "top": [
+     {
+      "name": "Ross Bernet",
+      "amount": 200
+     },
+     {
+      "name": "Chenlu Zhou",
+      "amount": 60
+     },
+     {
+      "name": "Ben Gould",
+      "amount": 60
+     },
+     {
+      "name": "Ronan Arthur",
+      "amount": 60
+     },
+     {
+      "name": "Reed Bernet",
+      "amount": 60
+     },
+     {
+      "name": "Sarah Bell",
+      "amount": 60
+     },
+     {
+      "name": "Corey Busay",
+      "amount": 60
+     },
+     {
+      "name": "Angel Hertslet",
+      "amount": 60
+     }
+    ],
+    "committee": "Ross Bernet for Council 2026",
+    "fppc_id": "1492143",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Daria Wrubel": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 10192,
+    "through": "2026-10-16",
+    "donor_count": 168,
+    "top": [
+     {
+      "name": "Daria Wrubel",
+      "amount": 131
+     },
+     {
+      "name": "Marsha Browne",
+      "amount": 120
+     },
+     {
+      "name": "Jill Buckey",
+      "amount": 120
+     },
+     {
+      "name": "Rahel Smith",
+      "amount": 60
+     },
+     {
+      "name": "Eric Wrubel",
+      "amount": 60
+     },
+     {
+      "name": "Charles Spiegel",
+      "amount": 60
+     },
+     {
+      "name": "Jim Kaplan",
+      "amount": 60
+     },
+     {
+      "name": "Judith Wrubel",
+      "amount": 60
+     }
+    ],
+    "committee": "Daria Wrubel for City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-member-of-city-council-district-4-berkeley": {
+   "Majdi \"Gaith\" Abuhamdieh": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 9115,
+    "through": "2026-10-11",
+    "donor_count": 151,
+    "top": [
+     {
+      "name": "Sonya Baehr",
+      "amount": 120
+     },
+     {
+      "name": "JAnice Tanemura",
+      "amount": 100
+     },
+     {
+      "name": "Vera Inoue-Terris",
+      "amount": 85
+     },
+     {
+      "name": "William Press",
+      "amount": 60
+     },
+     {
+      "name": "Elana Auerbach",
+      "amount": 60
+     },
+     {
+      "name": "Andrea Prichett",
+      "amount": 60
+     },
+     {
+      "name": "Glenn Turner",
+      "amount": 60
+     },
+     {
+      "name": "Jack Kurzweil",
+      "amount": 60
+     }
+    ],
+    "committee": "Majdi \"Gaith\" Abuhamdieh for Berkeley City Council 2026",
+    "fppc_id": "1494506",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Igor A. Tregub": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 22154,
+    "through": "2026-10-17",
+    "donor_count": 370,
+    "top": [
+     {
+      "name": "Igor Tregub",
+      "amount": 160
+     },
+     {
+      "name": "Jason Park",
+      "amount": 110
+     },
+     {
+      "name": "Nancy Carleton",
+      "amount": 60
+     },
+     {
+      "name": "James Chang",
+      "amount": 60
+     },
+     {
+      "name": "Katie Ricklefs",
+      "amount": 60
+     },
+     {
+      "name": "Wendy Bloom",
+      "amount": 60
+     },
+     {
+      "name": "Anne Omura",
+      "amount": 60
+     },
+     {
+      "name": "Christina Oatfield",
+      "amount": 60
+     }
+    ],
+    "committee": "Igor Tregub for Berkeley City Council District 4 2026",
+    "fppc_id": "1477644",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-member-of-city-council-district-7-berkeley": {
+   "Aidan Hill": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 1387,
+    "through": "2026-10-16",
+    "donor_count": 24,
+    "top": [
+     {
+      "name": "Aidan Hill",
+      "amount": 100
+     },
+     {
+      "name": "Joshua Lavine",
+      "amount": 60
+     },
+     {
+      "name": "Moni Gangopadhyay",
+      "amount": 60
+     },
+     {
+      "name": "Andrea Prichett",
+      "amount": 60
+     },
+     {
+      "name": "Dale Baum",
+      "amount": 60
+     },
+     {
+      "name": "Joseph Williams",
+      "amount": 60
+     },
+     {
+      "name": "Donna DeDiemar",
+      "amount": 60
+     },
+     {
+      "name": "Donald Simon",
+      "amount": 60
+     }
+    ],
+    "committee": "Aidan Hill for Berkeley City Council District 7, 2026",
+    "fppc_id": "1481885",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   },
+   "Syrak Micael": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 6235,
+    "through": "2026-10-17",
+    "donor_count": 106,
+    "top": [
+     {
+      "name": "Anirvan Chatterjee",
+      "amount": 60
+     },
+     {
+      "name": "Molly Aganza",
+      "amount": 60
+     },
+     {
+      "name": "Andres Chirino",
+      "amount": 60
+     },
+     {
+      "name": "Rishav Rout",
+      "amount": 60
+     },
+     {
+      "name": "Julie Searle",
+      "amount": 60
+     },
+     {
+      "name": "Tatiana Guerreiro",
+      "amount": 60
+     },
+     {
+      "name": "Kathryn Lybarger",
+      "amount": 60
+     },
+     {
+      "name": "Mark Pasley",
+      "amount": 60
+     }
+    ],
+    "committee": "Syrak Micael for Berkeley City Council 2026",
+    "fppc_id": "1491515",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-member-of-city-council-district-8-berkeley": {
+   "Fred M. Feller": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Fred Feller for City Council 2026",
+    "fppc_id": "Pending",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-auditor-berkeley": {
+   "Jenny Wong": {
+    "agency": "BRK",
+    "agency_name": "City of Berkeley",
+    "itemized": 8298,
+    "through": "2026-09-29",
+    "donor_count": 47,
+    "top": [
+     {
+      "name": "Jenny Wong",
+      "amount": 1000
+     },
+     {
+      "name": "Kate Mountain",
+      "amount": 290
+     },
+     {
+      "name": "Lyn Scott",
+      "amount": 290
+     },
+     {
+      "name": "Gordon Wozniak",
+      "amount": 290
+     },
+     {
+      "name": "Ray Yep",
+      "amount": 290
+     },
+     {
+      "name": "Eric Weaver",
+      "amount": 290
+     },
+     {
+      "name": "Michael Houston",
+      "amount": 290
+     },
+     {
+      "name": "Erin Godtland",
+      "amount": 290
+     }
+    ],
+    "committee": "Re-Elect Jenny Wong for City Auditor 2026",
+    "fppc_id": "1458994",
+    "portal": "https://public.netfile.com/pub2/?AID=BRK"
+   }
+  },
+  "ala-mayor-dublin": {
+   "Sherry Hu": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 37528,
+    "through": "2026-10-15",
+    "donor_count": 100,
+    "top": [
+     {
+      "name": "TIECHENG HU",
+      "amount": 500
+     },
+     {
+      "name": "ZEHONG YIN",
+      "amount": 500
+     },
+     {
+      "name": "WENHUI LIN",
+      "amount": 500
+     },
+     {
+      "name": "Junhui Ding",
+      "amount": 500
+     },
+     {
+      "name": "Jaspreet Dosanjh",
+      "amount": 500
+     },
+     {
+      "name": "SHERMAN TAN KING",
+      "amount": 500
+     },
+     {
+      "name": "Tao Fang",
+      "amount": 500
+     },
+     {
+      "name": "Peter Pan",
+      "amount": 500
+     }
+    ],
+    "committee": "Sherry Hu for Mayor 2026",
+    "fppc_id": "1456915",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Michael McCorriston": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 6325,
+    "through": "2026-10-17",
+    "donor_count": 25,
+    "top": [
+     {
+      "name": "Yan Tang",
+      "amount": 500
+     },
+     {
+      "name": "Della Ding",
+      "amount": 500
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 500
+     },
+     {
+      "name": "Laborers' Local 304 PAC",
+      "amount": 500
+     },
+     {
+      "name": "Herman White",
+      "amount": 500
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "amount": 500
+     },
+     {
+      "name": "Kaiyi Li",
+      "amount": 500
+     },
+     {
+      "name": "Jane Moorhead",
+      "amount": 250
+     }
+    ],
+    "committee": "Michael McCorriston for City of Dublin Mayor 2026",
+    "fppc_id": "1484804",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Kiran Mohammad": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Kiran Mohammad Dublin Mayor 2026",
+    "fppc_id": "1495227",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   }
+  },
+  "ala-members-of-city-council-2-dublin": {
+   "Daniel Hor": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 2839,
+    "through": "2026-09-29",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Siew Kim Tai",
+      "amount": 500
+     },
+     {
+      "name": "Benjamin Hor",
+      "amount": 500
+     },
+     {
+      "name": "Anita Loganathan",
+      "amount": 500
+     },
+     {
+      "name": "Ivan DelSol",
+      "amount": 500
+     },
+     {
+      "name": "Daniel Eng Kean Hor",
+      "amount": 339
+     },
+     {
+      "name": "Nassim Nouri",
+      "amount": 300
+     },
+     {
+      "name": "David Meredith",
+      "amount": 100
+     },
+     {
+      "name": "Rehana Rehman",
+      "amount": 100
+     }
+    ],
+    "committee": "Hor for Dublin City Council 2026",
+    "fppc_id": "1494301",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Steve Lorey": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 8800,
+    "through": "2026-09-26",
+    "donor_count": 27,
+    "top": [
+     {
+      "name": "Mr. Steven Lorey",
+      "amount": 500
+     },
+     {
+      "name": "Ms. Katrina Knatz",
+      "amount": 500
+     },
+     {
+      "name": "Laura Witt",
+      "amount": 500
+     },
+     {
+      "name": "Village Parkway Properties LLC",
+      "amount": 500
+     },
+     {
+      "name": "Dorothy Houston",
+      "amount": 500
+     },
+     {
+      "name": "Village Parkway Day Program LLC",
+      "amount": 500
+     },
+     {
+      "name": "Robert Strawn",
+      "amount": 500
+     },
+     {
+      "name": "Matt Lorey",
+      "amount": 500
+     }
+    ],
+    "committee": "Lorey for Dublin City Council 2026",
+    "fppc_id": "1490868",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Tejpreet Singh": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Tejpreet Singh for Dublin City Council 2026",
+    "fppc_id": "1497361",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Richard Thornbury": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 4500,
+    "through": "2026-09-19",
+    "donor_count": 7,
+    "top": [
+     {
+      "name": "Richard Thornbury",
+      "amount": 3750
+     },
+     {
+      "name": "Elizabeth Thornbury",
+      "amount": 250
+     },
+     {
+      "name": "Carleigh Kmetz",
+      "amount": 100
+     },
+     {
+      "name": "Cynthia Hong",
+      "amount": 100
+     },
+     {
+      "name": "Rebecca Triano",
+      "amount": 100
+     },
+     {
+      "name": "Mark Levin",
+      "amount": 100
+     },
+     {
+      "name": "Margaret Taliano",
+      "amount": 100
+     }
+    ],
+    "committee": "Richard Thornbury for Dublin City Council 2 2026",
+    "fppc_id": "1491940",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   }
+  },
+  "ala-members-of-city-council-4-dublin": {
+   "Kashef Qaadri": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 4650,
+    "through": "2026-10-05",
+    "donor_count": 20,
+    "top": [
+     {
+      "name": "Karen Kam",
+      "amount": 500
+     },
+     {
+      "name": "Sameer Hakim",
+      "amount": 500
+     },
+     {
+      "name": "International Brotherhood of Electric Workers (IBEW)",
+      "amount": 500
+     },
+     {
+      "name": "Laborers' Local 304 PAC Account",
+      "amount": 500
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 500
+     },
+     {
+      "name": "Syed Alam",
+      "amount": 350
+     },
+     {
+      "name": "Humaira Syed",
+      "amount": 250
+     },
+     {
+      "name": "Hayder Qaadri",
+      "amount": 250
+     }
+    ],
+    "committee": "Kashef Qaadri for Dublin City Council, District 4 2026",
+    "fppc_id": "1444282",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   },
+   "Shivraj Singh": {
+    "agency": "DUB",
+    "agency_name": "City of Dublin",
+    "itemized": 22390,
+    "through": "2026-10-16",
+    "donor_count": 47,
+    "top": [
+     {
+      "name": "Shivraj Singh",
+      "amount": 5100
+     },
+     {
+      "name": "Vivek Sharma",
+      "amount": 500
+     },
+     {
+      "name": "Sriram Puthucode",
+      "amount": 500
+     },
+     {
+      "name": "Sawraj Singh",
+      "amount": 500
+     },
+     {
+      "name": "Upendra Giri",
+      "amount": 500
+     },
+     {
+      "name": "Kartik Salwan",
+      "amount": 500
+     },
+     {
+      "name": "Yuvi Singh",
+      "amount": 500
+     },
+     {
+      "name": "Nidhi Mehta",
+      "amount": 500
+     }
+    ],
+    "committee": "Shivaraj Singh for Dublin City Council 2026",
+    "fppc_id": "1489269",
+    "portal": "https://public.netfile.com/pub2/?AID=DUB"
+   }
+  },
+  "ala-member-of-city-council-2-fremont": {
+   "Desrie Campbell": {
+    "agency": "FRE",
+    "agency_name": "City of Fremont",
+    "itemized": 8703,
+    "through": "2026-10-13",
+    "donor_count": 21,
+    "top": [
+     {
+      "name": "Alex Lee for Assembly 2026",
+      "amount": 850
+     },
+     {
+      "name": "Dominic Dutra",
+      "amount": 850
+     },
+     {
+      "name": "Desrie Campbell",
+      "amount": 850
+     },
+     {
+      "name": "Lisa Dutra",
+      "amount": 850
+     },
+     {
+      "name": "Desrie Campbell for Fremont City Council 2022",
+      "amount": 800
+     },
+     {
+      "name": "Sheetmetal Workers Local 104",
+      "amount": 800
+     },
+     {
+      "name": "Ohlone Area United Democratic Campaign",
+      "amount": 703
+     },
+     {
+      "name": "Bob Wieckowski",
+      "amount": 500
+     }
+    ],
+    "committee": "Desrie Campbell for Fremont City Council District 2, 2026",
+    "fppc_id": "1485171",
+    "portal": "https://public.netfile.com/pub2/?AID=FRE"
+   }
+  },
+  "ala-member-of-city-council-3-fremont": {
+   "Kathy Kimberlin": {
+    "agency": "FRE",
+    "agency_name": "City of Fremont",
+    "itemized": 15761,
+    "through": "2026-10-16",
+    "donor_count": 45,
+    "top": [
+     {
+      "name": "James Reeder Jr.",
+      "amount": 850
+     },
+     {
+      "name": "Lisa Dutra",
+      "amount": 850
+     },
+     {
+      "name": "Dominic Dutra",
+      "amount": 850
+     },
+     {
+      "name": "YING-MIN LI",
+      "amount": 800
+     },
+     {
+      "name": "HAUBERT FOR SUPERVISOR 2024",
+      "amount": 800
+     },
+     {
+      "name": "YOGESH CHUGH",
+      "amount": 800
+     },
+     {
+      "name": "HERBERT CHIU",
+      "amount": 800
+     },
+     {
+      "name": "CHI WONG",
+      "amount": 800
+     }
+    ],
+    "committee": "Kimberlin for Fremont City Council D3 2026",
+    "fppc_id": "1483392",
+    "portal": "https://public.netfile.com/pub2/?AID=FRE"
+   }
+  },
+  "ala-member-of-city-council-4-fremont": {
+   "Aziz Akbari": {
+    "agency": "FRE",
+    "agency_name": "City of Fremont",
+    "itemized": 49372,
+    "through": "2026-10-17",
+    "donor_count": 160,
+    "top": [
+     {
+      "name": "Mohammad Akbari",
+      "amount": 1350
+     },
+     {
+      "name": "Yasmin Akbari",
+      "amount": 950
+     },
+     {
+      "name": "Aziz Akbari",
+      "amount": 850
+     },
+     {
+      "name": "Zahabiya Gabaji",
+      "amount": 850
+     },
+     {
+      "name": "Scott Sakakihara",
+      "amount": 850
+     },
+     {
+      "name": "Nomhaan Khedawala",
+      "amount": 850
+     },
+     {
+      "name": "Jasmine Basrai",
+      "amount": 850
+     },
+     {
+      "name": "Razi Mohiuddin",
+      "amount": 850
+     }
+    ],
+    "committee": "Aziz Akbari for Fremont City Council D4 2026",
+    "fppc_id": "1492207",
+    "portal": "https://public.netfile.com/pub2/?AID=FRE"
+   },
+   "Ying Min Li": {
+    "agency": "FRE",
+    "agency_name": "City of Fremont",
+    "itemized": 110062,
+    "through": "2026-10-21",
+    "donor_count": 102,
+    "top": [
+     {
+      "name": "Ying Min Li",
+      "amount": 68460
+     },
+     {
+      "name": "YANG SHAO",
+      "amount": 850
+     },
+     {
+      "name": "DERICK YEE",
+      "amount": 850
+     },
+     {
+      "name": "Joyce Li",
+      "amount": 800
+     },
+     {
+      "name": "Pamela Li",
+      "amount": 800
+     },
+     {
+      "name": "Gordon Li",
+      "amount": 800
+     },
+     {
+      "name": "Joanna Li",
+      "amount": 800
+     },
+     {
+      "name": "Xiang Li",
+      "amount": 800
+     }
+    ],
+    "committee": "Ying-Min Li for Fremont City Council 2026",
+    "fppc_id": "1485950",
+    "portal": "https://public.netfile.com/pub2/?AID=FRE"
+   },
+   "Manisha Pathak": {
+    "agency": "FRE",
+    "agency_name": "City of Fremont",
+    "itemized": 14319,
+    "through": "2026-10-15",
+    "donor_count": 37,
+    "top": [
+     {
+      "name": "Vinod Kumar",
+      "amount": 850
+     },
+     {
+      "name": "Kalpana Kumari",
+      "amount": 850
+     },
+     {
+      "name": "A4H",
+      "amount": 850
+     },
+     {
+      "name": "Sudarshan Kumar",
+      "amount": 850
+     },
+     {
+      "name": "Mihir Meghani",
+      "amount": 850
+     },
+     {
+      "name": "Siddharth Shastri",
+      "amount": 850
+     },
+     {
+      "name": "Ratandeep Bhangal",
+      "amount": 850
+     },
+     {
+      "name": "Lokesh Birla",
+      "amount": 850
+     }
+    ],
+    "committee": "PATHAK FOR FREMONT CITY COUNCIL DISTRICT 4 2026",
+    "fppc_id": "1491227",
+    "portal": "https://public.netfile.com/pub2/?AID=FRE"
+   }
+  },
+  "ala-mayor-hayward": {
+   "Mark Salinas": {
+    "agency": "HWD",
+    "agency_name": "City of Hayward",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Mark Salinas for Mayor of Hayward 2026",
+    "fppc_id": "1438937",
+    "portal": "https://public.netfile.com/pub2/?AID=HWD"
+   },
+   "Tom Wong": {
+    "agency": "HWD",
+    "agency_name": "City of Hayward",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Tom Wong",
+    "fppc_id": "1496977",
+    "portal": "https://public.netfile.com/pub2/?AID=HWD"
+   }
+  },
+  "ala-members-of-city-council-district-1-hayward": {
+   "Brian M. Schott": {
+    "agency": "HWD",
+    "agency_name": "City of Hayward",
+    "itemized": 12024,
+    "through": "2026-10-13",
+    "donor_count": 28,
+    "top": [
+     {
+      "name": "Jere Van Puffelen",
+      "amount": 1500
+     },
+     {
+      "name": "Mr. Paul Martin",
+      "amount": 1500
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC)",
+      "amount": 1500
+     },
+     {
+      "name": "Mr. Lawrence Ratto",
+      "amount": 1000
+     },
+     {
+      "name": "Ms. Doris Dupont",
+      "amount": 1000
+     },
+     {
+      "name": "Mr. Robert Sakai",
+      "amount": 999
+     },
+     {
+      "name": "Richard and Patricia Espicha",
+      "amount": 500
+     },
+     {
+      "name": "Ms. Olurazhidaan Mitchell",
+      "amount": 500
+     }
+    ],
+    "committee": "Schott for Hayward City Council District 1 2026",
+    "fppc_id": "1494873",
+    "portal": "https://public.netfile.com/pub2/?AID=HWD"
+   }
+  },
+  "ala-member-of-city-council-2-livermore": {
+   "Ben Barrientos": {
+    "agency": "LIV",
+    "agency_name": "City of Livermore",
+    "itemized": 1600,
+    "through": "2026-09-28",
+    "donor_count": 5,
+    "top": [
+     {
+      "name": "Jean King",
+      "amount": 1000
+     },
+     {
+      "name": "Gary Potter",
+      "amount": 200
+     },
+     {
+      "name": "Donald and Linda Milanese",
+      "amount": 200
+     },
+     {
+      "name": "Tom Soules",
+      "amount": 100
+     },
+     {
+      "name": "Alvin Satake",
+      "amount": 100
+     }
+    ],
+    "committee": "Ben Barrientos for Livermore City Council District 2 2026",
+    "fppc_id": "1494221",
+    "portal": "https://public.netfile.com/pub2/?AID=LIV"
+   },
+   "Narayan Tadimeti": {
+    "agency": "LIV",
+    "agency_name": "City of Livermore",
+    "itemized": 8000,
+    "through": "2026-09-14",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Mr. Lakshminarayana Tadimeti",
+      "amount": 8000
+     }
+    ],
+    "committee": "Tadimeti for Livermore City Council 2026",
+    "fppc_id": "1495151",
+    "portal": "https://public.netfile.com/pub2/?AID=LIV"
+   }
+  },
+  "ala-members-of-city-council-newark": {
+   "Tonya Connolly": {
+    "agency": "NRK",
+    "agency_name": "City of Newark",
+    "itemized": 5700,
+    "through": "2026-09-21",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Mrs. Tonya Connolly",
+      "amount": 5700
+     }
+    ],
+    "committee": "Connolly for Newark City Council 2026",
+    "fppc_id": "1496709",
+    "portal": "https://public.netfile.com/pub2/?AID=NRK"
+   },
+   "Matthew Jorgens": {
+    "agency": "NRK",
+    "agency_name": "City of Newark",
+    "itemized": 3440,
+    "through": "2026-09-04",
+    "donor_count": 8,
+    "top": [
+     {
+      "name": "Matthew Jorgens",
+      "amount": 990
+     },
+     {
+      "name": "Cheryl Jorgens",
+      "amount": 800
+     },
+     {
+      "name": "Alex Lee for State Assembly 2026",
+      "amount": 800
+     },
+     {
+      "name": "Janet Nelson",
+      "amount": 250
+     },
+     {
+      "name": "Steven Chan",
+      "amount": 200
+     },
+     {
+      "name": "Sue Chan for Ohlone Board",
+      "amount": 200
+     },
+     {
+      "name": "Timothy Orozco",
+      "amount": 100
+     },
+     {
+      "name": "Anurag Pal",
+      "amount": 100
+     }
+    ],
+    "committee": "Matthew Jorgens for Newark City Council 2026",
+    "fppc_id": "1493512",
+    "portal": "https://public.netfile.com/pub2/?AID=NRK"
+   },
+   "Eve Marie Little": {
+    "agency": "NRK",
+    "agency_name": "City of Newark",
+    "itemized": 3542,
+    "through": "2026-10-02",
+    "donor_count": 4,
+    "top": [
+     {
+      "name": "Eve Marie Little",
+      "amount": 2000
+     },
+     {
+      "name": "California Real Estate Political Action Committee (PREPAC) #890106 - Small Contributor Committee",
+      "amount": 800
+     },
+     {
+      "name": "Laborers' Local 304 PAC Account - ID#902565",
+      "amount": 500
+     },
+     {
+      "name": "Rick and Sandi Arellano",
+      "amount": 242
+     }
+    ],
+    "committee": "Eve Marie Little for Newark City Council 2026",
+    "fppc_id": "1488281",
+    "portal": "https://public.netfile.com/pub2/?AID=NRK"
+   }
+  },
+  "ala-mayor-oakland": {
+   "Brenda F. Grisham": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 11571,
+    "through": "2026-10-04",
+    "donor_count": 32,
+    "top": [
+     {
+      "name": "FIRST AID TRANSPORTATION LLC",
+      "amount": 1500
+     },
+     {
+      "name": "Shop Rite Grocery",
+      "amount": 1108
+     },
+     {
+      "name": "CAFE ADUU LLC",
+      "amount": 900
+     },
+     {
+      "name": "Mr. SAM SINGER",
+      "amount": 900
+     },
+     {
+      "name": "Mrs. NANCY O'MALLEY",
+      "amount": 900
+     },
+     {
+      "name": "Mr. ALI ABDORHMAN - ALBASIERY",
+      "amount": 540
+     },
+     {
+      "name": "Mr. CLEVELAND BELLARD",
+      "amount": 500
+     },
+     {
+      "name": "Ms. BRENDA HARBIN FORTE",
+      "amount": 500
+     }
+    ],
+    "committee": "Brenda Grisham for Oakland Mayor 2026",
+    "fppc_id": "1485058",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "Julius Robinson": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 10775,
+    "through": "2026-10-13",
+    "donor_count": 13,
+    "top": [
+     {
+      "name": "Julius Robinson",
+      "amount": 6500
+     },
+     {
+      "name": "Robert Chenault",
+      "amount": 650
+     },
+     {
+      "name": "Laketa Simpson",
+      "amount": 650
+     },
+     {
+      "name": "Ranjeev Hira",
+      "amount": 500
+     },
+     {
+      "name": "Tony Botts",
+      "amount": 500
+     },
+     {
+      "name": "Alana Howard",
+      "amount": 500
+     },
+     {
+      "name": "Morris Hirsch",
+      "amount": 250
+     },
+     {
+      "name": "Richard Chacon",
+      "amount": 250
+     }
+    ],
+    "committee": "Robinson for Mayor 2026",
+    "fppc_id": "1495931",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-councilmember-district-no-2-oakland": {
+   "Nate Adams": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 43376,
+    "through": "2026-10-17",
+    "donor_count": 150,
+    "top": [
+     {
+      "name": "Anna Medyukhina",
+      "amount": 900
+     },
+     {
+      "name": "Jesse Rosemoore",
+      "amount": 900
+     },
+     {
+      "name": "Dean Preston",
+      "amount": 900
+     },
+     {
+      "name": "Vishtasp Soroushian",
+      "amount": 900
+     },
+     {
+      "name": "Tim Drew",
+      "amount": 900
+     },
+     {
+      "name": "Summer Davies",
+      "amount": 900
+     },
+     {
+      "name": "Patrick Colford",
+      "amount": 900
+     },
+     {
+      "name": "Sarah Lamm",
+      "amount": 900
+     }
+    ],
+    "committee": "Nate Adams for City Council District 2 2026",
+    "fppc_id": "1490172",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-councilmember-district-no-6-oakland": {
+   "Kevin E. Jenkins": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 141125,
+    "through": "2026-10-13",
+    "donor_count": 209,
+    "top": [
+     {
+      "name": "Auto Plus Towing, LLC",
+      "amount": 2250
+     },
+     {
+      "name": "Turbo Auto Body Inc.",
+      "amount": 1800
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 PAC",
+      "amount": 1800
+     },
+     {
+      "name": "U.A. Local 342",
+      "amount": 1800
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC SCC",
+      "amount": 1800
+     },
+     {
+      "name": "IAFF Local 55 PAC",
+      "amount": 1800
+     },
+     {
+      "name": "Northern California Carpenters Regional Council POWER PAC SCC",
+      "amount": 1800
+     },
+     {
+      "name": "Service Employees International Union Local 1021 PAC",
+      "amount": 1800
+     }
+    ],
+    "committee": "Re-Elect Kevin Jenkins for Oakland City Council 2026",
+    "fppc_id": "1481569",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-auditor-oakland": {
+   "Michael C. Houston": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 8000,
+    "through": "2026-10-11",
+    "donor_count": 19,
+    "top": [
+     {
+      "name": "Michael Houston",
+      "amount": 2500
+     },
+     {
+      "name": "Araina Lynn Hennen",
+      "amount": 900
+     },
+     {
+      "name": "Patrick Ngo",
+      "amount": 900
+     },
+     {
+      "name": "Mary Preston",
+      "amount": 600
+     },
+     {
+      "name": "Monique C Houston",
+      "amount": 400
+     },
+     {
+      "name": "Gloria Houston",
+      "amount": 400
+     },
+     {
+      "name": "Jenny Wong",
+      "amount": 300
+     },
+     {
+      "name": "Robert Rodrock",
+      "amount": 300
+     }
+    ],
+    "committee": "Michael Houston for Oakland City Auditor 2026",
+    "fppc_id": "1490336",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-school-director-district-no-2-oakland": {
+   "Jennifer Brouhard": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 8250,
+    "through": "2026-09-19",
+    "donor_count": 28,
+    "top": [
+     {
+      "name": "Marissa Zamora",
+      "amount": 900
+     },
+     {
+      "name": "Chase Latta",
+      "amount": 900
+     },
+     {
+      "name": "Carrie Austin",
+      "amount": 650
+     },
+     {
+      "name": "Ismael Armendariz",
+      "amount": 600
+     },
+     {
+      "name": "Jesus Arellano",
+      "amount": 600
+     },
+     {
+      "name": "Louis Quindlen",
+      "amount": 600
+     },
+     {
+      "name": "IAFF Local 55",
+      "amount": 500
+     },
+     {
+      "name": "Emily Filloy",
+      "amount": 500
+     }
+    ],
+    "committee": "Committee to Re-Elect Jennifer Brouhard for Oakland School Board 2026",
+    "fppc_id": "1492545",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "Arielle Fleisher": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 1800,
+    "through": "2026-09-19",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Empower Oakland Committee",
+      "amount": 1800
+     }
+    ],
+    "committee": "Arielle Fleisher for Oakland School Board 2026",
+    "fppc_id": "1490303",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-school-director-district-no-4-oakland": {
+   "Kathryn Camp": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 24960,
+    "through": "2026-10-17",
+    "donor_count": 65,
+    "top": [
+     {
+      "name": "Re-Elect Kevin Jenkins Oakland City Council",
+      "amount": 2700
+     },
+     {
+      "name": "Building and Construction Trades Council of Alameda County PAC",
+      "amount": 1800
+     },
+     {
+      "name": "Empower Oakland Committee",
+      "amount": 1800
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1500
+     },
+     {
+      "name": "Sheila Wells",
+      "amount": 1500
+     },
+     {
+      "name": "International Union of Painters and Allied Trades Legislative Educational Committee",
+      "amount": 1000
+     },
+     {
+      "name": "Rodric Camp",
+      "amount": 900
+     },
+     {
+      "name": "John George",
+      "amount": 900
+     }
+    ],
+    "committee": "Kathryn Camp for Oakland School Board 2026",
+    "fppc_id": "1490067",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "Mike Hutchinson": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 5750,
+    "through": "2026-09-30",
+    "donor_count": 17,
+    "top": [
+     {
+      "name": "Empower Oakland Committee",
+      "amount": 1300
+     },
+     {
+      "name": "Oliver Brennan",
+      "amount": 900
+     },
+     {
+      "name": "Daniel Hutchinson",
+      "amount": 900
+     },
+     {
+      "name": "Bill Hutchinson",
+      "amount": 900
+     },
+     {
+      "name": "Morgan Hallmon",
+      "amount": 250
+     },
+     {
+      "name": "Jorge Lerma",
+      "amount": 200
+     },
+     {
+      "name": "Leonard Raphael",
+      "amount": 200
+     },
+     {
+      "name": "Meghan Langston",
+      "amount": 200
+     }
+    ],
+    "committee": "Mike Hutchinson for Oakland School Board 2026",
+    "fppc_id": "1494564",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "Sylvia Pfeiffer Williams": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 8439,
+    "through": "2026-10-14",
+    "donor_count": 23,
+    "top": [
+     {
+      "name": "Sylvia Williams",
+      "amount": 1500
+     },
+     {
+      "name": "Margo Figgins",
+      "amount": 900
+     },
+     {
+      "name": "Emily Filloy",
+      "amount": 899
+     },
+     {
+      "name": "Michael Alexander",
+      "amount": 899
+     },
+     {
+      "name": "Alameda County Labor Council FPPC# 1294190",
+      "amount": 800
+     },
+     {
+      "name": "Floyd Huen",
+      "amount": 500
+     },
+     {
+      "name": "Arnold Gerritsen",
+      "amount": 400
+     },
+     {
+      "name": "Brian Williams",
+      "amount": 300
+     }
+    ],
+    "committee": "Sylvia Pfeiffer Williams Committee to Elect District 4 School Board 2026",
+    "fppc_id": "1496725",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-school-director-district-no-6-oakland": {
+   "Valarie Bachelor": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 60403,
+    "through": "2026-10-21",
+    "donor_count": 171,
+    "top": [
+     {
+      "name": "Service Employees International Union Local 1021",
+      "amount": 1800
+     },
+     {
+      "name": "Alameda Labor Council, AFL-CIO Unity PAC",
+      "amount": 1800
+     },
+     {
+      "name": "Oakland Education Association PAC",
+      "amount": 1800
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "amount": 1800
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1800
+     },
+     {
+      "name": "Building and Construction Trades Council of Alameda County PAC",
+      "amount": 1800
+     },
+     {
+      "name": "U.A. Local 342 PAC",
+      "amount": 1800
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1800
+     }
+    ],
+    "committee": "Coalition to Re-Elect Valarie Bachelor for Oakland School Board 2026",
+    "fppc_id": "1492547",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "LeAna Powell": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 1800,
+    "through": "2026-09-17",
+    "donor_count": 1,
+    "top": [
+     {
+      "name": "Empower Oakland Committee",
+      "amount": 1800
+     }
+    ],
+    "committee": "LeAna Powell for Oakland School Board 2026",
+    "fppc_id": "1491564",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   },
+   "Alexandra Williams": {
+    "agency": "COAK",
+    "agency_name": "City of Oakland",
+    "itemized": 9489,
+    "through": "2026-10-09",
+    "donor_count": 27,
+    "top": [
+     {
+      "name": "Empower Oakland Committee",
+      "amount": 1300
+     },
+     {
+      "name": "Govern for California Courage Commiteee",
+      "amount": 900
+     },
+     {
+      "name": "Families in Action for Justice",
+      "amount": 900
+     },
+     {
+      "name": "Jody London",
+      "amount": 700
+     },
+     {
+      "name": "Anne Campbell Washington",
+      "amount": 500
+     },
+     {
+      "name": "Sparky Carranza",
+      "amount": 500
+     },
+     {
+      "name": "Forum Desai Jinal Jhaveri",
+      "amount": 500
+     },
+     {
+      "name": "Nick Resnick",
+      "amount": 500
+     }
+    ],
+    "committee": "Alexandra Williams for District 6 School Board 2026",
+    "fppc_id": "1492061",
+    "portal": "https://public.netfile.com/pub2/?AID=COAK"
+   }
+  },
+  "ala-members-of-city-council-piedmont": {
+   "Adam Hundt": {
+    "agency": "PMT",
+    "agency_name": "City of Piedmont",
+    "itemized": 25350,
+    "through": "2026-10-05",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "Adam Hundt",
+      "amount": 25100
+     },
+     {
+      "name": "Eugene Tulika",
+      "amount": 250
+     }
+    ],
+    "committee": "Adam Hundt for Piedmont City Council 2026",
+    "fppc_id": "1496695",
+    "portal": "https://public.netfile.com/pub2/?AID=PMT"
+   }
+  },
+  "ala-mayor-pleasanton": {
+   "Jack Balch": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 80787,
+    "through": "2026-10-19",
+    "donor_count": 200,
+    "top": [
+     {
+      "name": "Harb Jaser",
+      "amount": 4000
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC)",
+      "amount": 3500
+     },
+     {
+      "name": "Jasjeet Singh",
+      "amount": 3500
+     },
+     {
+      "name": "Peter Hoose",
+      "amount": 2500
+     },
+     {
+      "name": "Jack W. Balch",
+      "amount": 2050
+     },
+     {
+      "name": "Patti Balch",
+      "amount": 2040
+     },
+     {
+      "name": "Theodore Fong",
+      "amount": 2000
+     },
+     {
+      "name": "Alan Hyman",
+      "amount": 2000
+     }
+    ],
+    "committee": "Jack Balch for Mayor 2026",
+    "fppc_id": "1483535",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   },
+   "Julie Testa": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 2835,
+    "through": "2026-10-10",
+    "donor_count": 14,
+    "top": [
+     {
+      "name": "Barbara Comstock",
+      "amount": 500
+     },
+     {
+      "name": "Allen Roberts",
+      "amount": 500
+     },
+     {
+      "name": "Patrick May",
+      "amount": 250
+     },
+     {
+      "name": "Santosh Abraham",
+      "amount": 250
+     },
+     {
+      "name": "Kellene Cousins",
+      "amount": 200
+     },
+     {
+      "name": "John Carroll",
+      "amount": 200
+     },
+     {
+      "name": "Jackie Byerly",
+      "amount": 200
+     },
+     {
+      "name": "Ronald Horner",
+      "amount": 200
+     }
+    ],
+    "committee": "Julie Testa for Mayor 2026",
+    "fppc_id": "1496841",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   }
+  },
+  "ala-members-of-city-council-1-pleasanton": {
+   "Vin Kruttiventi": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 51001,
+    "through": "2026-10-22",
+    "donor_count": 3,
+    "top": [
+     {
+      "name": "Vin Kruttiventi",
+      "amount": 50000
+     },
+     {
+      "name": "Mihir Meghani",
+      "amount": 501
+     },
+     {
+      "name": "David Miller",
+      "amount": 500
+     }
+    ],
+    "committee": "Vin Kruttiventi for Pleasanton City Council 2026",
+    "fppc_id": "1494596",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   },
+   "Kathy Narum": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 12813,
+    "through": "2026-10-17",
+    "donor_count": 58,
+    "top": [
+     {
+      "name": "California Real Estate PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Livermore Pleasanton Firefighters Local 1974 - PAC Candidate",
+      "amount": 975
+     },
+     {
+      "name": "Jim Merryman",
+      "amount": 500
+     },
+     {
+      "name": "Andrew Gelb",
+      "amount": 500
+     },
+     {
+      "name": "Dan Dunkley",
+      "amount": 500
+     },
+     {
+      "name": "Susan Houghton",
+      "amount": 500
+     },
+     {
+      "name": "Ravi Sunkara",
+      "amount": 500
+     },
+     {
+      "name": "Jasjeet Singh",
+      "amount": 500
+     }
+    ],
+    "committee": "Kathy Narum for City Council 2026",
+    "fppc_id": "1494592",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   }
+  },
+  "ala-members-of-city-council-3-pleasanton": {
+   "Reena Gupta": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 16448,
+    "through": "2026-10-17",
+    "donor_count": 57,
+    "top": [
+     {
+      "name": "Reena Gupta",
+      "amount": 1260
+     },
+     {
+      "name": "Sheena Khara",
+      "amount": 990
+     },
+     {
+      "name": "Kirthiga Reddy",
+      "amount": 990
+     },
+     {
+      "name": "Giri Lankipalle",
+      "amount": 990
+     },
+     {
+      "name": "Sudharsana Srinivasan",
+      "amount": 990
+     },
+     {
+      "name": "Dheeraj Nallagatla",
+      "amount": 990
+     },
+     {
+      "name": "Timothy Draper",
+      "amount": 990
+     },
+     {
+      "name": "Harsh Singh",
+      "amount": 500
+     }
+    ],
+    "committee": "Reena Gupta for Pleasanton City Council 2026",
+    "fppc_id": "1492406",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   },
+   "Jamie Yee": {
+    "agency": "COP",
+    "agency_name": "City of Pleasanton",
+    "itemized": 13747,
+    "through": "2026-10-10",
+    "donor_count": 53,
+    "top": [
+     {
+      "name": "Mrs. Jean Chew",
+      "amount": 1000
+     },
+     {
+      "name": "California Real Estate Political Action Committee (CREPAC) California Association of REALTORS",
+      "amount": 1000
+     },
+     {
+      "name": "Laborers' Local 304 PAC Account",
+      "amount": 1000
+     },
+     {
+      "name": "Livermore Pleasanton Firefighters Local 1974 - PAC Candidate",
+      "amount": 975
+     },
+     {
+      "name": "Bruce Torquemada",
+      "amount": 850
+     },
+     {
+      "name": "Mr. Ken Benhamou",
+      "amount": 500
+     },
+     {
+      "name": "Mr. Joe Callahan",
+      "amount": 500
+     },
+     {
+      "name": "Mrs. Shiela Vincent",
+      "amount": 500
+     }
+    ],
+    "committee": "Jamie Yee for City Council 2026",
+    "fppc_id": "1488056",
+    "portal": "https://public.netfile.com/pub2/?AID=COP"
+   }
+  },
+  "ala-ac-transit-district-director-ward-3": {
+   "Adriana Valencia": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Adriana Valencia for AC Transit - Ward 3 - 2026",
+    "fppc_id": "1494982",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Joel B. Young": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 6000,
+    "through": "2026-10-09",
+    "donor_count": 2,
+    "top": [
+     {
+      "name": "AFSCME Local 3916",
+      "amount": 5000
+     },
+     {
+      "name": "American Federation of State, County & Municipal Employees - Council 57 PAC",
+      "amount": 1000
+     }
+    ],
+    "committee": "Young for AC Transit Board Ward 3 - 2026",
+    "fppc_id": "1497072",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-alameda-county-water-district-director-ward-2": {
+   "Judy C. Huang": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Judy Huang for Alameda County Water District Director 2026",
+    "fppc_id": "1495338",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-bart-director-district-4": {
+   "Robert Raburn": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 79855,
+    "through": "2026-10-21",
+    "donor_count": 26,
+    "top": [
+     {
+      "name": "Robert Raburn",
+      "amount": 40000
+     },
+     {
+      "name": "AFSCME Local 3993 PAC",
+      "amount": 10000
+     },
+     {
+      "name": "AFSCME Local 3993",
+      "amount": 10000
+     },
+     {
+      "name": "Service Employees International Union Local 1021 Candidate PAC",
+      "amount": 10000
+     },
+     {
+      "name": "Robert Raburn for BART District 4 2014",
+      "amount": 3080
+     },
+     {
+      "name": "Margaret Staub",
+      "amount": 1000
+     },
+     {
+      "name": "Maria Massella",
+      "amount": 1000
+     },
+     {
+      "name": "David Larson",
+      "amount": 700
+     }
+    ],
+    "committee": "Robert Raburn for BART Board Director District 4 2026",
+    "fppc_id": "1484131",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-ebmud-director-ward-7": {
+   "April Chan": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "April Chan for East Bay Municipal Utility District, 2026",
+    "fppc_id": "1476674",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   },
+   "Gary Wolff": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 6000,
+    "through": "2026-10-17",
+    "donor_count": 5,
+    "top": [
+     {
+      "name": "H. James Knuppe",
+      "amount": 2000
+     },
+     {
+      "name": "Sheet Metal Workers Local Union 104 Political Committee",
+      "amount": 1000
+     },
+     {
+      "name": "International Brotherhood of Electrical Workers Local 595 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "IBEW 302 Comm Candidates PAC",
+      "amount": 1000
+     },
+     {
+      "name": "Building and Construction Trades Council of Alameda County PAC",
+      "amount": 1000
+     }
+    ],
+    "committee": "Wolff for EBMUD Director 2026",
+    "fppc_id": "1484064",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-east-bay-regional-park-district-director-ward-3": {
+   "Rebecca Lewington": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 8550,
+    "through": "2026-10-14",
+    "donor_count": 22,
+    "top": [
+     {
+      "name": "Rebecca Lewington",
+      "amount": 5000
+     },
+     {
+      "name": "East Bay Stonewall Dem Club PAC",
+      "amount": 750
+     },
+     {
+      "name": "David Forde",
+      "amount": 300
+     },
+     {
+      "name": "East Bay Animal PAC",
+      "amount": 250
+     },
+     {
+      "name": "Mary Barnsdale",
+      "amount": 250
+     },
+     {
+      "name": "Scott Bartlebaugh",
+      "amount": 200
+     },
+     {
+      "name": "John Roberts",
+      "amount": 200
+     },
+     {
+      "name": "Sarah Silverthorn",
+      "amount": 200
+     }
+    ],
+    "committee": "Rebecca Lewington for East Bay Regional Park Director 2026",
+    "fppc_id": "1497373",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-east-bay-regional-park-district-director-ward-5": {
+   "Olivia Sanwong": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 10224,
+    "through": "2026-10-15",
+    "donor_count": 17,
+    "top": [
+     {
+      "name": "AFSCME Local 2428",
+      "amount": 2428
+     },
+     {
+      "name": "AFSCME 2428",
+      "amount": 2428
+     },
+     {
+      "name": "Colin Coffey",
+      "amount": 1030
+     },
+     {
+      "name": "Olivia Sanwong",
+      "amount": 1000
+     },
+     {
+      "name": "Norman LaForce",
+      "amount": 515
+     },
+     {
+      "name": "Elinor Blake",
+      "amount": 500
+     },
+     {
+      "name": "Bob Wieckowski",
+      "amount": 500
+     },
+     {
+      "name": "East Bay Animal PAC",
+      "amount": 350
+     }
+    ],
+    "committee": "Sanwong for East Bay Regional Park District Director 2026; Olivia",
+    "fppc_id": "1454016",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-hayward-area-recreation-park-district-director-area-2": {
+   "Sara Lamnin": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 16281,
+    "through": "2026-10-12",
+    "donor_count": 46,
+    "top": [
+     {
+      "name": "Laborers' Local 304 PAC Account",
+      "amount": 2500
+     },
+     {
+      "name": "Sprinkler Fitters & Apprentices Local 483 Local Political Action Committee",
+      "amount": 2000
+     },
+     {
+      "name": "North Coast States Regional Council of Carpenters Power PAC",
+      "amount": 1800
+     },
+     {
+      "name": "Joan Sieber",
+      "amount": 1000
+     },
+     {
+      "name": "International Brotherhood of Electrical Works Local 595 PAC",
+      "amount": 1000
+     },
+     {
+      "name": "The Mexican Restaurant & Bar",
+      "amount": 1000
+     },
+     {
+      "name": "William Quirk",
+      "amount": 500
+     },
+     {
+      "name": "Pam Russo for Director 2020",
+      "amount": 300
+     }
+    ],
+    "committee": "Lamnin for Hayward Area Recreation and Parks District (HARD) Board of Directors 2026",
+    "fppc_id": "1446851",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  },
+  "ala-member-board-of-director-oro-loma-sanitary-dist-5": {
+   "Koroush \"Cyrus\" Farsaei": {
+    "agency": "COA",
+    "agency_name": "Alameda County",
+    "itemized": 0,
+    "donor_count": 0,
+    "top": [],
+    "committee": "Koroush \"Cyrus\" Farsaei for Oro Loma Sanitary District Board 2026",
+    "fppc_id": "1494209",
+    "portal": "https://public.netfile.com/pub2/?AID=COA"
+   }
+  }
+ }
+}

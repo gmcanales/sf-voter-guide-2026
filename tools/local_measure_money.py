@@ -171,6 +171,79 @@ def api_get(path: str, **params) -> dict:
     return json.loads(urllib.request.urlopen(req, timeout=60).read().decode("utf-8"))
 
 
+_FILERS: dict = {}
+
+
+def agency_filers(shortcut: str) -> list[dict]:
+    """Every committee registered with one NetFile agency: [{fppcId, name}, ...] (cached)."""
+    if shortcut not in _FILERS:
+        filers, page = [], 0
+        while True:
+            d = api_get("campaign/list/filer", AID=shortcut, PageSize=500, CurrentPageIndex=page)
+            filers += d.get("filers", [])
+            page += 1
+            if page >= d.get("totalMatchingPages", 1):
+                break
+        _FILERS[shortcut] = filers
+    return _FILERS[shortcut]
+
+
+def committee_itemized(ag: dict, fid: str, nf_name: str, since: str | None = None) -> dict | None:
+    """Itemized contributions to one committee, found by its exact NetFile name.
+
+    Transactions come from a name search with superseded amendments excluded, then are
+    filtered to the committee's own FPPC id (or, while the id is still "Pending", its exact
+    name). Counts Schedule A, Schedule C and Form 497 part 1, deduping late contributions
+    that reappear on the next Form 460 (same donor, date and amount). Contributions under
+    $100 aren't itemized, so this is "itemized", not the 460 total.
+    """
+    import urllib.error
+    words = re.sub(r"[^\w\s&'-]", " ", nf_name).split()[:8]
+    # The search rejects some queries as "ProfaneSearchException" (a word in a name trips its
+    # filter). Retry with shorter prefixes; the FPPC-id filter below keeps results exact.
+    for n in range(len(words), 1, -1):
+        q, rows, page = " ".join(words[:n]), [], 0
+        try:
+            while True:
+                d = api_get("campaign/search/transaction/query", Agency=ag["id"], QueryString=q,
+                            PageSize=500, CurrentPageIndex=page, ShowSuperceded="false")
+                rows += d.get("results", [])
+                page += 1
+                if page >= d.get("totalMatchingPages", 1):
+                    break
+            break
+        except urllib.error.HTTPError as e:
+            if e.code != 400:
+                raise
+    else:
+        print(f"  ! NetFile search refused every form of {nf_name!r}; skipped")
+        return None
+    if fid.isdigit():
+        mine = [r for r in rows if (r.get("filerFppcId") or "").rstrip(".") == fid]
+    else:
+        mine = [r for r in rows if (r.get("filerName") or "").strip().lower() == nf_name.strip().lower()]
+    mine = [r for r in mine if r.get("transactionType") in A_TYPES and (not since or r["date"][:10] >= since)]
+    if not mine:
+        return None
+    seen, donors, last = set(), defaultdict(float), None
+    for r in sorted(mine, key=lambda r: r["transactionType"]):   # 460 rows before 497 rows
+        k = ((r.get("name") or "").upper(), r["date"][:10], round(r["amount"], 2))
+        if k in seen:
+            continue
+        seen.add(k)
+        donors[r.get("name") or "Unitemized"] += r["amount"]
+        last = max(filter(None, [last, r["date"][:10]]))
+    top = sorted(donors.items(), key=lambda kv: -kv[1])
+    return {"agency": ag["shortcut"], "agency_name": ag["name"], "itemized": round(sum(donors.values())),
+            "through": last, "donor_count": len(top),
+            "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
+
+
+def agencies() -> list[dict]:
+    a = api_get("campaign/agencies")
+    return a.get("agencies", a) if isinstance(a, dict) else a
+
+
 def netfile_api(wanted: dict) -> dict:
     """Itemized contributions per committee from NetFile's documented public API.
 
@@ -181,58 +254,28 @@ def netfile_api(wanted: dict) -> dict:
     contributions that reappear on the next Form 460 (same donor, date and amount).
     Contributions under $100 aren't itemized, so this is "itemized", not the 460 total.
     """
-    agencies = api_get("campaign/agencies")
-    agencies = agencies.get("agencies", agencies) if isinstance(agencies, dict) else agencies
-    out, filer_cache = {}, {}
+    ags = agencies()
+    out = {}
     for fid, (name, jur, cid) in wanted.items():
         place = re.sub(r"^(City|Town) of\s+", "", jur)
-        ag = next((a for a in agencies if jur.startswith(("City of", "Town of"))
+        ag = next((a for a in ags if jur.startswith(("City of", "Town of"))
                    and re.search(rf"\b{re.escape(place)}\b", a["name"]) and "County" not in a["name"]), None)
         if not ag:
             code = COUNTY_AGENCY[cid.split("-")[0]]
-            ag = next(a for a in agencies if a["shortcut"] == code) if not jur.startswith(("City of", "Town of")) else None
+            ag = next(a for a in ags if a["shortcut"] == code) if not jur.startswith(("City of", "Town of")) else None
         if not ag:
             continue                                    # city not on NetFile (e.g. South San Francisco)
         # Search by the committee's exact NetFile name (looked up by FPPC id in the agency's filer
         # list); Cal-Access spellings differ and the search matches whole words.
-        if ag["shortcut"] not in filer_cache:
-            filers, page = {}, 0
-            while True:
-                d = api_get("campaign/list/filer", AID=ag["shortcut"], PageSize=500, CurrentPageIndex=page)
-                for f in d.get("filers", []):
-                    filers[(f.get("fppcId") or "").rstrip(".")] = f.get("name") or ""
-                page += 1
-                if page >= d.get("totalMatchingPages", 1):
-                    break
-            filer_cache[ag["shortcut"]] = filers
-        nf_name = filer_cache[ag["shortcut"]].get(fid)
+        names = {(f.get("fppcId") or "").rstrip("."): f.get("name") or "" for f in agency_filers(ag["shortcut"])}
+        nf_name = names.get(fid)
         if not nf_name:
             continue                                    # files elsewhere, or not yet on NetFile
-        q = " ".join(re.sub(r"[^\w\s&'-]", " ", nf_name).split()[:8])
-        rows, page = [], 0
-        while True:
-            d = api_get("campaign/search/transaction/query", Agency=ag["id"], QueryString=q,
-                        PageSize=500, CurrentPageIndex=page, ShowSuperceded="false")
-            rows += d.get("results", [])
-            page += 1
-            if page >= d.get("totalMatchingPages", 1):
-                break
-        mine = [r for r in rows if r.get("filerFppcId", "").rstrip(".") == fid and r.get("transactionType") in A_TYPES]
-        if not mine:
+        rec = committee_itemized(ag, fid, nf_name)
+        if not rec:
             continue
-        seen, donors, last = set(), defaultdict(float), None
-        for r in sorted(mine, key=lambda r: r["transactionType"]):   # 460 rows before 497 rows
-            k = ((r.get("name") or "").upper(), r["date"][:10], round(r["amount"], 2))
-            if k in seen:
-                continue
-            seen.add(k)
-            donors[r.get("name") or "Unitemized"] += r["amount"]
-            last = max(filter(None, [last, r["date"][:10]]))
-        top = sorted(donors.items(), key=lambda kv: -kv[1])
-        out[fid] = {"agency": ag["shortcut"], "agency_name": ag["name"], "itemized": round(sum(donors.values())),
-                    "through": last, "donor_count": len(top),
-                    "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
-        print(f"  api {ag['shortcut']:5} {fid} ${out[fid]['itemized']:,} itemized, {len(top)} donors: {name[:60]}")
+        out[fid] = rec
+        print(f"  api {ag['shortcut']:5} {fid} ${rec['itemized']:,} itemized, {rec['donor_count']} donors: {name[:60]}")
     return out
 
 
