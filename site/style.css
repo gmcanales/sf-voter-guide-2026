@@ -257,6 +257,8 @@
   background: var(--surface);
   border: 1px solid var(--border);
   border-top: 0;
+  /* A heavier rule between contests so each race or measure reads as its own block. */
+  border-bottom: 3px solid var(--border-strong);
   scroll-margin-top: 120px;
 }
 .vg-contest.is-done { box-shadow: inset 3px 0 0 var(--accent); }
