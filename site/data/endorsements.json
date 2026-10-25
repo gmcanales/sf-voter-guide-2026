@@ -599,6 +599,158 @@
     "all"
    ],
    "scope": "statewide"
+  },
+  {
+   "id": "ebdsa",
+   "name": "East Bay DSA",
+   "short": "East Bay DSA",
+   "kind": "Political club",
+   "url": "https://vote.eastbaydsa.org",
+   "accessed": "2026-10-24",
+   "about": "Covers Alameda and western Contra Costa. Endorses a short slate (Nate Adams, Jennifer Brouhard, Valarie Bachelor, Claudia Jiménez and others); its guide also gives yes/no recommendations on every local measure. Statewide props, offices and RTM carry California DSA's positions.",
+   "money": [
+    {
+     "label": "State PACs",
+     "text": "Two Cal-Access committees (East Bay DSA Electoral Committee, PAC), no Form 460 reports since Jan 2025. Local filings not checked.",
+     "source": {
+      "label": "Cal-Access bulk export (CA Secretary of State)",
+      "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+     }
+    }
+   ],
+   "members": {
+    "text": "Chapter size not published in the guide. National DSA reports over 100,000 members."
+   },
+   "self_description": {
+    "text": "We cannot vote our way to socialism, but the state is nonetheless a key arena of struggle against capital, and electoral campaigns can be powerful tools to foster working-class militancy and build socialist power and organization.",
+    "source": "https://www.eastbaydsa.org/electoral"
+   },
+   "tags": [
+    {
+     "label": "Socialist",
+     "cat": "progressive"
+    }
+   ],
+   "covers": [
+    "alameda",
+    "contracosta"
+   ],
+   "scope": "local"
+  },
+  {
+   "id": "ebyd",
+   "name": "East Bay Young Democrats",
+   "short": "EB Young Dems",
+   "kind": "Party club",
+   "url": "https://www.ebyd.org/endorsements",
+   "accessed": "2026-10-24",
+   "about": "A chartered Democratic club. Endorsements need 60% of club votes. Backs Charlene Wang, Kathryn Camp, LeAna Powell and YES on Oakland EE and FF.",
+   "money": [
+    {
+     "label": "Contributions to its state PAC",
+     "amount": 19167,
+     "period": "Jan 2025 – Jun 30, 2026",
+     "source": {
+      "label": "Cal-Access bulk export (CA Secretary of State)",
+      "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published on its site."
+   },
+   "self_description": {
+    "text": "East Bay Young Democrats is led by an elected executive board tasked with carrying out the will of the general membership and promoting the organization pursuant to its bylaws.",
+    "source": "https://www.ebyd.org/about"
+   },
+   "tags": [
+    {
+     "label": "Democratic club",
+     "cat": "party"
+    }
+   ],
+   "covers": [
+    "alameda",
+    "contracosta"
+   ],
+   "scope": "local"
+  },
+  {
+   "id": "rpa",
+   "name": "Richmond Progressive Alliance",
+   "short": "Richmond Progressive Alliance",
+   "kind": "Political organization",
+   "url": "https://www.richmondprogressivealliance.net/",
+   "accessed": "2026-10-24",
+   "about": "Richmond's main progressive organization; its candidates take no corporate money. No 2026 slate is published on its site, so only its mayoral endorsement (from news reporting) is shown.",
+   "sources": [
+    {
+     "label": "Richmondside: RPA endorses Jiménez",
+     "url": "https://richmondside.org/2026/02/25/claudia-jimenez-running-for-richmond-ca-mayor/"
+    }
+   ],
+   "money": [
+    {
+     "label": "Finances",
+     "text": "No current state committee in Cal-Access; files locally with Richmond.",
+     "source": {
+      "label": "Cal-Access bulk export (CA Secretary of State)",
+      "url": "https://campaignfinance.cdn.sos.ca.gov/dbwebexport.zip"
+     }
+    }
+   ],
+   "members": {
+    "text": "Not published."
+   },
+   "self_description_missing": "Its site has no published mission statement we could quote.",
+   "tags": [
+    {
+     "label": "Progressive",
+     "cat": "progressive"
+    }
+   ],
+   "covers": [
+    "contracosta"
+   ],
+   "scope": "local"
+  },
+  {
+   "id": "lwvoak",
+   "name": "League of Women Voters of Oakland",
+   "short": "LWV Oakland",
+   "kind": "Nonpartisan civic",
+   "url": "https://lwvoakland.org/",
+   "accessed": "2026-10-24",
+   "about": "Nonpartisan; never endorses candidates. Its only 2026 position we found is YES on Measure EE, from the ballot argument its president signed.",
+   "sources": [
+    {
+     "label": "County voter guide, p. 936 (rebuttal signed by its president)",
+     "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=936"
+    }
+   ],
+   "money": [
+    {
+     "label": "Finances",
+     "text": "Not researched yet."
+    }
+   ],
+   "members": {
+    "text": "Not published on its site."
+   },
+   "self_description": {
+    "text": "The League of Women Voters is a nonpartisan, grassroots organization working to protect and expand voting rights and ensure everyone is represented in our democracy.",
+    "source": "https://lwvoakland.org/"
+   },
+   "tags": [
+    {
+     "label": "Nonpartisan",
+     "cat": "civic"
+    }
+   ],
+   "covers": [
+    "alameda"
+   ],
+   "scope": "local"
   }
  ],
  "positions": {
@@ -704,6 +856,15 @@
    ],
    "yimby": [
     "Ben Allen"
+   ],
+   "ebdsa": {
+    "picks": [
+     "Jane Kim"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "ebyd": [
+    "Jane Kim"
    ]
   },
   "boe-2": {
@@ -715,7 +876,13 @@
    ],
    "league": [
     "Sally J. Lieber"
-   ]
+   ],
+   "ebdsa": {
+    "picks": [
+     "Sally J. Lieber"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "us-rep-11": {
    "sfdems": [
@@ -1118,7 +1285,11 @@
    "lwv": "yes",
    "league": "yes",
    "sierra": "yes",
-   "yimby": "yes"
+   "yimby": "yes",
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-2": {
    "sfdems": "yes",
@@ -1131,6 +1302,10 @@
    "lwv": "yes",
    "league": {
     "none": "No position"
+   },
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "prop-3": {
@@ -1144,6 +1319,10 @@
    "league": {
     "vote": "yes",
     "note": "“Hell Yes!”"
+   },
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "prop-4": {
@@ -1158,7 +1337,11 @@
     "vote": "yes",
     "note": "“Hell Yes!”"
    },
-   "sierra": "yes"
+   "sierra": "yes",
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-5": {
    "sfdems": "yes",
@@ -1170,7 +1353,11 @@
     "vote": "yes",
     "note": "“Hell Yes!”"
    },
-   "sierra": "yes"
+   "sierra": "yes",
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-37": {
    "sfdems": "yes",
@@ -1182,14 +1369,21 @@
    "league": {
     "none": "No position"
    },
-   "yimby": "yes"
+   "yimby": "yes",
+   "ebdsa": {
+    "none": "No position"
+   }
   },
   "prop-38": {
    "sfdems": "yes",
    "growsf": "no",
    "dsasf": "no",
    "lwv": "no",
-   "league": "no"
+   "league": "no",
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-39": {
    "sfdems": "no",
@@ -1202,7 +1396,11 @@
     "vote": "no",
     "note": "“Hell No!”"
    },
-   "sierra": "no"
+   "sierra": "no",
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-40": {
    "sfdems": "no",
@@ -1220,6 +1418,10 @@
    "league": {
     "vote": "yes",
     "note": "“Hell Yes!”"
+   },
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "prop-41": {
@@ -1234,6 +1436,10 @@
    "league": {
     "vote": "no",
     "note": "“Hell No!”"
+   },
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "prop-42": {
@@ -1248,6 +1454,10 @@
    "league": {
     "vote": "no",
     "note": "“Hell No!”"
+   },
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "prop-43": {
@@ -1264,7 +1474,11 @@
     "note": "“Hell No!”"
    },
    "sierra": "no",
-   "yimby": "no"
+   "yimby": "no",
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-44": {
    "sfdems": "no",
@@ -1274,7 +1488,11 @@
    },
    "calchamber": "no",
    "lwv": "no",
-   "league": "no"
+   "league": "no",
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "prop-45": {
    "sfdems": "no",
@@ -1290,6 +1508,10 @@
    "sierra": "no",
    "yimby": {
     "none": "No consensus"
+   },
+   "ebdsa": {
+    "vote": "no",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
    }
   },
   "rtm": {
@@ -1305,7 +1527,12 @@
     "note": "“Yes, and…”"
    },
    "sierra": "yes",
-   "yimby": "yes"
+   "yimby": "yes",
+   "ebdsa": {
+    "vote": "yes",
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "ebyd": "yes"
   },
   "prop-a": {
    "sfdems": "yes",
@@ -1449,6 +1676,499 @@
    },
    "lwv": "yes",
    "league": "yes"
+  },
+  "ala-councilmember-district-no-2-oakland": {
+   "ebdsa": [
+    "Nate Adams"
+   ],
+   "yimby": [
+    "Charlene Wang"
+   ],
+   "ebyd": [
+    "Charlene Wang"
+   ]
+  },
+  "ala-members-of-city-council-district-1-hayward": {
+   "ebdsa": [
+    "George Syrop"
+   ]
+  },
+  "ala-member-of-city-council-district-7-berkeley": {
+   "ebdsa": [
+    "Syrak Micael"
+   ],
+   "ebyd": [
+    "Syrak Micael"
+   ]
+  },
+  "ala-school-director-district-no-2-oakland": {
+   "ebdsa": [
+    "Jennifer Brouhard"
+   ]
+  },
+  "ala-school-director-district-no-6-oakland": {
+   "ebdsa": [
+    "Valarie Bachelor"
+   ],
+   "ebyd": {
+    "picks": [
+     "LeAna Powell",
+     "Alexandra Williams"
+    ],
+    "note": "Ranked: #1 LeAna Powell, #2 Alexandra Williams."
+   }
+  },
+  "cc-city-of-richmond-mayor": {
+   "ebdsa": [
+    "Claudia Jiménez"
+   ],
+   "rpa": {
+    "picks": [
+     "Claudia Jiménez"
+    ],
+    "note": "Jiménez is an RPA member; the RPA voted to endorse Jiménez as its sole mayoral candidate (Richmondside)."
+   }
+  },
+  "ala-rent-stabilization-board-commissioners-berkeley": {
+   "ebdsa": [
+    "Avery Arbaugh",
+    "Ida Martinac",
+    "Nathan Mizell",
+    "Vylma Ortiz",
+    "Derek Rodriguez"
+   ],
+   "ebyd": [
+    "Avery Arbaugh",
+    "Ida Martinac",
+    "Nathan Mizell",
+    "Vylma Ortiz",
+    "Derek Rodriguez"
+   ]
+  },
+  "ala-measure-i": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-j": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-k": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-l": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-m": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-n": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "ala-measure-o": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "ala-measure-p": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-q": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-r": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-s": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-t": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-u": {
+   "ebdsa": "yes",
+   "ebyd": "yes"
+  },
+  "ala-measure-v": {
+   "ebdsa": "yes",
+   "ebyd": "yes"
+  },
+  "ala-measure-w": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-x": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-y": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-z": {
+   "ebdsa": "yes",
+   "ebyd": "yes"
+  },
+  "ala-measure-aa": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-bb": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-cc": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-dd": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-ee": {
+   "ebdsa": {
+    "none": "No position"
+   },
+   "ebyd": "yes",
+   "lwvoak": {
+    "vote": "yes",
+    "note": "From the official ballot argument its president signed."
+   }
+  },
+  "ala-measure-ff": {
+   "ebdsa": "yes",
+   "ebyd": "yes"
+  },
+  "ala-measure-gg": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-hh": {
+   "ebdsa": "yes"
+  },
+  "ala-measure-ii": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-m": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-n": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-o": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-p": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-q": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-r": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-s": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-t": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-u": {
+   "ebdsa": {
+    "none": "No position"
+   }
+  },
+  "cc-measure-v": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-w": {
+   "ebdsa": "yes"
+  },
+  "cc-measure-x": {
+   "ebdsa": "yes"
+  },
+  "assembly-14": {
+   "ebdsa": {
+    "picks": [
+     "Mark Rendon"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "yimby": [
+    "Buffy Wicks"
+   ]
+  },
+  "assembly-20": {
+   "ebdsa": {
+    "picks": [
+     "Liz Ortega"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
+  },
+  "assembly-24": {
+   "ebdsa": {
+    "picks": [
+     "Alex Lee"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "yimby": [
+    "Alex Lee"
+   ],
+   "ebyd": [
+    "Alex Lee"
+   ]
+  },
+  "us-rep-12": {
+   "ebdsa": {
+    "picks": [
+     "Lateefah Simon"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "ebyd": [
+    "Lateefah Simon"
+   ]
+  },
+  "us-rep-14": {
+   "ebdsa": {
+    "picks": [
+     "Aisha Wahab"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "ebyd": [
+    "Aisha Wahab"
+   ]
+  },
+  "us-rep-17": {
+   "ebdsa": {
+    "picks": [
+     "Ro Khanna"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   },
+   "ebyd": {
+    "none": "No position"
+   }
+  },
+  "state-senate-10": {
+   "yimby": [
+    "Scott Sakakihara"
+   ],
+   "ebyd": [
+    "Scott Sakakihara"
+   ]
+  },
+  "assembly-18": {
+   "yimby": [
+    "Mia Bonta"
+   ],
+   "ebyd": [
+    "Mia Bonta"
+   ]
+  },
+  "ala-members-of-city-council-albany": {
+   "yimby": [
+    "Aaron Tiedemann",
+    "Robin D. López"
+   ],
+   "ebyd": {
+    "picks": [
+     "Aaron Tiedemann",
+     "Robin D. López"
+    ],
+    "note": "Ranked: #1 Aaron Tiedemann, #2 Robin D. López."
+   }
+  },
+  "ala-member-of-city-council-district-1-berkeley": {
+   "yimby": [
+    "Daria Wrubel",
+    "Ross Bernet"
+   ],
+   "ebyd": [
+    "Daria Wrubel"
+   ]
+  },
+  "ala-member-of-city-council-district-4-berkeley": {
+   "yimby": [
+    "Igor A. Tregub"
+   ],
+   "ebyd": [
+    "Igor A. Tregub"
+   ]
+  },
+  "ala-member-of-city-council-district-8-berkeley": {
+   "yimby": [
+    "Mark Humbert"
+   ],
+   "ebyd": [
+    "Mark Humbert"
+   ]
+  },
+  "ala-castro-valley-unified-school-district-governing-board-member-area-3": {
+   "ebyd": [
+    "Eryka N Mathews-Cain"
+   ]
+  },
+  "ala-mayor-dublin": {
+   "ebyd": [
+    "Michael McCorriston"
+   ]
+  },
+  "ala-members-of-city-council-2-dublin": {
+   "ebyd": [
+    "Richard Thornbury"
+   ]
+  },
+  "ala-members-of-city-council-4-dublin": {
+   "ebyd": [
+    "Kashef Qaadri"
+   ]
+  },
+  "ala-dublin-unified-school-district-governing-board-members-area-3-short-term": {
+   "ebyd": [
+    "Tanner Frye"
+   ]
+  },
+  "ala-dublin-unified-school-district-governing-board-members-area-5": {
+   "ebyd": [
+    "Seema Badar"
+   ]
+  },
+  "ala-members-of-city-council-emeryville": {
+   "yimby": [
+    "Corry Frydlewicz",
+    "David Mourra"
+   ],
+   "ebyd": [
+    "Corry Frydlewicz"
+   ]
+  },
+  "ala-school-director-district-no-4-oakland": {
+   "ebyd": [
+    "Kathryn Camp"
+   ]
+  },
+  "ala-members-of-city-council-3-pleasanton": {
+   "ebyd": [
+    "Jamie Yee"
+   ]
+  },
+  "ala-mayor-san-leandro": {
+   "ebyd": [
+    "Juan González III"
+   ]
+  },
+  "ala-member-of-city-council-3-san-leandro": {
+   "ebyd": [
+    "Joseph Trujillo"
+   ]
+  },
+  "cc-city-of-san-pablo-city-council": {
+   "ebyd": [
+    "Caden Cotton-Blake"
+   ]
+  },
+  "ala-member-of-city-council-3-union-city": {
+   "ebyd": [
+    "Cheris Crocker-Root"
+   ]
+  },
+  "ala-member-of-city-council-4-union-city": {
+   "ebyd": [
+    "Sarabjit Kaur Cheema"
+   ]
+  },
+  "ala-new-haven-unified-school-district-governing-board-member-area-5": {
+   "ebyd": [
+    "Deepti Garg"
+   ]
+  },
+  "ala-ac-transit-district-director-ward-3": {
+   "yimby": [
+    "Adriana Valencia"
+   ],
+   "ebyd": [
+    "Adriana Valencia"
+   ]
+  },
+  "ala-bart-director-district-4": {
+   "yimby": [
+    "Robert Raburn"
+   ],
+   "ebyd": [
+    "Robert Raburn"
+   ]
+  },
+  "ala-chabot-las-positas-community-college-district-trustee-area-3": {
+   "ebyd": [
+    "Harris Mojadedi"
+   ]
+  },
+  "ala-ebmud-director-ward-7": {
+   "ebyd": [
+    "Gary Wolff"
+   ]
+  },
+  "cc-east-bay-m-u-d-ward-7-director": {
+   "ebyd": [
+    "Gary Wolff"
+   ]
+  },
+  "ala-east-bay-regional-park-district-director-ward-5": {
+   "ebyd": [
+    "Olivia Sanwong"
+   ]
+  },
+  "ala-members-of-city-council-alameda": {
+   "yimby": [
+    "Thushan Amarasiriwardena",
+    "Tyler Savage"
+   ]
+  },
+  "ala-mayor-alameda": {
+   "yimby": [
+    "Malia Vella"
+   ]
+  },
+  "assembly-23": {
+   "yimby": [
+    "Marc Berman"
+   ]
+  },
+  "smc-member-board-of-supervisors-district-5-short-term": {
+   "yimby": [
+    "Mark Nagales"
+   ]
+  },
+  "smc-city-of-foster-city-member-city-council-district-1": {
+   "yimby": [
+    "Phoebe Shin Venkat"
+   ]
+  },
+  "smc-city-of-redwood-city-member-city-council-district-2": {
+   "yimby": [
+    "Chris Sturken"
+   ]
+  },
+  "smc-city-of-san-bruno-member-city-council-district-4": {
+   "yimby": [
+    "Auros Harman"
+   ]
+  },
+  "smc-city-of-san-mateo-member-city-council-district-3": {
+   "yimby": [
+    "Seema Patel"
+   ]
+  },
+  "smc-city-of-san-mateo-member-city-council-district-5": {
+   "yimby": [
+    "Adam Loraine"
+   ]
   }
  },
  "money_note": "Rough, public-record figures only. Campaign-committee receipts are itemized contributions and can include transfers between a group's own committees. IRS figures are each group's latest return with itemized data, which may be a few years old."

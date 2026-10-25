@@ -1,0 +1,5 @@
+{
+ "_about": "Cal-Access filer ids of tracked groups' state PACs, for tools/group_money.py. Found by name in the Cal-Access FILERNAME table. Groups whose committees file only locally (city/county NetFile) aren't here.",
+ "ebdsa": [1404371, 1034852],
+ "ebyd": [1271673]
+}

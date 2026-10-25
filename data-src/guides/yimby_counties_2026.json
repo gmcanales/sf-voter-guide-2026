@@ -1,0 +1,31 @@
+{
+ "guide": "yimby",
+ "mode": "merge",
+ "source": "https://yimbyaction.org/endorsements/november-2026-california-general",
+ "accessed": "2026-10-24",
+ "_about": "YIMBY Action's November 2026 California endorsements in Alameda, San Mateo and Contra Costa counties, taken from the endorsement data embedded in their endorsements page. Statewide offices are already in endorsements.json from the SF transcription. Skipped: Kerry Hillis (listed as Moraga Mayor; the ballot contest is Moraga Town Council).",
+ "entries": [
+  {"county": "alameda", "contest": "Members of City Council, Alameda", "picks": ["Thushan Amarasiriwardena", "Tyler Savage"]},
+  {"county": "alameda", "contest": "Mayor, Alameda", "picks": ["Malia Vella"]},
+  {"county": "alameda", "contest": "Members Of City Council, Albany", "picks": ["Aaron Tiedemann", "Robin D. Lopez"]},
+  {"county": "alameda", "contest": "Member Of City Council District #1, Berkeley", "picks": ["Daria Wrubel", "Ross Bernet"]},
+  {"county": "alameda", "contest": "Member Of City Council District #4, Berkeley", "picks": ["Igor Tregub"]},
+  {"county": "alameda", "contest": "Member Of City Council District #8, Berkeley", "picks": ["Mark Humbert"]},
+  {"county": "alameda", "contest": "assembly-14", "picks": ["Buffy Wicks"]},
+  {"county": "alameda", "contest": "assembly-18", "picks": ["Mia Bonta"]},
+  {"county": "alameda", "contest": "assembly-24", "picks": ["Alex Lee"]},
+  {"county": "alameda", "contest": "state-senate-10", "picks": ["Scott Sakakihara"]},
+  {"county": "alameda", "contest": "Members of City Council, Emeryville", "picks": ["Corry Frydlewicz", "David Mourra"]},
+  {"county": "alameda", "contest": "Councilmember, District No. 2, Oakland", "picks": ["Charlene Wang"]},
+  {"county": "alameda", "contest": "AC Transit District Director, Ward 3", "picks": ["Adriana Valencia"]},
+  {"county": "alameda", "contest": "BART Director, District 4", "picks": ["Robert Raburn"]},
+  {"county": "contracosta", "contest": "assembly-14", "picks": ["Buffy Wicks"]},
+  {"county": "sanmateo", "contest": "assembly-23", "picks": ["Marc Berman"]},
+  {"county": "sanmateo", "contest": "Member, Board of Supervisors, District 5 (Short Term)", "picks": ["Mark Nagales"]},
+  {"county": "sanmateo", "contest": "City of Foster City Member, City Council, District 1", "picks": ["Phoebe Shin Venkat"]},
+  {"county": "sanmateo", "contest": "City of Redwood City Member, City Council, District 2", "picks": ["Chris Sturken"]},
+  {"county": "sanmateo", "contest": "City of San Bruno Member, City Council, District 4", "picks": ["Auros Harman"]},
+  {"county": "sanmateo", "contest": "City of San Mateo Member, City Council, District 3", "picks": ["Seema Patel"]},
+  {"county": "sanmateo", "contest": "City of San Mateo Member, City Council, District 5", "picks": ["Adam Loraine"]}
+ ]
+}

@@ -395,6 +395,69 @@
      "order_note": "List and order checked against an official sample ballot (Congressional District 11, Assembly District 17, Supervisor District 8)."
     },
     {
+     "id": "us-rep-8",
+     "kind": "office",
+     "title": "United States Representative, District 8",
+     "candidates": [
+      {
+       "name": "Rudy Recile",
+       "designation": "",
+       "party": "Republican"
+      },
+      {
+       "name": "John Garamendi",
+       "designation": "",
+       "party": "Democratic"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 8
+     }
+    },
+    {
+     "id": "us-rep-9",
+     "kind": "office",
+     "title": "United States Representative, District 9",
+     "candidates": [
+      {
+       "name": "Josh Harder",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "John McBride",
+       "designation": "",
+       "party": "Republican"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 9
+     }
+    },
+    {
+     "id": "us-rep-10",
+     "kind": "office",
+     "title": "United States Representative, District 10",
+     "candidates": [
+      {
+       "name": "Mark DeSaulnier",
+       "designation": "",
+       "party": "Democratic"
+      },
+      {
+       "name": "Jeff Frese",
+       "designation": "",
+       "party": "Republican"
+      }
+     ],
+     "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
+     "applies": {
+      "cd": 10
+     }
+    },
+    {
      "id": "assembly-11",
      "kind": "office",
      "title": "Member of the State Assembly, District 11",
@@ -1655,57 +1718,6 @@
    "note": "Transit, water, park, sanitary, fire and healthcare districts. Each appears only on ballots inside that district.",
    "contests": [
     {
-     "id": "cc-united-states-representative-district-8",
-     "kind": "office",
-     "title": "United States Representative, District 8",
-     "candidates": [
-      {
-       "name": "Rudy Recile",
-       "designation": ""
-      },
-      {
-       "name": "John Garamendi",
-       "designation": ""
-      }
-     ],
-     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
-     "subtitle": "Only voters who live in this district see it."
-    },
-    {
-     "id": "cc-united-states-representative-district-9",
-     "kind": "office",
-     "title": "United States Representative, District 9",
-     "candidates": [
-      {
-       "name": "Josh Harder",
-       "designation": ""
-      },
-      {
-       "name": "John McBride",
-       "designation": ""
-      }
-     ],
-     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
-     "subtitle": "Only voters who live in this district see it."
-    },
-    {
-     "id": "cc-united-states-representative-district-10",
-     "kind": "office",
-     "title": "United States Representative, District 10",
-     "candidates": [
-      {
-       "name": "Mark DeSaulnier",
-       "designation": ""
-      },
-      {
-       "name": "Jeff Frese",
-       "designation": ""
-      }
-     ],
-     "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
-     "subtitle": "Only voters who live in this district see it."
-    },
-    {
      "id": "cc-member-of-the-state-board-of-equalization-district-2",
      "kind": "office",
      "title": "Member of the State Board of Equalization, District 2",
@@ -2549,7 +2561,7 @@
      "kind": "measure",
      "level": "local",
      "letter": "Q",
-     "title": "Bond measure",
+     "title": "Fire station and firefighter facility bonds ($120M)",
      "subtitle": "City of Richmond",
      "applies": {
       "city": 16

@@ -280,3 +280,18 @@ one-tap buttons for its focus cities. Picking one sets the city filter and hides
 school and special-district contests whose title/subtitle match none of the city's `serves`
 patterns (the districts known to cover it). Ward-based districts stay in. A note says how many
 were hidden, with a "Show them anyway" toggle (`state.trimDistricts`).
+
+### County guides (third-party positions outside SF)
+
+| Guide | Covers | Source | Tool |
+|---|---|---|---|
+| East Bay DSA (`ebdsa`) | Alameda, Contra Costa | vote.eastbaydsa.org race data (all local measures + its slate; statewide items credited to California DSA) | `tools/guide_eastbaydsa.py` → `data-src/guides/eastbaydsa_2026.json` |
+| East Bay Young Democrats (`ebyd`) | Alameda, Contra Costa | ebyd.org/endorsements | hand transcription `data-src/guides/ebyd_2026.json` |
+| YIMBY Action (`yimby`, county races) | all | endorsement data embedded in yimbyaction.org/endorsements | `data-src/guides/yimby_counties_2026.json` (`"mode": "merge"`) |
+| Richmond Progressive Alliance (`rpa`) | Contra Costa | Richmondside report (no published slate) | `data-src/guides/rpa_2026.json` |
+| LWV Oakland (`lwvoak`) | Alameda | ballot argument its president signed | `data-src/guides/lwvoak_2026.json` |
+
+`tools/import_guides.py` merges every hand-transcribed file: contests by exact ballot title or id,
+names matched to the ballot spelling, and any miss aborts the import. Group money comes from
+`tools/group_money.py` (Cal-Access, committees listed in `data-src/group_committees.json`).
+Statewide groups (`scope: "statewide"`) show in every county; local ones only where `covers` lists the county.

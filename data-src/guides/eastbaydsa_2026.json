@@ -1,0 +1,1138 @@
+{
+ "source": "https://vote.eastbaydsa.org",
+ "fetched": "2026-10-24",
+ "races": [
+  {
+   "id": "oakland-council-2",
+   "office": "Oakland City Council - District 2",
+   "districtType": "oakland-council",
+   "districtId": "2",
+   "candidates": [
+    {
+     "name": "Nate Adams",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Nate Adams.webp"
+    },
+    {
+     "name": "Charlene Wang"
+    }
+   ],
+   "tldr": "East Bay DSA endorses Nate Adams for Oakland City Council, District 2."
+  },
+  {
+   "id": "hayward-council-1",
+   "office": "Hayward City Council - District 1",
+   "districtType": "hayward-council",
+   "districtId": "1",
+   "candidates": [
+    {
+     "name": "George Syrop",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/George Syrop.webp"
+    },
+    {
+     "name": "Brian Schott"
+    }
+   ],
+   "tldr": "East Bay DSA endorses George Syrop for Hayward City Council, District 1."
+  },
+  {
+   "id": "berkeley-council-7",
+   "office": "Berkeley City Council - District 7",
+   "districtType": "berkeley-council",
+   "districtId": "7",
+   "candidates": [
+    {
+     "name": "Syrak Micael",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Syrak Micael.webp"
+    },
+    {
+     "name": "Aidan Hill"
+    }
+   ],
+   "tldr": "East Bay DSA endorses Syrak Micael for Berkeley City Council, District 7."
+  },
+  {
+   "id": "oakland-school-board-2",
+   "office": "Oakland School Board - District 2",
+   "districtType": "oakland-usd-board",
+   "districtId": "2",
+   "candidates": [
+    {
+     "name": "Jennifer Brouhard",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Jennifer Brouhard.webp"
+    },
+    {
+     "name": "Arielle Fleisher"
+    }
+   ],
+   "tldr": "East Bay DSA endorses Jennifer Brouhard for Oakland School Board - District 2."
+  },
+  {
+   "id": "oakland-school-board-6",
+   "office": "Oakland School Board - District 6",
+   "districtType": "oakland-usd-board",
+   "districtId": "6",
+   "candidates": [
+    {
+     "name": "Valarie Bachelor",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Valarie Bachelor.webp"
+    },
+    {
+     "name": "LeAna Powell"
+    },
+    {
+     "name": "Alexandra Williams"
+    }
+   ],
+   "tldr": "East Bay DSA endorses Valarie Bachelor for Oakland School Board - District 6."
+  },
+  {
+   "id": "richmond-mayor",
+   "office": "Richmond Mayor",
+   "districtType": "richmond-wide",
+   "candidates": [
+    {
+     "name": "Claudia Jimenez",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Claudia Jimenez.webp"
+    },
+    {
+     "name": "Ahmad Anderson"
+    }
+   ],
+   "tldr": "East Bay DSA endorses Claudia Jimenez for Richmond Mayor."
+  },
+  {
+   "id": "berkeley-rent-board",
+   "office": "Berkeley Rent Board",
+   "districtType": "berkeley-wide",
+   "candidates": [
+    {
+     "name": "Avery Arbaugh",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Avery Arbaugh.webp"
+    },
+    {
+     "name": "Ida Martinac",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Ida Martinac.webp"
+    },
+    {
+     "name": "Nathan Mizell",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Nathan Mizell.webp"
+    },
+    {
+     "name": "Vylma Ortiz",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Vylma Ortiz.webp"
+    },
+    {
+     "name": "Derek Rodriguez",
+     "party": "DSA",
+     "position": "endorse",
+     "photo": "/img/voterguide/headshots/Derek Rodriguez.webp"
+    }
+   ],
+   "cardTitle": "Right to Housing Slate",
+   "cardImage": "/img/voterguide/headshots/Rent Board.webp",
+   "tldr": "East Bay DSA endorses the Right to Housing Slate for Berkeley Rent Board: Avery Arbaugh, Ida Martinac, Nathan Mizell, Vylma Ortiz, and Derek Rodriguez."
+  },
+  {
+   "id": "dublin-usd-measure",
+   "office": "Measure I - School Parcel Tax",
+   "districtType": "dublin-usd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure I."
+  },
+  {
+   "id": "san-lorenzo-usd-measure",
+   "office": "Measure J - Education Parcel Tax",
+   "districtType": "san-lorenzo-usd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure J."
+  },
+  {
+   "id": "sunol-glen-usd-measure",
+   "office": "Measure K - School Bond",
+   "districtType": "sunol-glen-usd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure K."
+  },
+  {
+   "id": "alameda-measure-l",
+   "office": "Measure L - Infrastructure Bond",
+   "districtType": "alameda-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure L."
+  },
+  {
+   "id": "alameda-measure-m",
+   "office": "Measure M - Charter Amendment",
+   "districtType": "alameda-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure M."
+  },
+  {
+   "id": "alameda-measure-n",
+   "office": "Measure N - Charter Amendment / Public Land",
+   "districtType": "alameda-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure N."
+  },
+  {
+   "id": "albany-measure-o",
+   "office": "Measure O - Zoning Changes",
+   "districtType": "albany-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure O."
+  },
+  {
+   "id": "albany-measure-p",
+   "office": "Measure P - Street Paving & Storm Drain Parcel Tax",
+   "districtType": "albany-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure P."
+  },
+  {
+   "id": "albany-measure-q",
+   "office": "Measure Q - EMS, ALS, & Fire Protection Parcel Tax",
+   "districtType": "albany-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Q."
+  },
+  {
+   "id": "albany-measure-r",
+   "office": "Measure R - Business License Tax",
+   "districtType": "albany-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure R."
+  },
+  {
+   "id": "albany-measure-s",
+   "office": "Measure S - Real Property Transfer Tax",
+   "districtType": "albany-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure S."
+  },
+  {
+   "id": "albany-measure-t",
+   "office": "Measure T - Street Trees & Streetlighting Parcel Tax",
+   "districtType": "albany-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure T."
+  },
+  {
+   "id": "berkeley-measure-u",
+   "office": "Measure U - Infrastructure Bond",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure U."
+  },
+  {
+   "id": "berkeley-measure-v",
+   "office": "Measure V - Sales Tax",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure V."
+  },
+  {
+   "id": "berkeley-measure-w",
+   "office": "Measure W - Charter Amendment",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure W."
+  },
+  {
+   "id": "berkeley-measure-x",
+   "office": "Measure X - Rent Ordinance Amendment",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure X."
+  },
+  {
+   "id": "berkeley-measure-y",
+   "office": "Measure Y - Arts Tax",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Y."
+  },
+  {
+   "id": "berkeley-measure-z",
+   "office": "Measure Z - Public Bank",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "East Bay DSA endorses and recommends a YES vote on Measure Z."
+  },
+  {
+   "id": "berkeley-measure-aa",
+   "office": "Measure AA - Soda Tax",
+   "districtType": "berkeley-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure AA."
+  },
+  {
+   "id": "emeryville-measure",
+   "office": "Measure BB - Business Tax",
+   "districtType": "emeryville-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure BB."
+  },
+  {
+   "id": "hayward-measure",
+   "office": "Measure CC - Business Tax Ordinance",
+   "districtType": "hayward-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure CC."
+  },
+  {
+   "id": "newark-measure",
+   "office": "Measure DD - Essential Services / Business Tax",
+   "districtType": "newark-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure DD."
+  },
+  {
+   "id": "oakland-measure-ee",
+   "office": "Measure EE - Charter Amendment",
+   "districtType": "oakland-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure EE."
+  },
+  {
+   "id": "oakland-measure-ff",
+   "office": "Measure FF - Real Property Transfer Tax",
+   "districtType": "oakland-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure FF."
+  },
+  {
+   "id": "piedmont-measure",
+   "office": "Measure GG - Real Property Conveyance Tax",
+   "districtType": "piedmont-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure GG."
+  },
+  {
+   "id": "pleasanton-measure",
+   "office": "Measure HH - Hotel Tax",
+   "districtType": "pleasanton-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure HH."
+  },
+  {
+   "id": "union-city-measure",
+   "office": "Measure II - Utility Use Tax",
+   "districtType": "union-city-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure II."
+  },
+  {
+   "id": "clayton-measure-m",
+   "office": "Measure M - Sales Tax Increase",
+   "districtType": "clayton-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure M."
+  },
+  {
+   "id": "clayton-measure-n",
+   "office": "Measure N - Landscaping Parcel Tax",
+   "districtType": "clayton-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure N."
+  },
+  {
+   "id": "concord-measure-o",
+   "office": "Measure O - Business Tax Increase",
+   "districtType": "concord-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure O."
+  },
+  {
+   "id": "hercules-measure",
+   "office": "Measure P - Sales Tax Increase",
+   "districtType": "hercules-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure P."
+  },
+  {
+   "id": "richmond-measure",
+   "office": "Measure Q - Fire Station Bond / Property Tax",
+   "districtType": "richmond-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Q."
+  },
+  {
+   "id": "san-pablo-measure-r",
+   "office": "Measure R - Temporary Sales Tax Increase",
+   "districtType": "san-pablo-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure R."
+  },
+  {
+   "id": "san-pablo-measure-s",
+   "office": "Measure S - Rent Control",
+   "districtType": "san-pablo-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure S."
+  },
+  {
+   "id": "walnut-creek-measure-t",
+   "office": "Measure T - Appointed Treasurer",
+   "districtType": "walnut-creek-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure T."
+  },
+  {
+   "id": "walnut-creek-measure-u",
+   "office": "Measure U - Senior Housing Rezoning",
+   "districtType": "walnut-creek-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure U."
+  },
+  {
+   "id": "west-contra-costa-usd-measure",
+   "office": "Measure V - School Parcel Tax Renewal",
+   "districtType": "west-contra-costa-usd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure V."
+  },
+  {
+   "id": "acalanes-union-high-measure",
+   "office": "Measure W - School Parcel Tax",
+   "districtType": "acalanes-union-hsd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure W."
+  },
+  {
+   "id": "liberty-union-high-measure",
+   "office": "Measure X - School Infrastructure Bond",
+   "districtType": "liberty-union-hsd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure X."
+  },
+  {
+   "id": "solano-county-measure-e",
+   "office": "Measure E – Energy Production & Data Center Business Tax",
+   "districtType": "solano-county-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure E."
+  },
+  {
+   "id": "solano-county-measure-h",
+   "office": "Measure H – Hotel Tax",
+   "districtType": "solano-county-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure H."
+  },
+  {
+   "id": "rio-vista-measure",
+   "office": "Measure O - Sales Tax Extension",
+   "districtType": "rio-vista-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure O."
+  },
+  {
+   "id": "fairfield-measure-p",
+   "office": "Measure P - Sales Tax",
+   "districtType": "fairfield-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure P."
+  },
+  {
+   "id": "fairfield-measure-q",
+   "office": "Measure Q - Appointed City Clerk",
+   "districtType": "fairfield-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure Q."
+  },
+  {
+   "id": "dixon-usd-measure",
+   "office": "Measure U - School Bond",
+   "districtType": "dixon-usd-board",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure U."
+  },
+  {
+   "id": "winters-joint-usd-measure",
+   "office": "Measure B - School Bond",
+   "districtType": "winters-joint-usd-board",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure B."
+  },
+  {
+   "id": "vacaville-measure",
+   "office": "Measure V - Sales Tax",
+   "districtType": "vacaville-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure V."
+  },
+  {
+   "id": "benicia-measure-x",
+   "office": "Measure X - Revised Business License Tax",
+   "districtType": "benicia-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure X."
+  },
+  {
+   "id": "benicia-measure-y",
+   "office": "Measure Y - Limited City Charter",
+   "districtType": "benicia-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Y."
+  },
+  {
+   "id": "benicia-measure-z",
+   "office": "Measure Z - Progressive Real Estate Transfer Tax",
+   "districtType": "benicia-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Z."
+  },
+  {
+   "id": "napa-county-measure",
+   "office": "Measure B - Wildfire / Open Space Sales Tax",
+   "districtType": "napa-county",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure B."
+  },
+  {
+   "id": "american-canyon-measure",
+   "office": "Measure P - Sales Tax",
+   "districtType": "american-canyon-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure P."
+  },
+  {
+   "id": "st-helena-measure",
+   "office": "Measure S - Sales Tax",
+   "districtType": "st-helena-wide",
+   "voteDirection": "no-position",
+   "tldr": "East Bay DSA issues no recommendation on Measure S."
+  },
+  {
+   "id": "yountville-measure",
+   "office": "Measure Y – Appropriations Limit / Gann Limit",
+   "districtType": "yountville-wide",
+   "voteDirection": "yes",
+   "tldr": "East Bay DSA recommends a YES vote on Measure Y."
+  },
+  {
+   "id": "ca-governor",
+   "office": "Governor",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Xavier Becerra",
+     "party": "Democrat"
+    },
+    {
+     "name": "Steve Hilton",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Governor."
+  },
+  {
+   "id": "ca-lieutenant-governor",
+   "office": "Lieutenant Governor",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Fiona Ma",
+     "party": "Democrat"
+    },
+    {
+     "name": "Gloria Romero",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Lieutenant Governor."
+  },
+  {
+   "id": "ca-secretary-of-state",
+   "office": "Secretary of State",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Shirley Weber",
+     "party": "Democrat"
+    },
+    {
+     "name": "Don Wagner",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Secretary of State."
+  },
+  {
+   "id": "ca-controller",
+   "office": "Controller",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Malia Cohen",
+     "party": "Democrat"
+    },
+    {
+     "name": "Herb Morgan",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Controller."
+  },
+  {
+   "id": "ca-treasurer",
+   "office": "Treasurer",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Eleni Kounalakis",
+     "party": "Democrat"
+    },
+    {
+     "name": "Jennifer Hawks",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Treasurer."
+  },
+  {
+   "id": "ca-attorney-general",
+   "office": "Attorney General",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Rob Bonta",
+     "party": "Democrat"
+    },
+    {
+     "name": "Michael Gates",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Attorney General."
+  },
+  {
+   "id": "ca-insurance-commissioner",
+   "office": "Insurance Commissioner",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Jane Kim",
+     "position": "recommend",
+     "party": "Democrat",
+     "recommendationSource": "California DSA"
+    },
+    {
+     "name": "Ben Allen",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA recommends Jane Kim for Insurance Commissioner."
+  },
+  {
+   "id": "ca-superintendent-of-public-instruction",
+   "office": "Superintendent of Public Instruction",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Richard Barrera"
+    },
+    {
+     "name": "Sonja Shaw"
+    }
+   ],
+   "tldr": "California DSA takes no affirmative position on Superintendent of Public Instruction, but urges voters not to vote for Sonja Shaw."
+  },
+  {
+   "id": "ca-board-of-equalization-1",
+   "office": "Board of Equalization - District 1",
+   "districtType": "ca-board-of-equalization",
+   "districtId": "1",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Nelson Esparza",
+     "party": "Democrat"
+    },
+    {
+     "name": "Shannon Grove",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on Board of Equalization - District 1."
+  },
+  {
+   "id": "ca-board-of-equalization-2",
+   "office": "Board of Equalization - District 2",
+   "districtType": "ca-board-of-equalization",
+   "districtId": "2",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Sally Lieber",
+     "position": "recommend",
+     "recommendationSource": "California DSA"
+    },
+    {
+     "name": "John Pimentel",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA recommends Sally Lieber for Board of Equalization - District 2."
+  },
+  {
+   "id": "ca-prop-1-veteran-and-income-qualified",
+   "office": "Prop 1 - Veteran and Income-Qualified Housing Bond Measure",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "tldr": "California DSA recommends a YES vote on Prop 1."
+  },
+  {
+   "id": "ca-prop-2-budget-stabilization-account-cap",
+   "office": "Prop 2 - Budget Stabilization Account Cap Increase and Gann Limit Changes Amendment",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "tldr": "California DSA recommends a YES vote on Prop 2."
+  },
+  {
+   "id": "ca-prop-3-renew-state-income-tax",
+   "office": "Prop 3 - Renew State Income Tax Increase for Education Funding Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "California DSA endorses a YES vote on Prop 3."
+  },
+  {
+   "id": "ca-prop-4-allow-public-financing-of",
+   "office": "Prop 4 - Allow Public Financing of Election Campaigns Measure",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "California DSA endorses a YES vote on Prop 4."
+  },
+  {
+   "id": "ca-prop-5-eliminate-state-officer-recall",
+   "office": "Prop 5 - Eliminate State Officer Recall Successor Elections Amendment",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "tldr": "California DSA recommends a YES vote on Prop 5."
+  },
+  {
+   "id": "ca-prop-37-second-mortgage-homebuyer-program",
+   "office": "Prop 37 - Second Mortgage Homebuyer Program and Revenue Bond Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no-position",
+   "tldr": "California DSA takes no position on Prop 37."
+  },
+  {
+   "id": "ca-prop-38-establish-immunology-and-immunotherapy",
+   "office": "Prop 38 - Establish Immunology and Immunotherapy Research Institute Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "tldr": "California DSA recommends a NO vote on Prop 38."
+  },
+  {
+   "id": "ca-prop-39-voter-identification-citizenship-verification",
+   "office": "Prop 39 - Voter Identification, Citizenship Verification, and Registered Voter List Administration Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "voteStrength": "oppose",
+   "tldr": "California DSA endorses a NO vote on Prop 39."
+  },
+  {
+   "id": "ca-prop-40-one-time-wealth-tax",
+   "office": "Prop 40 - One-Time Wealth Tax for State-Funded Health Care Programs Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "California DSA endorses a YES vote on Prop 40."
+  },
+  {
+   "id": "ca-prop-41-prohibit-excluding-new-state",
+   "office": "Prop 41 - Prohibit Excluding New State Taxes from Spending Limit and Require Special Tax Audits Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "voteStrength": "oppose",
+   "tldr": "California DSA endorses a NO vote on Prop 41."
+  },
+  {
+   "id": "ca-prop-42-prohibit-new-taxes-on",
+   "office": "Prop 42 - Prohibit New Taxes on Retirement Holdings, Personal Assets, and Savings and Limit Retroactive Taxes Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "voteStrength": "oppose",
+   "tldr": "California DSA endorses a NO vote on Prop 42."
+  },
+  {
+   "id": "ca-prop-43-two-thirds-vote-requirement",
+   "office": "Prop 43 - Two-Thirds Vote Requirement for Local Special Tax Initiatives and Property Tax Initiative Prohibition Amendment",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "voteStrength": "oppose",
+   "tldr": "California DSA endorses a NO vote on Prop 43."
+  },
+  {
+   "id": "ca-prop-44-spending-requirements-for-federally",
+   "office": "Prop 44 - Spending Requirements for Federally Qualified Health Centers Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "tldr": "California DSA recommends a YES vote on Prop 44."
+  },
+  {
+   "id": "ca-prop-45-expedited-environmental-review-process",
+   "office": "Prop 45 - Expedited Environmental Review Process for Certain Projects Initiative",
+   "districtType": "ca-state-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "no",
+   "tldr": "California DSA recommends a NO vote on Prop 45."
+  },
+  {
+   "id": "rtm-alameda-county",
+   "office": "Measure RTM - Regional Transit Measure",
+   "districtType": "alameda-county-wide",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "California DSA endorses a YES vote on Measure RTM, a regional transit measure on the ballot in Alameda and Contra Costa counties."
+  },
+  {
+   "id": "rtm-contra-costa-county",
+   "office": "Measure RTM - Regional Transit Measure",
+   "districtType": "contra-costa-county",
+   "sourceFrom": "California DSA",
+   "voteDirection": "yes",
+   "voteStrength": "endorse",
+   "tldr": "California DSA endorses a YES vote on Measure RTM, a regional transit measure on the ballot in Alameda and Contra Costa counties."
+  },
+  {
+   "id": "ca-assembly-4",
+   "office": "California State Assembly - District 4",
+   "districtType": "ca-state-assembly",
+   "districtId": "4",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Cecilia Aguiar-Curry",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Assembly - District 4."
+  },
+  {
+   "id": "ca-assembly-11",
+   "office": "California State Assembly - District 11",
+   "districtType": "ca-state-assembly",
+   "districtId": "11",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Lori D Wilson",
+     "party": "Democrat"
+    },
+    {
+     "name": "Jenny Leilani Callison"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Assembly - District 11."
+  },
+  {
+   "id": "ca-assembly-14",
+   "office": "California State Assembly - District 14",
+   "districtType": "ca-state-assembly",
+   "districtId": "14",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Mark Rendon",
+     "position": "recommend",
+     "recommendationSource": "California DSA",
+     "party": "Green"
+    },
+    {
+     "name": "Buffy Wicks",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA recommends Mark Rendon for California State Assembly - District 14."
+  },
+  {
+   "id": "ca-assembly-15",
+   "office": "California State Assembly - District 15",
+   "districtType": "ca-state-assembly",
+   "districtId": "15",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Anamarie Avila Farias",
+     "party": "Democrat"
+    },
+    {
+     "name": "Arthur Webb"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Assembly - District 15."
+  },
+  {
+   "id": "ca-assembly-16",
+   "office": "California State Assembly - District 16",
+   "districtType": "ca-state-assembly",
+   "districtId": "16",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Rebecca Bauer-Kahan",
+     "party": "Democrat"
+    },
+    {
+     "name": "Joseph Rubay",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Assembly - District 16."
+  },
+  {
+   "id": "ca-assembly-18",
+   "office": "California State Assembly - District 18",
+   "districtType": "ca-state-assembly",
+   "districtId": "18",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Mia Bonta",
+     "party": "Democrat"
+    },
+    {
+     "name": "Andre Sanford",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Assembly - District 18."
+  },
+  {
+   "id": "ca-assembly-20",
+   "office": "California State Assembly - District 20",
+   "districtType": "ca-state-assembly",
+   "districtId": "20",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Liz Ortega",
+     "position": "recommend",
+     "recommendationSource": "California DSA",
+     "party": "Democrat"
+    },
+    {
+     "name": "Patricia Muga",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA recommends Liz Ortega for California State Assembly - District 20."
+  },
+  {
+   "id": "ca-assembly-24",
+   "office": "California State Assembly - District 24",
+   "districtType": "ca-state-assembly",
+   "districtId": "24",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Alex Lee",
+     "party": "Democrat",
+     "position": "recommend",
+     "recommendationSource": "California DSA"
+    },
+    {
+     "name": "Max Hsia",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA recommends Alex Lee for California State Assembly - District 24."
+  },
+  {
+   "id": "ca-senate-10",
+   "office": "California State Senate - District 10",
+   "districtType": "ca-state-senate",
+   "districtId": "10",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Scott Sakakihara",
+     "party": "Democrat"
+    },
+    {
+     "name": "Linda Price",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on California State Senate - District 10."
+  },
+  {
+   "id": "us-house-4",
+   "office": "U.S. House - District 4",
+   "districtType": "us-congress",
+   "districtId": "4",
+   "sourceFrom": "Sonoma County DSA",
+   "candidates": [
+    {
+     "name": "Mike Thompson",
+     "party": "Democrat"
+    },
+    {
+     "name": "Eric Jones",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA takes no position on U.S. House - District 4."
+  },
+  {
+   "id": "us-house-8",
+   "office": "U.S. House - District 8",
+   "districtType": "us-congress",
+   "districtId": "8",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "John Garamendi",
+     "party": "Democrat"
+    },
+    {
+     "name": "Rudy Recile",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on U.S. House - District 8."
+  },
+  {
+   "id": "us-house-9",
+   "office": "U.S. House - District 9",
+   "districtType": "us-congress",
+   "districtId": "9",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Josh Harder",
+     "party": "Democrat"
+    },
+    {
+     "name": "John McBride",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on U.S. House - District 9."
+  },
+  {
+   "id": "us-house-10",
+   "office": "U.S. House - District 10",
+   "districtType": "us-congress",
+   "districtId": "10",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Mark DeSaulnier",
+     "party": "Democrat"
+    },
+    {
+     "name": "Jeff Frese",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA takes no position on U.S. House - District 10."
+  },
+  {
+   "id": "us-house-12",
+   "office": "U.S. House - District 12",
+   "districtType": "us-congress",
+   "districtId": "12",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Lateefah Simon",
+     "position": "recommend",
+     "recommendationSource": "California DSA"
+    },
+    {
+     "name": "Jamie Joyce",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA recommends Lateefah Simon for U.S. House - District 12."
+  },
+  {
+   "id": "us-house-14",
+   "office": "U.S. House - District 14",
+   "districtType": "us-congress",
+   "districtId": "14",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Aisha Wahab",
+     "position": "recommend",
+     "recommendationSource": "California DSA",
+     "party": "Democrat"
+    },
+    {
+     "name": "Melissa Hernandez",
+     "party": "Democrat"
+    }
+   ],
+   "tldr": "California DSA recommends Aisha Wahab for U.S. House - District 14."
+  },
+  {
+   "id": "us-house-17",
+   "office": "U.S. House - District 17",
+   "districtType": "us-congress",
+   "districtId": "17",
+   "sourceFrom": "California DSA",
+   "candidates": [
+    {
+     "name": "Ro Khanna",
+     "position": "recommend",
+     "recommendationSource": "California DSA",
+     "party": "Democrat"
+    },
+    {
+     "name": "Ritesh Tandon",
+     "party": "Republican"
+    }
+   ],
+   "tldr": "California DSA recommends Ro Khanna for U.S. House - District 17."
+  }
+ ]
+}

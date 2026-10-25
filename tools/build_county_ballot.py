@@ -251,7 +251,7 @@ def classify(cfg, c):
     n = norm_title(t)
     if n in STATEWIDE:
         return "statewide", STATEWIDE[n]
-    if m := (re.match(r"(\d+)\w\w congressional district", n) or re.match(r"u\.s\. representative, district (\d+)", n)):
+    if m := (re.match(r"(\d+)\w\w congressional district", n) or re.match(r"(?:u\.s\.|united states) representative, district (\d+)", n)):
         k = int(m.group(1))
         return "voter", office(cfg, f"United States Representative, District {k}", 1, c["candidates"],
                                {"cd": k}, partisan=True, cid=f"us-rep-{k}")
