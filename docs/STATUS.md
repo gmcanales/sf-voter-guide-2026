@@ -48,7 +48,7 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
    (`tools/local_candidate_money.py`: 222 committees across ~30 city and county NetFile agencies,
    itemized gifts since 2025, written to `site/data/counties/<county>/candidate_money.json`).
    Remaining: candidates whose committee name lacks their surname (e.g. "vipin4fremont"), cities
-   not on NetFile (South San Francisco, Richmond council districts files elsewhere?), special
+   not on NetFile (South San Francisco), special
    districts filing with another county, and outside (IE) money for local races.
 2. **RTM money:** its committees likely register with the state. Add them to `state_money.py` or
    `local_measure_money.py`; the Money tab still says "not covered" in every county.
