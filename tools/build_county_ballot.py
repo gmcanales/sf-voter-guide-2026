@@ -38,6 +38,32 @@ DISTRICT_ORDER_NOTE = ("Listed in the order of the county's official candidate l
 DISTRICT_NOTE = "Only voters who live in this district see it."
 PARA = "\n\n"   # paragraph break inside official text; the page renders it with white-space: pre-line
 
+# Focus cities (deep-dive coverage) get one-tap selectors. `serves` lists patterns for the
+# school and special districts that cover the city; picking the city hides other local
+# district races (readers can show them again). Patterns match a contest's title or
+# subtitle. Ward-based districts (AC Transit, EBMUD, park district) stay in, since the
+# reader still has to find their ward on the sample ballot.
+FOCUS = {
+    "alameda": [
+        {"city": "Oakland", "serves": ["Oakland", "Peralta", "AC Transit", "EBMUD", "East Bay Regional Park"]},
+        {"city": "Fremont", "serves": ["Fremont", "Ohlone", "Washington Township", "Alameda County Water",
+                                       "AC Transit", "East Bay Regional Park"]},
+    ],
+    "sanmateo": [
+        {"city": "South San Francisco", "serves": ["South San Francisco", "San Mateo County Community College",
+                                                   "County Board of Education"]},
+        {"city": "San Mateo", "serves": ["San Mateo-Foster City", "San Mateo Union High",
+                                         "San Mateo County Community College", "County Board of Education"]},
+        {"city": "Redwood City", "serves": ["Redwood City", "Sequoia Union High", "Belmont-Redwood Shores",
+                                            "San Mateo County Community College", "County Board of Education"]},
+    ],
+    "contracosta": [
+        {"city": "Richmond", "label": "Richmond & Richmond Annex",
+         "serves": ["West Contra Costa", "Contra Costa Community College", "Contra Costa County Board",
+                    "East Bay M.U.D", "East Bay Reg"]},
+    ],
+}
+
 COUNTIES = {
     "alameda": {
         "name": "Alameda County", "short": "Alameda", "prefix": "ala",
@@ -379,6 +405,8 @@ def main(county: str) -> None:
     out = {
         "election": {"name": "Statewide General Election", "jurisdiction": cfg["name"], "county": county,
                      "short": cfg["short"], "date": sf["election"]["date"], "preview": True,
+                     "focus": [{"city": cfg["cities"].index(f["city"]) + 1, "label": f.get("label", f["city"]),
+                                "serves": f["serves"]} for f in FOCUS.get(county, [])],
                      "official_sources": cfg["sources"]},
         "built": date.today().isoformat(),
         "randomized_alphabet": sf["randomized_alphabet"],

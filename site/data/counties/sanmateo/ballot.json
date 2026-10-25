@@ -6,6 +6,38 @@
   "short": "San Mateo",
   "date": "2026-11-03",
   "preview": true,
+  "focus": [
+   {
+    "city": 19,
+    "label": "South San Francisco",
+    "serves": [
+     "South San Francisco",
+     "San Mateo County Community College",
+     "County Board of Education"
+    ]
+   },
+   {
+    "city": 18,
+    "label": "San Mateo",
+    "serves": [
+     "San Mateo-Foster City",
+     "San Mateo Union High",
+     "San Mateo County Community College",
+     "County Board of Education"
+    ]
+   },
+   {
+    "city": 15,
+    "label": "Redwood City",
+    "serves": [
+     "Redwood City",
+     "Sequoia Union High",
+     "Belmont-Redwood Shores",
+     "San Mateo County Community College",
+     "County Board of Education"
+    ]
+   }
+  ],
   "official_sources": [
    {
     "label": "San Mateo County Elections: Nov 3, 2026 election page",

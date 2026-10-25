@@ -6,6 +6,19 @@
   "short": "Contra Costa",
   "date": "2026-11-03",
   "preview": true,
+  "focus": [
+   {
+    "city": 16,
+    "label": "Richmond & Richmond Annex",
+    "serves": [
+     "West Contra Costa",
+     "Contra Costa Community College",
+     "Contra Costa County Board",
+     "East Bay M.U.D",
+     "East Bay Reg"
+    ]
+   }
+  ],
   "official_sources": [
    {
     "label": "Contra Costa Elections: Nov 3, 2026 election page",

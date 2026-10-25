@@ -6,6 +6,31 @@
   "short": "Alameda",
   "date": "2026-11-03",
   "preview": true,
+  "focus": [
+   {
+    "city": 10,
+    "label": "Oakland",
+    "serves": [
+     "Oakland",
+     "Peralta",
+     "AC Transit",
+     "EBMUD",
+     "East Bay Regional Park"
+    ]
+   },
+   {
+    "city": 6,
+    "label": "Fremont",
+    "serves": [
+     "Fremont",
+     "Ohlone",
+     "Washington Township",
+     "Alameda County Water",
+     "AC Transit",
+     "East Bay Regional Park"
+    ]
+   }
+  ],
   "official_sources": [
    {
     "label": "Alameda County Registrar: Nov 3, 2026 election page",

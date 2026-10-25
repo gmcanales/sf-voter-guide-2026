@@ -272,3 +272,11 @@ Focus cities: Oakland, Fremont, South San Francisco, San Mateo, Redwood City, an
 - Sources that are scans, or whose text layer is broken (Alameda's guide), are read with
   `tools/ocr_pdf.py`. Digests are written from that text and checked by hand; raw OCR is never
   published.
+
+### Focus-city selectors
+
+`election.focus` (from `FOCUS` in `tools/build_county_ballot.py`) gives each preview county
+one-tap buttons for its focus cities. Picking one sets the city filter and hides that county's
+school and special-district contests whose title/subtitle match none of the city's `serves`
+patterns (the districts known to cover it). Ward-based districts stay in. A note says how many
+were hidden, with a "Show them anyway" toggle (`state.trimDistricts`).

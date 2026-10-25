@@ -37,7 +37,8 @@ let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, 
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
-  const blank = { zip: null, districts: {}, marks: {}, collapsed: {}, topics: [], showGuides: true, showPicks: false };
+  const blank = { zip: null, districts: {}, marks: {}, collapsed: {}, topics: [], showGuides: true, showPicks: false,
+    trimDistricts: true };
   let s;
   try { s = { ...blank, ...JSON.parse(localStorage.getItem(STORE_KEY) || '{}') }; }
   catch { s = blank; }
@@ -79,7 +80,22 @@ function formatDate(iso) {
 }
 
 // ── data helpers ───────────────────────────────────────────────────────────
+// Focus city chosen and trimming on: hide this county's school/special-district races
+// that the city's districts don't cover (see FOCUS in tools/build_county_ballot.py).
+function focusCity() {
+  const city = state.districts.city;
+  return city ? (BALLOT.election.focus || []).find(f => f.city === city) || null : null;
+}
+function trimmedByFocus(contest) {
+  const f = focusCity();
+  if (!f || !state.trimDistricts || !PREVIEW) return false;
+  if (contest.applies || !/^(ala|smc|cc)-/.test(contest.id)) return false;   // city-, district- or state-level
+  const text = `${contest.title} ${contest.subtitle || ''}`.toLowerCase();
+  return !f.serves.some(pat => text.includes(pat.toLowerCase()));
+}
+
 function appliesToReader(contest) {
+  if (trimmedByFocus(contest)) return false;
   const zopts = zipOptions();
   for (const [dim, want] of Object.entries(contest.applies || {})) {
     const have = state.districts[dim];
@@ -914,6 +930,38 @@ function initZip() {
   });
 }
 
+function renderFocus() {
+  const box = document.getElementById('focus-cities');
+  const focus = BALLOT.election.focus || [];
+  box.hidden = !focus.length;
+  if (!focus.length) return;
+  const pick = city => {
+    if (state.districts.city === city) delete state.districts.city; else state.districts.city = city;
+    state.trimDistricts = true;
+    saveState(); renderFocus(); renderDistricts(); renderBallot(); renderProgress();
+  };
+  const f = focusCity();
+  let hidden = 0;
+  if (f) for (const sec of BALLOT.sections) for (const c of sec.contests) {
+    const was = state.trimDistricts; state.trimDistricts = true;
+    if (trimmedByFocus(c)) hidden++;
+    state.trimDistricts = was;
+  }
+  box.replaceChildren(
+    el('span', { class: 'vg-focus-label' }, 'Our focus cities:'),
+    ...focus.map(x => el('button', {
+      type: 'button', class: 'vg-focus-btn', 'aria-pressed': state.districts.city === x.city ? 'true' : 'false',
+      onclick: () => pick(x.city),
+    }, x.label)),
+    f && hidden ? el('p', { class: 'vg-focus-note' },
+      state.trimDistricts
+        ? `Hiding ${hidden} school and special-district races that don't cover ${f.label}. Ward-based districts stay in; check your sample ballot for your ward. `
+        : `Showing all ${hidden} school and special-district races, including ones that don't cover ${f.label}. `,
+      el('button', { type: 'button', class: 'vg-linkbtn', onclick: () => {
+        state.trimDistricts = !state.trimDistricts; saveState(); renderFocus(); renderBallot(); renderProgress();
+      } }, state.trimDistricts ? 'Show them anyway' : 'Hide them again')) : null);
+}
+
 function renderDistricts() {
   const box = document.getElementById('districts');
   box.replaceChildren();
@@ -925,7 +973,7 @@ function renderDistricts() {
       id: `d-${dim}`, onchange: e => {
         const v = e.target.value;
         if (v === '') delete state.districts[dim]; else state.districts[dim] = Number(v);
-        saveState(); renderDistricts(); renderBallot(); renderProgress();
+        saveState(); renderFocus(); renderDistricts(); renderBallot(); renderProgress();
       },
     }, el('option', { value: '' }, zopts && allowed.length > 1 ? 'Choose…' : 'Show all'),
       allowed.map(([n, share]) => el('option', { value: n, selected: state.districts[dim] === n },
@@ -1193,16 +1241,18 @@ function showSummary(on) {
 }
 
 function initToggles() {
+  // Two header toggle buttons: our opinions ("bias") and the tracked groups' positions.
   const guides = document.getElementById('show-guides');
   const picks = document.getElementById('show-picks');
-  guides.checked = state.showGuides;
-  picks.checked = state.showPicks;
   const legend = document.getElementById('legend');
-  legend.hidden = !state.showPicks;
-  guides.addEventListener('change', () => { state.showGuides = guides.checked; saveState(); renderBallot(); });
-  picks.addEventListener('change', () => {
-    state.showPicks = picks.checked; legend.hidden = !picks.checked; saveState(); renderBallot();
-  });
+  const sync = () => {
+    guides.setAttribute('aria-pressed', String(state.showGuides));
+    picks.setAttribute('aria-pressed', String(state.showPicks));
+    legend.hidden = !state.showPicks;
+  };
+  sync();
+  guides.addEventListener('click', () => { state.showGuides = !state.showGuides; sync(); saveState(); renderBallot(); });
+  picks.addEventListener('click', () => { state.showPicks = !state.showPicks; sync(); saveState(); renderBallot(); });
   document.getElementById('open-summary').addEventListener('click', () => showSummary(true));
   document.getElementById('close-summary').addEventListener('click', () => showSummary(false));
   const clear = document.getElementById('clear-marks');
@@ -1316,6 +1366,7 @@ async function main() {
   renderTopicBar();
   if (COUNTY === 'sf') initZip();
   else { document.getElementById('zip-form').hidden = true; state.zip = null; }
+  renderFocus();
   if (state.zip) applyZip(state.zip);      // re-narrow pickers; keeps choices that still fit
   else { renderDistricts(); renderBallot(); renderProgress(); }
   if (location.hash) {
