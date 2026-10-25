@@ -185,6 +185,9 @@ function badge(verdict) {
     return el('span', { class: 'vg-badge vg-badge-egg', title: 'Golden Goose Egg: our pick' },
       eggIcon(), 'Golden Goose Egg');
   }
+  if (verdict === 'note') {
+    return el('span', { class: 'vg-badge vg-badge-note', title: 'Goosebase take: our comment, unrated' }, 'Goosebase take');
+  }
   return el('span', { class: 'vg-badge vg-badge-honk', title: 'Certified HONK: we’d steer clear' }, 'Certified HONK');
 }
 function eggIcon() {
@@ -202,7 +205,8 @@ function eggIcon() {
 // for offices the row is a candidate name.
 function rowVerdicts(contest, row) {
   return picksFor(contest.id).filter(p => {
-    if (contest.kind === 'office') return p.target === row;
+    if (contest.kind === 'office' || (p.target && contest.kind === 'retention')) return p.target === row;
+    if (p.verdict === 'note') return p.lean === row;
     return (p.verdict === 'egg' && row === 'yes') || (p.verdict === 'honk' && row === 'no');
   });
 }
@@ -313,6 +317,15 @@ function renderGuideLine(contest) {
   return el('ul', { class: 'vg-guides' }, parts);
 }
 
+// "(vote YES)", "(leans NO)" etc. for a measure or retention pick.
+function pickDirection(p) {
+  if (p.verdict === 'note') return p.lean ? ` (leans ${p.lean.toUpperCase()})` : '';
+  return ` (vote ${p.verdict === 'egg' ? 'YES' : 'NO'})`;
+}
+function pickSource(p) {
+  return p.source ? el('a', { href: p.source, target: '_blank', rel: 'noopener', class: 'vg-src-link' }, 'source') : null;
+}
+
 // ── our pick box (opinion) ────────────────────────────────────────────────
 function renderPickBox(contest) {
   if (!state.showPicks) return null;
@@ -320,8 +333,8 @@ function renderPickBox(contest) {
   if (!picks.length) return null;
   return el('div', { class: 'vg-pick' }, picks.map(p =>
     el('div', { class: 'vg-pick-item' }, badge(p.verdict),
-      p.target ? el('strong', {}, ` ${p.target}`) : null,
-      el('p', {}, p.reasoning))));
+      p.target ? el('strong', {}, ` ${p.target}`) : contest.kind !== 'office' ? el('strong', {}, pickDirection(p)) : null,
+      el('p', {}, p.reasoning, p.source ? ' ' : null, pickSource(p)))));
 }
 
 // ── details (neutral, official) ───────────────────────────────────────────
@@ -409,13 +422,14 @@ function sourceLine(label, url, extra) {
 }
 
 function goosebasePosition(contest, candidateName) {
-  const picks = picksFor(contest.id).filter(p => contest.kind !== 'office' || !candidateName || p.target === candidateName);
+  // A contest-wide take (no target) applies to every candidate's panel.
+  const picks = picksFor(contest.id).filter(p => contest.kind !== 'office' || !candidateName || !p.target || p.target === candidateName);
   if (!picks.length) {
     return el('p', { class: 'vg-position' }, el('strong', {}, 'Goosebase position: '), 'none yet.');
   }
   return picks.map(p => el('div', { class: 'vg-position' }, el('strong', {}, 'Goosebase position: '), badge(p.verdict),
-    p.target && contest.kind === 'office' ? ` ${p.target}` : contest.kind !== 'office' ? ` (vote ${p.verdict === 'egg' ? 'YES' : 'NO'})` : '',
-    el('p', {}, p.reasoning)));
+    p.target && contest.kind === 'office' ? ` ${p.target}` : contest.kind === 'office' ? '' : pickDirection(p),
+    el('p', {}, p.reasoning), pickSource(p)));
 }
 
 // Measures ---------------------------------------------------------------

@@ -391,6 +391,11 @@
 }
 .vg-badge-egg svg { width: 12px; height: 15px; fill: var(--warn); filter: drop-shadow(0 0 3px var(--warn)); }
 /* Rubber-stamp look: double border, slight tilt. */
+.vg-badge-note {
+  background: var(--surface2);
+  color: var(--text-muted);
+  border: 1px solid var(--border);
+}
 .vg-badge-honk {
   padding: 4px 8px;
   color: var(--sell);
