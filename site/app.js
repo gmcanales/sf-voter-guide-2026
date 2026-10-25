@@ -33,7 +33,7 @@ function optionLabel(dim, n) {
 }
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -92,9 +92,33 @@ function focusCity() {
   const city = state.districts.city;
   return city ? (BALLOT.election.focus || []).find(f => f.city === city) || null : null;
 }
+// K-12 school district behind a county contest, as a comparable key, or null.
+// "Redwood City School District" (ballot) and "Redwood City Elementary School District"
+// (Census) both become "redwood"; "high" is kept so Jefferson Union High and Jefferson
+// Elementary stay apart.
+const SCHOOL_GENERIC = new Set(['school', 'district', 'elementary', 'unified', 'union', 'joint', 'city', 'usd', 'the', 'of']);
+function schoolKey(name) {
+  return name.toLowerCase().replace(/\bmt\.?\s/g, 'mount ').split(/[^a-z]+/)
+    .filter(w => w && !SCHOOL_GENERIC.has(w)).sort().join(' ');
+}
+function k12Of(contest) {
+  if (contest.applies || !/^(ala|smc|cc)-/.test(contest.id)) return null;
+  const t = contest.kind === 'measure' ? (contest.subtitle || '').split(' · ')[0] : contest.title;
+  if (/community college|board of education|^(city|town) of|county$/i.test(t)) return null;
+  if (contest.kind === 'measure') return schoolKey(t);           // "Dublin USD", "Sunol Glen", "... School District"
+  const m = t.match(/^(.*?School District)/i);
+  return m ? schoolKey(m[1]) : null;
+}
+function schoolSet(list) {
+  return list ? new Set(list.map(schoolKey)) : null;
+}
+
 function trimmedByFocus(contest) {
   const f = focusCity();
   if (!f || !state.trimDistricts || !PREVIEW) return false;
+  // K-12 races: the school districts the city's boundary actually touches (Census maps).
+  const k12 = k12Of(contest);
+  if (k12 && f.districts?.schools) return !schoolSet(f.districts.schools).has(k12);
   if (contest.applies || !/^(ala|smc|cc)-/.test(contest.id)) return false;   // city-, district- or state-level
   const text = `${contest.title} ${contest.subtitle || ''}`.toLowerCase();
   return !f.serves.some(pat => text.includes(pat.toLowerCase()));
@@ -102,6 +126,10 @@ function trimmedByFocus(contest) {
 
 function appliesToReader(contest) {
   if (trimmedByFocus(contest)) return false;
+  // A ZIP knows its school districts too.
+  const k12 = k12Of(contest);
+  const zs = state.zip && ZIPS?.zips?.[state.zip]?.schools;
+  if (k12 && zs && !schoolSet(zs).has(k12)) return false;
   const zopts = districtOptions();
   for (const [dim, want] of Object.entries(contest.applies || {})) {
     const have = state.districts[dim];
@@ -999,9 +1027,14 @@ function applyZip(zip) {
     msg.className = 'vg-zip-msg';
   } else if (!ZIPS.zips[state.zip]) {
     msg.className = 'vg-zip-msg is-warn';
-    msg.textContent = state.zip.startsWith('941')
-      ? `We don't have boundary data for ${state.zip} (PO-box ZIPs have none). Choose your districts below.`
-      : `${state.zip} isn't a San Francisco ZIP. Alameda and San Mateo County previews are linked above; other counties aren't covered yet.`;
+    const elsewhere = (ZIP_COUNTIES?.zips?.[state.zip] || []).filter(([c]) => c !== COUNTY && COUNTIES[c]);
+    if (elsewhere.length) {
+      msg.replaceChildren(`${state.zip} is in `, ...elsewhere.flatMap(([c], i) => [i ? ' and ' : '',
+        el('a', { href: c === 'sf' ? `./?zip=${state.zip}` : `./?county=${c}&zip=${state.zip}` }, COUNTIES[c].name)]),
+        `, not ${COUNTIES[COUNTY].name}. Open that ballot instead.`);
+    } else {
+      msg.textContent = `We don't have boundary data for ${state.zip} in ${COUNTIES[COUNTY].name} (PO-box ZIPs have none, and we cover SF, Alameda, San Mateo and Contra Costa). Choose your districts below.`;
+    }
     state.zip = null;
   } else {
     const opts = zipOptions();
@@ -1017,7 +1050,7 @@ function applyZip(zip) {
     }
     msg.className = 'vg-zip-msg' + (unresolved.length ? ' is-warn' : ' is-ok');
     msg.textContent = unresolved.length
-      ? `${state.zip} crosses district lines for: ${unresolved.join(', ')}. Pick yours below, using your sample ballot or the Voter Portal.`
+      ? `${state.zip} crosses district lines for: ${unresolved.join(', ')}. Pick yours below, using your sample ballot${COUNTY === 'sf' ? ' or the Voter Portal' : ''}.`
       : `Ballot filtered for ${state.zip}.`;
     if (unresolved.length) document.getElementById('districts-box').open = true;
   }
@@ -1449,13 +1482,15 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES] = await Promise.all([
       get(DATA_BASE + 'ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
-      COUNTY === 'sf' ? get('./data/zip_districts.json') : null, get('./data/topics.json'),
+      get(COUNTY === 'sf' ? './data/zip_districts.json' : DATA_BASE + 'zip_districts.json').catch(() => ({ zips: {} })),
+      get('./data/topics.json'),
       get('./data/funding.json').catch(() => null), get('./data/money.json').catch(() => null),
       get('./data/state_money.json').catch(() => null), get('./data/analysis.json').catch(() => null),
       get('./data/external_money.json').catch(() => null),
-      PREVIEW ? get('./data/county_measure_money.json').catch(() => null) : null]);
+      PREVIEW ? get('./data/county_measure_money.json').catch(() => null) : null,
+      get('./data/zip_counties.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     setKids(document.getElementById('ballot'), 
@@ -1486,8 +1521,7 @@ async function main() {
 
   renderGroups();
   renderTopicBar();
-  if (COUNTY === 'sf') initZip();
-  else { document.getElementById('zip-form').hidden = true; state.zip = null; }
+  initZip();
   renderFocus();
   if (state.zip) applyZip(state.zip);      // re-narrow pickers; keeps choices that still fit
   else { renderDistricts(); renderBallot(); renderProgress(); }

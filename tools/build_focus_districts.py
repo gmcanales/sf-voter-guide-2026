@@ -79,8 +79,16 @@ def main() -> None:
                     if share > SLIVER:
                         rows.append([district_num(str(x["properties"][field])), round(share, 3)])
                 res[dim] = sorted(rows, key=lambda r: -r[1])
+            # K-12 school districts the city overlaps (Census unified / secondary / elementary layers).
+            res["schools"] = []
+            for i in (0, 1, 2):
+                url = f"https://tigerweb.geo.census.gov/arcgis/rest/services/TIGERweb/School/MapServer/{i}"
+                for x in query(url, "STATE='06'", "NAME", city):
+                    g = to_local(make_valid(shape(x["geometry"])))
+                    if g.intersection(city_l).area / city_l.area > SLIVER:
+                        res["schools"].append(x["properties"]["NAME"])
             out["cities"].setdefault(county, {})[f["city"]] = res
-            print(f"{county:12} {f['city']:20} " + "  ".join(f"{d}:{[r[0] for r in v]}" for d, v in res.items()))
+            print(f"{county:12} {f['city']:20} " + "  ".join(f"{d}:{[r[0] for r in v] if d != 'schools' else v}" for d, v in res.items()))
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)}")
 

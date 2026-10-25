@@ -1,0 +1,1013 @@
+{
+ "_about": "Per ZIP (Census ZCTA), the districts, cities (index into the city picker; 0 = unincorporated) and K-12 school districts it overlaps, with shares of its in-county area. Built by tools/build_county_zips.py.",
+ "built": "2026-10-24",
+ "sources": [
+  "U.S. Census Bureau TIGERweb: 2020 ZCTAs, counties, incorporated places, school districts",
+  "CA AB 604 Congressional Districts (Proposition 50), data.ca.gov",
+  "CA State Assembly Districts 2024–2026 (2021 CRC map), data.ca.gov",
+  "CA State Senate Districts (2021 CRC map), data.ca.gov",
+  "BART Board of Directors Districts (2022), BART"
+ ],
+ "zips": {
+  "94002": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     2,
+     0.822
+    ],
+    [
+     15,
+     0.007
+    ],
+    [
+     0,
+     0.171
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Belmont-Redwood Shores Elementary School District",
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District"
+   ]
+  },
+  "94005": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.664
+    ],
+    [
+     19,
+     0.335
+    ]
+   ],
+   "city": [
+    [
+     3,
+     0.665
+    ],
+    [
+     0,
+     0.335
+    ]
+   ],
+   "schools": [
+    "Jefferson Union High School District",
+    "Brisbane Elementary School District",
+    "Bayshore Elementary School District",
+    "South San Francisco Unified School District"
+   ]
+  },
+  "94010": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     0.714
+    ],
+    [
+     16,
+     0.286
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.717
+    ],
+    [
+     23,
+     0.283
+    ]
+   ],
+   "city": [
+    [
+     10,
+     0.385
+    ],
+    [
+     4,
+     0.28
+    ],
+    [
+     12,
+     0.007
+    ],
+    [
+     0,
+     0.328
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "Hillsborough City Elementary School District",
+    "Burlingame Elementary School District",
+    "Millbrae Elementary School District",
+    "San Mateo-Foster City Elementary School District",
+    "Jefferson Union High School District",
+    "Pacifica School District"
+   ]
+  },
+  "94014": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     19,
+     0.999
+    ]
+   ],
+   "city": [
+    [
+     6,
+     0.431
+    ],
+    [
+     5,
+     0.291
+    ],
+    [
+     0,
+     0.278
+    ]
+   ],
+   "schools": [
+    "Jefferson Union High School District",
+    "Jefferson Elementary School District",
+    "Brisbane Elementary School District",
+    "Bayshore Elementary School District"
+   ]
+  },
+  "94015": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     19,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     6,
+     0.864
+    ],
+    [
+     0,
+     0.136
+    ]
+   ],
+   "schools": [
+    "Jefferson Union High School District",
+    "Jefferson Elementary School District",
+    "South San Francisco Unified School District"
+   ]
+  },
+  "94018": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Cabrillo Unified School District"
+   ]
+  },
+  "94019": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     9,
+     0.104
+    ],
+    [
+     0,
+     0.896
+    ]
+   ],
+   "schools": [
+    "Cabrillo Unified School District",
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District"
+   ]
+  },
+  "94020": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "La Honda-Pescadero Unified School District",
+    "Sequoia Union High School District",
+    "Portola Valley Elementary School District",
+    "Cabrillo Unified School District"
+   ]
+  },
+  "94021": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "La Honda-Pescadero Unified School District"
+   ]
+  },
+  "94025": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     0.682
+    ],
+    [
+     15,
+     0.318
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     0.78
+    ],
+    [
+     21,
+     0.22
+    ]
+   ],
+   "city": [
+    [
+     11,
+     0.765
+    ],
+    [
+     0,
+     0.235
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Menlo Park City Elementary School District",
+    "Las Lomitas Elementary School District",
+    "Ravenswood City Elementary School District",
+    "Redwood City Elementary School District"
+   ]
+  },
+  "94027": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     0.985
+    ],
+    [
+     15,
+     0.015
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     0.985
+    ],
+    [
+     21,
+     0.015
+    ]
+   ],
+   "city": [
+    [
+     1,
+     0.998
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Menlo Park City Elementary School District",
+    "Las Lomitas Elementary School District",
+    "Redwood City Elementary School District"
+   ]
+  },
+  "94028": {
+   "in_county": 0.807,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     14,
+     0.647
+    ],
+    [
+     0,
+     0.353
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Portola Valley Elementary School District",
+    "Las Lomitas Elementary School District"
+   ]
+  },
+  "94030": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     12,
+     0.945
+    ],
+    [
+     16,
+     0.016
+    ],
+    [
+     0,
+     0.039
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "Millbrae Elementary School District"
+   ]
+  },
+  "94037": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Cabrillo Unified School District",
+    "Jefferson Union High School District",
+    "Pacifica School District"
+   ]
+  },
+  "94038": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Cabrillo Unified School District",
+    "San Mateo Union High School District",
+    "Millbrae Elementary School District"
+   ]
+  },
+  "94044": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     13,
+     0.834
+    ],
+    [
+     0,
+     0.166
+    ]
+   ],
+   "schools": [
+    "Jefferson Union High School District",
+    "Pacifica School District",
+    "Cabrillo Unified School District",
+    "Jefferson Elementary School District"
+   ]
+  },
+  "94060": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "La Honda-Pescadero Unified School District"
+   ]
+  },
+  "94061": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     0.84
+    ],
+    [
+     16,
+     0.16
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.84
+    ],
+    [
+     23,
+     0.16
+    ]
+   ],
+   "city": [
+    [
+     15,
+     0.839
+    ],
+    [
+     20,
+     0.046
+    ],
+    [
+     0,
+     0.115
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Redwood City Elementary School District"
+   ]
+  },
+  "94062": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     0.937
+    ],
+    [
+     15,
+     0.063
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     0.937
+    ],
+    [
+     21,
+     0.063
+    ]
+   ],
+   "city": [
+    [
+     20,
+     0.172
+    ],
+    [
+     15,
+     0.035
+    ],
+    [
+     0,
+     0.793
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Cabrillo Unified School District",
+    "Redwood City Elementary School District",
+    "Woodside Elementary School District",
+    "San Mateo Union High School District",
+    "Portola Valley Elementary School District",
+    "San Mateo-Foster City Elementary School District",
+    "La Honda-Pescadero Unified School District",
+    "Belmont-Redwood Shores Elementary School District",
+    "Las Lomitas Elementary School District"
+   ]
+  },
+  "94063": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     15,
+     0.892
+    ],
+    [
+     0,
+     0.108
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Redwood City Elementary School District"
+   ]
+  },
+  "94065": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Belmont-Redwood Shores Elementary School District",
+    "San Carlos Elementary School District"
+   ]
+  },
+  "94066": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.959
+    ],
+    [
+     19,
+     0.041
+    ]
+   ],
+   "city": [
+    [
+     16,
+     0.889
+    ],
+    [
+     0,
+     0.111
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "San Bruno Park Elementary School District",
+    "Jefferson Union High School District",
+    "Pacifica School District",
+    "Millbrae Elementary School District",
+    "South San Francisco Unified School District"
+   ]
+  },
+  "94070": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     0.931
+    ],
+    [
+     16,
+     0.069
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.931
+    ],
+    [
+     23,
+     0.069
+    ]
+   ],
+   "city": [
+    [
+     17,
+     0.884
+    ],
+    [
+     0,
+     0.116
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "San Carlos Elementary School District",
+    "Belmont-Redwood Shores Elementary School District",
+    "Redwood City Elementary School District"
+   ]
+  },
+  "94074": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     23,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Cabrillo Unified School District",
+    "La Honda-Pescadero Unified School District"
+   ]
+  },
+  "94080": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.672
+    ],
+    [
+     19,
+     0.328
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.89
+    ],
+    [
+     0,
+     0.11
+    ]
+   ],
+   "schools": [
+    "South San Francisco Unified School District",
+    "Jefferson Union High School District",
+    "Brisbane Elementary School District"
+   ]
+  },
+  "94128": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.085
+    ],
+    [
+     0,
+     0.915
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "Millbrae Elementary School District",
+    "San Bruno Park Elementary School District",
+    "South San Francisco Unified School District"
+   ]
+  },
+  "94303": {
+   "in_county": 0.324,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     7,
+     0.912
+    ],
+    [
+     11,
+     0.088
+    ]
+   ],
+   "schools": [
+    "Sequoia Union High School District",
+    "Ravenswood City Elementary School District"
+   ]
+  },
+  "94401": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     18,
+     1.0
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District"
+   ]
+  },
+  "94402": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     0.965
+    ],
+    [
+     16,
+     0.035
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     0.965
+    ],
+    [
+     23,
+     0.035
+    ]
+   ],
+   "city": [
+    [
+     18,
+     0.599
+    ],
+    [
+     0,
+     0.401
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District",
+    "Hillsborough City Elementary School District"
+   ]
+  },
+  "94403": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     18,
+     0.966
+    ],
+    [
+     0,
+     0.034
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District",
+    "Sequoia Union High School District",
+    "Belmont-Redwood Shores Elementary School District"
+   ]
+  },
+  "94404": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     21,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     8,
+     0.86
+    ],
+    [
+     18,
+     0.14
+    ]
+   ],
+   "schools": [
+    "San Mateo Union High School District",
+    "San Mateo-Foster City Elementary School District",
+    "Sequoia Union High School District",
+    "Belmont-Redwood Shores Elementary School District"
+   ]
+  }
+ }
+}

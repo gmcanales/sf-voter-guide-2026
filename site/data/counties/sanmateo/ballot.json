@@ -31,6 +31,13 @@
        19,
        0.097
       ]
+     ],
+     "schools": [
+      "South San Francisco Unified School District",
+      "Jefferson Union High School District",
+      "San Mateo Union High School District",
+      "Brisbane Elementary School District",
+      "San Bruno Park Elementary School District"
      ]
     }
    },
@@ -55,6 +62,12 @@
        21,
        1.0
       ]
+     ],
+     "schools": [
+      "San Mateo Union High School District",
+      "Sequoia Union High School District",
+      "Belmont-Redwood Shores Elementary School District",
+      "San Mateo-Foster City Elementary School District"
      ]
     }
    },
@@ -80,6 +93,15 @@
        21,
        1.0
       ]
+     ],
+     "schools": [
+      "San Mateo Union High School District",
+      "Sequoia Union High School District",
+      "Belmont-Redwood Shores Elementary School District",
+      "Ravenswood City Elementary School District",
+      "Redwood City Elementary School District",
+      "San Carlos Elementary School District",
+      "San Mateo-Foster City Elementary School District"
      ]
     }
    }

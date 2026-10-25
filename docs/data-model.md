@@ -329,3 +329,16 @@ Congressional (Prop 50), Assembly, Senate and BART maps and writes
 Picking a focus city auto-selects a district the city sits entirely inside, and hides races in
 districts the city doesn't touch. San Mateo County's current supervisor map is private
 (token-only; the public layer is the 2013 map), so Supervisor District 5 isn't narrowed.
+
+### ZIP lookup in the counties
+
+`tools/build_county_zips.py` writes `site/data/counties/<county>/zip_districts.json` (same shape as
+SF's, plus `city` with 0 = unincorporated, and `schools`: the K-12 districts the ZIP touches) and
+`site/data/zip_counties.json` (ZIP -> counties, so a ZIP typed on the wrong county's page links to
+the right one). Sources: Census TIGERweb ZCTAs, counties, places and school districts, plus the
+state district maps. K-12 school races (title or measure jurisdiction naming a school district)
+are now filtered by the Census school districts a ZIP or focus city touches, matched on
+distinctive words (`schoolKey`: "Redwood City School District" = "Redwood City Elementary School
+District"; "high" is kept). This replaced the hand-written lists for K-12 and fixed a real miss:
+part of South San Francisco is in the Jefferson Union High School District (Measure M). The
+`serves` lists still cover community colleges and special districts.

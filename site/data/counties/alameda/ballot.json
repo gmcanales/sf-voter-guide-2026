@@ -57,6 +57,11 @@
        5,
        0.054
       ]
+     ],
+     "schools": [
+      "San Leandro Unified School District",
+      "Oakland Unified School District",
+      "Alameda City Unified School District"
      ]
     }
    },
@@ -99,6 +104,9 @@
        6,
        1.0
       ]
+     ],
+     "schools": [
+      "Fremont Unified School District"
      ]
     }
    }

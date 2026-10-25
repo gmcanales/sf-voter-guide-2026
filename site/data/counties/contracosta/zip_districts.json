@@ -1,0 +1,1488 @@
+{
+ "_about": "Per ZIP (Census ZCTA), the districts, cities (index into the city picker; 0 = unincorporated) and K-12 school districts it overlaps, with shares of its in-county area. Built by tools/build_county_zips.py.",
+ "built": "2026-10-24",
+ "sources": [
+  "U.S. Census Bureau TIGERweb: 2020 ZCTAs, counties, incorporated places, school districts",
+  "CA AB 604 Congressional Districts (Proposition 50), data.ca.gov",
+  "CA State Assembly Districts 2024–2026 (2021 CRC map), data.ca.gov",
+  "CA State Senate Districts (2021 CRC map), data.ca.gov",
+  "BART Board of Directors Districts (2022), BART"
+ ],
+ "zips": {
+  "94505": {
+   "in_county": 0.965,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.68
+    ],
+    [
+     11,
+     0.319
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Byron Union Elementary School District",
+    "Knightsen Elementary School District"
+   ]
+  },
+  "94506": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     5,
+     0.263
+    ],
+    [
+     0,
+     0.737
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94507": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District",
+    "Acalanes Union High School District",
+    "Walnut Creek Elementary School District"
+   ]
+  },
+  "94509": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     9,
+     0.898
+    ],
+    [
+     10,
+     0.102
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     1,
+     0.858
+    ],
+    [
+     14,
+     0.017
+    ],
+    [
+     0,
+     0.125
+    ]
+   ],
+   "schools": [
+    "Antioch Unified School District"
+   ]
+  },
+  "94511": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     9,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     11,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Oakley Union Elementary School District"
+   ]
+  },
+  "94513": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     0.902
+    ],
+    [
+     9,
+     0.098
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.549
+    ],
+    [
+     11,
+     0.445
+    ],
+    [
+     16,
+     0.006
+    ]
+   ],
+   "city": [
+    [
+     2,
+     0.185
+    ],
+    [
+     1,
+     0.007
+    ],
+    [
+     0,
+     0.808
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Brentwood Union Elementary School District",
+    "Knightsen Elementary School District",
+    "Byron Union Elementary School District",
+    "Oakley Union Elementary School District"
+   ]
+  },
+  "94514": {
+   "in_county": 0.824,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.759
+    ],
+    [
+     11,
+     0.241
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Byron Union Elementary School District"
+   ]
+  },
+  "94516": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     0.668
+    ],
+    [
+     14,
+     0.331
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Canyon Elementary School District",
+    "Orinda Union Elementary School District",
+    "Moraga Elementary School District"
+   ]
+  },
+  "94517": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     0.814
+    ],
+    [
+     15,
+     0.186
+    ]
+   ],
+   "city": [
+    [
+     3,
+     0.08
+    ],
+    [
+     0,
+     0.92
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District",
+    "Liberty Union High School District",
+    "Brentwood Union Elementary School District",
+    "San Ramon Valley Unified School District",
+    "Pittsburg Unified School District"
+   ]
+  },
+  "94518": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.928
+    ],
+    [
+     16,
+     0.072
+    ]
+   ],
+   "city": [
+    [
+     4,
+     0.929
+    ],
+    [
+     19,
+     0.07
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94519": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     4,
+     1.0
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94520": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     4,
+     0.777
+    ],
+    [
+     0,
+     0.223
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94521": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.962
+    ],
+    [
+     16,
+     0.038
+    ]
+   ],
+   "city": [
+    [
+     4,
+     0.865
+    ],
+    [
+     0,
+     0.135
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94523": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.998
+    ]
+   ],
+   "city": [
+    [
+     15,
+     0.978
+    ],
+    [
+     0,
+     0.022
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94525": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     0.514
+    ],
+    [
+     10,
+     0.486
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.655
+    ],
+    [
+     14,
+     0.345
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "John Swett Unified School District"
+   ]
+  },
+  "94526": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     5,
+     0.997
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94528": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94530": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     6,
+     0.848
+    ],
+    [
+     16,
+     0.152
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94531": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     9,
+     0.887
+    ],
+    [
+     10,
+     0.113
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     1,
+     0.887
+    ],
+    [
+     0,
+     0.113
+    ]
+   ],
+   "schools": [
+    "Antioch Unified School District",
+    "Liberty Union High School District",
+    "Brentwood Union Elementary School District"
+   ]
+  },
+  "94547": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     0.963
+    ],
+    [
+     15,
+     0.037
+    ]
+   ],
+   "city": [
+    [
+     7,
+     0.962
+    ],
+    [
+     0,
+     0.038
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District",
+    "John Swett Unified School District",
+    "Martinez Unified School District"
+   ]
+  },
+  "94548": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     11,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Knightsen Elementary School District"
+   ]
+  },
+  "94549": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     0.758
+    ],
+    [
+     15,
+     0.242
+    ]
+   ],
+   "city": [
+    [
+     8,
+     0.756
+    ],
+    [
+     0,
+     0.244
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Lafayette Elementary School District",
+    "Orinda Union Elementary School District",
+    "Martinez Unified School District",
+    "Mount Diablo Unified School District"
+   ]
+  },
+  "94551": {
+   "in_county": 0.369,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.805
+    ],
+    [
+     16,
+     0.195
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Livermore Valley Joint Unified School District",
+    "Liberty Union High School District",
+    "Byron Union Elementary School District",
+    "Brentwood Union Elementary School District"
+   ]
+  },
+  "94553": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     0.894
+    ],
+    [
+     8,
+     0.106
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     9,
+     0.203
+    ],
+    [
+     0,
+     0.797
+    ]
+   ],
+   "schools": [
+    "Martinez Unified School District",
+    "Mount Diablo Unified School District",
+    "John Swett Unified School District",
+    "Acalanes Union High School District",
+    "Orinda Union Elementary School District",
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94556": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     10,
+     0.479
+    ],
+    [
+     0,
+     0.521
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Moraga Elementary School District",
+    "San Ramon Valley Unified School District",
+    "Lafayette Elementary School District",
+    "Orinda Union Elementary School District"
+   ]
+  },
+  "94561": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     9,
+     0.612
+    ],
+    [
+     10,
+     0.388
+    ]
+   ],
+   "ad": [
+    [
+     11,
+     0.993
+    ],
+    [
+     15,
+     0.007
+    ]
+   ],
+   "city": [
+    [
+     11,
+     0.907
+    ],
+    [
+     1,
+     0.006
+    ],
+    [
+     0,
+     0.087
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Oakley Union Elementary School District",
+    "Antioch Unified School District",
+    "Knightsen Elementary School District",
+    "Brentwood Union Elementary School District"
+   ]
+  },
+  "94563": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     0.923
+    ],
+    [
+     8,
+     0.077
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     0.711
+    ],
+    [
+     14,
+     0.267
+    ],
+    [
+     15,
+     0.022
+    ]
+   ],
+   "city": [
+    [
+     12,
+     0.625
+    ],
+    [
+     0,
+     0.375
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Orinda Union Elementary School District",
+    "Canyon Elementary School District"
+   ]
+  },
+  "94564": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     0.859
+    ],
+    [
+     15,
+     0.141
+    ]
+   ],
+   "city": [
+    [
+     13,
+     0.747
+    ],
+    [
+     0,
+     0.253
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District",
+    "Martinez Unified School District"
+   ]
+  },
+  "94565": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     0.595
+    ],
+    [
+     9,
+     0.405
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     14,
+     0.425
+    ],
+    [
+     4,
+     0.101
+    ],
+    [
+     0,
+     0.474
+    ]
+   ],
+   "schools": [
+    "Pittsburg Unified School District",
+    "Mount Diablo Unified School District",
+    "Antioch Unified School District"
+   ]
+  },
+  "94569": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "John Swett Unified School District"
+   ]
+  },
+  "94572": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     0.576
+    ],
+    [
+     10,
+     0.424
+    ]
+   ],
+   "ad": [
+    [
+     15,
+     0.532
+    ],
+    [
+     14,
+     0.468
+    ]
+   ],
+   "city": [
+    [
+     7,
+     0.104
+    ],
+    [
+     0,
+     0.896
+    ]
+   ],
+   "schools": [
+    "John Swett Unified School District"
+   ]
+  },
+  "94575": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Moraga Elementary School District"
+   ]
+  },
+  "94582": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     18,
+     0.871
+    ],
+    [
+     0,
+     0.129
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94583": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     18,
+     0.395
+    ],
+    [
+     0,
+     0.605
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District",
+    "Acalanes Union High School District",
+    "Moraga Elementary School District"
+   ]
+  },
+  "94588": {
+   "in_county": 0.485,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94595": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.68
+    ],
+    [
+     0,
+     0.32
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Walnut Creek Elementary School District",
+    "Lafayette Elementary School District"
+   ]
+  },
+  "94596": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.813
+    ],
+    [
+     0,
+     0.187
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Walnut Creek Elementary School District",
+    "San Ramon Valley Unified School District"
+   ]
+  },
+  "94597": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     0.986
+    ],
+    [
+     15,
+     0.014
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.726
+    ],
+    [
+     8,
+     0.014
+    ],
+    [
+     0,
+     0.26
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Walnut Creek Elementary School District",
+    "Mount Diablo Unified School District",
+    "Lafayette Elementary School District"
+   ]
+  },
+  "94598": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     19,
+     0.384
+    ],
+    [
+     0,
+     0.616
+    ]
+   ],
+   "schools": [
+    "Mount Diablo Unified School District",
+    "San Ramon Valley Unified School District",
+    "Acalanes Union High School District",
+    "Walnut Creek Elementary School District"
+   ]
+  },
+  "94611": {
+   "in_county": 0.05,
+   "cd": [
+    [
+     10,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Acalanes Union High School District",
+    "Orinda Union Elementary School District"
+   ]
+  },
+  "94707": {
+   "in_county": 0.352,
+   "cd": [
+    [
+     8,
+     0.999
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94708": {
+   "in_county": 0.585,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94801": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     16,
+     0.926
+    ],
+    [
+     0,
+     0.074
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94803": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     0.951
+    ],
+    [
+     15,
+     0.049
+    ]
+   ],
+   "city": [
+    [
+     16,
+     0.605
+    ],
+    [
+     17,
+     0.01
+    ],
+    [
+     0,
+     0.385
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94804": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     16,
+     1.0
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94805": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     16,
+     0.653
+    ],
+    [
+     17,
+     0.037
+    ],
+    [
+     0,
+     0.31
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "94806": {
+   "in_county": 1.0,
+   "cd": [
+    [
+     8,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     14,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     16,
+     0.485
+    ],
+    [
+     17,
+     0.308
+    ],
+    [
+     0,
+     0.207
+    ]
+   ],
+   "schools": [
+    "West Contra Costa Unified School District"
+   ]
+  },
+  "95219": {
+   "in_county": 0.196,
+   "cd": [
+    [
+     9,
+     1.0
+    ]
+   ],
+   "ad": [
+    [
+     11,
+     1.0
+    ]
+   ],
+   "city": [
+    [
+     0,
+     1
+    ]
+   ],
+   "schools": [
+    "Liberty Union High School District",
+    "Oakley Union Elementary School District",
+    "Knightsen Elementary School District"
+   ]
+  }
+ }
+}
