@@ -1,4 +1,4 @@
-"""Money for the state and federal candidates on SF's ballot.
+"""Money for the state and federal candidates on the SF and county ballots.
 
     py tools/candidate_money_external.py path/to/dbwebexport.zip
     py tools/candidate_money_external.py --federal-only     # refresh FEC data only
@@ -14,7 +14,7 @@ a bot wall). For each controlled committee in data-src/state_committees.json:
   * outside money = Form 496 independent expenditures (24-hour reports, filed in
     the 90 days before an election) whose cover names the candidate, by spender
     and support/oppose.
-Federal (U.S. House 11 & 15): the FEC API, 2025-26 cycle: receipts, individual
+Federal (U.S. House districts on all four ballots): the FEC API, 2025-26 cycle: receipts, individual
 itemized/unitemized, PAC money, and independent expenditures by candidate.
 
 Writes site/data/external_money.json.
@@ -39,6 +39,14 @@ FEC_KEY = os.environ.get("FEC_API_KEY", "DEMO_KEY")   # free key: https://api.da
 FEDERAL = {  # contest -> {ballot name: FEC candidate id}
     "us-rep-11": {"Connie Chan": "H6CA11268", "Scott Wiener": "H8CA11116"},
     "us-rep-15": {"Kevin Mullin": "H2CA14162", "Charles Hoelter": "H6CA15194"},
+    # County previews (ids from the FEC candidate search by state + district, 2026).
+    "us-rep-8": {"John Garamendi": "H0CA10149", "Rudy Recile": "H2CA00153"},
+    "us-rep-9": {"Josh Harder": "H8CA10126", "John McBride": "H4CA09101"},
+    "us-rep-10": {"Mark DeSaulnier": "H0CA10073", "Jeff Frese": "H6CA10187"},
+    "us-rep-12": {"Lateefah Simon": "H4CA12154", "Jamie Joyce": "H6CA12209"},
+    "us-rep-14": {"Aisha Wahab": "H0CA15213", "Melissa Hernandez": "H6CA14163"},
+    "us-rep-16": {"Sam Liccardo": "H4CA16197", "Peter Sundin Soulé": "H6CA16176"},
+    "us-rep-17": {"Ro Khanna": "H4CA12055", "Ritesh Tandon": "H0CA17193"},
 }
 
 

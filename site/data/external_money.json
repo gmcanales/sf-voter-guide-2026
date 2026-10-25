@@ -1,5 +1,5 @@
 {
- "built": "2026-10-24",
+ "built": "2026-10-25",
  "sources": {
   "state": {
    "label": "CA Secretary of State, Cal-Access bulk export",
@@ -690,6 +690,222 @@
     "through": "2026-10-17"
    }
   },
+  "state-senate-10": {
+   "Scott Sakakihara": {
+    "total": 1876599,
+    "outside": [
+     {
+      "committee": "Mobilizing Economic Transformation Across (Meta) California",
+      "support": 1335520,
+      "oppose": 0
+     },
+     {
+      "committee": "GROW CALIFORNIA",
+      "support": 1039940,
+      "oppose": 0
+     },
+     {
+      "committee": "Uber Innovation Political Action Committee",
+      "support": 1026582,
+      "oppose": 0
+     },
+     {
+      "committee": "Keep California Golden",
+      "support": 312309,
+      "oppose": 0
+     },
+     {
+      "committee": "Advance California, Sponsored by California Apartment Association",
+      "support": 274389,
+      "oppose": 0
+     },
+     {
+      "committee": "Asian Pacific Islander Leadership PAC",
+      "support": 88723,
+      "oppose": 0
+     },
+     {
+      "committee": "Nurses and Working Families for Kepner for State Senate 2026 sponsored by labor organizations",
+      "support": 0,
+      "oppose": 86440
+     },
+     {
+      "committee": "ACLU California Action Votes",
+      "support": 1000,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.007,
+    "through": "2026-10-17"
+   },
+   "Linda R. Price": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "assembly-11": {
+   "Lori D Wilson": {
+    "total": 1099286,
+    "outside": [],
+    "small_pct": 0.002,
+    "through": "2026-10-17"
+   },
+   "Jenny Leilani Callison": {
+    "total": 11371,
+    "outside": [],
+    "small_pct": 0.051,
+    "through": "2026-10-17"
+   }
+  },
+  "assembly-14": {
+   "Buffy Wicks": {
+    "total": 1571784,
+    "outside": [
+     {
+      "committee": "Uber Innovation Political Action Committee",
+      "support": 265230,
+      "oppose": 0
+     },
+     {
+      "committee": "Democratic Party of Contra Costa County",
+      "support": 1371,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.0,
+    "through": "2026-10-17"
+   },
+   "Mark Rendon": {
+    "total": 12195,
+    "outside": [],
+    "small_pct": 0.0,
+    "through": "2026-09-19"
+   }
+  },
+  "assembly-15": {
+   "Anamarie Avila Farias": {
+    "total": 961448,
+    "outside": [
+     {
+      "committee": "Uber Innovation Political Action Committee",
+      "support": 429286,
+      "oppose": 0
+     },
+     {
+      "committee": "Democratic Party of Contra Costa County",
+      "support": 1867,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.0,
+    "through": "2026-10-17"
+   },
+   "Arthur Webb": {
+    "total": 23757,
+    "outside": [],
+    "small_pct": 0.556,
+    "through": "2026-10-17"
+   }
+  },
+  "assembly-16": {
+   "Rebecca Bauer-Kahan": {
+    "total": 488498,
+    "outside": [
+     {
+      "committee": "Democratic Party of Contra Costa County",
+      "support": 1745,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   },
+   "Joseph A. Rubay": {
+    "total": 38070,
+    "outside": [],
+    "small_pct": 0.059,
+    "through": "2026-10-17"
+   }
+  },
+  "assembly-18": {
+   "Mia Bonta": {
+    "total": 811788,
+    "outside": [
+     {
+      "committee": "Coalition for Patient Access and Innovation, sponsored by California Life Sciences",
+      "support": 21032,
+      "oppose": 0
+     }
+    ],
+    "small_pct": 0.003,
+    "through": "2026-10-17"
+   },
+   "Andre Sandford": {
+    "total": 0,
+    "outside": [
+     {
+      "committee": "Coalition for Patient Access and Innovation, sponsored by California Life Sciences",
+      "support": 0,
+      "oppose": 21032
+     }
+    ],
+    "no_committee": true
+   }
+  },
+  "assembly-20": {
+   "Liz Ortega": {
+    "total": 769479,
+    "outside": [],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   },
+   "Patricia Muga": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "assembly-21": {
+   "Diane Papan": {
+    "total": 680209,
+    "outside": [],
+    "small_pct": 0.0,
+    "through": "2026-10-17"
+   },
+   "Jabra J Muhawieh": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "assembly-23": {
+   "Marc Berman": {
+    "total": 942599,
+    "outside": [],
+    "small_pct": 0.001,
+    "through": "2026-10-17"
+   },
+   "David G. Johnson": {
+    "total": 0,
+    "outside": [],
+    "no_committee": true
+   }
+  },
+  "assembly-24": {
+   "Alex Lee": {
+    "total": 660407,
+    "outside": [],
+    "small_pct": 0.01,
+    "through": "2026-10-17"
+   },
+   "Max Hsia": {
+    "total": 29391,
+    "outside": [],
+    "small_pct": 0.028,
+    "through": "2026-10-17"
+   }
+  },
   "us-rep-11": {
    "Connie Chan": {
     "total": 2404664,
@@ -789,6 +1005,240 @@
     "no_committee": true,
     "outside": [],
     "note": "No FEC filings this cycle (candidates who raise under $5,000 don’t have to register)."
+   }
+  },
+  "us-rep-8": {
+   "John Garamendi": {
+    "total": 582746,
+    "pac": 414000,
+    "small_pct": 0.055,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H0CA10149/?cycle=2026"
+   },
+   "Rudy Recile": {
+    "total": 20073,
+    "pac": 0,
+    "small_pct": 0.214,
+    "through": "2026-09-30",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H2CA00153/?cycle=2026"
+   }
+  },
+  "us-rep-9": {
+   "Josh Harder": {
+    "total": 4490401,
+    "pac": 575122,
+    "small_pct": 0.131,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "The Conservative Caucus Dba Americans For Constitutional Liberty",
+      "support": 0,
+      "oppose": 4552
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H8CA10126/?cycle=2026"
+   },
+   "John McBride": {
+    "total": 77473,
+    "pac": 19882,
+    "small_pct": 0.167,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H4CA09101/?cycle=2026"
+   }
+  },
+  "us-rep-10": {
+   "Mark DeSaulnier": {
+    "total": 721776,
+    "pac": 398791,
+    "small_pct": 0.141,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H0CA10073/?cycle=2026"
+   },
+   "Jeff Frese": {
+    "total": 0,
+    "no_committee": true,
+    "outside": [],
+    "note": "No FEC filings this cycle (candidates who raise under $5,000 don’t have to register)."
+   }
+  },
+  "us-rep-12": {
+   "Lateefah Simon": {
+    "total": 1703906,
+    "pac": 330921,
+    "small_pct": 0.077,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "Protect Progress",
+      "support": 111599,
+      "oppose": 0
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H4CA12154/?cycle=2026"
+   },
+   "Jamie Joyce": {
+    "total": 69669,
+    "pac": 0,
+    "small_pct": 0.069,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H6CA12209/?cycle=2026"
+   }
+  },
+  "us-rep-14": {
+   "Aisha Wahab": {
+    "total": 1214547,
+    "pac": 244483,
+    "small_pct": 0.134,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "United Democracy Project ('Udp')",
+      "support": 0,
+      "oppose": 1642140
+     },
+     {
+      "committee": "Committee For Working Families, Sponsored By Labor Organizations",
+      "support": 684195,
+      "oppose": 0
+     },
+     {
+      "committee": "Bold America",
+      "support": 0,
+      "oppose": 610970
+     },
+     {
+      "committee": "Sd 2026",
+      "support": 0,
+      "oppose": 165000
+     },
+     {
+      "committee": "J Street Action Fund",
+      "support": 104048,
+      "oppose": 0
+     },
+     {
+      "committee": "American Priorities (Ap)",
+      "support": 90200,
+      "oppose": 0
+     },
+     {
+      "committee": "Alameda County Democratic Central Committee",
+      "support": 55441,
+      "oppose": 0
+     },
+     {
+      "committee": "Health Care Saves Lives",
+      "support": 6357,
+      "oppose": 0
+     },
+     {
+      "committee": "Unity & Justice Fund",
+      "support": 1792,
+      "oppose": 0
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H0CA15213/?cycle=2026"
+   },
+   "Melissa Hernandez": {
+    "total": 2112674,
+    "pac": 118500,
+    "small_pct": 0.04,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "Bold America",
+      "support": 1838225,
+      "oppose": 0
+     },
+     {
+      "committee": "United Democracy Project ('Udp')",
+      "support": 825293,
+      "oppose": 0
+     },
+     {
+      "committee": "Project 218",
+      "support": 500000,
+      "oppose": 0
+     },
+     {
+      "committee": "Sd 2026",
+      "support": 373773,
+      "oppose": 0
+     },
+     {
+      "committee": "American Priorities (Ap)",
+      "support": 0,
+      "oppose": 210300
+     },
+     {
+      "committee": "Progressive Promise",
+      "support": 0,
+      "oppose": 200000
+     },
+     {
+      "committee": "Pro-Choice Majority Action",
+      "support": 200000,
+      "oppose": 0
+     },
+     {
+      "committee": "For Our Values Pac",
+      "support": 86447,
+      "oppose": 0
+     },
+     {
+      "committee": "Nuestro Pac",
+      "support": 10000,
+      "oppose": 0
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H6CA14163/?cycle=2026"
+   }
+  },
+  "us-rep-16": {
+   "Sam Liccardo": {
+    "total": 3873150,
+    "pac": 888593,
+    "small_pct": 0.011,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H4CA16197/?cycle=2026"
+   },
+   "Peter Sundin Soulé": {
+    "total": 4272,
+    "pac": 0,
+    "small_pct": 0.089,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H6CA16176/?cycle=2026"
+   }
+  },
+  "us-rep-17": {
+   "Ro Khanna": {
+    "total": 15320813,
+    "pac": 1000,
+    "small_pct": 0.132,
+    "through": "2026-10-14",
+    "outside": [
+     {
+      "committee": "Viable Pac",
+      "support": 0,
+      "oppose": 37500
+     }
+    ],
+    "fec_url": "https://www.fec.gov/data/candidate/H4CA12055/?cycle=2026"
+   },
+   "Ritesh Tandon": {
+    "total": 57011,
+    "pac": 0,
+    "small_pct": 0.083,
+    "through": "2026-10-14",
+    "outside": [],
+    "fec_url": "https://www.fec.gov/data/candidate/H0CA17193/?cycle=2026"
    }
   }
  },
