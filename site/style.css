@@ -706,3 +706,10 @@
 .vg-linkbtn { font: inherit; padding: 0; border: 0; background: none; color: var(--accent); text-decoration: underline; cursor: pointer; }
 
 .vg-impact-aside { color: var(--text-muted); }
+
+/* ── tagged positions (stances.json, police_money.json) ────────────────── */
+.vg-stance { cursor: help; }
+.vg-positions { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
+.vg-positions h4 { margin: 0 0 4px; font-size: 0.82rem; }
+.vg-position-item + .vg-position-item { margin-top: 8px; }
+.vg-position-item p { margin: 0 0 2px; }

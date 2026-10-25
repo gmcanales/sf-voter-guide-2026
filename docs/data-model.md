@@ -173,6 +173,34 @@ There is deliberately no pejorative label. "Housing-skeptic" may only be applied
 with a sourced position against new housing, and none has been applied yet.
 Statewide and federal candidates aren't covered (their money isn't in SF Ethics data).
 
+## Stances (`stances.json`, `police_money.json`)
+
+Our sourced position tags for candidates on specific issues, shared by all counties
+(keyed by contest id). Each entry is `{topic, stance, text, source, source_extra?}`.
+`stance` must be one of the topic's `levels`, and `text` is a one-line factual summary
+of the candidate's own words or recorded votes, as reported by the cited outlet.
+
+- **Surveillance tech** (plate readers from any vendor, drones, camera networks):
+  *Supports* / *Supports, with conditions* / *Against Flock, open to another vendor* /
+  *Opposes*. "Open to another vendor" needs the candidate to have said so; opposing
+  Flock without saying more is *Opposes*, and the text says what was opposed.
+- **Police union support:** *Endorsed* only when an outlet reports it or the union
+  published it. Money is separate: `police_money.json`, built by
+  `py tools/police_union_money.py`, counts direct contributions from police, deputy
+  sheriff and peace-officer unions (matched on the donor's own name, never individual
+  officers) to the candidate's committee for this race. Independent spending isn't
+  counted, because name matching also catches gifts to the same person's other
+  committees.
+- Levels describe positions, never character. There's no "pro-cop / anti-cop" label:
+  opposing a vendor or a technology says nothing about police staffing, and candidates
+  combine those positions both ways.
+- No entry means no sourced position. Show nothing, and never infer one from a
+  candidate's endorsements or allies.
+
+The tags show as outlined pills under the candidate's name. The details sit under
+*On the record* in the Who? tab, and each topic appears in the topic bar once any
+contest the reader sees carries it.
+
 ## Tabbed panels
 
 Each measure has a **More about this measure** panel with four tabs: *What it

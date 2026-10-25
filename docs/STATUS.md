@@ -68,7 +68,12 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
    Prieta (bot-walled). Ask the user to save the pages; transcribe with `tools/import_guides.py`.
 7. **Ward maps** for AC Transit, EBMUD, EBRPD, water/sanitary districts, and the 2021 San Mateo
    supervisor map (the county's layer is token-only), to narrow ward races from a ZIP.
-8. Optional: Alameda County Dems / labor councils (sites unreachable; need correct URLs or saved
+8. **Stances gaps** (2026-10-25: 26 surveillance positions, 1 police endorsement, 6 candidates with
+   police-union money). No sourced surveillance answers yet for SF D4 (Wong, Chow, Greco), most of
+   D10, Oakland's mayor race, Fremont, San Mateo, South SF or SMC Supervisor D5. Police unions
+   rarely publish endorsement lists: only KQED's report of the Richmond police association backing
+   Anderson is confirmed. A police staffing / budget axis was agreed as the next stance topic.
+9. Optional: Alameda County Dems / labor councils (sites unreachable; need correct URLs or saved
    pages).
 
 ---
@@ -96,6 +101,10 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
 | `tools/import_guides.py` | Merges hand-transcribed guides (`data-src/guides/*.json`), validates names |
 | `tools/import_picks.py` | Builds `picks.json` from `data-src/picks_*.csv`; rejects names not on a ballot |
 | `tools/ocr_pdf.py` | Text from PDFs; Tesseract OCR via the congress_trader backend image if needed |
+| `tools/police_union_money.py` | Police / deputy sheriff union contributions to candidates (SF Ethics + NetFile) → `police_money.json` |
+
+Hand-curated: `site/data/stances.json` (surveillance-tech positions and police-union endorsements,
+each sourced; rules in `docs/data-model.md` "Stances").
 
 Hand-checked inputs: `data-src/counties/<county>/measure_digests.json`, `candidate_profiles.json`,
 `data-src/local_measure_committees.json` (pins with reasons), `data-src/filing_notes.json`.

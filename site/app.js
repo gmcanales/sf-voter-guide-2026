@@ -33,7 +33,7 @@ function optionLabel(dim, n) {
 }
 
 const state = loadState();
-let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY;
+let BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY, STANCES, POLICE;
 
 // ── persistence ────────────────────────────────────────────────────────────
 function loadState() {
@@ -702,9 +702,52 @@ function candidateWho(contest, c) {
     !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
     c.statement ? candidateStatement(c) : null,
     groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
+    candidatePositions(contest, c),
     a?.source ? sourceLine(a.source_label || 'KQED voter guide', a.source, a.source_note
         || (a.source_label ? '(our summary; claims are the candidate’s own).' : '(candidate interviews, questionnaires and debates).'))
       : c.who_source?.url ? sourceLine(c.who_source.label, c.who_source.url, '(our summary; claims are the candidate’s own).') : null];
+}
+
+// Our sourced position tags (stances.json) and police-union money (police_money.json).
+function stancesFor(contestId, name) {
+  return STANCES?.candidates?.[contestId]?.[name] || [];
+}
+
+function stanceTopic(id) {
+  return STANCES?.topics?.find(t => t.id === id);
+}
+
+function stancePill(e) {
+  const t = stanceTopic(e.topic);
+  if (e.topic === 'police-union') return el('span', { class: 'vg-fund-pill vg-stance', title: e.text }, 'Police union: ', el('strong', {}, t.levels[e.stance]));
+  return el('span', { class: `vg-fund-pill vg-stance vg-stance-${e.stance}`, title: e.text },
+    'Surveillance tech: ', el('strong', {}, t.levels[e.stance]));
+}
+
+const dollars = n => `$${Math.round(n).toLocaleString('en-US')}`;   // small sums: exact, not "$4K"
+
+function policeMoneyPill(m) {
+  const who = m.gifts.map(g => `${prettyName(g.donor)} ${dollars(g.amount)}`).join('; ');
+  return el('span', { class: 'vg-fund-pill vg-stance', title: `Direct contributions since ${formatDate(POLICE.since)}: ${who}` },
+    'Police union money ', el('strong', {}, dollars(m.total)));
+}
+
+function candidatePositions(contest, c) {
+  const items = stancesFor(contest.id, c.name);
+  const m = POLICE?.candidates?.[contest.id]?.[c.name];
+  if (!items.length && !m) return null;
+  return el('div', { class: 'vg-positions' },
+    el('h4', {}, 'On the record'),
+    items.map(e => el('div', { class: 'vg-position-item' },
+      el('p', {}, el('strong', {}, `${stanceTopic(e.topic).label}: ${stanceTopic(e.topic).levels[e.stance]}. `), e.text),
+      sourceLine(e.source.label, e.source.url, e.source_extra ? null : '(as reported).'),
+      e.source_extra ? sourceLine(e.source_extra.label, e.source_extra.url) : null)),
+    m ? el('div', { class: 'vg-position-item' },
+      el('p', {}, el('strong', {}, `Police union money: ${dollars(m.total)}. `),
+        `Direct contributions to this campaign since ${formatDate(POLICE.since)}: `,
+        m.gifts.map(g => `${prettyName(g.donor)} (${dollars(g.amount)})`).join(', '), '.'),
+      sourceLine(contest.id.match(/^(ala|smc|cc)-/) ? 'NetFile public API, local Form 460/497 filings' : 'SF Ethics Commission filings (DataSF)',
+        m.portal || 'https://data.sf.gov/d/pitq-e56w', '(itemized gifts of $100+; outside spending isn’t counted).')) : null);
 }
 
 // The candidate's own statement from the official county voter guide, verbatim.
@@ -739,7 +782,8 @@ function hasDepth(contest) {
   const id = contest.id;
   return !!(ANALYSIS?.candidates?.[id] || EXTERNAL?.candidates?.[id] || FUNDING?.candidates?.[id]
     || ANALYSIS?.measures?.[id] || contest.summary || contest.statement_note || COUNTY_MONEY?.measures?.[id]
-    || LOCAL_MONEY?.candidates?.[id] || (contest.candidates || []).some(c => c.who || c.statement));
+    || LOCAL_MONEY?.candidates?.[id] || STANCES?.candidates?.[id] || POLICE?.candidates?.[id]
+    || (contest.candidates || []).some(c => c.who || c.statement));
 }
 
 function renderCandidateMore(contest, c) {
@@ -1191,11 +1235,20 @@ function topicTags(contest) {
 
 function matchesTopics(contest) {
   if (!state.topics.length) return true;
-  return topicTags(contest).some(t => state.topics.includes(t.topic));
+  return topicTags(contest).some(t => state.topics.includes(t.topic))
+    || [...stanceTopics(contest)].some(t => state.topics.includes(t));
+}
+
+// Topics an office contest carries through its candidates' tagged positions.
+function stanceTopics(contest) {
+  const out = new Set();
+  for (const es of Object.values(STANCES?.candidates?.[contest.id] || {})) es.forEach(e => out.add(e.topic));
+  if (POLICE?.candidates?.[contest.id]) out.add('police-union');
+  return out;
 }
 
 function topicLabel(id) {
-  return TOPICS.topics.find(t => t.id === id)?.label || id;
+  return TOPICS.topics.find(t => t.id === id)?.label || stanceTopic(id)?.label || id;
 }
 
 const ARROW = { up: '↑', down: '↓', stable: '=', limit: '⊘' };
@@ -1262,23 +1315,27 @@ function renderTopicBar() {
     if (!CONTEST_INDEX[cid] || !appliesToReader(CONTEST_INDEX[cid].contest)) continue;
     for (const t of new Set(tags.map(t => t.topic))) counts[t] = (counts[t] || 0) + 1;
   }
+  for (const { contest } of Object.values(CONTEST_INDEX)) {
+    if (appliesToReader(contest)) for (const t of stanceTopics(contest)) counts[t] = (counts[t] || 0) + 1;
+  }
+  const all = [...TOPICS.topics, ...(STANCES?.topics || []).filter(t => counts[t.id])];
   const toggle = id => {
     state.topics = state.topics.includes(id) ? state.topics.filter(t => t !== id) : [...state.topics, id];
     saveState(); renderTopicBar(); renderBallot();
   };
   setKids(box,
     el('div', { class: 'vg-topics-head' },
-      el('span', { class: 'vg-topics-title' }, 'Browse measures by topic'),
+      el('span', { class: 'vg-topics-title' }, 'Browse by topic'),
       state.topics.length
         ? el('button', { type: 'button', class: 'vg-topics-clear', onclick: () => { state.topics = []; saveState(); renderTopicBar(); renderBallot(); } }, 'Show everything')
         : null),
-    el('div', { class: 'vg-topic-chips' }, TOPICS.topics.map(t => el('button', {
+    el('div', { class: 'vg-topic-chips' }, all.map(t => el('button', {
       type: 'button', class: 'vg-topic-chip' + (state.topics.includes(t.id) ? ' is-active' : ''),
       'aria-pressed': String(state.topics.includes(t.id)), title: t.description, onclick: () => toggle(t.id),
     }, t.label, el('span', { class: 'vg-topic-count' }, String(counts[t.id] || 0))))),
     state.topics.length
-      ? el('p', { class: 'vg-fineprint' }, `Showing only measures tagged ${state.topics.map(topicLabel).join(' or ')}. Offices are hidden while a topic is selected.`)
-      : el('p', { class: 'vg-fineprint' }, 'Topic tags are our own labels: what a measure is about and which way a YES vote moves it, not whether it’s good. Hover or long-press a tag for the reason.'));
+      ? el('p', { class: 'vg-fineprint' }, `Showing only measures and races tagged ${state.topics.map(topicLabel).join(' or ')}. Other contests are hidden while a topic is selected.`)
+      : el('p', { class: 'vg-fineprint' }, 'Topic tags are our own labels: what a measure is about and which way a YES vote moves it, or where a candidate stands as reported, not whether it’s good. Hover or long-press a tag for the reason.'));
 }
 
 // Wrap money and percentages ("~2%", "$371K", "$1 billion", "$129+") so they stand out.
@@ -1348,6 +1405,9 @@ function renderCandidateTags(contest, name) {
   }
   const m = FUNDING?.candidates?.[contest.id]?.[name];
   if (m) pills.push(...fundingPills(m));
+  pills.push(...stancesFor(contest.id, name).map(stancePill));
+  const pm = POLICE?.candidates?.[contest.id]?.[name];
+  if (pm) pills.push(policeMoneyPill(pm));
   if (m?.no_committee) {
     pills.push(el('span', { class: 'vg-fund-pill vg-fund-none', title: 'No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.' }, 'No campaign committee'));
   }
@@ -1523,7 +1583,7 @@ async function main() {
     return r.json();
   });
   try {
-    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY] = await Promise.all([
+    [BALLOT, GUIDES, PICKS, ZIPS, TOPICS, FUNDING, MONEY, STATE_MONEY, ANALYSIS, EXTERNAL, COUNTY_MONEY, ZIP_COUNTIES, LOCAL_MONEY, STANCES, POLICE] = await Promise.all([
       get(DATA_BASE + 'ballot.json'), get('./data/endorsements.json'), get('./data/picks.json'),
       get(COUNTY === 'sf' ? './data/zip_districts.json' : DATA_BASE + 'zip_districts.json').catch(() => ({ zips: {} })),
       get('./data/topics.json'),
@@ -1532,7 +1592,8 @@ async function main() {
       get('./data/external_money.json').catch(() => null),
       PREVIEW ? get('./data/county_measure_money.json').catch(() => null) : null,
       get('./data/zip_counties.json').catch(() => null),
-      PREVIEW ? get(DATA_BASE + 'candidate_money.json').catch(() => null) : null]);
+      PREVIEW ? get(DATA_BASE + 'candidate_money.json').catch(() => null) : null,
+      get('./data/stances.json').catch(() => null), get('./data/police_money.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
     setKids(document.getElementById('ballot'), 

@@ -191,11 +191,30 @@ def agency_filers(shortcut: str) -> list[dict]:
 def committee_itemized(ag: dict, fid: str, nf_name: str, since: str | None = None) -> dict | None:
     """Itemized contributions to one committee, found by its exact NetFile name.
 
+    Counts Schedule A, Schedule C and Form 497 part 1 (see committee_rows). Contributions
+    under $100 aren't itemized, so this is "itemized", not the 460 total.
+    """
+    mine = committee_rows(ag, fid, nf_name, since)
+    if not mine:
+        return None
+    donors, last = defaultdict(float), None
+    for r in mine:
+        donors[r.get("name") or "Unitemized"] += r["amount"]
+        last = max(filter(None, [last, r["date"][:10]]))
+    top = sorted(donors.items(), key=lambda kv: -kv[1])
+    return {"agency": ag["shortcut"], "agency_name": ag["name"], "itemized": round(sum(donors.values())),
+            "through": last, "donor_count": len(top),
+            "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
+
+
+def committee_rows(ag: dict, fid: str, nf_name: str, since: str | None = None) -> list[dict] | None:
+    """One committee's itemized contribution rows, found by its exact NetFile name.
+
     Transactions come from a name search with superseded amendments excluded, then are
     filtered to the committee's own FPPC id (or, while the id is still "Pending", its exact
-    name). Counts Schedule A, Schedule C and Form 497 part 1, deduping late contributions
-    that reappear on the next Form 460 (same donor, date and amount). Contributions under
-    $100 aren't itemized, so this is "itemized", not the 460 total.
+    name). Keeps Schedule A, Schedule C and Form 497 part 1, deduping late contributions
+    that reappear on the next Form 460 (same donor, date and amount). None if NetFile
+    refuses every form of the search.
     """
     import urllib.error
     words = re.sub(r"[^\w\s&'-]", " ", nf_name).split()[:8]
@@ -223,20 +242,13 @@ def committee_itemized(ag: dict, fid: str, nf_name: str, since: str | None = Non
     else:
         mine = [r for r in rows if (r.get("filerName") or "").strip().lower() == nf_name.strip().lower()]
     mine = [r for r in mine if r.get("transactionType") in A_TYPES and (not since or r["date"][:10] >= since)]
-    if not mine:
-        return None
-    seen, donors, last = set(), defaultdict(float), None
+    seen, out = set(), []
     for r in sorted(mine, key=lambda r: r["transactionType"]):   # 460 rows before 497 rows
         k = ((r.get("name") or "").upper(), r["date"][:10], round(r["amount"], 2))
-        if k in seen:
-            continue
-        seen.add(k)
-        donors[r.get("name") or "Unitemized"] += r["amount"]
-        last = max(filter(None, [last, r["date"][:10]]))
-    top = sorted(donors.items(), key=lambda kv: -kv[1])
-    return {"agency": ag["shortcut"], "agency_name": ag["name"], "itemized": round(sum(donors.values())),
-            "through": last, "donor_count": len(top),
-            "top": [{"name": n, "amount": round(a)} for n, a in top[:8]]}
+        if k not in seen:
+            seen.add(k)
+            out.append(r)
+    return out
 
 
 def agencies() -> list[dict]:

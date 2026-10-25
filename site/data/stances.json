@@ -1,0 +1,374 @@
+{
+ "_about": "OUR position tags for candidates on specific issues, each sourced to the candidate's own words or recorded votes as reported. Levels describe a position, never a character judgment (see docs/data-model.md, \"Stances\"). A candidate with no entry has no sourced position: show nothing, never a guess. `text` is a one-line factual summary; quotes are the candidate's.",
+ "topics": [
+  {
+   "id": "surveillance",
+   "label": "Police surveillance tech",
+   "description": "License plate readers (Flock, Axon, Motorola and others), police drones and camera networks.",
+   "levels": {
+    "supports": "Supports",
+    "conditional": "Supports, with conditions",
+    "vendor": "Against Flock, open to another vendor",
+    "opposes": "Opposes"
+   }
+  },
+  {
+   "id": "police-union",
+   "label": "Police union support",
+   "description": "Endorsements and direct contributions from police, deputy sheriff and other peace-officer unions.",
+   "levels": {
+    "endorsed": "Endorsed"
+   }
+  }
+ ],
+ "candidates": {
+  "sup-2": {
+   "Stephen Sherrill": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Answered “yes” on increasing surveillance tech, crediting license plate readers for a drop in car break-ins; says the facial-recognition ban must stay. Backs Flock so far, but would oppose it “if civil liberties are impacted.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/05/sf-district-2-candidates-sherrill-brooke-police-surveillance/"
+     },
+     "source_extra": {
+      "label": "SF Standard",
+      "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
+     }
+    }
+   ]
+  },
+  "sup-6": {
+   "Matt Dorsey": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Supports renewing SF’s Flock contract and expanding plate readers and drones; open to guardrails against misuse, but opposes limits “premised on speculative harms.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/09/meet-the-district-6-candidate-limits-police-surveillance/"
+     },
+     "source_extra": {
+      "label": "SF Standard",
+      "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
+     }
+    }
+   ]
+  },
+  "sup-8": {
+   "Emanuel “Manny” Yekutiel": [
+    {
+     "topic": "surveillance",
+     "stance": "conditional",
+     "text": "“Yes, I support it, with real guardrails”; won’t support any of it “if that data ends up with ICE or the federal government, full stop.” Has “no allegiance to Flock.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+     }
+    }
+   ],
+   "Darshini Patel": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Would vote against renewing SFPD’s Flock contract: “a violation of our personal privacy.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+     }
+    }
+   ],
+   "Michael T. Nguyen": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Opposes expanding Flock cameras: “a mass-surveillance system that tracks where people travel.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+     }
+    }
+   ],
+   "Gary McCoy": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Doesn’t support the city’s use of Flock cameras; says he has refused donations from Flock, its lobbyists and employees.",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+     }
+    }
+   ]
+  },
+  "sup-10": {
+   "Theo Ellington": [
+    {
+     "topic": "surveillance",
+     "stance": "conditional",
+     "text": "Supports renewal only with strict retention limits, independent audits, public reports and “an absolute bar” on sharing data with immigration enforcement.",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-surveillance-tech/"
+     }
+    }
+   ],
+   "J.R. Eppler": [
+    {
+     "topic": "surveillance",
+     "stance": "vendor",
+     "text": "Would vote no on expanding surveillance in D10. Calls plate readers and drones useful tools, but “Flock failed the test”: SF should pick a new vendor after a Police Commission review.",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-surveillance-tech/"
+     },
+     "source_extra": {
+      "label": "SF Standard",
+      "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
+     }
+    }
+   ],
+   "Dionjay (DJ) Brookter": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Would oppose expanding “Flock and other mass-surveillance technology”: “We should not create systems that track residents’ movements.”",
+     "source": {
+      "label": "Mission Local",
+      "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-surveillance-tech/"
+     }
+    }
+   ]
+  },
+  "ala-councilmember-district-no-2-oakland": {
+   "Charlene Wang": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Voted for Oakland’s two-year Flock contract (Dec 2025, 7–1, with only Carroll Fife against) and co-wrote its data-privacy amendments.",
+     "source": {
+      "label": "KQED",
+      "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     }
+    }
+   ]
+  },
+  "ala-councilmember-district-no-4-oakland": {
+   "Janani Ramachandran": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Voted for Oakland’s two-year Flock contract (Dec 2025, 7–1, with only Carroll Fife against).",
+     "source": {
+      "label": "KQED",
+      "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     }
+    }
+   ]
+  },
+  "ala-councilmember-district-no-6-oakland": {
+   "Kevin E. Jenkins": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Voted for Oakland’s two-year Flock contract (Dec 2025, 7–1, with only Carroll Fife against).",
+     "source": {
+      "label": "KQED",
+      "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     }
+    }
+   ]
+  },
+  "ala-member-of-city-council-district-1-berkeley": {
+   "Daria Wrubel": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Opposes plate readers and would end the Flock contract; pledged never to vote to “approve, renew, expand, or otherwise allow any mass surveillance system.”",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/07/berkeley-city-council-district-1-ross-bernet-laura-babitt-daria-wrubel-moni-gangopadhyay-steve-kromer"
+     }
+    }
+   ],
+   "Moni Gangopadhyay": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Opposes plate readers (“These cameras don’t prevent crime”) and would end the Flock contract; signed the same no-mass-surveillance pledge.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/07/berkeley-city-council-district-1-ross-bernet-laura-babitt-daria-wrubel-moni-gangopadhyay-steve-kromer"
+     }
+    }
+   ],
+   "Laura Babitt": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Would end the Flock contract (“a bad actor”); skeptical of more surveillance spending, open to cameras against illegal dumping. Didn’t say whether she opposes plate readers in general.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/07/berkeley-city-council-district-1-ross-bernet-laura-babitt-daria-wrubel-moni-gangopadhyay-steve-kromer"
+     }
+    }
+   ],
+   "Ross Bernet": [
+    {
+     "topic": "surveillance",
+     "stance": "vendor",
+     "text": "Prefers a plate-reader vendor other than Flock (would consider Flock only with adequate data controls); wouldn’t approve the police drone and camera expansion package.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/07/berkeley-city-council-district-1-ross-bernet-laura-babitt-daria-wrubel-moni-gangopadhyay-steve-kromer"
+     }
+    }
+   ],
+   "Steve Kromer": [
+    {
+     "topic": "surveillance",
+     "stance": "vendor",
+     "text": "Would “probably” vote against Flock; open to another vendor, and would convene police and the Police Accountability Board to find a “balance point.”",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/07/berkeley-city-council-district-1-ross-bernet-laura-babitt-daria-wrubel-moni-gangopadhyay-steve-kromer"
+     }
+    }
+   ]
+  },
+  "ala-member-of-city-council-district-4-berkeley": {
+   "Igor A. Tregub": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Voted against renewing Berkeley’s Flock plate-reader contract (May 2026, passed 5–4); the council rejected the drone and camera expansion 8–1.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/05/08/flock-safety-berkeley-surveillance-cameras-drones-nova-community-video-streams"
+     }
+    }
+   ],
+   "Majdi \"Gaith\" Abuhamdieh": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Joined an Oct 6 press conference denouncing mass surveillance technology, including plate-reader cameras.",
+     "source": {
+      "label": "Local News Matters",
+      "url": "https://localnewsmatters.org/2026/10/07/berkeley-city-council-mass-surveillance/"
+     }
+    }
+   ]
+  },
+  "ala-member-of-city-council-district-7-berkeley": {
+   "Aidan Hill": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Joined an Oct 6 press conference denouncing mass surveillance technology, including plate-reader cameras.",
+     "source": {
+      "label": "Local News Matters",
+      "url": "https://localnewsmatters.org/2026/10/07/berkeley-city-council-mass-surveillance/"
+     }
+    }
+   ],
+   "Syrak Micael": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Joined an Oct 6 press conference denouncing mass surveillance technology, including plate-reader cameras.",
+     "source": {
+      "label": "Local News Matters",
+      "url": "https://localnewsmatters.org/2026/10/07/berkeley-city-council-mass-surveillance/"
+     }
+    }
+   ]
+  },
+  "ala-member-of-city-council-district-8-berkeley": {
+   "Mark Humbert": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Voted to renew Berkeley’s Flock contract in May; calls the readers “really useful in solving some really serious crimes,” while sharing concern about federal access.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/19/berkeley-district-8-humbert-wallman-mendonca-city-council"
+     }
+    }
+   ],
+   "Michael Wallman": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Opposes plate readers and police surveillance tech: “I’m just against mass surveillance.” Doesn’t think Berkeley can safeguard the data.",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/19/berkeley-district-8-humbert-wallman-mendonca-city-council"
+     }
+    }
+   ],
+   "Mari Mendonca": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Wants Berkeley to end the Flock contract and calls plate readers “an unsafe option”: “Surveillance is not a strategy; it’s surveillance.”",
+     "source": {
+      "label": "Berkeleyside",
+      "url": "https://www.berkeleyside.org/2026/10/19/berkeley-district-8-humbert-wallman-mendonca-city-council"
+     }
+    }
+   ]
+  },
+  "cc-city-of-richmond-mayor": {
+   "Claudia Jiménez": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Has opposed Flock from the start; voted against turning its plate readers back on (Mar 2026, passed 4–3). The council since approved Axon drones and cameras 5–2 and sent plate readers back for a separate vote.",
+     "source": {
+      "label": "Richmondside",
+      "url": "https://richmondside.org/2026/03/18/richmond-flock-cameras-license-plate-readers-on/"
+     },
+     "source_extra": {
+      "label": "Grandview Independent",
+      "url": "https://www.grandviewindependent.com/richmond-approves-police-drones-and-cameras-puts-license-plate-readers-on-hold/"
+     }
+    }
+   ],
+   "Ahmad Anderson": [
+    {
+     "topic": "surveillance",
+     "stance": "conditional",
+     "text": "Backed the Flock cameras earlier in the campaign; now ties them to minimum police staffing and wants civil-liberties rules with consequences for misuse.",
+     "source": {
+      "label": "Grandview Independent",
+      "url": "https://www.grandviewindependent.com/anderson-jimenez-clash-over-chevron-settlement-flock-cameras-in-mayoral-debate/"
+     }
+    },
+    {
+     "topic": "police-union",
+     "stance": "endorsed",
+     "text": "Has the support of Richmond’s police association, per KQED.",
+     "source": {
+      "label": "KQED",
+      "url": "https://www.kqed.org/news/12086075/richmond-mayoral-race-jimenez-and-anderson-likely-headed-for-runoff-in-november"
+     }
+    }
+   ]
+  },
+  "smc-city-of-redwood-city-member-city-council-district-2": {
+   "Chris Sturken": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "Cast the only no vote on Redwood City’s first Flock contract (Sept 2023, 6–1), citing weak privacy protections and the risk of misreads.",
+     "source": {
+      "label": "Redwood City Pulse",
+      "url": "https://www.rwcpulse.com/top-story/2023/09/14/council-votes-to-add-license-plate-readers-to-some-redwood-city-streets"
+     }
+    }
+   ]
+  }
+ }
+}
