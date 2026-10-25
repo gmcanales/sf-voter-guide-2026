@@ -22,6 +22,43 @@
     "reasoning": "The Secretary of State runs California's elections. It's not worth the risk of electing someone from a party that is actively undermining confidence in elections across the country. Vote for the Democrat here."
    }
   ],
+  "controller": [
+   {
+    "verdict": "honk",
+    "target": "Herb W Morgan",
+    "reasoning": "The Controller is California's chief fiscal officer: it pays the state's bills and audits how the money gets spent. Same story as the top of the ticket: we're not handing the state's books to the party undermining democratic institutions. Vote for the Democrat here."
+   }
+  ],
+  "treasurer": [
+   {
+    "verdict": "honk",
+    "target": "Jennifer Hawks",
+    "reasoning": "The Treasurer is the state's banker: it invests the state's money and sells its bonds. Low drama, but not worth the risk. Vote for the Democrat here. Heads up for renters: the landlord lobby (the California Apartment Association) put $75K behind Kounalakis."
+   }
+  ],
+  "attorney-general": [
+   {
+    "verdict": "honk",
+    "target": "Michael E. Gates",
+    "reasoning": "The Attorney General is California's top lawyer and its front line against federal attacks on voting. At Trump's Justice Department, Gates signed the federal lawsuit demanding Orange County's unredacted voter records. Hard pass. Vote for the Democrat here.",
+    "source": "https://www.democracydocket.com/?p=70165"
+   }
+  ],
+  "insurance-commissioner": [
+   {
+    "verdict": "note",
+    "target": "Jane Kim",
+    "reasoning": "Two Democrats, and a real split for us. Ben Allen has the pro-housing groups (YIMBY Action, GrowSF) and California Environmental Voters, but also about $3.6M in outside money from environmental, business and homebuilder groups, and only 0.3% of his campaign's money comes from small donors. Jane Kim has labor and the Working Families Party behind her, and the CalChamber's PAC has spent $1.5M attacking her. This office regulates home insurance, which matters for housing. We lean Kim: we love a populist and we're wary of that much outside money."
+   }
+  ],
+  "boe-2": [
+   {
+    "verdict": "note",
+    "target": "Sally J. Lieber",
+    "reasoning": "Two Democrats, for a board that lost most of its job in 2017, when sales-tax collection and most tax appeals moved to new agencies. It now mostly handles property, insurance and alcohol tax matters. Lieber is the incumbent, backed by SF Dems and the Pissed Off Voters; Pimentel has GrowSF and more money. Low stakes. We lean Lieber.",
+    "source": "https://www.salestaxinstitute.com/resources/california-board-equalization-duties-transferred-department-tax-and-fee"
+   }
+  ],
   "us-rep-11": [
    {
     "verdict": "note",
