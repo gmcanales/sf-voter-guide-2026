@@ -437,7 +437,7 @@
      "title": "United States Representative, District 10",
      "candidates": [
       {
-       "name": "Mark Desaulnier",
+       "name": "Mark DeSaulnier",
        "designation": "United States Congressman",
        "party": "/> Democratic Party"
       },
@@ -1617,11 +1617,21 @@
      "candidates": [
       {
        "name": "Desrie Campbell",
-       "designation": "Councilmember/Healthcare Director"
+       "designation": "Councilmember/Healthcare Director",
+       "who": "Incumbent councilmember and former school board member; 30-year Fremont resident. Promises to expand parks and open space, fix roads and pedestrian infrastructure, support local businesses and manufacturing, and keep climate commitments. Lists endorsements from Rep. Ro Khanna and Assemblymember Alex Lee.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       },
       {
        "name": "Keith Parker",
-       "designation": "Marketing Director"
+       "designation": "Marketing Director",
+       "who": "Marketing director and 30-year resident; PTSA board member and on the Ohlone College, Washington Health and Fremont Education foundation boards. Names homelessness, departing businesses and crime as the top problems; proposes individualized homelessness services, more police staffing and faster permitting for businesses.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1636,11 +1646,21 @@
      "candidates": [
       {
        "name": "Kathy Kimberlin",
-       "designation": "County Field Director"
+       "designation": "County Field Director",
+       "who": "Appointed to the Council in 2024; Fremont field director for the Alameda County Supervisor. Focuses on traffic, services for unhoused residents, small businesses, nonprofit partnerships and public safety. Lists endorsements from Rep. Ro Khanna, Treasurer Fiona Ma, Assemblymember Alex Lee and the Tri-City mayors.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       },
       {
        "name": "Vipin Sharma",
-       "designation": "Senior Engineering Manager"
+       "designation": "Senior Engineering Manager",
+       "who": "Senior engineering manager (in engineering since 1991) with physics degrees; volunteers with Fremont Police's VIPS program. Pitches an independent, evidence-based approach to public safety, homelessness and budgeting, and promises to explain the reasoning behind decisions.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1655,11 +1675,21 @@
      "candidates": [
       {
        "name": "Aziz Akbari",
-       "designation": "Director, Alameda County Water District"
+       "designation": "Director, Alameda County Water District",
+       "who": "Director on the Alameda County Water District board for a decade; grew up in Fremont public schools. Points to $30M+ in infrastructure grants, a low-income rate program and a AAA bond rating there; wants affordable housing for working families and seniors, more green space and fiscal transparency.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       },
       {
        "name": "Ying Min Li",
-       "designation": "Small Business Owner"
+       "designation": "Small Business Owner",
+       "who": "Small business owner and former Silicon Valley engineer; 30-year resident. Public safety is the top priority (a fully staffed police department), followed by traffic congestion and moving people from homelessness into stable housing.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       },
       {
        "name": "Anurag Mishra",
@@ -1667,7 +1697,12 @@
       },
       {
        "name": "Manisha Pathak",
-       "designation": "Educator/Nonprofit Executive"
+       "designation": "Educator/Nonprofit Executive",
+       "who": "Tech-industry veteran of 20 years, Fremont Human Relations Commissioner, nonprofit founder and teacher of Indian classical music. Priorities: homelessness with measurable results, first-responder and community partnerships, traffic infrastructure, practical environmental steps.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1797,19 +1832,39 @@
      "candidates": [
       {
        "name": "Brenda F. Grisham",
-       "designation": "Business Owner"
+       "designation": "Business Owner",
+       "who": "Lifelong Oaklander and owner of a financial-services firm. After a son's 2010 killing, became a public-safety and victims' advocate (Violence Prevention Coalition chair, Ceasefire speaker, East Bay Alliance for Public Safety). Runs on public safety and financial stability.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=740"
+       }
       },
       {
        "name": "Barbara Lee",
-       "designation": "Mayor, City of Oakland"
+       "designation": "Mayor, City of Oakland",
+       "who": "Incumbent mayor (elected 2025), former Congresswoman, state senator and assemblymember. Credits the administration with governance reform (Charter Reform), reduced gun violence, 7,000 tons of trash removed by volunteers and budget stability, and pledges to protect Oakland from federal threats.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=740"
+       }
       },
       {
        "name": "Mindy Ruth Pechenuk",
-       "designation": "Educator/Researcher"
+       "designation": "Educator/Researcher",
+       "who": "Educator and researcher. Proposes reviving manufacturing and trade apprenticeships, a full independent audit, spending cuts without new taxes, and ending camera-ticket revenue (\"treating drivers like cash machines\"); promises to confront open-air drug markets.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=740"
+       }
       },
       {
        "name": "Julius Robinson",
-       "designation": "Community Investment Executive"
+       "designation": "Community Investment Executive",
+       "who": "Banking and community-development consultant; near-40-year resident. Cites $200M+ in community development programs and a $350M investment fund; runs on safe neighborhoods, accountable government, business growth and housing.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=740"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1825,11 +1880,21 @@
      "candidates": [
       {
        "name": "Nate Adams",
-       "designation": "Community Organizer"
+       "designation": "Community Organizer",
+       "who": "Community organizer who led a 2,400-member Oakland grassroots group and organized unions nationally. Commits to safer, cleaner streets, affordable housing, 1,000 city jobs for services and fiscal accountability; describes the campaign as the only corporate-free one in the race.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       },
       {
        "name": "Charlene Wang",
-       "designation": "City Councilmember, District 2"
+       "designation": "City Councilmember, District 2",
+       "who": "Incumbent (elected 2025), policy advisor and Public Safety Committee chair. Cites a survivor-services fund paid by penalties on pimps, Oakland's sanctuary ordinance, closing the East 12th encampment and converting motels into shelters. Lists endorsements from the mayor and the entire council.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1845,7 +1910,12 @@
      "candidates": [
       {
        "name": "Janani Ramachandran",
-       "designation": "Councilmember/Attorney/Mother"
+       "designation": "Councilmember/Attorney/Mother",
+       "who": "Incumbent, public-interest attorney and former Public Ethics Commissioner; chairs the Finance Committee. Self-described City Hall disruptor focused on spending effectively to restore basic services: public safety, paving, business development, wildfire prevention, parks and housing. Running unopposed.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1861,11 +1931,21 @@
      "candidates": [
       {
        "name": "Kevin E. Jenkins",
-       "designation": "City Council President"
+       "designation": "City Council President",
+       "who": "Incumbent and City Council President; previously Interim Mayor and a Peralta College trustee. Running on continuing public-safety, neighborhood-investment and local-business work; lists support from Mayor Lee, Rep. Lateefah Simon and State Sen. Jesse Arreguín.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       },
       {
        "name": "Nancy S. Sidebotham",
-       "designation": "Tax Preparer"
+       "designation": "Tax Preparer",
+       "who": "Tax preparer and longtime civic activist (in Oakland since the 1960s, NCPC 29X). Emphasizes knowledge of city budgets and staffing, and criticizes City Hall's lack of transparency.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1881,7 +1961,12 @@
      "candidates": [
       {
        "name": "Michael C. Houston",
-       "designation": "Oakland City Auditor"
+       "designation": "Oakland City Auditor",
+       "who": "Incumbent City Auditor since 2024 and a certified auditor with 18 years in audits and investigations. Cites audits of illegal dumping, business taxes and emergency response, plus whistleblower fraud investigations. Running unopposed.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1897,11 +1982,21 @@
      "candidates": [
       {
        "name": "Jennifer Brouhard",
-       "designation": "Retired Educator"
+       "designation": "Retired Educator",
+       "who": "Incumbent and current Board President; retired OUSD teacher with 27 years in the classroom. Focus: balanced budgets that protect classrooms, preserving local control, competitive pay to retain teachers.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       },
       {
        "name": "Arielle Fleisher",
-       "designation": "Parent/Policy Director"
+       "designation": "Parent/Policy Director",
+       "who": "OUSD parent and Bay Area policy manager who published OUSD budget explainers. Argues OUSD spends more per student than any large California district while 1 in 3 students reads at grade level; promises honest budgeting and a focus on outcomes.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1917,15 +2012,30 @@
      "candidates": [
       {
        "name": "Kathryn Camp",
-       "designation": "Public Policy Professional"
+       "designation": "Public Policy Professional",
+       "who": "OUSD parent and public-policy/regulatory professional; started at Laney College, then UC Berkeley. Priorities: literacy and math, career pathways, support for educators, transparent oversight and data-based budgeting.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       },
       {
        "name": "Mike Hutchinson",
-       "designation": "Incumbent"
+       "designation": "Incumbent",
+       "who": "Incumbent (six years on the board, previously District 5); Oakland-raised education advocate and organizer. Blames failed leadership and financial mismanagement; wants an excellent superintendent, a solvency plan and genuine family engagement.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       },
       {
        "name": "Sylvia Pfeiffer Williams",
-       "designation": "Adult Educator"
+       "designation": "Adult Educator",
+       "who": "OUSD adult educator for 20+ years, special education and six years as a union rep; certificate in education finance from Georgetown. Wants budgets aligned with priorities and every dollar directed to classrooms, community schools and adult education.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
@@ -1941,15 +2051,30 @@
      "candidates": [
       {
        "name": "Valarie Bachelor",
-       "designation": "School Board Director"
+       "designation": "School Board Director",
+       "who": "Incumbent (elected 2022) and nonprofit director; immigrated from Bolivia as a child. Cites keeping neighborhood schools open, stronger budget oversight, and protections for immigrant and LGBTQ+ students; focus on reading and math and facilities.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       },
       {
-       "name": "Leana Powell",
-       "designation": "Family Advocate/Parent"
+       "name": "LeAna Powell",
+       "designation": "Family Advocate/Parent",
+       "who": "Family advocate and PTA parent from five generations of Oakland public-school families; former council aide. Priorities: reading and math improvement, balanced OUSD finances, and family engagement in major decisions.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       },
       {
        "name": "Alexandra Williams",
-       "designation": "Teacher/Program Director"
+       "designation": "Teacher/Program Director",
+       "who": "High-school math teacher (district, private and charter schools, 15 years), former administrator and nonprofit STEM director; HBCU graduate. Promises to test every decision against whether it moves students forward.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",

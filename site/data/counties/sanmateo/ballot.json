@@ -1466,7 +1466,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 15
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-redwood-city-member-city-council-district-5",
@@ -1481,7 +1482,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 15
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-redwood-city-member-city-council-district-6",
@@ -1496,7 +1498,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 15
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-san-bruno-mayor",
@@ -1596,7 +1599,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 18
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-san-mateo-member-city-council-district-3",
@@ -1608,14 +1612,15 @@
        "designation": "Planning Commissioner"
       },
       {
-       "name": "Robert G. Newsom JR.",
+       "name": "Robert G. Newsom Jr.",
        "designation": "Councilmember / Businessman / Father"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 18
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-san-mateo-member-city-council-district-5",
@@ -1638,7 +1643,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 18
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-south-san-francisco-member-city-council-district-1",
@@ -1653,7 +1659,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 19
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-south-san-francisco-member-city-council-district-3",
@@ -1676,7 +1683,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 19
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-south-san-francisco-member-city-council-district-5",
@@ -1691,7 +1699,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 19
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-south-san-francisco-city-clerk",
@@ -1706,7 +1715,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 19
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-city-of-south-san-francisco-city-treasurer",
@@ -1721,7 +1731,8 @@
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
      "applies": {
       "city": 19
-     }
+     },
+     "statement_note": "Candidate statements for this race are printed in your Sample Ballot & Official Voter Information Pamphlet; the county doesn't post them publicly."
     },
     {
      "id": "smc-town-of-woodside-member-town-council-district-2",

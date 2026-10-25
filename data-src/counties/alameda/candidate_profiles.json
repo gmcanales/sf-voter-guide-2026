@@ -1,0 +1,69 @@
+{
+ "_about": "Who? lines for Fremont and Oakland candidates: our neutral summaries of each candidate's own statement in the Alameda County Voter Information Guide (statements are written and paid for by the candidates; claims are theirs). Read with tools/ocr_pdf.py from guide pages 680-682 (Fremont) and 740-757 (Oakland). Candidates without a statement in the guide are absent and fall back to their ballot designation.",
+ "_sources": {
+  "fremont": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=680",
+  "oakland_mayor": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=740",
+  "oakland_council": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=744",
+  "oakland_school": "https://acvote.alamedacountyca.gov/acvote-assets/02_election_information/PDFs/20261103/Voter%20Information%20Guide/vig_nov2026_eng.pdf#page=750"
+ },
+ "profiles": {
+  "Member Of City Council #2, Fremont": {
+   "_source": "fremont",
+   "Desrie Campbell": "Incumbent councilmember and former school board member; 30-year Fremont resident. Promises to expand parks and open space, fix roads and pedestrian infrastructure, support local businesses and manufacturing, and keep climate commitments. Lists endorsements from Rep. Ro Khanna and Assemblymember Alex Lee.",
+   "Keith Parker": "Marketing director and 30-year resident; PTSA board member and on the Ohlone College, Washington Health and Fremont Education foundation boards. Names homelessness, departing businesses and crime as the top problems; proposes individualized homelessness services, more police staffing and faster permitting for businesses."
+  },
+  "Member Of City Council #3, Fremont": {
+   "_source": "fremont",
+   "Kathy Kimberlin": "Appointed to the Council in 2024; Fremont field director for the Alameda County Supervisor. Focuses on traffic, services for unhoused residents, small businesses, nonprofit partnerships and public safety. Lists endorsements from Rep. Ro Khanna, Treasurer Fiona Ma, Assemblymember Alex Lee and the Tri-City mayors.",
+   "Vipin Sharma": "Senior engineering manager (in engineering since 1991) with physics degrees; volunteers with Fremont Police's VIPS program. Pitches an independent, evidence-based approach to public safety, homelessness and budgeting, and promises to explain the reasoning behind decisions."
+  },
+  "Member Of City Council #4, Fremont": {
+   "_source": "fremont",
+   "Manisha Pathak": "Tech-industry veteran of 20 years, Fremont Human Relations Commissioner, nonprofit founder and teacher of Indian classical music. Priorities: homelessness with measurable results, first-responder and community partnerships, traffic infrastructure, practical environmental steps.",
+   "Aziz Akbari": "Director on the Alameda County Water District board for a decade; grew up in Fremont public schools. Points to $30M+ in infrastructure grants, a low-income rate program and a AAA bond rating there; wants affordable housing for working families and seniors, more green space and fiscal transparency.",
+   "Ying Min Li": "Small business owner and former Silicon Valley engineer; 30-year resident. Public safety is the top priority (a fully staffed police department), followed by traffic congestion and moving people from homelessness into stable housing."
+  },
+  "Mayor, Oakland": {
+   "_source": "oakland_mayor",
+   "Barbara Lee": "Incumbent mayor (elected 2025), former Congresswoman, state senator and assemblymember. Credits the administration with governance reform (Charter Reform), reduced gun violence, 7,000 tons of trash removed by volunteers and budget stability, and pledges to protect Oakland from federal threats.",
+   "Brenda F. Grisham": "Lifelong Oaklander and owner of a financial-services firm. After a son's 2010 killing, became a public-safety and victims' advocate (Violence Prevention Coalition chair, Ceasefire speaker, East Bay Alliance for Public Safety). Runs on public safety and financial stability.",
+   "Mindy Ruth Pechenuk": "Educator and researcher. Proposes reviving manufacturing and trade apprenticeships, a full independent audit, spending cuts without new taxes, and ending camera-ticket revenue (\"treating drivers like cash machines\"); promises to confront open-air drug markets.",
+   "Julius Robinson": "Banking and community-development consultant; near-40-year resident. Cites $200M+ in community development programs and a $350M investment fund; runs on safe neighborhoods, accountable government, business growth and housing."
+  },
+  "Councilmember, District No. 2, Oakland": {
+   "_source": "oakland_council",
+   "Nate Adams": "Community organizer who led a 2,400-member Oakland grassroots group and organized unions nationally. Commits to safer, cleaner streets, affordable housing, 1,000 city jobs for services and fiscal accountability; describes the campaign as the only corporate-free one in the race.",
+   "Charlene Wang": "Incumbent (elected 2025), policy advisor and Public Safety Committee chair. Cites a survivor-services fund paid by penalties on pimps, Oakland's sanctuary ordinance, closing the East 12th encampment and converting motels into shelters. Lists endorsements from the mayor and the entire council."
+  },
+  "Councilmember, District No. 4, Oakland": {
+   "_source": "oakland_council",
+   "Janani Ramachandran": "Incumbent, public-interest attorney and former Public Ethics Commissioner; chairs the Finance Committee. Self-described City Hall disruptor focused on spending effectively to restore basic services: public safety, paving, business development, wildfire prevention, parks and housing. Running unopposed."
+  },
+  "Councilmember, District No. 6, Oakland": {
+   "_source": "oakland_council",
+   "Kevin E. Jenkins": "Incumbent and City Council President; previously Interim Mayor and a Peralta College trustee. Running on continuing public-safety, neighborhood-investment and local-business work; lists support from Mayor Lee, Rep. Lateefah Simon and State Sen. Jesse Arreguín.",
+   "Nancy S. Sidebotham": "Tax preparer and longtime civic activist (in Oakland since the 1960s, NCPC 29X). Emphasizes knowledge of city budgets and staffing, and criticizes City Hall's lack of transparency."
+  },
+  "Auditor, Oakland": {
+   "_source": "oakland_council",
+   "Michael C. Houston": "Incumbent City Auditor since 2024 and a certified auditor with 18 years in audits and investigations. Cites audits of illegal dumping, business taxes and emergency response, plus whistleblower fraud investigations. Running unopposed."
+  },
+  "School Director, District No. 2, Oakland": {
+   "_source": "oakland_school",
+   "Jennifer Brouhard": "Incumbent and current Board President; retired OUSD teacher with 27 years in the classroom. Focus: balanced budgets that protect classrooms, preserving local control, competitive pay to retain teachers.",
+   "Arielle Fleisher": "OUSD parent and Bay Area policy manager who published OUSD budget explainers. Argues OUSD spends more per student than any large California district while 1 in 3 students reads at grade level; promises honest budgeting and a focus on outcomes."
+  },
+  "School Director, District No. 4, Oakland": {
+   "_source": "oakland_school",
+   "Mike Hutchinson": "Incumbent (six years on the board, previously District 5); Oakland-raised education advocate and organizer. Blames failed leadership and financial mismanagement; wants an excellent superintendent, a solvency plan and genuine family engagement.",
+   "Kathryn Camp": "OUSD parent and public-policy/regulatory professional; started at Laney College, then UC Berkeley. Priorities: literacy and math, career pathways, support for educators, transparent oversight and data-based budgeting.",
+   "Sylvia Pfeiffer Williams": "OUSD adult educator for 20+ years, special education and six years as a union rep; certificate in education finance from Georgetown. Wants budgets aligned with priorities and every dollar directed to classrooms, community schools and adult education."
+  },
+  "School Director, District No. 6, Oakland": {
+   "_source": "oakland_school",
+   "Valarie Bachelor": "Incumbent (elected 2022) and nonprofit director; immigrated from Bolivia as a child. Cites keeping neighborhood schools open, stronger budget oversight, and protections for immigrant and LGBTQ+ students; focus on reading and math and facilities.",
+   "LeAna Powell": "Family advocate and PTA parent from five generations of Oakland public-school families; former council aide. Priorities: reading and math improvement, balanced OUSD finances, and family engagement in major decisions.",
+   "Alexandra Williams": "High-school math teacher (district, private and charter schools, 15 years), former administrator and nonprofit STEM director; HBCU graduate. Promises to test every decision against whether it moves students forward."
+  }
+ }
+}

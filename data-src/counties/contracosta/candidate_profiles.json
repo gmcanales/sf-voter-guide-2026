@@ -1,0 +1,16 @@
+{
+ "_about": "Who? lines for Richmond candidates: our neutral summaries of each candidate's own statement on the Contra Costa Elections Division's contest page (statements are written by the candidates; claims are theirs). Designations come from the same page.",
+ "_sources": {
+  "richmond_mayor": "https://www.contracostavote.gov/cs6501-en/"
+ },
+ "designations": {
+  "City of Richmond, Mayor": {"Claudia Jiménez": "Councilmember, City of Richmond", "Ahmad Anderson": "Human Resources Director"}
+ },
+ "profiles": {
+  "City of Richmond, Mayor": {
+   "_source": "richmond_mayor",
+   "Claudia Jiménez": "Two-term Richmond councilmember. Credits the Council with record city revenue, the lowest homicide rate in city history and a $550M Chevron settlement; takes no money from corporations, fossil-fuel interests, contractors or developers. Lists endorsements from the Sierra Club, Richmond Firefighters Local 188, United Teachers of Richmond, SEIU 1021 and IFPTE 21.",
+   "Ahmad Anderson": "Human resources director, Richmond native and former chair of the Economic Development Commission. Pairs police staffing and accountability with prevention (mental-health response, violence prevention), local jobs beyond fossil fuels, downtown and Hilltop Mall revival and basics like potholes and dumping. Lists endorsements from the Democratic Party, Tony Thurmond, Sen. Jesse Arreguín and Assemblymember Buffy Wicks."
+  }
+ }
+}

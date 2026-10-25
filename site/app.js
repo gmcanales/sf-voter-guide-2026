@@ -509,9 +509,12 @@ function candidateWho(contest, c) {
   const groups = backingGroups(contest.id, c.name);
   const basics = [c.designation, c.party ? `${c.party} Party preference` : null, c.incumbent ? 'Incumbent' : null].filter(Boolean).join(' · ');
   return [
-    el('p', {}, a?.who || basics || 'No sourced description yet.'),
+    el('p', {}, a?.who || c.who || basics || 'No sourced description yet.'),
+    !a?.who && c.who && basics ? el('p', { class: 'vg-fineprint' }, `On the ballot: ${basics}`) : null,
+    !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
     groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
-    a?.source ? sourceLine('KQED voter guide', a.source, '(candidate interviews, questionnaires and debates).') : null];
+    a?.source ? sourceLine('KQED voter guide', a.source, '(candidate interviews, questionnaires and debates).')
+      : c.who_source?.url ? sourceLine(c.who_source.label, c.who_source.url, '(our summary; claims are the candidate’s own).') : null];
 }
 
 function candidateTldr(contest, c) {
@@ -521,7 +524,8 @@ function candidateTldr(contest, c) {
   // First sentence of the description; a sentence must end on a word with 3+ lowercase letters,
   // so abbreviations like "Rep." or "Jr." don't cut it short.
   const firstSentence = t => (t.match(/^.*?[a-z]{3,}[.!?](?=\s|$)/) || [t])[0];
-  const first = a?.who ? firstSentence(a.who) : `${c.designation || 'Candidate'}${c.incumbent ? ' (incumbent)' : ''}.`;
+  const who = a?.who || c.who;
+  const first = who ? firstSentence(who) : `${c.designation || 'Candidate'}${c.incumbent ? ' (incumbent)' : ''}.`;
   const outsideTag = f?.tags?.find(t => t.tag === 'outside-backed');
   const second = groups.length
     ? `Recommended by ${groups.slice(0, 3).map(g => g.short).join(', ')}${groups.length > 3 ? ` and ${groups.length - 3} more` : ''}${outsideTag ? `, with ${shortMoney(outsideTag.amount)} in outside support` : ''}.`
@@ -533,7 +537,8 @@ function hasDepth(contest) {
   if (!PREVIEW) return true;
   const id = contest.id;
   return !!(ANALYSIS?.candidates?.[id] || EXTERNAL?.candidates?.[id] || FUNDING?.candidates?.[id]
-    || ANALYSIS?.measures?.[id] || contest.summary);
+    || ANALYSIS?.measures?.[id] || contest.summary || contest.statement_note
+    || (contest.candidates || []).some(c => c.who));
 }
 
 function renderCandidateMore(contest, c) {

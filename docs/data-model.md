@@ -246,3 +246,22 @@ rotation recomputed for the county's ADs. Ranked-choice city contests (Oakland, 
 San Leandro, Albany) carry a note rather than an RCV grid. Guides appear in a county only if
 their `covers` list includes it (statewide groups everywhere; Sierra Club SF Bay also
 covers Alameda; the SF-only guides stay on the SF page).
+
+### Deep dives (focus cities)
+
+Focus cities: Oakland, Fremont, South San Francisco, San Mateo, Redwood City, and Richmond
+(incl. Richmond Annex) in Contra Costa.
+
+- `data-src/counties/<county>/measure_digests.json` holds hand-checked digests keyed by measure
+  letter: exact ballot `question`, our `summary` of the impartial analysis, official `fiscal`
+  estimate, `yes_means`/`no_means`, `threshold`, `args.for|against.{gist, signers}` (only legible,
+  typed signer names) and `sources` (official PDFs). The builder merges them into the measure.
+- `data-src/counties/<county>/candidate_profiles.json` holds `profiles[contest title][name]`, a
+  neutral one-paragraph summary of the candidate's own statement in the official county guide,
+  with `_sources`. It appears as the Who? line with a source link. `designations` fills ballot
+  designations the county API lacks (Contra Costa).
+- San Mateo County publishes candidate statements only in voters' personal sample-ballot
+  pamphlets, so its focus-city races carry a `statement_note` saying so instead of profiles.
+- Sources that are scans, or whose text layer is broken (Alameda's guide), are read with
+  `tools/ocr_pdf.py`. Digests are written from that text and checked by hand; raw OCR is never
+  published.

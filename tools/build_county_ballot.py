@@ -116,6 +116,12 @@ RCV = {
     "San Leandro": re.compile(r"mayor|city council", re.I),
 }
 RCV_NOTE = "Ranked-choice contest: your ballot lets you rank candidates in order of preference. This preview shows them as a simple list."
+# Spellings title-casing can't recover from all-caps county lists, each checked against the
+# candidate's own statement or official record.
+NAME_FIXES = {"Leana Powell": "LeAna Powell", "Mark Desaulnier": "Mark DeSaulnier",
+              "Robert G. Newsom JR.": "Robert G. Newsom Jr."}
+# Focus cities whose candidate statements exist only in voters' personal sample-ballot pamphlets.
+PAMPHLET_NOTE = {"sanmateo": ("South San Francisco", "San Mateo", "Redwood City")}
 PARTY_NAMES = {"DEM": "Democratic", "REP": "Republican", "NPP": "No Party Preference", "GRN": "Green",
                "LIB": "Libertarian", "PF": "Peace and Freedom", "AI": "American Independent"}
 
@@ -131,7 +137,7 @@ def norm_title(t: str) -> str:
 def candidates(raw: list, partisan: bool) -> list:
     out = []
     for c in raw:
-        x = {"name": c["name"], "designation": c.get("designation", "")}
+        x = {"name": NAME_FIXES.get(c["name"], c["name"]), "designation": c.get("designation", "")}
         if partisan and c.get("party"):
             x["party"] = PARTY_NAMES.get(c["party"], c["party"])
         out.append(x)
@@ -292,6 +298,33 @@ def measure(cfg, m, city_index, digests=None):
     return c
 
 
+def apply_profiles(county: str, buckets: dict) -> None:
+    """Merge data-src/counties/<county>/candidate_profiles.json (Who? lines from official statements)."""
+    path = SRC / county / "candidate_profiles.json"
+    data = json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+    profiles, designations, sources = data.get("profiles", {}), data.get("designations", {}), data.get("_sources", {})
+    contests = [c for c in buckets["city"]] + buckets["school"] + buckets["district"] + buckets["county"]
+    contests = [c[1] if isinstance(c, tuple) else c for c in contests]
+    seen = set()
+    for c in contests:
+        prof, des = profiles.get(c["title"], {}), designations.get(c["title"], {})
+        for x in c["candidates"]:
+            if des.get(x["name"]) and not x.get("designation"):
+                x["designation"] = des[x["name"]]
+            if prof.get(x["name"]):
+                x["who"] = prof[x["name"]]
+                x["who_source"] = {"label": "Candidate's statement in the official county voter guide",
+                                   "url": sources.get(prof.get("_source"), "")}
+                seen.add(c["title"])
+        cities = PAMPHLET_NOTE.get(county, ())
+        if any(re.search(rf"(?:City|Town) of {re.escape(city)}", c["title"]) for city in cities):
+            c["statement_note"] = ("Candidate statements for this race are printed in your Sample Ballot & Official Voter "
+                                   "Information Pamphlet; the county doesn't post them publicly.")
+    missing = set(profiles) - seen
+    if missing:
+        print("  WARNING profiles matched no contest:", sorted(missing))
+
+
 def main(county: str) -> None:
     cfg = COUNTIES[county]
     sf = json.loads(SF_BALLOT.read_text(encoding="utf-8"))
@@ -306,6 +339,7 @@ def main(county: str) -> None:
             check_statewide(shared, val, c["candidates"], c["title"])
         buckets[kind].append(val)
 
+    apply_profiles(county, buckets)
     sf_secs = {s["id"]: s for s in sf["sections"]}
     def sec(sid, heading, group, contests, **extra):
         base = {k: v for k, v in sf_secs.get(sid, {}).items() if k not in ("contests",)}

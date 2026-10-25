@@ -1457,11 +1457,21 @@
      "candidates": [
       {
        "name": "Claudia Jiménez",
-       "designation": ""
+       "designation": "Councilmember, City of Richmond",
+       "who": "Two-term Richmond councilmember. Credits the Council with record city revenue, the lowest homicide rate in city history and a $550M Chevron settlement; takes no money from corporations, fossil-fuel interests, contractors or developers. Lists endorsements from the Sierra Club, Richmond Firefighters Local 188, United Teachers of Richmond, SEIU 1021 and IFPTE 21.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://www.contracostavote.gov/cs6501-en/"
+       }
       },
       {
        "name": "Ahmad Anderson",
-       "designation": ""
+       "designation": "Human Resources Director",
+       "who": "Human resources director, Richmond native and former chair of the Economic Development Commission. Pairs police staffing and accountability with prevention (mental-health response, violence prevention), local jobs beyond fossil fuels, downtown and Hilltop Mall revival and basics like potholes and dumping. Lists endorsements from the Democratic Party, Tony Thurmond, Sen. Jesse Arreguín and Assemblymember Buffy Wicks.",
+       "who_source": {
+        "label": "Candidate's statement in the official county voter guide",
+        "url": "https://www.contracostavote.gov/cs6501-en/"
+       }
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list, which may not be the printed ballot order. Check your sample ballot.",
