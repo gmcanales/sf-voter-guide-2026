@@ -57,6 +57,12 @@ function saveState() {
   try { localStorage.setItem(STORE_KEY, JSON.stringify(state)); } catch { /* storage blocked */ }
 }
 
+// Native replaceChildren() neither flattens arrays nor skips null (it would print
+// "[object HTMLElement]" or "null"), so every multi-child fill goes through this.
+function setKids(node, ...kids) {
+  node.replaceChildren(...kids.flat(Infinity).filter(k => k != null && k !== false));
+}
+
 // ── tiny DOM helper ────────────────────────────────────────────────────────
 function el(tag, attrs = {}, ...children) {
   const node = document.createElement(tag);
@@ -947,7 +953,7 @@ function renderFocus() {
     if (trimmedByFocus(c)) hidden++;
     state.trimDistricts = was;
   }
-  box.replaceChildren(
+  setKids(box,
     el('span', { class: 'vg-focus-label' }, 'Our focus cities:'),
     ...focus.map(x => el('button', {
       type: 'button', class: 'vg-focus-btn', 'aria-pressed': state.districts.city === x.city ? 'true' : 'false',
@@ -1071,7 +1077,7 @@ function renderTopicBar() {
     state.topics = state.topics.includes(id) ? state.topics.filter(t => t !== id) : [...state.topics, id];
     saveState(); renderTopicBar(); renderBallot();
   };
-  box.replaceChildren(
+  setKids(box,
     el('div', { class: 'vg-topics-head' },
       el('span', { class: 'vg-topics-title' }, 'Browse measures by topic'),
       state.topics.length
@@ -1177,10 +1183,10 @@ function groupBlocks() {
 
 function renderGroups() {
   const body = document.getElementById('groups-body');
-  body.replaceChildren(
+  setKids(body,
     el('p', { class: 'vg-setup-hint' },
       'These are the published guides we track. Their picks appear as small tags on each ballot line. Money and membership figures are rough public-record numbers.'),
-    groupBlocks().map(([label, list]) => [
+    ...groupBlocks().flatMap(([label, list]) => [
       el('h4', { class: 'vg-group-divider' }, el('span', {}, label)),
       el('div', { class: 'vg-group-cards' }, list.map(g => el('article', { class: `vg-group-card vg-cat-${primaryCat(g)}` },
       el('header', {},
@@ -1300,7 +1306,7 @@ function renderCountyChrome() {
   document.getElementById('guide-title').textContent = info.title;
   document.title = `${info.title} · Goosebase`;
   const nav = document.getElementById('county-nav');
-  nav.replaceChildren(el('span', { class: 'vg-county-label' }, 'County:'),
+  setKids(nav, el('span', { class: 'vg-county-label' }, 'County:'),
     ...Object.entries(COUNTIES).map(([id, c]) => id === COUNTY
       ? el('strong', { class: 'vg-county-opt is-current', 'aria-current': 'page' }, c.name, c.preview ? el('span', { class: 'vg-preview-pill' }, 'preview') : null)
       : el('a', { class: 'vg-county-opt', href: id === 'sf' ? './' : `./?county=${id}` }, c.name, c.preview ? el('span', { class: 'vg-preview-pill' }, 'preview') : null)));
@@ -1315,7 +1321,7 @@ function renderCountyChrome() {
   }
   const banner = document.getElementById('preview-banner');
   banner.hidden = !PREVIEW;
-  if (PREVIEW) banner.replaceChildren(el('strong', {}, 'Early preview. '),
+  if (PREVIEW) setKids(banner, el('strong', {}, 'Early preview. '),
     `Every contest and measure here is from ${info.name}'s official lists, but we haven't verified candidate order or ` +
     `district boundaries${localMeasureDepth()} Statewide races carry the same research as the San Francisco guide. ` +
     'Pick your districts and city below to trim the list, and check your official sample ballot.');
@@ -1336,13 +1342,13 @@ async function main() {
       get('./data/external_money.json').catch(() => null)]);
   } catch (err) {
     console.error('[voter-guide] failed to load data', err);
-    document.getElementById('ballot').replaceChildren(
+    setKids(document.getElementById('ballot'), 
       el('p', { class: 'vg-empty' }, 'Could not load the ballot data. Please try again shortly.'));
     return;
   }
   BALLOT_POSITIONS = GUIDES.positions || {};
   // Only groups whose recommendations cover this county (statewide groups, plus SF-only ones on the SF guide).
-  GUIDES = { ...GUIDES, guides: GUIDES.guides.filter(g => (g.covers || ['sf']).includes(COUNTY)) };
+  GUIDES = { ...GUIDES, guides: GUIDES.guides.filter(g => g.scope === 'statewide' || (g.covers || ['sf']).includes(COUNTY)) };
   renderCountyChrome();
   for (const s of BALLOT.sections) for (const c of s.contests) CONTEST_INDEX[c.id] = { contest: c, section: s };
   validate();

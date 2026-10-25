@@ -365,9 +365,7 @@
     }
    ],
    "covers": [
-    "sf",
-    "alameda",
-    "sanmateo"
+    "all"
    ],
    "scope": "statewide"
   },
@@ -408,9 +406,7 @@
     }
    ],
    "covers": [
-    "sf",
-    "alameda",
-    "sanmateo"
+    "all"
    ],
    "scope": "statewide"
   },
@@ -558,7 +554,8 @@
    ],
    "covers": [
     "sf",
-    "alameda"
+    "alameda",
+    "contracosta"
    ],
    "scope": "local"
   },
@@ -599,9 +596,7 @@
     }
    ],
    "covers": [
-    "sf",
-    "alameda",
-    "sanmateo"
+    "all"
    ],
    "scope": "statewide"
   }
