@@ -320,3 +320,12 @@ Local amounts, best source first:
    the next 460 (Schedule D only), after a bug that double-counted them (e.g. CNA's $250K to Yes on EE).
 
 South San Francisco and some small cities aren't on NetFile.
+
+Focus cities also narrow the district pickers, like a ZIP in SF:
+`tools/build_focus_districts.py` intersects each city's Census boundary with the official
+Congressional (Prop 50), Assembly, Senate and BART maps and writes
+`data-src/counties/focus_districts.json` (district + share of city area). The builder puts it in
+`election.focus[].districts`; districts with no race this year fold into "Another district".
+Picking a focus city auto-selects a district the city sits entirely inside, and hides races in
+districts the city doesn't touch. San Mateo County's current supervisor map is private
+(token-only; the public layer is the 2013 map), so Supervisor District 5 isn't narrowed.

@@ -354,6 +354,9 @@ def apply_profiles(county: str, buckets: dict) -> None:
 def main(county: str) -> None:
     cfg = COUNTIES[county]
     sf = json.loads(SF_BALLOT.read_text(encoding="utf-8"))
+    # Districts each focus city overlaps (tools/build_focus_districts.py), for narrowing the pickers.
+    fd = SRC / "focus_districts.json"
+    focus_districts = json.loads(fd.read_text(encoding="utf-8"))["cities"] if fd.exists() else {}
     shared = shared_statewide(sf, cfg["districts"]["ad"]["options"])
     contests, measures = load_county(county, cfg)
     dpath = SRC / county / "measure_digests.json"
@@ -406,7 +409,9 @@ def main(county: str) -> None:
         "election": {"name": "Statewide General Election", "jurisdiction": cfg["name"], "county": county,
                      "short": cfg["short"], "date": sf["election"]["date"], "preview": True,
                      "focus": [{"city": cfg["cities"].index(f["city"]) + 1, "label": f.get("label", f["city"]),
-                                "serves": f["serves"]} for f in FOCUS.get(county, [])],
+                                "serves": f["serves"],
+                                "districts": focus_districts.get(county, {}).get(f["city"], {})}
+                               for f in FOCUS.get(county, [])],
                      "official_sources": cfg["sources"]},
         "built": date.today().isoformat(),
         "randomized_alphabet": sf["randomized_alphabet"],

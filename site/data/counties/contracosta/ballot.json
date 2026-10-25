@@ -16,7 +16,21 @@
      "Contra Costa County Board",
      "East Bay M.U.D",
      "East Bay Reg"
-    ]
+    ],
+    "districts": {
+     "cd": [
+      [
+       8,
+       1.0
+      ]
+     ],
+     "ad": [
+      [
+       14,
+       1.0
+      ]
+     ]
+    }
    }
   ],
   "official_sources": [

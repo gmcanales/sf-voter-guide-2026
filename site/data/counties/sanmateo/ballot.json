@@ -14,7 +14,25 @@
      "South San Francisco",
      "San Mateo County Community College",
      "County Board of Education"
-    ]
+    ],
+    "districts": {
+     "cd": [
+      [
+       15,
+       1.0
+      ]
+     ],
+     "ad": [
+      [
+       21,
+       0.903
+      ],
+      [
+       19,
+       0.097
+      ]
+     ]
+    }
    },
    {
     "city": 18,
@@ -24,7 +42,21 @@
      "San Mateo Union High",
      "San Mateo County Community College",
      "County Board of Education"
-    ]
+    ],
+    "districts": {
+     "cd": [
+      [
+       15,
+       1.0
+      ]
+     ],
+     "ad": [
+      [
+       21,
+       1.0
+      ]
+     ]
+    }
    },
    {
     "city": 15,
@@ -35,7 +67,21 @@
      "Belmont-Redwood Shores",
      "San Mateo County Community College",
      "County Board of Education"
-    ]
+    ],
+    "districts": {
+     "cd": [
+      [
+       15,
+       1.0
+      ]
+     ],
+     "ad": [
+      [
+       21,
+       1.0
+      ]
+     ]
+    }
    }
   ],
   "official_sources": [

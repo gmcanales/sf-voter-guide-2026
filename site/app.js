@@ -102,7 +102,7 @@ function trimmedByFocus(contest) {
 
 function appliesToReader(contest) {
   if (trimmedByFocus(contest)) return false;
-  const zopts = zipOptions();
+  const zopts = districtOptions();
   for (const [dim, want] of Object.entries(contest.applies || {})) {
     const have = state.districts[dim];
     if (have != null && have !== want) return false;
@@ -945,6 +945,42 @@ function renderBallot() {
 // A ZIP narrows each district picker to the districts it overlaps. It only
 // auto-selects when the ZIP sits (almost) entirely inside one district;
 // otherwise the reader picks, because area share isn't where *they* live.
+// A focus city narrows the pickers the way a ZIP does in SF: the districts the city's
+// boundary overlaps (tools/build_focus_districts.py), with shares of its area. Districts
+// with no race this year fold into "Another district" (0) where the picker offers it.
+function focusDistrictOptions() {
+  const f = focusCity();
+  if (!f?.districts) return null;
+  const out = {};
+  for (const [dim, spec] of Object.entries(BALLOT.districts)) {
+    const rows = f.districts[dim];
+    if (!rows?.length) { out[dim] = spec.options.map(n => [n, null]); continue; }
+    const agg = new Map();
+    for (const [n, share] of rows) {
+      const v = spec.options.includes(n) ? n : spec.options.includes(0) ? 0 : null;
+      if (v != null) agg.set(v, (agg.get(v) || 0) + share);
+    }
+    out[dim] = agg.size ? [...agg].sort((a, b) => b[1] - a[1]) : spec.options.map(n => [n, null]);
+  }
+  return out;
+}
+
+function districtOptions() {
+  return zipOptions() || focusDistrictOptions();
+}
+
+// After picking a focus city: select districts the city sits entirely inside, and drop
+// earlier choices the city can't have.
+function applyFocusDistricts() {
+  const opts = focusDistrictOptions();
+  if (!opts) return;
+  for (const [dim, list] of Object.entries(opts)) {
+    if (dim === 'city' || list.some(([, share]) => share == null)) continue;
+    if (list.length === 1 || list[0][1] >= SOLE_SHARE) state.districts[dim] = list[0][0];
+    else if (!list.some(([n]) => n === state.districts[dim])) delete state.districts[dim];
+  }
+}
+
 function zipOptions() {
   const z = state.zip && ZIPS?.zips[state.zip];
   if (!z) return null;
@@ -1021,6 +1057,7 @@ function renderFocus() {
   const pick = city => {
     if (state.districts.city === city) delete state.districts.city; else state.districts.city = city;
     state.trimDistricts = true;
+    applyFocusDistricts();
     saveState(); renderFocus(); renderDistricts(); renderBallot(); renderProgress();
   };
   const f = focusCity();
@@ -1048,7 +1085,8 @@ function renderFocus() {
 function renderDistricts() {
   const box = document.getElementById('districts');
   box.replaceChildren();
-  const zopts = zipOptions();
+  const zopts = districtOptions();
+  const areaOf = zipOptions() ? 'ZIP' : 'city';
   const summary = [];
   for (const [dim, spec] of Object.entries(BALLOT.districts)) {
     const allowed = zopts ? zopts[dim] : spec.options.map(n => [n, null]);
@@ -1060,7 +1098,7 @@ function renderDistricts() {
       },
     }, el('option', { value: '' }, zopts && allowed.length > 1 ? 'Choose…' : 'Show all'),
       allowed.map(([n, share]) => el('option', { value: n, selected: state.districts[dim] === n },
-        share != null && allowed.length > 1 ? `${n} (${Math.max(1, Math.round(share * 100))}% of ZIP area)` : optionLabel(dim, n))));
+        share != null && allowed.length > 1 ? `${optionLabel(dim, n)} (${Math.max(1, Math.round(share * 100))}% of ${areaOf} area)` : optionLabel(dim, n))));
     box.append(el('label', { class: 'vg-district' },
       el('span', { class: 'vg-district-label' }, spec.label), sel,
       spec.note ? el('span', { class: 'vg-district-note' }, spec.note) : null));
