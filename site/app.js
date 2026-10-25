@@ -700,7 +700,8 @@ function candidateWho(contest, c) {
     !a?.who && c.who && basics ? el('p', { class: 'vg-fineprint' }, `On the ballot: ${basics}`) : null,
     !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
     groups.length ? el('p', { class: 'vg-who-groups' }, 'Recommended by: ', groups.map(g => el('span', { class: `vg-chip vg-cat-${primaryCat(g)}` }, g.short))) : null,
-    a?.source ? sourceLine('KQED voter guide', a.source, '(candidate interviews, questionnaires and debates).')
+    a?.source ? sourceLine(a.source_label || 'KQED voter guide', a.source,
+        a.source_label ? '(our summary; claims are the candidate’s own).' : '(candidate interviews, questionnaires and debates).')
       : c.who_source?.url ? sourceLine(c.who_source.label, c.who_source.url, '(our summary; claims are the candidate’s own).') : null];
 }
 
@@ -737,7 +738,8 @@ function renderCandidateMore(contest, c) {
       { key: 'who', label: 'Who?', render: () => candidateWho(contest, c) },
       { key: 'money', label: 'Money', render: () => candidateMoney(contest, c) },
       { key: 'goose', label: 'Average goose', render: () => a?.goose
-          ? [el('p', {}, a.goose), sourceLine('KQED voter guide', a.source, '(our summary).')]
+          ? [el('p', {}, a.goose), sourceLine(a.source_label || 'KQED voter guide', a.source, '(our summary).'),
+             a.source_extra ? sourceLine('KQED voter guide', a.source_extra) : null]
           : emptyNote('We don’t have a sourced summary of this candidate’s positions yet.') },
       { key: 'tldr', label: 'Seriously TL;DR', render: () => candidateTldr(contest, c) },
     ]));
