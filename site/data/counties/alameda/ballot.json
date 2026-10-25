@@ -464,12 +464,12 @@
       {
        "name": "Mark DeSaulnier",
        "designation": "United States Congressman",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Jeff Frese",
        "designation": "Small Business Owner",
-       "party": "/> Republican Party"
+       "party": "Republican"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -485,12 +485,12 @@
       {
        "name": "Jamie Joyce",
        "designation": "Nonprofit Executive Director",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Lateefah Simon",
        "designation": "U.S. Representative",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -506,12 +506,12 @@
       {
        "name": "Melissa Hernandez",
        "designation": "Healthcare Services Director",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Aisha Wahab",
        "designation": "State Senator",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -527,12 +527,12 @@
       {
        "name": "Ro Khanna",
        "designation": "United States Congressmember",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Ritesh Tandon",
        "designation": "CEO/Entrepreneur/Researcher",
-       "party": "/> Republican Party"
+       "party": "Republican"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -548,12 +548,12 @@
       {
        "name": "Linda R. Price",
        "designation": "Businesswoman",
-       "party": "/> Republican Party"
+       "party": "Republican"
       },
       {
        "name": "Scott Sakakihara",
        "designation": "Councilmember/Navy Officer",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -569,12 +569,12 @@
       {
        "name": "Mark Rendon",
        "designation": "Teacher",
-       "party": "/> Green Party"
+       "party": "Green"
       },
       {
        "name": "Buffy Wicks",
        "designation": "Assemblymember/Mom",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -590,12 +590,12 @@
       {
        "name": "Rebecca Bauer-Kahan",
        "designation": "Assemblymember/Mother",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Joseph A. Rubay",
        "designation": "Businessman/Father",
-       "party": "/> Republican Party"
+       "party": "Republican"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -611,12 +611,12 @@
       {
        "name": "Mia Bonta",
        "designation": "California State Assemblymember, Assembly District 18",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       },
       {
        "name": "Andre Sandford",
        "designation": "Housing Program Director",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -632,12 +632,12 @@
       {
        "name": "Patricia Muga",
        "designation": "Real Estate Appraiser",
-       "party": "/> Republican Party"
+       "party": "Republican"
       },
       {
        "name": "Liz Ortega",
        "designation": "Assemblymember",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -653,12 +653,12 @@
       {
        "name": "Max Hsia",
        "designation": "Small Business Owner",
-       "party": "/> Republican Party"
+       "party": "Republican"
       },
       {
        "name": "Alex Lee",
        "designation": "State Assemblymember",
-       "party": "/> Democratic Party"
+       "party": "Democratic"
       }
      ],
      "order_note": "Listed in the order of the county's official candidate list. Your printed ballot uses a randomized-alphabet order. Check your sample ballot.",
@@ -807,7 +807,7 @@
      "title": "Ohlone Community College District Trustee, Area 6",
      "candidates": [
       {
-       "name": "Suzanne \"sue\" Lee Chan",
+       "name": "Suzanne \"Sue\" Lee Chan",
        "designation": "Incumbent"
       },
       {
@@ -1460,7 +1460,7 @@
      "title": "Member Of City Council District #4, Berkeley",
      "candidates": [
       {
-       "name": "Majdi \"gaith\" Abuhamdieh",
+       "name": "Majdi \"Gaith\" Abuhamdieh",
        "designation": "Entrepreneur/Technologist/Parent"
       },
       {
@@ -2638,7 +2638,7 @@
      "title": "Hayward Area Recreation & Park District Director, Area 4",
      "candidates": [
       {
-       "name": "Joseph \"joe\" Giltner",
+       "name": "Joseph \"Joe\" Giltner",
        "designation": "Community Advocate"
       },
       {
@@ -2731,7 +2731,7 @@
        "designation": "Board Director Oro Loma Sanitary District"
       },
       {
-       "name": "Koroush \"cyrus\" Farsaei",
+       "name": "Koroush \"Cyrus\" Farsaei",
        "designation": "Plant Operator"
       }
      ],

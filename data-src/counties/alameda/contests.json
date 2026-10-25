@@ -5,13 +5,13 @@
   "candidates": [
    {
     "name": "Xavier Becerra",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Voting Rights Attorney",
     "incumbent": false
    },
    {
     "name": "Steve Hilton",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Small Business Owner",
     "incumbent": false
    }
@@ -23,13 +23,13 @@
   "candidates": [
    {
     "name": "Fiona Ma",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "State Treasurer/CPA",
     "incumbent": false
    },
    {
     "name": "Gloria Romero",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Educator/Businesswoman",
     "incumbent": false
    }
@@ -41,13 +41,13 @@
   "candidates": [
    {
     "name": "Donald P. (Don) Wagner",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Orange County Supervisor",
     "incumbent": false
    },
    {
     "name": "Shirley N. Weber",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "California Secretary of State",
     "incumbent": true
    }
@@ -59,13 +59,13 @@
   "candidates": [
    {
     "name": "Malia M. Cohen",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "State Controller/Mother",
     "incumbent": true
    },
    {
     "name": "Herb W Morgan",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Chief Investment Officer",
     "incumbent": false
    }
@@ -77,13 +77,13 @@
   "candidates": [
    {
     "name": "Jennifer Hawks",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Retired Business Executive",
     "incumbent": false
    },
    {
     "name": "Eleni Kounalakis",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Lieutenant Governor of California",
     "incumbent": false
    }
@@ -95,13 +95,13 @@
   "candidates": [
    {
     "name": "Rob Bonta",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "California Attorney General",
     "incumbent": true
    },
    {
     "name": "Michael E. Gates",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Deputy United States Attorney",
     "incumbent": false
    }
@@ -113,13 +113,13 @@
   "candidates": [
    {
     "name": "Ben Allen",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "California State Senator",
     "incumbent": false
    },
    {
     "name": "Jane Kim",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Attorney/Consumer Advocate",
     "incumbent": false
    }
@@ -131,13 +131,13 @@
   "candidates": [
    {
     "name": "Sally J. Lieber",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "John Pimentel",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Member, Board of Trustees, San Mateo County Community College District",
     "incumbent": false
    }
@@ -149,13 +149,13 @@
   "candidates": [
    {
     "name": "Mark Desaulnier",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "United States Congressman",
     "incumbent": false
    },
    {
     "name": "Jeff Frese",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Small Business Owner",
     "incumbent": false
    }
@@ -167,13 +167,13 @@
   "candidates": [
    {
     "name": "Jamie Joyce",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Nonprofit Executive Director",
     "incumbent": false
    },
    {
     "name": "Lateefah Simon",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "U.S. Representative",
     "incumbent": false
    }
@@ -185,13 +185,13 @@
   "candidates": [
    {
     "name": "Melissa Hernandez",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Healthcare Services Director",
     "incumbent": false
    },
    {
     "name": "Aisha Wahab",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "State Senator",
     "incumbent": false
    }
@@ -203,13 +203,13 @@
   "candidates": [
    {
     "name": "Ro Khanna",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "United States Congressmember",
     "incumbent": false
    },
    {
     "name": "Ritesh Tandon",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "CEO/Entrepreneur/Researcher",
     "incumbent": false
    }
@@ -221,13 +221,13 @@
   "candidates": [
    {
     "name": "Linda R. Price",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Businesswoman",
     "incumbent": false
    },
    {
     "name": "Scott Sakakihara",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Councilmember/Navy Officer",
     "incumbent": false
    }
@@ -239,13 +239,13 @@
   "candidates": [
    {
     "name": "Mark Rendon",
-    "party": "/> Green Party",
+    "party": "GRN",
     "designation": "Teacher",
     "incumbent": false
    },
    {
     "name": "Buffy Wicks",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Assemblymember/Mom",
     "incumbent": true
    }
@@ -257,13 +257,13 @@
   "candidates": [
    {
     "name": "Rebecca Bauer-Kahan",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Assemblymember/Mother",
     "incumbent": true
    },
    {
     "name": "Joseph A. Rubay",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Businessman/Father",
     "incumbent": false
    }
@@ -275,13 +275,13 @@
   "candidates": [
    {
     "name": "Mia Bonta",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "California State Assemblymember, Assembly District 18",
     "incumbent": true
    },
    {
     "name": "Andre Sandford",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Housing Program Director",
     "incumbent": false
    }
@@ -293,13 +293,13 @@
   "candidates": [
    {
     "name": "Patricia Muga",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Real Estate Appraiser",
     "incumbent": false
    },
    {
     "name": "Liz Ortega",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "Assemblymember",
     "incumbent": true
    }
@@ -311,13 +311,13 @@
   "candidates": [
    {
     "name": "Max Hsia",
-    "party": "/> Republican Party",
+    "party": "REP",
     "designation": "Small Business Owner",
     "incumbent": false
    },
    {
     "name": "Alex Lee",
-    "party": "/> Democratic Party",
+    "party": "DEM",
     "designation": "State Assemblymember",
     "incumbent": true
    }
@@ -329,13 +329,13 @@
   "candidates": [
    {
     "name": "Richard Barrera",
-    "party": "/>",
+    "party": "",
     "designation": "State Superintendent Advisor",
     "incumbent": false
    },
    {
     "name": "Sonja Shaw",
-    "party": "/>",
+    "party": "",
     "designation": "School District President",
     "incumbent": false
    }
@@ -346,14 +346,14 @@
   "vote_for": 1,
   "candidates": [
    {
-    "name": "Suzanne \"sue\" Lee Chan",
-    "party": "/>",
+    "name": "Suzanne \"Sue\" Lee Chan",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Sonia Salwan",
-    "party": "/>",
+    "party": "",
     "designation": "Veterinarian/Nonprofit Founder",
     "incumbent": false
    }
@@ -365,13 +365,13 @@
   "candidates": [
    {
     "name": "Linda Granger",
-    "party": "/>",
+    "party": "",
     "designation": "Education Administrator",
     "incumbent": true
    },
    {
     "name": "Cindy Rocha",
-    "party": "/>",
+    "party": "",
     "designation": "San Leandro Unified School District Board Trustee Area 3",
     "incumbent": false
    }
@@ -383,19 +383,19 @@
   "candidates": [
    {
     "name": "Mark Fay",
-    "party": "/>",
+    "party": "",
     "designation": "Airworthiness Engineer",
     "incumbent": false
    },
    {
     "name": "Wendy Huang",
-    "party": "/>",
+    "party": "",
     "designation": "Real Estate Investor",
     "incumbent": false
    },
    {
     "name": "Harris Mojadedi",
-    "party": "/>",
+    "party": "",
     "designation": "Chabot-Las Positas Governing Board Member",
     "incumbent": true
    }
@@ -407,13 +407,13 @@
   "candidates": [
    {
     "name": "Hal G. Gin",
-    "party": "/>",
+    "party": "",
     "designation": "Chabot-Las Positas College Trustee",
     "incumbent": true
    },
    {
     "name": "Joe Orlando Ramos",
-    "party": "/>",
+    "party": "",
     "designation": "Author/Adult Educator",
     "incumbent": false
    }
@@ -425,13 +425,13 @@
   "candidates": [
    {
     "name": "Cindi Reiss",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Sandra Weese",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Labor Organizer",
     "incumbent": false
    }
@@ -443,31 +443,31 @@
   "candidates": [
    {
     "name": "Joyce Boyd",
-    "party": "/>",
+    "party": "",
     "designation": "Certified Public Accountant",
     "incumbent": false
    },
    {
     "name": "Carrie Hahnel",
-    "party": "/>",
+    "party": "",
     "designation": "Appointed AUSD Board Member",
     "incumbent": false
    },
    {
     "name": "Gary Lym",
-    "party": "/>",
+    "party": "",
     "designation": "Alameda Unified School District Governing Board Member",
     "incumbent": true
    },
    {
     "name": "Mike McMahon",
-    "party": "/>",
+    "party": "",
     "designation": "Independent Contractor",
     "incumbent": false
    },
    {
     "name": "Sarah Putnam",
-    "party": "/>",
+    "party": "",
     "designation": "Parent",
     "incumbent": false
    }
@@ -479,19 +479,19 @@
   "candidates": [
    {
     "name": "Jesus Jacobo",
-    "party": "/>",
+    "party": "",
     "designation": "Autopilot Engineer",
     "incumbent": false
    },
    {
     "name": "Myla Long",
-    "party": "/>",
+    "party": "",
     "designation": "Planning Manager/Parent",
     "incumbent": false
    },
    {
     "name": "Frederick Regala",
-    "party": "/>",
+    "party": "",
     "designation": "Construction Technology Manager",
     "incumbent": false
    }
@@ -503,25 +503,25 @@
   "candidates": [
    {
     "name": "Dan Jacowitz",
-    "party": "/>",
+    "party": "",
     "designation": "Peace Officer/Father",
     "incumbent": false
    },
    {
     "name": "Eryka N Mathews-Cain",
-    "party": "/>",
+    "party": "",
     "designation": "Financial Manager/Parent",
     "incumbent": false
    },
    {
     "name": "Glenn A. Miller",
-    "party": "/>",
+    "party": "",
     "designation": "Certified Public Accountant",
     "incumbent": false
    },
    {
     "name": "Kara Wong",
-    "party": "/>",
+    "party": "",
     "designation": "Parent",
     "incumbent": false
    }
@@ -533,19 +533,19 @@
   "candidates": [
    {
     "name": "Faith Carroll",
-    "party": "/>",
+    "party": "",
     "designation": "Classified Substitute/Parent",
     "incumbent": false
    },
    {
     "name": "Brian A. Foster",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Teacher",
     "incumbent": false
    },
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    }
@@ -557,13 +557,13 @@
   "candidates": [
    {
     "name": "Shalini Bhandari",
-    "party": "/>",
+    "party": "",
     "designation": "Energy Sustainability Manager",
     "incumbent": false
    },
    {
     "name": "Tanner Frye",
-    "party": "/>",
+    "party": "",
     "designation": "Energy Compliance Inspector",
     "incumbent": false
    }
@@ -575,13 +575,13 @@
   "candidates": [
    {
     "name": "Seema Badar",
-    "party": "/>",
+    "party": "",
     "designation": "Community Volunteer",
     "incumbent": false
    },
    {
     "name": "Dan Cherrier",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    }
@@ -593,31 +593,31 @@
   "candidates": [
    {
     "name": "Christopher Keith Allen",
-    "party": "/>",
+    "party": "",
     "designation": "Parent",
     "incumbent": false
    },
    {
     "name": "Regina Chagolla",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Brian Donahue",
-    "party": "/>",
+    "party": "",
     "designation": "Businessman/Journalist/Parent",
     "incumbent": false
    },
    {
     "name": "David Ridlehuber",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Contractor",
     "incumbent": false
    },
    {
     "name": "Kimberly Solis",
-    "party": "/>",
+    "party": "",
     "designation": "Student",
     "incumbent": false
    }
@@ -629,13 +629,13 @@
   "candidates": [
    {
     "name": "Joann Guzman",
-    "party": "/>",
+    "party": "",
     "designation": "Community Volunteer",
     "incumbent": false
    },
    {
     "name": "Joe Orlando Ramos",
-    "party": "/>",
+    "party": "",
     "designation": "Author/Adult Educator",
     "incumbent": false
    }
@@ -647,13 +647,13 @@
   "candidates": [
    {
     "name": "Michelle Fernelius",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Research Director",
     "incumbent": false
    },
    {
     "name": "Maria Araceli Orozco",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Caregiver/Student",
     "incumbent": false
    }
@@ -665,13 +665,13 @@
   "candidates": [
    {
     "name": "Tara Boyce",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Finance Consultant",
     "incumbent": false
    },
    {
     "name": "Stephen R Orgain",
-    "party": "/>",
+    "party": "",
     "designation": "Regional Sales Manager",
     "incumbent": false
    }
@@ -683,13 +683,13 @@
   "candidates": [
    {
     "name": "Angela M. Brady",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Data Analyst",
     "incumbent": false
    },
    {
     "name": "Deborah Gibson",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Teacher",
     "incumbent": false
    }
@@ -701,19 +701,19 @@
   "candidates": [
    {
     "name": "Deena Kaplanis",
-    "party": "/>",
+    "party": "",
     "designation": "Livermore Valley Joint Unified School District Board Member",
     "incumbent": false
    },
    {
     "name": "Sam Phelps",
-    "party": "/>",
+    "party": "",
     "designation": "Father",
     "incumbent": false
    },
    {
     "name": "Christiaan Vandenheuvel",
-    "party": "/>",
+    "party": "",
     "designation": "Member, Board of Education, Livermore Valley Joint Unified School District",
     "incumbent": false
    }
@@ -725,19 +725,19 @@
   "candidates": [
    {
     "name": "Shruti Kumar",
-    "party": "/>",
+    "party": "",
     "designation": "Professor/School Trustee",
     "incumbent": true
    },
    {
     "name": "Charandeep Singh Tatlah",
-    "party": "/>",
+    "party": "",
     "designation": "Entrepreneur/IT Professional",
     "incumbent": false
    },
    {
     "name": "Kashif Wasim",
-    "party": "/>",
+    "party": "",
     "designation": "Software Engineer",
     "incumbent": false
    }
@@ -749,13 +749,13 @@
   "candidates": [
    {
     "name": "Deepti Garg",
-    "party": "/>",
+    "party": "",
     "designation": "Mother/Program Manager",
     "incumbent": false
    },
    {
     "name": "Francis Rojas",
-    "party": "/>",
+    "party": "",
     "designation": "Educational Consultant/Parent",
     "incumbent": false
    }
@@ -767,19 +767,19 @@
   "candidates": [
    {
     "name": "Thomas Choi",
-    "party": "/>",
+    "party": "",
     "designation": "Attorney/Parent",
     "incumbent": false
    },
    {
     "name": "Karen Fletcher",
-    "party": "/>",
+    "party": "",
     "designation": "Teacher/Parent",
     "incumbent": false
    },
    {
     "name": "Brett Gerald Martinez",
-    "party": "/>",
+    "party": "",
     "designation": "Business Owner",
     "incumbent": false
    }
@@ -791,25 +791,25 @@
   "candidates": [
    {
     "name": "Gagan Bassi",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Cybersecurity Professional",
     "incumbent": false
    },
    {
     "name": "Jennifer Kavouniaris",
-    "party": "/>",
+    "party": "",
     "designation": "Businesswoman/Grandmother",
     "incumbent": false
    },
    {
     "name": "Karen Ruth Newcomb",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Investment Strategist",
     "incumbent": false
    },
    {
     "name": "René Turnbull",
-    "party": "/>",
+    "party": "",
     "designation": "Retired College Dean",
     "incumbent": false
    }
@@ -821,19 +821,19 @@
   "candidates": [
    {
     "name": "Tony Daysog",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/Urban Planner",
     "incumbent": false
    },
    {
     "name": "Tracy Jensen",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/Nonprofit Director",
     "incumbent": false
    },
    {
     "name": "Malia Vella",
-    "party": "/>",
+    "party": "",
     "designation": "Businesswoman/Educator",
     "incumbent": false
    }
@@ -845,37 +845,37 @@
   "candidates": [
    {
     "name": "Thushan Amarasiriwardena",
-    "party": "/>",
+    "party": "",
     "designation": "Software Product Manager",
     "incumbent": false
    },
    {
     "name": "Maria L. Bondonno",
-    "party": "/>",
+    "party": "",
     "designation": "Public Service Attorney",
     "incumbent": false
    },
    {
     "name": "Marcie Johnson",
-    "party": "/>",
+    "party": "",
     "designation": "Social Worker",
     "incumbent": false
    },
    {
     "name": "Tyler Savage",
-    "party": "/>",
+    "party": "",
     "designation": "Technology Partner Manager",
     "incumbent": false
    },
    {
     "name": "Steve Slauson",
-    "party": "/>",
+    "party": "",
     "designation": "Small Business Owner",
     "incumbent": false
    },
    {
     "name": "Amos White",
-    "party": "/>",
+    "party": "",
     "designation": "Environmental Nonprofit Executive",
     "incumbent": false
    }
@@ -887,37 +887,37 @@
   "candidates": [
    {
     "name": "Avery Arbaugh",
-    "party": "/>",
+    "party": "",
     "designation": "Tenant Union Organizer",
     "incumbent": false
    },
    {
     "name": "Carole Marasovic",
-    "party": "/>",
+    "party": "",
     "designation": "Attorney/City Commissioner",
     "incumbent": false
    },
    {
     "name": "Ida Martinac",
-    "party": "/>",
+    "party": "",
     "designation": "Rent Stabilization Board Commissioner",
     "incumbent": false
    },
    {
     "name": "Nathan Mizell",
-    "party": "/>",
+    "party": "",
     "designation": "Rent Stabilization Board Commissioner",
     "incumbent": false
    },
    {
     "name": "Vylma Ortiz",
-    "party": "/>",
+    "party": "",
     "designation": "Attorney/Meditation Teacher",
     "incumbent": false
    },
    {
     "name": "Derek Rodriguez",
-    "party": "/>",
+    "party": "",
     "designation": "Student/National Guardsman",
     "incumbent": false
    }
@@ -929,25 +929,25 @@
   "candidates": [
    {
     "name": "Ka'dijah A. Brown",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    },
    {
     "name": "Reichi Lee",
-    "party": "/>",
+    "party": "",
     "designation": "Write-in Candidate",
     "incumbent": false
    },
    {
     "name": "Sandy Park",
-    "party": "/>",
+    "party": "",
     "designation": "Education Consultant",
     "incumbent": false
    },
    {
     "name": "Jennifer Shanoski",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    }
@@ -959,19 +959,19 @@
   "candidates": [
    {
     "name": "Sherry Hu",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor/Entrepreneur/Engineer",
     "incumbent": false
    },
    {
     "name": "Michael McCorriston",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember",
     "incumbent": false
    },
    {
     "name": "Kiran Mohammad",
-    "party": "/>",
+    "party": "",
     "designation": "Author",
     "incumbent": false
    }
@@ -983,25 +983,25 @@
   "candidates": [
    {
     "name": "Daniel Hor",
-    "party": "/>",
+    "party": "",
     "designation": "Researcher",
     "incumbent": false
    },
    {
     "name": "Steve Lorey",
-    "party": "/>",
+    "party": "",
     "designation": "Intelligence Analyst",
     "incumbent": false
    },
    {
     "name": "Tejpreet Singh",
-    "party": "/>",
+    "party": "",
     "designation": "Investor/Father",
     "incumbent": false
    },
    {
     "name": "Richard Thornbury",
-    "party": "/>",
+    "party": "",
     "designation": "Principal Scientist",
     "incumbent": false
    }
@@ -1013,13 +1013,13 @@
   "candidates": [
    {
     "name": "Kashef Qaadri",
-    "party": "/>",
+    "party": "",
     "designation": "City Councilmember/Scientist",
     "incumbent": false
    },
    {
     "name": "Shivraj Singh",
-    "party": "/>",
+    "party": "",
     "designation": "Business Owner",
     "incumbent": false
    }
@@ -1031,25 +1031,25 @@
   "candidates": [
    {
     "name": "Corry Frydlewicz",
-    "party": "/>",
+    "party": "",
     "designation": "Web Developer/Manager",
     "incumbent": false
    },
    {
     "name": "David Mourra",
-    "party": "/>",
+    "party": "",
     "designation": "Emeryville City Councilmember",
     "incumbent": false
    },
    {
     "name": "Kalimah Atreyu Priforce",
-    "party": "/>",
+    "party": "",
     "designation": "City Councilmember",
     "incumbent": false
    },
    {
     "name": "Brandon Soublet",
-    "party": "/>",
+    "party": "",
     "designation": "No Ballot Designation",
     "incumbent": false
    }
@@ -1061,13 +1061,13 @@
   "candidates": [
    {
     "name": "Desrie Campbell",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/Healthcare Director",
     "incumbent": false
    },
    {
     "name": "Keith Parker",
-    "party": "/>",
+    "party": "",
     "designation": "Marketing Director",
     "incumbent": false
    }
@@ -1079,13 +1079,13 @@
   "candidates": [
    {
     "name": "Kathy Kimberlin",
-    "party": "/>",
+    "party": "",
     "designation": "County Field Director",
     "incumbent": false
    },
    {
     "name": "Vipin Sharma",
-    "party": "/>",
+    "party": "",
     "designation": "Senior Engineering Manager",
     "incumbent": false
    }
@@ -1097,25 +1097,25 @@
   "candidates": [
    {
     "name": "Aziz Akbari",
-    "party": "/>",
+    "party": "",
     "designation": "Director, Alameda County Water District",
     "incumbent": false
    },
    {
     "name": "Ying Min Li",
-    "party": "/>",
+    "party": "",
     "designation": "Small Business Owner",
     "incumbent": false
    },
    {
     "name": "Anurag Mishra",
-    "party": "/>",
+    "party": "",
     "designation": "Technical Leader",
     "incumbent": false
    },
    {
     "name": "Manisha Pathak",
-    "party": "/>",
+    "party": "",
     "designation": "Educator/Nonprofit Executive",
     "incumbent": false
    }
@@ -1127,13 +1127,13 @@
   "candidates": [
    {
     "name": "Mark Salinas",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor/College Instructor",
     "incumbent": false
    },
    {
     "name": "Tom Wong",
-    "party": "/>",
+    "party": "",
     "designation": "Businessman",
     "incumbent": false
    }
@@ -1145,13 +1145,13 @@
   "candidates": [
    {
     "name": "Brian M. Schott",
-    "party": "/>",
+    "party": "",
     "designation": "Small Business Owner",
     "incumbent": false
    },
    {
     "name": "George Syrop",
-    "party": "/>",
+    "party": "",
     "designation": "Council Member",
     "incumbent": false
    }
@@ -1163,7 +1163,7 @@
   "candidates": [
    {
     "name": "Julie Roche",
-    "party": "/>",
+    "party": "",
     "designation": "Hayward City Councilmember",
     "incumbent": false
    }
@@ -1175,13 +1175,13 @@
   "candidates": [
    {
     "name": "Ben Barrientos",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    },
    {
     "name": "Narayan Tadimeti",
-    "party": "/>",
+    "party": "",
     "designation": "Physician",
     "incumbent": false
    }
@@ -1193,7 +1193,7 @@
   "candidates": [
    {
     "name": "Michael K. Hannon",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor",
     "incumbent": false
    }
@@ -1205,25 +1205,25 @@
   "candidates": [
    {
     "name": "Tonya Connolly",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Maintenance Superintendent",
     "incumbent": false
    },
    {
     "name": "Noah Patrick Grushkin",
-    "party": "/>",
+    "party": "",
     "designation": "No Ballot Designation",
     "incumbent": false
    },
    {
     "name": "Matthew Jorgens",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    },
    {
     "name": "Eve Marie Little",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/College Professor",
     "incumbent": false
    }
@@ -1235,31 +1235,31 @@
   "candidates": [
    {
     "name": "Nancy Beninati",
-    "party": "/>",
+    "party": "",
     "designation": "Supervising Deputy Attorney-General",
     "incumbent": false
    },
    {
     "name": "Sunny Bostrom-Fleming",
-    "party": "/>",
+    "party": "",
     "designation": "No Ballot Designation",
     "incumbent": false
    },
    {
     "name": "Adam Hundt",
-    "party": "/>",
+    "party": "",
     "designation": "Businessman",
     "incumbent": false
    },
    {
     "name": "Tom Ramsey",
-    "party": "/>",
+    "party": "",
     "designation": "Architect/City Councilmember",
     "incumbent": false
    },
    {
     "name": "Bill Reichle",
-    "party": "/>",
+    "party": "",
     "designation": "Retired University Administrator",
     "incumbent": false
    }
@@ -1271,13 +1271,13 @@
   "candidates": [
    {
     "name": "Jack Balch",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor/CPA",
     "incumbent": false
    },
    {
     "name": "Julie Testa",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember, City of Pleasanton",
     "incumbent": false
    }
@@ -1289,13 +1289,13 @@
   "candidates": [
    {
     "name": "Vin Kruttiventi",
-    "party": "/>",
+    "party": "",
     "designation": "Business Owner",
     "incumbent": false
    },
    {
     "name": "Kathy Narum",
-    "party": "/>",
+    "party": "",
     "designation": "Businesswoman",
     "incumbent": false
    }
@@ -1307,13 +1307,13 @@
   "candidates": [
    {
     "name": "Reena Gupta",
-    "party": "/>",
+    "party": "",
     "designation": "Local Business Owner",
     "incumbent": false
    },
    {
     "name": "Jamie Yee",
-    "party": "/>",
+    "party": "",
     "designation": "Communications Manager",
     "incumbent": false
    }
@@ -1325,13 +1325,13 @@
   "candidates": [
    {
     "name": "Juan González III",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor, City of San Leandro",
     "incumbent": false
    },
    {
     "name": "James Maes",
-    "party": "/>",
+    "party": "",
     "designation": "Business Operations Director",
     "incumbent": false
    }
@@ -1343,7 +1343,7 @@
   "candidates": [
    {
     "name": "Sbeydeh Viveros-Walton",
-    "party": "/>",
+    "party": "",
     "designation": "San Leandro Councilwoman",
     "incumbent": false
    }
@@ -1355,7 +1355,7 @@
   "candidates": [
    {
     "name": "James Aguilar",
-    "party": "/>",
+    "party": "",
     "designation": "Appointed City Councilmember",
     "incumbent": false
    }
@@ -1367,13 +1367,13 @@
   "candidates": [
    {
     "name": "Lee Thomas",
-    "party": "/>",
+    "party": "",
     "designation": "Nonprofit Executive Director",
     "incumbent": false
    },
    {
     "name": "Joseph Trujillo",
-    "party": "/>",
+    "party": "",
     "designation": "Chief Plant Operator",
     "incumbent": false
    }
@@ -1385,7 +1385,7 @@
   "candidates": [
    {
     "name": "Xouhoa Bowen",
-    "party": "/>",
+    "party": "",
     "designation": "San Leandro Councilmember",
     "incumbent": false
    }
@@ -1397,13 +1397,13 @@
   "candidates": [
    {
     "name": "Victor Lopez Pulido",
-    "party": "/>",
+    "party": "",
     "designation": "Legal Advocate/Translator",
     "incumbent": false
    },
    {
     "name": "Jaime Patino",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/Finance Manager",
     "incumbent": false
    }
@@ -1415,13 +1415,13 @@
   "candidates": [
    {
     "name": "Cheris Crocker-Root",
-    "party": "/>",
+    "party": "",
     "designation": "Financial Asset Manager",
     "incumbent": false
    },
    {
     "name": "Jeff Wang",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    }
@@ -1433,25 +1433,25 @@
   "candidates": [
    {
     "name": "Vipan S. Bajwa",
-    "party": "/>",
+    "party": "",
     "designation": "City Commissioner/Accountant",
     "incumbent": false
    },
    {
     "name": "Sarabjit Kaur Cheema",
-    "party": "/>",
+    "party": "",
     "designation": "High School Teacher",
     "incumbent": false
    },
    {
     "name": "Qasim Lodhi",
-    "party": "/>",
+    "party": "",
     "designation": "Software Engineer/Father",
     "incumbent": false
    },
    {
     "name": "Ann Yap-Jequinto",
-    "party": "/>",
+    "party": "",
     "designation": "Planning Commissioner/Caregiver",
     "incumbent": false
    }
@@ -1463,13 +1463,13 @@
   "candidates": [
    {
     "name": "Adriana Valencia",
-    "party": "/>",
+    "party": "",
     "designation": "Product Manager/Mother",
     "incumbent": false
    },
    {
     "name": "Joel B. Young",
-    "party": "/>",
+    "party": "",
     "designation": "AC Transit District Director",
     "incumbent": false
    }
@@ -1481,13 +1481,13 @@
   "candidates": [
    {
     "name": "Gabriel Morales",
-    "party": "/>",
+    "party": "",
     "designation": "Educator",
     "incumbent": false
    },
    {
     "name": "Sarah Syed",
-    "party": "/>",
+    "party": "",
     "designation": "AC Transit Director",
     "incumbent": false
    }
@@ -1499,19 +1499,19 @@
   "candidates": [
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    },
    {
     "name": "Murphy McCalley",
-    "party": "/>",
+    "party": "",
     "designation": "AC Transit District Board Member",
     "incumbent": false
    },
    {
     "name": "Luis Reynoso",
-    "party": "/>",
+    "party": "",
     "designation": "University Business Professor",
     "incumbent": false
    }
@@ -1523,13 +1523,13 @@
   "candidates": [
    {
     "name": "Judy C. Huang",
-    "party": "/>",
+    "party": "",
     "designation": "Director, Alameda County Water District, Ward 2",
     "incumbent": true
    },
    {
     "name": "Jason Miguel",
-    "party": "/>",
+    "party": "",
     "designation": "Water District Engineer",
     "incumbent": false
    }
@@ -1541,13 +1541,13 @@
   "candidates": [
    {
     "name": "Paul Sethy",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Yang Shao",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember, City of Fremont",
     "incumbent": false
    }
@@ -1559,13 +1559,13 @@
   "candidates": [
    {
     "name": "Robert Raburn",
-    "party": "/>",
+    "party": "",
     "designation": "BART Director",
     "incumbent": true
    },
    {
     "name": "Luis Reynoso",
-    "party": "/>",
+    "party": "",
     "designation": "University Business Professor",
     "incumbent": false
    }
@@ -1577,31 +1577,31 @@
   "candidates": [
    {
     "name": "Kristy (Dooman) Woerz",
-    "party": "/>",
+    "party": "",
     "designation": "Castro Valley Sanitary District Director",
     "incumbent": true
    },
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    },
    {
     "name": "Ralph Johnson",
-    "party": "/>",
+    "party": "",
     "designation": "Board Member Castro Valley Sanitary District",
     "incumbent": true
    },
    {
     "name": "Ken Owen",
-    "party": "/>",
+    "party": "",
     "designation": "Sewer Contractor/Attorney",
     "incumbent": false
    },
    {
     "name": "Darshan Saini",
-    "party": "/>",
+    "party": "",
     "designation": "Organization Change Manager",
     "incumbent": false
    }
@@ -1613,13 +1613,13 @@
   "candidates": [
    {
     "name": "Don Gray",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Wastewater Manager",
     "incumbent": false
    },
    {
     "name": "Marguerite Young",
-    "party": "/>",
+    "party": "",
     "designation": "EBMUD Director Ward 3",
     "incumbent": true
    }
@@ -1631,25 +1631,25 @@
   "candidates": [
    {
     "name": "April Chan",
-    "party": "/>",
+    "party": "",
     "designation": "Director, East Bay Municipal Utility District, Ward 7",
     "incumbent": true
    },
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    },
    {
     "name": "Luis Reynoso",
-    "party": "/>",
+    "party": "",
     "designation": "University Business Professor",
     "incumbent": false
    },
    {
     "name": "Gary Wolff",
-    "party": "/>",
+    "party": "",
     "designation": "Licensed Civil Engineer",
     "incumbent": false
    }
@@ -1661,19 +1661,19 @@
   "candidates": [
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    },
    {
     "name": "Rebecca Lewington",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Brand Strategist",
     "incumbent": false
    },
    {
     "name": "William Yragui",
-    "party": "/>",
+    "party": "",
     "designation": "Business Owner",
     "incumbent": false
    }
@@ -1685,13 +1685,13 @@
   "candidates": [
    {
     "name": "Bruce Henry",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Sales Director",
     "incumbent": false
    },
    {
     "name": "Olivia Sanwong",
-    "party": "/>",
+    "party": "",
     "designation": "Director, East Bay Regional Park District Ward 5",
     "incumbent": true
    }
@@ -1703,13 +1703,13 @@
   "candidates": [
    {
     "name": "Narges Dillon",
-    "party": "/>",
+    "party": "",
     "designation": "Nonprofit Director/Therapist",
     "incumbent": false
    },
    {
     "name": "Joseph Grcar",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Laboratory Scientist",
     "incumbent": false
    }
@@ -1721,19 +1721,19 @@
   "candidates": [
    {
     "name": "Michelle Biche",
-    "party": "/>",
+    "party": "",
     "designation": "Paralegal/Goat Farmer",
     "incumbent": false
    },
    {
     "name": "Vandana Singh Gautam",
-    "party": "/>",
+    "party": "",
     "designation": "Nonprofit Director",
     "incumbent": false
    },
    {
     "name": "Michael D. Justice",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    }
@@ -1745,13 +1745,13 @@
   "candidates": [
    {
     "name": "Amanda Alysia Daniels",
-    "party": "/>",
+    "party": "",
     "designation": "Law Student/Analyst",
     "incumbent": false
    },
    {
     "name": "Sara Lamnin",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    }
@@ -1762,14 +1762,14 @@
   "vote_for": 1,
   "candidates": [
    {
-    "name": "Joseph \"joe\" Giltner",
-    "party": "/>",
+    "name": "Joseph \"Joe\" Giltner",
+    "party": "",
     "designation": "Community Advocate",
     "incumbent": false
    },
    {
     "name": "Paul W. Hodges, JR.",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    }
@@ -1781,43 +1781,43 @@
   "candidates": [
    {
     "name": "Timothy Barry",
-    "party": "/>",
+    "party": "",
     "designation": "Retired General Manager",
     "incumbent": false
    },
    {
     "name": "Larry Bird",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Police Sergeant",
     "incumbent": false
    },
    {
     "name": "Matt Bogdanowicz",
-    "party": "/>",
+    "party": "",
     "designation": "Recreation Manager",
     "incumbent": false
    },
    {
     "name": "Maryalice Summers Faltings",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Philip Pierpont",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": true
    },
    {
     "name": "Mike Ralph",
-    "party": "/>",
+    "party": "",
     "designation": "Bike Shop Manager",
     "incumbent": false
    },
    {
     "name": "Laureen Turner",
-    "party": "/>",
+    "party": "",
     "designation": "Nursing Professor",
     "incumbent": false
    }
@@ -1829,13 +1829,13 @@
   "candidates": [
    {
     "name": "Tiare Peña",
-    "party": "/>",
+    "party": "",
     "designation": "Land Use Planner",
     "incumbent": false
    },
    {
     "name": "Shelia Young",
-    "party": "/>",
+    "party": "",
     "designation": "Director, Oro Loma Sanitary District",
     "incumbent": false
    }
@@ -1847,13 +1847,13 @@
   "candidates": [
    {
     "name": "Benny Lee",
-    "party": "/>",
+    "party": "",
     "designation": "Director, Oro Loma Sanitary District",
     "incumbent": false
    },
    {
     "name": "Fred Simon",
-    "party": "/>",
+    "party": "",
     "designation": "Director, Oro Loma Sanitary District",
     "incumbent": false
    }
@@ -1865,13 +1865,13 @@
   "candidates": [
    {
     "name": "Rita Duncan",
-    "party": "/>",
+    "party": "",
     "designation": "Board Director Oro Loma Sanitary District",
     "incumbent": false
    },
    {
-    "name": "Koroush \"cyrus\" Farsaei",
-    "party": "/>",
+    "name": "Koroush \"Cyrus\" Farsaei",
+    "party": "",
     "designation": "Plant Operator",
     "incumbent": false
    }
@@ -1883,31 +1883,31 @@
   "candidates": [
    {
     "name": "Jon Destin",
-    "party": "/>",
+    "party": "",
     "designation": "Albany Business Owner",
     "incumbent": false
    },
    {
     "name": "Katherine Enos",
-    "party": "/>",
+    "party": "",
     "designation": "Small Business Owner",
     "incumbent": false
    },
    {
     "name": "Robin D. López",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent/Ecologist",
     "incumbent": false
    },
    {
     "name": "Chris McDaniels",
-    "party": "/>",
+    "party": "",
     "designation": "Public Works Manager",
     "incumbent": false
    },
    {
     "name": "Aaron Tiedemann",
-    "party": "/>",
+    "party": "",
     "designation": "Housing Policy Analyst",
     "incumbent": false
    }
@@ -1919,31 +1919,31 @@
   "candidates": [
    {
     "name": "Margaret Allen",
-    "party": "/>",
+    "party": "",
     "designation": "Finance Director",
     "incumbent": false
    },
    {
     "name": "Melissa Boyd",
-    "party": "/>",
+    "party": "",
     "designation": "Appointed Incumbent",
     "incumbent": false
    },
    {
     "name": "Becky Hopwood",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    },
    {
     "name": "Josh Mahoney",
-    "party": "/>",
+    "party": "",
     "designation": "Appointed Incumbent",
     "incumbent": false
    },
    {
     "name": "David McKinney",
-    "party": "/>",
+    "party": "",
     "designation": "Education Researcher",
     "incumbent": false
    }
@@ -1955,31 +1955,31 @@
   "candidates": [
    {
     "name": "Laura Babitt",
-    "party": "/>",
+    "party": "",
     "designation": "Auditor/Operations Director",
     "incumbent": false
    },
    {
     "name": "Ross Bernet",
-    "party": "/>",
+    "party": "",
     "designation": "Environmental Program Manager",
     "incumbent": false
    },
    {
     "name": "Moni Gangopadhyay",
-    "party": "/>",
+    "party": "",
     "designation": "Consumer Protection Investigator",
     "incumbent": false
    },
    {
     "name": "Steve Kromer",
-    "party": "/>",
+    "party": "",
     "designation": "Energy Efficiency Engineer",
     "incumbent": false
    },
    {
     "name": "Daria Wrubel",
-    "party": "/>",
+    "party": "",
     "designation": "Youth Therapist",
     "incumbent": false
    }
@@ -1990,14 +1990,14 @@
   "vote_for": 1,
   "candidates": [
    {
-    "name": "Majdi \"gaith\" Abuhamdieh",
-    "party": "/>",
+    "name": "Majdi \"Gaith\" Abuhamdieh",
+    "party": "",
     "designation": "Entrepreneur/Technologist/Parent",
     "incumbent": false
    },
    {
     "name": "Igor A. Tregub",
-    "party": "/>",
+    "party": "",
     "designation": "Berkeley City Councilmember, District 4",
     "incumbent": false
    }
@@ -2009,13 +2009,13 @@
   "candidates": [
    {
     "name": "Aidan Hill",
-    "party": "/>",
+    "party": "",
     "designation": "Medical Case Manager",
     "incumbent": false
    },
    {
     "name": "Syrak Micael",
-    "party": "/>",
+    "party": "",
     "designation": "Community Engagement Liaison",
     "incumbent": false
    }
@@ -2027,25 +2027,25 @@
   "candidates": [
    {
     "name": "Fred M. Feller",
-    "party": "/>",
+    "party": "",
     "designation": "Attorney",
     "incumbent": false
    },
    {
     "name": "Mark Humbert",
-    "party": "/>",
+    "party": "",
     "designation": "City Councilmember",
     "incumbent": false
    },
    {
     "name": "Mari Mendonca",
-    "party": "/>",
+    "party": "",
     "designation": "No Ballot Designation",
     "incumbent": false
    },
    {
     "name": "Michael Wallman",
-    "party": "/>",
+    "party": "",
     "designation": "Systems Engineer",
     "incumbent": false
    }
@@ -2057,7 +2057,7 @@
   "candidates": [
    {
     "name": "Jenny Wong",
-    "party": "/>",
+    "party": "",
     "designation": "City Auditor",
     "incumbent": false
    }
@@ -2069,25 +2069,25 @@
   "candidates": [
    {
     "name": "Brenda F. Grisham",
-    "party": "/>",
+    "party": "",
     "designation": "Business Owner",
     "incumbent": false
    },
    {
     "name": "Barbara Lee",
-    "party": "/>",
+    "party": "",
     "designation": "Mayor, City of Oakland",
     "incumbent": false
    },
    {
     "name": "Mindy Ruth Pechenuk",
-    "party": "/>",
+    "party": "",
     "designation": "Educator/Researcher",
     "incumbent": false
    },
    {
     "name": "Julius Robinson",
-    "party": "/>",
+    "party": "",
     "designation": "Community Investment Executive",
     "incumbent": false
    }
@@ -2099,13 +2099,13 @@
   "candidates": [
    {
     "name": "Nate Adams",
-    "party": "/>",
+    "party": "",
     "designation": "Community Organizer",
     "incumbent": false
    },
    {
     "name": "Charlene Wang",
-    "party": "/>",
+    "party": "",
     "designation": "City Councilmember, District 2",
     "incumbent": false
    }
@@ -2117,7 +2117,7 @@
   "candidates": [
    {
     "name": "Janani Ramachandran",
-    "party": "/>",
+    "party": "",
     "designation": "Councilmember/Attorney/Mother",
     "incumbent": false
    }
@@ -2129,13 +2129,13 @@
   "candidates": [
    {
     "name": "Kevin E. Jenkins",
-    "party": "/>",
+    "party": "",
     "designation": "City Council President",
     "incumbent": false
    },
    {
     "name": "Nancy S. Sidebotham",
-    "party": "/>",
+    "party": "",
     "designation": "Tax Preparer",
     "incumbent": false
    }
@@ -2147,7 +2147,7 @@
   "candidates": [
    {
     "name": "Michael C. Houston",
-    "party": "/>",
+    "party": "",
     "designation": "Oakland City Auditor",
     "incumbent": false
    }
@@ -2159,13 +2159,13 @@
   "candidates": [
    {
     "name": "Jennifer Brouhard",
-    "party": "/>",
+    "party": "",
     "designation": "Retired Educator",
     "incumbent": false
    },
    {
     "name": "Arielle Fleisher",
-    "party": "/>",
+    "party": "",
     "designation": "Parent/Policy Director",
     "incumbent": false
    }
@@ -2177,19 +2177,19 @@
   "candidates": [
    {
     "name": "Kathryn Camp",
-    "party": "/>",
+    "party": "",
     "designation": "Public Policy Professional",
     "incumbent": false
    },
    {
     "name": "Mike Hutchinson",
-    "party": "/>",
+    "party": "",
     "designation": "Incumbent",
     "incumbent": false
    },
    {
     "name": "Sylvia Pfeiffer Williams",
-    "party": "/>",
+    "party": "",
     "designation": "Adult Educator",
     "incumbent": false
    }
@@ -2201,19 +2201,19 @@
   "candidates": [
    {
     "name": "Valarie Bachelor",
-    "party": "/>",
+    "party": "",
     "designation": "School Board Director",
     "incumbent": false
    },
    {
     "name": "Leana Powell",
-    "party": "/>",
+    "party": "",
     "designation": "Family Advocate/Parent",
     "incumbent": false
    },
    {
     "name": "Alexandra Williams",
-    "party": "/>",
+    "party": "",
     "designation": "Teacher/Program Director",
     "incumbent": false
    }

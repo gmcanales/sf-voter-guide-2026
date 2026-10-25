@@ -39,8 +39,8 @@ def titlecase_name(n: str) -> str:
     for w in n.split():
         if re.fullmatch(r"(?:[A-Z]\.?){1,3}", w) and (len(w) == 1 or "." in w) or w in ("II", "III", "IV"):
             out.append(w)
-        elif w.startswith("("):
-            out.append("(" + w[1:].capitalize())
+        elif w[:1] in "(\"“":                     # (Don), "Sue" -- capitalize after the opening mark
+            out.append(w[0] + w[1:].capitalize())
         elif "-" in w:
             out.append("-".join(p.capitalize() for p in w.split("-")))
         elif w.startswith("MC") and len(w) > 2:
@@ -72,7 +72,8 @@ def fetch_candidates() -> list:
             if len(cells) < 2 or "candidateName" not in cells[0]:
                 continue
             name = text(re.search(r"<span class='candidateName'>(.*?)</span>", cells[0], re.S).group(1))
-            party = text(cells[0].split("<br", 1)[1]) if "<br" in cells[0] else ""
+            parts = re.split(r"<br\s*/?>", cells[0], maxsplit=1)   # "NAME <br /> Democratic Party"
+            party = text(parts[1]) if len(parts) > 1 else ""
             inc = re.search(r'Incumbent:</div>\s*<div class="candidate-detail-data">\s*([YN])', row)
             cands.append({"name": titlecase_name(name), "party": PARTIES.get(party, party),
                           "designation": text(cells[1]), "incumbent": bool(inc and inc.group(1) == "Y")})

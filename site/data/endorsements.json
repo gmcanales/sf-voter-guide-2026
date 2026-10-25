@@ -857,15 +857,15 @@
    "yimby": [
     "Ben Allen"
    ],
+   "ebyd": [
+    "Jane Kim"
+   ],
    "ebdsa": {
     "picks": [
      "Jane Kim"
     ],
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "ebyd": [
-    "Jane Kim"
-   ]
+   }
   },
   "boe-2": {
    "sfdems": [
@@ -1528,11 +1528,11 @@
    },
    "sierra": "yes",
    "yimby": "yes",
+   "ebyd": "yes",
    "ebdsa": {
     "vote": "yes",
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "ebyd": "yes"
+   }
   },
   "prop-a": {
    "sfdems": "yes",
@@ -1678,14 +1678,14 @@
    "league": "yes"
   },
   "ala-councilmember-district-no-2-oakland": {
-   "ebdsa": [
-    "Nate Adams"
-   ],
    "yimby": [
     "Charlene Wang"
    ],
    "ebyd": [
     "Charlene Wang"
+   ],
+   "ebdsa": [
+    "Nate Adams"
    ]
   },
   "ala-members-of-city-council-district-1-hayward": {
@@ -1694,10 +1694,10 @@
    ]
   },
   "ala-member-of-city-council-district-7-berkeley": {
-   "ebdsa": [
+   "ebyd": [
     "Syrak Micael"
    ],
-   "ebyd": [
+   "ebdsa": [
     "Syrak Micael"
    ]
   },
@@ -1707,37 +1707,37 @@
    ]
   },
   "ala-school-director-district-no-6-oakland": {
-   "ebdsa": [
-    "Valarie Bachelor"
-   ],
    "ebyd": {
     "picks": [
      "LeAna Powell",
      "Alexandra Williams"
     ],
     "note": "Ranked: #1 LeAna Powell, #2 Alexandra Williams."
-   }
+   },
+   "ebdsa": [
+    "Valarie Bachelor"
+   ]
   },
   "cc-city-of-richmond-mayor": {
-   "ebdsa": [
-    "Claudia Jiménez"
-   ],
    "rpa": {
     "picks": [
      "Claudia Jiménez"
     ],
     "note": "Jiménez is an RPA member; the RPA voted to endorse Jiménez as its sole mayoral candidate (Richmondside)."
-   }
+   },
+   "ebdsa": [
+    "Claudia Jiménez"
+   ]
   },
   "ala-rent-stabilization-board-commissioners-berkeley": {
-   "ebdsa": [
+   "ebyd": [
     "Avery Arbaugh",
     "Ida Martinac",
     "Nathan Mizell",
     "Vylma Ortiz",
     "Derek Rodriguez"
    ],
-   "ebyd": [
+   "ebdsa": [
     "Avery Arbaugh",
     "Ida Martinac",
     "Nathan Mizell",
@@ -1786,12 +1786,12 @@
    "ebdsa": "yes"
   },
   "ala-measure-u": {
-   "ebdsa": "yes",
-   "ebyd": "yes"
+   "ebyd": "yes",
+   "ebdsa": "yes"
   },
   "ala-measure-v": {
-   "ebdsa": "yes",
-   "ebyd": "yes"
+   "ebyd": "yes",
+   "ebdsa": "yes"
   },
   "ala-measure-w": {
    "ebdsa": "yes"
@@ -1803,8 +1803,8 @@
    "ebdsa": "yes"
   },
   "ala-measure-z": {
-   "ebdsa": "yes",
-   "ebyd": "yes"
+   "ebyd": "yes",
+   "ebdsa": "yes"
   },
   "ala-measure-aa": {
    "ebdsa": "yes"
@@ -1819,18 +1819,18 @@
    "ebdsa": "yes"
   },
   "ala-measure-ee": {
-   "ebdsa": {
-    "none": "No position"
-   },
    "ebyd": "yes",
    "lwvoak": {
     "vote": "yes",
     "note": "From the official ballot argument its president signed."
+   },
+   "ebdsa": {
+    "none": "No position"
    }
   },
   "ala-measure-ff": {
-   "ebdsa": "yes",
-   "ebyd": "yes"
+   "ebyd": "yes",
+   "ebdsa": "yes"
   },
   "ala-measure-gg": {
    "ebdsa": "yes"
@@ -1890,15 +1890,15 @@
    "ebdsa": "yes"
   },
   "assembly-14": {
+   "yimby": [
+    "Buffy Wicks"
+   ],
    "ebdsa": {
     "picks": [
      "Mark Rendon"
     ],
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "yimby": [
-    "Buffy Wicks"
-   ]
+   }
   },
   "assembly-20": {
    "ebdsa": {
@@ -1909,50 +1909,50 @@
    }
   },
   "assembly-24": {
-   "ebdsa": {
-    "picks": [
-     "Alex Lee"
-    ],
-    "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
    "yimby": [
     "Alex Lee"
    ],
    "ebyd": [
     "Alex Lee"
-   ]
+   ],
+   "ebdsa": {
+    "picks": [
+     "Alex Lee"
+    ],
+    "note": "California DSA's position, carried in East Bay DSA's guide."
+   }
   },
   "us-rep-12": {
+   "ebyd": [
+    "Lateefah Simon"
+   ],
    "ebdsa": {
     "picks": [
      "Lateefah Simon"
     ],
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "ebyd": [
-    "Lateefah Simon"
-   ]
+   }
   },
   "us-rep-14": {
+   "ebyd": [
+    "Aisha Wahab"
+   ],
    "ebdsa": {
     "picks": [
      "Aisha Wahab"
     ],
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "ebyd": [
-    "Aisha Wahab"
-   ]
+   }
   },
   "us-rep-17": {
+   "ebyd": {
+    "none": "No position"
+   },
    "ebdsa": {
     "picks": [
      "Ro Khanna"
     ],
     "note": "California DSA's position, carried in East Bay DSA's guide."
-   },
-   "ebyd": {
-    "none": "No position"
    }
   },
   "state-senate-10": {
