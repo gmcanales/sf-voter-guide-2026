@@ -1,6 +1,6 @@
 # Status: 2026 Bay Area voter guide
 
-_Last updated 2026-10-24 (election: Tuesday, Nov 3, 2026). Live at https://goosebase.org/sf-2026/._
+_Last updated 2026-10-25 (election: Tuesday, Nov 3, 2026). Live at https://goosebase.org/sf-2026/._
 
 Read this first when picking the project up. Schemas live in `docs/data-model.md`; sourcing
 rules in `docs/sourcing.md`.
@@ -14,8 +14,8 @@ rules in `docs/sourcing.md`.
 | Depth | **Full guide** | Preview + focus cities | Preview + focus cities | Preview + focus city |
 | Focus cities | — | Oakland, Fremont | South SF, San Mateo, Redwood City | Richmond (incl. Richmond Annex) |
 | Contests | 62 | 158 | 132 | 114 |
-| Candidates with money data | 100% | 6% | 13% | 8% |
-| Candidates with a profile | 33% (KQED) | 9% | 0% | 1% |
+| Candidates with money data | 100% | 50% | 60% | 43% |
+| Candidates with a profile or statement | 47% (KQED + pamphlet) | 9% | 0% | 68% (official statements) |
 | Local measures with official text | all | 2 of 27 | 4 of 28 | 12 of 12 |
 | Local measures with any money / full local totals | all / all | 21 / 14 of 27 | 14 / 8 of 28 | 7 / 4 of 12 |
 | Contests with 3rd-party positions | 62 | 103 | 46 | 53 |
