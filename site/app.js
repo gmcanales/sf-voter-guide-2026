@@ -1412,9 +1412,14 @@ function renderCandidateTags(contest, name) {
   }
   const m = FUNDING?.candidates?.[contest.id]?.[name];
   if (m) pills.push(...fundingPills(m));
-  pills.push(...stancesFor(contest.id, name).flatMap(stancePill));
+  // Position tags stay hidden until "More on X" is opened (CSS), except for a topic
+  // the reader has selected in the topic bar.
+  const shown = [], folded = [];
+  for (const e of stancesFor(contest.id, name)) (state.topics.includes(e.topic) ? shown : folded).push(...[stancePill(e)].flat());
   const pm = POLICE?.candidates?.[contest.id]?.[name];
-  if (pm) pills.push(policeMoneyPill(pm));
+  if (pm) (state.topics.includes('police-union') ? shown : folded).push(policeMoneyPill(pm));
+  pills.push(...shown);
+  if (folded.length) pills.push(el('span', { class: 'vg-stance-tags' }, folded));
   if (m?.no_committee) {
     pills.push(el('span', { class: 'vg-fund-pill vg-fund-none', title: 'No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.' }, 'No campaign committee'));
   }

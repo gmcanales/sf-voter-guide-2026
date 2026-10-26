@@ -710,6 +710,9 @@
 /* ── tagged positions (stances.json, police_money.json) ────────────────── */
 .vg-stance { cursor: help; }
 .vg-stance-shifted { border-style: dashed; opacity: 0.8; }
+/* Position tags fold away until the candidate's "More on X" panel is open. */
+.vg-stance-tags { display: none; }
+:is(.vg-row, .vg-rcv-row):has(.vg-cand-more[open]) .vg-stance-tags { display: contents; }
 .vg-shift-chip { font-style: italic; }
 .vg-positions { margin-top: 10px; padding-top: 8px; border-top: 1px dashed var(--border); }
 .vg-positions h4 { margin: 0 0 4px; font-size: 0.82rem; }
