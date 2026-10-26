@@ -252,6 +252,10 @@
      "source_extra": {
       "label": "KQED",
       "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     },
+     "was": {
+      "stance": "supports",
+      "when": "voted for the Flock contract, Dec 2025"
      }
     },
     {
@@ -475,6 +479,10 @@
      "source_extra": {
       "label": "Richmondside",
       "url": "https://richmondside.org/2026/10/02/richmond-mayoral-debate-candidates-clash-over-public-safety/"
+     },
+     "was": {
+      "stance": "supports",
+      "when": "first voted for a Flock contract, per Richmondside"
      }
     },
     {
@@ -495,6 +503,10 @@
      "source": {
       "label": "Grandview Independent",
       "url": "https://www.grandviewindependent.com/anderson-jimenez-clash-over-chevron-settlement-flock-cameras-in-mayoral-debate/"
+     },
+     "was": {
+      "stance": "supports",
+      "when": "backed Flock earlier in the campaign"
      }
     },
     {

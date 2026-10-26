@@ -203,6 +203,11 @@ of the candidate's own words or recorded votes, as reported by the cited outlet.
   combine those positions both ways.
 - No entry means no sourced position. Show nothing, and never infer one from a
   candidate's endorsements or allies.
+- **Changed position** (`was: {stance, when}`): add this when a source records an
+  earlier position at a different level, such as a vote for a contract the candidate
+  now opposes. The pill is dashed and gets a "↺ Changed position" chip, which reads
+  "Flip-flop" when *Show goosebase bias* is on. It applies in either direction, and only
+  to an earlier stance that's documented, never to one that's merely suspected.
 
 The tags show as outlined pills under the candidate's name. The details sit under
 *On the record* in the Who? tab, and each topic appears in the topic bar once any

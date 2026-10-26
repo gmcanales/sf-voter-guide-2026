@@ -717,10 +717,16 @@ function stanceTopic(id) {
   return STANCES?.topics?.find(t => t.id === id);
 }
 
+// A stance with an earlier, different one on record (e.was) gets a dashed pill and a
+// "changed position" chip, so a recent turn doesn't read like a long-held view. The chip
+// is neutral by default and says "Flip-flop" with our bias shown.
 function stancePill(e) {
   const t = stanceTopic(e.topic);
-  return el('span', { class: `vg-fund-pill vg-stance vg-stance-${e.stance}`, title: e.text },
+  const pill = el('span', { class: `vg-fund-pill vg-stance vg-stance-${e.stance}${e.was ? ' vg-stance-shifted' : ''}`, title: e.text },
     `${t.short || t.label}: `, el('strong', {}, t.levels[e.stance]));
+  if (!e.was) return pill;
+  return [pill, el('span', { class: 'vg-fund-pill vg-stance vg-shift-chip', title: `Earlier: ${t.levels[e.was.stance]} (${e.was.when})` },
+    state.showPicks ? 'Flip-flop' : '↺ Changed position')];
 }
 
 const dollars = n => `$${Math.round(n).toLocaleString('en-US')}`;   // small sums: exact, not "$4K"
@@ -738,7 +744,9 @@ function candidatePositions(contest, c) {
   return el('div', { class: 'vg-positions' },
     el('h4', {}, 'On the record'),
     items.map(e => el('div', { class: 'vg-position-item' },
-      el('p', {}, el('strong', {}, `${stanceTopic(e.topic).label}: ${stanceTopic(e.topic).levels[e.stance]}. `), e.text),
+      el('p', {}, el('strong', {}, `${stanceTopic(e.topic).label}: ${stanceTopic(e.topic).levels[e.stance]}. `),
+        e.was ? el('em', {}, `Changed position: earlier ${stanceTopic(e.topic).levels[e.was.stance].toLowerCase()} (${e.was.when}). `) : null,
+        e.text),
       sourceLine(e.source.label, e.source.url, e.source_extra ? null : '(as reported).'),
       e.source_extra ? sourceLine(e.source_extra.label, e.source_extra.url) : null)),
     m ? el('div', { class: 'vg-position-item' },
@@ -1404,7 +1412,7 @@ function renderCandidateTags(contest, name) {
   }
   const m = FUNDING?.candidates?.[contest.id]?.[name];
   if (m) pills.push(...fundingPills(m));
-  pills.push(...stancesFor(contest.id, name).map(stancePill));
+  pills.push(...stancesFor(contest.id, name).flatMap(stancePill));
   const pm = POLICE?.candidates?.[contest.id]?.[name];
   if (pm) pills.push(policeMoneyPill(pm));
   if (m?.no_committee) {
