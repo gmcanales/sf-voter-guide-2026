@@ -184,6 +184,13 @@ of the candidate's own words or recorded votes, as reported by the cited outlet.
   *Supports* / *Supports, with conditions* / *Against Flock, open to another vendor* /
   *Opposes*. "Open to another vendor" needs the candidate to have said so; opposing
   Flock without saying more is *Opposes*, and the text says what was opposed.
+- **Police staffing & budget:** *More officers / funding* / *No bigger police budget* /
+  *Shift work to alternatives*. Use the candidate's own answer (a questionnaire they filled
+  in, a debate, a recorded vote), never a group's scorecard of them: GrowSF's "Fully staff
+  SFPD: Yes" table codes non-respondents too, so only the candidate's own questionnaire
+  grid counts. Recruiting or retention plans without a stated goal of growing the force,
+  and support for crisis-response alternatives without a word on police, aren't enough
+  to tag.
 - **Police union support:** *Endorsed* only when an outlet reports it or the union
   published it. Money is separate: `police_money.json`, built by
   `py tools/police_union_money.py`, counts direct contributions from police, deputy

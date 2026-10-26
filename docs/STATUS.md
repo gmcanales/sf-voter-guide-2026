@@ -68,11 +68,13 @@ East Bay DSA, East Bay Young Dems, Richmond Progressive Alliance, LWV Oakland.
    Prieta (bot-walled). Ask the user to save the pages; transcribe with `tools/import_guides.py`.
 7. **Ward maps** for AC Transit, EBMUD, EBRPD, water/sanitary districts, and the 2021 San Mateo
    supervisor map (the county's layer is token-only), to narrow ward races from a ZIP.
-8. **Stances gaps** (2026-10-25: 26 surveillance positions, 1 police endorsement, 6 candidates with
-   police-union money). No sourced surveillance answers yet for SF D4 (Wong, Chow, Greco), most of
-   D10, Oakland's mayor race, Fremont, San Mateo, South SF or SMC Supervisor D5. Police unions
-   rarely publish endorsement lists: only KQED's report of the Richmond police association backing
-   Anderson is confirmed. A police staffing / budget axis was agreed as the next stance topic.
+8. **Stances gaps** (2026-10-25: 33 surveillance positions, 18 police staffing positions, 1 police
+   endorsement, 6 candidates with police-union money). Still missing: surveillance for SF D4, most
+   of D10, Fremont, San Mateo, South SF, SMC Supervisor D5; staffing for Berkeley (no 2026 coverage
+   found), Oakland D4/D6 incumbents (skipped the Oaklandside questionnaire), SF D2/D4 challengers.
+   SF staffing answers come from GrowSF's yes/no grid, so they skew "More"; candidates who skipped
+   it have no tag. Police unions rarely publish endorsement lists: only KQED's report of the
+   Richmond police association backing Anderson is confirmed.
 9. Optional: Alameda County Dems / labor councils (sites unreachable; need correct URLs or saved
    pages).
 

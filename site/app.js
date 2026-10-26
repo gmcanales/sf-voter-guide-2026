@@ -719,9 +719,8 @@ function stanceTopic(id) {
 
 function stancePill(e) {
   const t = stanceTopic(e.topic);
-  if (e.topic === 'police-union') return el('span', { class: 'vg-fund-pill vg-stance', title: e.text }, 'Police union: ', el('strong', {}, t.levels[e.stance]));
   return el('span', { class: `vg-fund-pill vg-stance vg-stance-${e.stance}`, title: e.text },
-    'Surveillance tech: ', el('strong', {}, t.levels[e.stance]));
+    `${t.short || t.label}: `, el('strong', {}, t.levels[e.stance]));
 }
 
 const dollars = n => `$${Math.round(n).toLocaleString('en-US')}`;   // small sums: exact, not "$4K"

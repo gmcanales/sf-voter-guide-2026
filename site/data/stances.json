@@ -10,7 +10,19 @@
     "conditional": "Supports, with conditions",
     "vendor": "Against Flock, open to another vendor",
     "opposes": "Opposes"
-   }
+   },
+   "short": "Surveillance tech"
+  },
+  {
+   "id": "police-staffing",
+   "label": "Police staffing & budget",
+   "description": "Whether to grow the police force and its budget, hold the budget where it is, or move work to non-police responses.",
+   "levels": {
+    "more": "More officers / funding",
+    "no-increase": "No bigger police budget",
+    "alternatives": "Shift work to alternatives"
+   },
+   "short": "Police staffing"
   },
   {
    "id": "police-union",
@@ -18,7 +30,8 @@
    "description": "Endorsements and direct contributions from police, deputy sheriff and other peace-officer unions.",
    "levels": {
     "endorsed": "Endorsed"
-   }
+   },
+   "short": "Police union"
   }
  ],
  "candidates": {
@@ -35,6 +48,15 @@
      "source_extra": {
       "label": "SF Standard",
       "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025), and wants to keep “staffing SFPD and expanding safety technology.”",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/june-2026/stephen-sherrill/"
      }
     }
    ]
@@ -53,6 +75,15 @@
       "label": "SF Standard",
       "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
      }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Wants SFPD to “commit to a three-year plan to reach 100% full staffing, full stop”; wrote two charter amendments on police staffing.",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/matt-dorsey/"
+     }
     }
    ]
   },
@@ -66,6 +97,15 @@
       "label": "Mission Local",
       "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
      }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025): “We’ll make it safer by fully staffing our police department.”",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/manny-yekutiel/"
+     }
     }
    ],
    "Darshini Patel": [
@@ -76,6 +116,15 @@
      "source": {
       "label": "Mission Local",
       "url": "https://missionlocal.org/2026/08/sf-district-8-candidates-flock-police-surveillance/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "no-increase",
+     "text": "Agrees running SFPD on overtime “costs more than staffing it properly,” but says “none of that requires a bigger budget.”",
+     "source": {
+      "label": "GrowSF, quoting her platform",
+      "url": "https://growsf.org/voter-guide/san-francisco-voter-guide-november-2026-election/contests/district-8-supervisor/"
      }
     }
    ],
@@ -112,6 +161,15 @@
       "label": "Mission Local",
       "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-surveillance-tech/"
      }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025); wants assigned foot patrols on commercial corridors alongside violence-prevention funding.",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/theo-ellington/"
+     }
     }
    ],
    "J.R. Eppler": [
@@ -127,6 +185,15 @@
       "label": "SF Standard",
       "url": "https://sfstandard.com/2026/09/08/asked-candidates-if-sf-should-keep-flock-surveillance-tell-flock/"
      }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025).",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/jr-eppler/"
+     }
     }
    ],
    "Dionjay (DJ) Brookter": [
@@ -139,17 +206,81 @@
       "url": "https://missionlocal.org/2026/09/meet-the-district-10-candidates-surveillance-tech/"
      }
     }
+   ],
+   "Shawn M. Richard": [
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025); stresses retention, de-escalation training and health-first responses to drug and mental-health calls.",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/shawn-richard/"
+     }
+    }
+   ],
+   "Mike Trouble Lin": [
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025); “a vocal supporter of fully funding SFPD including foot patrol units.”",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/"
+     }
+    },
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "Would back “more flock cameras and drones.”",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/november-2026/mike-trouble-lin/"
+     }
+    }
    ]
   },
   "ala-councilmember-district-no-2-oakland": {
    "Charlene Wang": [
     {
      "topic": "surveillance",
-     "stance": "supports",
-     "text": "Voted for Oakland’s two-year Flock contract (Dec 2025, 7–1, with only Carroll Fife against) and co-wrote its data-privacy amendments.",
+     "stance": "vendor",
+     "text": "Voted for Oakland’s Flock contract (Dec 2025) and wrote its safeguards; now says “I have concerns with Flock” and is “actively pushing the city for an open bid to replace Flock.”",
      "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     },
+     "source_extra": {
       "label": "KQED",
       "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Says “OPD is severely understaffed”; serves on the mayor’s OPD recruiting task force and is building cadet and community recruiting programs.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    }
+   ],
+   "Nate Adams": [
+    {
+     "topic": "surveillance",
+     "stance": "opposes",
+     "text": "“I do not support the City contracting with Flock and oppose renewal”: opposes “this use of mass surveillance.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "alternatives",
+     "text": "“We can’t solve national trends by simply pouring money into recruitment”; wants alternatives like MACRO so OPD can focus on calls that need an armed response.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
      }
     }
    ]
@@ -176,6 +307,17 @@
      "source": {
       "label": "KQED",
       "url": "https://www.kqed.org/news/12067461/oakland-council-expands-flock-license-plate-reader-network-despite-privacy-concerns"
+     }
+    }
+   ],
+   "Nancy S. Sidebotham": [
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "“OPD needs to increase its staffing of officers to 1000 or more.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
      }
     }
    ]
@@ -325,14 +467,23 @@
     {
      "topic": "surveillance",
      "stance": "opposes",
-     "text": "Has opposed Flock from the start; voted against turning its plate readers back on (Mar 2026, passed 4–3). The council since approved Axon drones and cameras 5–2 and sent plate readers back for a separate vote.",
+     "text": "Voted against turning Flock’s plate readers back on (Mar 2026, passed 4–3). Richmondside reports she first voted for a Flock contract and now wants an assessment of its effectiveness and data sharing with immigration enforcement.",
      "source": {
       "label": "Richmondside",
       "url": "https://richmondside.org/2026/03/18/richmond-flock-cameras-license-plate-readers-on/"
      },
      "source_extra": {
-      "label": "Grandview Independent",
-      "url": "https://www.grandviewindependent.com/richmond-approves-police-drones-and-cameras-puts-license-plate-readers-on-hold/"
+      "label": "Richmondside",
+      "url": "https://richmondside.org/2026/10/02/richmond-mayoral-debate-candidates-clash-over-public-safety/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "no-increase",
+     "text": "Police already get about 35% of the city budget and budgeted positions go unfilled; says even a 1% increase would cut other services, and would invest in youth jobs, crisis response (ROCK), parks and cleanup.",
+     "source": {
+      "label": "Richmondside",
+      "url": "https://richmondside.org/2026/10/02/richmond-mayoral-debate-candidates-clash-over-public-safety/"
      }
     }
    ],
@@ -354,6 +505,15 @@
       "label": "KQED",
       "url": "https://www.kqed.org/news/12086075/richmond-mayoral-race-jimenez-and-anderson-likely-headed-for-runoff-in-november"
      }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Wants more police money, technology and officers; backs the police union’s proposed 187-officer minimum (143 are budgeted). Reimagining safety “doesn’t mean defunding, doesn’t mean reallocating.”",
+     "source": {
+      "label": "Richmondside",
+      "url": "https://richmondside.org/2026/10/02/richmond-mayoral-debate-candidates-clash-over-public-safety/"
+     }
     }
    ]
   },
@@ -366,6 +526,101 @@
      "source": {
       "label": "Redwood City Pulse",
       "url": "https://www.rwcpulse.com/top-story/2023/09/14/council-votes-to-add-license-plate-readers-to-some-redwood-city-streets"
+     }
+    }
+   ]
+  },
+  "sup-4": {
+   "Alan Wong": [
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Answered yes to “try to achieve full staffing for SFPD” (about 2,100 officers; SFPD counted 1,565 in Nov 2025); would back “a budget that adequately supports” SFPD and civilianize desk jobs to move officers to patrol.",
+     "source": {
+      "label": "Candidate’s GrowSF questionnaire",
+      "url": "https://growsf.org/voter-guide/questionnaires/june-2026/alan-wong/"
+     }
+    }
+   ]
+  },
+  "ala-mayor-oakland": {
+   "Barbara Lee": [
+    {
+     "topic": "surveillance",
+     "stance": "conditional",
+     "text": "Any Flock renewal needs an independent review verifying limits on data access, sharing and retention, a ban on immigration-enforcement or protest monitoring, and public reporting.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Wants to recruit and keep more officers: restored the Cadet Program, and would improve supervision and wellness and “shift appropriate administrative work to civilian staff.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    }
+   ],
+   "Brenda F. Grisham": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "“I will support flock cameras 100% as I have in the past and would push for renewing the system.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "Blames attrition on “a slow hiring process”; would speed up police and dispatcher recruitment.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    }
+   ],
+   "Mindy Ruth Pechenuk": [
+    {
+     "topic": "surveillance",
+     "stance": "supports",
+     "text": "“The Flock cameras have been a great tool to our police.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "“The problem is NOT the OPD”; says Oakland must match other cities’ officer pay and equipment.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    }
+   ],
+   "Julius Robinson": [
+    {
+     "topic": "surveillance",
+     "stance": "conditional",
+     "text": "Would renew Flock “only if an independent review demonstrates public-safety value,” with privacy protections.",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
+     }
+    },
+    {
+     "topic": "police-staffing",
+     "stance": "more",
+     "text": "“I would pursue a credible plan toward the 700-officer benchmark,” with “competitive compensation within our fiscal capacity.”",
+     "source": {
+      "label": "Oaklandside candidate questionnaire",
+      "url": "https://oaklandside.org/2026/10/05/oakland-mayor-city-council-candidates-questionnaire/"
      }
     }
    ]
