@@ -209,8 +209,9 @@ of the candidate's own words or recorded votes, as reported by the cited outlet.
   "Flip-flop" when *Show goosebase bias* is on. It applies in either direction, and only
   to an earlier stance that's documented, never to one that's merely suspected.
 
-The tags show as outlined pills under the candidate's name. The details sit under
-*On the record* in the Who? tab, and each topic appears in the topic bar once any
+The tags show as outlined bubbles at the top of the candidate's Who? tab (not on the
+ballot row, which got too busy on mobile). The details sit under *On the record* in the
+same tab, and each topic appears in the topic bar once any
 contest the reader sees carries it.
 
 ## Tabbed panels

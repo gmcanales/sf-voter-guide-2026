@@ -697,6 +697,7 @@ function candidateWho(contest, c) {
   const groups = backingGroups(contest.id, c.name);
   const basics = [c.designation, c.party ? `${c.party} Party preference` : null, c.incumbent ? 'Incumbent' : null].filter(Boolean).join(' · ');
   return [
+    stanceBubbles(contest, c.name),
     el('p', {}, a?.who || c.who || basics || 'No sourced description yet.'),
     !a?.who && c.who && basics ? el('p', { class: 'vg-fineprint' }, `On the ballot: ${basics}`) : null,
     !a?.who && !c.who && contest.statement_note ? el('p', { class: 'vg-fineprint' }, contest.statement_note) : null,
@@ -727,6 +728,13 @@ function stancePill(e) {
   if (!e.was) return pill;
   return [pill, el('span', { class: 'vg-fund-pill vg-stance vg-shift-chip', title: `Earlier: ${t.levels[e.was.stance]} (${e.was.when})` },
     state.showPicks ? 'Flip-flop' : '↺ Changed position')];
+}
+
+// The position tags, as bubbles at the top of the Who? tab (kept off the ballot row).
+function stanceBubbles(contest, name) {
+  const pm = POLICE?.candidates?.[contest.id]?.[name];
+  const pills = [...stancesFor(contest.id, name).flatMap(stancePill), pm ? policeMoneyPill(pm) : null].filter(Boolean);
+  return pills.length ? el('div', { class: 'vg-cand-tags vg-who-tags' }, pills) : null;
 }
 
 const dollars = n => `$${Math.round(n).toLocaleString('en-US')}`;   // small sums: exact, not "$4K"
@@ -1412,14 +1420,6 @@ function renderCandidateTags(contest, name) {
   }
   const m = FUNDING?.candidates?.[contest.id]?.[name];
   if (m) pills.push(...fundingPills(m));
-  // Position tags stay hidden until "More on X" is opened (CSS), except for a topic
-  // the reader has selected in the topic bar.
-  const shown = [], folded = [];
-  for (const e of stancesFor(contest.id, name)) (state.topics.includes(e.topic) ? shown : folded).push(...[stancePill(e)].flat());
-  const pm = POLICE?.candidates?.[contest.id]?.[name];
-  if (pm) (state.topics.includes('police-union') ? shown : folded).push(policeMoneyPill(pm));
-  pills.push(...shown);
-  if (folded.length) pills.push(el('span', { class: 'vg-stance-tags' }, folded));
   if (m?.no_committee) {
     pills.push(el('span', { class: 'vg-fund-pill vg-fund-none', title: 'No SF campaign committee on file. Candidates who raise under $2,000 don’t have to form one.' }, 'No campaign committee'));
   }
