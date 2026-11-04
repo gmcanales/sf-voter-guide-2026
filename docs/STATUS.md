@@ -1,9 +1,20 @@
 # Status: 2026 Bay Area voter guide
 
-_Last updated 2026-10-25 (election: Tuesday, Nov 3, 2026). Live at https://goosebase.org/sf-2026/._
+_Last updated 2026-11-04. The November 3, 2026 election is over; this file now describes the
+final state of the 2026 build. Still live at https://goosebase.org/sf-2026/._
 
 Read this first when picking the project up. Schemas live in `docs/data-model.md`; sourcing
 rules in `docs/sourcing.md`.
+
+**Post-election:**
+- [`next-cycle-plan.md`](next-cycle-plan.md) — what the traffic showed, and the distribution
+  calendar for the next California election. Headline: the guide shipped 20 days into a 29-day
+  vote-by-mail window, which explains the traffic shape better than anything about the content.
+  Next target is **March 7, 2028**, live by **Feb 4**.
+- [`build-postmortem.md`](build-postmortem.md) — where the ~14 hours went, and what to pre-build.
+  Headline: money data (29%) and candidate descriptions (15%) were 44% of the build, and
+  candidate-description coverage turned out to be a property of each county rather than a
+  function of effort.
 
 ---
 
