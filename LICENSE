@@ -1,0 +1,57 @@
+This repository mixes three kinds of material with three different statuses.
+
+────────────────────────────────────────────────────────────────────────────
+1. CODE — MIT License
+────────────────────────────────────────────────────────────────────────────
+Applies to `tools/`, `site/app.js`, `site/style.css`, `site/css/`, `site/js/`
+and the build configuration.
+
+MIT License
+
+Copyright (c) 2026 Gustavo (@gmcanales)
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+────────────────────────────────────────────────────────────────────────────
+2. WRITTEN CONTENT — CC BY 4.0
+────────────────────────────────────────────────────────────────────────────
+The original explainers, topic tags, analysis notes and documentation
+(`docs/`, and the authored prose in `site/data/analysis.json` and
+`site/data/topics.json`) are licensed Creative Commons
+Attribution 4.0 International: https://creativecommons.org/licenses/by/4.0/
+
+Reuse freely with credit. Please do not present it as current voting advice —
+it describes an election held on 2026-11-03.
+
+────────────────────────────────────────────────────────────────────────────
+3. OFFICIAL AND THIRD-PARTY MATERIAL — not ours to license
+────────────────────────────────────────────────────────────────────────────
+- Ballot text, measure digests, candidate statements and designations are
+  public records published by the California Secretary of State and the
+  Registrars of Voters for San Francisco, Alameda, San Mateo and Contra Costa
+  counties. They are reproduced here as public records. Candidate contact
+  email addresses have been redacted (see `tools/redact.py`).
+- Campaign-finance figures derive from SF Ethics (DataSF), Cal-Access
+  (CA SoS), the FEC, and NetFile — all public disclosure data.
+- Other organisations' endorsements in `site/data/endorsements.json` and
+  `site/data/picks.json`'s comparison columns are those organisations'
+  positions, cited to their own published guides. They are quoted for
+  comparison and remain theirs.
+- `site/css/{tokens,landing,subpage}.css` and `site/js/palette.js` are copied
+  from the congress_trader frontend (same author, MIT).
