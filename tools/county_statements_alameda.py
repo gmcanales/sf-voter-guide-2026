@@ -39,6 +39,7 @@ import unicodedata
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import redact  # noqa: E402  (needs the sys.path line above)
 from local_candidate_money import NICK  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -241,6 +242,12 @@ def main(pdf: str, first: int, last: int) -> None:
             out.setdefault(c["title"], {})[bn] = {k: st[k] for k in ("designation", "website", "paragraphs")} | {
                 "source": f"{URL}#page={p}"}
             n += 1
+    # Candidates often sign off with a personal address; drop those before
+    # anything reaches disk. See tools/redact.py for why.
+    n_mail = redact.count(out)
+    out = redact.redact(out)
+    if n_mail:
+        print(f"  redacted {n_mail} contact email(s) from statements")
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"wrote {OUT.relative_to(ROOT)}: {n} statements in {len(out)} contests")
     for u in unmatched:

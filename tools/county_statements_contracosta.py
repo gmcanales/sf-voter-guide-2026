@@ -22,6 +22,7 @@ import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import redact  # noqa: E402  (needs the sys.path line above)
 from county_contracosta import jsonp, API, EID, UA  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -113,6 +114,12 @@ def main() -> None:
                     out.setdefault(c["title"], {})[bn] = {"designation": st["designation"], "website": st["website"],
                                                           "paragraphs": st["paragraphs"], "source": url}
                 time.sleep(0.3)
+    # Candidates often sign off with a personal address; drop those before
+    # anything reaches disk. See tools/redact.py for why.
+    n_mail = redact.count(out)
+    out = redact.redact(out)
+    if n_mail:
+        print(f"  redacted {n_mail} contact email(s) from statements")
     OUT.write_text(json.dumps(out, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     n = sum(len(v) for v in out.values())
     print(f"wrote {OUT.relative_to(ROOT)}: {n} statements in {len(out)} contests")
